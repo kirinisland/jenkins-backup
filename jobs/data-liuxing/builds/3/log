@@ -1,0 +1,79 @@
+Started by upstream project "[8mha:////4A+bQWpgGeLrf62Kvp9R0kchXAV8l6qMSbpRKFffssHgAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP2UxJJE3aLSvLzUIn0A55yqqsYAAAA=[0mdata-runner" build number [8mha:////4LvMeDAAaPG3Qst2LkE0TRc/V0lfT+nqKy8cxuJ+i6j5AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6KYklibpFpXl5qUX6RgBjClQQxwAAAA==[0m2
+originally caused by:
+ Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/data-liuxing
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/datapipe.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/datapipe.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/datapipe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6c4ba6bc2c1aca3d28fa806ca0767e83ea586636 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6c4ba6bc2c1aca3d28fa806ca0767e83ea586636 # timeout=10
+Commit message: "updated api"
+ > git rev-list --no-walk 6c4ba6bc2c1aca3d28fa806ca0767e83ea586636 # timeout=10
+[data-liuxing] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5906325407185910433.sh
+++ date +%Y%m%d
++ date_str=20200306
++ echo 20200306
+20200306
++ echo 20200306
+20200306
++ python3 runner_qq.py --method search --query $'\346\265\201\350\241\214' --output-suffix liuxing --dump-raw 1 --dump-seg 0
+INFO:[DataPipeline]:Start crawling for query: 流行
+INFO:[DataPipeline]:Processing playlist page: 0, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 1, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 2, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 3, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 4, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 5, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 6, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 7, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 8, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 9, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 10, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 11, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 12, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 13, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 14, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 15, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 16, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 17, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 18, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 19, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 20, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 21, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 22, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 23, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 24, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 25, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 26, found 0 playlists
+INFO:[DataPipeline]:Total playlists found about topic: 流行: 1237
+INFO:[DataPipeline]:PlayList: [7256912512] 欧美&#124;&#32;流行节奏控 (0/1237) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7256920196] 欧美&#124;&#32;流行轻有氧 (1/1237) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7271056871] 华语流行&#32;&#124;&#32;陪你回家 (2/1237) has 58 songs.
+INFO:[DataPipeline]:PlayList: [7285342732] 华语流行&#124;与我无关 (3/1237) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7276584295] 华语流行&#124;&#32;下个路口见 (4/1237) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7297871790] 华语流行&#124;暗恋逃生口 (5/1237) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7280801712] 华语流行&#124;&#32;恋人未满 (6/1237) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7275663304] 华语流行&#124;你爱他/她 (7/1237) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7269552538] 华语流行&#124;&#32;暖心告白 (8/1237) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7266885004] 华语流行&#124;想念你 (9/1237) has 30 songs.
+INFO:[DataPipeline]:Sleep for: 169
+INFO:[DataPipeline]:PlayList: [7270492900] 华语流行&#124;&#32;苦甜参半 (10/1237) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7268194171] 华语流行&#124;甜到忧伤 (11/1237) has 29 songs.
+INFO:[DataPipeline]:PlayList: [2835124032] 欧美流行：歌荒患者的必备良药 (12/1237) has 50 songs.
+INFO:[DataPipeline]:PlayList: [3748694801] 2020抖音神曲❤️流行 (13/1237) has 367 songs.
+INFO:[DataPipeline]:PlayList: [7269379422] 欧美流行&#32;&#124;&#32;解压一起听 (14/1237) has 39 songs.
+INFO:[DataPipeline]:PlayList: [4265834987] 万能流行定律 (15/1237) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7258160908] 欧美流行&#124;温暖男声 (16/1237) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7428961315] 百首流行&#32;·&#32;00后麦霸速成宝典 (17/1237) has 100 songs.
+INFO:[DataPipeline]:PlayList: [7295800284] 欧美流行&#124;北欧女声 (18/1237) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7277949793] 华语流行&#124;越过山丘 (19/1237) has 22 songs.
+INFO:[DataPipeline]:Sleep for: 135
