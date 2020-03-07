@@ -43,3 +43,34 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 + git add jobs
++ git add workspace
+++ date
++ git commit -m 'Jenkins backup at Fri Mar  6 22:17:55 EST 2020'
+[master a06d84b] Jenkins backup at Fri Mar  6 22:17:55 EST 2020
+ Committer: System Administrator <root@VincentdeMac-mini.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 168 insertions(+)
+ create mode 100644 jobs/JenkinsBackUp/builds/1/build.xml
+ create mode 100644 jobs/JenkinsBackUp/builds/1/changelog.xml
+ create mode 100644 jobs/JenkinsBackUp/builds/1/log
+ create mode 100644 jobs/JenkinsBackUp/builds/2/changelog.xml
+ create mode 100644 jobs/JenkinsBackUp/builds/2/log
+ create mode 100644 jobs/JenkinsBackUp/builds/legacyIds
+ create mode 100644 jobs/JenkinsBackUp/builds/permalinks
+ create mode 100644 jobs/JenkinsBackUp/config.xml
+ create mode 100644 jobs/JenkinsBackUp/nextBuildNumber
++ git push origin HEAD:master
+To github.com:kirinisland/jenkins-backup.git
+   c51af3b..a06d84b  HEAD -> master
+Finished: SUCCESS

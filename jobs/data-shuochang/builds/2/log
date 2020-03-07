@@ -1,0 +1,124 @@
+Started by upstream project "[8mha:////4A+bQWpgGeLrf62Kvp9R0kchXAV8l6qMSbpRKFffssHgAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP2UxJJE3aLSvLzUIn0A55yqqsYAAAA=[0mdata-runner" build number [8mha:////4HQCA4knhyIdqMfGjt9l01EEIKToJYW1TWcwKRzOPzs4AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6KYklibpFpXl5qUX6JgBWrzf5xwAAAA==[0m4
+originally caused by:
+ Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/data-shuochang
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/datapipe.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/datapipe.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/datapipe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6c4ba6bc2c1aca3d28fa806ca0767e83ea586636 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6c4ba6bc2c1aca3d28fa806ca0767e83ea586636 # timeout=10
+Commit message: "updated api"
+ > git rev-list --no-walk 6c4ba6bc2c1aca3d28fa806ca0767e83ea586636 # timeout=10
+[data-shuochang] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins6796042639253000810.sh
++ python3 runner_qq.py --method search --query $'\350\257\264\345\224\261' --output-suffix shuochang --dump-raw 1 --dump-seg 0
+INFO:[DataPipeline]:Start crawling for query: 说唱
+INFO:[DataPipeline]:Processing playlist page: 0, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 1, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 2, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 3, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 4, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 5, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 6, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 7, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 8, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 9, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 10, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 11, found 43 playlists
+INFO:[DataPipeline]:Processing playlist page: 12, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 13, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 14, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 15, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 16, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 17, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 18, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 19, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 20, found 46 playlists
+INFO:[DataPipeline]:Processing playlist page: 21, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 22, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 23, found 46 playlists
+INFO:[DataPipeline]:Processing playlist page: 24, found 0 playlists
+INFO:[DataPipeline]:Total playlists found about topic: 说唱: 1170
+INFO:[DataPipeline]:PlayList: [7279190816] 中国新说唱 (0/1170) has 70 songs.
+INFO:[DataPipeline]:PlayList: [7269422312] 中文说唱制躁 (1/1170) has 51 songs.
+INFO:[DataPipeline]:PlayList: [2920356245] 华语说唱：现实无聊，不如一起听歌 (2/1170) has 41 songs.
+INFO:[DataPipeline]:PlayList: [6811565820] 韩国说唱集结地 (3/1170) has 98 songs.
+INFO:[DataPipeline]:PlayList: [7372561647] 喜庆说唱：过年贺岁来点新花样 (4/1170) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7419967962] 华语说唱&#32;·&#32;滑板少年致胜秘籍 (5/1170) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7060356620] 华语说唱&#32;&#124;&#32;嘻哈掀起的新浪潮 (6/1170) has 59 songs.
+INFO:[DataPipeline]:PlayList: [7044661378] 《中国新说唱》2019歌曲合集 (7/1170) has 141 songs.
+INFO:[DataPipeline]:PlayList: [7025601600] 让你小鹿乱撞的情歌说唱 (8/1170) has 65 songs.
+INFO:[DataPipeline]:PlayList: [6987554211] 周董说唱：独具一格、别有风味 (9/1170) has 40 songs.
+INFO:[DataPipeline]:Sleep for: 173
+INFO:[DataPipeline]:PlayList: [7374648354] 中文说唱&#32;·&#32;街头玩家致胜法则 (10/1170) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7222867700] 伤感的说唱，却越听越入迷 (11/1170) has 45 songs.
+INFO:[DataPipeline]:PlayList: [7185933510] 中文说唱&#32;·&#32;操纵Flow疯狂输出 (12/1170) has 25 songs.
+INFO:[DataPipeline]:PlayList: [5715718629] 以成语为歌名的华语说唱 (13/1170) has 49 songs.
+INFO:[DataPipeline]:PlayList: [7060355736] MC说唱&#32;&#124;&#32;终是庄周梦了蝶 (14/1170) has 46 songs.
+INFO:[DataPipeline]:PlayList: [3751500151] Trip跳：风格另类的说唱嘻哈 (15/1170) has 37 songs.
+INFO:[DataPipeline]:PlayList: [6918403156] 霓虹说唱大赏 (16/1170) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7060356633] Remix中文说唱&#32;&#124;&#32;精彩演绎不寻常 (17/1170) has 43 songs.
+INFO:[DataPipeline]:PlayList: [7060350187] 《中国新说唱》Rapper作品精选合集 (18/1170) has 57 songs.
+INFO:[DataPipeline]:PlayList: [7060356372] 酷酷的男孩子都喜欢这些说唱 (19/1170) has 46 songs.
+INFO:[DataPipeline]:Sleep for: 89
+INFO:[DataPipeline]:PlayList: [7060350128] MC说唱&#32;&#124;&#32;为你痴迷为你狂 (20/1170) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7060356367] 听不腻！帅气说唱加上温柔嗓音 (21/1170) has 45 songs.
+INFO:[DataPipeline]:PlayList: [7171030977] 新说唱核弹：这个Live有点炸！ (22/1170) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7252362363] 华语Rap&#32;·&#32;听热血般押韵说唱节奏 (23/1170) has 40 songs.
+INFO:[DataPipeline]:PlayList: [6927234768] 放轻松！赶走抑郁的随性说唱 (24/1170) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7215590809] 华语说唱：撩得你无法自拔 (25/1170) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7026731362] 华语说唱&#32;&#124;&#32;丧一点不好吗 (26/1170) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7337235510] 升级体验！合作说唱现场精选 (27/1170) has 43 songs.
+INFO:[DataPipeline]:PlayList: [7277887376] 欧美说唱&#124;&#32;气场全开 (28/1170) has 43 songs.
+INFO:[DataPipeline]:PlayList: [6986263276] 说唱风暴：妙语连珠的中文韵脚 (29/1170) has 44 songs.
+INFO:[DataPipeline]:Sleep for: 176
+INFO:[DataPipeline]:PlayList: [7344545629] 宅家太无聊？不如跟着说唱节奏燥 (30/1170) has 24 songs.
+INFO:[DataPipeline]:PlayList: [6967504715] 华语说唱&#32;·&#32;堵在路上也要酷 (31/1170) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7060359163] 嘻哈说唱：震撼心灵，注入灵魂&#126; (32/1170) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7456168049] 中文说唱&#32;·&#32;车厢氛围调节剂 (33/1170) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7199061409] 中国新说唱&#32;&#124;&#32;这些现场都很炸！ (34/1170) has 54 songs.
+INFO:[DataPipeline]:PlayList: [7307456649] 华语说唱&#32;·&#32;听Rapper谈情说爱 (35/1170) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7353867938] 爵士说唱&#32;&#124;&#32;乐柔如云，轻抚思绪 (36/1170) has 20 songs.
+INFO:[DataPipeline]:PlayList: [6999510998] 说唱&#32;·&#32;走路带风的中文Flow (37/1170) has 20 songs.
+INFO:[DataPipeline]:PlayList: [3756838699] 抖音热门的中文说唱歌曲 (38/1170) has 76 songs.
+INFO:[DataPipeline]:PlayList: [7095962471] 韩国说唱&#32;·&#32;Rap与抒情的完美融合 (39/1170) has 21 songs.
+INFO:[DataPipeline]:Sleep for: 76
+INFO:[DataPipeline]:PlayList: [7130484486] “丧”感说唱丨生活需要一点苦头 (40/1170) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7336118179] 柔板说唱系&#32;&#124;&#32;吉他还能这么玩 (41/1170) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7060353252] 中国新说唱live、歌手精选 (42/1170) has 58 songs.
+INFO:[DataPipeline]:PlayList: [7060355771] 情缘说唱&#32;&#124;&#32;梦里梦外都是你 (43/1170) has 51 songs.
+INFO:[DataPipeline]:PlayList: [7041659485] 韩系Flow&#32;·&#32;时尚潮男说唱时间 (44/1170) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7062571314] 华语说唱&#32;·&#32;轻踩油门掌控方向 (45/1170) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7222866927] 华语说唱&#32;&#124;&#32;下一个酷Boy就是你！ (46/1170) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7073314723] 中国风说唱&#32;·&#32;胸中正气塞天地 (47/1170) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7024569333] 说唱&#32;&#124;&#32;Rapper坐公交该听什么歌 (48/1170) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7370522529] 来段甜蜜说唱，恢复早起动力 (49/1170) has 30 songs.
+INFO:[DataPipeline]:Sleep for: 66
+INFO:[DataPipeline]:PlayList: [7060353917] 没在怕的，这些说唱真的强你好几倍 (50/1170) has 56 songs.
+INFO:[DataPipeline]:PlayList: [7187376395] Remix中文说唱&#32;&#124;&#32;你就是我的软肋 (51/1170) has 42 songs.
+INFO:[DataPipeline]:PlayList: [6802140934] “丧”气十足的磁性说唱 (52/1170) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7192923384] 旋律说唱&#32;&#124;&#32;高甜情歌暴击 (53/1170) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7025374641] 华语流行改编的说唱化学反应 (54/1170) has 43 songs.
+INFO:[DataPipeline]:PlayList: [7223615292] 都市嘻哈：慢节奏风格的说唱 (55/1170) has 45 songs.
+INFO:[DataPipeline]:PlayList: [7228612508] 国语说唱丨在这荒谬的世界犯愁 (56/1170) has 46 songs.
+INFO:[DataPipeline]:PlayList: [6990024304] 在旋律里撒N多糖的说唱 (57/1170) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7136756817] 名场面回归&#32;&#124;&#32;新说唱宝藏TIME (58/1170) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7337537641] 说唱Live：用我的声线去打破争辩 (59/1170) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 164
+INFO:[DataPipeline]:PlayList: [7197837488] 男生必学！表白必备的说唱甜味剂 (60/1170) has 27 songs.
+INFO:[DataPipeline]:PlayList: [6987592152] 大学宿舍音响外放的中文说唱&#32; (61/1170) has 152 songs.
+INFO:[DataPipeline]:PlayList: [6526325421] 歌名新奇的说唱自然不会差！ (62/1170) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7313829020] 国产说唱：跟我学一遍！来！ (63/1170) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7060354857] 韩式说唱&#32;&#124;&#32;学妹都超喜欢这些Rap (64/1170) has 55 songs.
+INFO:[DataPipeline]:PlayList: [7364085035] 无需多言，让说唱陪孤独流浪 (65/1170) has 25 songs.
+INFO:[DataPipeline]:PlayList: [6859827148] 国产说唱丨现实把我眼睛打湿 (66/1170) has 43 songs.
+INFO:[DataPipeline]:PlayList: [7049132881] 【欧美】磁性旋律说唱，迷幻的味道 (67/1170) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7060355946] 华语说唱&#32;&#124;&#32;根本停不下来的节奏 (68/1170) has 52 songs.

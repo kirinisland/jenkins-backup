@@ -1,0 +1,138 @@
+Started by upstream project "[8mha:////4A+bQWpgGeLrf62Kvp9R0kchXAV8l6qMSbpRKFffssHgAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP2UxJJE3aLSvLzUIn0A55yqqsYAAAA=[0mdata-runner" build number [8mha:////4HQCA4knhyIdqMfGjt9l01EEIKToJYW1TWcwKRzOPzs4AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6KYklibpFpXl5qUX6JgBWrzf5xwAAAA==[0m4
+originally caused by:
+ Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/data-zhongguofeng
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/datapipe.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/datapipe.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/datapipe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6c4ba6bc2c1aca3d28fa806ca0767e83ea586636 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6c4ba6bc2c1aca3d28fa806ca0767e83ea586636 # timeout=10
+Commit message: "updated api"
+ > git rev-list --no-walk 6c4ba6bc2c1aca3d28fa806ca0767e83ea586636 # timeout=10
+[data-zhongguofeng] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1929898422186942929.sh
++ python3 runner_qq.py --method search --query $'\344\270\255\345\233\275\351\243\216' --output-suffix zhongguofeng --dump-raw 1 --dump-seg 0
+INFO:[DataPipeline]:Start crawling for query: 中国风
+INFO:[DataPipeline]:Processing playlist page: 0, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 1, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 2, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 3, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 4, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 5, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 6, found 46 playlists
+INFO:[DataPipeline]:Processing playlist page: 7, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 8, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 9, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 10, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 11, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 12, found 42 playlists
+INFO:[DataPipeline]:Processing playlist page: 13, found 43 playlists
+INFO:[DataPipeline]:Processing playlist page: 14, found 46 playlists
+INFO:[DataPipeline]:Processing playlist page: 15, found 46 playlists
+INFO:[DataPipeline]:Processing playlist page: 16, found 43 playlists
+INFO:[DataPipeline]:Processing playlist page: 17, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 18, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 19, found 43 playlists
+INFO:[DataPipeline]:Processing playlist page: 20, found 45 playlists
+INFO:[DataPipeline]:Processing playlist page: 21, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 22, found 41 playlists
+INFO:[DataPipeline]:Processing playlist page: 23, found 42 playlists
+INFO:[DataPipeline]:Processing playlist page: 24, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 25, found 0 playlists
+INFO:[DataPipeline]:Total playlists found about topic: 中国风: 1131
+INFO:[DataPipeline]:PlayList: [4247108355] 影视剧里的中国风对唱 (0/1131) has 66 songs.
+INFO:[DataPipeline]:PlayList: [4247123729] 影视剧里的中国风男声 (1/1131) has 88 songs.
+INFO:[DataPipeline]:PlayList: [7199774015] 中国风&#32;&#124;&#32;仙侠电视剧歌曲盘点 (2/1131) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7328419661] 「中国风纯音」倚栏听风，如梦如醉 (3/1131) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7096063351] 影视剧中的中国风女声 (4/1131) has 94 songs.
+INFO:[DataPipeline]:PlayList: [6966299000] 影视歌曲中的中国风 (5/1131) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7081812527] 中国风&#32;&#124;&#32;经典影视大全 (6/1131) has 64 songs.
+INFO:[DataPipeline]:PlayList: [7440131804] 100首影视歌曲，领悟中国风韵味 (7/1131) has 100 songs.
+INFO:[DataPipeline]:PlayList: [7014439524] 中国风&#32;·&#32;何日君再来 (8/1131) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7166060330] 中国风代表作：一人一首经典曲 (9/1131) has 148 songs.
+INFO:[DataPipeline]:Sleep for: 67
+INFO:[DataPipeline]:PlayList: [6990664122] 抖音热播中国风音乐合集 (10/1131) has 24 songs.
+INFO:[DataPipeline]:PlayList: [3512676916] 中国风&#32;&#32;&#32;百转千回梦不断 (11/1131) has 15 songs.
+INFO:[DataPipeline]:PlayList: [6967276561] 抚琴煮茶，品一曲雅致中国风&#32; (12/1131) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7438237151] 中国风纯音&#32;·&#32;良辰好景虚设 (13/1131) has 25 songs.
+INFO:[DataPipeline]:PlayList: [6968595893] 独上兰舟，寻一曲悠悠中国风 (14/1131) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7233780688] 【中国风】宅家追古装剧必备 (15/1131) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7000774262] 中国风翻唱&#32;&#58;&#32;温润公子音 (16/1131) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7391629553] 论中国风，我只服方文山 (17/1131) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7371247029] 燃向中国风&#32;·&#32;天下风云出我辈 (18/1131) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7304079503] 中国风纯音&#32;·&#32;仙侠世界里的江湖 (19/1131) has 26 songs.
+INFO:[DataPipeline]:Sleep for: 100
+INFO:[DataPipeline]:PlayList: [7047529839] 侠客中国风&#32;·&#32;吟到恩仇心事涌 (20/1131) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7266932006] 中国风纯音：&#32;一曲笙歌恋玉箫 (21/1131) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7001045133] 中国风纯音丨告别垂钓时的焦虑症 (22/1131) has 34 songs.
+INFO:[DataPipeline]:PlayList: [6946825664] 中国风&#32;·&#32;落花片片随水流 (23/1131) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7010964453] 【中国风】妙手青丝花前绣 (24/1131) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7060359081] 超级虐心的中国风喊麦合集 (25/1131) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7071773405] 最美不过中国风，最好不过眼前人 (26/1131) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7024085381] 中国风&#32;&#124;&#32;松烟入墨，笔画江南 (27/1131) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7057140649] 中国风&#32;·&#32;月下寄相思 (28/1131) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7375102340] 2020年中国风新歌速递 (29/1131) has 38 songs.
+INFO:[DataPipeline]:Sleep for: 119
+INFO:[DataPipeline]:PlayList: [7127990282] 感时怀古情&#32;·&#32;小说改编影视中国风 (30/1131) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7255707078] 古装电视剧里的中国风纯音 (31/1131) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7014279840] 中国风&#32;·&#32;惟有饮者留其名 (32/1131) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7049782870] 似水柔情&#32;·&#32;女声翻唱中国风 (33/1131) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7108016227] 2019年中国风新歌精选集 (34/1131) has 288 songs.
+INFO:[DataPipeline]:PlayList: [7011437094] 中国风&#32;&#32;&#124;&#32;&#32;香港TVB经典武侠剧纯乐 (35/1131) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7021918213] 中国风民谣&#32;&#124;&#32;弹指间，千年逝 (36/1131) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7041353925] 中国风翻唱&#32;·&#32;徒此掬清芬 (37/1131) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7328432127] 中国风&#32;&#124;&#32;回荡在林间的灵动之音 (38/1131) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7100884559] 中国风&#32;&#58;&#32;一曲戏腔，唱尽繁华 (39/1131) has 23 songs.
+INFO:[DataPipeline]:Sleep for: 87
+INFO:[DataPipeline]:PlayList: [7011570567] 韵味中国风&#32;&#124;&#32;一曲长歌一世情 (40/1131) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7249316000] 似水流年&#32;·&#32;评论999&#43;中国风热歌 (41/1131) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7115250973] 三字中国风丨终牵绊，憔思花容颜 (42/1131) has 106 songs.
+INFO:[DataPipeline]:PlayList: [7285195605] 中国风纯音&#32;·&#32;运动助燃必备 (43/1131) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7445418603] 抒情中国风&#32;·&#32;故人情难相忘 (44/1131) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7346984845] 中国风韵律：静品灵动之音 (45/1131) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7060353277] 隐藏在流行曲中的中国风旋律 (46/1131) has 49 songs.
+INFO:[DataPipeline]:PlayList: [6997076434] 中国风韵律&#32;&#124;&#32;粤语印记 (47/1131) has 47 songs.
+INFO:[DataPipeline]:PlayList: [7107947155] 曲韵悠长&#32;·&#32;影视剧之中国风 (48/1131) has 27 songs.
+INFO:[DataPipeline]:PlayList: [6997748672] 中国风对唱&#58;&#32;有你相伴，遗世无憾 (49/1131) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 175
+INFO:[DataPipeline]:PlayList: [7192223383] 戏腔中国风：三分唱念七分作 (50/1131) has 38 songs.
+INFO:[DataPipeline]:PlayList: [7096063906] 【电影篇】20首中国风歌曲精选 (51/1131) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7049191147] 中国风男声&#32;&#124;&#32;言念君子，温其如玉 (52/1131) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7324484273] 中国风女声&#32;·&#32;一曲轻歌醉人心 (53/1131) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7326282815] 心醉前奏，一秒沉沦的中国风 (54/1131) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7346984894] 唯美中国风：青山流水间的灵音 (55/1131) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7084457729] 唯美中国风&#32;·&#32;赠之以芍药 (56/1131) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7440022607] 中国风一曲&#32;·&#32;不知今夜几人愁 (57/1131) has 26 songs.
+INFO:[DataPipeline]:PlayList: [6937834398] 伤感中国风&#32;·&#32;不曾念曲中人 (58/1131) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7296644750] 中国风摇滚&#32;·&#32;沧海一声笑 (59/1131) has 31 songs.
+INFO:[DataPipeline]:Sleep for: 97
+INFO:[DataPipeline]:PlayList: [7073314723] 中国风说唱&#32;·&#32;胸中正气塞天地 (60/1131) has 33 songs.
+INFO:[DataPipeline]:PlayList: [1357685226] 柔情中国风&#32;·&#32;愿以百年挽朝夕 (61/1131) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7356735009] 中国风纯音&#32;·&#32;何处繁华笙歌落 (62/1131) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7049231700] 中国风对唱&#32;&#124;&#32;山有木兮卿有意 (63/1131) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7446138259] 中国风民谣&#32;·&#32;一缕诗情画意 (64/1131) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7098027932] 中国风影视剧【男声篇】 (65/1131) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7094726046] 2019年7月中国风新歌精选 (66/1131) has 46 songs.
+INFO:[DataPipeline]:PlayList: [7224220262] 古装穿越&#32;·&#32;叱咤风云的中国风 (67/1131) has 22 songs.
+INFO:[DataPipeline]:PlayList: [6966249707] 燃系中国风：动乱时分，战歌起！ (68/1131) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7331482573] 中国风对唱&#32;·&#32;金风玉露一相逢 (69/1131) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 70
+INFO:[DataPipeline]:PlayList: [7256698205] 青春记忆&#32;·&#32;国语乐坛的中国风 (70/1131) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7010281670] 中国风&#32;·&#32;愿我如星君如月 (71/1131) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7107763754] 诗词中国风&#32;·&#32;此曲只应天上有 (72/1131) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7318947219] 中国风丨梦破朝夕，勾乱了思绪 (73/1131) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7228259361] 中国风电子&#32;·&#32;绝色纯音幻境 (74/1131) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7276694795] 最美中国风，听曲醉人心 (75/1131) has 39 songs.
+INFO:[DataPipeline]:PlayList: [7096700090] 中国风&#32;&#58;&#32;时光再荏苒，也凝成琥珀 (76/1131) has 19 songs.
+INFO:[DataPipeline]:PlayList: [3851787501] 中国风&#32;·&#32;快意恩仇江湖事 (77/1131) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7343373841] 奇谈异闻&#32;·&#32;中国风里的志怪传说 (78/1131) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7285182262] 催眠必备&#32;·&#32;古装里的中国风纯音 (79/1131) has 25 songs.
+INFO:[DataPipeline]:Sleep for: 70

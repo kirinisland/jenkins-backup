@@ -1,0 +1,140 @@
+Started by upstream project "[8mha:////4A+bQWpgGeLrf62Kvp9R0kchXAV8l6qMSbpRKFffssHgAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP2UxJJE3aLSvLzUIn0A55yqqsYAAAA=[0mdata-runner" build number [8mha:////4HQCA4knhyIdqMfGjt9l01EEIKToJYW1TWcwKRzOPzs4AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6KYklibpFpXl5qUX6JgBWrzf5xwAAAA==[0m4
+originally caused by:
+ Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/data-minyao
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/datapipe.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/datapipe.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/datapipe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6c4ba6bc2c1aca3d28fa806ca0767e83ea586636 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6c4ba6bc2c1aca3d28fa806ca0767e83ea586636 # timeout=10
+Commit message: "updated api"
+ > git rev-list --no-walk 6c4ba6bc2c1aca3d28fa806ca0767e83ea586636 # timeout=10
+[data-minyao] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins330193113675976754.sh
++ python3 runner_qq.py --method search --query $'\346\260\221\350\260\243' --output-suffix minyao --dump-raw 1 --dump-seg 0
+INFO:[DataPipeline]:Start crawling for query: 民谣
+INFO:[DataPipeline]:Processing playlist page: 0, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 1, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 2, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 3, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 4, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 5, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 6, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 7, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 8, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 9, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 10, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 11, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 12, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 13, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 14, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 15, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 16, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 17, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 18, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 19, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 20, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 21, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 22, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 23, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 24, found 16 playlists
+INFO:[DataPipeline]:Processing playlist page: 25, found 6 playlists
+INFO:[DataPipeline]:Processing playlist page: 26, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 27, found 44 playlists
+INFO:[DataPipeline]:Processing playlist page: 28, found 39 playlists
+INFO:[DataPipeline]:Processing playlist page: 29, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 30, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 31, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 32, found 41 playlists
+INFO:[DataPipeline]:Processing playlist page: 33, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 34, found 42 playlists
+INFO:[DataPipeline]:Processing playlist page: 35, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 36, found 0 playlists
+INFO:[DataPipeline]:Total playlists found about topic: 民谣: 1554
+INFO:[DataPipeline]:PlayList: [7269560843] 华语&#124;&#32;民谣在路上 (0/1554) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7280726307] 华语&#32;&#124;&#32;暖心民谣 (1/1554) has 26 songs.
+INFO:[DataPipeline]:PlayList: [5109299040] 民谣诗酒铺 (2/1554) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7344474241] 民谣男声&#32;·&#32;屏蔽纷纷扰扰 (3/1554) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7275444654] 华语民谣&#124;&#32;理想志 (4/1554) has 23 songs.
+INFO:[DataPipeline]:PlayList: [6947366186] 晚班归家途中的暖心民谣 (5/1554) has 46 songs.
+INFO:[DataPipeline]:PlayList: [7023269050] 民谣&#32;·&#32;一人独享安静时刻 (6/1554) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7270854675] 华语民谣&#32;&#124;&#32;或许你也听过 (7/1554) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7365352274] 民谣男声：唱给你心中的那个女孩 (8/1554) has 20 songs.
+INFO:[DataPipeline]:PlayList: [6967377538] 清新民谣&#32;·&#32;让夏日不再燥热 (9/1554) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 68
+INFO:[DataPipeline]:PlayList: [3772360534] 伤感民谣：姑娘我想你，你可知道 (10/1554) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7026150751] 民谣&#32;&#124;&#32;没有你&#32;故事哪有结尾 (11/1554) has 45 songs.
+INFO:[DataPipeline]:PlayList: [6814158548] 暖心民谣：融化生活中的忧伤 (12/1554) has 32 songs.
+INFO:[DataPipeline]:PlayList: [861218535] 400位华语民谣歌手，一人一首入耳曲 (13/1554) has 400 songs.
+INFO:[DataPipeline]:PlayList: [7064172394] 民谣&#32;·&#32;四海为家，各安天下 (14/1554) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7278376187] 华语民谣&#32;&#124;&#32;悠闲时光 (15/1554) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7270869375] 华语民谣&#32;&#124;&#32;低吟浅唱 (16/1554) has 28 songs.
+INFO:[DataPipeline]:PlayList: [6985347879] 华语民谣：故事和你，如酒浓烈 (17/1554) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7043128804] &#32;民谣博物馆：诗人的轻快空间 (18/1554) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7052176045] 华语民谣&#32;·&#32;安抚疲惫的心 (19/1554) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 135
+INFO:[DataPipeline]:PlayList: [7217122000] 温柔民谣：直抵内心柔软处 (20/1554) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7285148674] 民谣&#32;·&#32;和你书写平淡爱情 (21/1554) has 20 songs.
+INFO:[DataPipeline]:PlayList: [6638891608] 清新民谣&#32;：夏日树荫里的惬意 (22/1554) has 43 songs.
+INFO:[DataPipeline]:PlayList: [7271047439] 华语民谣&#32;&#124;&#32;日光正好 (23/1554) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7190702514] 民谣故事：想把我唱给你听 (24/1554) has 20 songs.
+INFO:[DataPipeline]:PlayList: [3722109963] 冷门民谣：与“众”不同&#32; (25/1554) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7270872159] 华语民谣&#32;&#124;&#32;青葱记忆 (26/1554) has 27 songs.
+INFO:[DataPipeline]:PlayList: [6928423659] 恋恋民谣&#32;&#124;&#32;轻拨琴弦，说我爱你 (27/1554) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7278384968] 民谣&#32;&#124;&#32;晒个太阳暖洋洋 (28/1554) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7271051209] 华语民谣&#32;&#124;&#32;回家路上 (29/1554) has 27 songs.
+INFO:[DataPipeline]:Sleep for: 163
+INFO:[DataPipeline]:PlayList: [6948765328] 华语民谣：藏在故事里的姑娘 (30/1554) has 78 songs.
+INFO:[DataPipeline]:PlayList: [7270870842] 华语民谣&#32;&#124;&#32;可爱的你 (31/1554) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7265381810] 欧美民谣，远离喧嚣的静谧小镇 (32/1554) has 21 songs.
+INFO:[DataPipeline]:PlayList: [4152430919] 欧美随记&#32;•&#32;民谣里的清新小调 (33/1554) has 38 songs.
+INFO:[DataPipeline]:PlayList: [7271049341] 华语民谣&#32;&#124;&#32;且听风吟 (34/1554) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7252361810] 民谣丨独自听遍人间故事 (35/1554) has 38 songs.
+INFO:[DataPipeline]:PlayList: [6929880835] 民谣纪念册&#32;&#58;&#32;春暖花开，思念成海 (36/1554) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7189426304] 五味杂陈：总有一首民谣是解药 (37/1554) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7075723697] 民谣不是陈词滥调，只是故事发了酵 (38/1554) has 52 songs.
+INFO:[DataPipeline]:PlayList: [7074538435] 深情民谣丨暖阳温柔似君心 (39/1554) has 37 songs.
+INFO:[DataPipeline]:Sleep for: 77
+INFO:[DataPipeline]:PlayList: [6957903200] 轻快民谣&#32;·&#32;草莓味小情歌 (40/1554) has 22 songs.
+INFO:[DataPipeline]:PlayList: [6823223070] 达人周末&#32;&#124;&#32;适合踏青听的华语民谣 (41/1554) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7228612607] 一首民谣，逃离偌大的城市 (42/1554) has 39 songs.
+INFO:[DataPipeline]:PlayList: [6882933524] 静心民谣：用温暖告别忧伤 (43/1554) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7072786380] 舒心民谣：减燥的清凉味道 (44/1554) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7270385730] 华语民谣&#124;&#32;在异乡 (45/1554) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7097547552] 治愈民谣，闪烁在心底的萤火 (46/1554) has 25 songs.
+INFO:[DataPipeline]:PlayList: [6917207230] 佛系民谣&#32;：闭眼看世界 (47/1554) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7024582292] 静心民谣：夏日清凉专享 (48/1554) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7004322047] 微醺烟嗓民谣&#32;&#124;&#32;听到醉时方解忧 (49/1554) has 25 songs.
+INFO:[DataPipeline]:Sleep for: 180
+INFO:[DataPipeline]:PlayList: [7068094876] 民谣：十里春风，不及你扣弦一语 (50/1554) has 46 songs.
+INFO:[DataPipeline]:PlayList: [7021918213] 中国风民谣&#32;&#124;&#32;弹指间，千年逝 (51/1554) has 28 songs.
+INFO:[DataPipeline]:PlayList: [6987887236] 心酸民谣｜孤独诗人颠簸故事 (52/1554) has 39 songs.
+INFO:[DataPipeline]:PlayList: [6947819714] 睡前民谣&#32;·&#32;享受夜晚的宁谧 (53/1554) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7222869273] 小众民谣&#32;&#124;&#32;生活最初的模样 (54/1554) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7038182843] 民谣丨唱生活本来的样子 (55/1554) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7086641073] 睡前小曲&#32;·&#32;苦味民谣伴你入梦 (56/1554) has 20 songs.
+INFO:[DataPipeline]:PlayList: [6964018684] 茶凉可续&#32;·&#32;寄于民谣中的孤独 (57/1554) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7047576172] 民谣：未必惊艳，一定走心 (58/1554) has 47 songs.
+INFO:[DataPipeline]:PlayList: [7276455197] 华语民谣&#124;&#32;枕边随想 (59/1554) has 21 songs.
+INFO:[DataPipeline]:Sleep for: 76
+INFO:[DataPipeline]:PlayList: [6928005649] 吟游诗人&#32;&#124;&#32;风中颂唱异国民谣&#32; (60/1554) has 26 songs.
+INFO:[DataPipeline]:PlayList: [6911101421] 华语民谣&#32;&#58;&#32;把名字记述在歌里 (61/1554) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7038772310] 小资情调&#32;·&#32;咖啡馆静心民谣 (62/1554) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7094416356] 暖心民谣&#32;&#58;&#32;这一生关于你的风景 (63/1554) has 19 songs.
+INFO:[DataPipeline]:PlayList: [813783126] 听了这些歌爱上了民谣 (64/1554) has 100 songs.
+INFO:[DataPipeline]:PlayList: [4227252301] 适合在移动K房里唱的华语民谣 (65/1554) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7019488378] 民谣情信&#32;&#58;&#32;予你手心的温暖 (66/1554) has 28 songs.
+INFO:[DataPipeline]:PlayList: [6998129452] 未实现的梦想，都谱成了民谣 (67/1554) has 35 songs.
+INFO:[DataPipeline]:PlayList: [6915247651] 苦涩民谣&#32;•&#32;曾经人约黄昏 (68/1554) has 22 songs.
+INFO:[DataPipeline]:PlayList: [3762511678] 「抖音」抖友都在听的热门华语民谣 (69/1554) has 173 songs.
+INFO:[DataPipeline]:Sleep for: 143
+INFO:[DataPipeline]:PlayList: [2370564757] 「民谣」是毒药，也是良药 (70/1554) has 99 songs.
+INFO:[DataPipeline]:PlayList: [2058943165] 民谣集：20岁时变成了一个用故事下酒的人 (71/1554) has 109 songs.
