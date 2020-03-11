@@ -1,7 +1,7 @@
 Started by timer
 Running as SYSTEM
 Building in workspace /var/root/.jenkins/workspace/JenkinsBackUp
-[JenkinsBackUp] $ /bin/bash /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3086558205297188548.sh
+[JenkinsBackUp] $ /bin/bash /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1384897864927686715.sh
 + '[' -e /var/root/.jenkins/.git/index.lock ']'
 + cd /var/root/.jenkins/
 + git status
@@ -13,9 +13,15 @@ Changes not staged for commit:
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   config.xml
-	modified:   jobs/JenkinsBackUp/builds/5/log
+	modified:   jobs/JenkinsBackUp/builds/6/log
 	modified:   jobs/JenkinsBackUp/builds/permalinks
 	modified:   jobs/JenkinsBackUp/nextBuildNumber
+	modified:   jobs/data-mover/builds/permalinks
+	modified:   jobs/data-mover/nextBuildNumber
+	modified:   jobs/data-runner/config.xml
+	modified:   jobs/data-shige/builds/permalinks
+	modified:   jobs/data-shige/config.xml
+	modified:   jobs/data-shige/nextBuildNumber
 	modified:   jobs/expirelyric/builds/permalinks
 	modified:   jobs/expirelyric/nextBuildNumber
 
@@ -46,10 +52,14 @@ Untracked files:
 	jenkins.model.JenkinsLocationConfiguration.xml
 	jenkins.security.ResourceDomainConfiguration.xml
 	jenkins.telemetry.Correlator.xml
-	jobs/JenkinsBackUp/builds/5/build.xml
-	jobs/JenkinsBackUp/builds/6/
-	jobs/data-shige/
-	jobs/expirelyric/builds/5/
+	jobs/JenkinsBackUp/builds/6/build.xml
+	jobs/JenkinsBackUp/builds/7/
+	jobs/data-mover/builds/11/
+	jobs/data-shige/builds/1/
+	jobs/data-shige/builds/2/
+	jobs/data-shige/builds/3/
+	jobs/data-shige/builds/4/
+	jobs/expirelyric/builds/6/
 	logs/
 	nodeMonitors.xml
 	org.jenkins.plugins.lockableresources.LockableResourcesManager.xml
@@ -68,38 +78,7 @@ Untracked files:
 	updates/
 	users/
 	war/
+	workspace/data-shige/
 
 no changes added to commit (use "git add" and/or "git commit -a")
 + git add jobs
-+ git add workspace
-++ date
-+ git commit -m 'Jenkins backup at Tue Mar 10 14:17:09 EDT 2020'
-[master 75f1c75] Jenkins backup at Tue Mar 10 14:17:09 EDT 2020
- Committer: System Administrator <root@VincentdeMac-mini.local>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly. Run the
-following command and follow the instructions in your editor to edit
-your configuration file:
-
-    git config --global --edit
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 15 files changed, 335 insertions(+), 8 deletions(-)
- create mode 100644 jobs/JenkinsBackUp/builds/5/build.xml
- create mode 100644 jobs/JenkinsBackUp/builds/6/changelog.xml
- create mode 100644 jobs/JenkinsBackUp/builds/6/log
- create mode 100644 jobs/data-shige/builds/legacyIds
- create mode 100644 jobs/data-shige/builds/permalinks
- create mode 100644 jobs/data-shige/config.xml
- create mode 100644 jobs/data-shige/nextBuildNumber
- create mode 100644 jobs/expirelyric/builds/5/build.xml
- create mode 100644 jobs/expirelyric/builds/5/changelog.xml
- create mode 100644 jobs/expirelyric/builds/5/log
-+ git push origin HEAD:master
-To github.com:kirinisland/jenkins-backup.git
-   b926419..75f1c75  HEAD -> master
-Finished: SUCCESS
