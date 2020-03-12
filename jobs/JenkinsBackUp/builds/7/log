@@ -82,3 +82,60 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 + git add jobs
++ git add workspace
+warning: adding embedded git repository: workspace/data-shige
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> workspace/data-shige
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached workspace/data-shige
+hint: 
+hint: See "git help submodule" for more information.
+++ date
++ git commit -m 'Jenkins backup at Wed Mar 11 14:17:11 EDT 2020'
+[master 37c5af6] Jenkins backup at Wed Mar 11 14:17:11 EDT 2020
+ Committer: System Administrator <root@VincentdeMac-mini.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 32 files changed, 1604 insertions(+), 22 deletions(-)
+ create mode 100644 jobs/JenkinsBackUp/builds/6/build.xml
+ create mode 100644 jobs/JenkinsBackUp/builds/7/changelog.xml
+ create mode 100644 jobs/JenkinsBackUp/builds/7/log
+ create mode 100644 jobs/data-mover/builds/11/build.xml
+ create mode 100644 jobs/data-mover/builds/11/changelog.xml
+ create mode 100644 jobs/data-mover/builds/11/log
+ create mode 100644 jobs/data-shige/builds/1/build.xml
+ create mode 100644 jobs/data-shige/builds/1/changelog.xml
+ create mode 100644 jobs/data-shige/builds/1/log
+ create mode 100644 jobs/data-shige/builds/2/build.xml
+ create mode 100644 jobs/data-shige/builds/2/log
+ create mode 100644 jobs/data-shige/builds/3/build.xml
+ create mode 100644 jobs/data-shige/builds/3/changelog.xml
+ create mode 100644 jobs/data-shige/builds/3/log
+ create mode 100644 jobs/data-shige/builds/4/build.xml
+ create mode 100644 jobs/data-shige/builds/4/changelog.xml
+ create mode 100644 jobs/data-shige/builds/4/log
+ create mode 100644 jobs/expirelyric/builds/6/build.xml
+ create mode 100644 jobs/expirelyric/builds/6/changelog.xml
+ create mode 100644 jobs/expirelyric/builds/6/log
+ create mode 160000 workspace/data-shige
++ git push origin HEAD:master
+To github.com:kirinisland/jenkins-backup.git
+   75f1c75..37c5af6  HEAD -> master
+Finished: SUCCESS
