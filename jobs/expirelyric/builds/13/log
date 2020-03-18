@@ -1,0 +1,47 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9e89cdd39c93ef21634a9fcaf193e816a93608cc (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9e89cdd39c93ef21634a9fcaf193e816a93608cc # timeout=10
+Commit message: "auto training script"
+ > git rev-list --no-walk 9e89cdd39c93ef21634a9fcaf193e816a93608cc # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3650571653782474603.sh
++ python3 jobs/expirelyric.py --count 15
+('84d65ce7cb', '2020-03-13 00:36:52', '我想失眠一次\n在凌晨十二点二十一分\n孤寂的夜里\n还有梦里的灯\n都融进我逝去的浮生\n')
+('9be4883be9', '2020-03-13 00:43:59', '你是我的阳光\n是我的幻想\n也是我的悲伤')
+('87f330a5d1', '2020-03-13 09:41:56', '每天都在考虑下一顿哪里找\n给大家展示着我的花技巧\n掌控着力道 像嗑了秘药\n房间里面都是血腥的味道\n看着情敌我漏出了阴险的微笑\n我劝着自己会有更好的')
+('faa5767694', '2020-03-13 09:58:23', '江边石板路\n我雨里漫步\n酒瓶已空空\n心中还未从容\n雨里泪下\n终究没有她')
+('e243b8a8d2', '2020-03-13 12:10:28', '我还想你\n在漆黑的夜里\n在无边的梦里')
+('7969bbc266', '2020-03-13 18:54:50', '一叶,孤舟远航\n柳叶,遮住皎白的月光\n凭栏眺望,玉宇琼楼外的远方\n一束月光,洒落满头白发\n缕缕槐花,装饰战甲\n一匹白马,手指一杆银枪')
+('691bba8cf5', '2020-03-14 01:09:32', '又不是小孩\n你应该明白\n如果不爱 请不要伤害\n别把人家的真心出卖\n想来就来 想走就走\n你活得可真痛快')
+('331446bd3e', '2020-03-14 16:17:46', '再听得琴声\n见此不见人\n芳邻桂花谢\n邻人思旧情 \n青春不可再\n眇眇春风见')
+('001ac97a91', '2020-03-14 19:01:44', '蛋挞加芝士不会拉丝\n海豚有不成群的那只\n明天还是土拨鼠之日\n听不到那只鲸的赫兹')
+('35f6e1f416', '2020-03-14 19:30:44', '刚出炉的冷吃兔色泽鲜亮\n忍住了没有打开酒缸\n第一口唇齿留香\n第二口忘却所有悲伤\n第三口辣红了我迷人的脸庞\n啊，我想起了吃葱油饼的姑娘')
+('32badff991', '2020-03-15 12:03:46', '点燃一支烟\n思念如烟雾缠绕指尖\n缓缓闭上眼\n无法释怀你在的时间\n你像烟雾飘散\n这一刻伤感')
+('4bd8a0ba80', '2020-03-15 17:47:43', '想带你去看世间繁华  \n跟你说遍所有的土味情话 \n然后带你去看全世界最美的烟花\n那年在窗前写下这样的想法\n什么时候能实现现在真的无法解答\n原谅我嘴笨不会表达 听着窗外雨水嘀嗒')
+('93aa815acd', '2020-03-16 09:34:21', '受够自己无止尽的卑微\n爱情是由两个人去捍卫\n想要再次为你绑上马尾\n你永远是我心里的那位')
+('aa6a852f38', '2020-03-16 18:40:06', '一个人会有多少心事\n关乎精神与心智\n不只是表演的矜持\n白天作为掩饰\n深夜多少次将纸巾浸湿\n时至今日 有谁知我今时')
+('d829e5d2b4', '2020-03-16 23:05:19', '它逃离了牢笼飞向了高空\n他被感情操控收敛了骄纵\n让时间和谎言按耐住躁动\n相识相知但终究不会交融')
+('63688f8aa9', '2020-03-17 09:54:46', '窗外正下着小雨，我哼着我的小曲\n不理会人间闹剧，因为我心中有你\n我把我心交予，希望你放进心底\n如果你非要忘记，我也会忍住哭涕')
+('a9a615a361', '2020-03-17 10:41:33', '那一天我们联系上了\n曾经的欢声笑语又一次出现在电话的另一边\n追忆时光感叹岁月\n有很多话都想即刻倾诉\n\n过去的二十多年你过得还好吗？')
+('3ff03dcd41', '2020-03-17 21:33:52', '还要多久才能感受你的呼吸\n还要多久才能抱住你的身体\n就让我进入你的梦里\n带你把不开心给忘记\n再顺手送你一些甜蜜')
+现有精选微词 18首.
+> 超过 15 首精选微词, 将下架如下微词:
+('84d65ce7cb', '2020-03-13 00:36:52', '我想失眠一次\n在凌晨十二点二十一分\n孤寂的夜里\n还有梦里的灯\n都融进我逝去的浮生\n')
+{"updatedAt":"2020-03-18 07:14:30"}
+('9be4883be9', '2020-03-13 00:43:59', '你是我的阳光\n是我的幻想\n也是我的悲伤')
+{"updatedAt":"2020-03-18 07:14:31"}
+('87f330a5d1', '2020-03-13 09:41:56', '每天都在考虑下一顿哪里找\n给大家展示着我的花技巧\n掌控着力道 像嗑了秘药\n房间里面都是血腥的味道\n看着情敌我漏出了阴险的微笑\n我劝着自己会有更好的')
+{"updatedAt":"2020-03-18 07:14:32"}
+Finished: SUCCESS
