@@ -73,3 +73,72 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 + git add jobs
++ git add workspace
+warning: adding embedded git repository: workspace/hot_user
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> workspace/hot_user
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached workspace/hot_user
+hint: 
+hint: See "git help submodule" for more information.
+++ date
++ git commit -m 'Jenkins backup at Fri Mar 20 14:17:33 EDT 2020'
+[master b3bd8bb] Jenkins backup at Fri Mar 20 14:17:33 EDT 2020
+ Committer: System Administrator <root@VincentdeMac-mini.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 38 files changed, 658 insertions(+), 8 deletions(-)
+ create mode 100644 jobs/JenkinsBackUp/builds/15/build.xml
+ create mode 100644 jobs/JenkinsBackUp/builds/16/changelog.xml
+ create mode 100644 jobs/JenkinsBackUp/builds/16/log
+ create mode 100644 jobs/expirelyric/builds/15/build.xml
+ create mode 100644 jobs/expirelyric/builds/15/changelog.xml
+ create mode 100644 jobs/expirelyric/builds/15/log
+ create mode 100644 jobs/hot_user/builds/1/build.xml
+ create mode 100644 jobs/hot_user/builds/1/changelog.xml
+ create mode 100644 jobs/hot_user/builds/1/log
+ create mode 100644 jobs/hot_user/builds/legacyIds
+ create mode 100644 jobs/hot_user/builds/permalinks
+ create mode 100644 jobs/hot_user/config.xml
+ create mode 100644 jobs/hot_user/nextBuildNumber
+ create mode 100644 jobs/model_runner/builds/1/build.xml
+ create mode 100644 jobs/model_runner/builds/1/changelog.xml
+ create mode 100644 jobs/model_runner/builds/1/log
+ create mode 100644 jobs/model_runner/builds/2/build.xml
+ create mode 100644 jobs/model_runner/builds/2/changelog.xml
+ create mode 100644 jobs/model_runner/builds/2/log
+ create mode 100644 jobs/model_runner/builds/3/build.xml
+ create mode 100644 jobs/model_runner/builds/3/changelog.xml
+ create mode 100644 jobs/model_runner/builds/3/log
+ create mode 100644 jobs/model_runner/builds/4/build.xml
+ create mode 100644 jobs/model_runner/builds/4/changelog.xml
+ create mode 100644 jobs/model_runner/builds/4/log
+ create mode 100644 jobs/model_runner/builds/5/build.xml
+ create mode 100644 jobs/model_runner/builds/5/changelog.xml
+ create mode 100644 jobs/model_runner/builds/5/log
+ create mode 100644 jobs/model_runner/builds/legacyIds
+ create mode 100644 jobs/model_runner/builds/permalinks
+ create mode 100644 jobs/model_runner/config.xml
+ create mode 100644 jobs/model_runner/nextBuildNumber
+ create mode 160000 workspace/hot_user
++ git push origin HEAD:master
+To github.com:kirinisland/jenkins-backup.git
+   1172d44..b3bd8bb  HEAD -> master
+Finished: SUCCESS
