@@ -1,0 +1,47 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 49077f5e57d92eaeb3f4fb3c8d5df199fa68e17a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 49077f5e57d92eaeb3f4fb3c8d5df199fa68e17a # timeout=10
+Commit message: "hot user job"
+ > git rev-list --no-walk 49077f5e57d92eaeb3f4fb3c8d5df199fa68e17a # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins4224729054035226913.sh
++ python3 jobs/expirelyric.py --count 15
+('910ee0e994', '2020-03-19 11:32:05', '是一个可有可无的存在\n无人记得她落寞地离开\n花朵是否还会在此盛开\n只是一粒宇宙中的尘埃\n不愿说破自己的无奈\n存在本就是一个悲哀')
+('819012f8e5', '2020-03-19 16:45:10', '最后把所有功绩 都拿去认证\n等到今年的冬季 为兄弟分成\n再将一切的攻击招数 神机妙术 凶器套路 彻底消除 \n等着家人为我 振臂高呼')
+('c87f50b5d5', '2020-03-19 19:19:43', '天空再一次把身体出卖给星星\n生命本身就是一次彗星\n我们注定会沿着\n轨迹老去\n不留下一点一滴的痕迹')
+('7b09bf3b7f', '2020-03-19 22:04:17', '如果以后我要做首歌 那一定是你帮我唱hook\n我想见你就现在 来我房里创作解锁 我们在 一起 一起给生活些惊喜 一起努力 一起经历\n明天会带你去海边上里看日落\n我在深夜听歌\n点头找feel\n还是期待盼望早晨能把你抱住')
+('27dbe046ba', '2020-03-20 00:34:58', '随便写点东西\n慢慢放松身体\n明天还需努力\n不能轻易放弃')
+('d0b61d15b8', '2020-03-20 03:24:02', '置身无悔的年纪    却生活的这般无力\n拥抱梦想的自己    终被现实慢慢耗尽\n在无尽的黑夜里    终究还是无能为力\n就算多么卑躬屈膝    却换不来一丝怜悯\n就算多么满怀憧憬    却渐渐偏离了预期')
+('bd4455f3f1', '2020-03-20 08:46:28', '所谓爱情\n不过瞬息而已\n所以人们说多了就会腻\n我还在努力\n我不想放弃\n是你压的我无法呼吸')
+('f724299463', '2020-03-20 10:06:55', "嘿～You're a bad girl～\n独白：这是你第一次和我说这些 \nRap：你说你以前也很听话\n嘲笑和伤害让人害怕 让你不能对着她说出心里话\n渴望得到自由和长大 可长大的前提就是你得放下\n那天回到家 看到躺在桌子上的Diary")
+('b3d0480d41', '2020-03-20 21:33:13', '有人靠扮演小丑的角色  隐藏对深夜的恐惧\n有人以为自己就是邪恶  其实在期盼着重遇\n有人坚信着自己的决策  殊不知被当做工具  \n有人明明是开膛手杰克  却迷恋灯红和酒绿')
+('0b82d4c659', '2020-03-20 21:34:34', '说什么一起步入云端之中\n抬头却看见你眼里闪过朦胧\n可我的心还在为你跳动\n就这样把我全部掏空')
+('8aaf9e918f', '2020-03-20 23:30:12', '旅人一路去长安\n此生恐怕不归帆\n一壶浊酒敬荒凉\n便是无情也断肠\n半生皆是赶路人\n不问归期问星尘')
+('a93c57b78f', '2020-03-21 00:17:59', '眼眶红红 从床上爬起\n要问我为什么 那还不是经常想起你\n坐直身体戴上耳机 随便播一曲\n听着突然想起这是你最喜欢的歌曲\n随后又接着回忆起了过去\n睁开眼睛才发现你已离去窗外下着暴雨')
+('d5bb52e94e', '2020-03-21 04:01:43', '我今年我18岁从小就有个梦想\n一直在努力追寻的路上可惜还是大梦一场\n每天四溢的阳光照亮我的梦想\n所经历的悲伤感觉却一直在身旁\n我和你说过我的梦想是在太多\n只能放在我一边的角落')
+('94f9c23259', '2020-03-21 09:12:21', '一直Fantasy   一直幻想自己能够不断赚取Money\n一直Fantasy  一直幻想自己能够开上法 拉利\n我一直沉醉在我的梦 里\n可现实一切把我给冲 击\n我多么想要拽回自己身体\n告诉我不是Lonely')
+('89c5a9ad67', '2020-03-22 10:36:47', '对于别人的同意\n不及你OK的温馨\n对于别人的讽刺\n不及你可爱的啧\n在冰冷的屏幕前\n谢谢你带来了温暖')
+('5835bba4cc', '2020-03-22 11:45:39', '有着同样的韵脚 \n却找不到心跳  \n每天默默祈祷\n只为转身遇到\n好吧   是我投机取巧')
+('1815b3dff8', '2020-03-22 18:42:53', '温柔 曾是你挽回爱情的借口\n心头 不仅把回忆全部都灭口\n你在悬崖绝壁慢慢的走\n谈笑风生的说着我在人间出过的丑\n如果说这段感情我表现的太丧\n和不常一首 体面 在DVD里播放')
+('634d810ce8', '2020-03-22 19:56:45', '口中说忘记，\n实际是逃避。\n只能够逃离，\n没法在演戏。\n还想去维系，\n但身不由己。')
+现有精选微词 18首.
+> 超过 15 首精选微词, 将下架如下微词:
+('910ee0e994', '2020-03-19 11:32:05', '是一个可有可无的存在\n无人记得她落寞地离开\n花朵是否还会在此盛开\n只是一粒宇宙中的尘埃\n不愿说破自己的无奈\n存在本就是一个悲哀')
+{"updatedAt":"2020-03-23 07:14:41"}
+('819012f8e5', '2020-03-19 16:45:10', '最后把所有功绩 都拿去认证\n等到今年的冬季 为兄弟分成\n再将一切的攻击招数 神机妙术 凶器套路 彻底消除 \n等着家人为我 振臂高呼')
+{"updatedAt":"2020-03-23 07:14:42"}
+('c87f50b5d5', '2020-03-19 19:19:43', '天空再一次把身体出卖给星星\n生命本身就是一次彗星\n我们注定会沿着\n轨迹老去\n不留下一点一滴的痕迹')
+{"updatedAt":"2020-03-23 07:14:43"}
+Finished: SUCCESS
