@@ -1,0 +1,124 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/data-liuxing
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/datapipe.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/datapipe.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/datapipe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 50dd3cabe329b7570f4c5c16184e63291b1491f4 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 50dd3cabe329b7570f4c5c16184e63291b1491f4 # timeout=10
+Commit message: "update proxy"
+ > git rev-list --no-walk 50dd3cabe329b7570f4c5c16184e63291b1491f4 # timeout=10
+[data-liuxing] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins772858644532278256.sh
+++ date +%Y%m%d
++ date_str=20200323
++ echo 20200323
+20200323
++ echo 20200323
+20200323
++ python3 runner_qq.py --method search --query $'\346\265\201\350\241\214' --output-suffix liuxing --dump-raw 1 --dump-seg 0 --proxy
+INFO:[DataPipeline]:Start crawling for query: 流行
+INFO:[DataPipeline]:Processing playlist page: 0, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 1, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 2, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 3, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 4, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 5, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 6, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 7, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 8, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 9, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 10, found 3 playlists
+INFO:[DataPipeline]:Processing playlist page: 11, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 12, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 13, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 14, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 15, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 16, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 17, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 18, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 19, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 20, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 21, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 22, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 23, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 24, found 44 playlists
+INFO:[DataPipeline]:Processing playlist page: 25, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 26, found 36 playlists
+INFO:[DataPipeline]:Processing playlist page: 27, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 28, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 29, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 30, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 31, found 29 playlists
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 1321, in getresponse
+    response.begin()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1052, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 911, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 400, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Library/Python/3.7/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 423, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 331, in _raise_timeout
+    self, url, "Read timed out. (read timeout=%s)" % timeout_value
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 140, in main
+    playlists = get_playlists_by_query(args.query, args.limit, args.proxy, logger)
+  File "runner_qq.py", line 21, in get_playlists_by_query
+    lists = qq.search_by_query(query, page_number, limit)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 17, in search_by_query
+    lists = self.fetch(url).get("data", {}).get("list", [])
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 29, in fetch
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='c.y.qq.com', port=443): Read timed out. (read timeout=30)
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

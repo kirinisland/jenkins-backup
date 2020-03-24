@@ -1,7 +1,7 @@
-Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Started by timer
 Running as SYSTEM
 Building in workspace /var/root/.jenkins/workspace/JenkinsBackUp
-[JenkinsBackUp] $ /bin/bash /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins4444125206762481522.sh
+[JenkinsBackUp] $ /bin/bash /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins999298963394475290.sh
 + '[' -e /var/root/.jenkins/.git/index.lock ']'
 + cd /var/root/.jenkins/
 + git status
@@ -13,14 +13,12 @@ Changes not staged for commit:
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   config.xml
-	modified:   jobs/JenkinsBackUp/builds/19/log
+	modified:   jobs/JenkinsBackUp/builds/20/log
 	modified:   jobs/JenkinsBackUp/builds/permalinks
 	modified:   jobs/JenkinsBackUp/nextBuildNumber
-	modified:   jobs/data-liuxing/config.xml
+	modified:   jobs/data-liuxing/builds/4/log
+	modified:   jobs/data-liuxing/builds/permalinks
 	modified:   jobs/data-liuxing/nextBuildNumber
-	modified:   jobs/expirelyric/builds/permalinks
-	modified:   jobs/expirelyric/nextBuildNumber
-	modified:   workspace/data-liuxing (new commits)
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
@@ -49,10 +47,11 @@ Untracked files:
 	jenkins.model.JenkinsLocationConfiguration.xml
 	jenkins.security.ResourceDomainConfiguration.xml
 	jenkins.telemetry.Correlator.xml
-	jobs/JenkinsBackUp/builds/19/build.xml
-	jobs/JenkinsBackUp/builds/20/
-	jobs/data-liuxing/builds/4/
-	jobs/expirelyric/builds/19/
+	jobs/JenkinsBackUp/builds/20/build.xml
+	jobs/JenkinsBackUp/builds/21/
+	jobs/data-liuxing/builds/4/build.xml
+	jobs/data-liuxing/builds/5/
+	jobs/data-liuxing/builds/6/
 	logs/
 	nodeMonitors.xml
 	org.jenkins.plugins.lockableresources.LockableResourcesManager.xml
@@ -74,33 +73,3 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 + git add jobs
-+ git add workspace
-++ date
-+ git commit -m 'Jenkins backup at Mon Mar 23 21:38:18 EDT 2020'
-[master 940b15c] Jenkins backup at Mon Mar 23 21:38:18 EDT 2020
- Committer: System Administrator <root@VincentdeMac-mini.local>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly. Run the
-following command and follow the instructions in your editor to edit
-your configuration file:
-
-    git config --global --edit
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 16 files changed, 370 insertions(+), 11 deletions(-)
- create mode 100644 jobs/JenkinsBackUp/builds/19/build.xml
- create mode 100644 jobs/JenkinsBackUp/builds/20/changelog.xml
- create mode 100644 jobs/JenkinsBackUp/builds/20/log
- create mode 100644 jobs/data-liuxing/builds/4/changelog.xml
- create mode 100644 jobs/data-liuxing/builds/4/log
- create mode 100644 jobs/expirelyric/builds/19/build.xml
- create mode 100644 jobs/expirelyric/builds/19/changelog.xml
- create mode 100644 jobs/expirelyric/builds/19/log
-+ git push origin HEAD:master
-To github.com:kirinisland/jenkins-backup.git
-   d467e60..940b15c  HEAD -> master
-Finished: SUCCESS
