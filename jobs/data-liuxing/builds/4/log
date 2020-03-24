@@ -1,0 +1,86 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/data-liuxing
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/datapipe.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/datapipe.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/datapipe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 50dd3cabe329b7570f4c5c16184e63291b1491f4 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 50dd3cabe329b7570f4c5c16184e63291b1491f4 # timeout=10
+Commit message: "update proxy"
+ > git rev-list --no-walk 6c4ba6bc2c1aca3d28fa806ca0767e83ea586636 # timeout=10
+[data-liuxing] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3097540689145821258.sh
+++ date +%Y%m%d
++ date_str=20200323
++ echo 20200323
+20200323
++ echo 20200323
+20200323
++ python3 runner_qq.py --method search --query $'\346\265\201\350\241\214' --output-suffix liuxing --dump-raw 1 --dump-seg 0 --proxy
+INFO:[DataPipeline]:Start crawling for query: 流行
+INFO:[DataPipeline]:Processing playlist page: 0, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 1, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 2, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 3, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 4, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 5, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 6, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 7, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 8, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 9, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 10, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 11, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 12, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 13, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 14, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 15, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 16, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 17, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 18, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 19, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 20, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 21, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 22, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 23, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 24, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 25, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 26, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 27, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 28, found 18 playlists
+INFO:[DataPipeline]:Processing playlist page: 29, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 30, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 31, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 32, found 17 playlists
+INFO:[DataPipeline]:Processing playlist page: 33, found 36 playlists
+INFO:[DataPipeline]:Processing playlist page: 34, found 3 playlists
+INFO:[DataPipeline]:Processing playlist page: 35, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 36, found 1 playlists
+INFO:[DataPipeline]:Processing playlist page: 37, found 41 playlists
+INFO:[DataPipeline]:Processing playlist page: 38, found 17 playlists
+INFO:[DataPipeline]:Processing playlist page: 39, found 0 playlists
+INFO:[DataPipeline]:Total playlists found about topic: 流行: 1519
+INFO:[DataPipeline]:PlayList: [7256912512] 欧美&#124;&#32;流行节奏控 (0/1519) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7256920196] 欧美&#124;&#32;流行轻有氧 (1/1519) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7285342732] 华语流行&#124;与我无关 (2/1519) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7271056871] 华语流行&#32;&#124;&#32;陪你回家 (3/1519) has 58 songs.
+INFO:[DataPipeline]:PlayList: [7276584295] 华语流行&#124;&#32;下个路口见 (4/1519) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7280801712] 华语流行&#124;&#32;恋人未满 (5/1519) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7275663304] 华语流行&#124;你爱他/她 (6/1519) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7297871790] 华语流行&#124;暗恋逃生口 (7/1519) has 29 songs.
+INFO:[DataPipeline]:PlayList: [2835124032] 欧美流行：歌荒患者的必备良药 (8/1519) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7269552538] 华语流行&#124;&#32;暖心告白 (9/1519) has 33 songs.
+INFO:[DataPipeline]:Sleep for: 102
+INFO:[DataPipeline]:PlayList: [7266885004] 华语流行&#124;想念你 (10/1519) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7270492900] 华语流行&#124;&#32;苦甜参半 (11/1519) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7268194171] 华语流行&#124;甜到忧伤 (12/1519) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7428961315] 百首流行&#32;·&#32;00后麦霸速成宝典 (13/1519) has 100 songs.
+INFO:[DataPipeline]:PlayList: [4265834987] 万能流行定律 (14/1519) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7269379422] 欧美流行&#32;&#124;&#32;解压一起听 (15/1519) has 39 songs.
+INFO:[DataPipeline]:PlayList: [7014052277] 14年至今&#32;&#124;&#32;想找又找不到的欧美流行 (16/1519) has 49 songs.
