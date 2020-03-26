@@ -1,0 +1,79 @@
+Started by upstream project "[8mha:////4A+bQWpgGeLrf62Kvp9R0kchXAV8l6qMSbpRKFffssHgAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP2UxJJE3aLSvLzUIn0A55yqqsYAAAA=[0mdata-runner" build number [8mha:////4G58TFdsymEPta9CWmQUSwmmZqhEqIEOUjtRrlqljfbaAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6KYklibpFpXl5qUX6pgDAnzCOxwAAAA==[0m5
+originally caused by:
+ Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/data-shuochang
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/datapipe.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/datapipe.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/datapipe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 56997688560722f63962e030a08e6f48e6d3bbc8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 56997688560722f63962e030a08e6f48e6d3bbc8 # timeout=10
+Commit message: "update file name"
+ > git rev-list --no-walk 6c4ba6bc2c1aca3d28fa806ca0767e83ea586636 # timeout=10
+[data-shuochang] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins4805832274913777898.sh
++ python3 runner_qq.py --method search --query $'\350\257\264\345\224\261' --output-suffix shuochang --dump-raw 1 --dump-seg 0 --proxy
+INFO:[DataPipeline]:Start crawling for query: 说唱
+INFO:[DataPipeline]:Processing playlist page: 0, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 1, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 2, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 3, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 4, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 5, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 6, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 7, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 8, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 9, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 10, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 11, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 12, found 42 playlists
+INFO:[DataPipeline]:Processing playlist page: 13, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 14, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 15, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 16, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 17, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 18, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 19, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 20, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 21, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 22, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 23, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 24, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 25, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 26, found 30 playlists
+INFO:[DataPipeline]:Processing playlist page: 27, found 16 playlists
+INFO:[DataPipeline]:Processing playlist page: 28, found 17 playlists
+INFO:[DataPipeline]:Processing playlist page: 29, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 30, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 31, found 18 playlists
+INFO:[DataPipeline]:Processing playlist page: 32, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 33, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 34, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 35, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 36, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 37, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 38, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 39, found 16 playlists
+INFO:[DataPipeline]:Processing playlist page: 40, found 26 playlists
+INFO:[DataPipeline]:Processing playlist page: 41, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 42, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 43, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 44, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 45, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 46, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 47, found 14 playlists
+INFO:[DataPipeline]:Processing playlist page: 48, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 49, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 50, found 0 playlists
+INFO:[DataPipeline]:Total playlists found about topic: 说唱: 1789
+INFO:[DataPipeline]:PlayList: [7279190816] 中国新说唱 (0/1789) has 70 songs.
+Build was aborted
+Aborted by [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Finished: ABORTED

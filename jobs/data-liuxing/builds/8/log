@@ -1,0 +1,103 @@
+Started by upstream project "[8mha:////4E/txYBkGVzOuHDLAqYMD2T7wvt7g7Tv57IIoP2/Hs/jAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+imJJYm6xSWJRSWpRfoAENLaQccAAAA=[0mdata-starter" build number [8mha:////4EuMYMSHJwrz+1NRZmBzyk5147TCOba95/TvqUxT3jd5AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmH9rPwk/ZTEkkTd4pLEopLUIn1DACYW22DIAAAA[0m1
+originally caused by:
+ Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/data-liuxing
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/datapipe.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/datapipe.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/datapipe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 89609248ba7b307759d0e3c58e4080eeac9be86b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 89609248ba7b307759d0e3c58e4080eeac9be86b # timeout=10
+Commit message: "update file name"
+ > git rev-list --no-walk 89609248ba7b307759d0e3c58e4080eeac9be86b # timeout=10
+[data-liuxing] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins8697174010520113888.sh
+++ date +%Y%m%d
++ date_str=20200325
++ echo 20200325
+20200325
++ echo 20200325
+20200325
++ python3 runner_qq.py --method search --query $'\346\265\201\350\241\214' --output-suffix liuxing
+INFO:[DataPipeline]:Start crawling for query: 流行
+INFO:[DataPipeline]:Processing playlist page: 0, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 1, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 2, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 3, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 4, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 5, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 6, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 7, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 8, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 9, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 10, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 11, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 12, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 13, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 14, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 15, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 16, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 17, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 18, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 19, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 20, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 21, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 22, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 23, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 24, found 29 playlists
+INFO:[DataPipeline]:Processing playlist page: 25, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 26, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 27, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 28, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 29, found 18 playlists
+INFO:[DataPipeline]:Processing playlist page: 30, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 31, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 32, found 15 playlists
+INFO:[DataPipeline]:Processing playlist page: 33, found 17 playlists
+INFO:[DataPipeline]:Processing playlist page: 34, found 16 playlists
+INFO:[DataPipeline]:Processing playlist page: 35, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 36, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 37, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 38, found 18 playlists
+INFO:[DataPipeline]:Processing playlist page: 39, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 40, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 41, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 42, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 43, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 44, found 16 playlists
+INFO:[DataPipeline]:Processing playlist page: 45, found 18 playlists
+INFO:[DataPipeline]:Processing playlist page: 46, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 47, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 48, found 17 playlists
+INFO:[DataPipeline]:Processing playlist page: 49, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 50, found 0 playlists
+INFO:[DataPipeline]:Total playlists found about topic: 流行: 1703
+INFO:[DataPipeline]:PlayList: [7256912512] 欧美&#124;&#32;流行节奏控 (0/1703) has 42 songs.
+Building prefix dict from the default dictionary ...
+DEBUG:jieba:Building prefix dict from the default dictionary ...
+Dumping model to file cache /tmp/jieba.cache
+DEBUG:jieba:Dumping model to file cache /tmp/jieba.cache
+Loading model cost 0.919 seconds.
+DEBUG:jieba:Loading model cost 0.919 seconds.
+Prefix dict has been built successfully.
+DEBUG:jieba:Prefix dict has been built successfully.
+INFO:[DataPipeline]:PlayList: [7256920196] 欧美&#124;&#32;流行轻有氧 (1/1703) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7285342732] 华语流行&#124;与我无关 (2/1703) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7271056871] 华语流行&#32;&#124;&#32;陪你回家 (3/1703) has 58 songs.
+INFO:[DataPipeline]:PlayList: [7276584295] 华语流行&#124;&#32;下个路口见 (4/1703) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7280801712] 华语流行&#124;&#32;恋人未满 (5/1703) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7275663304] 华语流行&#124;你爱他/她 (6/1703) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7297871790] 华语流行&#124;暗恋逃生口 (7/1703) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7269552538] 华语流行&#124;&#32;暖心告白 (8/1703) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7266885004] 华语流行&#124;想念你 (9/1703) has 30 songs.
+INFO:[DataPipeline]:Sleep for: 173
+Build was aborted
+Calling Pipeline was cancelled
+Finished: ABORTED

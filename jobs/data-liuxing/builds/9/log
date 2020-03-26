@@ -1,0 +1,1246 @@
+Started by upstream project "[8mha:////4E/txYBkGVzOuHDLAqYMD2T7wvt7g7Tv57IIoP2/Hs/jAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+imJJYm6xSWJRSWpRfoAENLaQccAAAA=[0mdata-starter" build number [8mha:////4FVMhRY5V3qjiMjC00pInk+plrq3vGdBWAxPWlSHHu/UAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmH9rPwk/ZTEkkTd4pLEopLUIn0jAJxH0vnIAAAA[0m2
+originally caused by:
+ Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/data-liuxing
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/datapipe.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/datapipe.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/datapipe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 588c02b834f77e6cea238c9a657d7b7eaea890f3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 588c02b834f77e6cea238c9a657d7b7eaea890f3 # timeout=10
+Commit message: "update file name"
+ > git rev-list --no-walk 89609248ba7b307759d0e3c58e4080eeac9be86b # timeout=10
+[data-liuxing] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3666353325465625941.sh
+++ date +%Y%m%d
++ date_str=20200325
++ echo 20200325
+20200325
++ echo 20200325
+20200325
++ python3 runner_qq.py --method search --query $'\346\265\201\350\241\214' --output-suffix liuxing
+INFO:[DataPipeline]:Start crawling for query: 流行
+INFO:[DataPipeline]:Processing playlist page: 0, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 1, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 2, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 3, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 4, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 5, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 6, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 7, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 8, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 9, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 10, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 11, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 12, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 13, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 14, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 15, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 16, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 17, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 18, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 19, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 20, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 21, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 22, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 23, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 24, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 25, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 26, found 17 playlists
+INFO:[DataPipeline]:Processing playlist page: 27, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 28, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 29, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 30, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 31, found 15 playlists
+INFO:[DataPipeline]:Processing playlist page: 32, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 33, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 34, found 18 playlists
+INFO:[DataPipeline]:Processing playlist page: 35, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 36, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 37, found 16 playlists
+INFO:[DataPipeline]:Processing playlist page: 38, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 39, found 1 playlists
+INFO:[DataPipeline]:Processing playlist page: 40, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 41, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 42, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 43, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 44, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 45, found 18 playlists
+INFO:[DataPipeline]:Processing playlist page: 46, found 28 playlists
+INFO:[DataPipeline]:Processing playlist page: 47, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 48, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 49, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 50, found 0 playlists
+INFO:[DataPipeline]:Total playlists found about topic: 流行: 1688
+INFO:[DataPipeline]:PlayList: [7256912512] 欧美&#124;&#32;流行节奏控 (0/1688) has 42 songs.
+Building prefix dict from the default dictionary ...
+DEBUG:jieba:Building prefix dict from the default dictionary ...
+Loading model from cache /tmp/jieba.cache
+DEBUG:jieba:Loading model from cache /tmp/jieba.cache
+Loading model cost 0.764 seconds.
+DEBUG:jieba:Loading model cost 0.764 seconds.
+Prefix dict has been built successfully.
+DEBUG:jieba:Prefix dict has been built successfully.
+INFO:[DataPipeline]:PlayList: [7256920196] 欧美&#124;&#32;流行轻有氧 (1/1688) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7285342732] 华语流行&#124;与我无关 (2/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7271056871] 华语流行&#32;&#124;&#32;陪你回家 (3/1688) has 58 songs.
+INFO:[DataPipeline]:PlayList: [7276584295] 华语流行&#124;&#32;下个路口见 (4/1688) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7280801712] 华语流行&#124;&#32;恋人未满 (5/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7275663304] 华语流行&#124;你爱他/她 (6/1688) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7297871790] 华语流行&#124;暗恋逃生口 (7/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7269552538] 华语流行&#124;&#32;暖心告白 (8/1688) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7266885004] 华语流行&#124;想念你 (9/1688) has 30 songs.
+INFO:[DataPipeline]:Sleep for: 113
+INFO:[DataPipeline]:PlayList: [7270492900] 华语流行&#124;&#32;苦甜参半 (10/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7268194171] 华语流行&#124;甜到忧伤 (11/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7428961315] 百首流行&#32;·&#32;00后麦霸速成宝典 (12/1688) has 100 songs.
+INFO:[DataPipeline]:PlayList: [2835124032] 欧美流行：歌荒患者的必备良药 (13/1688) has 50 songs.
+INFO:[DataPipeline]:PlayList: [4265834987] 万能流行定律 (14/1688) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7269379422] 欧美流行&#32;&#124;&#32;解压一起听 (15/1688) has 39 songs.
+INFO:[DataPipeline]:PlayList: [7258160908] 欧美流行&#124;温暖男声 (16/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7277949793] 华语流行&#124;越过山丘 (17/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7014052277] 14年至今&#32;&#124;&#32;想找又找不到的欧美流行 (18/1688) has 49 songs.
+INFO:[DataPipeline]:PlayList: [7198809344] 英语流行&#32;&#124;&#32;最想分享给你的英文歌 (19/1688) has 26 songs.
+INFO:[DataPipeline]:Sleep for: 141
+INFO:[DataPipeline]:PlayList: [7295800284] 欧美流行&#124;北欧女声 (20/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7469197010] 站内评论1W&#43;的流行歌曲 (21/1688) has 285 songs.
+INFO:[DataPipeline]:PlayList: [7454846354] 音乐是个圈｜复古正流行 (22/1688) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7437536240] 戏腔与流行融合&#32;•&#32;散发独特韵味 (23/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7279198418] 华语流行&#124;简单的美好 (24/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [1790504159] 青春记忆&#32;&#124;&#32;90后校园岁月的流行歌曲 (25/1688) has 147 songs.
+INFO:[DataPipeline]:PlayList: [7269428429] 欧美流行&#32;&#124;&#32;终于下班了 (26/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7288956231] 华语流行&#124;眼泪的重量 (27/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7275790736] 华语流行&#124;为你写诗 (28/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7174034886] 华语流行精选&#32;&#124;&#32;麦霸养成记 (29/1688) has 137 songs.
+INFO:[DataPipeline]:Sleep for: 108
+INFO:[DataPipeline]:PlayList: [7459765363] 『&#32;纯音乐&#32;』钢琴弹奏出流行歌 (30/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7347300076] 华语流行：歌声陪你漫漫旅途 (31/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7463801050] 欧美流行&#32;&#124;&#32;独树一帜的酷毙嗓音 (32/1688) has 87 songs.
+INFO:[DataPipeline]:PlayList: [7021698062] 2019年网络流行语的歌 (33/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7419508228] 乌克丽丽来伴奏，流行歌变小清新 (34/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7266677538] 华语流行&#124;指向你的单箭头 (35/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [5784955636] 流行发电站 (36/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7276514310] 流行&#32;&#124;&#32;骑行听什么 (37/1688) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7288957140] 华语流行&#124;已读不回 (38/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7275685761] 韩语流行｜主唱担当的SOLO (39/1688) has 56 songs.
+INFO:[DataPipeline]:Sleep for: 108
+INFO:[DataPipeline]:PlayList: [7265804086] 华语流行&#124;&#32;恋习生 (40/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7275585316] 华语流行&#124;&#32;心心念念 (41/1688) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7278418848] 欧美电子流行&#124;走向未来 (42/1688) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7277730329] 华语流行&#124;心漏了一拍 (43/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7277076122] 华语流行&#32;&#124;&#32;我不是没有眼泪 (44/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7278981517] 欧美轻流行 (45/1688) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7277818341] 流行钢琴曲 (46/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7279180943] 华语流行&#124;&#32;爱情小说家 (47/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7276569625] 华语流行&#124;阳光好心情 (48/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7276959251] 欧美流行&#32;&#124;&#32;能量充电 (49/1688) has 35 songs.
+INFO:[DataPipeline]:Sleep for: 176
+INFO:[DataPipeline]:PlayList: [7278048373] 华语流行&#124;热爱生活 (50/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7310940367] 网络翻唱馆：流行热歌再演绎 (51/1688) has 78 songs.
+INFO:[DataPipeline]:PlayList: [7275599458] 华语流行&#124;走进你的迷宫 (52/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7259060215] 欧美&#124;&#32;惬意流行旋律 (53/1688) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7276564998] 华语流行&#124;大声对你说 (54/1688) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7306755155] 欧美流行&#124;&#32;今天三岁半 (55/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7356622226] 华语流行&#32;·&#32;喂你一个热恋水果糖 (56/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7277079089] 华语流行&#124;缘分天空 (57/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7268255122] 欧美流行&#124;挑战无极限 (58/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7277070083] 华语流行&#124;堆积幸运 (59/1688) has 22 songs.
+INFO:[DataPipeline]:Sleep for: 86
+INFO:[DataPipeline]:PlayList: [7269378512] 韩语流行&#32;&#124;&#32;果汁女孩 (60/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [4264149738] 流行相对论 (61/1688) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7060355034] 抖音最新火热流行歌曲合辑 (62/1688) has 61 songs.
+INFO:[DataPipeline]:PlayList: [7278097058] 华语流行&#124;爱的号码牌 (63/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7279172523] 华语流行&#124;热血少年 (64/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7278043906] 欧美流行&#124;读书听的歌 (65/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7314295649] 华语流行&#124;&#32;失眠症患者 (66/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7276568696] 华语流行&#124;深陷你 (67/1688) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7314294520] 韩语流行&#124;&#32;失落庇护所 (68/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7432985914] 华语流行&#32;·&#32;小众女声爱情物语 (69/1688) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 101
+INFO:[DataPipeline]:PlayList: [7278095847] 华语流行&#124;心里的补丁 (70/1688) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7275696586] 华语流行&#124;酸酸甜甜 (71/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7279249914] 华语流行&#124;糖果心情 (72/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7275626665] 华语流行&#124;我爱你 (73/1688) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7087634540] 华语流行&#32;·&#32;心酸过后更懂爱情 (74/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [3108781778] 100首催眠秘诀：流行歌曲钢琴版 (75/1688) has 147 songs.
+INFO:[DataPipeline]:PlayList: [7279174813] 欧美流行&#124;放飞梦想 (76/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7037789776] 华语流行：邂逅晚虹般的你 (77/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7268035759] 流行&#32;&#124;&#32;爱你知不知道 (78/1688) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7361181080] 华语流行&#32;·&#32;抬起双脚快乐蹦跶 (79/1688) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 180
+INFO:[DataPipeline]:PlayList: [7278471979] 华语电子流行&#124;能量充电 (80/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7278846978] 华语流行&#124;凋落的心 (81/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7387863563] 欧美流行范&#32;·&#32;开启你的心动模式 (82/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7286145612] 流行伤感&#32;·&#32;孤独星球的忧伤情曲 (83/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7356735047] 韩语流行旋律&#32;·&#32;一秒爱上跳舞 (84/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7275652313] DJ流行风&#32;&#124;&#32;极致慢摇，在线摇摆 (85/1688) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7276861029] 欧美流行&#124;&#32;天天晴朗 (86/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7276488576] 华语流行&#124;&#32;旅行的意义 (87/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7382975427] 华语流行&#32;·&#32;轻盈韵律调整心情 (88/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2067204233] 华语流行KTV必点金曲 (89/1688) has 310 songs.
+INFO:[DataPipeline]:Sleep for: 131
+INFO:[DataPipeline]:PlayList: [7270949965] 华语流行&#124;笑一个 (90/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7277984245] 华语流行&#124;在空中 (91/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [6381096282] 静心专享&#32;•&#32;60首华语流行钢琴曲 (92/1688) has 69 songs.
+INFO:[DataPipeline]:PlayList: [7278372459] 欧美流行&#32;&#124;&#32;心在度假 (93/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7259390937] 华语流行&#124;我眼中的世界 (94/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7026505205] 华语流行：同名异词曲的奇妙相遇 (95/1688) has 44 songs.
+INFO:[DataPipeline]:PlayList: [7276865220] 华语流行&#124;彩色人生 (96/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7278473483] 欧美流行&#124;迎接挑战 (97/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7277074637] 华语流行&#32;&#124;&#32;失恋记事本 (98/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7275726159] 华语流行&#124;我眼里只有你 (99/1688) has 25 songs.
+INFO:[DataPipeline]:Sleep for: 173
+INFO:[DataPipeline]:PlayList: [7356737507] 华语流行&#32;│&#32;音乐是如此美好 (100/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7279319623] 华语流行&#124;面朝大海 (101/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7277728485] 华语流行&#124;梦想家 (102/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7275653463] 欧美流行&#32;&#124;&#32;沉浸工作，提高效率 (103/1688) has 39 songs.
+INFO:[DataPipeline]:PlayList: [7178114610] 昭和流行 (104/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7275527970] 华语流行&#124;活力满满 (105/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7256752037] 华语流行&#32;·&#32;爱着爱着走散了 (106/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7268193255] 华语流行&#124;一起去看世界 (107/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [3571076660] 「流行经典」致80后的青春岁月 (108/1688) has 221 songs.
+INFO:[DataPipeline]:PlayList: [7278373738] 流行&#32;&#124;&#32;一起压马路 (109/1688) has 27 songs.
+INFO:[DataPipeline]:Sleep for: 97
+INFO:[DataPipeline]:PlayList: [7337450528] 欧美流行&#32;&#124;&#32;承包踩单车时的耳朵 (110/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7337448423] 华语流行&#32;·&#32;带你去看海 (111/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7199065186] 欧美流行&#32;&#124;&#32;奏响欢快假期BGM (112/1688) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7278367330] 华语流行&#32;&#124;&#32;唤醒沉睡的你 (113/1688) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7270821970] 韩语流行&#32;&#124;&#32;心动信号100&#37; (114/1688) has 39 songs.
+INFO:[DataPipeline]:PlayList: [7270491691] 华语流行&#124;&#32;恰柠檬 (115/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7276567777] 华语流行&#124;花一般的你 (116/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7268071715] 欧美流行&#124;星星在你手上 (117/1688) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7167575281] 华语流行&#32;&#124;&#32;我要把歌唱给世界听 (118/1688) has 116 songs.
+INFO:[DataPipeline]:PlayList: [1767939819] 「零零年代」我们听过的流行歌曲 (119/1688) has 822 songs.
+INFO:[DataPipeline]:Sleep for: 170
+INFO:[DataPipeline]:PlayList: [7315596039] 华语流行&#124;&#32;友谊万岁 (120/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [4160807217] 华语流行无损音乐50首 (121/1688) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7279010150] 华语流行&#124;花花世界 (122/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7060355343] 轻音乐&#32;&#124;&#32;唯美钢琴流行音乐 (123/1688) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7269299709] 华语流行&#32;·&#32;轻巧律动放松思绪 (124/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7060356318] 流行翻唱&#32;&#124;&#32;直击灵魂的磁性声线 (125/1688) has 47 songs.
+INFO:[DataPipeline]:PlayList: [7203390839] 流行爵士&#32;·&#32;微醺解忧方法论 (126/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7297807628] 华语流行&#32;&#124;&#32;少年的你&#32;如此美丽 (127/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [3684759708] 古风乐器演绎的流行旋律 (128/1688) has 47 songs.
+INFO:[DataPipeline]:PlayList: [6958180262] 彝族&#32;ꉢ&#32;ꆏ&#32;ꉂ&#32;流行 (129/1688) has 268 songs.
+INFO:[DataPipeline]:Sleep for: 149
+INFO:[DataPipeline]:PlayList: [7279237529] 华语流行&#124;勇攀高峰 (130/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7084748718] 欧美流行&#32;&#124;&#32;正中心声的治愈调 (131/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7276781888] 华语流行&#124;&#32;花的姿态 (132/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7356734350] 华语流行：真挚流露的歌声 (133/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [6977925827] 欧美流行&#32;：情绪燃料供给站 (134/1688) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7176119176] 华语流行&#32;·&#32;开心满档悠闲兜风 (135/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7269431593] 华语流行&#124;想自由 (136/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7275652874] 英语流行&#32;&#124;&#32;孤独的人会相互疗伤 (137/1688) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7275686805] 韩语流行｜关于你的离别 (138/1688) has 39 songs.
+INFO:[DataPipeline]:PlayList: [6966039579] 华语流行&#32;·&#32;都市爱情物语 (139/1688) has 28 songs.
+INFO:[DataPipeline]:Sleep for: 154
+INFO:[DataPipeline]:PlayList: [7174019215] 国语流行&#32;&#124;&#32;悲伤前奏，孤独了尾声 (140/1688) has 121 songs.
+INFO:[DataPipeline]:PlayList: [7228613531] 流行藏语风&#32;&#124;&#32;高原上的天籁 (141/1688) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7060352657] 国语流行&#32;&#124;&#32;最美的牵绊 (142/1688) has 43 songs.
+INFO:[DataPipeline]:PlayList: [7278368632] 流行&#32;&#124;&#32;消息免打扰 (143/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7060354487] 欧美流行：欢快而不失性感的节奏 (144/1688) has 53 songs.
+INFO:[DataPipeline]:PlayList: [7356212704] 韩语流行&#32;&#124;&#32;动感节奏让活力充沛 (145/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7060352637] 国语民族风&#32;&#124;&#32;草原上流行的情歌 (146/1688) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7024409577] 被遗忘的华语流行 (147/1688) has 219 songs.
+INFO:[DataPipeline]:PlayList: [7223796426] 华语流行&#32;·&#32;爱情未完不待续 (148/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7060353277] 隐藏在流行曲中的中国风旋律 (149/1688) has 49 songs.
+INFO:[DataPipeline]:Sleep for: 152
+INFO:[DataPipeline]:PlayList: [7174034814] 华语流行&#32;&#124;&#32;有些爱过了头只剩迁就 (150/1688) has 88 songs.
+INFO:[DataPipeline]:PlayList: [7199053013] 华语流行风&#32;&#124;&#32;心中有阳光才会盛开 (151/1688) has 62 songs.
+INFO:[DataPipeline]:PlayList: [7275684649] 韩语流行｜从朋友，到恋人 (152/1688) has 44 songs.
+INFO:[DataPipeline]:PlayList: [7356679317] 韩语流行丨躲不及风的温柔偷袭 (153/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7276923461] 华语流行&#124;未知的旅途 (154/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7167574858] 华语流行&#32;&#124;&#32;心的书房，聆听我的世界 (155/1688) has 192 songs.
+INFO:[DataPipeline]:PlayList: [7252363530] 终于找到，让我心动的流行情调 (156/1688) has 51 songs.
+INFO:[DataPipeline]:PlayList: [7337448405] 欧美流行&#32;·&#32;乐享轻节奏 (157/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7268102678] 华语流行&#124;唱我所唱 (158/1688) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7337448818] 华语流行：你曾为谁折断过翅膀？ (159/1688) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 175
+INFO:[DataPipeline]:PlayList: [7167574702] 华语流行&#32;&#124;&#32;一时的青春、永久的清纯 (160/1688) has 110 songs.
+INFO:[DataPipeline]:PlayList: [7333317040] 『欧美流行』打开你的快乐按钮 (161/1688) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7122072550] 华语流行&#32;·&#32;轻盈节奏赶走烦恼 (162/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7167574772] 华语流行&#32;&#124;&#32;城市扫除&#32;来点热门曲 (163/1688) has 85 songs.
+INFO:[DataPipeline]:PlayList: [7347299523] 风中飘散着&#32;花味的流行曲调 (164/1688) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7228613192] 华语流行丨银河有迹可循 (165/1688) has 52 songs.
+INFO:[DataPipeline]:PlayList: [7228623551] 治愈流行｜不轻也不燥，刚刚好 (166/1688) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7276566844] 华语流行&#124;海里的星星 (167/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7167575139] 华语流行&#32;&#124;&#32;我要躺在你耳边唱情话 (168/1688) has 85 songs.
+INFO:[DataPipeline]:PlayList: [7060356449] 翻唱比原唱好听系列&#32;&#124;&#32;流行 (169/1688) has 37 songs.
+INFO:[DataPipeline]:Sleep for: 155
+INFO:[DataPipeline]:PlayList: [7268939311] 音美声靓，经典流行甜歌小调 (170/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7268093844] 欧美流行&#124;我不孤单 (171/1688) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7061382635] 华语流行：薄荷味的清凉小调 (172/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7277950710] 华语流行&#124;想度假 (173/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7060354674] 欧美流行：美丽如你的旋律火花 (174/1688) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7012607629] 华语流行&#32;&#124;&#32;难以消解的相思之情 (175/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7299191158] 华语流行&#32;&#124;&#32;爱如何教会我们成长 (176/1688) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7060356022] 电音、欧美流行丨不到天亮不准走！ (177/1688) has 47 songs.
+INFO:[DataPipeline]:PlayList: [7025374641] 华语流行改编的说唱化学反应 (178/1688) has 43 songs.
+INFO:[DataPipeline]:PlayList: [7060354321] 欧美流行金曲，伴随我们成长 (179/1688) has 47 songs.
+INFO:[DataPipeline]:Sleep for: 158
+INFO:[DataPipeline]:PlayList: [7087913190] 文雅流行，温润的浪漫年代 (180/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7269430554] 欧美流行&#124;早安咖啡 (181/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7337449029] 华语流行&#32;&#124;&#32;用歌声诉说内心 (182/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7276881116] 华语流行&#124;&#32;情人结 (183/1688) has 45 songs.
+INFO:[DataPipeline]:PlayList: [7337447979] 华语流行丨燃烧荷尔蒙的热歌 (184/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7060353008] 华语流行&#32;&#124;&#32;中国新歌声第二季集选 (185/1688) has 53 songs.
+INFO:[DataPipeline]:PlayList: [7167574843] 华语流行&#32;&#124;&#32;侧耳倾听，与风窃窃私语 (186/1688) has 182 songs.
+INFO:[DataPipeline]:PlayList: [7275590668] 华语流行&#124;好吃的歌 (187/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [3571076617] 「流行经典」怀旧老歌，不忘初心 (188/1688) has 155 songs.
+INFO:[DataPipeline]:PlayList: [7174019395] 国语流行&#32;&#124;&#32;重返10年前的华语盛世 (189/1688) has 114 songs.
+INFO:[DataPipeline]:Sleep for: 165
+INFO:[DataPipeline]:PlayList: [7252365458] 日语流行&#32;&#124;&#32;你生气的样子很可爱 (190/1688) has 49 songs.
+INFO:[DataPipeline]:PlayList: [7277951688] 华语流行&#124;不想晒太阳 (191/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7122073811] 童声翻唱：宝贝也爱流行调 (192/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7071525624] 台湾经典流行丨传唱大街小巷的歌 (193/1688) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7222867060] 韩语流行&#32;&#32;&#124;&#32;挑逗耳朵的音符 (194/1688) has 49 songs.
+INFO:[DataPipeline]:PlayList: [7060352672] 国语流行&#32;&#124;&#32;做家务听点女人语录 (195/1688) has 38 songs.
+INFO:[DataPipeline]:PlayList: [7060356089] 不朽：美声与流行融合的魅力&#126; (196/1688) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7333760607] 叱咤乐坛流行榜&#32;10年代精选 (197/1688) has 100 songs.
+INFO:[DataPipeline]:PlayList: [7190324889] 华语流行&#32;&#124;&#32;瞬间戳中你的心弦 (198/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7461701771] 华语流行单曲&#32;·&#32;迷失在黑夜中央 (199/1688) has 17 songs.
+INFO:[DataPipeline]:Sleep for: 104
+INFO:[DataPipeline]:PlayList: [7268939311] 音美声靓，经典流行甜歌小调 (200/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7268093844] 欧美流行&#124;我不孤单 (201/1688) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7387863612] 欧美流行：时刻保持最佳状态 (202/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7461703470] 韩语流行丨与你在这里藏匿了记忆 (203/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7449661964] 独立流行｜关于我们的低俗小说 (204/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7347049940] 日语流行：散漫空间里的自由主义 (205/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7061382635] 华语流行：薄荷味的清凉小调 (206/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7277950710] 华语流行&#124;想度假 (207/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7356238891] 韩语流行&#32;│&#32;即使心疼，也只爱你 (208/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7060354674] 欧美流行：美丽如你的旋律火花 (209/1688) has 50 songs.
+INFO:[DataPipeline]:Sleep for: 126
+INFO:[DataPipeline]:PlayList: [7012607629] 华语流行&#32;&#124;&#32;难以消解的相思之情 (210/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7427004459] 华语流行丨未经雕琢的天真和自由 (211/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7299191158] 华语流行&#32;&#124;&#32;爱如何教会我们成长 (212/1688) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7060356022] 电音、欧美流行丨不到天亮不准走！ (213/1688) has 47 songs.
+INFO:[DataPipeline]:PlayList: [7025374641] 华语流行改编的说唱化学反应 (214/1688) has 43 songs.
+INFO:[DataPipeline]:PlayList: [7060354321] 欧美流行金曲，伴随我们成长 (215/1688) has 47 songs.
+INFO:[DataPipeline]:PlayList: [7087913190] 文雅流行，温润的浪漫年代 (216/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7269430554] 欧美流行&#124;早安咖啡 (217/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7337449029] 华语流行&#32;&#124;&#32;用歌声诉说内心 (218/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7276881116] 华语流行&#124;&#32;情人结 (219/1688) has 45 songs.
+INFO:[DataPipeline]:Sleep for: 154
+INFO:[DataPipeline]:PlayList: [7337447979] 华语流行丨燃烧荷尔蒙的热歌 (220/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7060353008] 华语流行&#32;&#124;&#32;中国新歌声第二季集选 (221/1688) has 53 songs.
+INFO:[DataPipeline]:PlayList: [7445060088] 亲切而不失流行元素的乡村音乐&#32; (222/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7167574843] 华语流行&#32;&#124;&#32;侧耳倾听，与风窃窃私语 (223/1688) has 182 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/Library/Python/3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/Library/Python/3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 300, in connect
+    conn = self._new_conn()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x10ce0ea20>: Failed to establish a new connection: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=458506&_=1513437581324 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10ce0ea20>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=458506&_=1513437581324 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10ce0ea20>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ConnectionError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=458506&_=1513437581324 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10ce0ea20>: Failed to establish a new connection: [Errno 60] Operation timed out'))")),)
+INFO:[DataPipeline]:PlayList: [7360624465] 好久不看韩剧篇&#32;·&#32;韩语流行 (224/1688) has 39 songs.
+INFO:[DataPipeline]:PlayList: [7449957649] 华语流行&#32;&#124;&#32;岁月漫长，值得等待 (225/1688) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7461703657] 韩语流行丨自由呼吸爱与空气 (226/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7275590668] 华语流行&#124;好吃的歌 (227/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [3571076617] 「流行经典」怀旧老歌，不忘初心 (228/1688) has 155 songs.
+INFO:[DataPipeline]:PlayList: [7174019395] 国语流行&#32;&#124;&#32;重返10年前的华语盛世 (229/1688) has 114 songs.
+INFO:[DataPipeline]:Sleep for: 63
+INFO:[DataPipeline]:PlayList: [7449956190] DJ咚鼓热歌：流行节奏的完美结合 (230/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7252365458] 日语流行&#32;&#124;&#32;你生气的样子很可爱 (231/1688) has 49 songs.
+INFO:[DataPipeline]:PlayList: [7277951688] 华语流行&#124;不想晒太阳 (232/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7122073811] 童声翻唱：宝贝也爱流行调 (233/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7346877061] 欧美流行&#32;&#124;&#32;重启疲劳卡壳的大脑 (234/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7071525624] 台湾经典流行丨传唱大街小巷的歌 (235/1688) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7222867060] 韩语流行&#32;&#32;&#124;&#32;挑逗耳朵的音符 (236/1688) has 49 songs.
+INFO:[DataPipeline]:PlayList: [7461703389] 欧美流行丨渺小世界藏着漫天余烬 (237/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7060352672] 国语流行&#32;&#124;&#32;做家务听点女人语录 (238/1688) has 38 songs.
+INFO:[DataPipeline]:PlayList: [7060356089] 不朽：美声与流行融合的魅力&#126; (239/1688) has 42 songs.
+INFO:[DataPipeline]:Sleep for: 176
+INFO:[DataPipeline]:PlayList: [7449968605] 华语流行：谁把心事揉成秘密 (240/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7380162060] 风味十足&#32;&#124;&#32;传统与流行的碰撞 (241/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7333760607] 叱咤乐坛流行榜&#32;10年代精选 (242/1688) has 100 songs.
+INFO:[DataPipeline]:PlayList: [7371169442] 华语流行：我骗过了自己忘了你 (243/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7190324889] 华语流行&#32;&#124;&#32;瞬间戳中你的心弦 (244/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7072826189] Remix&#32;&#124;&#32;Rap和流行乐的碰撞 (245/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7199052224] 韩语流行&#32;&#124;&#32;精选韩国影视剧歌曲 (246/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7275652067] 欧美流行丨放松心情，只需一首歌 (247/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7304708277] 网络流行语，也能唱成歌&#32; (248/1688) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7461702212] 国语流行：忘掉了的人只是泡沫 (249/1688) has 21 songs.
+INFO:[DataPipeline]:Sleep for: 133
+INFO:[DataPipeline]:PlayList: [7449956247] 华语流行丨奔向长街楼宇每个角落 (250/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7060355093] 欧美流行：这就是绚丽烂漫的爱情 (251/1688) has 52 songs.
+INFO:[DataPipeline]:PlayList: [7099740925] 华语流行&#32;&#124;&#32;过好自己今后的生活 (252/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7440990986] 华语流行丨遗忘是记忆的远道而来 (253/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7356733735] 华语流行丨酒窝装满笑容发着光 (254/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7449954888] 华语流行曲&#32;·&#32;请记得所有的美好 (255/1688) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7416648227] 华语流行&#32;&#124;&#32;爱情从不是等价交换 (256/1688) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7347299309] 乐极开怀&#32;·&#32;与好友共享流行情调 (257/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7347303130] 华语流行：让心中情愫持续发酵 (258/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7449955761] 华语流行：我们一起守望着晨曦 (259/1688) has 15 songs.
+INFO:[DataPipeline]:Sleep for: 141
+INFO:[DataPipeline]:PlayList: [7110260317] 华语流行&#32;·&#32;找个角落把你忘记 (260/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7439961224] 华语流行社&#32;·&#32;难忘青春笑颜 (261/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7060356460] 散落在世间的嗓音&#32;&#124;&#32;流行翻唱 (262/1688) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7416648909] 欧美流行：窗外夜空里闪烁着星光 (263/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7440990523] 华语流行曲丨思念的暖风把我围绕 (264/1688) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7100341922] 巴洛克流行，摇滚和古典的融合 (265/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7449955037] 华语流行：经历过遗憾才懂得珍惜 (266/1688) has 17 songs.
+INFO:[DataPipeline]:PlayList: [4116018001] 减压放松&#32;·&#32;流行钢琴集 (267/1688) has 44 songs.
+INFO:[DataPipeline]:PlayList: [7167575041] 华语流行&#32;&#124;&#32;哼着歌，沉入咖啡时光 (268/1688) has 57 songs.
+INFO:[DataPipeline]:PlayList: [7449955172] 华语流行&#32;·&#32;别再沉迷过去的旧梦 (269/1688) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 125
+INFO:[DataPipeline]:PlayList: [7277948895] 华语流行&#124;看海 (270/1688) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7060359088] 你不知道的小众华语流行歌曲 (271/1688) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7449955042] 华语流行&#32;·&#32;任由时间漂流 (272/1688) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7167574745] 华语流行&#32;&#124;&#32;画画记得加点音乐染料 (273/1688) has 232 songs.
+INFO:[DataPipeline]:PlayList: [7333907045] Hito流行音乐奖&#32;10年代精选 (274/1688) has 176 songs.
+INFO:[DataPipeline]:PlayList: [7231456708] 余音绕梁：古风歌手唱起流行曲 (275/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7222867648] 妈妈的青春年代&#32;·&#32;国语流行精选 (276/1688) has 86 songs.
+INFO:[DataPipeline]:PlayList: [7278047239] 欧美流行&#124;去探险 (277/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7319430994] 华语流行丨准备就绪要做个发光体 (278/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7060359335] 流行趋势：热播综艺歌曲精选&#32; (279/1688) has 55 songs.
+INFO:[DataPipeline]:Sleep for: 69
+INFO:[DataPipeline]:PlayList: [7461702412] &#32;欧美流行：想陪你度过孤寂时刻 (280/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7060352771] 华语流行&#32;&#124;&#32;握握手，我的最佳损友 (281/1688) has 52 songs.
+INFO:[DataPipeline]:PlayList: [874673664] 「流行」留在90后脑海里的旋律 (282/1688) has 222 songs.
+INFO:[DataPipeline]:PlayList: [7252364796] 日语流行丨在你的脉搏上歌唱 (283/1688) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7426999193] 华语流行：徘徊在日出日落的瞬息 (284/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7356734174] 华语流行&#32;·&#32;乐享影视曲调 (285/1688) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7446710891] 欧美流行&#32;&#124;&#32;推翻万床引力定律 (286/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7356734288] 华语流行&#32;·&#32;闲暇时刻来点轻松向 (287/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7371170133] 华语流行丨用力避开虚度的时间 (288/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7337448445] 华语流行&#32;·&#32;藏在音乐里的美妙 (289/1688) has 27 songs.
+INFO:[DataPipeline]:Sleep for: 86
+INFO:[DataPipeline]:PlayList: [7449956887] 韩语流行丨岁月混沌成酒的故事 (290/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7440988721] 欧美流行丨等一个相似的灵魂 (291/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7371169717] 华语吹风机&#32;·&#32;耳旁旋绕着流行调 (292/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7052553989] 华语流行&#32;·&#32;脚步轻盈逛公园 (293/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7448820624] 欧美流行：一份缓解压力的旋律 (294/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7328839321] 华语流行丨愿我们的梦永不落空 (295/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7222869363] 韩语流行&#32;&#124;&#32;一起感受活力泵感 (296/1688) has 39 songs.
+INFO:[DataPipeline]:PlayList: [7440988751] 华语流行丨唤醒沉睡已久的模样 (297/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7309308449] 欧美流行：一秒入耳，两秒倾心 (298/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7286144696] 韩语流行丨心动时刻就在此刻 (299/1688) has 40 songs.
+INFO:[DataPipeline]:Sleep for: 100
+INFO:[DataPipeline]:PlayList: [7416647137] 华语流行丨梦境不止一种气味 (300/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7440990932] 华语流行&#32;&#32;·&#32;找寻最初对爱的决心 (301/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7380162847] 日语流行：音符歌声之间传递信念 (302/1688) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7328838382] 华语流行：这些声音入耳即化 (303/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7174400100] 华语流行&#32;·&#32;微醺解忧方法论 (304/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7077601917] 华语流行&#32;&#124;&#32;我们相约梦里见吧 (305/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7252362725] 做最靓的仔，听最新的欧美流行 (306/1688) has 46 songs.
+INFO:[DataPipeline]:PlayList: [7449955345] 韩语流行&#32;·&#32;和你分享更多的时光 (307/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7440991039] 华语流行&#32;&#124;&#32;在摩天大楼渴求自由 (308/1688) has 16 songs.
+INFO:[DataPipeline]:PlayList: [7461724953] 韩语流行&#32;│&#32;鲜辣爽口的泡菜旋律 (309/1688) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 99
+INFO:[DataPipeline]:PlayList: [7060354973] 欧美流行：给化妆时间加点颜色 (310/1688) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7328838825] 私藏流行&#32;·&#32;藏在耳机里的动听曲 (311/1688) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7416647417] 华语流行丨去捕捉最灿烂的烟火 (312/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7427001008] 华语流行&#32;·&#32;追逐你的心之所向 (313/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7024367811] 粤语流行&#32;&#124;&#32;他（她）在唱相同的歌 (314/1688) has 70 songs.
+INFO:[DataPipeline]:PlayList: [7309305818] 欧美流行丨剩下热爱，迎接未来 (315/1688) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7440988700] 华语流行丨月落星沉，暮色深深 (316/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7060355213] 欧美流行丨不耍酷？可不行 (317/1688) has 51 songs.
+INFO:[DataPipeline]:PlayList: [7328840837] 欧美流行：音符似精灵般跳入耳朵 (318/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7025500456] 戏曲碰流行&#32;&#124;&#32;一点戏曲，多点魅力 (319/1688) has 26 songs.
+INFO:[DataPipeline]:Sleep for: 71
+INFO:[DataPipeline]:PlayList: [7346877085] 欧美流行女声&#32;·&#32;编织温柔梦境 (320/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7309305259] 韩语流行丨在旋转的星空中失重 (321/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7199065109] 欧美流行&#32;&#124;&#32;生活就要到处耍酷 (322/1688) has 53 songs.
+INFO:[DataPipeline]:PlayList: [7268078471] 电子流行&#32;·&#32;排解堵车郁闷情绪 (323/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7174021191] 国语流行丨这趟车开往午夜时分 (324/1688) has 86 songs.
+INFO:[DataPipeline]:PlayList: [872840078] 「华语流行」愿我们的爱永不褪色 (325/1688) has 150 songs.
+INFO:[DataPipeline]:PlayList: [7299190840] 欧美流行&#32;│&#32;生活在自己的节奏里 (326/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7356733555] 华语流行丨尚好的青春都是你 (327/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7060351602] 未开封的宝藏&#32;&#124;&#32;小众欧美流行 (328/1688) has 51 songs.
+INFO:[DataPipeline]:PlayList: [3748694801] 2020抖音神曲❤️流行 (329/1688) has 374 songs.
+INFO:[DataPipeline]:Sleep for: 136
+INFO:[DataPipeline]:PlayList: [7107391442] 流行中国风&#32;&#124;&#32;一曲皆温情 (330/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7060352688] 伤感流行&#32;&#124;&#32;女生的小心思呀&#126; (331/1688) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7371169766] 韩系流行&#32;·&#32;清甜又上耳的旋律 (332/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7268070911] 华语流行&#124;仰望星空 (333/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7371171639] 轻柔流行&#32;｜&#32;细品一首舒缓旋律 (334/1688) has 16 songs.
+INFO:[DataPipeline]:PlayList: [7252363028] 欧美流行&#32;&#124;&#32;唤醒体内的活力细胞 (335/1688) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7228611164] 华语流行：唱进心里的歌，不会腻 (336/1688) has 55 songs.
+INFO:[DataPipeline]:PlayList: [7139205768] 华语流行：声音甜的像喝蜜 (337/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [2966940711] 「华语流行」那些我们烂熟于心的旋律 (338/1688) has 184 songs.
+INFO:[DataPipeline]:PlayList: [7319431169] 华语流行丨在心底挣扎来回抵抗 (339/1688) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 87
+INFO:[DataPipeline]:PlayList: [7060356200] 欧美流行丨海绵宝宝的私人电台 (340/1688) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7260402980] 华语流行：七字情歌来告白 (341/1688) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7268062213] 欧美流行&#124;你不是一个人 (342/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7060359344] 华语流行：优质综艺歌曲现场&#126; (343/1688) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7347638327] 欧美流行丨让狂热成为生命的指引 (344/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [1745288538] 那些火遍大街小巷的华语流行神曲 (345/1688) has 55 songs.
+INFO:[DataPipeline]:PlayList: [7347638014] 欧美流行：灵魂围绕着四周 (346/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7416648342] 钢琴纯音：藏在音符里的流行元素 (347/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7416649860] 华语流行丨让时光在指尖流淌 (348/1688) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7060351553] 陪伴90后走过的欧美流行 (349/1688) has 105 songs.
+INFO:[DataPipeline]:Sleep for: 73
+INFO:[DataPipeline]:PlayList: [7427006281] 日语流行&#32;│&#32;请倾听我的声音 (350/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7179666094] 欧美流行&#32;&#124;&#32;佩奇，你会吹口哨吗？ (351/1688) has 204 songs.
+INFO:[DataPipeline]:PlayList: [7356733902] 华语流行丨整装待发又回到原地 (352/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7371170073] 国语流行丨昏暗的瞳孔散发出光芒 (353/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7060355303] 欧美流行丨Welcome&#32;To&#32;My&#32;Radio (354/1688) has 55 songs.
+INFO:[DataPipeline]:PlayList: [7278366021] 华语流行舞曲 (355/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [1167623954] 「华语流行」最美不过是相思 (356/1688) has 96 songs.
+INFO:[DataPipeline]:PlayList: [7252365125] 欢快气氛必备的欧美流行曲 (357/1688) has 46 songs.
+INFO:[DataPipeline]:PlayList: [7174018971] 最新流行：别再唱老掉牙的歌啦！ (358/1688) has 80 songs.
+INFO:[DataPipeline]:PlayList: [6997167863] 星火碰撞！当戏曲融合流行歌 (359/1688) has 26 songs.
+INFO:[DataPipeline]:Sleep for: 106
+INFO:[DataPipeline]:PlayList: [7341699273] 「双声道」演绎不一样的流行风味 (360/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7252364527] 韩语流行丨抚平无数疲惫 (361/1688) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7416647643] 欧美流行丨各自生活在喧嚣未来 (362/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7427003904] 华语流行丨在漫天尘埃中醒来 (363/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7039632437] 「美国红房子舞室编舞用曲」流行篇&#32; (364/1688) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7440988688] 华语流行丨梦想在一开始都像泡沫 (365/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7174021245] 经典流行丨这些歌已竞走快十年了 (366/1688) has 85 songs.
+INFO:[DataPipeline]:PlayList: [7440988949] 欧美流行丨让生命回到完整 (367/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7356212712] 手机铃声必备一个韩语流行 (368/1688) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7060359211] 另类流行又好听的中国风喊麦 (369/1688) has 46 songs.
+INFO:[DataPipeline]:Sleep for: 143
+INFO:[DataPipeline]:PlayList: [7426999916] 华语流行&#32;&#124;&#32;试问谁能够不爱而别 (370/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7299186221] 华语流行丨盛满世间行色匆匆 (371/1688) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7060354912] 日语流行：ACGの绝对次元音域 (372/1688) has 49 songs.
+INFO:[DataPipeline]:PlayList: [7356733769] 欧美流行丨徘徊在困境的边缘 (373/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7416646799] 欧美流行丨美丽如画，浪漫有框 (374/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7309307643] 欧美流行｜来杯暖和的巧克力吧 (375/1688) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7336073734] 欧美流行&#32;&#124;&#32;青春劲歌&#32;热舞年华 (376/1688) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7174021182] 经典流行丨穿越回90年代 (377/1688) has 173 songs.
+INFO:[DataPipeline]:PlayList: [7443536649] 流行车载&#32;&#124;&#32;迎面吹来一阵韩风 (378/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7228623883] 欧美流行&#32;&#124;&#32;征服困意一路嗨够 (379/1688) has 58 songs.
+INFO:[DataPipeline]:Sleep for: 127
+INFO:[DataPipeline]:PlayList: [3581365388] 钢琴流行曲：细品黑白键上的艺术 (380/1688) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7116212552] 闽南语流行新世代 (381/1688) has 53 songs.
+INFO:[DataPipeline]:PlayList: [7356734489] 华语流行：沉醉歌唱好声音 (382/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7228624977] 连耳朵都迷恋的欧美流行歌 (383/1688) has 47 songs.
+INFO:[DataPipeline]:PlayList: [7299187916] &#32;欧美流行：唤醒你心中的热情 (384/1688) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7346877040] 欧美流行：孤独却治愈的一盏微光 (385/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7371170003] 华语流行：和心跳一起出现 (386/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7347299101] 华语流行丨短暂拥有过残缺 (387/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7329401385] Remix&#32;&#124;&#32;流行与电子的“化学反应” (388/1688) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7038221276] 度假专享&#32;&#124;&#32;欧美流行Remix (389/1688) has 23 songs.
+INFO:[DataPipeline]:Sleep for: 138
+INFO:[DataPipeline]:PlayList: [7337449277] 流行民族风：风中歌唱的草原情 (390/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7440989201] 华语流行&#32;&#124;&#32;幸福莫过与有歌有你 (391/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7416647282] 日语流行：让内心的快乐不断膨胀 (392/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7356733629] 日语流行丨无常的花火绚烂如歌 (393/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7309308326] 欧美流行&#32;│&#32;唤醒你内心的节拍 (394/1688) has 49 songs.
+INFO:[DataPipeline]:PlayList: [7328838388] 华语流行：准备就绪要做个发光体 (395/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7060356961] 当那些传统走上流行的舞台 (396/1688) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7317668499] 电子流行&#32;&#124;&#32;城市扫荡来点热门 (397/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7356734079] 惬意华语&#32;·&#32;流行划船时刻 (398/1688) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7328840395] 华语流行：听见梦想花开 (399/1688) has 19 songs.
+INFO:[DataPipeline]:Sleep for: 61
+INFO:[DataPipeline]:PlayList: [7199062165] 欧美流行丨高效热身捷径 (400/1688) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7347301366] 韩语流行馆&#32;&#124;&#32;沉浸极致舞曲旋律 (401/1688) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7199052803] 韩语流行风&#32;&#124;&#32;有个恋爱想要谈一下 (402/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7319435735] 欧美流行：认真工作，别降低水准 (403/1688) has 16 songs.
+INFO:[DataPipeline]:PlayList: [7416648052] 欧美流行&#32;&#124;&#32;点亮生命的璀璨星光 (404/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7440990328] 华语流行：心动养成指南 (405/1688) has 16 songs.
+INFO:[DataPipeline]:PlayList: [7416646916] 韩语流行丨呼吸被阳光晒过的满足 (406/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [4582411291] 站内弹幕9999&#43;国语流行 (407/1688) has 51 songs.
+INFO:[DataPipeline]:PlayList: [7000690754] 古典乐器与流行的完美融合 (408/1688) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7356735328] 轻松享&#32;·&#32;愉悦车载流行华语 (409/1688) has 17 songs.
+INFO:[DataPipeline]:Sleep for: 177
+INFO:[DataPipeline]:PlayList: [7371170103] 华语流行丨世界遍布荒唐的假面 (410/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7228612824] 国语流行丨无言独坐放眼尘世间 (411/1688) has 43 songs.
+INFO:[DataPipeline]:PlayList: [7347299132] 华语流行丨拥抱时间静止的世界 (412/1688) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7371169894] 欧美流行：让耳朵上瘾的旋律 (413/1688) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7346838446] 欧美流行&#32;│&#32;穿透心灵的小众女声 (414/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7440988596] 华语流行丨我的渺小因你才勇敢 (415/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7328839706] 华语流行丨触不可及，又何必在意 (416/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7347302454] 适合晨跑听的欧美流行来了！ (417/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7328840597] 华语流行：换个心情做自己 (418/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7309309200] 欧美流行：尽情领略这一路风景 (419/1688) has 31 songs.
+INFO:[DataPipeline]:Sleep for: 68
+INFO:[DataPipeline]:PlayList: [7426999140] 日系流行旋律&#32;·&#32;跟随心之所向 (420/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7319431472] 华语流行丨走进时间的摇篮 (421/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7371170152] 华语流行丨身轻如燕地回到起点 (422/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7356733848] 华语流行丨握住梦想的方向盘 (423/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2669638406] 「华语流行」每想起旧爱，心里就响起一首歌 (424/1688) has 120 songs.
+INFO:[DataPipeline]:PlayList: [7167574848] 华语流行&#32;&#124;&#32;搭上摩天轮去数繁星 (425/1688) has 119 songs.
+INFO:[DataPipeline]:PlayList: [3267831137] 华语流行｜大热古装电视剧主题歌曲精选 (426/1688) has 130 songs.
+INFO:[DataPipeline]:PlayList: [7371170176] 华语流行丨梦无边界，我们闯一遍 (427/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7309305810] 华语流行丨歌词描绘的画面情节 (428/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7387863451] 华语流行&#32;&#124;&#32;心有些微微烫的难受 (429/1688) has 22 songs.
+INFO:[DataPipeline]:Sleep for: 180
+INFO:[DataPipeline]:PlayList: [3271199057] 国风戏腔与流行：酒入愁肠，化作相思泪 (430/1688) has 124 songs.
+INFO:[DataPipeline]:PlayList: [5337667258] 不容错过的流行乐欧美新声力量 (431/1688) has 81 songs.
+INFO:[DataPipeline]:PlayList: [7356733563] 华语流行丨每颗流星都背负使命 (432/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7125013387] Art&#32;Pop，登上流行艺术的波峰 (433/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7356734025] 华语流行&#32;·&#32;陪伴的闲暇时刻 (434/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7153006711] 华语流行&#32;&#124;&#32;思念何时悄悄陨落 (435/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7337448377] 华语流行&#32;·&#32;躲猫猫时光 (436/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7356733721] 华语流行丨遇见故事里的千百面 (437/1688) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7356733741] 华语流行丨不由分说地各自飘荡 (438/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7356737188] 日系流行：笑着快乐生活下去吧 (439/1688) has 16 songs.
+INFO:[DataPipeline]:Sleep for: 80
+INFO:[DataPipeline]:PlayList: [7228610022] 在放学路上，喜欢哼的流行歌曲 (440/1688) has 52 songs.
+INFO:[DataPipeline]:PlayList: [7356733698] 华语流行丨每处黑暗都能被爱点亮 (441/1688) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7286147190] 韩语流行&#32;│&#32;浮云朝露，皆因是你 (442/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7416649404] 流行霓虹｜愉悦打扫时的必备 (443/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7371170121] 华语流行丨让自由降落在蓝天 (444/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7371169776] 华语流行&#32;·&#32;七彩虹调陪伴你 (445/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7275653613] 「华语流行」好听的热门精选 (446/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7356734164] 轻柔流行&#32;·&#32;华语冲浪时刻 (447/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7337451534] 欧美流行：舞动在耳边的动人旋律 (448/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7380160500] 华语流行&#32;&#124;&#32;怀念那时的一切简单 (449/1688) has 23 songs.
+INFO:[DataPipeline]:Sleep for: 65
+INFO:[DataPipeline]:PlayList: [7309306286] 冷战已不流行，赶快回到我身边 (450/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7060354743] 华语流行&#32;&#124;&#32;精彩从现在开始 (451/1688) has 72 songs.
+INFO:[DataPipeline]:PlayList: [7309305360] 华语流行丨别忘记那份最初的梦 (452/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7328839716] 欧美流行丨触发从没见过的明亮 (453/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [3578215355] 当粤语流行变成钢琴纯音，失眠不再 (454/1688) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7347302942] 日语流行：去远方解开紧绷的思绪 (455/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7222868890] 欧美流行丨给我一首歌的时间洗脸 (456/1688) has 58 songs.
+INFO:[DataPipeline]:PlayList: [7286145633] Rap流行&#32;·聆听，年少轻狂的节奏 (457/1688) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7060353059] 国语流行&#32;&#124;&#32;那些回忆，永远都会在 (458/1688) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7319431405] 华语流行丨每个人都有不渺小的梦 (459/1688) has 24 songs.
+INFO:[DataPipeline]:Sleep for: 109
+INFO:[DataPipeline]:PlayList: [7113936125] 经典流行&#32;&#124;&#32;音乐里的旧时光 (460/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7078993863] 华语流行&#32;&#124;&#32;耐听且冷门的中文歌 (461/1688) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7337447913] 华语流行丨放一颗星球在你的眉头 (462/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7199052013] 华语流行&#32;&#124;&#32;野蛮公主必备养成曲 (463/1688) has 118 songs.
+INFO:[DataPipeline]:PlayList: [7371170597] 华语流行&#32;&#124;&#32;用眼泪把你复习一遍 (464/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7328839690] 韩语流行丨带你滑翔在云海上 (465/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7222866786] 欧美流行：解锁你的全新手机铃声 (466/1688) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7416646939] 华语流行丨未知的明天是下段旅程 (467/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7290325635] 欧美流行&#32;｜&#32;动感旋律，听音上瘾 (468/1688) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7252364953] 国语流行&#32;｜&#32;物是人非我还在原地 (469/1688) has 44 songs.
+INFO:[DataPipeline]:Sleep for: 168
+INFO:[DataPipeline]:PlayList: [7060353831] 华语流行&#32;&#124;&#32;唱响梦想的声音Live (470/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7083659810] 这些欧美流行，堪比咖啡届的星巴克 (471/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7380163020] 欧美流行&#32;&#124;&#32;拒绝一成不变的生活 (472/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7299186213] 欧美流行丨房间回荡旋律不断 (473/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7228611262] 韩系流行风&#32;&#124;&#32;抓住旋律的小尾巴 (474/1688) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7337448139] 放松流行&#32;·&#32;聆听惬意的情调 (475/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7371169374] 华语流行&#32;·&#32;好听到耳冒泡了 (476/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7380161465] 华语流行风：给听众的一封情书 (477/1688) has 16 songs.
+INFO:[DataPipeline]:PlayList: [3267181559] 90s华语流行，不被遗忘的经典 (478/1688) has 96 songs.
+INFO:[DataPipeline]:PlayList: [7252364698] 华语流行丨每次听都会泪目的Live (479/1688) has 33 songs.
+INFO:[DataPipeline]:Sleep for: 145
+INFO:[DataPipeline]:PlayList: [7212948083] DJ搭上流行歌曲，三秒就上头 (480/1688) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7174019304] 国语流行&#32;&#124;&#32;前男友在宿舍常放的歌 (481/1688) has 68 songs.
+INFO:[DataPipeline]:PlayList: [1139960347] 流行至今的熟悉旋律&#32;网络歌曲篇 (482/1688) has 38 songs.
+INFO:[DataPipeline]:PlayList: [7387862043] 欧美流行丨驱赶烦恼，注入活力 (483/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7309308126] 华语流行&#32;│&#32;陪回忆一起去流浪 (484/1688) has 16 songs.
+INFO:[DataPipeline]:PlayList: [7328838830] 华语流行&#32;·&#32;孤独里的一把暖火 (485/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7319432088] 欧美流行：旋律钻进脑海里内循环 (486/1688) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7181545918] 欧美流行&#32;&#124;&#32;分享朋友圈获得999＋赞 (487/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7286144613] 韩语流行丨奋力追逐闪耀光芒 (488/1688) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7356734210] 欧美流行&#32;·&#32;浪漫邂逅时光 (489/1688) has 22 songs.
+INFO:[DataPipeline]:Sleep for: 179
+INFO:[DataPipeline]:PlayList: [7228612673] 日语流行丨生活像天气，时晴时雨 (490/1688) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7337449597] 韩语流行派对&#32;·&#32;欢快舞步随心跳 (491/1688) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7319429776] 【欧美流行】温情满满的耳畔旋律 (492/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [3848007522] 边走边唱：旅途中的华语流行 (493/1688) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7319431383] 华语流行丨暂时背对世界逃离 (494/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7309305214] 欧美流行丨压抑住崩溃，消除疲惫 (495/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7268158761] 欧美流行丨拼凑被生活麻木的你 (496/1688) has 38 songs.
+INFO:[DataPipeline]:PlayList: [7371170170] 华语流行丨沉溺在梦境的过往&#32; (497/1688) has 16 songs.
+INFO:[DataPipeline]:PlayList: [7299189426] 欧美流行&#32;&#124;&#32;不知是否足够浪漫 (498/1688) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7371169810] 燃一根华语香烟，品惬意流行情调 (499/1688) has 16 songs.
+INFO:[DataPipeline]:Sleep for: 93
+INFO:[DataPipeline]:PlayList: [7222866968] 日系流行：一缕粉樱花的味道呼来 (500/1688) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7286145642] 华语流行&#32;·&#32;记忆深处的温柔情调 (501/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7319431425] 华语流行丨在过往的燃烧中褪色 (502/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7328839489] 华语流行丨学会抛开所有猜疑 (503/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7228622805] 休息远行时听点韩语流行 (504/1688) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7060350827] 钢琴曲&#32;&#124;&#32;流行乐的另一种演绎方式 (505/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7328838626] 韩语流行：幻想一场浪漫恋爱 (506/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7257965861] 耳畔回响&#32;&#124;&#32;流行电子风鉴赏 (507/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7268158414] 欧美流行&#32;&#124;&#32;一路顺畅到达目的地 (508/1688) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7319432784] 华语流行&#32;&#124;&#32;感受实力歌手的魅力 (509/1688) has 25 songs.
+INFO:[DataPipeline]:Sleep for: 88
+INFO:[DataPipeline]:PlayList: [7199061941] 欧美流行丨嗦碗Pasta当宵夜 (510/1688) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7337448030] 欧美流行丨当一颗守住你的月亮 (511/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7347299235] 华语流行丨做一颗渺小的尘埃 (512/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7380160494] 韩语流行&#32;·&#32;听了想跳舞的那种 (513/1688) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7356733677] 华语流行丨青春是握不住的流沙 (514/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7380160504] 华语流行：这些歌能读懂你 (515/1688) has 16 songs.
+INFO:[DataPipeline]:PlayList: [7290322301] 韩语流行&#32;&#124;&#32;轻松舒适的安静小调 (516/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7199065877] 欧美流行&#32;│&#32;血液中跳动的尼古丁 (517/1688) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7060350312] 华语流行&#32;&#124;&#32;与之共鸣的最美之声 (518/1688) has 61 songs.
+INFO:[DataPipeline]:PlayList: [3800022780] 妩媚&#32;•&#32;伦巴舞中的流行元素 (519/1688) has 51 songs.
+INFO:[DataPipeline]:Sleep for: 123
+INFO:[DataPipeline]:PlayList: [850557559] 2016&#32;VEVO欧美电子流行Top&#32;100 (520/1688) has 100 songs.
+INFO:[DataPipeline]:PlayList: [7309304494] 快乐向：畅享华语流行节奏 (521/1688) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7275652105] 韩语流行丨魅力男声包围你 (522/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7380162214] 华语流行丨你是我不愿醒来的梦 (523/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7319432326] 欧美流行：能在心底开花的旋律 (524/1688) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7347298950] 华语流行丨时光不用斟酌再流淌 (525/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7299186050] 华语流行丨灯火多灿烂都为你黯淡 (526/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7086550721] 欧美&#32;&#124;&#32;流行女声翻唱系列 (527/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7380160800] 华语流行&#32;·&#32;听当代诗人歌唱 (528/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7114870019] 韩国DJ小姐姐推荐的流行电子风 (529/1688) has 24 songs.
+INFO:[DataPipeline]:Sleep for: 73
+INFO:[DataPipeline]:PlayList: [7099765087] 华语流行&#32;&#124;&#32;再也不隐藏我的心意啦 (530/1688) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7222866752] 欧美流行：将快乐立马兑现出发吧 (531/1688) has 53 songs.
+INFO:[DataPipeline]:PlayList: [7328839727] &#32;韩语流行丨逆风里漫步云端 (532/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7309305567] 华语流行丨潜进臆想的深渊 (533/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7083739857] 欧美流行&#32;&#124;&#32;时光不再，经典永存 (534/1688) has 40 songs.
+INFO:[DataPipeline]:PlayList: [4160796684] 欧美流行无损音乐50首 (535/1688) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7371170358] 华语流行丨击破天空乌云的捉弄 (536/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7174021250] 国语流行丨你是我心中的白月光 (537/1688) has 62 songs.
+INFO:[DataPipeline]:PlayList: [2339014155] 【经典】回味记忆中的内地流行启蒙金曲 (538/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7290322669] 韩系流行&#32;·&#32;纸糖里的甜味剂 (539/1688) has 28 songs.
+INFO:[DataPipeline]:Sleep for: 147
+INFO:[DataPipeline]:PlayList: [7371170373] 华语流行丨时间将带走所有的迷惑 (540/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7309306681] 欧美流行：过耳不忘的清新俏皮风 (541/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7309305537] 华语流行丨时间无声掠过指尖 (542/1688) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7387864214] 韩语流行&#32;&#124;&#32;演绎我们曾说的承诺 (543/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7319430699] 国语流行&#32;·&#32;静享轻松小调 (544/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7023193227] 【华语翻唱】当流行遇上民歌 (545/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7181073416] 欧美流行&#32;&#124;&#32;作业写完解放那刻 (546/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7319431353] 华语流行丨将烦恼随风蒸发掉 (547/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7286144556] 国语流行丨让思绪在荒野里游走 (548/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7371169846] 流行藏风：就像一朵美丽的格桑花 (549/1688) has 30 songs.
+INFO:[DataPipeline]:Sleep for: 163
+INFO:[DataPipeline]:PlayList: [7299190986] 嘻哈流行&#32;│&#32;倾听年少轻狂的自己 (550/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7387863246] 华语流行&#32;&#124;&#32;其实你并没那么孤单 (551/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7337450151] 藏语流行旋律&#32;·&#32;藏在歌里的心情 (552/1688) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7387861842] 华语流行丨把心里所有杂念清空 (553/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7387862839] 校园电台时分&#32;&#124;&#32;热门流行中 (554/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7286147217] 欧美流行：旋律，就是要与众不同 (555/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7083913354] 欧美流行丨藏在iPod里的歌 (556/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7371170385] 华语流行丨点燃希望的最暖焰火 (557/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [1088246462] 1993年度国语流行精选 (558/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7328839684] 韩语流行丨陷入患得患失的漩涡里 (559/1688) has 21 songs.
+INFO:[DataPipeline]:Sleep for: 80
+INFO:[DataPipeline]:PlayList: [7286145764] 华语流行&#32;·&#32;撩耳现场，醉迷人 (560/1688) has 38 songs.
+INFO:[DataPipeline]:PlayList: [7319435268] 欧美流行&#32;│&#32;甩掉烦恼，做回自己 (561/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [3170398463] 流行英文歌曲集 (562/1688) has 119 songs.
+INFO:[DataPipeline]:PlayList: [2289479934] 1990年度国语流行精选 (563/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7347299510] 华语流行&#32;·&#32;开启欢乐时光 (564/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7356735517] 华语流行：不可抗拒的好声音 (565/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7328839440] 韩语流行丨加快呼吸寻找自己 (566/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7347464807] 欧美流行&#32;·&#32;悠扬的柔情乐韵 (567/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7174021253] 国语流行丨年少有为，为你所爱 (568/1688) has 61 songs.
+INFO:[DataPipeline]:PlayList: [7060353120] 欧美流行丨让人惊艳的金曲演绎 (569/1688) has 50 songs.
+INFO:[DataPipeline]:Sleep for: 77
+INFO:[DataPipeline]:PlayList: [1986664077] 1998年华语流行精选 (570/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7252364553] 华语流行丨带你私奔到天际 (571/1688) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7371169724] 韩语流行&#32;·&#32;私密独享此份节奏 (572/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7167574890] 华语流行&#32;&#124;&#32;闭上眼睛，梦着来日的美 (573/1688) has 75 songs.
+INFO:[DataPipeline]:PlayList: [1767939574] 「华语流行」那些适合女生唱的歌 (574/1688) has 74 songs.
+INFO:[DataPipeline]:PlayList: [7228610752] 流行电子风&#32;&#124;&#32;听一宿都不腻 (575/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7167575270] 华语流行&#32;&#124;&#32;带上节奏去买面包 (576/1688) has 60 songs.
+INFO:[DataPipeline]:PlayList: [7174034897] 华语流行&#32;&#124;&#32;千万别被绝望打败 (577/1688) has 66 songs.
+INFO:[DataPipeline]:PlayList: [7275652500] 网络流行&#32;·&#32;可爱们铃声该换了 (578/1688) has 47 songs.
+INFO:[DataPipeline]:PlayList: [1132807961] 那些入耳就醉的流行国语 (579/1688) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 70
+INFO:[DataPipeline]:PlayList: [7271039572] 华语流行&#32;&#124;&#32;爱情合同，一式两份 (580/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [2961676672] 「流行搜罗」全球百首洗脑神曲合集BGM (581/1688) has 113 songs.
+INFO:[DataPipeline]:PlayList: [7371170266] 欧美流行丨淌过云层翻滚的波澜 (582/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7387861630] 华语流行丨偶然触碰心口的温柔 (583/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7347299617] 流行&#32;·&#32;我与“华语”有个约会 (584/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7347298957] 韩语流行丨&#32;世界停止转动也无妨 (585/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7319430345] 陶情适性&#32;·&#32;漫步时听的华语流行 (586/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7347301138] 华语流行&#32;&#124;&#32;披着热闹的寂寞世界 (587/1688) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7328839736] 韩语流行丨与人潮背行，标新立异 (588/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7286145505] 惬意流行&#32;·&#32;乐享悠闲华语情调 (589/1688) has 34 songs.
+INFO:[DataPipeline]:Sleep for: 147
+INFO:[DataPipeline]:PlayList: [7337448152] 华语流行&#32;·&#32;宁静里的小确幸 (590/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7159994910] 独立流行：旋律中的柔和声线 (591/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7083441360] 欧美流行：唱出了真心，陶醉于人声 (592/1688) has 35 songs.
+INFO:[DataPipeline]:PlayList: [2643788173] 流行音乐最初的记忆：邓丽君 (593/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7380162405] 欧美流行&#32;│&#32;集时尚与潮流一起 (594/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7222869074] 华语流行&#32;│&#32;放了自己，放了回忆 (595/1688) has 38 songs.
+INFO:[DataPipeline]:PlayList: [7387862426] 华语流行：请向着光的方向前行 (596/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7337447772] 华语流行丨穿过时间的海去未来 (597/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [850472469] 我和这些流行歌曲的不期而遇 (598/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7337449209] 韩语流行&#32;&#124;&#32;心动指数百分百 (599/1688) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 86
+INFO:[DataPipeline]:PlayList: [7290323760] 韩语流行丨相遇后，期待变得完整 (600/1688) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7309306365] 欧美流行：在静谧午夜星空中迷失 (601/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [2372394120] 「网络流行歌曲」听的是回忆 (602/1688) has 54 songs.
+INFO:[DataPipeline]:PlayList: [7286144651] 华语流行丨沿时光刻度逐帧记录 (603/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7286144578] 华语流行丨像尘埃散落在边疆地带 (604/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7337449541] 欧美流行：慢慢感叹旅程中的美妙 (605/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7347299128] 韩语流行丨愿永昼覆盖黑夜 (606/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7095893565] 华语流行｜等待是有差距的 (607/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7299187242] 欧美流行：给你注入无限动力 (608/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7356733606] 韩语流行丨遮住回你怀里的路程 (609/1688) has 34 songs.
+INFO:[DataPipeline]:Sleep for: 66
+INFO:[DataPipeline]:PlayList: [7012660103] 欧美流行&#32;&#124;&#32;直视问题，无畏困难 (610/1688) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7380161458] 华语流行：送你一份独有旋律 (611/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7337448387] 华语流行&#32;·&#32;独享闲暇时光 (612/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7380162089] 华语流行丨跌进了心底猝然清醒 (613/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [3489363773] 1996年度国语流行精选 (614/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7060355252] 欧美流行丨沉迷在纸醉金迷 (615/1688) has 46 songs.
+INFO:[DataPipeline]:PlayList: [7319435848] 华语流行：圈在音乐里的千思万绪 (616/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7039324111] Indie&#32;Pop&#32;&#124;&#32;更具灵魂的流行乐 (617/1688) has 68 songs.
+INFO:[DataPipeline]:PlayList: [7268158611] 韩语流行丨在我的嗓音里沉醉 (618/1688) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7167575018] 华语流行&#32;&#124;&#32;校园广播站推荐曲目 (619/1688) has 40 songs.
+INFO:[DataPipeline]:Sleep for: 121
+INFO:[DataPipeline]:PlayList: [7337447842] 华语流行丨这世界本来就没道理 (620/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7347292107] 日语流行&#32;&#124;&#32;散步在雨后的街道 (621/1688) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7309305447] 华语流行丨别怕失去，别信质疑 (622/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7181839261] 欧美流行&#32;&#124;&#32;你的快乐増剂药散了 (623/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7182025970] 欧美流行丨开在夏威夷的水果店 (624/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7347302684] 华语流行：心底微亮的光还有温暖 (625/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7268158743] 经典流行丨时光的隧道已开启 (626/1688) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7309308048] 欧美流行&#32;│&#32;节奏患者的处方药 (627/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7387861805] 华语流行丨在相拥的时刻停止不前 (628/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7309305238] 华语流行丨当世界和星辰交汇 (629/1688) has 24 songs.
+INFO:[DataPipeline]:Sleep for: 90
+INFO:[DataPipeline]:PlayList: [7318875407] 「流行电子潮」迷失状态指南 (630/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [6543771358] 归家旅途必备之国语流行 (631/1688) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7060354331] 热门流行翻唱，各有特色 (632/1688) has 50 songs.
+INFO:[DataPipeline]:PlayList: [3543438360] 走进记忆深处，回味熟悉国语流行曲 (633/1688) has 49 songs.
+INFO:[DataPipeline]:PlayList: [3569246959] 「华语流行」未发觉，泪已沾裳 (634/1688) has 85 songs.
+INFO:[DataPipeline]:PlayList: [7371169807] 华语流行·&#32;舒心旋律环绕在耳 (635/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7026791364] 华语流行里的东方魅力 (636/1688) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7319431099] 华语流行丨柔软光芒照亮缱绻轮廓 (637/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7100421837] 日语流行&#32;&#124;&#32;去KTV无法模仿的唱腔 (638/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7328839303] 韩语流行丨接受这世界的不完美 (639/1688) has 23 songs.
+INFO:[DataPipeline]:Sleep for: 97
+INFO:[DataPipeline]:PlayList: [7380161787] 华语流行丨急着把未来都装进口袋 (640/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [3537299273] 当古筝遇上流行音乐 (641/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7161404393] 日语流行&#32;│&#32;时常沉醉在夜晚的丧里 (642/1688) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7051467471] 流行朋克：三和弦的狂欢 (643/1688) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7337448417] 华语流行&#32;·&#32;良辰美景与歌 (644/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7286144868] 国语流行丨不想为谁刻意存在 (645/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7060355081] 恋爱流行&#32;&#124;&#32;愿意为你去冒险 (646/1688) has 54 songs.
+INFO:[DataPipeline]:PlayList: [7075162863] 华语流行：来首橘子味的欢乐小调 (647/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7167574754] 华语流行&#32;&#124;&#32;为你弹奏青春的旋律 (648/1688) has 63 songs.
+INFO:[DataPipeline]:PlayList: [7371169947] 流行欧美：好听就是要单曲循环 (649/1688) has 29 songs.
+INFO:[DataPipeline]:Sleep for: 158
+INFO:[DataPipeline]:PlayList: [7337447854] 欧美流行丨欢迎搭乘追梦的征途 (650/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7174020748] 华语流行分享会：有品味的人都在听 (651/1688) has 85 songs.
+INFO:[DataPipeline]:PlayList: [1757933544] &#32;90后记忆中的中国风：流行歌曲中的诗意 (652/1688) has 79 songs.
+INFO:[DataPipeline]:PlayList: [7199062307] 欧美流行｜荷尔蒙催化剂 (653/1688) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7257714530] 日系流行电子，这些音乐太上头了 (654/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7319429869] 韩系流行&#32;&#124;&#32;充满野性的动感潮流 (655/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7257730725] 流行电子风：上班提神醒脑必备 (656/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7328840106] 华语流行：关于未来，请你坦然 (657/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7075094146] 华语流行&#32;&#124;&#32;如诗如歌真滋味 (658/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7060354356] 日语流行丨回眸瞬间的惊鸿一瞥 (659/1688) has 45 songs.
+INFO:[DataPipeline]:Sleep for: 147
+INFO:[DataPipeline]:PlayList: [7089582021] 欧美流行&#32;&#124;&#32;就想与你腻歪在一起 (660/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7380160674] 华语流行&#32;&#124;&#32;在黑暗中绽放的花火 (661/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7286143308] 华语流行&#32;&#124;&#32;你是藏进梦里的月亮 (662/1688) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7387863274] 华语流行：没机会说出心底的答案 (663/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7319430443] 耳朵喜欢&#32;·&#32;独享欧美流行节奏 (664/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7060355291] 安静纯音乐│钢琴与流行的对话 (665/1688) has 51 songs.
+INFO:[DataPipeline]:PlayList: [7286145405] Live流行&#32;·&#32;品味现场完美的演唱 (666/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7286144740] 华语流行丨打磨浸泡让我成长 (667/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7181542550] 欧美流行&#32;&#124;&#32;这个网咖我要常去了 (668/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7371169898] 韩语流行：极致的节奏浪潮 (669/1688) has 17 songs.
+INFO:[DataPipeline]:Sleep for: 77
+INFO:[DataPipeline]:PlayList: [7347302957] 华语流行：希望人生旅途有你陪伴 (670/1688) has 16 songs.
+INFO:[DataPipeline]:PlayList: [7337448199] 华语流行&#32;·&#32;独处时的暖心陪伴 (671/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7337448395] 华语流行&#32;·&#32;畅享影视情调 (672/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7199052124] 华语流行&#32;&#124;&#32;候车时刻必备歌曲 (673/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7356733757] 韩语流行丨拥有飞蛾扑火的力量 (674/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7347301972] 欧美流行&#32;│&#32;徜徉于旋律之海 (675/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [3493729632] 2015年度欧美流行精选 (676/1688) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7252364802] 欧美流行丨拯救被攫干脑子的你 (677/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7347300657] 韩语流行&#32;&#124;&#32;是心动的感觉吖！ (678/1688) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7319075181] 有范儿&#32;·&#32;颇具流行气息的电子 (679/1688) has 16 songs.
+INFO:[DataPipeline]:Sleep for: 160
+INFO:[DataPipeline]:PlayList: [7299186252] 欧美流行丨悲伤休止符 (680/1688) has 39 songs.
+INFO:[DataPipeline]:PlayList: [1035627845] 那些年流行的英文金曲 (681/1688) has 61 songs.
+INFO:[DataPipeline]:PlayList: [7286145541] 欧美流行&#32;&#124;&#32;为运动奏响激昂乐章 (682/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [2973032497] 「日系鬼畜」盘点百首流行曲＆ACG动漫 (683/1688) has 96 songs.
+INFO:[DataPipeline]:PlayList: [3221236284] 这是艺术！当流行金曲遇上钢琴 (684/1688) has 49 songs.
+INFO:[DataPipeline]:PlayList: [7337447884] 华语流行丨寻找不同未知的心动 (685/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7309306374] 欧美流行&#32;&#124;&#32;难以忘怀的节奏旋律 (686/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7299191000] 韩语流行&#32;│&#32;旋律侵袭我们的身体 (687/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7328839456] 韩语流行丨身在混沌的世界下坠 (688/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7228613078] 欧美流行丨破碎的城市没有孤独 (689/1688) has 23 songs.
+INFO:[DataPipeline]:Sleep for: 84
+INFO:[DataPipeline]:PlayList: [4270146099] 独立流行丨文艺青年的敏感语录 (690/1688) has 35 songs.
+INFO:[DataPipeline]:PlayList: [2289274074] 2005年华语流行最热单曲 (691/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7337447883] 韩语流行丨用热情传递热爱 (692/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [3489370472] 70年代台湾的流行金曲 (693/1688) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7275652121] 华语流行丨别让日子过得乱如麻 (694/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7319433126] 欧美流行&#32;&#124;&#32;开启活力满满的一天 (695/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [1769135285] 「国粤流行」同曲不同语，演绎不同味道 (696/1688) has 803 songs.
+INFO:[DataPipeline]:PlayList: [7222868797] 华语流行丨安抚满街受伤的灵魂 (697/1688) has 47 songs.
+INFO:[DataPipeline]:PlayList: [7228611062] 华语流行&#32;&#124;&#32;当红流量男声精选 (698/1688) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7319436097] 韩语流行：在旅途中陪伴左右 (699/1688) has 22 songs.
+INFO:[DataPipeline]:Sleep for: 75
+INFO:[DataPipeline]:PlayList: [7347299034] 华语流行丨年轻的心挑战中活跃 (700/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7290323765] 韩语流行丨耳边蔓延心动的感觉 (701/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [3845046171] 那些年90后的流行歌 (702/1688) has 118 songs.
+INFO:[DataPipeline]:PlayList: [3534142085] 华语流行热歌，车程无忧 (703/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7337447797] 华语流行丨流星循着夜空划过 (704/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7309305635] 韩语流行丨逆风里漫步云端 (705/1688) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7319433962] 欧美流行丨时间从我身边夺走一切 (706/1688) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7268158812] 韩语流行丨随心所欲，搞砸一切 (707/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [4192789129] 听不懂也会跟着哼的闽南语流行曲&#32; (708/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [2930098363] 抖音流行英文歌曲 (709/1688) has 76 songs.
+INFO:[DataPipeline]:Sleep for: 93
+INFO:[DataPipeline]:PlayList: [3706077127] 流行也带电&#32;&#124;&#32;欧美热单Remix版 (710/1688) has 51 songs.
+INFO:[DataPipeline]:PlayList: [7328839494] 华语流行丨活出生命自由的模样 (711/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7275652368] 乐享&#32;·&#32;轻松悦听翻唱流行曲 (712/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [848227911] 塞车时&#32;听粤语流行歌Kill&#32;Time&#33; (713/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [3569246646] 「韩语」流行推荐，韩迷福利 (714/1688) has 104 songs.
+INFO:[DataPipeline]:PlayList: [7319432155] 韩语流行团&#32;·&#32;引领你获取好心情 (715/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [2915752405] 古风之韵，戏曲撞上流行 (716/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7299187707] 华语流行：想和你分享我的梦 (717/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7224143986] Marc&#32;Anthony&#32;&#124;&#32;西洋流行乐的烈焰 (718/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7328839098] 宛如阳光般暖和的欧美流行 (719/1688) has 25 songs.
+INFO:[DataPipeline]:Sleep for: 151
+INFO:[DataPipeline]:PlayList: [7286145310] 欧美流行：打起精神带你摆脱困意 (720/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7199065481] 欧美流行&#32;&#124;&#32;让洗碗变得愉悦起来 (721/1688) has 33 songs.
+INFO:[DataPipeline]:PlayList: [1088205561] 2008年华语流行最热单曲 (722/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7319432915] 欧美流行&#32;&#124;&#32;给情绪注射一剂欢乐 (723/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7337448156] 惬意流行&#32;·&#32;静享浪漫情调 (724/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7085019540] 欧美流行丨热门歌曲翻唱合集 (725/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7060354742] 华语流行&#32;&#124;&#32;我想，你不再需要我 (726/1688) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7337448096] 华语流行丨藏起内心最柔软的地方 (727/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7073839282] 现实主义：谁说华语流行只有情歌 (728/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7328841572] 欧美流行：动感旋律给你无限活力 (729/1688) has 21 songs.
+INFO:[DataPipeline]:Sleep for: 179
+INFO:[DataPipeline]:PlayList: [6586513354] 欧美鼓点&#32;·&#32;舞动的流行乐旋律 (730/1688) has 73 songs.
+INFO:[DataPipeline]:PlayList: [7228612993] 韩语流行丨歌声偷偷溜进梦里 (731/1688) has 38 songs.
+INFO:[DataPipeline]:PlayList: [3235545911] 经典华语流行歌曲——90年代 (732/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [840990738] 80年代香港流行乐赏析 (733/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2339028712] 叱咤风云，香港80年代经典流行歌曲选集 (734/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2067204382] 「欧美流行」音乐中的带感节奏 (735/1688) has 810 songs.
+INFO:[DataPipeline]:PlayList: [3764678117] 华语流行歌里的古筝元素 (736/1688) has 36 songs.
+INFO:[DataPipeline]:PlayList: [1996924100] 叱咤乐坛的流行&#45;粤耳旋律 (737/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [1432912263] 我之所以能流行，因为本来就流行 (738/1688) has 142 songs.
+INFO:[DataPipeline]:PlayList: [7286145510] 欧美流行：我们可以挣脱一切束缚 (739/1688) has 21 songs.
+INFO:[DataPipeline]:Sleep for: 157
+INFO:[DataPipeline]:PlayList: [6269042360] 2018叱咤乐坛流行榜获奖名单 (740/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7328839511] 华语流行丨繁星照亮每个心愿 (741/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7328840374] 流行华语风：陪你去梦陪你去疯 (742/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7299185844] 华语流行丨美好照亮在每个地方 (743/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7299186357] 韩语流行丨余韵萦绕在心底 (744/1688) has 35 songs.
+INFO:[DataPipeline]:PlayList: [3267181538] 「韩语流行」听不腻的好节奏 (745/1688) has 170 songs.
+INFO:[DataPipeline]:PlayList: [7299185452] 日系流行&#32;&#124;&#32;限量贩卖治愈音 (746/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7347300202] 华语流行：拯救你的歌荒时间 (747/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7347300202] 华语流行：拯救你的歌荒时间 (748/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7309305157] 韩语流行丨歌唱时光的剧本 (749/1688) has 27 songs.
+INFO:[DataPipeline]:Sleep for: 164
+INFO:[DataPipeline]:PlayList: [2950696721] VEVO2017欧美最新流行热单100首 (750/1688) has 100 songs.
+INFO:[DataPipeline]:PlayList: [7299184529] 抒情流行&#32;·&#32;尚好的青春，都是你 (751/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7290322836] 酣畅情调&#32;·&#32;过耳难忘的华语流行 (752/1688) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7060354511] 华语流行：与你来一场灵魂的共鸣 (753/1688) has 54 songs.
+INFO:[DataPipeline]:PlayList: [7299184744] 华语流行&#32;·&#32;漫长告别是青春盛宴 (754/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [1986556715] 2007年度国语流行精选 (755/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7299189112] 欧美流行&#32;&#124;&#32;我的心在高空翱翔 (756/1688) has 43 songs.
+INFO:[DataPipeline]:PlayList: [7299189506] 韩语流行&#32;&#124;&#32;你靠太近我开始心动 (757/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7290324578] 欧美流行&#32;&#124;&#32;一路畅行到达目的地 (758/1688) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7299186072] 欧美流行丨逃离充满难题的生活 (759/1688) has 27 songs.
+INFO:[DataPipeline]:Sleep for: 89
+INFO:[DataPipeline]:PlayList: [7309305662] 华语流行丨破浪之前需要沉淀 (760/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7347300363] 韩语流行&#32;·&#32;一秒触发你的少女心 (761/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [4195021654] 古今Mix&#32;&#124;&#32;民乐演绎流行歌曲 (762/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7299186156] 欧美流行丨寻找喧嚣与幻象 (763/1688) has 32 songs.
+INFO:[DataPipeline]:PlayList: [819870456] 纯音｜流行于欧美抖腿级电音&#46; (764/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7299190603] 华语流行&#32;│&#32;人生离不开音乐 (765/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7299190046] 韩语流行丨我愿沦陷在你的歌声 (766/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7268157652] 出游记&#32;·&#32;路上来听点韩语流行 (767/1688) has 34 songs.
+INFO:[DataPipeline]:PlayList: [1141291796] 音乐疯：欧美超强Pop流行音乐精选 (768/1688) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7260807327] 爵士&#43;流行，私藏的最佳伴侣 (769/1688) has 19 songs.
+INFO:[DataPipeline]:Sleep for: 128
+INFO:[DataPipeline]:PlayList: [2887679926] 80年代那些我们最初听过的流行歌曲 (770/1688) has 15 songs.
+INFO:[DataPipeline]:PlayList: [2557953464] 沉醉于英文流行爵士 (771/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7299185887] 华语流行丨渗透坚定的信仰 (772/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [1986556734] 2007年华语流行最热单曲 (773/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7228610938] 流行电子潮&#32;&#124;&#32;视频剪辑卡点必备 (774/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7086214888] 欧美流行丨解忧杂货店 (775/1688) has 66 songs.
+INFO:[DataPipeline]:PlayList: [1167624236] 华语流行之「中粤」镜像歌曲 (776/1688) has 104 songs.
+INFO:[DataPipeline]:PlayList: [1469897849] 「华语歌钢琴版&#32;」古典与流行的完美邂逅 (777/1688) has 120 songs.
+INFO:[DataPipeline]:PlayList: [2339122586] 80年代台湾流行乐赏析 (778/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7286144781] 韩语流行丨遵循内心指引出发 (779/1688) has 35 songs.
+INFO:[DataPipeline]:Sleep for: 76
+INFO:[DataPipeline]:PlayList: [2289274037] 2005年度国语流行精选 (780/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [840983720] 叱咤风云，香港早期经典流行歌曲选集 (781/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [3489254724] 1999年度国语流行精选 (782/1688) has 12 songs.
+INFO:[DataPipeline]:PlayList: [7253252811] 跟随潮牌方向，追逐说唱流行 (783/1688) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7299185899] 韩语流行丨找一条线路连通你心里 (784/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7309308860] 日语流行：扔下所有负担继续向前 (785/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7286147272] 悦享生活&#32;│&#32;让你沦陷欧美流行 (786/1688) has 44 songs.
+INFO:[DataPipeline]:PlayList: [7299189180] 韩语流行&#32;｜&#32;男团女团们的记忆 (787/1688) has 32 songs.
+INFO:[DataPipeline]:PlayList: [851247569] 90&#32;&#32;流行粤语歌曲，触动了几代人的青春 (788/1688) has 222 songs.
+INFO:[DataPipeline]:PlayList: [7268158680] 韩语流行丨歌声是撩人的犯罪 (789/1688) has 36 songs.
+INFO:[DataPipeline]:Sleep for: 125
+INFO:[DataPipeline]:PlayList: [7060355201] 欧美流行丨每天都是圣诞节 (790/1688) has 52 songs.
+INFO:[DataPipeline]:PlayList: [7252362321] 华语流行：给予你青春活力气息 (791/1688) has 52 songs.
+INFO:[DataPipeline]:PlayList: [3526381021] 『华语』流行对战民谣，你更喜欢哪一款？ (792/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [1767939567] 「欧美流行」极致人声&#32;一秒沦陷 (793/1688) has 119 songs.
+INFO:[DataPipeline]:PlayList: [842870623] 欧美&#124;性感热辣的流行舞曲 (794/1688) has 67 songs.
+INFO:[DataPipeline]:PlayList: [2897874585] 欧美流行：旅行途中放松的歌 (795/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7060352778] 国语流行&#32;&#124;&#32;别嫌弃我说土味情话 (796/1688) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7268157701] 【欧美篇】惬意节奏流行旋律 (797/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7319432995] 欧美流行：用活力旋律拼凑出快乐 (798/1688) has 33 songs.
+INFO:[DataPipeline]:PlayList: [4258441330] 傍晚公园散步听的华语流行 (799/1688) has 31 songs.
+INFO:[DataPipeline]:Sleep for: 147
+INFO:[DataPipeline]:PlayList: [2371751411] 不变的偶像情怀，好听的台湾流行歌 (800/1688) has 148 songs.
+INFO:[DataPipeline]:PlayList: [7299189420] 国语流行&#32;&#124;&#32;奉献给你最好的我 (801/1688) has 34 songs.
+INFO:[DataPipeline]:PlayList: [4252664955] 2018年优质华语电音流行 (802/1688) has 45 songs.
+INFO:[DataPipeline]:PlayList: [7309305449] 韩语流行丨带着音浪在云中穿行 (803/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7299190746] 韩语流行&#32;│&#32;闻到音乐，品尝旋律 (804/1688) has 16 songs.
+INFO:[DataPipeline]:PlayList: [7337448941] 国语流行：藏一片自己的秘密花园 (805/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7299190462] 韩语流行丨你是否知道我的心 (806/1688) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7044599639] 另类流行&#32;&#124;&#32;有点淘气慵懒且空灵 (807/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7337448468] 华语流行&#32;·&#32;宁静时的好风光 (808/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7256667801] 日语流行&#32;│&#32;是谁，在敲打我的心 (809/1688) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 145
+INFO:[DataPipeline]:PlayList: [2658298567] 下班高峰期，让流行热歌陪你度过 (810/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7086214906] 欧美流行：优雅成熟，慵懒成性 (811/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7268158830] 欧美流行丨点击重获快乐心情 (812/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7286143259] 韩语流行公式&#32;·&#32;你的心动报表 (813/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [872840140] 「欧美流行」听小众的歌曲，做独特的人 (814/1688) has 315 songs.
+INFO:[DataPipeline]:PlayList: [2669638684] 「欧美流行」美妙旋律萦绕心间 (815/1688) has 83 songs.
+INFO:[DataPipeline]:PlayList: [1101769256] 迷失的丹尼：独立流行&#32;/&#32;梦幻流行 (816/1688) has 37 songs.
+INFO:[DataPipeline]:PlayList: [2044424416] 流行女皇：Lady&#32;Gaga&#32;40首歌曲精选 (817/1688) has 40 songs.
+INFO:[DataPipeline]:PlayList: [1985482799] 欧美｜重返80年代，合成器流行电子音乐 (818/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7299189716] 校园广播：华语流行向火光前进 (819/1688) has 25 songs.
+INFO:[DataPipeline]:Sleep for: 111
+INFO:[DataPipeline]:PlayList: [7085986578] 欧美流行&#32;&#124;&#32;爱是互相以诚相待 (820/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7199068715] 嘿！你有用唱片听过欧美流行吗？ (821/1688) has 46 songs.
+INFO:[DataPipeline]:PlayList: [7299190900] 韩语流行&#32;│&#32;请你们一直走花路吧 (822/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [2372393770] 热辣韩国流行，总有一首电到你 (823/1688) has 273 songs.
+INFO:[DataPipeline]:PlayList: [7083676840] 欧美流行&#32;&#124;&#32;音乐天堂杂志集选 (824/1688) has 43 songs.
+INFO:[DataPipeline]:PlayList: [1959489165] 不可错过的华语流行女声 (825/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [840981332] KTV国语流行情歌对唱 (826/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [3240254793] 内地流行乐坛90年代经典回顾 (827/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2067205764] 「华语流行」心灵独白，内心感触 (828/1688) has 104 songs.
+INFO:[DataPipeline]:PlayList: [7286145334] 华语流行：加速狂飙去追逐美好吧 (829/1688) has 25 songs.
+INFO:[DataPipeline]:Sleep for: 135
+INFO:[DataPipeline]:PlayList: [5907128557] 北欧制造&#32;&#124;&#32;独立流行新声代 (830/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7290323872] 华语流行丨歌声里藏着我的玩笑 (831/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7060352384] 流行标杆！这就是原创 (832/1688) has 45 songs.
+INFO:[DataPipeline]:PlayList: [4151645164] 别具一格&#33;&#32;听流行歌手演绎民谣 (833/1688) has 47 songs.
+INFO:[DataPipeline]:PlayList: [2638183297] 引领乐坛的90年代香港流行乐 (834/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7060353928] 欧美流行丨每一首都带动你的心跳 (835/1688) has 58 songs.
+INFO:[DataPipeline]:PlayList: [7299187640] 华语流行：学会欣赏未知的风景 (836/1688) has 32 songs.
+INFO:[DataPipeline]:PlayList: [4095380960] 古风歌手演绎的原创流行精选 (837/1688) has 51 songs.
+INFO:[DataPipeline]:PlayList: [1129961226] 盲鸟的告别：自赏摇滚&#32;/&#32;梦幻流行 (838/1688) has 51 songs.
+INFO:[DataPipeline]:PlayList: [1088082547] 2000年度国语流行精选 (839/1688) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 91
+INFO:[DataPipeline]:PlayList: [2868427817] 极品欧美流行歌曲，百听不厌！ (840/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7060356404] 创造101赋予的女孩们&#32;&#124;&#32;流行 (841/1688) has 43 songs.
+INFO:[DataPipeline]:PlayList: [3242963722] 2020流行歌曲，很有感觉 (842/1688) has 751 songs.
+INFO:[DataPipeline]:PlayList: [3267181279] 「别样动听」当异域风遇上华语流行 (843/1688) has 118 songs.
+INFO:[DataPipeline]:PlayList: [2033976962] 00年代&#32;我们听的国语流行 (844/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [3577696766] 城南旧事：流行华语歌中的复古民国风 (845/1688) has 50 songs.
+INFO:[DataPipeline]:PlayList: [3570435198] 「欧美流行精选」耳癌晚期的不二之选 (846/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [2542852407] 小众流行&#32;尽享欧美节奏 (847/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2671455102] 「华语流行」眷恋老时光里的调调 (848/1688) has 101 songs.
+INFO:[DataPipeline]:PlayList: [1754145515] 华语流行港台男歌手，循环系列 (849/1688) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 75
+INFO:[DataPipeline]:PlayList: [7060353907] 欧美流行丨秀出你的风潮 (850/1688) has 54 songs.
+INFO:[DataPipeline]:PlayList: [2362306485] 韩语流行&#32;&#124;&#32;充满灵魂的韩式节奏布鲁斯 (851/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7084775931] 摩托帮俱乐部：流行金属精选 (852/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [3267181490] 流行节奏，给你的耳机注入活力 (853/1688) has 86 songs.
+INFO:[DataPipeline]:PlayList: [5233664520] 历届AMAs最受欢迎流行/摇滚单曲 (854/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [1088196726] 2006年度国语流行精选 (855/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1088086772] 2000年华语流行最热单曲 (856/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2367015879] 听流行男歌手，诠释伤感之情 (857/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1434390238] 让你不舍得放下耳机的欧美流行 (858/1688) has 107 songs.
+INFO:[DataPipeline]:PlayList: [2934761797] 那些放不下的流行钢琴曲 (859/1688) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 142
+INFO:[DataPipeline]:PlayList: [4737453156] 古今合璧&#32;·&#32;民乐演绎经典流行 (860/1688) has 33 songs.
+INFO:[DataPipeline]:PlayList: [2671463906] 那些年流行于QQ空间的欧美歌 (861/1688) has 160 songs.
+INFO:[DataPipeline]:PlayList: [2352988334] 古风嗓音PK现代流行，耳目一新的体验 (862/1688) has 60 songs.
+INFO:[DataPipeline]:PlayList: [2966940888] 流行&#124;&#32;迷幻，让人目眩神迷的声音 (863/1688) has 91 songs.
+INFO:[DataPipeline]:PlayList: [1986456307] 2001年度国语流行精选 (864/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2966940617] 维吾尔流行，民族文化中的现代气息 (865/1688) has 101 songs.
+INFO:[DataPipeline]:PlayList: [1132790156] 国语流行，翻开回忆角落 (866/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1132807965] 流行国语/沉甸甸熟悉的音律 (867/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1740812729] 欧美动画电影流行音乐精选 (868/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [2030739398] 指尖弹奏钢琴下的流行音&#126; (869/1688) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 89
+INFO:[DataPipeline]:PlayList: [2062633054] 「似水流年」百首经典流行钢琴纯音 (870/1688) has 100 songs.
+INFO:[DataPipeline]:PlayList: [7060352993] 国语流行&#32;&#124;&#32;青年团训创造营2019 (871/1688) has 38 songs.
+INFO:[DataPipeline]:PlayList: [2968132677] 「欧美流行」青年节特选，年轻人的朝气 (872/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [3489157219] 2004年华语流行最热单曲 (873/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1088196753] 2006年华语流行最热单曲 (874/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1136085894] 不败经典&#32;/&#32;哼唱90年代粤语流行曲 (875/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1088112548] 2002年度国语流行精选 (876/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2669638690] 「流行借鉴古典」音乐灵感的火花 (877/1688) has 166 songs.
+INFO:[DataPipeline]:PlayList: [3580593866] 和香港同岁的歌：1997年流行的青春 (878/1688) has 83 songs.
+INFO:[DataPipeline]:PlayList: [3704623651] 流行中文DJ串烧 (879/1688) has 241 songs.
+INFO:[DataPipeline]:Sleep for: 146
+INFO:[DataPipeline]:PlayList: [3748647169] 欧美另类流行唱作人精选 (880/1688) has 51 songs.
+INFO:[DataPipeline]:PlayList: [3489157196] 2004年度国语流行精选 (881/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [843150195] 流行治愈合集，总有你想不到的效果 (882/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2371751285] 一种情怀，流行歌手唱摇滚 (883/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7026798987] 华语流行│在遗忘的边缘蔓延 (884/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1088112583] 2002年华语流行最热单曲 (885/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2067212972] 倾听流行歌手们的中国风情怀 (886/1688) has 63 songs.
+INFO:[DataPipeline]:PlayList: [7097438823] 猫奴们都喜欢听的日式流行歌！ (887/1688) has 23 songs.
+INFO:[DataPipeline]:PlayList: [2955014740] 粤语流行曲，唱入内心对抗塞车疲劳 (888/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [3811899946] &#32;迷惑微醺：欧美另类流行 (889/1688) has 70 songs.
+INFO:[DataPipeline]:Sleep for: 120
+INFO:[DataPipeline]:PlayList: [2067204427] 「唯美纯音」当流行遇上钢琴 (890/1688) has 403 songs.
+INFO:[DataPipeline]:PlayList: [2945732645] 流行,听的就是这个调调 (891/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [606723588] pop&#45;rock&#32;&#32;欧美流行摇滚&#32;&#32;精选 (892/1688) has 73 songs.
+INFO:[DataPipeline]:PlayList: [2372395545] 「轻音」当民族乐器邂逅流行，别样的雅韵 (893/1688) has 140 songs.
+INFO:[DataPipeline]:PlayList: [7060355078] 梦幻律动：流行中的奇幻色彩 (894/1688) has 48 songs.
+INFO:[DataPipeline]:PlayList: [3540723627] ★&#32;欧美&#32;★&#32;曾经的流行，如今的经典 (895/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [2663136094] 「国语流行」静享路途无暇时光 (896/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1471714802] 欧美流行舞曲&#32;Just&#32;dance！ (897/1688) has 365 songs.
+INFO:[DataPipeline]:PlayList: [1136450648] 世纪之交，香港经典流行舞曲嗨到忘我 (898/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2356734882] 听流行中国风，叹缱绻淡雅情 (899/1688) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 67
+INFO:[DataPipeline]:PlayList: [878357702] 乡村入门精选：踏进流行的热情乡土 (900/1688) has 64 songs.
+INFO:[DataPipeline]:PlayList: [871077829] 东南亚华语流行势力，撑起乐坛半边天 (901/1688) has 27 songs.
+INFO:[DataPipeline]:PlayList: [1741143406] 【粤语女声】触动心扉的流行曲 (902/1688) has 50 songs.
+INFO:[DataPipeline]:PlayList: [3628306828] 2017香港年度叱咤乐坛流行榜获奖名单 (903/1688) has 50 songs.
+INFO:[DataPipeline]:PlayList: [3239208460] 教你做人！华语流行歌手说唱集&#32; (904/1688) has 25 songs.
+INFO:[DataPipeline]:PlayList: [2680322244] 【国风纯音】中国古典乐器弹奏华语流行 (905/1688) has 38 songs.
+INFO:[DataPipeline]:PlayList: [3436896743] 摇滚你的流行神经 (906/1688) has 17 songs.
+INFO:[DataPipeline]:PlayList: [2059567825] 我最爱的10位流行男歌手，你呢？ (907/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1165743291] 欧美当红流行天王大比拼 (908/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [3958090544] 清新温柔向：30首闽南语流行歌 (909/1688) has 30 songs.
+INFO:[DataPipeline]:Sleep for: 172
+INFO:[DataPipeline]:PlayList: [4941296510] 意大利流行&#32;·&#32;地中海东线游 (910/1688) has 32 songs.
+INFO:[DataPipeline]:PlayList: [2363252858] 前奏入魂，唯美钢琴配乐的华语流行 (911/1688) has 26 songs.
+INFO:[DataPipeline]:PlayList: [2372393785] 全球流行Club舞曲，&#32;Put&#32;your&#32;hands&#32;Up (912/1688) has 197 songs.
+INFO:[DataPipeline]:PlayList: [3543457790] 一听倾心&#32;那些粤语版的流行歌 (913/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [4261986738] 网络歌手：日语流行的中文翻唱 (914/1688) has 38 songs.
+INFO:[DataPipeline]:PlayList: [840719826] 开车听的那些舞曲流行 (915/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2957498925] 用钢琴弹奏出最爱的流行歌曲 (916/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1443136900] 欧美流行&#32;惬意随身听 (917/1688) has 30 songs.
+INFO:[DataPipeline]:PlayList: [834841975] 清新乡村流行音乐精选集 (918/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [2381869986] 欧美流行，不插电才养耳朵 (919/1688) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 114
+INFO:[DataPipeline]:PlayList: [2644732217] 等一下！让我换个姿势听：现代流行&#38;民歌 (920/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [2679399249] Sophisti&#32;Pop&#32;&#124;&#32;赖床时听的文雅流行 (921/1688) has 35 songs.
+INFO:[DataPipeline]:PlayList: [2374203937] 用古筝演奏流行曲，这种操作可以有 (922/1688) has 36 songs.
+INFO:[DataPipeline]:PlayList: [2339481999] 00年代&#124;情迷欧美流行音乐 (923/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2353329026] 欧美不插电流行乐，更唯美体验 (924/1688) has 89 songs.
+INFO:[DataPipeline]:PlayList: [3268977825] 欧美经典流行歌 (925/1688) has 459 songs.
+INFO:[DataPipeline]:PlayList: [834841992] 清新优美的乡村流行音乐 (926/1688) has 22 songs.
+INFO:[DataPipeline]:PlayList: [3248475154] 洗脑&#32;蹲妹的俏皮流行歌 (927/1688) has 29 songs.
+INFO:[DataPipeline]:PlayList: [2372403033] &#32;钢琴演奏流行金曲，别有一番柔情 (928/1688) has 211 songs.
+INFO:[DataPipeline]:PlayList: [3538102914] 2016年热门英文流行歌曲 (929/1688) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 133
+INFO:[DataPipeline]:PlayList: [1766735346] 「煲耳机必备」舒缓欧美流行单曲 (930/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2031864906] 梦醒&#32;·&#32;一曲萨克斯唤醒流行细胞 (931/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1439204769] 10年代&#45;香港流行金曲精选（2） (932/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [3243973248] 不骄不躁的华语流行暖曲 (933/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [1139960344] 沉醉在国语小众流行曲中的旋律 (934/1688) has 24 songs.
+INFO:[DataPipeline]:PlayList: [2369364389] 「拉丁流行」让夏日的热浪来得更猛些吧 (935/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [3563640159] 香港男歌手，唱你最爱的流行歌 (936/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [874675056] 燃情小提琴&#32;游走于古典与流行 (937/1688) has 133 songs.
+INFO:[DataPipeline]:PlayList: [2953891975] 『欧美流行』抖腿不能停系列 (938/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2385767443] 80&#45;90年代香港经典粤语流行歌曲 (939/1688) has 155 songs.
+INFO:[DataPipeline]:Sleep for: 127
+INFO:[DataPipeline]:PlayList: [1155307262] 粤季·流行乐坛填词人的心血力作 (940/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2638549357] 00年代香港流行音乐系列（3） (941/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [4472274418] 日语流行：填满窗户的思念之情 (942/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [3276930141] 「Twee&#32;pop」绝望时给我治愈的童稚流行 (943/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1146149533] 韩语流行女声的柔情似水 (944/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [2945715847] 活力流行劲曲，你的HIIT健身好伴侣 (945/1688) has 59 songs.
+INFO:[DataPipeline]:PlayList: [5905702413] Billboard&#32;2018主流流行榜Top&#32;50 (946/1688) has 48 songs.
+INFO:[DataPipeline]:PlayList: [3545938743] 2016年度最热流行歌曲盘点 (947/1688) has 37 songs.
+INFO:[DataPipeline]:PlayList: [1151566739] 华语：当古典民乐遇上流行编曲的气息 (948/1688) has 34 songs.
+INFO:[DataPipeline]:PlayList: [1754227758] 有好听流行歌陪伴的美好周末 (949/1688) has 74 songs.
+INFO:[DataPipeline]:Sleep for: 148
+INFO:[DataPipeline]:PlayList: [2360380297] 「怀旧」重温90年代大陆经典流行金曲 (950/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [2640436321] 8090后一定听过的欧美流行金曲 (951/1688) has 50 songs.
+INFO:[DataPipeline]:PlayList: [2638549268] 00年代香港流行音乐系列（2） (952/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [834842082] 听乡村流行，回归自然的无限惬意 (953/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [1157474286] 韩文流行歌曲天天推 (954/1688) has 168 songs.
+INFO:[DataPipeline]:PlayList: [4100039935] 科技感十足&#32;&#124;&#32;复古合成器流行 (955/1688) has 31 songs.
+INFO:[DataPipeline]:PlayList: [3837859818] Freestyle&#45;RAP：城市前沿流行说唱 (956/1688) has 521 songs.
+INFO:[DataPipeline]:PlayList: [3571069257] 「唯美纯音」钢琴情书，流行恋曲 (957/1688) has 82 songs.
+INFO:[DataPipeline]:PlayList: [2945706403] pop&#32;chillout·热门流行驰放音乐合辑 (958/1688) has 56 songs.
+INFO:[DataPipeline]:PlayList: [3269006697] 别样演绎&#32;流行金曲钢琴Ver&#46; (959/1688) has 108 songs.
+INFO:[DataPipeline]:Sleep for: 167
+INFO:[DataPipeline]:PlayList: [4139935087] 艺术流行：领悟音乐的折衷主义 (960/1688) has 28 songs.
+INFO:[DataPipeline]:PlayList: [2063854433] 【世界音乐】你听过这些印度风情流行的歌吗 (961/1688) has 51 songs.
+INFO:[DataPipeline]:PlayList: [3244789169] 最IN华语流行&#32;你值得拥有 (962/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [3264655876] 2017台湾&#32;Hito&#32;流行音乐奖嘉宾名单 (963/1688) has 102 songs.
+INFO:[DataPipeline]:PlayList: [1175530729] 绝对耳熟：流行乐中的传统元素（二胡唢呐） (964/1688) has 38 songs.
+INFO:[DataPipeline]:PlayList: [2057123395] 流行歌曲与戏曲唱腔的完美邂逅 (965/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [3234004503] 唤醒你的双耳&#32;&#124;&#32;拉丁流行英语篇 (966/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2344860517] 超好听的欧美独立流行乐 (967/1688) has 81 songs.
+INFO:[DataPipeline]:PlayList: [3535659252] 珍藏一份经典的欧美流行音乐歌单 (968/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [3539886157] 国语流行&#32;/&#32;温情调子&#32;越听越有感觉 (969/1688) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 98
+INFO:[DataPipeline]:PlayList: [3535507544] 听欧美流行曲解暑&#32;Let‘s&#32;Chill&#32;Out&#33; (970/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2355856269] 历届格莱美最佳流行女歌手 (971/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [1439204630] 10年代&#45;香港流行金曲精选（1） (972/1688) has 19 songs.
+INFO:[DataPipeline]:PlayList: [1131616822] 古器之今声&#45;&#45;流行乐与古筝的碰撞 (973/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1762238403] 全球流行音乐年度盛典：薛之谦获年度最佳男歌手！ (974/1688) has 53 songs.
+INFO:[DataPipeline]:PlayList: [4190364230] 英国女子流行组合全集 (975/1688) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2031947691] 雅韵泛音&#32;&#124;&#32;当流行曲邂逅古筝 (976/1688) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1749313484] 谭晶（阿凡达妹妹）女神唱过的流行歌曲 (977/1688) has 21 songs.
+INFO:[DataPipeline]:PlayList: [3261850611] 「欧美流行」就是要你与众不同 (978/1688) has 61 songs.
+INFO:[DataPipeline]:PlayList: [2667951800] 「深夜耳畔」舒适欧美流行助你好梦 (979/1688) has 105 songs.
+INFO:[DataPipeline]:Sleep for: 84
+INFO:[DataPipeline]:PlayList: [3535982901] 喧扰尘世外，似水流年的流行轻音乐 (980/1688) has 18 songs.

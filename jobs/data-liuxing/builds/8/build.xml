@@ -1,0 +1,202 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>data-starter</upstreamProject>
+            <upstreamUrl>job/data-starter/</upstreamUrl>
+            <upstreamBuild>1</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>admin</userId>
+              </hudson.model.Cause_-UserIdCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.support.steps.build.BuildUpstreamNodeAction plugin="pipeline-build-step@2.11">
+      <upstreamNodeId>13</upstreamNodeId>
+      <upstreamRunId>data-starter#1</upstreamRunId>
+    </org.jenkinsci.plugins.workflow.support.steps.build.BuildUpstreamNodeAction>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>date</name>
+          <description></description>
+          <value>20200325</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>date</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.2.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.2.0">
+              <sha1>89609248ba7b307759d0e3c58e4080eeac9be86b</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>8</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
+      <remoteUrls>
+        <string>git@github.com:kirinisland/datapipe.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@4.2.0">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/root/.jenkins/workspace/data-liuxing</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerCancelledCause plugin="pipeline-build-step@2.11">
+          <cause class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" plugin="workflow-step-api@2.22">
+            <stackTrace>
+              <trace>org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.interrupt(CpsFlowExecution.java:1137)</trace>
+              <trace>org.jenkinsci.plugins.workflow.job.WorkflowRun$2.lambda$interrupt$0(WorkflowRun.java:367)</trace>
+              <trace>jenkins.security.ImpersonatingScheduledExecutorService$1.run(ImpersonatingScheduledExecutorService.java:58)</trace>
+              <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</trace>
+              <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
+              <trace>java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)</trace>
+              <trace>java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)</trace>
+              <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</trace>
+              <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</trace>
+              <trace>java.lang.Thread.run(Thread.java:748)</trace>
+            </stackTrace>
+            <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+              <c class="list"/>
+              <list reference="../c"/>
+            </suppressedExceptions>
+            <result>ABORTED</result>
+            <causes class="java.util.Arrays$ArrayList">
+              <a class="jenkins.model.CauseOfInterruption-array"/>
+            </causes>
+            <actualInterruption>true</actualInterruption>
+          </cause>
+        </org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerCancelledCause>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+    <hudson.plugins.parameterizedtrigger.CapturedEnvironmentAction plugin="parameterized-trigger@2.36">
+      <env serialization="custom">
+        <unserializable-parents/>
+        <tree-map>
+          <default>
+            <comparator class="hudson.util.CaseInsensitiveComparator"/>
+          </default>
+          <int>33</int>
+          <string>BUILD_DISPLAY_NAME</string>
+          <string>#8</string>
+          <string>BUILD_ID</string>
+          <string>8</string>
+          <string>BUILD_NUMBER</string>
+          <string>8</string>
+          <string>BUILD_TAG</string>
+          <string>jenkins-data-liuxing-8</string>
+          <string>BUILD_URL</string>
+          <string>http://kirinislandapp8080.ngrok.io/job/data-liuxing/8/</string>
+          <string>CLASSPATH</string>
+          <string></string>
+          <string>com.apple.java.jvmTask</string>
+          <string>CommandLine</string>
+          <string>date</string>
+          <string>20200325</string>
+          <string>EXECUTOR_NUMBER</string>
+          <string>2</string>
+          <string>GIT_BRANCH</string>
+          <string>origin/master</string>
+          <string>GIT_COMMIT</string>
+          <string>89609248ba7b307759d0e3c58e4080eeac9be86b</string>
+          <string>GIT_PREVIOUS_COMMIT</string>
+          <string>89609248ba7b307759d0e3c58e4080eeac9be86b</string>
+          <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT</string>
+          <string>50dd3cabe329b7570f4c5c16184e63291b1491f4</string>
+          <string>GIT_URL</string>
+          <string>git@github.com:kirinisland/datapipe.git</string>
+          <string>HUDSON_HOME</string>
+          <string>/var/root/.jenkins</string>
+          <string>HUDSON_SERVER_COOKIE</string>
+          <string>e27fb94c76aeca06</string>
+          <string>HUDSON_URL</string>
+          <string>http://kirinislandapp8080.ngrok.io/</string>
+          <string>JAVA_MAIN_CLASS_117</string>
+          <string>Main</string>
+          <string>JENKINS_HOME</string>
+          <string>/var/root/.jenkins</string>
+          <string>JENKINS_SERVER_COOKIE</string>
+          <string>e27fb94c76aeca06</string>
+          <string>JENKINS_URL</string>
+          <string>http://kirinislandapp8080.ngrok.io/</string>
+          <string>JOB_BASE_NAME</string>
+          <string>data-liuxing</string>
+          <string>JOB_DISPLAY_URL</string>
+          <string>http://kirinislandapp8080.ngrok.io/job/data-liuxing/display/redirect</string>
+          <string>JOB_NAME</string>
+          <string>data-liuxing</string>
+          <string>JOB_URL</string>
+          <string>http://kirinislandapp8080.ngrok.io/job/data-liuxing/</string>
+          <string>NODE_LABELS</string>
+          <string>master</string>
+          <string>NODE_NAME</string>
+          <string>master</string>
+          <string>PATH</string>
+          <string>/usr/bin:/bin:/usr/sbin:/sbin</string>
+          <string>RUN_CHANGES_DISPLAY_URL</string>
+          <string>http://kirinislandapp8080.ngrok.io/job/data-liuxing/8/display/redirect?page=changes</string>
+          <string>RUN_DISPLAY_URL</string>
+          <string>http://kirinislandapp8080.ngrok.io/job/data-liuxing/8/display/redirect</string>
+          <string>WORKSPACE</string>
+          <string>/var/root/.jenkins/workspace/data-liuxing</string>
+          <string>XPC_FLAGS</string>
+          <string>0x0</string>
+          <string>XPC_SERVICE_NAME</string>
+          <string>homebrew.mxcl.jenkins-lts</string>
+        </tree-map>
+        <hudson.EnvVars>
+          <default>
+            <platform>UNIX</platform>
+          </default>
+        </hudson.EnvVars>
+      </env>
+    </hudson.plugins.parameterizedtrigger.CapturedEnvironmentAction>
+  </actions>
+  <queueId>101</queueId>
+  <timestamp>1585187207290</timestamp>
+  <startTime>1585187207291</startTime>
+  <result>ABORTED</result>
+  <duration>551471</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/root/.jenkins/workspace/data-liuxing</workspace>
+  <hudsonVersion>2.204.2</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.2.0">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
+    <string>xiyuhu</string>
+  </culprits>
+</build>

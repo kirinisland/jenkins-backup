@@ -43,7 +43,12 @@
       <command>date_str=`date &apos;+%Y%m%d&apos;`
 echo $date_str
 echo $date
-python3 runner_qq.py --method search --query 流行 --output-suffix liuxing --dump-raw 1 --dump-seg 0 --proxy
+python3 runner_qq.py --method search \
+                     --query 流行 \
+                     --output-suffix liuxing 
+                     --dump-raw 1 
+                     --dump-seg 0 \
+                     --proxy
 </command>
     </hudson.tasks.Shell>
   </builders>
@@ -54,7 +59,7 @@ python3 runner_qq.py --method search --query 流行 --output-suffix liuxing --du
           <configs>
             <hudson.plugins.parameterizedtrigger.CurrentBuildParameters/>
             <hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
-              <properties>file=/var/root/.jenkins/workspace/data-liuxing/original_lyric_qq_liuxing.txt</properties>
+              <properties>file=/var/root/.jenkins/workspace/data-liuxing/liuxing.txt</properties>
               <textParamValueOnNewLine>false</textParamValueOnNewLine>
             </hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
           </configs>
