@@ -33,11 +33,11 @@
             script {
                 builds = [:]
                 builds[&quot;${date}&quot;] = {
-                    retry (1) {
-                        def results = build(job: &quot;data-liuxing&quot;,
-                            parameters: [string(name: &quot;date&quot;, value: date)],
-                            propagate: true)
-                    }
+                    // retry (1) {
+                    //     def results = build(job: &quot;data-liuxing&quot;,
+                    //         parameters: [string(name: &quot;date&quot;, value: date)],
+                    //         propagate: true)
+                    // }
                     retry (1) {
                         def results = build(job: &quot;data-minyao&quot;,
                             parameters: [string(name: &quot;date&quot;, value: date)],

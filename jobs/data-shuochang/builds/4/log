@@ -1,0 +1,27 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/data-shuochang
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/datapipe.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/datapipe.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/datapipe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 26f9cd18d83485951213035c26aba7671df4f4b2 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 26f9cd18d83485951213035c26aba7671df4f4b2 # timeout=10
+Commit message: "update sleep time"
+ > git rev-list --no-walk 56997688560722f63962e030a08e6f48e6d3bbc8 # timeout=10
+[data-shuochang] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3734245964022230204.sh
++ python3 runner_qq.py --method search --query $'\350\257\264\345\224\261' --output-suffix shuochang --dump-raw 1 --dump-seg 0 --proxy
+INFO:[DataPipeline]:Start crawling for query: 说唱
+INFO:[DataPipeline]:Processing playlist page: 0, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 1, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 2, found 50 playlists
+Build was aborted
+Aborted by [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Finished: ABORTED

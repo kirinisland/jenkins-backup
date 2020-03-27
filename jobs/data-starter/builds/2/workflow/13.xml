@@ -46,5 +46,35 @@
     <wf.a.LabelAction plugin="workflow-api@2.40">
       <displayName>Building data-liuxing</displayName>
     </wf.a.LabelAction>
+    <wf.a.ErrorAction plugin="workflow-api@2.40">
+      <error class="org.jenkinsci.plugins.workflow.steps.FlowInterruptedException" plugin="workflow-step-api@2.22">
+        <stackTrace>
+          <trace>org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerListener.onCompleted(BuildTriggerListener.java:53)</trace>
+          <trace>hudson.model.listeners.RunListener.fireCompleted(RunListener.java:209)</trace>
+          <trace>hudson.model.Run.execute(Run.java:1898)</trace>
+          <trace>hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)</trace>
+          <trace>hudson.model.ResourceController.execute(ResourceController.java:97)</trace>
+          <trace>hudson.model.Executor.run(Executor.java:427)</trace>
+        </stackTrace>
+        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+          <c class="list"/>
+          <list reference="../c"/>
+        </suppressedExceptions>
+        <result>
+          <name>FAILURE</name>
+          <ordinal>2</ordinal>
+          <color>RED</color>
+          <completeBuild>true</completeBuild>
+        </result>
+        <causes class="java.util.Arrays$ArrayList">
+          <a class="jenkins.model.CauseOfInterruption-array">
+            <org.jenkinsci.plugins.workflow.support.steps.build.DownstreamFailureCause plugin="pipeline-build-step@2.11">
+              <id>data-liuxing#9</id>
+            </org.jenkinsci.plugins.workflow.support.steps.build.DownstreamFailureCause>
+          </a>
+        </causes>
+        <actualInterruption>false</actualInterruption>
+      </error>
+    </wf.a.ErrorAction>
   </actions>
 </Tag>

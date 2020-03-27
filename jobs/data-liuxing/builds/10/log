@@ -1,0 +1,32 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/data-liuxing
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/datapipe.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/datapipe.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/datapipe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 26f9cd18d83485951213035c26aba7671df4f4b2 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 26f9cd18d83485951213035c26aba7671df4f4b2 # timeout=10
+Commit message: "update sleep time"
+ > git rev-list --no-walk 588c02b834f77e6cea238c9a657d7b7eaea890f3 # timeout=10
+[data-liuxing] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins8191243573048570194.sh
+++ date +%Y%m%d
++ date_str=20200327
++ echo 20200327
+20200327
++ echo 1
+1
++ python3 runner_qq.py --method search --query $'\346\265\201\350\241\214' --output-suffix liuxing ' '
+usage: runner_qq.py [-h] [-q QUERY] [-i INPUT] [-o OUTPUT_SUFFIX] [-pr]
+                    [-l LIMIT] [-m {search,translate,by_tag}] [-t TAG]
+                    [-r DUMP_RAW] [-s DUMP_SEG]
+runner_qq.py: error: unrecognized arguments:  
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
