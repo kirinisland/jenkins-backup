@@ -95,15 +95,23 @@
     <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.80">
       <env class="tree-map"/>
     </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <org.jenkinsci.plugins.workflow.support.steps.build.DownstreamFailureCause plugin="pipeline-build-step@2.11">
+          <id>data-shuochang#5</id>
+        </org.jenkinsci.plugins.workflow.support.steps.build.DownstreamFailureCause>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
   </actions>
   <queueId>107</queueId>
   <timestamp>1585319894782</timestamp>
   <startTime>1585319894784</startTime>
-  <duration>0</duration>
+  <result>FAILURE</result>
+  <duration>50868409</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
-    <result>SUCCESS</result>
+    <result>FAILURE</result>
     <script>pipeline {
    agent any
 
@@ -146,7 +154,7 @@
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>20317881</long>
+        <long>47164892</long>
       </entry>
       <entry>
         <string>classLoad</string>
@@ -154,7 +162,7 @@
       </entry>
       <entry>
         <string>run</string>
-        <long>410657399</long>
+        <long>513877558</long>
       </entry>
       <entry>
         <string>parse</string>
@@ -162,16 +170,15 @@
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>29697681</long>
+        <long>65128576</long>
       </entry>
     </timings>
     <sandbox>true</sandbox>
-    <iota>13</iota>
-    <head>1:13</head>
-    <start>2</start>
-    <done>false</done>
+    <iota>29</iota>
+    <head>1:29</head>
+    <done>true</done>
     <resumeBlocked>false</resumeBlocked>
   </execution>
-  <completed>false</completed>
+  <completed>true</completed>
   <checkouts class="hudson.util.PersistedList"/>
 </flow-build>
