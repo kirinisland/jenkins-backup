@@ -12,6 +12,11 @@
           <defaultValue></defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>proxy</name>
+          <description>if select, will fetch with proxy.</description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
   </properties>
@@ -42,8 +47,25 @@
     <hudson.tasks.Shell>
       <command>#date_str=`date &apos;+%Y%m%d&apos;`
 #echo $date_str
-python3 runner_qq.py --method search --query 民谣 --output-suffix minyao --dump-raw 1 --dump-seg 0 --proxy
-</command>
+#python3 runner_qq.py --method search --query 民谣 --output-suffix minyao --dump-raw 1 --dump-seg 0
+
+
+if [ &quot;$proxy&quot; = true ] ; then
+    echo &quot;Fetch with proxy!&quot;
+    python3 runner_qq.py --method search \
+                         --query 民谣 \
+                         --output-suffix minyao \
+                         --dump-raw 1 \
+                         --dump-seg 0 \
+                         --proxy
+else
+    echo &quot;Fetch without proxy!&quot;
+    python3 runner_qq.py --method search \
+                         --query 民谣 \
+                         --output-suffix minyao \
+                         --dump-raw 1 \
+                         --dump-seg 0 
+fi</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>

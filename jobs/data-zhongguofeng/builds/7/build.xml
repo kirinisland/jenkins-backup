@@ -7,24 +7,19 @@
         <hudson.model.StringParameterValue>
           <name>date</name>
           <description></description>
-          <value>20200325</value>
+          <value>20200401</value>
         </hudson.model.StringParameterValue>
       </parameters>
-      <parameterDefinitionNames class="empty-list"/>
+      <parameterDefinitionNames>
+        <string>date</string>
+      </parameterDefinitionNames>
     </hudson.model.ParametersAction>
     <hudson.model.CauseAction>
       <causeBag class="linked-hash-map">
         <entry>
-          <hudson.model.Cause_-UpstreamCause>
-            <upstreamProject>data-runner</upstreamProject>
-            <upstreamUrl>job/data-runner/</upstreamUrl>
-            <upstreamBuild>5</upstreamBuild>
-            <upstreamCauses>
-              <hudson.model.Cause_-UserIdCause>
-                <userId>admin</userId>
-              </hudson.model.Cause_-UserIdCause>
-            </upstreamCauses>
-          </hudson.model.Cause_-UpstreamCause>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
           <int>1</int>
         </entry>
       </causeBag>
@@ -35,7 +30,7 @@
           <string>refs/remotes/origin/master</string>
           <hudson.plugins.git.util.Build>
             <marked plugin="git-client@3.2.0">
-              <sha1>56997688560722f63962e030a08e6f48e6d3bbc8</sha1>
+              <sha1>ca49a7d2f48e4a31b3d0bda9a079340aef4fd65b</sha1>
               <branches class="list">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -44,11 +39,12 @@
               </branches>
             </marked>
             <revision reference="../marked"/>
-            <hudsonBuildNumber>3</hudsonBuildNumber>
+            <hudsonBuildNumber>7</hudsonBuildNumber>
           </hudson.plugins.git.util.Build>
         </entry>
       </buildsByBranchName>
       <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <scmName></scmName>
       <remoteUrls>
         <string>git@github.com:kirinisland/datapipe.git</string>
       </remoteUrls>
@@ -60,7 +56,7 @@
           <list/>
         </entry>
       </tags>
-      <ws>/var/root/.jenkins/workspace/data-minyao</ws>
+      <ws>/var/root/.jenkins/workspace/data-zhongguofeng</ws>
     </hudson.plugins.git.GitTagAction>
     <hudson.scm.SCMRevisionState_-None/>
     <hudson.plugins.parameterizedtrigger.CapturedEnvironmentAction plugin="parameterized-trigger@2.36">
@@ -70,31 +66,33 @@
           <default>
             <comparator class="hudson.util.CaseInsensitiveComparator"/>
           </default>
-          <int>32</int>
+          <int>33</int>
           <string>BUILD_DISPLAY_NAME</string>
-          <string>#3</string>
+          <string>#7</string>
           <string>BUILD_ID</string>
-          <string>3</string>
+          <string>7</string>
           <string>BUILD_NUMBER</string>
-          <string>3</string>
+          <string>7</string>
           <string>BUILD_TAG</string>
-          <string>jenkins-data-minyao-3</string>
+          <string>jenkins-data-zhongguofeng-7</string>
           <string>BUILD_URL</string>
-          <string>http://kirinislandapp8080.ngrok.io/job/data-minyao/3/</string>
+          <string>http://kirinislandapp8080.ngrok.io/job/data-zhongguofeng/7/</string>
           <string>CLASSPATH</string>
           <string></string>
           <string>com.apple.java.jvmTask</string>
           <string>CommandLine</string>
+          <string>date</string>
+          <string>20200401</string>
           <string>EXECUTOR_NUMBER</string>
           <string>2</string>
           <string>GIT_BRANCH</string>
           <string>origin/master</string>
           <string>GIT_COMMIT</string>
-          <string>56997688560722f63962e030a08e6f48e6d3bbc8</string>
+          <string>ca49a7d2f48e4a31b3d0bda9a079340aef4fd65b</string>
           <string>GIT_PREVIOUS_COMMIT</string>
-          <string>6c4ba6bc2c1aca3d28fa806ca0767e83ea586636</string>
+          <string>ca49a7d2f48e4a31b3d0bda9a079340aef4fd65b</string>
           <string>GIT_PREVIOUS_SUCCESSFUL_COMMIT</string>
-          <string>6c4ba6bc2c1aca3d28fa806ca0767e83ea586636</string>
+          <string>26f9cd18d83485951213035c26aba7671df4f4b2</string>
           <string>GIT_URL</string>
           <string>git@github.com:kirinisland/datapipe.git</string>
           <string>HUDSON_HOME</string>
@@ -112,13 +110,13 @@
           <string>JENKINS_URL</string>
           <string>http://kirinislandapp8080.ngrok.io/</string>
           <string>JOB_BASE_NAME</string>
-          <string>data-minyao</string>
+          <string>data-zhongguofeng</string>
           <string>JOB_DISPLAY_URL</string>
-          <string>http://kirinislandapp8080.ngrok.io/job/data-minyao/display/redirect</string>
+          <string>http://kirinislandapp8080.ngrok.io/job/data-zhongguofeng/display/redirect</string>
           <string>JOB_NAME</string>
-          <string>data-minyao</string>
+          <string>data-zhongguofeng</string>
           <string>JOB_URL</string>
-          <string>http://kirinislandapp8080.ngrok.io/job/data-minyao/</string>
+          <string>http://kirinislandapp8080.ngrok.io/job/data-zhongguofeng/</string>
           <string>NODE_LABELS</string>
           <string>master</string>
           <string>NODE_NAME</string>
@@ -126,11 +124,11 @@
           <string>PATH</string>
           <string>/usr/bin:/bin:/usr/sbin:/sbin</string>
           <string>RUN_CHANGES_DISPLAY_URL</string>
-          <string>http://kirinislandapp8080.ngrok.io/job/data-minyao/3/display/redirect?page=changes</string>
+          <string>http://kirinislandapp8080.ngrok.io/job/data-zhongguofeng/7/display/redirect?page=changes</string>
           <string>RUN_DISPLAY_URL</string>
-          <string>http://kirinislandapp8080.ngrok.io/job/data-minyao/3/display/redirect</string>
+          <string>http://kirinislandapp8080.ngrok.io/job/data-zhongguofeng/7/display/redirect</string>
           <string>WORKSPACE</string>
-          <string>/var/root/.jenkins/workspace/data-minyao</string>
+          <string>/var/root/.jenkins/workspace/data-zhongguofeng</string>
           <string>XPC_FLAGS</string>
           <string>0x0</string>
           <string>XPC_SERVICE_NAME</string>
@@ -144,15 +142,15 @@
       </env>
     </hudson.plugins.parameterizedtrigger.CapturedEnvironmentAction>
   </actions>
-  <queueId>91</queueId>
-  <timestamp>1585185371408</timestamp>
-  <startTime>1585185371410</startTime>
-  <result>FAILURE</result>
-  <duration>34296</duration>
+  <queueId>137</queueId>
+  <timestamp>1585791638426</timestamp>
+  <startTime>1585791638428</startTime>
+  <result>SUCCESS</result>
+  <duration>131062544</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <builtOn></builtOn>
-  <workspace>/var/root/.jenkins/workspace/data-minyao</workspace>
+  <workspace>/var/root/.jenkins/workspace/data-zhongguofeng</workspace>
   <hudsonVersion>2.204.2</hudsonVersion>
   <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.2.0">
     <authorOrCommitter>false</authorOrCommitter>
