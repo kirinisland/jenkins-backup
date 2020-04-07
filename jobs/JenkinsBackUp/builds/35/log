@@ -1,7 +1,7 @@
 Started by timer
 Running as SYSTEM
 Building in workspace /var/root/.jenkins/workspace/JenkinsBackUp
-[JenkinsBackUp] $ /bin/bash /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins7732841080724564881.sh
+[JenkinsBackUp] $ /bin/bash /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3038754336919610633.sh
 + '[' -e /var/root/.jenkins/.git/index.lock ']'
 + cd /var/root/.jenkins/
 + git status
@@ -12,7 +12,7 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   config.xml
-	modified:   jobs/JenkinsBackUp/builds/33/log
+	modified:   jobs/JenkinsBackUp/builds/34/log
 	modified:   jobs/JenkinsBackUp/builds/permalinks
 	modified:   jobs/JenkinsBackUp/nextBuildNumber
 	modified:   jobs/expirelyric/builds/permalinks
@@ -44,9 +44,9 @@ Untracked files:
 	jenkins.model.JenkinsLocationConfiguration.xml
 	jenkins.security.ResourceDomainConfiguration.xml
 	jenkins.telemetry.Correlator.xml
-	jobs/JenkinsBackUp/builds/33/build.xml
-	jobs/JenkinsBackUp/builds/34/
-	jobs/expirelyric/builds/32/
+	jobs/JenkinsBackUp/builds/34/build.xml
+	jobs/JenkinsBackUp/builds/35/
+	jobs/expirelyric/builds/33/
 	logs/
 	nodeMonitors.xml
 	org.jenkins.plugins.lockableresources.LockableResourcesManager.xml
@@ -69,31 +69,3 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 + git add jobs
-+ git add workspace
-++ date
-+ git commit -m 'Jenkins backup at Mon Apr  6 14:17:31 EDT 2020'
-[master d1ef80a] Jenkins backup at Mon Apr  6 14:17:31 EDT 2020
- Committer: System Administrator <root@VincentdeMac-mini.local>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly. Run the
-following command and follow the instructions in your editor to edit
-your configuration file:
-
-    git config --global --edit
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 11 files changed, 246 insertions(+), 8 deletions(-)
- create mode 100644 jobs/JenkinsBackUp/builds/33/build.xml
- create mode 100644 jobs/JenkinsBackUp/builds/34/changelog.xml
- create mode 100644 jobs/JenkinsBackUp/builds/34/log
- create mode 100644 jobs/expirelyric/builds/32/build.xml
- create mode 100644 jobs/expirelyric/builds/32/changelog.xml
- create mode 100644 jobs/expirelyric/builds/32/log
-+ git push origin HEAD:master
-To github.com:kirinisland/jenkins-backup.git
-   eceb9be..d1ef80a  HEAD -> master
-Finished: SUCCESS
