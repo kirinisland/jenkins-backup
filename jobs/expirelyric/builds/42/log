@@ -1,0 +1,47 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1d19d3741cac6f95e6e82fdb7d3eb9632d87da8a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1d19d3741cac6f95e6e82fdb7d3eb9632d87da8a # timeout=10
+Commit message: "added count parameter 2"
+ > git rev-list --no-walk 1d19d3741cac6f95e6e82fdb7d3eb9632d87da8a # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins4818054980143642708.sh
++ python3 jobs/expirelyric.py --count 15
+('b6c5710c4f', '2020-04-09 23:27:42', '不要问我心里揣着什么样的梦想，\n人定胜天告诉你们什么叫做胆量。\n这个虚伪金钱社会就像一个球场，\n我是乔丹科比将来必定雄霸一方。\nJ.n')
+('b844a98658', '2020-04-10 10:08:28', '黎明前的期盼是某一刻的浪漫\n我对你的勇敢换不来一句晚安\n再甜蜜的故事到尽头总会暗淡\n我寄你一厢情愿角落只剩尘埃')
+('4d4e3a406f', '2020-04-10 11:09:14', '太阳渐渐落下\n心里还是牵挂\n试着学会放下\n现在学会长大\n女孩害怕，长大')
+('6d1d7dffe5', '2020-04-10 11:28:46', '四月的樱花季\n美丽地难以忘记\n只是那无情的五月\n带走了四月的回忆')
+('07bd66af41', '2020-04-10 15:36:48', '窗外风景熟悉\n梦想难以忘记\n试图平稳呼吸\n天色已是夜里\n那片美丽银河\n究竟谁的选择')
+('f686754dda', '2020-04-10 15:37:48', '整天望着窗外\n幻想未来\n每天打扫教室里的尘埃\n接受考砸的失败\n他们的束缚毁灭了\n舞台上的精彩')
+('163646a80c', '2020-04-11 11:47:08', '暧昧中太过热切  只自我上瘾\n就是一场独角戏  感动了自己\n而你却后退回避不语不言\n我明了其中弦外音')
+('7691593604', '2020-04-11 13:54:40', '小径庭院 温暖依然\n习惯了阳光照在脸上\n免不了狸猫追着蝴蝶\n季节的变换\n狸猫还是狸猫\n庭院早已习惯')
+('b5f2a4e31d', '2020-04-12 02:04:01', '你选择了大步迈着走 就该像个拉力赛车手\n我知道你撑不住了也会泪流 \n像个动情男歌手 为了梦想还得毫无保留\n咬咬牙握紧拳头路还要走')
+('0316c43f2d', '2020-04-13 23:44:53', '一旁 这信箱载满对你的期盼\n就像 是你的 温暖依然\n“爱你”随风飘向远方\n每当 想念你 我闭上双眼 再回想\n感觉 就像你 还在身旁\n“爱你”默默心里隐藏')
+('6b027b8aa9', '2020-04-14 08:18:32', '盘膝坐定  见过雨后天晴\n方为说酸苦皆是命\n吾觉命不由天定\n思想为空 不去沾染世俗恶习\n宽容 忍让自在心中\n不愿一辈平庸')
+('8214971252', '2020-04-14 09:18:39', '想起那一年\n真的很怀念')
+('f8a14faaa7', '2020-04-14 15:16:36', '打打闹闹过了三个月\n你情我愿原来只是错觉\n“放下”这词我已说过无数遍\n可我还是停留在那可怜的原点\n凌晨的日出 粉色的日暮\n不知你是否还记得…')
+('e0dda52800', '2020-04-14 20:09:02', '只想呆在某个角落\n独自一人面对生活\n耐得住寂寞，不要选择沉默\n经历很多，一个人总会有收获\n就算你的世界坠落，还是得生活\n它永远是一首美的赞歌')
+('4bd75ffb76', '2020-04-14 20:14:24', '阳光好像在远方\n悲伤好像在路上\n忍不住痛哭一场\n不行，必须坚强\n化悲伤为力量\n切莫半路返航')
+('7cef36e1c6', '2020-04-15 01:53:35', '夜深人未静 梦醒天已情\n度思念 空未眠 归来皆少年')
+('44e170c482', '2020-04-15 02:07:26', '如果重新来过 会不会如此难过\n你给过我的承诺 化作了淡淡失落')
+('1c2a746bc6', '2020-04-15 18:07:35', '晚风掠 夜微凉 \n微光 渐行渐远 \n光散尽在晚上   它一直被遗忘 \n我脆弱难眠是无常\n升起每一个清晨\n转身无人爱黄昏')
+现有精选微词 18首.
+> 超过 15 首精选微词, 将下架如下微词:
+('b6c5710c4f', '2020-04-09 23:27:42', '不要问我心里揣着什么样的梦想，\n人定胜天告诉你们什么叫做胆量。\n这个虚伪金钱社会就像一个球场，\n我是乔丹科比将来必定雄霸一方。\nJ.n')
+{"updatedAt":"2020-04-16 07:14:56"}
+('b844a98658', '2020-04-10 10:08:28', '黎明前的期盼是某一刻的浪漫\n我对你的勇敢换不来一句晚安\n再甜蜜的故事到尽头总会暗淡\n我寄你一厢情愿角落只剩尘埃')
+{"updatedAt":"2020-04-16 07:14:57"}
+('4d4e3a406f', '2020-04-10 11:09:14', '太阳渐渐落下\n心里还是牵挂\n试着学会放下\n现在学会长大\n女孩害怕，长大')
+{"updatedAt":"2020-04-16 07:14:58"}
+Finished: SUCCESS
