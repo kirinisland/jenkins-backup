@@ -1,6 +1,14 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <build>
   <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
     <hudson.model.ParametersAction>
       <safeParameters class="sorted-set"/>
       <parameters>
@@ -14,23 +22,13 @@
         <string>count</string>
       </parameterDefinitionNames>
     </hudson.model.ParametersAction>
-    <hudson.model.CauseAction>
-      <causeBag class="linked-hash-map">
-        <entry>
-          <hudson.model.Cause_-UserIdCause>
-            <userId>admin</userId>
-          </hudson.model.Cause_-UserIdCause>
-          <int>1</int>
-        </entry>
-      </causeBag>
-    </hudson.model.CauseAction>
     <hudson.plugins.git.util.BuildData plugin="git@4.2.0">
       <buildsByBranchName>
         <entry>
           <string>refs/remotes/origin/master</string>
           <hudson.plugins.git.util.Build>
             <marked plugin="git-client@3.2.0">
-              <sha1>ea990e7cb1001a24a85a1c22b6c4b685f3322125</sha1>
+              <sha1>1d19d3741cac6f95e6e82fdb7d3eb9632d87da8a</sha1>
               <branches class="list">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -39,12 +37,11 @@
               </branches>
             </marked>
             <revision reference="../marked"/>
-            <hudsonBuildNumber>12</hudsonBuildNumber>
+            <hudsonBuildNumber>17</hudsonBuildNumber>
           </hudson.plugins.git.util.Build>
         </entry>
       </buildsByBranchName>
       <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
-      <scmName></scmName>
       <remoteUrls>
         <string>git@github.com:kirinisland/zaoci-tool.git</string>
       </remoteUrls>
@@ -60,11 +57,11 @@
     </hudson.plugins.git.GitTagAction>
     <hudson.scm.SCMRevisionState_-None/>
   </actions>
-  <queueId>187</queueId>
-  <timestamp>1586878307824</timestamp>
-  <startTime>1586878307825</startTime>
+  <queueId>200</queueId>
+  <timestamp>1587212398905</timestamp>
+  <startTime>1587212398908</startTime>
   <result>SUCCESS</result>
-  <duration>13782</duration>
+  <duration>20929</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <builtOn></builtOn>
@@ -74,7 +71,5 @@
     <authorOrCommitter>false</authorOrCommitter>
     <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
   </scm>
-  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
-    <string>xiyuhu</string>
-  </culprits>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
 </build>
