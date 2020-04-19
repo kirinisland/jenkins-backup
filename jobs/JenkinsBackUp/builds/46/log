@@ -81,3 +81,40 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 + git add jobs
++ git add workspace
+++ date
++ git commit -m 'Jenkins backup at Sat Apr 18 14:17:59 EDT 2020'
+[master e61c6cb] Jenkins backup at Sat Apr 18 14:17:59 EDT 2020
+ Committer: System Administrator <root@VincentdeMac-mini.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 22 files changed, 270 insertions(+), 242 deletions(-)
+ create mode 100644 jobs/JenkinsBackUp/builds/45/build.xml
+ create mode 100644 jobs/JenkinsBackUp/builds/46/changelog.xml
+ create mode 100644 jobs/JenkinsBackUp/builds/46/log
+ rename jobs/{hot_user/builds/13 => expirelyric/builds/44}/build.xml (79%)
+ rename jobs/{hot_user/builds/14 => expirelyric/builds/44}/changelog.xml (100%)
+ create mode 100644 jobs/expirelyric/builds/44/log
+ delete mode 100644 jobs/hot_user/builds/12/build.xml
+ delete mode 100644 jobs/hot_user/builds/12/changelog.xml
+ delete mode 100644 jobs/hot_user/builds/12/log
+ delete mode 100644 jobs/hot_user/builds/13/changelog.xml
+ delete mode 100644 jobs/hot_user/builds/13/log
+ delete mode 100644 jobs/hot_user/builds/14/log
+ rename jobs/hot_user/builds/{14 => 17}/build.xml (92%)
+ create mode 100644 jobs/hot_user/builds/17/changelog.xml
+ create mode 100644 jobs/hot_user/builds/17/log
++ git push origin HEAD:master
+To github.com:kirinisland/jenkins-backup.git
+   b257e1f..e61c6cb  HEAD -> master
+Finished: SUCCESS

@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1d19d3741cac6f95e6e82fdb7d3eb9632d87da8a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1d19d3741cac6f95e6e82fdb7d3eb9632d87da8a # timeout=10
+Commit message: "added count parameter 2"
+ > git rev-list --no-walk 1d19d3741cac6f95e6e82fdb7d3eb9632d87da8a # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins6672495078846262570.sh
++ python3 jobs/expirelyric.py --count 15
+('4bd75ffb76', '2020-04-14 20:14:24', '阳光好像在远方\n悲伤好像在路上\n忍不住痛哭一场\n不行，必须坚强\n化悲伤为力量\n切莫半路返航')
+('7cef36e1c6', '2020-04-15 01:53:35', '夜深人未静 梦醒天已情\n度思念 空未眠 归来皆少年')
+('44e170c482', '2020-04-15 02:07:26', '如果重新来过 会不会如此难过\n你给过我的承诺 化作了淡淡失落')
+('1c2a746bc6', '2020-04-15 18:07:35', '晚风掠 夜微凉 \n微光 渐行渐远 \n光散尽在晚上   它一直被遗忘 \n我脆弱难眠是无常\n升起每一个清晨\n转身无人爱黄昏')
+('f18c3acf2e', '2020-04-16 09:39:30', '星星坠落于人间，\n凡人看不到的画面，\n海上的光芒，\n人鱼的梦想，\n似精灵的流浪，\n还是游戏的一场。')
+('027692adaf', '2020-04-16 11:18:39', '我告诉你我不会走的我一定会留下”\n我擦干泪水给妈妈打了个电话\n告诉她那个从未放弃过我的人\n他叫做\nHip-Hop\n🖤')
+('b76845953b', '2020-04-16 21:45:35', '某个瞬间\n怀念从前\n懵懂的孩童\n早已变成风度翩翩的少年\n心中的记忆\n早已随着时间褪去')
+('63bad979cb', '2020-04-17 01:22:39', '真正的感情 不需要被证明\n你只要告诉我你心里有我就行\n你有任何烦心事都可以跟我讲述\n就算有火箭炮飞向你我给你挡住\n新歌已发网易云\n搜索［这首歌分享给我的小熊维尼］')
+('303b9216e3', '2020-04-17 07:34:00', '天空沉沉\n还是我孤单一人\n愈合伤痕\n多少个夜晚\n一眼望不到尽头\n不要停留，时间就此流逝')
+('dda0e89173', '2020-04-17 09:02:19', '我恨自己不是太阳\r\n没法把天空照亮\r\n我恨自己不是火炬\r\n赶不走无尽的恐惧\r\n我恨自己不是天使的翅膀\r\n止不了魔鬼可怕的疯狂\r')
+('6336a59a77', '2020-04-17 09:31:23', '我不想只做冠军，我就想叱咤风云\n我命令粉碎命运，我就是遥远星云\n我不信什么奉天承运，我就是天生不可教训\n我不管什么出言不逊，我就是天生桀骜不驯')
+('926b7a4901', '2020-04-17 10:47:35', '飘渺江上 上弦月挂\n轻泛舟上 渡停在那\n客栈里早备茶未冷\n听君道这个他\n烟雨江湖 蒐乘秣马\n几许英侠 就唯独他 ')
+('be4f2dd223', '2020-04-17 13:08:37', '七点钟的风\r\n抚摸过沉重的编钟\r\n积了灰的校服\r\n重见阳光而幸福\r\n早樱已经开满了街旁\r\n走廊里还是熙熙攘攘')
+('63f23cab79', '2020-04-17 15:34:02', '坐在窗前，安静地看着星星\n我的心情异常平静\n至少不会再次梦醒\n轻轻地抚慰自己的心灵\n如果一切都是注定\n或许这就是我今生的宿命')
+('3429c50f9d', '2020-04-17 17:44:46', '又是一个晴天\n我坐在窗前\n那年的秋天，我们的遇见\n心中的思念，从未改变\n是时候该说再见')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
