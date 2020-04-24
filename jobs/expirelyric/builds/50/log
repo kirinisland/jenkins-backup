@@ -1,0 +1,50 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1d19d3741cac6f95e6e82fdb7d3eb9632d87da8a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1d19d3741cac6f95e6e82fdb7d3eb9632d87da8a # timeout=10
+Commit message: "added count parameter 2"
+ > git rev-list --no-walk 1d19d3741cac6f95e6e82fdb7d3eb9632d87da8a # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1908999998148662900.sh
++ python3 jobs/expirelyric.py --count 15
+('50e4d09066', '2020-04-21 08:18:25', '每天当我醒来的时候头发都会有点乱\n刷到你的朋友圈还不忘评论点个赞\n一个人的夜总是孤独又黑暗\n我也不像从前有那么的简单而勇敢\n你离开我之后才知道你是那种滋味\n我才知道珍惜可爱情的花她已经枯萎')
+('37deecc506', '2020-04-21 09:19:42', '酒见了底\n脑海里的你却越发清晰\n酒是你\n就是你')
+('3980f52960', '2020-04-21 10:05:01', '他在最火的时候公布恋情\n面对前方多重险境\n依然选择砥砺前行\n盼望着有一天雨过天晴')
+('1bd8a1fcd0', '2020-04-21 10:41:01', '嘿 一杯心碎泪水后悔 \n也不会学会面对\n一起想起梦里夜里美丽熟悉的天地\n看着天地黑暗之夜\n长夜摇曳\n黑夜深夜长夜一夜今夜')
+('3bfd8b6a1e', '2020-04-21 14:01:40', '走过那些繁华的城市\n曾经的我是那么的坚强\n拥有无与伦比的灿烂时光\n不要活得那么苟延残喘\n我们要变得更加坚强\n因为快乐就在寂寞的远方')
+('0b4ca16722', '2020-04-21 14:59:08', '多少个失眠的夜里\n试图放弃\n忽然想起，那年的秋天\n藏着多少记忆\n很难忘记，始终是个最美的回忆\n这早已成为人生中独特的意义')
+('96f2451fd4', '2020-04-21 21:55:36', '是谁画的希望\n展现如此荒唐\n利用你的迷茫\n写出所谓真相\n故事中的辉煌\n总有几句离殇')
+('62b04ce738', '2020-04-21 23:03:16', '想听拉杆书包的叮铃哐啷\n想闻大包辣条的诱人油香\n想在学校走廊里来回彷徨\n想看柳树新芽刚半绿半黄')
+('fea160633d', '2020-04-22 00:06:13', '森林起雾\n猎人迷路\n也曾误入歧途\n四处逃窜 的鹿\n一路向着西部\n寻找回家 的路')
+('d09aa03605', '2020-04-22 07:55:12', '娃娃长大回家\n想和母亲说话\n她早已到天涯\n剩下 娃娃 想她')
+('14c0c6664a', '2020-04-22 08:04:47', '告别青春\n告别我们\n还是那家便利店\n渴望购买曾经的便利贴\n才发现\n早已不见')
+('46ffd8ddd2', '2020-04-22 09:04:10', '十里春风醉江南\n执笔尘封烟雨寒\n痴迷今生烟柳处\n回想歌声永恒难')
+('27b8192e80', '2020-04-22 16:26:59', '那时我们 都太年少\n笃信未来 眼中有美好\n时光里短短长长 都是青春的记号\n若能再退三五年 在一起可好')
+('35ff04b698', '2020-04-22 18:56:09', '爱过他的那十年\n你说明天\n我们俩一起的明天\n明知不现\n却又跟随着说\n等你永远')
+('67e993b065', '2020-04-22 23:50:47', '夕阳下\n奶茶店\n便利店\n骑着自行车的少年突然停歇\n慢慢走\n和你聊天')
+('e4d999b0f7', '2020-04-23 14:55:02', '足智多谋才华横溢\n除了卧龙还有谁\n忠心义胆死而后已\n却无法逆天而行\n在那乱世谁对谁错\n谁是谁非谁生谁死')
+('5bbfa00546', '2020-04-23 19:21:00', '日头早已落下\n孩子早已长大\n心里牵挂妈妈\n在美好的青春年华，妈妈教我活得潇洒\n时光流逝，母亲的头发早已白下')
+('254c79191d', '2020-04-23 22:38:16', '偶尔路过咖啡厅里响起我们那首歌\n为何偏偏在这雨天又在相同一个地点\n偶然的伤心消极忧郁悲观那又会怎样\n反正一般每个晚上都在心里把你埋藏\n又要在没有你的地方坚强\n又要在没有你的生活故作着无恙')
+('a53a09928a', '2020-04-24 01:18:55', '对没错今年我二十三岁\n可得到和想要的并不般配\n赚的不算太多刚好够我花费\n但有付不完的房租和蚂蚁花呗\n在人生的路上也从没偷偷插队\n所以还剩几个朋友可以勾肩搭背')
+现有精选微词 19首.
+> 超过 15 首精选微词, 将下架如下微词:
+('50e4d09066', '2020-04-21 08:18:25', '每天当我醒来的时候头发都会有点乱\n刷到你的朋友圈还不忘评论点个赞\n一个人的夜总是孤独又黑暗\n我也不像从前有那么的简单而勇敢\n你离开我之后才知道你是那种滋味\n我才知道珍惜可爱情的花她已经枯萎')
+{"updatedAt":"2020-04-24 07:14:09"}
+('37deecc506', '2020-04-21 09:19:42', '酒见了底\n脑海里的你却越发清晰\n酒是你\n就是你')
+{"updatedAt":"2020-04-24 07:14:10"}
+('3980f52960', '2020-04-21 10:05:01', '他在最火的时候公布恋情\n面对前方多重险境\n依然选择砥砺前行\n盼望着有一天雨过天晴')
+{"updatedAt":"2020-04-24 07:14:11"}
+('1bd8a1fcd0', '2020-04-21 10:41:01', '嘿 一杯心碎泪水后悔 \n也不会学会面对\n一起想起梦里夜里美丽熟悉的天地\n看着天地黑暗之夜\n长夜摇曳\n黑夜深夜长夜一夜今夜')
+{"updatedAt":"2020-04-24 07:14:12"}
+Finished: SUCCESS
