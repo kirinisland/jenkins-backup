@@ -1,0 +1,41 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1d19d3741cac6f95e6e82fdb7d3eb9632d87da8a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1d19d3741cac6f95e6e82fdb7d3eb9632d87da8a # timeout=10
+Commit message: "added count parameter 2"
+ > git rev-list --no-walk 1d19d3741cac6f95e6e82fdb7d3eb9632d87da8a # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3077047708771555618.sh
++ python3 jobs/expirelyric.py --count 15
+('d17d298966', '2020-04-24 21:55:00', '日头早已落下\n心中牵挂妈妈\n孩子终于长大\n总是打电话给妈妈\n儿行千里，忧的是母心\n有限的时间，抱紧母亲')
+('a17699d8c5', '2020-04-24 22:48:23', '一抹烟云\n谈笑多少风霜\n浊酒三两\n醉在伊人心上\n江湖里\n快刀恩怨转头望')
+('e1b69d5ddb', '2020-04-25 12:34:44', '看秋水 红叶相 之问港秋     \n看秋水 奴才相 之问港秋           \n手指月 墨干底 是问何事          \n才到冬 何问秋 到黄旭才          \n怒送一血到何冬                   \n天到地琼山尽心')
+('ae6f2317a8', '2020-04-25 13:57:32', '现在是早上八点钟 我的脑袋有点空\n休息室里马尔福跟我说你很特殊\n他的金发太耀眼这让我不敢say no\n他的老爹有点烦 蛇院潘西太难缠\n格兰芬多有个疤头他让少爷有点难\n你们处处对着干却没有感到一点烦')
+('1518b762bb', '2020-04-25 16:07:45', '怪腐坏\n在势力面前别说出来\n要无奈\n也只能忍着别人安排\n不听劝导不悔改\n只能说声拜拜')
+('56182a93db', '2020-04-25 16:19:05', '往事回忆起只有不堪\n又何必再谈\n每个人没必要有期盼\n完美的答案\n其实遇见你时很自然\n心不归我管')
+('1489a696ac', '2020-04-25 16:36:25', '多盼望你突如其来的消息\n让我想起不能放下那个你\n多么压抑又多么可惜\n忘记你离这个城市去哪里\n你离开的时候留的那封信\n我还收在橱柜里')
+('93aa9e3136', '2020-04-25 18:35:44', '相逢相忆相互诉说\n你可曾知我情谊几多')
+('18ee07adf0', '2020-04-25 23:58:21', '她被岁月留下   她只剩下牵挂\n他在虚度年华   他在浪迹天涯')
+('138d75af97', '2020-04-26 00:58:11', '是去是留 都是相同地方\n漫漫寻你路上\n有皎洁月光')
+('56f276abe4', '2020-04-26 03:32:48', '大不一样\n透出一丝亮\n无暇听笛声悠扬\n背光')
+('f177eebddf', '2020-04-26 03:35:48', '结局是否有\n那种作为虚构的包容\n或你我姓名雕镂\n去纪念那些 无谓的渴求')
+('4823a85241', '2020-04-26 03:37:25', '青涩的情话 说给原野的盔甲\n卸下防备 是书页的花\n还会哭吗')
+('96fea47106', '2020-04-26 03:38:57', '南国雪花 路灯下\n白粒晕淡香牵挂\n午夜后 会有酒鬼\n问你要去哪')
+('6ff0c6b47a', '2020-04-26 12:41:23', '说到押韵说实话哥们儿我觉得残酷\n这也没我想象的那样有难。度\n歌词也会反复，但我从不反顾\n精神小伙。的名号就会被我牢牢锁住 诶～\n你的说唱技术就像马路边的那颗大树。\n说起话来就像嘴上粘了胶布。')
+('11c9835ae9', '2020-04-27 18:57:54', '我爱这阳光\n灌进阴霾\n我爱着阳光\n画出斑斓\n我爱着阳光\n春暖花开')
+现有精选微词 16首.
+> 超过 15 首精选微词, 将下架如下微词:
+('d17d298966', '2020-04-24 21:55:00', '日头早已落下\n心中牵挂妈妈\n孩子终于长大\n总是打电话给妈妈\n儿行千里，忧的是母心\n有限的时间，抱紧母亲')
+{"updatedAt":"2020-04-28 07:14:17"}
+Finished: SUCCESS
