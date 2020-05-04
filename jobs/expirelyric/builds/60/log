@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1d19d3741cac6f95e6e82fdb7d3eb9632d87da8a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1d19d3741cac6f95e6e82fdb7d3eb9632d87da8a # timeout=10
+Commit message: "added count parameter 2"
+ > git rev-list --no-walk 1d19d3741cac6f95e6e82fdb7d3eb9632d87da8a # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1086261142743615370.sh
++ python3 jobs/expirelyric.py --count 15
+('fe0232d46e', '2020-04-28 17:04:02', '你的瞒是手铐\n强迫我画地为牢\n禁锢所有幸福美好\n出口究竟到哪里寻找\n\n我看不到')
+('de1c296f64', '2020-04-28 23:13:46', '风吹过 雨飘来\n传说中那座城又浮现\n轻轻地 默默地看着天际上\n浮云飘飘渺渺如思念\n云中央 池中鸯\n云海情深 可爱梦儿落九天')
+('2e04c64f76', '2020-04-29 06:03:24', '不是不可以，离开你\r\n只是怕自己不能面对，分离\r\n我将爱掩藏在深蓝色大海里\r\n偶尔倾听，那一抹叹息，如此忧郁\r\n不是不可以，爱自己\r\n只是怕自己不能投入全部，为你\r')
+('dba3f3365f', '2020-04-29 09:21:25', '寄我初见\n寄我明澈清炯的双眼\n寄我不问世事的容颜\n寄我缠绵\n寄我冰凝雪积的冬天\n寄我落霞映照的湖面')
+('e50aa14f7f', '2020-04-29 11:08:34', '让羊去扮装\n嘴角上扬 打板有模有样\n摆弄妖娆展现旧伤\n谁 越过世俗深入想象\n别再拿四肢到处舒张\n那些 性本恶面 溢漾')
+('eba6a7d17c', '2020-04-29 17:47:33', '看见你的喜悦\n不知不觉变成了痛苦\n烟花的绽放\n不知不觉变成了冷色\n今早那一缕阳光，被你遮挡\n请你为我，留一扇窗')
+('d726deba44', '2020-04-29 22:43:02', '又谈什么爱与冲动\n心中彩虹\n早已轻易放手\n在迷人的天地中自己放纵')
+('07807cedef', '2020-04-29 23:28:54', '淅淅沥沥\n哗啦哗啦\n一点一滴落下\n流到心里\n化作相思\n飘零到了天涯')
+('dcdb145f98', '2020-04-30 21:07:09', '世贸天阶的长灯 伪装成抗衡的双笙\n万里长城的高台 等待着狂风的放生\n上海老街的弄堂 堆放成重逢的申城\n东方明珠的塔台 萦绕着抗争的江声')
+('edf5a4d7c0', '2020-04-30 21:11:25', '我们一天天长大 爸妈也渐渐生了白发\n他们说盼着你们强大 放下心中的牵挂\n去追求梦想的光华 砸掉那世俗的框架\n于是我们背起了行囊 踏上远行的黄沙\n光阴似箭 你我为了梦想努力攀爬\n日月如梭 不愿昙花一现的坍塌')
+('72922236b0', '2020-05-01 00:15:40', '连风都像是来的刚刚好\n海风过耳时说在劫难逃\n我的脚步正好藏在风里\n我把心跳藏好悄无声息')
+('25eb64ade9', '2020-05-01 23:32:01', '能吃过人的苦，才能不受下人的气。\n有七情六欲的叫人，没有七情六欲的叫物，能控制七情六欲的叫人物')
+('525c8c146c', '2020-05-02 13:30:28', '有人纹身纹着班诺 却穿个西装\n你需要的是干货 而不是鸡汤\n烟火闪烁 在沙漠 闹着饥荒\n在我内心发射hip-pop激光')
+('2e1ca8f827', '2020-05-02 15:34:48', '如今谎言已成了客套话\n清白诬陷为城府圆滑\n也许我就该自说自话\n至少做作的言辞不显得浮夸\n只是从来没爱过这句话\n应该笑着说吧')
+('05ca2cba26', '2020-05-02 20:06:12', '色泽狂艳求陆离光怪\n时间一经过 评价纯黑白\n特别偏爱超负荷运载\n捧酒神之心 借口叫无赖\n当摩天楼引爆了姿态\n你卖弄是非 我名为清白')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
