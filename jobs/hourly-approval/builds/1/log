@@ -1,0 +1,29 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+Cloning the remote Git repository
+Cloning repository git@github.com:kirinisland/zaoci-tool.git
+ > git init /var/root/.jenkins/workspace/hourly-approval # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ba91e7d7c589c621bb569e1d087192576e8a20f3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+Commit message: "added lyric filter"
+First time build. Skipping changelog.
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1210655435283251011.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 1首.
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+Finished: SUCCESS
