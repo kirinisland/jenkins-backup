@@ -1,0 +1,108 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ba91e7d7c589c621bb569e1d087192576e8a20f3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+Commit message: "added lyric filter"
+ > git rev-list --no-walk ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins976421199049928191.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 10首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+  这是好久之前，那时真的是闲
+         将纸揉成一团，舒适午餐已然
+         不忘加个鸡蛋，黑鸭卷饼稀饭
+这是那时的快乐，生活充满了彩色
+如今像个失败者，烦恼真有一百个
+抛却这些无可奈何，多去想想幸福快乐
+
+敏感词如下:
+  这是好久之前，那时真的是闲
+         将纸揉成一团，舒适午餐已然
+         不忘加个*蛋，黑鸭卷饼稀饭
+这是那时的快乐，生活充满了彩*
+如今像个失败者，烦恼真有一百个
+抛却这些无可奈何，多去想想幸福快乐
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+小雨淅沥沥的下
+我路过那家便利店
+偷偷看着你对马路发呆
+还好你没有发现
+我溜进地铁站
+躲进角落背我的那水那山
+
+敏感词如下:
+小雨淅沥沥的下
+我路过那家便利店
+偷偷看着你对*路发呆
+还好你没有发现
+我溜进地铁站
+躲进角落背我的那水那山
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+你应该会幸福
+再也没有我的打扰了
+有时我会觉得
+是不是挡住了你的人生景色
+
+敏感词如下:
+你应该会幸福
+再也没有我的打扰了
+有时我会觉得
+是不是挡住了你的人生景*
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+我寻找黑夜里的一丝微光
+我寻找夏日里的一处清凉
+我走在山城里的大街小巷
+可我找不到 属于我的方向
+不知道还要怎么走心
+我的心早已装满酒精
+
+敏感词如下:
+我寻找黑夜里的一丝微光
+我寻找夏*里的一处清凉
+我走在山城里的大街小巷
+可我找不到 属于我的方向
+不知道还要怎么走心
+我的心早已装满酒精
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+那无限延长的跑道，那一望无际的海洋！
+那郁郁葱葱的花草，可惜他只能孤芳自赏！
+
+敏感词如下:
+那无限延长的跑道，那一望无际的海洋！
+那郁郁葱葱的花*，可惜他只能孤芳自赏！
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+没有实力就在这里办个jb比赛
+跟你私信让你回击总是tm不再
+常规赛的阵容奖金像个乞丐
+
+敏感词如下:
+没有实力就在这里办个jb*赛
+跟你私信让你回击总是tm不再
+常规赛的阵容奖金像个乞丐
+-----------------------------
+Finished: SUCCESS
