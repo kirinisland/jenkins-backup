@@ -1,0 +1,70 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ba91e7d7c589c621bb569e1d087192576e8a20f3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+Commit message: "added lyric filter"
+ > git rev-list --no-walk ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins2541802963117212422.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 4首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+你是我昨天梦中的容颜，你是我明天创痛的渊源。
+是什么触动深藏的思念，是什么打湿风干的泪眼。
+谁能挽回似水的流年，，谁能留住如花的红颜
+谁听到你睡梦里的呜咽，谁亲吻你流满泪水的脸
+
+敏感词如下:
+你是我昨天梦中的容颜，你是我明天创痛的渊源。
+是什么触动深藏的思念，是什么打湿风*的泪眼。
+谁能挽回似水的流年，，谁能留住如花的红颜
+谁听到你睡梦里的呜咽，谁亲吻你流满泪水的脸
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+那些努力生活的人儿们，
+有朝一日，我也会成为他们吗？
+
+敏感词如下:
+那些努力生活的人儿们，
+有朝一*，我也会成为他们*？
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+Hook
+我看见一颗星星向我这边划落
+原来是你射中了我的心窝
+也是你让我内心燃起熊熊爱火
+所以想体验和你在一起的生活
+
+敏感词如下:
+hook
+我看见一颗星星向我这边划落
+原来是你*中了我的心窝
+也是你让我内心燃起熊熊爱火
+所以想体验和你在一起的生活
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+Hook
+我像是死亡了的鲸鱼
+我开始慢慢沉入海底
+孤独它像是一条鲨鱼
+它每日每日每夜撕裂我的身体
+
+敏感词如下:
+hook
+我像是*亡了的鲸鱼
+我开始慢慢沉入海底
+孤独它像是一条鲨鱼
+它每*每*每夜撕裂我的身体
+-----------------------------
+Finished: SUCCESS

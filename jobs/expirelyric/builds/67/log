@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ba91e7d7c589c621bb569e1d087192576e8a20f3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+Commit message: "added lyric filter"
+ > git rev-list --no-walk ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5337649300524243171.sh
++ python3 jobs/expirelyric.py --count 15
+('3092cf7415', '2020-05-07 16:13:51', '从此杳无音讯\n是天意，还是命运\n追寻风的足迹\n可惜力不从心\n那些开心的回忆\n早已随时光流去')
+('885780ede8', '2020-05-07 17:19:51', '多情只有春庭月 发觉 \n我更加难以忘却 有你在的世界 \n那时你我爱的炽烈 无果 困于你我分别')
+('386de3259f', '2020-05-07 18:10:20', '这是座荒城\n代表着永恒\n请欲望慢慢暗涌\n请别看我的颜容\n让人们麻痹以后\n难道就不会心痛')
+('981c745429', '2020-05-07 20:15:14', '雨落人稀\n静默看山海\n清风吟来\n又是一场梦')
+('0b78377b73', '2020-05-07 20:24:52', '留不住的人\n血液里住着风\n握不紧的沙\n不如随风扬了它')
+('faece3ae55', '2020-05-07 22:13:32', '还记得那个骄阳似火的夏天\n订上车票坐上高铁赶去和你见面\n南京梧桐树下舒适的街道\n标记了我跟你相遇的记号')
+('3b9fc813a4', '2020-05-08 00:22:20', '一字字，一句句，\n好像是传送千年的古典诗集，\n只可惜你只能存在过去的时光里。\n动人而又悲泣！')
+('ed66de2150', '2020-05-08 01:25:59', '失去你\n就好像失去了一部分我自己\n好像再也没有人能越过人海把我放在心尖里\n我也没有了嘻嘻哈哈的能力\n好像是在为难自己\n好怕我有一天会记不清你')
+('baa87479b4', '2020-05-08 10:46:52', '  这是好久之前，那时真的是闲\n         将纸揉成一团，舒适午餐已然\n         不忘加个鸡蛋，黑鸭卷饼稀饭\n这是那时的快乐，生活充满了彩色\n如今像个失败者，烦恼真有一百个\n抛却这些无可奈何，多去想想幸福快乐')
+('3cffaca65c', '2020-05-08 10:53:16', '小雨淅沥沥的下\n我路过那家便利店\n偷偷看着你对马路发呆\n还好你没有发现\n我溜进地铁站\n躲进角落背我的那水那山')
+('59b95de96b', '2020-05-08 14:34:37', '我寻找黑夜里的一丝微光\n我寻找夏日里的一处清凉\n我走在山城里的大街小巷\n可我找不到 属于我的方向\n不知道还要怎么走心\n我的心早已装满酒精')
+('45f971052d', '2020-05-08 18:42:21', '那无限延长的跑道，那一望无际的海洋！\n那郁郁葱葱的花草，可惜他只能孤芳自赏！')
+('adf784867f', '2020-05-08 21:08:50', '镜，照不出心底苦涩\n花，绘不出想要颜色\n水，波澜壮阔是他生\n月，戏看荒唐前半生')
+('8499373aee', '2020-05-08 21:58:51', '人生哪来这么多完美\n幸福过后有几人知道背后的眼泪\n总是找个时间让自己体会\n让自己也学着自己飞\n可谁知被线拽的滋味\n也许年纪越大越觉得伤悲')
+('3424565aff', '2020-05-08 22:10:06', '金戈铁马已不在，背起行囊踏征程\n虽有浓情惬意在，不教遗憾成流年')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
