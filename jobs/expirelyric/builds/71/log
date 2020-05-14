@@ -1,0 +1,44 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ba91e7d7c589c621bb569e1d087192576e8a20f3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+Commit message: "added lyric filter"
+ > git rev-list --no-walk ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins8381918442994002996.sh
++ python3 jobs/expirelyric.py --count 15
+('59b95de96b', '2020-05-08 14:34:37', '我寻找黑夜里的一丝微光\n我寻找夏日里的一处清凉\n我走在山城里的大街小巷\n可我找不到 属于我的方向\n不知道还要怎么走心\n我的心早已装满酒精')
+('45f971052d', '2020-05-08 18:42:21', '那无限延长的跑道，那一望无际的海洋！\n那郁郁葱葱的花草，可惜他只能孤芳自赏！')
+('adf784867f', '2020-05-08 21:08:50', '镜，照不出心底苦涩\n花，绘不出想要颜色\n水，波澜壮阔是他生\n月，戏看荒唐前半生')
+('8499373aee', '2020-05-08 21:58:51', '人生哪来这么多完美\n幸福过后有几人知道背后的眼泪\n总是找个时间让自己体会\n让自己也学着自己飞\n可谁知被线拽的滋味\n也许年纪越大越觉得伤悲')
+('3424565aff', '2020-05-08 22:10:06', '金戈铁马已不在，背起行囊踏征程\n虽有浓情惬意在，不教遗憾成流年')
+('7da4d66e55', '2020-05-09 08:20:48', '通利福尼亚的街有个少年激发了Hip-Hop潜力\n和他的兄弟一起披荆斩棘倔强而叛逆\n最开始的形状不能放弃真的从未忘记\n对音乐的初心绝不输给现实主义\n无数人的嘲笑和无数人的冷眼\n没天分的都太天真全靠表面装点')
+('c1b451f7ef', '2020-05-09 10:15:24', '雨落下 似散花\n落在那桥那亭上\n湿漉漉的布衣裳\n青砖黛瓦深巷处\n鸡犬相闻炊烟拂\n浩瀚烟波衣单薄')
+('5469dc6a36', '2020-05-09 11:15:28', '春雨落，泪满地\n手握长缨征战去\n踏遍沙场血雨滴，百转战一局\n胜也一局败也一局')
+('f01a428e77', '2020-05-10 15:19:40', '是谁画的希望\n展现如此荒唐\n利用你的迷茫\n写出所谓真相\n故事中的辉煌\n总有几句离殇')
+('72a8a55093', '2020-05-11 02:37:15', '送的手链还换不换\n答应的承诺还算不算\n曾经的一切断不断\n再试一次你还敢不敢\n有没有一个上帝视角能够看一看\n究竟哪个人陪你走完人生下一段')
+('c91c6f5703', '2020-05-11 16:48:41', '铸铁锻钢刀 炉火旺\n刀颚上的猛虎 如将军精壮\n炼炉热浪击面才发现\n刀身已锻打过十万\n钢刀淬火 瞬间 杀意难藏\n一如将军虎目圆睁 将胜利照亮')
+('c260b628c8', '2020-05-12 19:20:29', '12年前的今天发生在汶川\n这件事让人头皮发麻没有一丝温暖\n但是有一群人特别的勇敢\n不让那些失去双亲的人感受到孤单\n回到今天仍然有人在坟地哭喊')
+('533e66aeb6', '2020-05-12 21:03:51', '\r\n       半夜想你想到睡不着\r\n       白天上课瞥见你就好\r\n    世界这么大  太多纷纷扰扰\r\n    我只是奢望你的倾城一笑\r')
+('9572360f0d', '2020-05-13 01:56:39', '其实不在乎也无所谓\n太多的规则要学会\n在夜里  自己看着星空流着泪\n就一朵带毒带刺的玫瑰')
+('2d82a917b1', '2020-05-13 03:39:19', '蔚蓝的天\n早已把你看不见\n清色水面\n早已映不出你的脸')
+('5528fd3066', '2020-05-13 12:44:02', '他们说着你是祖国的 新芽 \r试图教会你 他们所谓的 风雅\r可是你就像是 一个 被人摆布的洋娃娃\r你渴望结束这一切 跳下这个囚笼一般的 悬崖\r于是 你开始对着荆棘 攀爬\r终于你的反抗之声 变得嘶哑 \r所到之处 充斥着 血渍的 涂鸦\r你 用尽最后的力气 对他们说：\r你们这群愚蠢的人类 永远只配做井底之蛙')
+('226318c884', '2020-05-14 01:31:11', '清晨第一缕阳光\n意外照在我前方\n我是真的感动 谢谢你的坚持\n陪我走过黑暗荆棘帮我点亮微弱烛光\n当我脸上终于又浮现出笑容\n你却疲惫不堪失去了快乐')
+现有精选微词 17首.
+> 超过 15 首精选微词, 将下架如下微词:
+('59b95de96b', '2020-05-08 14:34:37', '我寻找黑夜里的一丝微光\n我寻找夏日里的一处清凉\n我走在山城里的大街小巷\n可我找不到 属于我的方向\n不知道还要怎么走心\n我的心早已装满酒精')
+{"updatedAt":"2020-05-14 07:14:49"}
+('45f971052d', '2020-05-08 18:42:21', '那无限延长的跑道，那一望无际的海洋！\n那郁郁葱葱的花草，可惜他只能孤芳自赏！')
+{"updatedAt":"2020-05-14 07:14:50"}
+Finished: SUCCESS
