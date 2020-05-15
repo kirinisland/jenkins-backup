@@ -1,0 +1,114 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ba91e7d7c589c621bb569e1d087192576e8a20f3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+Commit message: "added lyric filter"
+ > git rev-list --no-walk ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins8567188936252135774.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 13首.
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+保留关于你的一切 一切我都还没删
+所以浮现了一幕 一幕像电影在循环
+只是我不再是其中的人物
+只能抚平情绪去回顾
+
+敏感词如下:
+保留关于你的一切 一切我都还没删
+所以浮现了一幕 一幕像*在循环
+只是我不再是其中的人物
+只能抚平情绪去回顾
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+我曾经爱过你
+无缘无故爱上你
+曾为你着迷
+却只能放弃
+不小心飘进深海里
+或许会有些熟悉
+
+敏感词如下:
+我曾经爱过你
+无缘无故爱*
+曾为你着迷
+却只能放弃
+不小心飘进深海里
+或许会有些熟悉
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+还没有说什么呢
+就这样进入了黑名单里
+还能做什么呢
+这敲不破的城墙永久的迷
+点开面前的头像千百次
+消息在发送但怎么也发不出
+
+敏感词如下:
+还没有说什么呢
+就这样进入了黑名单里
+还能做什么呢
+这敲不破的城墙永久的迷
+点开面前的头像千百次
+*在发送但怎么也发不出
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+Wanna believe wanna believe 
+That we gonna have a summer without Dr. Faucci
+But the truth is so hard to conceive
+Wanna believe wanna believe 
+That we could safely kiss each other at a beach party
+But the social distance is still six feet 
+
+敏感词如下:
+wanna believe wanna believe 
+that we gonna have a summer without dr. faucci
+but the truth is so hard to conceive
+wanna believe wanna believe 
+that we could safely * each other at a beach *
+but the social distance is still six feet 
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+共度难关是我们的基因
+情比金坚为承诺盖上封印
+隔离期  间不变的  是 心心相印
+飞机不在大西洋上飞行
+璀璨的夜空中划过一颗流星
+我的祷告终有了回音
+
+敏感词如下:
+共度难关是我们的基因
+情*金坚为承诺盖上封印
+隔离期  间不变的  是 心心相印
+飞机不在大西洋上飞行
+璀璨的夜空中划过一颗流星
+我的祷告终有了回音
+-----------------------------
+Finished: SUCCESS
