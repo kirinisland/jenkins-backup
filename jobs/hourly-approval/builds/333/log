@@ -1,0 +1,44 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ba91e7d7c589c621bb569e1d087192576e8a20f3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+Commit message: "added lyric filter"
+ > git rev-list --no-walk ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins701168217045831356.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 4首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+无助，当平凡的光线也照不透，要面子还是要尽量献丑，学会了自欺却还是要温柔，对这世界太好会长出伤口，低头呢喃只不过是借口，我尽量都承受。好吧我接下来尽量做得很伪善，孤独的人从来没有安全感，可是我依然就是学不会很伪善，或许我的内心卑微得只会行善，如果人们都能在昏沉中互相道晚安，那么我宁愿变得更伪善。然后，我会用尽一切的手段，要面子也要对着他们把头点，不痛不痒的煽情总让人厌倦，你不要再纠缠。好吧我接下来尽量改得很妥善，孤单的人只会用卑微的手段，或许我就是不能变得太妥善，世界会不安，利益都不算，人只剩一半……
+
+敏感词如下:
+无助，当平凡的*也照不透，要面子还是要尽量献丑，学会了自欺却还是要温柔，对这世界太好会长出伤口，低头呢喃只不过是借口，我尽量都承受。好吧我接下来尽量做得很伪善，孤独的人从来没有安全感，可是我依然就是学不会很伪善，或许我的内心卑微得只会行善，如果人们都能在昏沉中互相道晚安，那么我宁愿变得更伪善。*，我会用尽一切的手段，要面子也要对着他们把头点，不痛不痒的煽情总让人厌倦，你不要再纠缠。好吧我接下来尽量改得很妥善，孤单的人只会用卑微的手段，或许我就是不能变得太妥善，世界会不安，利益都不算，人只剩一半……
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+你的美丽让我着迷
+你的性格我很钟意
+从初次见面的第一眼起
+我就深深地爱上了你
+
+敏感词如下:
+你的美丽让我着迷
+你的*格我很钟意
+从初次见面的第一眼起
+我就深深地爱上了你
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+Finished: SUCCESS
