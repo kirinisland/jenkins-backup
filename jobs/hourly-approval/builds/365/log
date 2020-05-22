@@ -1,0 +1,84 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ba91e7d7c589c621bb569e1d087192576e8a20f3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+Commit message: "added lyric filter"
+ > git rev-list --no-walk ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins4213545161227515770.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 6首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+窗外太阳每日照常
+升起来落下来
+一如既往没有定向
+心中愿望没了坚强
+想拾起又放下
+没了动力误会一场
+
+敏感词如下:
+窗外太阳每*照常
+升起来落下来
+一如既往没有定向
+心中愿望没了坚强
+想拾起又放下
+没了动力误会一场
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+未免太嘈杂的，集市中央。
+月色也不太平常，
+格外明亮。
+这也许只是我，梦境一场。
+看着远方的凄凉，
+有些悲伤。
+
+敏感词如下:
+未免太嘈杂的，集市*。
+月*也不太平常，
+格外明亮。
+这也许只是我，梦境一场。
+看着远方的凄凉，
+有些悲伤。
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+走走停停 炎热间 赤裸停返
+逃避孤独 却发现黑夜 赐我灵感
+灵感来自孤寂 而不是空虚
+别像个孩子哭泣 勇闯南北东西
+
+敏感词如下:
+走走停停 炎热间 *停返
+逃避孤独 却发现黑夜 赐我灵感
+灵感来自孤寂 而不是空虚
+别像个孩子哭泣 勇闯南北东西
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+血从门里渗出来，坐在浴缸里的小孩。
+手术室的红灯亮起又熄灭。
+白色的布，人们痛哭，告别这个世界
+大大森林，小小墓碑，骇人的哭泣 不要再理...
+血色的花，黑色夜里，地狱大门开启...
+
+敏感词如下:
+血从门里渗出来，坐在浴缸里的小孩。
+手术室的红灯亮起又熄灭。
+白*的布，人们痛哭，告别这个世界
+大大森林，小小墓碑，骇人的哭泣 不要再理...
+血*的花，黑*夜里，地狱大门开启...
+-----------------------------
+Finished: SUCCESS

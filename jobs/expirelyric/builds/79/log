@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ba91e7d7c589c621bb569e1d087192576e8a20f3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+Commit message: "added lyric filter"
+ > git rev-list --no-walk ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins4871841731320127682.sh
++ python3 jobs/expirelyric.py --count 15
+('83233a5b6f', '2020-05-16 14:35:38', '微醺度步暮亭前，\n西下红影扯云边。\n亲求今宵君有梦，\n画下青鸟眷牡丹。')
+('30f33f8684', '2020-05-16 14:44:26', '月落喧嚣默，日升复轩然。\n由来红尘事，拂袖越桑田。')
+('fb69f88c27', '2020-05-16 14:47:22', '生来寻如意，持命向终年。\n洁云难为水，求佛不是缘。')
+('f2bf27d904', '2020-05-16 15:07:25', '雪封寒枝一点红，不才向北傲迎风。\n生来不求春暖色，傲骨铮铮上九重。')
+('09a6d9f851', '2020-05-16 15:13:40', '茅屋陶盏茶香，帷幔倩影琳琅，晨风细雨芭蕉叶，少年白马银枪。\n绿锈门环清瘦，桃花不解卿愁，回望西峰猿鸣旧，青梅煮酒风流。\n莺燕曼舞笙歌，叠峦陵江几何，把酒持缰身北漠，豪沙不阻狂客。')
+('348af44ece', '2020-05-16 17:41:18', '愿所有的微风安定 所有月夜有群星 \n愿你纵拥千千晚星 唯你是我眼中的星星\n每想你一次，我院子里的星星便多一颗，如今，那些零碎的欢喜，竟已凑成了银河。')
+('5da773b7ff', '2020-05-17 00:34:20', '我在用力讨好一切\n你却装着不理睬\n我的心中早就不安\n你却丝毫不明白\n我还在和过去抱歉\n你却开始下段爱')
+('29127018b8', '2020-05-17 16:13:23', '\n今晨的雨露\n好像多了些孤独\n每当我近你一步\n都让我倍感孤独')
+('5325018b93', '2020-05-18 20:19:10', '青山千里翻越\n而今尽数苍茫\n不知前方何渡\n秋风经过胡杨\n三月柳絮若雪\n天地圹埌可记')
+('92067fe8d3', '2020-05-18 21:00:00', 'oh baby\n我想给你全部的温柔\n然后给你想要的以后\n我会努力抓紧你的小手\n带你看世间最美的日落\n一直往前走 不退后')
+('fa9b47bd6b', '2020-05-18 22:40:37', '每天你在微笑中还是沮丧着醒来\n每夜你在孤独中还是哭泣着忍耐\n每次你在憧憬中还是失落着等待 \n每回你在坚持后为何低下头走开')
+('725afc2717', '2020-05-19 11:48:48', '还记得那时总是形影不离\n不管过去未来都充满好奇\n富婆的身姿实在让你心仪\n想追女孩却总是那么心急\n你的声线是在令她着迷\n一段时间也把你当做情敌')
+('55836ac39a', '2020-05-19 20:17:31', '  还记得那个有你的夏天\n  你就在我面前在我身边\n  当时我没有一点点思念\n  可是时间   它慢慢不见\n  你也跟我说了一声呐再见')
+('ba9cc55b34', '2020-05-20 21:40:39', '这一次我找寻着自己的太阳\n伤疤，只是那被我遗忘的过往\n梦里我想起那一声不吭的一刻\n-理想，永远是我的力量\n\n－致那些正在追逐梦想的人。')
+('b4aa2eb041', '2020-05-20 22:40:22', '吾有一友\n而今二十有七\n玲珑乖巧 甚是怜人\n\n若问何人\n乃小女子也 ')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
