@@ -1,0 +1,84 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ba91e7d7c589c621bb569e1d087192576e8a20f3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+Commit message: "added lyric filter"
+ > git rev-list --no-walk ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5891185208087139408.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 7首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+我说你这么牛逼怎么不去新说唱
+二十出头还红肚兜带在身上
+和我battle也不看看自己吊样
+王者摔你用也要用个干将
+
+哥们儿你个人battle不讲文化
+
+敏感词如下:
+我说你这么*怎么不去新说唱
+二十出头还红肚兜带在身上
+和我battle也不看看自己*样
+王者摔你用也要用个*将
+
+哥们儿你个人battle不讲文化
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+哥哥你这么吊押韵还要技巧 没有文学水平只能在路边乞讨 你的言谈举止都在我耳边围绕 小心我爸把你妈插的嗷嗷叫 你是不是时常感觉自己特nb 你是黑旋风李逵我艹你妈个逼 你混那吊样真他妈是傻逼 啥也不是就他娘是个辣鸡 你自我感觉自己hip-hop届的老大 也不想想我他妈的就是你爸 搞的其他妹妹不敢跟你讲话 他妈看见你的样子我想想就怕 真的不想在网络世界diss 关键你真的就是一个lows 你爸开拖拉机我爸开奔驰 快点从我眼前消失整个辈子 希望你拉着你那混社会的兄弟 快点来我家里顺便开个
+party 如果实在不行就滚回家种地 呢你battle 真的是so easily
+
+敏感词如下:
+*你这么*押韵还要技巧 没有文学水平只能在路边乞讨 你的言谈举止都在我耳边围绕 小心我爸把**的嗷嗷叫 你是不是时常感觉自己特nb 你是黑旋风李逵我艹*个* 你混那*样真他*是傻* 啥也不是就*是个辣* 你自我感觉自己hip-hop届的老大 也不想想我他*的就是* 搞的其他*不敢跟你讲话 他*看见你的样子我想想就怕 真的不想在网络世界diss 关键你真的就是一个lows *开拖拉机我爸开奔驰 快点从我眼前消失整个辈子 希望你拉着你那混社会的兄弟 快点来我家里顺便开个
+* 如果实在不行就*回家种地 呢你battle 真的是so easily
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+今天可是一个阴天
+我独自坐在空荡的房间
+思考着我与她的明天
+想着想着不禁地兴奋
+脑海里时而驶往我又开始发愣
+
+
+敏感词如下:
+今天可是一个阴天
+我独自坐在空荡的房间
+思考着我与她的明天
+想着想着不禁地兴奋
+脑海里时而驶往我又开始*
+
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+听着那默认的闹钟响
+不知这是第几个清晨
+拿着10块的早餐钱
+看的却是那20的巧克力
+我内心不知是第几次想着努力
+我和爸妈说我要搞音乐
+
+敏感词如下:
+听着那默认的闹钟响
+不知这是第几个清晨
+拿着10块的早餐钱
+看的却是那20的巧克力
+我内心不知是第几次想着努力
+我和爸*说我要搞音乐
+-----------------------------
+Finished: SUCCESS
