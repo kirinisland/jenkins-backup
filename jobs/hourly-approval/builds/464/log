@@ -1,0 +1,50 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ba91e7d7c589c621bb569e1d087192576e8a20f3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+Commit message: "added lyric filter"
+ > git rev-list --no-walk ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins4463763278942926529.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 6首.
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+你是否放我回来
+亲手将我的爱掩埋
+挥挥手能说声
+挥挥手再说声
+不爱
+
+敏感词如下:
+你是否放我回来
+亲手将我的爱*
+挥挥手能说声
+挥挥手再说声
+不爱
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+看着哥哥开口就知是老OG 不过妹妹我的气势不能输一批看着我的词汇是如此的帅气 也堪比猴子哥哥变化36计 哥哥你插我m逼就有点过分了 小心我一个巴掌把你脑浆扇爆了 哥哥要freestyle首先把话讲好了 我要好好学习这游戏没法继续了 我这九条命用不着买保险 再次喊艹b小心我对你翻脸 平生最讨厌别人在犯贱 我他妈人很好也不太懂欺骗 哥哥我就叫小n你能拿我怎么办 难不成你他妈还想做我另一半  我的瑶妹妹真的特别能干 要不要我放个大招给你看
+
+敏感词如下:
+看着*开口就知是老og 不过*我的气势不能输一批看着我的词汇是如此的帅气 也堪*猴子*变化36计 *你*m*就有点过分了 小心我一个巴掌把你脑浆扇爆了 *要freestyle首先把话讲好了 我要好好学习这游戏没法继续了 我这九条命用不着买保险 再次喊艹b小心我对你翻脸 平生最讨厌别人在犯* 我*人很好也不太懂欺骗 *我就叫小n你能拿我怎么办 难不成*还想做我另一半  我的瑶*真的特别能* 要不要我放个大招给你看
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+Finished: SUCCESS
