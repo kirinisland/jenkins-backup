@@ -1,0 +1,35 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hot_user
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ba91e7d7c589c621bb569e1d087192576e8a20f3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+Commit message: "added lyric filter"
+ > git rev-list --no-walk ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+[hot_user] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins2962083608050126047.sh
++ python3 jobs/hot_user.py --count 10
+Hot users after date: 2020-05-20 00:00:00
+点赞最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=10&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2020-05-20 00:00:00"}}}&keys=user,validStatus,likeCount,commentCount,bookmarkCount&order=-likeCount
+[('6533a667a4', 5, None, 5, 3), ('7fb46b7dec', 4, None, 5, 3), ('65c27d1603', 4, None, 3, 3), ('2c207eb18c', 4, 4, 2, 3), ('4459e32114', 3, None, None, 2), ('93f77eb8be', 3, None, None, 2), ('2c207eb18c', 3, 13, 1, 2), ('e90602de55', 2, None, None, 3), ('930e22454a', 2, None, None, 3), ('809cf8174f', 2, None, 1, 3)]
+[{'success': {'createdAt': '2020-05-27 20:19:20', 'objectId': 'cf0283f147'}}, {'success': {'createdAt': '2020-05-27 20:19:20', 'objectId': 'ce0ccf1e95'}}, {'success': {'createdAt': '2020-05-27 20:19:20', 'objectId': '7570981b95'}}, {'success': {'createdAt': '2020-05-27 20:19:20', 'objectId': '7711be98eb'}}, {'success': {'createdAt': '2020-05-27 20:19:20', 'objectId': 'ebc34b8e0a'}}, {'success': {'createdAt': '2020-05-27 20:19:20', 'objectId': 'cf8aa1e4e8'}}, {'success': {'createdAt': '2020-05-27 20:19:20', 'objectId': '0e9c2ea4c7'}}, {'success': {'createdAt': '2020-05-27 20:19:20', 'objectId': '2e80c49342'}}, {'success': {'createdAt': '2020-05-27 20:19:20', 'objectId': '4c00f4e6af'}}, {'success': {'createdAt': '2020-05-27 20:19:20', 'objectId': '0de4a95f3f'}}]
+
+评论最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=10&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2020-05-20 00:00:00"}}}&keys=user,validStatus,likeCount,commentCount,bookmarkCount&order=-commentCount
+[('2c207eb18c', 3, 13, 1, 2), ('2c207eb18c', 4, 4, 2, 3), ('f8da153c27', 0, 2, 3, 3), ('2c207eb18c', 1, 2, 3, 3), ('6533a667a4', 1, 1, None, 3), ('6533a667a4', 2, 1, 2, 3), ('7fb46b7dec', 4, None, 5, 3), ('65c27d1603', 4, None, 3, 3), ('e90602de55', 2, None, None, 3), ('930e22454a', 2, None, None, 3)]
+[{'success': {'createdAt': '2020-05-27 20:19:22', 'objectId': '33af5a895e'}}, {'success': {'createdAt': '2020-05-27 20:19:22', 'objectId': '6acad1b468'}}, {'success': {'createdAt': '2020-05-27 20:19:23', 'objectId': 'bf92696e74'}}, {'success': {'createdAt': '2020-05-27 20:19:23', 'objectId': '9b2d876e85'}}, {'success': {'createdAt': '2020-05-27 20:19:23', 'objectId': '5d43993c9e'}}, {'success': {'createdAt': '2020-05-27 20:19:23', 'objectId': '097b5421b1'}}, {'success': {'createdAt': '2020-05-27 20:19:23', 'objectId': '5e35f85323'}}, {'success': {'createdAt': '2020-05-27 20:19:23', 'objectId': '06cbab2244'}}, {'success': {'createdAt': '2020-05-27 20:19:23', 'objectId': 'b85220019e'}}, {'success': {'createdAt': '2020-05-27 20:19:23', 'objectId': '546aaa6a79'}}]
+
+收藏最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=10&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2020-05-20 00:00:00"}}}&keys=user,validStatus,likeCount,commentCount,bookmarkCount&order=-bookmarkCount
+[('7fb46b7dec', 4, None, 5, 3), ('6533a667a4', 5, None, 5, 3), ('65c27d1603', 4, None, 3, 3), ('f8da153c27', 0, 2, 3, 3), ('2c207eb18c', 1, 2, 3, 3), ('6426b7eddb', 2, None, 3, 2), ('2c207eb18c', 4, 4, 2, 3), ('6533a667a4', 2, 1, 2, 3), ('92bf3c534f', 2, None, 2, 2), ('6533a667a4', 2, None, 2, 3)]
+[{'success': {'createdAt': '2020-05-27 20:19:27', 'objectId': 'e800b94935'}}, {'success': {'createdAt': '2020-05-27 20:19:27', 'objectId': 'edc365cc6a'}}, {'success': {'createdAt': '2020-05-27 20:19:27', 'objectId': '7259661b7e'}}, {'success': {'createdAt': '2020-05-27 20:19:27', 'objectId': '476250ed09'}}, {'success': {'createdAt': '2020-05-27 20:19:27', 'objectId': '46b0b7646d'}}, {'success': {'createdAt': '2020-05-27 20:19:27', 'objectId': 'd15ff9c6ca'}}, {'success': {'createdAt': '2020-05-27 20:19:27', 'objectId': '736cba5de5'}}, {'success': {'createdAt': '2020-05-27 20:19:27', 'objectId': '0640766b3c'}}, {'success': {'createdAt': '2020-05-27 20:19:27', 'objectId': '2b217a113c'}}, {'success': {'createdAt': '2020-05-27 20:19:27', 'objectId': 'e232bab465'}}]
+['6533a667a4', '7fb46b7dec', '65c27d1603', '2c207eb18c', '4459e32114', '93f77eb8be', '2c207eb18c', 'e90602de55', '930e22454a', '809cf8174f', '2c207eb18c', '2c207eb18c', 'f8da153c27', '2c207eb18c', '6533a667a4', '6533a667a4', '7fb46b7dec', '65c27d1603', 'e90602de55', '930e22454a', '7fb46b7dec', '6533a667a4', '65c27d1603', 'f8da153c27', '2c207eb18c', '6426b7eddb', '2c207eb18c', '6533a667a4', '92bf3c534f', '6533a667a4']
+Total hot users count after date: 2020-05-20 00:00:00: 12
+Finished: SUCCESS
