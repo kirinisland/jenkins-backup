@@ -1,0 +1,44 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ba91e7d7c589c621bb569e1d087192576e8a20f3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+Commit message: "added lyric filter"
+ > git rev-list --no-walk ba91e7d7c589c621bb569e1d087192576e8a20f3 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1678588238926690331.sh
++ python3 jobs/expirelyric.py --count 15
+('7b43c4fefc', '2020-05-22 13:07:09', '血从门里渗出来，坐在浴缸里的小孩。\n手术室的红灯亮起又熄灭。\n白色的布，人们痛哭，告别这个世界\n大大森林，小小墓碑，骇人的哭泣 不要再理...\n血色的花，黑色夜里，地狱大门开启...')
+('f81bc0ae85', '2020-05-22 14:38:04', '愿你温暖胜过黑暗\n愿你勇敢胜过不安\n愿你四季都如春天\n愿我能一直守护你\n青春年少的你往前奔跑\n我定努力追逐你的背影')
+('e359c5e79b', '2020-05-22 21:41:40', '窗外的雨悄然落下\n脑子里的幻想猛然发芽\n听着雨的噼里啪啦\n幻想着遥无边际的怪想法\n再次\n大雨毫无声息地落下')
+('bdcb531bb6', '2020-05-23 07:51:00', '春笋生\n夏竹繁茂\n秋叶落\n冬风送寒\n凡人不及天意\n终入尘中')
+('6a11a97f76', '2020-05-24 00:02:02', '客洗风尘来 客饮闲茶去\n人要攀高山 魂要归故里\n门前一场萧瑟的游子秋雨\n门后还在早春里')
+('2686a766d9', '2020-05-24 12:36:29', '好了现在我来秀秀我的技巧，在坐观众朋友全都给我记好，你知道我的freestyle在这可以发电，我劝你那些键盘侠们吃碗兰州拉面 ，不知道我的歌词你们会不会发现 ，我只要把最好的在这里面展现 ，其实freestyle不用押韵我也会 ，但是歌词你起码必须得唱对')
+('676fd9127f', '2020-05-25 12:23:48', '踏上这座陌生的城市，我的梦想，我的爱情，似乎像梦一样容易美好。最终闯了十年才知道，城市的天空，城市的街道，没有我的一地。带着失落，带着孤单一起离去。\n傍晚公园小道，浪漫情侣，欢乐笑声，他们追逐着心中当初的希望，笑的多一些，可以改变未来，太阳光下，流水线上，继续嘀汗，为了安家，为了爱你，再拿十年改变彻底。')
+('3f95d8a30e', '2020-05-25 14:01:49', '今天可是一个阴天\n我独自坐在空荡的房间\n思考着我与她的明天\n想着想着不禁地兴奋\n脑海里时而驶往我又开始发愣\n')
+('edf6e99578', '2020-05-25 23:00:37', '听着那默认的闹钟响\n不知这是第几个清晨\n拿着10块的早餐钱\n看的却是那20的巧克力\n我内心不知是第几次想着努力\n我和爸妈说我要搞音乐')
+('96b1db7d20', '2020-05-26 08:20:03', '往事一幕一幕\n在我眼中不停的爱你\n面对这份感情\n其实无法再去改变\n我一直深爱着你\n却被一次一次的感动')
+('3da6d35237', '2020-05-26 09:28:38', '我给老公做饭的时候还知道加点儿小米\n他给我做饭的时候连个锅都不洗')
+('badea48776', '2020-05-26 10:51:34', '白天的喧嚣\n注定不属于我\n只有黑夜的寂静\n才能让我\n挣脱束缚的枷锁\n自由翱翔')
+('52a557b28c', '2020-05-26 12:20:26', '你是否放我回来\n亲手将我的爱掩埋\n挥挥手能说声\n挥挥手再说声\n不爱')
+('0424ce3aeb', '2020-05-26 17:39:28', '若不是痴心未见人长久\n又怎会遇你 贪恋你 片刻温柔\n若不是一入风尘不可救\n又怎会 眷你 念你 画地成囚\n你若不走  念你不休\n如若松手  亦不能留')
+('dc8a3ad6e4', '2020-05-26 20:03:49', '在那烟雨漂泊的小城里\n我看见远方升起的彩虹\n它那七彩的颜色中\n隐隐约约有些朦胧\n想起春天你说的那些花\n你说梅花开了我们再聚')
+('1c0cfb51d9', '2020-05-27 11:29:32', '年少轻狂无心罪，依然也是罪。\n终会成为，余生负累。\n微信号用你生日，让记忆不像草木成灰。\n失去总是弥足珍贵\n想起那时初恋的我\n根本不懂爱的深邃')
+('f4987ef8b9', '2020-05-27 16:50:28', '人生的道路是艰辛的\n会犯错 会有低谷\n咬咬牙 挺过去\n努力朝着自己的目标前进\n总有一天\n你会看到黎明的曙光')
+现有精选微词 17首.
+> 超过 15 首精选微词, 将下架如下微词:
+('7b43c4fefc', '2020-05-22 13:07:09', '血从门里渗出来，坐在浴缸里的小孩。\n手术室的红灯亮起又熄灭。\n白色的布，人们痛哭，告别这个世界\n大大森林，小小墓碑，骇人的哭泣 不要再理...\n血色的花，黑色夜里，地狱大门开启...')
+{"updatedAt":"2020-05-28 07:14:19"}
+('f81bc0ae85', '2020-05-22 14:38:04', '愿你温暖胜过黑暗\n愿你勇敢胜过不安\n愿你四季都如春天\n愿我能一直守护你\n青春年少的你往前奔跑\n我定努力追逐你的背影')
+{"updatedAt":"2020-05-28 07:14:20"}
+Finished: SUCCESS
