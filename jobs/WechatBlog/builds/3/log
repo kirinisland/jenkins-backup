@@ -1,0 +1,29 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/WechatBlog
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 275971ffc0a8ed1aa433ad1a41dc7e374327add6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 275971ffc0a8ed1aa433ad1a41dc7e374327add6 # timeout=10
+Commit message: "wechat blog job"
+ > git rev-list --no-walk 275971ffc0a8ed1aa433ad1a41dc7e374327add6 # timeout=10
+[WechatBlog] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins602176978181316544.sh
+++ '[造词优选]' $'\347\254\254\344\270\200\346\234\237'
+++ $'\345\244\217\345\244\251\347\232\204\351\243\216'
+/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins602176978181316544.sh: line 2: [造词优选]: command not found
+/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins602176978181316544.sh: line 2: 夏天的风: command not found
++ python3 jobs/update_wechatblog.py --title --type 1 --url https://mp.weixin.qq.com/s/R0E3gRq9GXbVb3EqyQZvsA
+usage: update_wechatblog.py [-h] [-a APPLICATION_ID] [-r REST_API_KEY]
+                            [-t TITLE] [-y TYPE] [-u URL]
+update_wechatblog.py: error: argument -t/--title: expected one argument
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
