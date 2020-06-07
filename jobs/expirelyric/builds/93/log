@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 275971ffc0a8ed1aa433ad1a41dc7e374327add6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 275971ffc0a8ed1aa433ad1a41dc7e374327add6 # timeout=10
+Commit message: "wechat blog job"
+ > git rev-list --no-walk 275971ffc0a8ed1aa433ad1a41dc7e374327add6 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5844411690755303475.sh
++ python3 jobs/expirelyric.py --count 15
+('3da282b211', '2020-06-01 11:36:50', '当月亮失去了星星\n当蓝天失去阳光\n海洋失去了沙滩\n森林失去了绿树\n当我失去了你\n我却不知道')
+('60917038e2', '2020-06-01 18:38:33', '我送你的木槿\n你是否好好珍惜\n我给你的心意\n你是否知晓清晰\n我总是不经意 悄悄的\n路过有你的风景')
+('e5161e300f', '2020-06-01 20:59:25', '一场一场的雪把天地掩埋\n一幕一幕回忆 褪色后黑白\n老屋逝去 拥有过的 辗转之后终于不在\n于是听故事的人被编进故事里来\n而我只在故事外为别人喝彩')
+('9643210232', '2020-06-02 08:59:47', '倾心相映卿月\n白昼纯粹悲咽\n灾殃闯入雾墨\n悲凄的失陷\n')
+('a702ca9edf', '2020-06-02 20:43:06', '你看那天的美满  走得多远\n仿佛遗忘了还在走的时间\n我说记忆的温暖  没有长短\n好像明白了回不去的昨天')
+('291091110d', '2020-06-02 23:36:08', '真的喜欢这个妹妹\n可她始终只想和我暧昧\n这段感情对我十分珍贵\n我会学会勇敢面对\n把这段感情慢慢剪碎')
+('963d440573', '2020-06-03 11:17:15', '想把你养在星星的池塘\n陪我看月亮坠落的疯狂\n这个星球偶尔冲向脆弱\n而我也偶尔想与你沉没\n我这一生除开我的故乡\n也只为你一人写过月亮')
+('490c31f2d4', '2020-06-03 14:54:25', '当白鹭栖息湖畔\n留下初夏的温暖\n画出漫画书图案\n琴声悠扬回响\n曾奔跑于求索道\n如今却踏入人海疯狂')
+('56d87b95b7', '2020-06-03 23:54:35', '想念同学 想打招呼问好\n我六一回校 戴上口罩\n校有校规 从现在开始\n禁止握手 严禁拥抱\n每一个点头 是我们的暗号\n如果有不满 禁止上学堂')
+('b5473a0e60', '2020-06-04 12:05:43', 'Keep going till you reach the one you want it,Because you worth it!\n                                                                   -美丽莎')
+('fc56fb6194', '2020-06-04 12:51:43', '听着别人的命令\n不能反抗\n因为前方的幽暗\n你根本看不清\n不要说谎不要聆听\n颂着别人的诗句')
+('aae8465a38', '2020-06-04 15:42:31', '我们看不清楚前路\n同样我们都在迷路\n只是换了不同角度\n')
+('0e2822bb7a', '2020-06-04 19:11:57', '愿你习惯被爱但不依赖存在\n懂得娱乐\n懂得快乐\n愿你碗里有满满的华夫饼\n拥抱里有温度\n狂欢后有祝福')
+('20000cec78', '2020-06-04 21:42:37', '八月的风是潮湿的，忧郁一笑是腼腆的，盛夏的夜是宁静的，无声无息，划过一道泪痕。你又何必装得深沉，天真的人不再单纯，夜空中的闪烁星辰，不再属于那断肠人。那日日地无聊生存，这痴情不会被承认，那人还是不会转身，尽管他有多少伤痕。你为什么也会晃神，难道早已停下了脚步，那根稻草快抓住，迟早都会痛苦。冬天的风是干涩的，吹得脸也干裂，冬日是嘈杂的，人来人往，他们真的幸福吗')
+('4174292c49', '2020-06-04 22:08:56', '你每天都努力的伪装成为一个情绪稳定的成年人\n连杯子碰撞都是梦想破碎的声音\n我们好像都突然离场，换了一身皮囊，追寻着自以为是的理想')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
