@@ -1,0 +1,50 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 275971ffc0a8ed1aa433ad1a41dc7e374327add6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 275971ffc0a8ed1aa433ad1a41dc7e374327add6 # timeout=10
+Commit message: "wechat blog job"
+ > git rev-list --no-walk 275971ffc0a8ed1aa433ad1a41dc7e374327add6 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5093501265633012227.sh
++ python3 jobs/expirelyric.py --count 15
+('b5473a0e60', '2020-06-04 12:05:43', 'Keep going till you reach the one you want it,Because you worth it!\n                                                                   -美丽莎')
+('fc56fb6194', '2020-06-04 12:51:43', '听着别人的命令\n不能反抗\n因为前方的幽暗\n你根本看不清\n不要说谎不要聆听\n颂着别人的诗句')
+('aae8465a38', '2020-06-04 15:42:31', '我们看不清楚前路\n同样我们都在迷路\n只是换了不同角度\n')
+('0e2822bb7a', '2020-06-04 19:11:57', '愿你习惯被爱但不依赖存在\n懂得娱乐\n懂得快乐\n愿你碗里有满满的华夫饼\n拥抱里有温度\n狂欢后有祝福')
+('20000cec78', '2020-06-04 21:42:37', '八月的风是潮湿的，忧郁一笑是腼腆的，盛夏的夜是宁静的，无声无息，划过一道泪痕。你又何必装得深沉，天真的人不再单纯，夜空中的闪烁星辰，不再属于那断肠人。那日日地无聊生存，这痴情不会被承认，那人还是不会转身，尽管他有多少伤痕。你为什么也会晃神，难道早已停下了脚步，那根稻草快抓住，迟早都会痛苦。冬天的风是干涩的，吹得脸也干裂，冬日是嘈杂的，人来人往，他们真的幸福吗')
+('4174292c49', '2020-06-04 22:08:56', '你每天都努力的伪装成为一个情绪稳定的成年人\n连杯子碰撞都是梦想破碎的声音\n我们好像都突然离场，换了一身皮囊，追寻着自以为是的理想')
+('fc74110a75', '2020-06-04 22:11:36', '让不该\n凋谢的花凋谢\n她不该\n盛开在这时间\n我不该\n写这一段和弦')
+('5d07a79bee', '2020-06-05 14:26:16', '今饮咖啡生普洱，曾尝果蜜入红茶；\n今穿青素淡如墨，曾配衣裙色比花。\n爱意绵绵无几日，又是苦满涩如沙；\n依稀甜蜜为何用？衬显心伤满是疤。\n             《苦长情短是人生》顾伟')
+('196d548cc8', '2020-06-06 10:12:26', '田野里，我画了一朵向日葵\n运气真好，这样的晴天极为稀少\n欣欣向荣，栩栩如生，不吵不闹\n稀稀疏疏的稻子很是金黄\n欢乐清爽的夏天真好\n泥土的芬芳只有我一个人闻到')
+('f5477458cd', '2020-06-06 12:03:41', '雨后的小路总是泥泞\n可安石榴上的露水透明\n家雀儿叽喳鸣叫轻轻\n旭日见证一个人的黎明\n愿她遇到的人内心如明镜\n随口说句嗨也有人回应')
+('df50ed2112', '2020-06-06 17:11:19', '到底怎样与我无关\n何苦对爱情表现的那么贪婪\n最后受伤的总是用情的\n这没什么可隐瞒\n因为背叛的总是爱淡了\n这没什么好纠缠')
+('76e2f6cb9e', '2020-06-07 01:47:52', '        树是梧桐树。 城是南京城。\n        路是南京路。   走在南京南\n下着南京雨水的寒冷，望着路上的车水马龙\n 想起梧桐树下的我们。记起梧桐树的宋美龄。 ')
+('fcc3448684', '2020-06-07 17:29:18', '习惯了用欢笑掩饰忧伤\n不愿对别人敞开心房\n我不愿你看见的\n是我脆弱的模样')
+('33d963b2df', '2020-06-07 21:23:45', '      那些大道理根本不会去听\n      因为毒鸡汤说的要命\n      就连头绪都还没理清\n      得了深入骨髓的病')
+('b53c28eff3', '2020-06-07 22:54:51', '风不会思念归途\n落笔未写下当初\n说书人口中讲述 \n那段迷途 \n辗转往复')
+('207938fdd2', '2020-06-08 16:33:40', '听，微风拂过树影婆娑。\n听，艳阳矗立蝉鸣轻轻。\n走过熟悉的路口，时过境迁。\n看，细雨朦胧楼栏依旧。\n看，皎洁轻洒光影如昔。\n流连逝去的街道，物是人非。')
+('08504bbca6', '2020-06-08 21:53:24', '孤身只影夜独行，\n霓霞彩云寒风轻。\n举目心愁停不住，\n两行相思诉江湖。')
+('3c16ab7ec1', '2020-06-08 22:13:17', '风抚杨柳飘，\n雨打桃花落。\n念念望今朝，\n醉陷春归时。')
+('e25eb3df0a', '2020-06-08 23:36:07', '想带你执剑江湖，看遍人生冷暖。\n想与你提笔长卷，绘尽世间百态。\n想携你抚琴天涯，颂畅人世沧桑。\n终是见到你的离开，\n我收断琴入匣，扰我一时清梦。\n终是听到你的幸福，')
+现有精选微词 19首.
+> 超过 15 首精选微词, 将下架如下微词:
+('b5473a0e60', '2020-06-04 12:05:43', 'Keep going till you reach the one you want it,Because you worth it!\n                                                                   -美丽莎')
+{"updatedAt":"2020-06-10 07:14:24"}
+('fc56fb6194', '2020-06-04 12:51:43', '听着别人的命令\n不能反抗\n因为前方的幽暗\n你根本看不清\n不要说谎不要聆听\n颂着别人的诗句')
+{"updatedAt":"2020-06-10 07:14:25"}
+('aae8465a38', '2020-06-04 15:42:31', '我们看不清楚前路\n同样我们都在迷路\n只是换了不同角度\n')
+{"updatedAt":"2020-06-10 07:14:26"}
+('0e2822bb7a', '2020-06-04 19:11:57', '愿你习惯被爱但不依赖存在\n懂得娱乐\n懂得快乐\n愿你碗里有满满的华夫饼\n拥抱里有温度\n狂欢后有祝福')
+{"updatedAt":"2020-06-10 07:14:27"}
+Finished: SUCCESS
