@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9943dcf7cfd2e0278f16ceb2d1cd3f2569597e77 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9943dcf7cfd2e0278f16ceb2d1cd3f2569597e77 # timeout=10
+Commit message: "update best lyric"
+ > git rev-list --no-walk 275971ffc0a8ed1aa433ad1a41dc7e374327add6 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins4562090268792496154.sh
++ python3 jobs/expirelyric.py --count 15
+('fcc3448684', '2020-06-07 17:29:18', '习惯了用欢笑掩饰忧伤\n不愿对别人敞开心房\n我不愿你看见的\n是我脆弱的模样')
+('33d963b2df', '2020-06-07 21:23:45', '      那些大道理根本不会去听\n      因为毒鸡汤说的要命\n      就连头绪都还没理清\n      得了深入骨髓的病')
+('b53c28eff3', '2020-06-07 22:54:51', '风不会思念归途\n落笔未写下当初\n说书人口中讲述 \n那段迷途 \n辗转往复')
+('207938fdd2', '2020-06-08 16:33:40', '听，微风拂过树影婆娑。\n听，艳阳矗立蝉鸣轻轻。\n走过熟悉的路口，时过境迁。\n看，细雨朦胧楼栏依旧。\n看，皎洁轻洒光影如昔。\n流连逝去的街道，物是人非。')
+('08504bbca6', '2020-06-08 21:53:24', '孤身只影夜独行，\n霓霞彩云寒风轻。\n举目心愁停不住，\n两行相思诉江湖。')
+('3c16ab7ec1', '2020-06-08 22:13:17', '风抚杨柳飘，\n雨打桃花落。\n念念望今朝，\n醉陷春归时。')
+('e25eb3df0a', '2020-06-08 23:36:07', '想带你执剑江湖，看遍人生冷暖。\n想与你提笔长卷，绘尽世间百态。\n想携你抚琴天涯，颂畅人世沧桑。\n终是见到你的离开，\n我收断琴入匣，扰我一时清梦。\n终是听到你的幸福，')
+('f0a3216cff', '2020-06-09 12:59:56', '当太阳失去了光芒\n我要怎么去绽放\n当月亮失去了黑暗\n我要怎么体现你的亮\n如果可以，做一只蜉蝣\n朝生暮死不知愁')
+('e873a5430b', '2020-06-09 13:12:50', '阳光透过不算大的窗\n照在那不完美的侧脸上\n清晨煮好不算甜的粥\n黄昏牵着你不爱遛的狗\n除了嘘寒问暖\n我还需要烟火循环')
+('e25276ee84', '2020-06-09 17:04:00', '别人说真幸福\n天天吃水果其实很孤独\n一天吃七八个水果\n只卖四五单不能满足\n老板一直在干瞪眼痛苦\n吓得直冒汗一壶')
+('7a82ae1ef3', '2020-06-10 11:12:20', '昨日见你，一袭长裙，翩若惊鸿。\n今日思你，一霎微雨，轻洒庭轩。')
+('3d6e211ecc', '2020-06-10 12:51:07', '当语言没了说服力\n当我们抱怨太可惜\n多么希望有一个时期\n能把握时机\n当我们都在奔东西\n其实早应该忘记你')
+('422591150a', '2020-06-10 13:12:54', '黑夜不眠，思绪万千\n想见你的情绪，充满整个房间\n躲在角落里的那个我\n温柔又脆弱\n是泡沫，也是烟火')
+('ded353703d', '2020-06-10 17:53:17', '倒不是戏子无情，\n本就烟云戏不停，\n何来你那命中注定……\n倒不是帝王无情，\n本就烽火战不停，\n何来你那良宵美景……')
+('a30c359434', '2020-06-11 00:47:22', '你是否与我一样 刻意的遗忘\n你在我心里的模样 曾经像太阳\n你是否与我一样 把爱过的人当信仰\n当愿望变成失望 不再提及过往\n\n想起他  夜里温热的电话')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
