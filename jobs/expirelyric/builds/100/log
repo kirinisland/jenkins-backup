@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 83607080b332952891804fc64bf2e417e4502674 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 83607080b332952891804fc64bf2e417e4502674 # timeout=10
+Commit message: "added docker compose"
+ > git rev-list --no-walk 83607080b332952891804fc64bf2e417e4502674 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1468464058794493232.sh
++ python3 jobs/expirelyric.py --count 15
+('3c16ab7ec1', '2020-06-08 22:13:17', '风抚杨柳飘，\n雨打桃花落。\n念念望今朝，\n醉陷春归时。')
+('e25eb3df0a', '2020-06-08 23:36:07', '想带你执剑江湖，看遍人生冷暖。\n想与你提笔长卷，绘尽世间百态。\n想携你抚琴天涯，颂畅人世沧桑。\n终是见到你的离开，\n我收断琴入匣，扰我一时清梦。\n终是听到你的幸福，')
+('f0a3216cff', '2020-06-09 12:59:56', '当太阳失去了光芒\n我要怎么去绽放\n当月亮失去了黑暗\n我要怎么体现你的亮\n如果可以，做一只蜉蝣\n朝生暮死不知愁')
+('e873a5430b', '2020-06-09 13:12:50', '阳光透过不算大的窗\n照在那不完美的侧脸上\n清晨煮好不算甜的粥\n黄昏牵着你不爱遛的狗\n除了嘘寒问暖\n我还需要烟火循环')
+('e25276ee84', '2020-06-09 17:04:00', '别人说真幸福\n天天吃水果其实很孤独\n一天吃七八个水果\n只卖四五单不能满足\n老板一直在干瞪眼痛苦\n吓得直冒汗一壶')
+('7a82ae1ef3', '2020-06-10 11:12:20', '昨日见你，一袭长裙，翩若惊鸿。\n今日思你，一霎微雨，轻洒庭轩。')
+('3d6e211ecc', '2020-06-10 12:51:07', '当语言没了说服力\n当我们抱怨太可惜\n多么希望有一个时期\n能把握时机\n当我们都在奔东西\n其实早应该忘记你')
+('422591150a', '2020-06-10 13:12:54', '黑夜不眠，思绪万千\n想见你的情绪，充满整个房间\n躲在角落里的那个我\n温柔又脆弱\n是泡沫，也是烟火')
+('ded353703d', '2020-06-10 17:53:17', '倒不是戏子无情，\n本就烟云戏不停，\n何来你那命中注定……\n倒不是帝王无情，\n本就烽火战不停，\n何来你那良宵美景……')
+('a30c359434', '2020-06-11 00:47:22', '你是否与我一样 刻意的遗忘\n你在我心里的模样 曾经像太阳\n你是否与我一样 把爱过的人当信仰\n当愿望变成失望 不再提及过往\n\n想起他  夜里温热的电话')
+('43a69a1af1', '2020-06-11 13:44:34', '街巷的槐树倒了 又开出条新的路\n梦化作鸟兽散去 积上了厚重尘雾\n谈笑一杯百利甜 来糜拭生活的苦\n嗔我痴人假一生 竟真了半生戏\n')
+('71f12d5f3b', '2020-06-11 13:50:31', '你听 外婆摇着蒲扇时 哄睡的轻鼾\n你听 西瓜切成两半时 甜腻的喜欢\n你听 朝露唤醒万物时 氤氲的印记\n你听 瓦砾悬着稚嫩的光阴 是风铃的声音\n')
+('6c8c49be81', '2020-06-11 17:02:15', '一幽风飞，长发披肩；一袭黑裙，如梦如幻。\n轻盈着，笑看云卷云舒。\n且不知，我已无暇看云，只因你近在咫尺。\n')
+('698620a6c9', '2020-06-12 12:10:17', '暮雨、残烟、风细细，看不尽梧叶飘黄。\n声殳、禾日、思悠悠，道不完心往神怡。')
+('e112925b6e', '2020-06-13 02:24:32', '从来没有认真思考过自己的性格\n我想写写我自己，写写自己的那些年')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
