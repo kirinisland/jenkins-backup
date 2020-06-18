@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 83607080b332952891804fc64bf2e417e4502674 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 83607080b332952891804fc64bf2e417e4502674 # timeout=10
+Commit message: "added docker compose"
+ > git rev-list --no-walk 83607080b332952891804fc64bf2e417e4502674 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins6996575656809789845.sh
++ python3 jobs/expirelyric.py --count 15
+('a30c359434', '2020-06-11 00:47:22', '你是否与我一样 刻意的遗忘\n你在我心里的模样 曾经像太阳\n你是否与我一样 把爱过的人当信仰\n当愿望变成失望 不再提及过往\n\n想起他  夜里温热的电话')
+('43a69a1af1', '2020-06-11 13:44:34', '街巷的槐树倒了 又开出条新的路\n梦化作鸟兽散去 积上了厚重尘雾\n谈笑一杯百利甜 来糜拭生活的苦\n嗔我痴人假一生 竟真了半生戏\n')
+('71f12d5f3b', '2020-06-11 13:50:31', '你听 外婆摇着蒲扇时 哄睡的轻鼾\n你听 西瓜切成两半时 甜腻的喜欢\n你听 朝露唤醒万物时 氤氲的印记\n你听 瓦砾悬着稚嫩的光阴 是风铃的声音\n')
+('6c8c49be81', '2020-06-11 17:02:15', '一幽风飞，长发披肩；一袭黑裙，如梦如幻。\n轻盈着，笑看云卷云舒。\n且不知，我已无暇看云，只因你近在咫尺。\n')
+('698620a6c9', '2020-06-12 12:10:17', '暮雨、残烟、风细细，看不尽梧叶飘黄。\n声殳、禾日、思悠悠，道不完心往神怡。')
+('e112925b6e', '2020-06-13 02:24:32', '从来没有认真思考过自己的性格\n我想写写我自己，写写自己的那些年')
+('0758b164fc', '2020-06-13 18:30:18', '一个人的心酸\n一个人会黯淡\n埋藏心底的不安\n捱不过的孤单\n留下唇边一声轻叹\n只说一句会慢慢习惯')
+('2f8c222d11', '2020-06-13 20:48:32', '权当微薄献礼\n前提是你满意\n用我浮夸肢体\n反正也没人猜那哑剧谜底\n不如用华丽谜面搏你一欢心')
+('d5538e7513', '2020-06-14 00:21:58', '哪怕只是枕于你的油纸伞面\n寒风中成掌心消融的雪  滴滴点点\n到也算刹那清闲\n寒夜枝头红如许  君自隐入梅花间\n满地绯红无人捡  只作零落无言')
+('8cbe0316cf', '2020-06-15 08:18:09', '相思\n古城烟雨避孤亭，\n孤亭芳草漏月明。\n黄昏不见秋田色，\n落霞不问浮云行。')
+('556fec961d', '2020-06-16 10:43:03', '星星还是那么亮\n月亮还是在天上\n似乎一切都没改变\n只是她不在你身旁\n记忆中的脸\n已变得模糊抽象')
+('318cd3bc34', '2020-06-16 22:36:59', '北方的城市 现在有些冷了\n我不知道她 现在还好吗\n已经多久再没有见到她\n我也渐渐有了些变化\n可能我心中的她 不曾离开吧\n可能我也曾幻想将她放下')
+('de2cf7a722', '2020-06-16 23:25:29', '灯花伤，落地成灰一行行，归居处，青山莽莽云雾徜徉，影成双，可惜两地落尽觞，独将此身此心俱埋葬，缘聚缘散缘如水，背负万丈尘寰，只为一句，等待下次相逢红尘醉，灯花伤，落地成灰一行行，归居处，青山莽莽云雾徜徉，影成双，可惜两地落尽觞，独将此身此心俱埋葬，最后终可见面，灯火阑珊，我与你再见面，意兴阑珊')
+('b1637b2c7a', '2020-06-17 00:21:04', 'Hey，我决定为你写下这首歌，也不知道你会不会去在意呢，\n过去的事虽然不想再提，但是刻苦铭心的事怎能容易忘记\n想起，我们最开始的那种甜蜜，可能是上天为我们安排的默契\n提笔，为你写下这首歌曲，请你别想太多我真别无用意\n第一次与你见面的那天傍晚，你羞羞的样子暴露了你的不安\n我们一起吃了那天最可口的晚餐，彼此熟悉的我们更加有了好感')
+('8d336b98bc', '2020-06-17 00:58:38', '我不想再去装着自己很坚强，丢掉那层厚厚的伪装\n如果你看穿我那残留的倔强，请你停止那不值一提的猜想\n生活本来都已让人遍体鳞伤，你的出现给我伤口再次重创\n我只想做自己不想再冠冕堂皇，你离我远一点最好在另一片海洋\n我可以独自欣赏那美丽夕阳，我也能自娱自乐自我疯狂\n做自己不会在变得那么惆怅，仍然相信有人出现愈我断肠。')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS

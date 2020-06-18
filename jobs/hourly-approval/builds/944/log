@@ -1,0 +1,122 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 83607080b332952891804fc64bf2e417e4502674 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 83607080b332952891804fc64bf2e417e4502674 # timeout=10
+Commit message: "added docker compose"
+ > git rev-list --no-walk 83607080b332952891804fc64bf2e417e4502674 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5164824486898886649.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 10首.
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+烟雾弥漫，繁星璀璨，
+我眼中你有星辰大海。
+思念想念，一字排开，
+我一直会在星海徘徊。
+不比前世，缘分短暂，
+我还一直在星海等待。
+
+敏感词如下:
+烟雾弥漫，繁星璀璨，
+我眼中你有星辰大海。
+思念想念，一字排开，
+我一直会在星海徘徊。
+不*前世，缘分短暂，
+我还一直在星海等待。
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+光线忽明忽暗 说再见
+播放着的电影 没看完
+自由忘记爱我 算不得作恶
+反正最亮那盏 是隔岸的灯火
+还记得 风吹过 雪坠落 依偎着 我们在零点一刻
+难道说 照片丢 了颜色 只不过 生命的脆壳
+
+敏感词如下:
+*忽明忽暗 说再见
+播放着的* 没看完
+自由忘记爱我 算不得作恶
+反正最亮那盏 是隔岸的灯火
+还记得 风吹过 雪坠落 依偎着 我们在零点一刻
+难道说 照片丢 了颜* 只不过 生命的脆壳
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+路有些颠簸 
+我害怕错过
+想成为一名rapper
+他们只关注妹子辣不辣 差不差 脏不脏 怕不怕 蠕虫般通通的挂不挂
+Let’s go doing
+
+敏感词如下:
+路有些颠簸 
+我害怕错过
+想成为一名rapper
+他们只关注妹子辣不辣 差不差 脏不脏 怕不怕 蠕虫般通通的*不*
+let’s go doing
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+街口那个角落
+回忆翻滚着
+我怕我得过且过
+爱也不再炽热
+我总是习惯悄无声息的隐藏
+你总是喜欢若即若离很荒唐
+
+敏感词如下:
+街口那个角落
+回忆翻*着
+我怕我得过且过
+爱也不再炽热
+我总是习惯悄无声息的隐藏
+你总是喜欢若即若离很荒唐
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+我想你了没有办法
+只是还对你有太多的牵挂
+从来也不会含蓄
+爱情总是兜兜转转便忘了
+但是只要你还记得
+那个我
+
+敏感词如下:
+我想你了没有办法
+只是还对你有太多的牵*
+从来也不会含蓄
+爱情总是兜兜转转便忘了
+但是只要你还记得
+那个我
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+我开着GTA 带你去酒吧
+你很害怕回家 深夜打电话给你妈妈
+你和妈妈说 我想要回家
+妈妈对你说 你今晚不用回家 
+就因你去了酒吧
+
+敏感词如下:
+我开着gta 带你去酒吧
+你很害怕回家 深夜打电话给**
+你和**说 我想要回家
+**对你说 你今晚不用回家 
+就因你去了酒吧
+-----------------------------
+Finished: SUCCESS
