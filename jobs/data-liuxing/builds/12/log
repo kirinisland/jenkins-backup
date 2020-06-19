@@ -1,0 +1,2040 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/data-liuxing
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/datapipe.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/datapipe.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/datapipe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 3b56e1389a2f9aeae1cb5cd946f48ff1e4df7866 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3b56e1389a2f9aeae1cb5cd946f48ff1e4df7866 # timeout=10
+Commit message: "Update runner_qq.py"
+ > git rev-list --no-walk 26f9cd18d83485951213035c26aba7671df4f4b2 # timeout=10
+[data-liuxing] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins7740571310141623093.sh
+++ date +%Y%m%d
++ date_str=20200619
++ echo 20200619
+20200619
++ echo 2020-06-19
+2020-06-19
++ python3 runner_qq.py --method search --query $'\346\265\201\350\241\214' --output-suffix liuxing --dump-raw 1 --dump-seg 0 --proxy
+INFO:[DataPipeline]:Start crawling for query: 流行
+INFO:[DataPipeline]:Processing playlist page: 0, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 1, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 2, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 3, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 4, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 5, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 6, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 7, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 8, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 9, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 10, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 11, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 12, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 13, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 14, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 15, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 16, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 17, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 18, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 19, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 20, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 21, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 22, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 23, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 24, found 16 playlists
+INFO:[DataPipeline]:Processing playlist page: 25, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 26, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 27, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 28, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 29, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 30, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 31, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 32, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 33, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 34, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 35, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 36, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 37, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 38, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 39, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 40, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 41, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 42, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 43, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 44, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 45, found 18 playlists
+INFO:[DataPipeline]:Processing playlist page: 46, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 47, found 4 playlists
+INFO:[DataPipeline]:Processing playlist page: 48, found 17 playlists
+INFO:[DataPipeline]:Processing playlist page: 49, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 50, found 0 playlists
+INFO:[DataPipeline]:Total playlists found about topic: 流行: 1696
+INFO:[DataPipeline]:PlayList: [7256920196] 欧美&#124;&#32;流行轻有氧 (0/1696) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7428961315] 百首流行&#32;·&#32;00后麦霸速成宝典 (1/1696) has 115 songs.
+INFO:[DataPipeline]:PlayList: [7271056871] 华语流行&#32;&#124;&#32;陪你回家 (2/1696) has 58 songs.
+INFO:[DataPipeline]:PlayList: [7523322917] 华语流行：莫名其妙跟着哼唱起来 (3/1696) has 111 songs.
+INFO:[DataPipeline]:PlayList: [7285342732] 华语流行&#124;与我无关 (4/1696) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7469197010] 站内评论1W&#43;的流行歌曲 (5/1696) has 353 songs.
+INFO:[DataPipeline]:PlayList: [7591315567] 国语流行歌曲：00后熟悉的BGM (6/1696) has 108 songs.
+INFO:[DataPipeline]:PlayList: [7276584295] 华语流行&#124;&#32;下个路口见 (7/1696) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7280801712] 华语流行&#124;&#32;恋人未满 (8/1696) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7275663304] 华语流行&#124;你爱他/她 (9/1696) has 37 songs.
+INFO:[DataPipeline]:Sleep for: 163
+INFO:[DataPipeline]:PlayList: [7533625519] 欧美流行丨点燃激情&#32;释放压力 (10/1696) has 192 songs.
+INFO:[DataPipeline]:PlayList: [7269552538] 华语流行&#124;&#32;暖心告白 (11/1696) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7297871790] 华语流行&#124;暗恋逃生口 (12/1696) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7572003526] 古风流行：遇见最美的音阙诗听 (13/1696) has 251 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=238445412&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=238445412&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=238445412&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+INFO:[DataPipeline]:PlayList: [7270492900] 华语流行&#124;&#32;苦甜参半 (14/1696) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7437536240] 戏腔与流行融合&#32;•&#32;散发独特韵味 (15/1696) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7266885004] 华语流行&#124;想念你 (16/1696) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7198809344] 英语流行&#32;&#124;&#32;最想分享给你的英文歌 (17/1696) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7268194171] 华语流行&#124;甜到忧伤 (18/1696) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7256912512] 欧美&#124;&#32;流行节奏控 (19/1696) has 42 songs.
+INFO:[DataPipeline]:Sleep for: 67
+INFO:[DataPipeline]:PlayList: [4265834987] 万能流行定律 (20/1696) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7269379422] 欧美流行&#32;&#124;&#32;解压一起听 (21/1696) has 39 songs.
+INFO:[DataPipeline]:PlayList: [2835124032] 欧美流行：歌荒患者的必备良药 (22/1696) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7597435420] 华语流行：火遍全网的Fashion (23/1696) has 101 songs.
+INFO:[DataPipeline]:PlayList: [7537907611] 流行粤语｜青春不再回 (24/1696) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7514468477] 台湾流行女声金曲精选 (25/1696) has 46 songs.
+INFO:[DataPipeline]:PlayList: [7258160908] 欧美流行&#124;温暖男声 (26/1696) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7528373154] 欧美流行圈：发烧友的播放清单 (27/1696) has 1000 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=253960546&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=253960546&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=253960546&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+INFO:[DataPipeline]:PlayList: [7277949793] 华语流行&#124;越过山丘 (28/1696) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7516321215] 钢琴与流行乐的唯美邂逅『持更』 (29/1696) has 70 songs.
+INFO:[DataPipeline]:Sleep for: 74
+INFO:[DataPipeline]:PlayList: [1790504159] 青春记忆&#32;&#124;&#32;90后校园岁月的流行歌曲 (30/1696) has 147 songs.
+INFO:[DataPipeline]:PlayList: [3242963722] 2020流行歌曲，很有感觉 (31/1696) has 751 songs.
+INFO:[DataPipeline]:PlayList: [7295800284] 欧美流行&#124;北欧女声 (32/1696) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7546735768] 夏日已至，不容错过的华语流行集 (33/1696) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7279198418] 华语流行&#32;&#124;&#32;简单的美好 (34/1696) has 28 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=231643107&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=231643107&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=231643107&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=4736106&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=4736106&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=4736106&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=202712319&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=202712319&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=202712319&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+INFO:[DataPipeline]:PlayList: [7483534508] 华语流行&#32;&#124;&#32;让我们去重温旧梦 (35/1696) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7269428429] 欧美流行&#32;&#124;&#32;终于下班了 (36/1696) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7174034886] 华语流行精选&#32;&#124;&#32;麦霸养成记 (37/1696) has 137 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=8145&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=8145&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=8145&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+INFO:[DataPipeline]:PlayList: [5784955636] 流行发电站 (38/1696) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7276514310] 流行&#32;&#124;&#32;骑行听什么 (39/1696) has 33 songs.
+INFO:[DataPipeline]:Sleep for: 66
+INFO:[DataPipeline]:PlayList: [7561181900] 迈克杰克逊｜傲立舞台的流行之王 (40/1696) has 61 songs.
+INFO:[DataPipeline]:PlayList: [7534269843] 全网正在流行的热门国风歌曲 (41/1696) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7347300076] 华语流行：歌声陪你漫漫旅途 (42/1696) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7275790736] 华语流行&#124;为你写诗 (43/1696) has 29 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1039: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=202337415&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=202337415&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=202337415&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1039: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=212666897&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=212666897&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=212666897&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))")),)
+INFO:[DataPipeline]:PlayList: [7275685761] 韩语流行｜主唱担当的SOLO (44/1696) has 56 songs.
+INFO:[DataPipeline]:PlayList: [7288956231] 华语流行&#124;眼泪的重量 (45/1696) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7266677538] 华语流行&#124;指向你的单箭头 (46/1696) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7265804086] 华语流行&#124;&#32;恋习生 (47/1696) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7279595982] 华语流行&#32;·&#32;重返06年华语盛世 (48/1696) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7277730329] 华语流行&#124;心漏了一拍 (49/1696) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 104
+INFO:[DataPipeline]:PlayList: [7275585316] 华语流行&#124;&#32;心心念念 (50/1696) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7060355034] 抖音最新火热流行歌曲合辑 (51/1696) has 61 songs.
+INFO:[DataPipeline]:PlayList: [7279180943] 华语流行&#124;&#32;爱情小说家 (52/1696) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7288957140] 华语流行&#124;已读不回 (53/1696) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7310940367] 网络翻唱馆：流行热歌再演绎 (54/1696) has 78 songs.
+INFO:[DataPipeline]:PlayList: [7278981517] 欧美轻流行 (55/1696) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7276569625] 华语流行&#124;阳光好心情 (56/1696) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7277818341] 流行钢琴曲 (57/1696) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7277076122] 华语流行&#32;&#124;&#32;我不是没有眼泪 (58/1696) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7276564998] 华语流行&#124;大声对你说 (59/1696) has 34 songs.
+INFO:[DataPipeline]:Sleep for: 175
+INFO:[DataPipeline]:PlayList: [7278048373] 华语流行&#124;热爱生活 (60/1696) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7306755155] 欧美流行&#124;&#32;今天三岁半 (61/1696) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7275599458] 华语流行&#124;走进你的迷宫 (62/1696) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7269378512] 韩语流行&#32;&#124;&#32;果汁女孩 (63/1696) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7268255122] 欧美流行&#124;挑战无极限 (64/1696) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7276959251] 欧美流行&#32;&#124;&#32;能量充电 (65/1696) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7259060215] 欧美&#124;&#32;惬意流行旋律 (66/1696) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7516876105] 流行古风赏&#32;&#124;&#32;《二十四节气》 (67/1696) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7277079089] 华语流行&#124;缘分天空 (68/1696) has 28 songs.
+INFO:[DataPipeline]:PlayList: [4264149738] 流行相对论 (69/1696) has 56 songs.
+INFO:[DataPipeline]:Sleep for: 90
+INFO:[DataPipeline]:PlayList: [7279172523] 华语流行&#124;热血少年 (70/1696) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7268939311] 音美声靓，经典流行甜歌小调 (71/1696) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7278097058] 华语流行&#124;爱的号码牌 (72/1696) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7277070083] 华语流行&#124;堆积幸运 (73/1696) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7567724871] 后街男孩：永不过时的流行天团 (74/1696) has 100 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=98286&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=98286&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=98286&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=7107033&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=7107033&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=7107033&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+INFO:[DataPipeline]:PlayList: [7314295649] 华语流行&#124;&#32;失眠症患者 (75/1696) has 29 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=237190363&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=237190363&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=237190363&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+INFO:[DataPipeline]:PlayList: [7314294520] 韩语流行&#124;&#32;失落庇护所 (76/1696) has 28 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=105535425&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=105535425&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=105535425&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+INFO:[DataPipeline]:PlayList: [3108781778] 100首催眠秘诀：流行歌曲钢琴版 (77/1696) has 147 songs.
+INFO:[DataPipeline]:PlayList: [7278043906] 欧美流行&#124;读书听的歌 (78/1696) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7286145612] 流行伤感&#32;·&#32;孤独星球的忧伤情曲 (79/1696) has 34 songs.
+INFO:[DataPipeline]:Sleep for: 173
+INFO:[DataPipeline]:PlayList: [7276568696] 华语流行&#124;深陷你 (80/1696) has 34 songs.
+INFO:[DataPipeline]:PlayList: [2067204233] 华语流行KTV必点金曲 (81/1696) has 310 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 1321, in getresponse
+    response.begin()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1052, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 911, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 400, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Library/Python/3.7/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 423, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 331, in _raise_timeout
+    self, url, "Read timed out. (read timeout=%s)" % timeout_value
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='c.y.qq.com', port=443): Read timed out. (read timeout=30)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ReadTimeout(ReadTimeoutError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Read timed out. (read timeout=30)")),)
+INFO:[DataPipeline]:PlayList: [7459980500] 粤语流行&#32;&#124;&#32;经典是跨时代的共鸣 (82/1696) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7275696586] 华语流行&#124;酸酸甜甜 (83/1696) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7268035759] 流行&#32;&#124;&#32;爱你知不知道 (84/1696) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7275652313] DJ流行风&#32;&#124;&#32;极致慢摇，在线摇摆 (85/1696) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7459765363] 『&#32;纯音乐&#32;』钢琴弹奏出流行歌 (86/1696) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7278095847] 华语流行&#124;心里的补丁 (87/1696) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7279174813] 欧美流行&#124;放飞梦想 (88/1696) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7504955200] 流行系&#32;&#124;&#32;带你领略时代变迁 (89/1696) has 48 songs.
+INFO:[DataPipeline]:Sleep for: 104
+INFO:[DataPipeline]:PlayList: [7454846354] 音乐是个圈｜复古正流行 (90/1696) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7279249914] 华语流行&#124;糖果心情 (91/1696) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7419508228] 乌克丽丽来伴奏，流行歌变小清新 (92/1696) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7087634540] 华语流行&#32;·&#32;心酸过后更懂爱情 (93/1696) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7270949965] 华语流行&#124;笑一个 (94/1696) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7514405372] 抖音即将流行的宝藏音乐 (95/1696) has 44 songs.
+INFO:[DataPipeline]:PlayList: [7275626665] 华语流行&#124;我爱你 (96/1696) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7472905423] 韩语流行：只听旋律就能让你沉沦 (97/1696) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7276488576] 华语流行&#124;&#32;旅行的意义 (98/1696) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7278846978] 华语流行&#124;凋落的心 (99/1696) has 26 songs.
+INFO:[DataPipeline]:Sleep for: 78
+INFO:[DataPipeline]:PlayList: [7488389965] 流行&#32;&#124;&#32;好听的音乐经久不衰 (100/1696) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7356622226] 华语流行&#32;·&#32;喂你一个热恋水果糖 (101/1696) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7463801050] 欧美流行&#32;&#124;&#32;独树一帜的酷毙嗓音 (102/1696) has 87 songs.
+INFO:[DataPipeline]:PlayList: [7530688557] MP3里流淌的台湾流行组合歌曲 (103/1696) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7276861029] 欧美流行&#124;&#32;天天晴朗 (104/1696) has 31 songs.
+INFO:[DataPipeline]:PlayList: [3571076660] 「流行经典」致80后的青春岁月 (105/1696) has 221 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=1342990&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=1342990&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=1342990&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+INFO:[DataPipeline]:PlayList: [7315596039] 华语流行&#124;&#32;友谊万岁 (106/1696) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7297807628] 华语流行&#32;&#124;&#32;少年的你&#32;如此美丽 (107/1696) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7276865220] 华语流行&#124;彩色人生 (108/1696) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7277984245] 华语流行&#124;在空中 (109/1696) has 21 songs.
+INFO:[DataPipeline]:Sleep for: 61
+INFO:[DataPipeline]:PlayList: [7060355343] 轻音乐&#32;&#124;&#32;唯美钢琴流行音乐 (110/1696) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7178114610] 昭和流行 (111/1696) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7270491691] 华语流行&#124;&#32;恰柠檬 (112/1696) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7259390937] 华语流行&#124;我眼中的世界 (113/1696) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7275726159] 华语流行&#124;我眼里只有你 (114/1696) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7277074637] 华语流行&#32;&#124;&#32;失恋记事本 (115/1696) has 30 songs.
+INFO:[DataPipeline]:PlayList: [1767939819] 「零零年代」我们听过的流行歌曲 (116/1696) has 822 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=1523595&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=1523595&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=1523595&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg?type=1&json=1&utf8=1&onlysong=0&disstid=7268193255&format=json&g_tk=5381&inCharset=utf8&outCharset=utf-8&platform=yqq&needNewCode=0 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 53, in process_playlist
+    songs = api.get_songs_from_playlist(playlist_id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 23, in get_songs_from_playlist
+    response = self.fetch(url).get("cdlist", [])[0]
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 29, in fetch
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg?type=1&json=1&utf8=1&onlysong=0&disstid=7268193255&format=json&g_tk=5381&inCharset=utf8&outCharset=utf-8&platform=yqq&needNewCode=0 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 85, in process_playlist
+    logger.error("Exception in processing playlist: ", e)
+Message: 'Exception in processing playlist: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg?type=1&json=1&utf8=1&onlysong=0&disstid=7268193255&format=json&g_tk=5381&inCharset=utf8&outCharset=utf-8&platform=yqq&needNewCode=0 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+INFO:[DataPipeline]:PlayList: [7275527970] 华语流行&#124;活力满满 (117/1696) has 30 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=243613886&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=243613886&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=243613886&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=107901240&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=107901240&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=107901240&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+INFO:[DataPipeline]:PlayList: [7061382635] 华语流行：薄荷味的清凉小调 (118/1696) has 218 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=5063375&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=5063375&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=5063375&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102210521&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102210521&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102210521&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=108963136&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=108963136&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=108963136&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+INFO:[DataPipeline]:PlayList: [7275653463] 欧美流行&#32;&#124;&#32;沉浸工作，提高效率 (119/1696) has 39 songs.
+INFO:[DataPipeline]:Sleep for: 154
+INFO:[DataPipeline]:PlayList: [7270821970] 韩语流行&#32;&#124;&#32;心动信号100&#37; (120/1696) has 39 songs.
+INFO:[DataPipeline]:PlayList: [7279319623] 华语流行&#124;面朝大海 (121/1696) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7277728485] 华语流行&#124;梦想家 (122/1696) has 23 songs.
+INFO:[DataPipeline]:PlayList: [4160807217] 华语流行无损音乐50首 (123/1696) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7479202393] 你想听的流行日系风 (124/1696) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7449955444] 华语流行&#32;·&#32;街灯映射着温暖的光 (125/1696) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7060356318] 流行翻唱&#32;&#124;&#32;直击灵魂的磁性声线 (126/1696) has 47 songs.
+INFO:[DataPipeline]:PlayList: [3684759708] 古风乐器演绎的流行旋律 (127/1696) has 47 songs.
+INFO:[DataPipeline]:PlayList: [7256752037] 华语流行&#32;·&#32;爱着爱着走散了 (128/1696) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7060352637] 国语民族风&#32;&#124;&#32;草原上流行的情歌 (129/1696) has 50 songs.
+INFO:[DataPipeline]:Sleep for: 79
+INFO:[DataPipeline]:PlayList: [7276567777] 华语流行&#124;花一般的你 (130/1696) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7199065186] 欧美流行&#32;&#124;&#32;奏响欢快假期BGM (131/1696) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7228613531] 流行藏语风&#32;&#124;&#32;高原上的天籁 (132/1696) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7167575281] 华语流行&#32;&#124;&#32;我要把歌唱给世界听 (133/1696) has 117 songs.
+INFO:[DataPipeline]:PlayList: [7387863563] 欧美流行范&#32;·&#32;开启你的心动模式 (134/1696) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7060354487] 欧美流行：欢快而不失性感的节奏 (135/1696) has 53 songs.
+INFO:[DataPipeline]:PlayList: [7269431593] 华语流行&#124;想自由 (136/1696) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7449957649] 华语流行&#32;&#124;&#32;岁月漫长，值得等待 (137/1696) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7356735047] 韩语流行旋律&#32;·&#32;一秒爱上跳舞 (138/1696) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7361181080] 华语流行&#32;·&#32;抬起双脚快乐蹦跶 (139/1696) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 99
+INFO:[DataPipeline]:PlayList: [7279010150] 华语流行&#124;花花世界 (140/1696) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7279237529] 华语流行&#124;勇攀高峰 (141/1696) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7222867648] 妈妈的青春年代&#32;·&#32;国语流行精选 (142/1696) has 86 songs.
+INFO:[DataPipeline]:PlayList: [7269299709] 华语流行&#32;·&#32;轻巧律动放松思绪 (143/1696) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7459551439] 10后小朋友的流行好歌 (144/1696) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7174034814] 华语流行&#32;&#124;&#32;有些爱过了头只剩迁就 (145/1696) has 88 songs.
+INFO:[DataPipeline]:PlayList: [7333317040] 『欧美流行』打开你的快乐按钮 (146/1696) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7275652874] 英语流行&#32;&#124;&#32;孤独的人会相互疗伤 (147/1696) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7276781888] 华语流行&#124;&#32;花的姿态 (148/1696) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7449956190] DJ咚鼓热歌：流行节奏的完美结合 (149/1696) has 21 songs.
+INFO:[DataPipeline]:Sleep for: 94
+INFO:[DataPipeline]:PlayList: [7174019215] 国语流行&#32;&#124;&#32;悲伤前奏，孤独了尾声 (150/1696) has 121 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 906, in _tunnel
+    (version, code, message) = response._read_status()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg?type=1&json=1&utf8=1&onlysong=0&disstid=7337448423&format=json&g_tk=5381&inCharset=utf8&outCharset=utf-8&platform=yqq&needNewCode=0 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 53, in process_playlist
+    songs = api.get_songs_from_playlist(playlist_id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 23, in get_songs_from_playlist
+    response = self.fetch(url).get("cdlist", [])[0]
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 29, in fetch
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg?type=1&json=1&utf8=1&onlysong=0&disstid=7337448423&format=json&g_tk=5381&inCharset=utf8&outCharset=utf-8&platform=yqq&needNewCode=0 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 85, in process_playlist
+    logger.error("Exception in processing playlist: ", e)
+Message: 'Exception in processing playlist: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg?type=1&json=1&utf8=1&onlysong=0&disstid=7337448423&format=json&g_tk=5381&inCharset=utf8&outCharset=utf-8&platform=yqq&needNewCode=0 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))")),)
+INFO:[DataPipeline]:PlayList: [7382975427] 华语流行&#32;·&#32;轻盈韵律调整心情 (151/1696) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7203390839] 流行爵士&#32;·&#32;微醺解忧方法论 (152/1696) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7060352657] 国语流行&#32;&#124;&#32;最美的牵绊 (153/1696) has 43 songs.
+INFO:[DataPipeline]:PlayList: [7084748718] 欧美流行&#32;&#124;&#32;正中心声的治愈调 (154/1696) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7356737507] 华语流行&#32;│&#32;音乐是如此美好 (155/1696) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7432985914] 华语流行&#32;·&#32;小众女声爱情物语 (156/1696) has 20 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=253777331&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=253777331&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=253777331&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=253938466&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=253938466&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=253938466&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=229028465&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=229028465&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=229028465&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+INFO:[DataPipeline]:PlayList: [7337450528] 欧美流行&#32;&#124;&#32;承包踩单车时的耳朵 (157/1696) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7167574858] 华语流行&#32;&#124;&#32;心的书房，聆听我的世界 (158/1696) has 192 songs.
+INFO:[DataPipeline]:PlayList: [7060353277] 隐藏在流行曲中的中国风旋律 (159/1696) has 50 songs.
+INFO:[DataPipeline]:Sleep for: 163
+INFO:[DataPipeline]:PlayList: [7167574702] 华语流行&#32;&#124;&#32;一时的青春、永久的清纯 (160/1696) has 110 songs.
