@@ -1,0 +1,64 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 83607080b332952891804fc64bf2e417e4502674 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 83607080b332952891804fc64bf2e417e4502674 # timeout=10
+Commit message: "added docker compose"
+ > git rev-list --no-walk 83607080b332952891804fc64bf2e417e4502674 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins9144084088714257642.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 9首.
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+有没有这样一个故事？像是不知现实
+现实却是一只乌鸦正在等待、期待
+离开未来，明白回来
+无法放下的首歌，真的快乐记得看着
+几首歌跟着天地旋转，慢慢留遗憾
+遥远的黑暗，骑士中的乌鸦
+
+敏感词如下:
+有没有这样一个故事？像是不知现实
+现实却是一只乌鸦正在等待、期待
+离开未来，明白回来
+无法放下的首歌，真的快乐记得看着
+几首歌跟着天地旋转，慢慢留遗憾
+遥远的黑暗，*中的乌鸦
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+我想变成天上的神 推开那破旧的门
+在那诸神的黄昏 看见你只会犯浑
+不要那功德加身 只想做你的圣人
+在那遥远的星辰 指尖停住的温存
+
+敏感词如下:
+我想变成天上的神 推开那破旧的门
+在那诸神的黄昏 看见你只会犯浑
+不要那*德加身 只想做你的圣人
+在那遥远的星辰 指尖停住的温存
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+Finished: SUCCESS
