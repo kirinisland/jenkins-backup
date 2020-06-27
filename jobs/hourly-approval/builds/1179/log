@@ -1,0 +1,80 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 83607080b332952891804fc64bf2e417e4502674 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 83607080b332952891804fc64bf2e417e4502674 # timeout=10
+Commit message: "added docker compose"
+ > git rev-list --no-walk 83607080b332952891804fc64bf2e417e4502674 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3546671929316236931.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 7首.
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+我们又吵了架 窗外雨还在下
+再平静的内心也还是变得那么复杂
+所有美好的一切马上就改变
+我又拿出了那根未点燃的香烟
+烟雾弥漫窗边 泪水模糊视线
+什么狗屁的承诺全部都tm是谎言
+
+敏感词如下:
+我们又吵了架 窗外雨还在下
+再平静的内心也还是变得那么复杂
+所有美好的一切*上就改变
+我又拿出了那根未点燃的香烟
+烟雾弥漫窗边 泪水模糊视线
+什么*的承诺全部都tm是谎言
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+白日中世界太无赖
+不理不睬 才能放得开
+黑夜里才看得明白
+目放光彩 看着你离开
+才会感慨
+
+敏感词如下:
+白*中世界太无赖
+不理不睬 才能放得开
+黑夜里才看得明白
+目放光彩 看着你离开
+才会感慨
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+六月八日的夜晚
+我们许下誓言
+不管怎样都要
+守护你们的笑颜
+我们一直记着那承诺
+不会躲在角落
+
+敏感词如下:
+六月八*的夜晚
+我们许下誓言
+不管怎样都要
+守护你们的笑颜
+我们一直记着那承诺
+不会躲在角落
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+前世啊宛如一件衣裳，脱下了换一身新装。可是啊，那只是皮囊，灵魂啊，在何处安放？前世啊宛如一只皮囊，埋葬在一处山岗。可是啊，那一处山岗，灵魂啊，是旧时模样？前世啊宛如一处山岗，正是那风起的地方，可是啊，那一阵山风，灵魂啊，将吹向何方……往事啊，如烟似雾，前尘啊，春秋几度，转世轮回时，江山易主，轮回转世时，灵魂何处..…
+
+敏感词如下:
+前世啊宛如一件衣裳，脱下了换一身新装。可是啊，那只是皮囊，灵魂啊，在何处安放？前世啊宛如一只皮囊，埋葬在一处山岗。可是啊，那一处山岗，灵魂啊，是旧时模样？前世啊宛如一处山岗，正是那风起的地方，可是啊，那一阵山风，灵魂啊，将吹向何方……往事啊，如烟似雾，前尘啊，春秋几度，转世*回时，*易主，*回转世时，灵魂何处..…
+-----------------------------
+Finished: SUCCESS
