@@ -1,0 +1,891 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/data-shuochang
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/datapipe.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/datapipe.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/datapipe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 3b56e1389a2f9aeae1cb5cd946f48ff1e4df7866 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3b56e1389a2f9aeae1cb5cd946f48ff1e4df7866 # timeout=10
+Commit message: "Update runner_qq.py"
+ > git rev-list --no-walk 3b56e1389a2f9aeae1cb5cd946f48ff1e4df7866 # timeout=10
+[data-shuochang] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins87611349229886515.sh
++ python3 runner_qq.py --method search --query $'\350\257\264\345\224\261' --output-suffix shuochang --dump-raw 1 --dump-seg 0 --proxy
+INFO:[DataPipeline]:Start crawling for query: 说唱
+INFO:[DataPipeline]:Processing playlist page: 0, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 1, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 2, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 3, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 4, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 5, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 6, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 7, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 8, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 9, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 10, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 11, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 12, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 13, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 14, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 15, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 16, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 17, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 18, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 19, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 20, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 21, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 22, found 46 playlists
+INFO:[DataPipeline]:Processing playlist page: 23, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 24, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 25, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 26, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 27, found 17 playlists
+INFO:[DataPipeline]:Processing playlist page: 28, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 29, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 30, found 29 playlists
+INFO:[DataPipeline]:Processing playlist page: 31, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 32, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 33, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 34, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 35, found 15 playlists
+INFO:[DataPipeline]:Processing playlist page: 36, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 37, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 38, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 39, found 18 playlists
+INFO:[DataPipeline]:Processing playlist page: 40, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 41, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 42, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 43, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 44, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 45, found 18 playlists
+INFO:[DataPipeline]:Processing playlist page: 46, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 47, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 48, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 49, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 50, found 0 playlists
+INFO:[DataPipeline]:Total playlists found about topic: 说唱: 1709
+INFO:[DataPipeline]:PlayList: [7279190816] 中国新说唱 (0/1709) has 70 songs.
+INFO:[DataPipeline]:PlayList: [7269422312] 中文说唱制躁 (1/1709) has 51 songs.
+INFO:[DataPipeline]:PlayList: [2920356245] 华语说唱：现实无聊，不如一起听歌 (2/1709) has 56 songs.
+INFO:[DataPipeline]:PlayList: [7530333165] GAI&#32;&#124;&#32;说唱歌手的魅力 (3/1709) has 100 songs.
+INFO:[DataPipeline]:PlayList: [7599816162] 说唱听我的｜第一期歌单 (4/1709) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7589846394] 控诉黑暗！说唱上帝Eminem (5/1709) has 111 songs.
+INFO:[DataPipeline]:PlayList: [7492936955] 抖音热门英文说唱合集 (6/1709) has 224 songs.
+INFO:[DataPipeline]:PlayList: [7222867700] 伤感的说唱，却越听越入迷 (7/1709) has 46 songs.
+INFO:[DataPipeline]:PlayList: [7252362363] 华语Rap&#32;·&#32;听热血般押韵说唱节奏 (8/1709) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7594719240] 华语说唱：听Rap说情话 (9/1709) has 27 songs.
+INFO:[DataPipeline]:Sleep for: 163
+INFO:[DataPipeline]:PlayList: [7601044056] 「说唱」嘿！来跟着这快节奏 (10/1709) has 130 songs.
+INFO:[DataPipeline]:PlayList: [7598610734] 说唱为矛｜Kendrick&#32;Lamar (11/1709) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7171030977] 新说唱核弹：这个Live有点炸！ (12/1709) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7576674984] 你听到的第一首华语说唱&#124;能说会燥VOL&#46;1 (13/1709) has 106 songs.
+INFO:[DataPipeline]:PlayList: [7185933510] 中文说唱&#32;·&#32;操纵Flow疯狂输出 (14/1709) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7277887376] 欧美说唱&#124;&#32;气场全开 (15/1709) has 43 songs.
+INFO:[DataPipeline]:PlayList: [7215590809] 华语说唱：撩得你无法自拔 (16/1709) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7525336344] 评论量1w&#43;中文说唱热歌合集 (17/1709) has 46 songs.
+INFO:[DataPipeline]:PlayList: [7372561647] 喜庆说唱：过年贺岁来点新花样 (18/1709) has 15 songs.
+INFO:[DataPipeline]:PlayList: [6986263276] 说唱风暴：妙语连珠的中文韵脚 (19/1709) has 47 songs.
+INFO:[DataPipeline]:Sleep for: 158
+INFO:[DataPipeline]:PlayList: [7060359163] 嘻哈说唱：震撼心灵，注入灵魂&#126; (20/1709) has 51 songs.
+INFO:[DataPipeline]:PlayList: [7570562328] 那吾克热：来自新疆的说唱歌手 (21/1709) has 55 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=200670018&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=200670018&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=200670018&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+INFO:[DataPipeline]:PlayList: [3756838699] 抖音热门的中文说唱歌曲 (22/1709) has 78 songs.
+INFO:[DataPipeline]:PlayList: [7337235510] 升级体验！合作说唱现场精选 (23/1709) has 43 songs.
+INFO:[DataPipeline]:PlayList: [7514340732] CDC说唱会馆&#32;成都集团 (24/1709) has 469 songs.
+INFO:[DataPipeline]:PlayList: [7521965829] 中国说唱歌手（杨和苏篇） (25/1709) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7187376395] Remix中文说唱&#32;&#124;&#32;你就是我的软肋 (26/1709) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7192923384] 旋律说唱&#32;&#124;&#32;高甜情歌暴击 (27/1709) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7186995981] 酷到没朋友！&#32;超燃国人说唱 (28/1709) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7130484486] “丧”感说唱丨生活需要一点苦头 (29/1709) has 37 songs.
+INFO:[DataPipeline]:Sleep for: 101
+INFO:[DataPipeline]:PlayList: [7471893906] 评论999&#43;中国风说唱（持更） (30/1709) has 47 songs.
+INFO:[DataPipeline]:PlayList: [7199061409] 中国新说唱&#32;&#124;&#32;这些现场都很炸！ (31/1709) has 54 songs.
+INFO:[DataPipeline]:PlayList: [7228612508] 国语说唱丨在这荒谬的世界犯愁 (32/1709) has 46 songs.
+INFO:[DataPipeline]:PlayList: [7095962471] 韩国说唱&#32;·&#32;Rap与抒情的完美融合 (33/1709) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7527108628] 说唱共鸣｜声嘶力竭的坦白 (34/1709) has 244 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 906, in _tunnel
+    (version, code, message) = response._read_status()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=210640700&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=210640700&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=210640700&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))")),)
+INFO:[DataPipeline]:PlayList: [7073314723] 中国风说唱&#32;·&#32;胸中正气塞天地 (35/1709) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7488775647] 中文说唱&#32;&#124;&#32;非战斗人员请撤离 (36/1709) has 100 songs.
+INFO:[DataPipeline]:PlayList: [7222867359] 华语热血嘻哈&#32;&#124;&#32;《中国新说唱》 (37/1709) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7374648354] 中文说唱&#32;·&#32;街头玩家致胜法则 (38/1709) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7222866927] 华语说唱&#32;&#124;&#32;下一个酷Boy就是你！ (39/1709) has 43 songs.
+INFO:[DataPipeline]:Sleep for: 171
+INFO:[DataPipeline]:PlayList: [7197837488] 男生必学！表白必备的说唱甜味剂 (40/1709) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7419967962] 华语说唱&#32;·&#32;滑板少年致胜秘籍 (41/1709) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7529278291] 说唱里的温柔嗓音，like (42/1709) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7344545629] 宅家太无聊？不如跟着说唱节奏燥 (43/1709) has 24 songs.
+INFO:[DataPipeline]:PlayList: [5235642717] 伤感说唱，悲伤抵不过时光 (44/1709) has 60 songs.
+INFO:[DataPipeline]:PlayList: [7307456649] 华语说唱&#32;·&#32;听Rapper谈情说爱 (45/1709) has 24 songs.
+INFO:[DataPipeline]:PlayList: [6811565820] 韩国说唱集结地 (46/1709) has 105 songs.
+INFO:[DataPipeline]:PlayList: [7483714848] 说唱&#32;&#124;&#32;畅快淋漓的嘻哈现场 (47/1709) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7075658922] 说唱魔力&#32;&#124;&#32;倾听女声Feat的天籁 (48/1709) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7060359153] 嘻哈说唱：人狠话不多，干就完事！ (49/1709) has 54 songs.
+INFO:[DataPipeline]:Sleep for: 141
+INFO:[DataPipeline]:PlayList: [7136756817] 名场面回归&#32;&#124;&#32;新说唱宝藏TIME (50/1709) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7275652672] 节奏故事汇：帅气又温柔的说唱 (51/1709) has 39 songs.
+INFO:[DataPipeline]:PlayList: [7120260800] 说唱教学：听完这些歌你就入门了 (52/1709) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7286147027] 撩人系说唱：这些情话我唱给你听 (53/1709) has 39 songs.
+INFO:[DataPipeline]:PlayList: [7347301210] 华语说唱&#32;&#124;&#32;Rapper的心思不用猜 (54/1709) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7222867941] 说唱我最强：不服battle一下？ (55/1709) has 46 songs.
+INFO:[DataPipeline]:PlayList: [7456168049] 中文说唱&#32;·&#32;车厢氛围调节剂 (56/1709) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7306709762] 国语情话说唱&#32; (57/1709) has 56 songs.
+INFO:[DataPipeline]:PlayList: [7541930330] 表白说唱：听Rapper讲情话 (58/1709) has 24 songs.
+INFO:[DataPipeline]:PlayList: [4276387932] 傷感說唱丨不要再為他鼻酸了 (59/1709) has 185 songs.
+INFO:[DataPipeline]:Sleep for: 180
+INFO:[DataPipeline]:PlayList: [7109864690] 国产说唱&#32;&#58;&#32;让未来无限可期 (60/1709) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7125114883] 轻松说唱：不要整天暴扣别人的头 (61/1709) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7120260582] 说唱指南：Rapper地下转型之路 (62/1709) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7112737162] Jazz&#32;Rap，爵士融入说唱节奏 (63/1709) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7275652196] 说唱：鸭舌帽上台，感受劲爆抖嗨 (64/1709) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7074136182] 你听过这么潮的粤语说唱吗？ (65/1709) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7072566278] 当我把手机铃声换成这些说唱 (66/1709) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7223615292] 都市嘻哈：慢节奏风格的说唱 (67/1709) has 45 songs.
+INFO:[DataPipeline]:PlayList: [7353867938] 爵士说唱&#32;&#124;&#32;乐柔如云，轻抚思绪 (68/1709) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7077735096] 华语说唱&#32;&#124;&#32;我们的感情比谁都丰满 (69/1709) has 27 songs.
+INFO:[DataPipeline]:Sleep for: 95
+INFO:[DataPipeline]:PlayList: [7130062173] 说唱催眠药：这些鼓点很适合 (70/1709) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7337537641] 说唱Live：用我的声线去打破争辩 (71/1709) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7370522529] 来段甜蜜说唱，恢复早起动力 (72/1709) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7336118179] 柔板说唱系&#32;&#124;&#32;吉他还能这么玩 (73/1709) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7127690842] 粤语说唱丨饮啖茶，听个Rap (74/1709) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7470924969] 2020年YouTube最热说唱（持更） (75/1709) has 49 songs.
+INFO:[DataPipeline]:PlayList: [7290324759] 听不腻！温柔嗓音的帅气说唱 (76/1709) has 39 songs.
+INFO:[DataPipeline]:PlayList: [4245689276] 藏在华语说唱里的情歌 (77/1709) has 241 songs.
+INFO:[DataPipeline]:PlayList: [7126723948] 说唱歌手的深情频道 (78/1709) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7457214719] 心酸说唱丨往事如烟，祝你幸福 (79/1709) has 30 songs.
+INFO:[DataPipeline]:Sleep for: 120
+INFO:[DataPipeline]:PlayList: [7124708513] 国人骄傲！中国风说唱精选 (80/1709) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7227856342] Deep&#45;Trap：另类节奏风格的说唱 (81/1709) has 54 songs.
+INFO:[DataPipeline]:PlayList: [7228623694] 为《中国新说唱》崛起而Rap (82/1709) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7427002651] 小众氛围：另类的柔性说唱 (83/1709) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7074089716] Remix中文说唱&#32;&#124;&#32;洗干净他们的耳朵 (84/1709) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7142609344] 国产说唱｜这才是中国rapper (85/1709) has 72 songs.
+INFO:[DataPipeline]:PlayList: [7071580596] 励志说唱&#32;&#124;&#32;点燃你心中的梦想 (86/1709) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7364085035] 无需多言，让说唱陪孤独流浪 (87/1709) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7071799408] 曲惊四座&#32;·&#32;说唱也能中国风 (88/1709) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7313829020] 国产说唱：跟我学一遍！来！ (89/1709) has 21 songs.
+INFO:[DataPipeline]:Sleep for: 159
+INFO:[DataPipeline]:PlayList: [7073049311] 慢调说唱&#32;&#124;&#32;来自rapper的告白 (90/1709) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7118307381] Urban&#45;Soul：善于伪装的城市说唱 (91/1709) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7125082533] 短视频：一首说唱帮你换上万点赞！ (92/1709) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7228609861] 《中国新说唱》&#32;&#124;&#32;我为自己带盐 (93/1709) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7071356690] 这些说唱作品也非常值得被挖掘！ (94/1709) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7259524123] 励志说唱：乘风起航&#32;踏浪而歌 (95/1709) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7222867575] 青春热血风《中国新说唱》 (96/1709) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7252362656] 国语说唱&#32;&#124;&#32;唤醒沉睡的耳朵 (97/1709) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7213909508] 华语说唱&#32;·&#32;行云流水持续输出 (98/1709) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7120459338] 说唱押韵表：听完吵架都不带热身的 (99/1709) has 29 songs.
+INFO:[DataPipeline]:Sleep for: 150
+INFO:[DataPipeline]:PlayList: [6987554211] 周董说唱：独具一格、别有风味 (100/1709) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7222867301] 《中国新说唱》LIVE精选集 (101/1709) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7075579664] 「匪帮说唱」东西海岸之经典 (102/1709) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7060356620] 华语说唱&#32;&#124;&#32;嘻哈掀起的新浪潮 (103/1709) has 59 songs.
+INFO:[DataPipeline]:PlayList: [7121026521] 韩国四大厂牌说唱艺人热门单曲 (104/1709) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7169744173] 西藏说唱&#32;&#124;&#32;极致节奏感的高原rap (105/1709) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7074152918] 华语说唱│让rapper为你唱首情歌 (106/1709) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7252364621] 国语说唱丨黑暗终究要破晓 (107/1709) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7124130160] 硬核说唱&#32;&#58;&#32;让青春放荡不羁 (108/1709) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7356736895] 华语说唱&#32;｜&#32;潮人们的专属福利 (109/1709) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 76
+INFO:[DataPipeline]:PlayList: [7167364128] 蜜糖说唱&#32;&#124;&#32;Rapper超甜的情歌 (110/1709) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7268159821] 氛围说唱&#32;·&#32;孤独房间的自我救赎 (111/1709) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7228623906] 华语说唱：把思念都揉进这首歌里 (112/1709) has 46 songs.
+INFO:[DataPipeline]:PlayList: [4146725308] 西海岸嘻哈分支：匪帮说唱 (113/1709) has 320 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 906, in _tunnel
+    (version, code, message) = response._read_status()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=105594941&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=105594941&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=105594941&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 906, in _tunnel
+    (version, code, message) = response._read_status()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=105102201&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=105102201&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=105102201&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))")),)
+INFO:[DataPipeline]:PlayList: [7124709602] 说唱&#32;&#124;&#32;女生酷起来没男生什么事 (114/1709) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7071368641] 硬核嘻哈│爱听不听之欧美说唱 (115/1709) has 24 songs.
+INFO:[DataPipeline]:PlayList: [4260105355] 老板，来杯7分甜的说唱情话 (116/1709) has 43 songs.
+INFO:[DataPipeline]:PlayList: [7025601600] 让你小鹿乱撞的情歌说唱 (117/1709) has 65 songs.
+INFO:[DataPipeline]:PlayList: [7123300817] 中文说唱艺术&#32;&#124;&#32;快嘴合集 (118/1709) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7228621680] 精选说唱：华人的酷，了解一下！ (119/1709) has 31 songs.
+INFO:[DataPipeline]:Sleep for: 111
+INFO:[DataPipeline]:PlayList: [7072914329] Free&#32;out&#32;：扛起南京说唱的旗帜 (120/1709) has 20 songs.
+INFO:[DataPipeline]:PlayList: [3815989948] 硬核说唱：强硬节奏&#32;恣意宣泄 (121/1709) has 103 songs.
+INFO:[DataPipeline]:PlayList: [7290323679] 国语说唱丨别在荒谬的世界犯愁 (122/1709) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7275652916] 说唱live&#32;&#124;&#32;因为最初的快乐 (123/1709) has 49 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=216513633&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=216513633&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=216513633&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=217255675&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=217255675&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=217255675&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=214982818&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=214982818&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=214982818&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+INFO:[DataPipeline]:PlayList: [7294341779] 百变Flow：华语说唱有态度 (124/1709) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7072539966] 说唱嘛&#126;跟着晃就完事了 (125/1709) has 45 songs.
+INFO:[DataPipeline]:PlayList: [7075300620] 暴躁说唱丨收藏干嘛，愣着啊！ (126/1709) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7286147196] 伤感说唱&#32;│&#32;孤独分量太过于沉重 (127/1709) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7174513906] 丧到失眠也能陪你的中文说唱 (128/1709) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7060355736] MC说唱&#32;&#124;&#32;终是庄周梦了蝶 (129/1709) has 46 songs.
+INFO:[DataPipeline]:Sleep for: 73
+INFO:[DataPipeline]:PlayList: [7068694739] 独特Flow：调侃味道的说唱方式 (130/1709) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7275652127] 华语说唱丨脱离眼前苟且的泥潭 (131/1709) has 47 songs.
+INFO:[DataPipeline]:PlayList: [7033114801] Dwn&#45;Trap：轻摇滚混搭风格的说唱 (132/1709) has 67 songs.
+INFO:[DataPipeline]:PlayList: [7044661378] 《中国新说唱》2019歌曲合集 (133/1709) has 141 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=234737416&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=234737416&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=234737416&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=234170280&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-shuochang/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=234170280&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 160, in <module>
+    main()
+  File "runner_qq.py", line 147, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 70, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=234170280&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+INFO:[DataPipeline]:PlayList: [7130062523] 路过洛杉矶潮牌店，我要了这份说唱歌单 (134/1709) has 23 songs.
+INFO:[DataPipeline]:PlayList: [3844714697] 华语说唱｜Rapper柔情总是诗 (135/1709) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7120460301] 用一首硬核说唱往你头上暴扣！ (136/1709) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7319435249] 宣泄Rap&#32;│&#32;说唱是一种态度 (137/1709) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7286143659] 华语说唱：踩着节奏通往你的心里 (138/1709) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7290324387] 说唱&#32;&#124;&#32;有嘻哈的日子精彩三分 (139/1709) has 39 songs.
+INFO:[DataPipeline]:Sleep for: 62
+INFO:[DataPipeline]:PlayList: [7228624604] 把爱传递：《&#32;中国新说唱&#32;》精选 (140/1709) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7199061383] 华语说唱&#32;&#124;&#32;掀起嘻哈风浪 (141/1709) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7122934085] 高产狠货！说唱大佬们联手制作 (142/1709) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7199052185] 《中国新说唱》Rapper作品精选合集 (143/1709) has 25 songs.
+INFO:[DataPipeline]:PlayList: [794302947] 好听到爆的华语说唱。 (144/1709) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7120128567] 华语说唱&#32;&#124;&#32;我命由我不由天 (145/1709) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7187680521] 剪辑师&#32;&#124;&#32;过万收藏量当然要配说唱 (146/1709) has 21 songs.
+INFO:[DataPipeline]:PlayList: [2037520790] 周杰伦的饶舌说唱依旧范特西 (147/1709) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7122613364] 健身BGM&#32;·&#32;强力说唱节拍帮你燃脂 (148/1709) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7177825448] Trap说唱&#32;&#124;&#32;难以抗拒的眩晕迷幻 (149/1709) has 25 songs.
+INFO:[DataPipeline]:Sleep for: 104
+INFO:[DataPipeline]:PlayList: [7228613181] 华语说唱丨把负面空气放进梦里 (150/1709) has 51 songs.
+INFO:[DataPipeline]:PlayList: [7122935125] 新生代：欧美说唱届的大旗我们扛了 (151/1709) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7125011790] 36线地下Rapper推荐&#32;·&#32;中文说唱&#32; (152/1709) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7181237138] CDC说唱会馆，最辣的嘻哈态度 (153/1709) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7123142965] 欧美EMO&#45;Rap丨另类独立说唱 (154/1709) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7199061430] 《中国新说唱》&#124;&#32;对未来保持期望 (155/1709) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7299189094] 说唱&#32;&#124;&#32;尽全力奋斗拼命的走着 (156/1709) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7125114895] 暖场必备丨跟着说唱旋律热起来 (157/1709) has 29 songs.
+INFO:[DataPipeline]:PlayList: [1970558843] 让华语说唱宣泄你的愤懑 (158/1709) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7286145712] 华语说唱：我也要做个酷酷的Boy (159/1709) has 39 songs.
+INFO:[DataPipeline]:Sleep for: 136
+INFO:[DataPipeline]:PlayList: [7060350187] 《中国新说唱》Rapper作品精选合集 (160/1709) has 57 songs.
+INFO:[DataPipeline]:PlayList: [7060356633] Remix中文说唱&#32;&#124;&#32;精彩演绎不寻常 (161/1709) has 43 songs.
+INFO:[DataPipeline]:PlayList: [1137171977] 华语：霸气动听的说唱精选 (162/1709) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7075369973] 刺激&#32;&#124;&#32;Live&#32;house预热说唱单曲 (163/1709) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7072147957] Trap&#32;&#124;&#32;狂放不羁的陷阱说唱 (164/1709) has 101 songs.
+INFO:[DataPipeline]:PlayList: [7199052518] 那是热血的青春：《中国新说唱》 (165/1709) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7199061794] 《中国新说唱》精选&#32;&#124;&#32;掀起新浪潮 (166/1709) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7074283054] 华语说唱&#32;&#124;&#32;最浓烈的感情叫做亲情 (167/1709) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7290324731] 好帅的说唱啊，瞬间俘获你的心 (168/1709) has 37 songs.
