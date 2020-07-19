@@ -1,0 +1,108 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 83607080b332952891804fc64bf2e417e4502674 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 83607080b332952891804fc64bf2e417e4502674 # timeout=10
+Commit message: "added docker compose"
+ > git rev-list --no-walk 83607080b332952891804fc64bf2e417e4502674 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins164285496650585453.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 10首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+微风吹过你我的初见还记得你会脸红悄声耳语是不是你在贪恋再去一次奶茶店再亲吻你的嘴角甜腻气息是心动的表现吗你恰好微微一笑我恰好痴痴看呆快要疯掉请喜欢我好不好那天是草莓味的
+
+敏感词如下:
+微风吹过你我的初见还记得你会脸红悄声耳语是不是你在贪恋再去一次奶茶店再亲吻你的嘴角甜腻气息是心动的表现*你恰好微微一笑我恰好痴痴看呆快要疯掉请喜欢我好不好那天是*莓味的
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+
+赴京城 纵骏马 泄热情
+取一壶美酒 不求金榜题名自知乾坤
+已定
+吟高歌 将进酒 往生乐
+忆这十余载 何来功名利禄都是浮云飘过
+
+敏感词如下:
+
+赴京城 纵骏* 泄热情
+取一壶美酒 不求金榜题名自知乾坤
+已定
+吟高歌 将进酒 往生乐
+忆这十余载 何来*名利禄都是浮云飘过
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+瞳孔突然放大了 
+那是因为与你对视了
+肾上腺素这个东西
+现在我也搞不懂是什么原理
+
+敏感词如下:
+*孔突然放大了 
+那是因为与你对视了
+肾上腺素这个东西
+现在我也搞不懂是什么原理
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+那说说今天群里的男生 你不一定感到陌生
+那哥们你一出声   群里感到陌生 最后说了一句妹妹要不要五排？我会玩黄忠
+哎，兄弟 不要这么搞好吗？我不真的想笑。哥们不要闹  千万不要整那死出 整个群里的妹妹都不敢输出 还说妹妹坚持住 我不想输 
+
+
+
+敏感词如下:
+那说说今天群里的男生 你不一定感到陌生
+那哥们你一出声   群里感到陌生 最后说了一句*要不要五排？我会玩黄忠
+哎，兄弟 不要这么搞好*？我不真的想笑。哥们不要闹  千万不要整那*出 整个群里的*都不敢输出 还说*坚持住 我不想输 
+
+
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+抱怨着没干完的活
+口吐着没讲完的话
+要活的潇潇洒洒
+因为那路还在踏
+你说一生只对一人 心心念念
+
+敏感词如下:
+抱怨着没*完的活
+口吐着没讲完的话
+要活的潇潇洒洒
+因为那路还在踏
+你说一生只对一人 心心念念
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+携一缕清风扬万千愁
+留一抹思念在人间柔
+悔一身罪恶负儿女情
+叹一生孤苦隐江湖名
+算他戎马半生
+苦她等候一生
+
+敏感词如下:
+携一缕清风扬万千愁
+留一抹思念在人间柔
+悔一身罪恶负儿女情
+叹一生孤苦隐江湖名
+算他戎*半生
+苦她等候一生
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+Finished: SUCCESS
