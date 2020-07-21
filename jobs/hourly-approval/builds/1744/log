@@ -1,0 +1,22 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a # timeout=10
+Commit message: "Update job with total count"
+ > git rev-list --no-walk cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins341818086782650408.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 0首.
+-----------------------------
+Finished: SUCCESS
