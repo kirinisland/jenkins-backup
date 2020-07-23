@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a # timeout=10
+Commit message: "Update job with total count"
+ > git rev-list --no-walk cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5704782524262487480.sh
++ python3 jobs/expirelyric.py --count 15
+('72070c95c8', '2020-07-15 12:07:00', '有太多的话  想对你去说\n有太多的故事 我们都曾经历过\n想把这些话 写成一首简单的歌\n很多故事没有遗忘 就会变得很难得\n不能忘记 这些话全部来自心底\n就让我们跟着伴奏慢慢的说起')
+('cf3f1ec692', '2020-07-15 16:52:48', '落红满地经雨透\n唇语倾情尽温柔\n我欲煮一壶温酒\n落红下默默等候\n只求君子一人回首\n莫不求人寻花问柳')
+('020f5076c5', '2020-07-16 18:02:53', '这世界原来那么真\n爸爸妈妈没有很神\n家中也没有任意门\n挽留未必都会转身\n跌倒不再有人询问\n对虚假也一往情深')
+('c30d3e9e55', '2020-07-17 20:20:01', '我已经倚尽阑干 踏遍了西楼\n凭枫叶灌满领口\n我已经穷尽思念 走过了长江尾首\n任月光漂白了头\n可你\n你说过你不会走')
+('770938064d', '2020-07-17 20:25:17', '我可以溺在梦里\n梦里有舒缓的空气\n我愿意溺在梦里\n梦里有不披着皮囊的自己\n我喜欢溺在梦里\n梦里 还有你')
+('b4730b5f36', '2020-07-18 13:41:04', '朝闻道夕死可矣\n那是孔子说的真理\n可我也会渐渐沉迷\n因她实在太过美丽\n我也无法控制自己\n只得遵从我的心里')
+('750c262a13', '2020-07-18 19:34:59', '徒步宫廷中，\n步步惊心，\n朝中大臣说你沉迷酒色，\n刀尖上舞蹈，\n跳着华尔兹，\n后宫三千人是妾身独大。')
+('92e0dbc4ab', '2020-07-19 00:31:49', '萤火虫飞啊飞啊飞\n就能飞出黑夜的包围\n萤火虫飞啊飞啊飞\n就不会变的那么愚昧\n萤火虫飞啊飞啊飞\n不能触犯了谁的高贵')
+('d74d05ef9b', '2020-07-19 02:26:24', '那天晚上初次邂逅\n依旧温柔不愿醒来\n小心试探内心深处\n一路深藏是否停留\n我在身后伴你远行\n你若回头我定抱紧')
+('4af490338f', '2020-07-19 10:55:52', '\n赴京城 纵骏马 泄热情\n取一壶美酒 不求金榜题名自知乾坤\n已定\n吟高歌 将进酒 往生乐\n忆这十余载 何来功名利禄都是浮云飘过')
+('2f67566d30', '2020-07-19 11:01:27', '倘若他\n桃花十里\n一缕芬芳\n抵不了相思\n我半梦半醒半两温酒渐入喉')
+('0d86ebae1c', '2020-07-19 18:39:34', '携一缕清风扬万千愁\n留一抹思念在人间柔\n悔一身罪恶负儿女情\n叹一生孤苦隐江湖名\n算他戎马半生\n苦她等候一生')
+('3540fd492f', '2020-07-20 11:52:43', '他是一身战甲打天下 \n她是一袭红衣舞花魁\n一生一世 两眼流离\n是谁道这虎符在手必祸患\n壮志豪情一壶酒\n舞一曲 得天下')
+('dd4d5802b0', '2020-07-21 21:10:37', '相比网上那些舆论\n我还是觉得音乐的味道最甘甜\n不在乎被笑被泡网上废料被爆\n继续和我的兄弟背靠背钻研\n如果不想被艹碎丹田 名字和追悼会关联\n不想被我对到被报废掉就乖乖躲在家里睡觉最安全')
+('bfed4eb561', '2020-07-21 21:20:01', '        从陌生走到陌生 再从热烈走到凛冬\n        我与孤独常伴 当流星划过夜空\n        没人关心曾经它有多么璀璨\n        因为他们都被困在了 迷雾之中')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
