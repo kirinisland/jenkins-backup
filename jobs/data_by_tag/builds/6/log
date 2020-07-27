@@ -1,0 +1,28 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/data_by_tag
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/datapipe.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/datapipe.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/datapipe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 3b56e1389a2f9aeae1cb5cd946f48ff1e4df7866 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3b56e1389a2f9aeae1cb5cd946f48ff1e4df7866 # timeout=10
+Commit message: "Update runner_qq.py"
+ > git rev-list --no-walk 3b56e1389a2f9aeae1cb5cd946f48ff1e4df7866 # timeout=10
+[data_by_tag] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5092000964710623539.sh
+++ date +%Y%m%d
++ date_str=20200727
++ python3 runner_qq.py --method by_tag --tag 6 --output-suffix tag_english --dump-raw 1 --dump-seg 0 --proxy
+INFO:[DataPipeline]:Processing tag : QQMusicTag.english
+INFO:[DataPipeline]:Total playlists found about tag: [<QQMusicTag.sad: ('伤感', 52)>, <QQMusicTag.quiet: ('安静', 122)>, <QQMusicTag.happy: ('快乐', 117)>, <QQMusicTag.cure: ('治愈', 116)>, <QQMusicTag.inspirational: ('励志', 125)>, <QQMusicTag.sweet: ('甜蜜', 59)>, <QQMusicTag.lonely: ('寂寞', 55)>, <QQMusicTag.catharsis: ('宣泄', 126)>, <QQMusicTag.missing: ('思念', 68)>]: 51
+INFO:[DataPipeline]:PlayList: [7092582133] 电子梦境，让Drop点燃灵魂 (0/51) has 83 songs.
+Build was aborted
+Aborted by [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Finished: ABORTED

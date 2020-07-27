@@ -47,12 +47,14 @@ tag_number == 6: qqmusic_constants.qq_english</description>
     <hudson.tasks.Shell>
       <command>date_str=`date &apos;+%Y%m%d&apos;`
 
-python3 runner_qq.py --method by_tag \
-                     --tag $tag \
-                     --output-suffix tag_$tag \
-                     --dump-raw 1 \
-                     --dump-seg 0 \
-                     --proxy
+#python3 runner_qq.py --method by_tag \
+#                     --tag $tag \
+#                     --output-suffix tag_$tag \
+#                     --dump-raw 1 \
+#                     --dump-seg 0 \
+#                     --proxy
+
+python3 runner_qq.py --method by_tag --tag 6 --output-suffix tag_english --dump-raw 1 --dump-seg 0 --proxy
 </command>
     </hudson.tasks.Shell>
   </builders>

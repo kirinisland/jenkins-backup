@@ -1,0 +1,368 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/data_by_tag
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/datapipe.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/datapipe.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/datapipe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 8862dc0b93faeb24f71cee4ff5c950ac2bc56c56 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8862dc0b93faeb24f71cee4ff5c950ac2bc56c56 # timeout=10
+Commit message: "update log"
+ > git rev-list --no-walk 3b56e1389a2f9aeae1cb5cd946f48ff1e4df7866 # timeout=10
+[data_by_tag] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins7212059318774170150.sh
+++ date +%Y%m%d
++ date_str=20200727
++ python3 runner_qq.py --method by_tag --tag 6 --output-suffix tag_english --dump-raw 1 --dump-seg 0 --proxy
+INFO:[DataPipeline]:Processing tag : QQMusicTag.english
+INFO:[DataPipeline]:Total playlists found about tag: [<QQMusicTag.english: (' 英语', 167)>]: 51
+INFO:[DataPipeline]:PlayList: [7092582133] 电子梦境，让Drop点燃灵魂 (0/51) has 83 songs.
+INFO:[DataPipeline]:PlayList: [7087298637] 假日派对｜欧美清凉小调 (1/51) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7085583499] 暮色似水，思念成海 (2/51) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7086008336] 恬静英文｜慵懒的午后 温柔似海风 (3/51) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7084030804] 治愈摇滚 | 没有暴躁，只有温柔 (4/51) has 38 songs.
+INFO:[DataPipeline]:PlayList: [7086014743] 爵士柔情：你我氤氲漫舞 (5/51) has 26 songs.
+INFO:[DataPipeline]:PlayList: [6675994191] 禁止想象 · 耳机里的万种风情 (6/51) has 32 songs.
+INFO:[DataPipeline]:PlayList: [5109267378] 下班最来劲 (7/51) has 36 songs.
+INFO:[DataPipeline]:PlayList: [6914150646] 你好披头士 (8/51) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7060897744] 电音宣泄・寻回内心缺失的安宁 (9/51) has 35 songs.
+INFO:[DataPipeline]:Sleep for: 139
+INFO:[DataPipeline]:PlayList: [7061099463] 志愿填报ing：怀揣希望徐徐前行 (10/51) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7107159327] 睡前治愈：小猪佩奇为你唱晚安曲 (11/51) has 59 songs.
+INFO:[DataPipeline]:PlayList: [7058795239] 洗掉烦恼！ 沐浴搓澡更带感 (12/51) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7050345693] Gabber：从风靡到消逝 (13/51) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7052818442] 清晨元气弹 · 猪猪女孩起床铃 (14/51) has 22 songs.
+mp_seg)
+  File "runner_qq.py", line 90, in dump_to_file
+    af.write(lyric + '\n')
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 154, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 73, in process_playlist
+    logger.error("Exception in processing songs: ", e)
+Message: 'Exception in processing songs: '
+Arguments: (OSError(28, 'No space left on device'),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    dump_to_file(formatted_lyric, output_suffix, stop_words, dump_raw, dump_seg)
+  File "runner_qq.py", line 90, in dump_to_file
+    af.write(lyric + '\n')
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 154, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 73, in process_playlist
+    logger.error("Exception in processing songs: ", e)
+Message: 'Exception in processing songs: '
+Arguments: (OSError(28, 'No space left on device'),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    dump_to_file(formatted_lyric, output_suffix, stop_words, dump_raw, dump_seg)
+  File "runner_qq.py", line 90, in dump_to_file
+    af.write(lyric + '\n')
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 154, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 73, in process_playlist
+    logger.error("Exception in processing songs: ", e)
+Message: 'Exception in processing songs: '
+Arguments: (OSError(28, 'No space left on device'),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    dump_to_file(formatted_lyric, output_suffix, stop_words, dump_raw, dump_seg)
+  File "runner_qq.py", line 90, in dump_to_file
+    af.write(lyric + '\n')
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 154, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 73, in process_playlist
+    logger.error("Exception in processing songs: ", e)
+Message: 'Exception in processing songs: '
+Arguments: (OSError(28, 'No space left on device'),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    dump_to_file(formatted_lyric, output_suffix, stop_words, dump_raw, dump_seg)
+  File "runner_qq.py", line 90, in dump_to_file
+    af.write(lyric + '\n')
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 154, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 73, in process_playlist
+    logger.error("Exception in processing songs: ", e)
+Message: 'Exception in processing songs: '
+Arguments: (OSError(28, 'No space left on device'),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    dump_to_file(formatted_lyric, output_suffix, stop_words, dump_raw, dump_seg)
+  File "runner_qq.py", line 90, in dump_to_file
+    af.write(lyric + '\n')
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occu--- Logging error ---
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    dump_to_file(formatted_lyric, output_suffix, stop_words, dump_raw, dump_seg)
+  File "runner_qq.py", line 90, in dump_to_file
+    af.write(lyric + '\n')
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 154, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 73, in process_playlist
+    logger.error("Exception in processing songs: ", e)
+Message: 'Exception in processing songs: '
+Arguments: (OSError(28, 'No space left on device'),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    dump_to_file(formatted_lyric, output_suffix, stop_words, dump_raw, dump_seg)
+  File "runner_qq.py", line 90, in dump_to_file
+    af.write(lyric + '\n')
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 154, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 73, in process_playlist
+    logger.error("Exception in processing songs: ", e)
+Message: 'Exception in processing songs: '
+Arguments: (OSError(28, 'No space left on device'),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    dump_to_file(formatted_lyric, output_suffix, stop_words, dump_raw, dump_seg)
+  File "runner_qq.py", line 90, in dump_to_file
+    af.write(lyric + '\n')
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 154, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 73, in process_playlist
+    logger.error("Exception in processing songs: ", e)
+Message: 'Exception in processing songs: '
+Arguments: (OSError(28, 'No space left on device'),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "runner_qq.py", line 60, in process_playlist
+    dump_to_file(formatted_lyric, output_suffix, stop_words, dump_raw, dump_seg)
+  File "runner_qq.py", line 90, in dump_to_file
+    af.write(lyric + '\n')
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 154, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 73, in process_playlist
+    logger.error("Exception in processing songs: ", e)
+Message: 'Exception in processing songs: '
+Arguments: (OSError(28, 'No space left on device'),)
+INFO:[DataPipeline]:PlayList: [7051781002] 落日余晖 · 悦享舒适民谣 (17/51) has 26 songs.
+playlist
+    logger.error("Exception in processing songs: ", e)
+y", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 154, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 73, in process_playlist
+    logger.error("Exception in processing songs: ", e)
+Message: 'Exception in processing songs: '
+Arguments: (OSError(28, 'No space left on device'),)
+INFO:[DataPipeline]:PlayList: [7039483266] 小众但令人愉悦的国人英文歌 (18/51) has 34 songs.
+ing string formatting
+ameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+d)
+ line 90, in dump_to_file
+    af.write(lyric + '\n')
+vice'),)
+ing string formatting
+ameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 154, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 73, in process_playlist
+    logger.error("Exception in processing songs: ", e)
+Message: 'Exception in processing songs: '
+Arguments: (OSError(28, 'No space left on device'),)
+INFO:[DataPipeline]:PlayList: [3948869431] 编辑推荐：经典民谣 (19/51) has 82 songs.
+ing string formatting
+ameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+d)
+ line 90, in dump_to_file
+    af.write(lyric + '\n')
+vice'),)
+ameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+d)
+ line 90, in dump_to_file
+    af.write(lyric + '\n')
+vice'),)
+ing string formatting
+ameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+d)
+ line 90, in dump_to_file
+    af.write(lyric + '\n')
+vice'),)
+Build was aborted
+Aborted by [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Finished: ABORTED
