@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a # timeout=10
+Commit message: "Update job with total count"
+ > git rev-list --no-walk cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1414149995946193214.sh
++ python3 jobs/expirelyric.py --count 15
+('bfed4eb561', '2020-07-21 21:20:01', '        从陌生走到陌生 再从热烈走到凛冬\n        我与孤独常伴 当流星划过夜空\n        没人关心曾经它有多么璀璨\n        因为他们都被困在了 迷雾之中')
+('fc65f5c652', '2020-07-22 12:08:32', '山水共情时，\n闻见钟声一世；\n鹿马洒脱时，\n高挂众生祥饰。\n红颜祸水，把歌唱。')
+('daedf967b0', '2020-07-22 21:31:02', '我 没有想过那么快就不再，是你背后的依赖或期待，女孩 你猜 你在 不在 未来，释怀 离开 谁能为你受伤害\n我没想我会如此软弱如此弱不禁风。\n我以为我能为你挺身而出做个英雄\n童话说爱能让人所向披靡变得英勇\n不是我不挽留你自己要走。')
+('169b6572ac', '2020-07-22 21:37:13', '我要把星星遗落在后屋里\n在弥漫黑色的玫瑰园里 寻觅\n把灯光遗忘在角落里\n没有征兆地呼唤你 游戏\n愚蠢 可笑 荒诞至极\n却还是无法丢弃')
+('314df3a9f1', '2020-07-23 05:10:58', '你像是晚风\n天生拥有恰到好处的温柔\n光藏进你手\n柔软的我恍惚以为能带走')
+('1cf3d16f4c', '2020-07-23 09:53:21', '你，倾我之心，敛我一身放浪；\n你，吻我之唇，融我一纸情长；\n你，倚我之肩，助我一双翅膀；\n你，抚我之面，慰我一丝哀伤；\n你，揽我之怀，赐我一线力量；\n你，执我之手，伴我一世沧桑；')
+('f59de2d612', '2020-07-23 11:50:02', '往后的余生\n见或是不见\n你都在我心里\n有时我在爱琴海边\n不看那世间的种种\n只看你从边上经过')
+('b4b0f3d2f0', '2020-07-23 14:19:15', '我不想看到大地变成黄沙\n那些白色污染是给海洋留下伤疤\n我不想看到利益跳出环境的框架\n却总有人为了利益与环境自相残杀')
+('f372a97516', '2020-07-23 14:30:57', '不觉间已二十出了头\n小时候的梦想完成了几个\n父母的额头多了几条皱纹喽\n自己肩上的担子重很多\n别停下脚步要快快跑\n享受超越别人的快乐')
+('3c45ad2968', '2020-07-23 15:33:41', '这懵懂的回忆\n大概就是青春留下的痕迹\n算不算得上爱情\n我都有觉得自己渺小\n渺小到\n你都不知道有我这个人')
+('46192609a4', '2020-07-23 15:36:22', '暗淡忧伤心苍茫，\n天涯两岸人彷徨；\n百醉千醉蚀愁肠，\n一昭梦醒独凄凉。')
+('0e16d7f836', '2020-07-23 20:41:34', '飞过山谷，\n茂密的绿叶，\n也挡不住这串串鲜花\n只有香甜在林间停歇，\n仿若初夏的手儿在摇曳。\n                               —奥利骜')
+('754defce40', '2020-07-24 22:53:12', '我看着落日余晖站在命运的分岔路\n经历过痛苦孤独可我从来都不在乎\n我的心里逐渐麻木\n我的脚步开始加速\n你还在原地踏步可我已经看见阿姆')
+('3666b71d89', '2020-07-25 18:16:19', '耶 该去怎么形容呢\n她的微笑怎么那么温柔呢\n犯了俗情她在我心中经停\n你我爱情想必注定\n我想你给我带来的快乐都是真的\n写首love song携手听着')
+('db147a9136', '2020-07-26 12:30:40', '北现的春天是来迟了一点点 悄悄的与你而过 可你还没有感觉 人来人往的人呀 不脱下冬棉的鞋\n这个季节很特别 是个告别的时代\n从前时间一点点 真的和我说再见\n身边有朋友有欢乐 但我总会学会长大\n害怕失去不舍 只记得曾经 曾经美好的快乐')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
