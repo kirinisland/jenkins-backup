@@ -1,0 +1,122 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a # timeout=10
+Commit message: "Update job with total count"
+ > git rev-list --no-walk cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins2162586555670205558.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 15首.
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+           电话里 标注了一条红头文件
+          上面写着要领如何把牛逼兑现
+        所以我用了三脚猫的功夫打你的脸
+           整装待发然后上路 开始冒险
+
+敏感词如下:
+           电话里 标注了一条红头文件
+          上面写着要领如何把*兑现
+        所以我用了三脚猫的*夫打你的脸
+           整装待发*上路 开始冒险
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+一个人到达远方  一直坚信会有路在前方
+虽然之前我在流浪  但是现在我已插上翅膀
+自由自在的飞翔  后来发现这只是梦一场
+开始幻想  开始想念故乡
+一个人在晚上
+气氛开始变得忧伤  希望得到父母的原谅
+
+敏感词如下:
+一个人到达远方  一直坚信会有路在前方
+虽然之前我在流浪  但是现在我已*上翅膀
+自由自在的飞翔  后来发现这只是梦一场
+开始幻想  开始想念故乡
+一个人在晚上
+气氛开始变得忧伤  希望得到父母的原谅
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+就好像夏日里的苹果，隐藏着秘密。
+就好像秋夜里的蝉鸣，赞颂生命。
+星陨似雨如你，划过灯火阑珊的黑夜里。
+我静静看着你，说这多美丽。
+
+敏感词如下:
+就好像夏*里的苹果，隐藏着秘密。
+就好像秋夜里的蝉鸣，赞颂生命。
+星陨似雨如你，划过灯火阑珊的黑夜里。
+我静静看着你，说这多美丽。
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+还记得这个节拍               让我们回到2017
+那年有艾福杰尼、vava，GAI    还有tizzy-t
+当时中文说唱在国内还没有特别流行
+但他们把一首首说唱歌曲在节目留名
+记得那年夏天第一次收看中国有嘻哈
+对hip-hop最纯真的感情告诉我爱她
+
+敏感词如下:
+还记得这个节拍               让我们回到2017
+那年有艾福杰尼、vava，gai    还有tizzy-t
+当时中文说唱在国内还没有特别流行
+但他们把一首首说唱歌曲在节目留名
+记得那年夏天第一次收看*有嘻哈
+对hip-hop最纯真的感情告诉我爱她
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+总是嘴角提起她
+抱不住的那个她
+是谁又说起了遗憾吗
+是多少可一可再的诺言
+最后变成无奈的谎言
+
+敏感词如下:
+总是嘴角提起她
+抱不住的那个她
+是谁又说起了遗憾*
+是多少可一可再的诺言
+最后变成无奈的谎言
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+无言无语的时候装满了一瓶子的背叛
+感天动地的时候显示了一瓶子的喜欢
+这种演绎的戏份何时才能完结
+是否要等到剧本角色的离别
+
+敏感词如下:
+无言无语的时候装满了一瓶子的背叛
+感天动地的时候显示了一瓶子的喜欢
+这种演绎的戏份何时才能完结
+是否要等到剧*角*的离别
+-----------------------------
+Finished: SUCCESS
