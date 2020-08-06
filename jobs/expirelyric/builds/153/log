@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a # timeout=10
+Commit message: "Update job with total count"
+ > git rev-list --no-walk cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1756446570348154945.sh
++ python3 jobs/expirelyric.py --count 15
+('4a7e1c6546', '2020-07-28 15:34:04', '那门 遮掩不住我好奇的眼神\n穿过我的胆怯 你的发隙 直达你灵魂\n那话 说的不是一般的认真\n不加修辞 通过我的方式 就让你发疯\n反正 人都是一样的天真\n谁和谁在一起 都可以被称之为是缘分')
+('b319a140b2', '2020-07-28 18:52:34', '日月停摆 山川颠覆')
+('ebd9a78ee5', '2020-07-28 20:58:13', '汝，若真心对我；\n为何，叛我弃亡。\n尔，若同是与你；\n为何，家大业好。\n绝是，背叛者；隐藏，与我心上。\n尔为鬼，看清生亡，汝尔之间，从无共存亡！')
+('2f3d519360', '2020-07-29 10:48:32', '对你，是不打扰，也不放弃。\n我告诉你我爱你，并不是一定要和你在一起。\n只是希望今后的你，在失意的时候，记得有个人一直爱着你。\n如果是命中注定，我会细水长流的把你宠坏。')
+('efbd912416', '2020-07-29 11:50:22', '你打着伞望着遥远的远方\n雨中的天空隐藏着阳光\n你说以后难过的日子还在路上\n听着歌入睡梦里变得悲伤\n你就像海底的宝藏\n岸上的我为你痴狂')
+('a738772287', '2020-07-29 18:32:43', '漫步在街头 \n我不知忧愁 \n这的街道 这的空气像新的星球\n偶尔抬起头\n是陌生的星宿\n是否距离可以让我忘掉那烦忧')
+('50046e4669', '2020-07-30 08:13:39', '世间万千颜色\n我独钟情黑的\n又纯粹又复杂\n又向往又害怕\n就算烈日之下\n也不会被抹杀')
+('4424bd16de', '2020-07-30 08:42:22', '我们 始于脸红 终于眼红 \n那时还懵懂\n我们 始于心动 终于心痛\n感情不成功\n我们 始于冲动 终于轻松\n最后难动容')
+('29e273cd69', '2020-07-30 16:43:13', '我也曾\n万夫莫开\n骁战龙台\n却为你\n细雨苍苔\n含情徘徊')
+('e5d6dd8ba8', '2020-07-30 19:39:41', '今天天气很好出去散个步，随便打扮一下感觉自己很酷\n可能是纯粹为了刷着微信步数，漫无目的的瞎逛会不会迷路\n可能生活有时候真的有点无聊，真的厌倦了很多人的陈词滥调\n避免尴尬还是与朋友说说笑笑，繁华的街道看那些热热闹闹\n其实静下心来也不会感到很枯燥，听听歌看看书就会忘了那些烦恼')
+('a97ad229df', '2020-07-30 22:28:18', '转个弯就看见山，\n山顶不知谁涂写的蓝，\n山脚不知谁遗留的浪漫。\n转个弯就看见山，\n山顶是夏天填充的蓝\n山脚是你和我遗留的浪漫。')
+('edc93d6227', '2020-08-01 13:11:53', '水若君，君不知。      \n问吾曾倾君几许，倘若流水知吾亦知。\n曾问君心为何悸，只记君似落花凋谢。\n君念吾，吾亦知。\n奈若柳絮不曾舞，落花流水终无意。\n天上凡世一尘隔，唯有鹊仙落凡尘。  ')
+('28652f982d', '2020-08-01 13:12:36', '君念君卿，卿不知。\n吾落尘世，涣一人。\n鹊仙撑伞无心过，只留世人眷恋流年。\n人世红尘曾几多，断尘绝缘不过尔尔。\n泪未尽，却仍凉。\n画中仙，镜中妖。')
+('7d37418c2c', '2020-08-01 19:54:50', '一个人到达远方  一直坚信会有路在前方\n虽然之前我在流浪  但是现在我已插上翅膀\n自由自在的飞翔  后来发现这只是梦一场\n开始幻想  开始想念故乡\n一个人在晚上\n气氛开始变得忧伤  希望得到父母的原谅')
+('f0c5dac96a', '2020-08-03 14:52:16', '无言无语的时候装满了一瓶子的背叛\n感天动地的时候显示了一瓶子的喜欢\n这种演绎的戏份何时才能完结\n是否要等到剧本角色的离别')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
