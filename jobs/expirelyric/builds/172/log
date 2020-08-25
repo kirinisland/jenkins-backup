@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a # timeout=10
+Commit message: "Update job with total count"
+ > git rev-list --no-walk cf16a3aa87695a697dfaf67fbcf21676c6ab4c7a # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins2241416832449486075.sh
++ python3 jobs/expirelyric.py --count 15
+('769046b17e', '2020-08-18 02:06:52', '我们不在是难舍难分\n终究剩我一个人\n终于习惯了没有你的清晨\n不在有期盼的眼神\n不会在哭泣到黄昏\n只是还爱你  却不敢承认')
+('e2212c6d9e', '2020-08-18 16:39:52', '我们吊炸天的flow就像打了（肾上腺素）\n天花板上反射出haters们的（混账面目）\n我的唱片播放在大街小巷还有（镇上建筑 ）\n老子们（深藏天赋）like内马尔彩虹过人单刀直入（奔向边路）不光要炫出我的风格还要把（份量兼顾）')
+('63d65d2215', '2020-08-19 00:06:32', '夏天 是比以前更长一点\n时间 不是能驾驭的从前\n再见 那个很幼稚的少年\n眼前 是我们成长的瞬间\n习惯了 没人在身边\n一个人 翻阅相册一遍又一遍')
+('a40a1406fb', '2020-08-19 01:11:46', '你说叶子迟早都会掉，\n你说疼的时候会哇哇叫，\n你说烦恼忘了就会大笑，\n你说早晚我会把你忘掉。\n可是那思念把我缠绕，\n我一想到你就心跳，')
+('1531e1e53e', '2020-08-19 06:55:56', '他自天上来\n白衣绕心头\n心悦君兮\n却不知如何讲')
+('dde7a24560', '2020-08-19 16:55:10', '时间其实很宝贵\n有人却说无所谓\n会不会是因为\n他们过的没滋味')
+('89f0f534b0', '2020-08-19 17:05:50', '收音机里循环播放着老旧的歌曲\n小巷内的樱花树撒下了樱花的雨\n街边慵懒的猫躺在柔和的日光下\n她们轻声细语 说着笑着 坐在黄昏下\n她说由于时间与地域的关系 我们再见不能超过三十次\n可我始终不愿相信这数字')
+('5e506d8a46', '2020-08-19 21:21:14', '我想把夏天的句子写的长一点\n关于美好的日子过的慢一些\n我想和你互相浪费\n一起消磨精致的地球自转\n直到我们星途漫漫\n最大的浪漫是终其一身的专注')
+('8635d6fb4d', '2020-08-20 02:02:13', '街角的停留，不经意的回头\n你说我是小偷，偷走你的温柔\n像是没有灵魂抽离在心底 ohoh\n没有你也依旧，漫步世界尽头\n你曾是我的宇宙，可撞飞了地球\n我却依然装不在意给你回眸yeah~')
+('cc18603d25', '2020-08-20 22:42:27', '即使生活是平平淡淡 简简单单 磕磕绊绊  步履阑珊\n\n我们也一日三餐 粗茶淡饭  一起渡过难关 让你有安全感')
+('c800a36aa3', '2020-08-21 07:33:37', '我看惯了rapper们的互相利用\n也看够了他们脸上的目光悸动\n当你怒放其中   还有路旁弟兄\n比赛的装备都由我的主场提供\n我也幻想到世界各地巡演 没想到这路上如此阴险\nfreestyle出色作品也玩的经典')
+('4bb3f25661', '2020-08-21 09:38:45', '我想把句子写得长一些\n美好的日子多一点\n一起打发无趣时间\n直至地球绕万圈')
+('76b98bb969', '2020-08-22 09:23:05', '欺骗 改变 需要多一点时间\n人间 明天 不想再说再见\n身边的亲朋好友总有理由将你占有\n劝你放弃自己坚持的路\n让你拿起课本记住')
+('83ce3a9d92', '2020-08-22 14:20:01', '何来的海角天涯\n朱灯下又别缕白发\n多情遗盛夏\n无所剩下')
+('08f3347c53', '2020-08-22 23:54:35', '感情里没有谁对不起谁\n我们都曾为彼此流过眼泪\n很遗憾余生再难共携手\n何必抱歉又不曾对我有亏')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
