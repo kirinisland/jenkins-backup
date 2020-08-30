@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67503715f5806fd7cdba1c9803cb59378dd4d097 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+Commit message: "added UserIdentity table"
+ > git rev-list --no-walk 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3994602296766098783.sh
++ python3 jobs/expirelyric.py --count 15
+('4bb3f25661', '2020-08-21 09:38:45', '我想把句子写得长一些\n美好的日子多一点\n一起打发无趣时间\n直至地球绕万圈')
+('76b98bb969', '2020-08-22 09:23:05', '欺骗 改变 需要多一点时间\n人间 明天 不想再说再见\n身边的亲朋好友总有理由将你占有\n劝你放弃自己坚持的路\n让你拿起课本记住')
+('83ce3a9d92', '2020-08-22 14:20:01', '何来的海角天涯\n朱灯下又别缕白发\n多情遗盛夏\n无所剩下')
+('08f3347c53', '2020-08-22 23:54:35', '感情里没有谁对不起谁\n我们都曾为彼此流过眼泪\n很遗憾余生再难共携手\n何必抱歉又不曾对我有亏')
+('43abc23282', '2020-08-23 09:43:41', '我本是——\n金山寺里得道僧\n修成佛法诵真经\n佛祖赐我紫金钵\n降妖除魔抓妖精')
+('04bc3e7a8f', '2020-08-23 21:25:24', '你是上帝恩赐的温柔\n注定无法在红尘停留\n虽然我们已经到尽头\n但我依旧愿你\n不要回头')
+('b478845e2f', '2020-08-24 13:51:19', '转世记忆为谁留，\n此生注定唐门耀。\n蓝银觉醒为帝皇，\n昊天之威逆苍穹。\n单枪匹马似修罗，\n一半天使一半魔。')
+('4e1361e503', '2020-08-24 18:44:40', '静静地夜 \n银河的星也变得有些微凉\n伤感的我\n很多年再也没见过\n天边划落的流星\n好想再许个愿望')
+('1ad18bb8c1', '2020-08-24 23:52:44', '教室的时钟滴滴答答走的匆忙\n黑板上方程总解不开让人忧伤\n你坐在操场上侧脸映照的夕阳\n是我多年梦里无法忘怀的映像')
+('8874d05bc3', '2020-08-25 15:24:28', '劈竹成骨 糊纸为裳  凭东风扶摇直上\n妄攀附云间与天光共赏\n看似华丽满是荒唐\n比邻悬崖 终日惶惶  命悬一线名利场\n在最高处跌入深渊万丈\n归于尘泥此间茫茫')
+('cc2e8e5107', '2020-08-25 17:37:13', '我回到纽约，但是我很热血。\n我没有穿越，我不会拒绝。\n但我总要学会找回感觉，但是我不会睡觉。\n我经历过很多风雪，承受过太多承诺。\n走过很多地方，也过了很多时光。\n就让我的姑娘，来追逐梦想。')
+('5861c94713', '2020-08-25 23:52:38', '风声起，烟波淼\n神隐八荒品逍遥\n雨霜降，冬雪寒\n江湖滔滔无影踪\n暗室明孤灯\n岱山清溪长')
+('b6099850e9', '2020-08-26 17:16:37', '在最清醒时遗忘所有记忆\n只保留最原始的欢愉\n如初生如至死如纯白光影\n等待未知窗格告密\n我与我自己')
+('07ceda5a80', '2020-08-26 18:25:19', '城南开了花\n城北结了茶\n我十年窗下\n待到枯树生华\n无间冬夏\n装痴卖傻')
+('dfea8a0052', '2020-08-26 21:53:12', '爱得那么深，怀抱着认真\n美好和理想正等待着发生\n期望太庞大，最后变成残忍\n留下遗憾和懊悔，剩下自己孤单一个人\n时间是旅程，错过了半生\n现实和妥协割据成了伤痕')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
