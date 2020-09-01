@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67503715f5806fd7cdba1c9803cb59378dd4d097 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+Commit message: "added UserIdentity table"
+ > git rev-list --no-walk 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins182502699194457279.sh
++ python3 jobs/expirelyric.py --count 15
+('4e1361e503', '2020-08-24 18:44:40', '静静地夜 \n银河的星也变得有些微凉\n伤感的我\n很多年再也没见过\n天边划落的流星\n好想再许个愿望')
+('1ad18bb8c1', '2020-08-24 23:52:44', '教室的时钟滴滴答答走的匆忙\n黑板上方程总解不开让人忧伤\n你坐在操场上侧脸映照的夕阳\n是我多年梦里无法忘怀的映像')
+('8874d05bc3', '2020-08-25 15:24:28', '劈竹成骨 糊纸为裳  凭东风扶摇直上\n妄攀附云间与天光共赏\n看似华丽满是荒唐\n比邻悬崖 终日惶惶  命悬一线名利场\n在最高处跌入深渊万丈\n归于尘泥此间茫茫')
+('cc2e8e5107', '2020-08-25 17:37:13', '我回到纽约，但是我很热血。\n我没有穿越，我不会拒绝。\n但我总要学会找回感觉，但是我不会睡觉。\n我经历过很多风雪，承受过太多承诺。\n走过很多地方，也过了很多时光。\n就让我的姑娘，来追逐梦想。')
+('5861c94713', '2020-08-25 23:52:38', '风声起，烟波淼\n神隐八荒品逍遥\n雨霜降，冬雪寒\n江湖滔滔无影踪\n暗室明孤灯\n岱山清溪长')
+('b6099850e9', '2020-08-26 17:16:37', '在最清醒时遗忘所有记忆\n只保留最原始的欢愉\n如初生如至死如纯白光影\n等待未知窗格告密\n我与我自己')
+('07ceda5a80', '2020-08-26 18:25:19', '城南开了花\n城北结了茶\n我十年窗下\n待到枯树生华\n无间冬夏\n装痴卖傻')
+('dfea8a0052', '2020-08-26 21:53:12', '爱得那么深，怀抱着认真\n美好和理想正等待着发生\n期望太庞大，最后变成残忍\n留下遗憾和懊悔，剩下自己孤单一个人\n时间是旅程，错过了半生\n现实和妥协割据成了伤痕')
+('1037bd5c53', '2020-08-28 11:42:45', '我捏起柿子咬掉一口信念\n弃之可惜 食之太面\n再扔掉一块熟烂的尊严\n可惜柿子们都一成不变')
+('970d26f89e', '2020-08-28 22:02:13', '他来自远方\n在那个南方\n今晚有点感伤 因为他再远航\n他是个船长 行驶在梦的海洋\n前方是他的信仰\n也是那梦的模样')
+('92babcd699', '2020-08-29 01:21:33', '内心早已千疮百孔\n却还面带微笑逞强\n其实你也需要人陪的吧\n什么时候才能明白\n内心的空洞啊\n需要同伴来填补')
+('5614865a12', '2020-08-29 18:29:04', '看着我粉丝涨的速度好快\n听了我的说唱都觉得我的歌词好帅\n你喜欢听的所有类型都在我的脑袋\n准备好耳朵来听听我的表态')
+('1a2679161e', '2020-08-29 18:55:14', '每当清晨醒来 总会想起过往的种种美好 在记忆中寻找 回到 青春年少的时代 总是那么美好 过去的岁月不再回头 可如今的自己。只是这个可有可为的人 ')
+('f369da6287', '2020-08-29 23:08:10', '你难不成要妥协离梦远一点\n倾倒完回忆只剩背影渐远\n没怀念\n学得聪明一点')
+('43e13bf1f7', '2020-08-30 13:07:25', '也不知在黑暗中究竟沉睡了多久\n也不知如何能再次拾起魔杖\n我在死亡边缘祈祷你们不在\n留恋忘返人间你们却已离开\n我是这生命的瞬间\n是滑过指缝的刹那火焰')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
