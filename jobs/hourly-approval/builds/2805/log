@@ -1,0 +1,30 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67503715f5806fd7cdba1c9803cb59378dd4d097 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+Commit message: "added UserIdentity table"
+ > git rev-list --no-walk 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins4808311991150730219.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 1首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+hey 听着
+用着hiphop来叙述我对你的态度 烂词写的实在让我对你恶心想吐 一身A货穿起来你是真的很酷上着厕所还要数着拉了几步 当你看到这篇时 你可以选择diss 别用你嘴喷一口的屎 你的一脸懵逼让我把你爱 请你记住现在这时代
+
+敏感词如下:
+hey 听着
+用着hiphop来叙述我对你的态度 *词写的实在让我对你恶心想吐 一身a货穿起来你是真的很酷上着厕所还要数着拉了几步 当你看到这篇时 你可以选择diss 别用你嘴*一口的* 你的一脸懵*让我把你爱 请你记住现在这时代
+-----------------------------
+Finished: SUCCESS
