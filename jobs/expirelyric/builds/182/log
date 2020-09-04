@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67503715f5806fd7cdba1c9803cb59378dd4d097 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+Commit message: "added UserIdentity table"
+ > git rev-list --no-walk 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5747313763769779595.sh
++ python3 jobs/expirelyric.py --count 15
+('cc2e8e5107', '2020-08-25 17:37:13', '我回到纽约，但是我很热血。\n我没有穿越，我不会拒绝。\n但我总要学会找回感觉，但是我不会睡觉。\n我经历过很多风雪，承受过太多承诺。\n走过很多地方，也过了很多时光。\n就让我的姑娘，来追逐梦想。')
+('5861c94713', '2020-08-25 23:52:38', '风声起，烟波淼\n神隐八荒品逍遥\n雨霜降，冬雪寒\n江湖滔滔无影踪\n暗室明孤灯\n岱山清溪长')
+('b6099850e9', '2020-08-26 17:16:37', '在最清醒时遗忘所有记忆\n只保留最原始的欢愉\n如初生如至死如纯白光影\n等待未知窗格告密\n我与我自己')
+('07ceda5a80', '2020-08-26 18:25:19', '城南开了花\n城北结了茶\n我十年窗下\n待到枯树生华\n无间冬夏\n装痴卖傻')
+('dfea8a0052', '2020-08-26 21:53:12', '爱得那么深，怀抱着认真\n美好和理想正等待着发生\n期望太庞大，最后变成残忍\n留下遗憾和懊悔，剩下自己孤单一个人\n时间是旅程，错过了半生\n现实和妥协割据成了伤痕')
+('1037bd5c53', '2020-08-28 11:42:45', '我捏起柿子咬掉一口信念\n弃之可惜 食之太面\n再扔掉一块熟烂的尊严\n可惜柿子们都一成不变')
+('970d26f89e', '2020-08-28 22:02:13', '他来自远方\n在那个南方\n今晚有点感伤 因为他再远航\n他是个船长 行驶在梦的海洋\n前方是他的信仰\n也是那梦的模样')
+('92babcd699', '2020-08-29 01:21:33', '内心早已千疮百孔\n却还面带微笑逞强\n其实你也需要人陪的吧\n什么时候才能明白\n内心的空洞啊\n需要同伴来填补')
+('5614865a12', '2020-08-29 18:29:04', '看着我粉丝涨的速度好快\n听了我的说唱都觉得我的歌词好帅\n你喜欢听的所有类型都在我的脑袋\n准备好耳朵来听听我的表态')
+('1a2679161e', '2020-08-29 18:55:14', '每当清晨醒来 总会想起过往的种种美好 在记忆中寻找 回到 青春年少的时代 总是那么美好 过去的岁月不再回头 可如今的自己。只是这个可有可为的人 ')
+('f369da6287', '2020-08-29 23:08:10', '你难不成要妥协离梦远一点\n倾倒完回忆只剩背影渐远\n没怀念\n学得聪明一点')
+('43e13bf1f7', '2020-08-30 13:07:25', '也不知在黑暗中究竟沉睡了多久\n也不知如何能再次拾起魔杖\n我在死亡边缘祈祷你们不在\n留恋忘返人间你们却已离开\n我是这生命的瞬间\n是滑过指缝的刹那火焰')
+('87581d93a2', '2020-08-31 03:47:40', '上学时的恶作剧  上课一直浑水摸鱼\n说来说去我就是想要 随 心 所 欲\n我不想让时间被学习占据\n我想高歌一曲\n可当初不会组织言语  头脑没有一点思绪\n就好像快要死去')
+('3f08d7b47c', '2020-08-31 21:12:52', '那些一拂即逝的告白\n最终会不会填满脑海\n还是不忍分别的遮盖\n他飘向四方也很无奈\n之后有没有人能回来\n看看属于青春的舞台')
+('b4736c8611', '2020-09-01 10:13:50', '梦里遇见你，似眼前似天际\n梦里抓住你，似拥有似空虚\n梦里属于你，也有情也有意\n挡不住思念，只能梦里来去')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
