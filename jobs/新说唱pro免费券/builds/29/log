@@ -1,0 +1,24 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/新说唱pro免费券
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67503715f5806fd7cdba1c9803cb59378dd4d097 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+Commit message: "added UserIdentity table"
+ > git rev-list --no-walk 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+[新说唱pro免费券] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins8754734261596066588.sh
++ python3 jobs/update_coupon.py -u oKJKF0oQfI67eL39cY2UaU2TyFAQ
+User name: oKJKF0oQfI67eL39cY2UaU2TyFAQ, 对应objectId: b4c5cd560c
+[201]用户: oKJKF0oQfI67eL39cY2UaU2TyFAQ 添加6个月pro coupon成功！
+[201]用户: oKJKF0oQfI67eL39cY2UaU2TyFAQ 标记user identity 成功！
+Finished: SUCCESS
