@@ -1,0 +1,175 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/JenkinsBackUp
+[JenkinsBackUp] $ /bin/bash /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins9204469668262980530.sh
++ '[' -e /var/root/.jenkins/.git/index.lock ']'
++ cd /var/root/.jenkins/
++ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   config.xml
+	modified:   jobs/JenkinsBackUp/builds/201/log
+	modified:   jobs/JenkinsBackUp/builds/permalinks
+	modified:   jobs/JenkinsBackUp/nextBuildNumber
+	modified:   jobs/expirelyric/builds/permalinks
+	modified:   jobs/expirelyric/nextBuildNumber
+	deleted:    jobs/hot_user/builds/169/build.xml
+	deleted:    jobs/hot_user/builds/169/changelog.xml
+	deleted:    jobs/hot_user/builds/169/log
+	modified:   jobs/hot_user/builds/permalinks
+	modified:   jobs/hot_user/nextBuildNumber
+	deleted:    jobs/hourly-approval/builds/3238/build.xml
+	deleted:    jobs/hourly-approval/builds/3238/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3238/log
+	deleted:    jobs/hourly-approval/builds/3239/build.xml
+	deleted:    jobs/hourly-approval/builds/3239/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3239/log
+	deleted:    jobs/hourly-approval/builds/3240/build.xml
+	deleted:    jobs/hourly-approval/builds/3240/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3240/log
+	deleted:    jobs/hourly-approval/builds/3241/build.xml
+	deleted:    jobs/hourly-approval/builds/3241/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3241/log
+	deleted:    jobs/hourly-approval/builds/3242/build.xml
+	deleted:    jobs/hourly-approval/builds/3242/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3242/log
+	deleted:    jobs/hourly-approval/builds/3243/build.xml
+	deleted:    jobs/hourly-approval/builds/3243/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3243/log
+	deleted:    jobs/hourly-approval/builds/3244/build.xml
+	deleted:    jobs/hourly-approval/builds/3244/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3244/log
+	deleted:    jobs/hourly-approval/builds/3245/build.xml
+	deleted:    jobs/hourly-approval/builds/3245/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3245/log
+	deleted:    jobs/hourly-approval/builds/3246/build.xml
+	deleted:    jobs/hourly-approval/builds/3246/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3246/log
+	deleted:    jobs/hourly-approval/builds/3247/build.xml
+	deleted:    jobs/hourly-approval/builds/3247/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3247/log
+	deleted:    jobs/hourly-approval/builds/3248/build.xml
+	deleted:    jobs/hourly-approval/builds/3248/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3248/log
+	deleted:    jobs/hourly-approval/builds/3249/build.xml
+	deleted:    jobs/hourly-approval/builds/3249/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3249/log
+	deleted:    jobs/hourly-approval/builds/3250/build.xml
+	deleted:    jobs/hourly-approval/builds/3250/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3250/log
+	deleted:    jobs/hourly-approval/builds/3251/build.xml
+	deleted:    jobs/hourly-approval/builds/3251/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3251/log
+	deleted:    jobs/hourly-approval/builds/3252/build.xml
+	deleted:    jobs/hourly-approval/builds/3252/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3252/log
+	deleted:    jobs/hourly-approval/builds/3253/build.xml
+	deleted:    jobs/hourly-approval/builds/3253/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3253/log
+	deleted:    jobs/hourly-approval/builds/3254/build.xml
+	deleted:    jobs/hourly-approval/builds/3254/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3254/log
+	deleted:    jobs/hourly-approval/builds/3255/build.xml
+	deleted:    jobs/hourly-approval/builds/3255/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3255/log
+	deleted:    jobs/hourly-approval/builds/3256/build.xml
+	deleted:    jobs/hourly-approval/builds/3256/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3256/log
+	deleted:    jobs/hourly-approval/builds/3257/build.xml
+	deleted:    jobs/hourly-approval/builds/3257/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3257/log
+	deleted:    jobs/hourly-approval/builds/3258/build.xml
+	deleted:    jobs/hourly-approval/builds/3258/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3258/log
+	deleted:    jobs/hourly-approval/builds/3259/build.xml
+	deleted:    jobs/hourly-approval/builds/3259/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3259/log
+	deleted:    jobs/hourly-approval/builds/3260/build.xml
+	deleted:    jobs/hourly-approval/builds/3260/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3260/log
+	deleted:    jobs/hourly-approval/builds/3261/build.xml
+	deleted:    jobs/hourly-approval/builds/3261/changelog.xml
+	deleted:    jobs/hourly-approval/builds/3261/log
+	modified:   jobs/hourly-approval/builds/permalinks
+	modified:   jobs/hourly-approval/nextBuildNumber
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+	.lastStarted
+	.owner
+	ThinBackup Worker Thread.log
+	com.cloudbees.hudson.plugins.folder.config.AbstractFolderConfiguration.xml
+	fingerprints/
+	github-plugin-configuration.xml
+	hudson.maven.MavenModuleSet.xml
+	hudson.plugins.build_timeout.operations.BuildStepOperation.xml
+	hudson.plugins.emailext.ExtendedEmailPublisher.xml
+	hudson.plugins.git.GitSCM.xml
+	hudson.plugins.timestamper.TimestamperConfig.xml
+	hudson.scm.SubversionSCM.xml
+	hudson.tasks.Mailer.xml
+	hudson.tasks.Shell.xml
+	hudson.triggers.SCMTrigger.xml
+	identity.key.enc
+	installedPlugins.xml
+	jenkins.install.InstallUtil.lastExecVersion
+	jenkins.install.UpgradeWizard.state
+	jenkins.model.ArtifactManagerConfiguration.xml
+	jenkins.model.JenkinsLocationConfiguration.xml
+	jenkins.security.ResourceDomainConfiguration.xml
+	jenkins.telemetry.Correlator.xml
+	jobs/JenkinsBackUp/builds/201/build.xml
+	jobs/JenkinsBackUp/builds/202/
+	jobs/expirelyric/builds/201/
+	jobs/hot_user/builds/172/
+	jobs/hourly-approval/builds/3268/
+	jobs/hourly-approval/builds/3269/
+	jobs/hourly-approval/builds/3270/
+	jobs/hourly-approval/builds/3271/
+	jobs/hourly-approval/builds/3272/
+	jobs/hourly-approval/builds/3273/
+	jobs/hourly-approval/builds/3274/
+	jobs/hourly-approval/builds/3275/
+	jobs/hourly-approval/builds/3276/
+	jobs/hourly-approval/builds/3277/
+	jobs/hourly-approval/builds/3278/
+	jobs/hourly-approval/builds/3279/
+	jobs/hourly-approval/builds/3280/
+	jobs/hourly-approval/builds/3281/
+	jobs/hourly-approval/builds/3282/
+	jobs/hourly-approval/builds/3283/
+	jobs/hourly-approval/builds/3284/
+	jobs/hourly-approval/builds/3285/
+	jobs/hourly-approval/builds/3286/
+	jobs/hourly-approval/builds/3287/
+	jobs/hourly-approval/builds/3288/
+	jobs/hourly-approval/builds/3289/
+	jobs/hourly-approval/builds/3290/
+	jobs/hourly-approval/builds/3291/
+	logs/
+	nodeMonitors.xml
+	org.jenkins.plugins.lockableresources.LockableResourcesManager.xml
+	org.jenkinsci.plugins.conditionalbuildstep.singlestep.SingleConditionalBuilder.xml
+	org.jenkinsci.plugins.docker.workflow.declarative.GlobalConfig.xml
+	org.jenkinsci.plugins.github_branch_source.GitHubConfiguration.xml
+	org.jenkinsci.plugins.pipeline.modeldefinition.config.GlobalConfig.xml
+	org.jenkinsci.plugins.workflow.flow.FlowExecutionList.xml
+	org.jenkinsci.plugins.workflow.flow.GlobalDefaultFlowDurabilityLevel.xml
+	org.jenkinsci.plugins.workflow.libs.GlobalLibraries.xml
+	plugins/
+	queue.xml
+	queue.xml.bak
+	scriptApproval.xml
+	secret.key.not-so-secret
+	secrets/
+	updates/
+	users/
+	war/
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git add jobs
