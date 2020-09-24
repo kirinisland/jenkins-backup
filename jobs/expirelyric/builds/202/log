@@ -1,0 +1,37 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67503715f5806fd7cdba1c9803cb59378dd4d097 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+Commit message: "added UserIdentity table"
+ > git rev-list --no-walk 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins8219279391572074623.sh
++ python3 jobs/expirelyric.py --count 15
+('3404e62c8a', '2020-09-16 18:36:39', '有些人注定会在一起\n而有些人注定会走散\n就像你和我一样')
+('96f78ab5f5', '2020-09-17 09:57:59', '我觉得你的flow真的太普通\n我punchline秒了你只需要几秒钟\n词汇的积累都在我脑中\n你没有女朋友你只有老公')
+('d0a0ac08cb', '2020-09-17 19:20:34', '我在那个无人过问的夜晚\n说着那些自欺欺人的谎言\n把理想卖了\n却换不来材米油盐\n不知不觉的哭红了眼')
+('79cbc79c1e', '2020-09-17 23:32:32', '风已去 梦已熄 江湖路上我和你 \n一壶酒 一柄剑 残阳斜柳醉红颜 \n人未还 情亦老 天地悠悠任逍遥\n悲已去 剑归鞘 恨意消')
+('c119bb587d', '2020-09-19 10:23:06', '云边暮日照桃花\n桃花娇又笑\n一片风情溪水也难耐\n桥上油纸伞轻抚她裙摆\n叹一生平凡\n看人间辽阔')
+('e366e3ca21', '2020-09-19 14:07:25', '想要 在清晨 面向大海\n像浪花 一样涌开\n想要 在傍晚 缓缓归来\n像晚霞 一样等待')
+('c9e80f09b9', '2020-09-20 14:53:26', '听窗外雨落的声音\n回忆在脑海中逐渐清晰\n当夜深人静的时候\n一个人对着酒杯痛饮')
+('fd0f59225f', '2020-09-21 14:34:53', '我和你在濠河东岸游荡\n你陪我穿过矿西的小巷\n两个人牵手走过的路灯\n是冬夜里最温暖的阳光')
+('67b42ecf67', '2020-09-21 22:24:07', '青玉案，南华卷 烟笼寒水月色连落雁 星罗布，纵横错 拂袖琴鸣邀君入棋瓮 白子玲珑，素手拈风，细烟缭绕停眼看苍穹 雄兵健卒，孤身强渡，衔枚莞尔直逼黄龙府 眼角澜渡，折扇遮捂，浅笑凝目 化尔一切虚无，楚河汉界狼烟阻 长车虎犊，声寒十数，壁垒麓麓 平夷苍茫独舞，驻足饮露青衣儒 【副歌1】 义士千秋，贴身护帅在深宫，虽不过河斗亦凶 将帅运筹，驱车策马下江东，运炮挥兵在帷幄 谁是卧龙，有谁生子当如孙仲谋 谁称枭雄，笔锋走龙铁骑截阿斗！')
+('679a5398ac', '2020-09-22 07:39:08', '人到中年心里空荡\n不知道疯狂忘记了忧伤\n曾经的激情万丈遗忘在故乡\n远方的姑娘\n我不想假装\n我很想坚强')
+('a6425beb91', '2020-09-22 16:32:29', '曾誓说傲立功名还继梦未央 \n也契阔零落自由终无恙\n历遍江湖又何妨\n低吟残谱徵宫商\n且度阙 寄沧浪 亦比天长')
+('21760ee77c', '2020-09-22 16:33:51', '你是红豆拈来的相思\n温藏心口辗转唇齿\n作病酒医我的药石\n你在花笺笔墨一素尺\n低吟浅斟晤念自持\n风雪后暖我的故事')
+('ec49bfb34f', '2020-09-22 16:41:01', '你浸染墨色许我以银河\n彼时星辰缱绻散作点点萤火 \n不慕风月不羡神明不惧消磨\n无法触碰又怎提笔雕琢\n合掌便永铭刻')
+('c4762cb348', '2020-09-22 16:46:06', '自清安 合而有温玉香软\n不火不淡不杂不染\n忘尘浅 把人间心字燃遍\n拜三愿日复计流年\n念风间 白莲成灰归净寒\n再相逢地北天南')
+现有精选微词 14首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS

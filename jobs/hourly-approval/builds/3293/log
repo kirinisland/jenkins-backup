@@ -1,0 +1,66 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67503715f5806fd7cdba1c9803cb59378dd4d097 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+Commit message: "added UserIdentity table"
+ > git rev-list --no-walk 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins4149800216654728340.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 8首.
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+枫叶缓缓地飘落
+好像世界逝去了颜色 
+不要再哭泣 
+沉默 一直错过
+难过 只是经过
+生活困扰着我 也许 明天 会难过
+
+敏感词如下:
+枫叶缓缓地飘落
+好像世界逝去了颜* 
+不要再哭泣 
+沉默 一直错过
+难过 只是经过
+生活困扰着我 也许 明天 会难过
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+Yeah，这是贰零年的夏天，记得教室的时钟走得匆忙
+而坐在一边的我还在彷徨。会了没？还有哪道题要讲？
+老师的口头禅早已存进我的影相
+来日方长，但我不会遗忘。乘风破浪，大家也驶向四方
+都说好了彼此想念
+最后，闭上双眼，只有她是你梦里的画面
+
+敏感词如下:
+yeah，这是贰零年的夏天，记得教室的时钟走得匆忙
+而坐在一边的我还在彷徨。会了没？还有哪道题要讲？
+老师的口头禅早已存进我的影相
+来*方长，但我不会遗忘。乘风破浪，大家也驶向四方
+都说好了彼此想念
+最后，闭上双眼，只有她是你梦里的画面
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+Finished: SUCCESS
