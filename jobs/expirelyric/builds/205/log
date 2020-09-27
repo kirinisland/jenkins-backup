@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67503715f5806fd7cdba1c9803cb59378dd4d097 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+Commit message: "added UserIdentity table"
+ > git rev-list --no-walk 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3392827859216228077.sh
++ python3 jobs/expirelyric.py --count 15
+('fd0f59225f', '2020-09-21 14:34:53', '我和你在濠河东岸游荡\n你陪我穿过矿西的小巷\n两个人牵手走过的路灯\n是冬夜里最温暖的阳光')
+('67b42ecf67', '2020-09-21 22:24:07', '青玉案，南华卷 烟笼寒水月色连落雁 星罗布，纵横错 拂袖琴鸣邀君入棋瓮 白子玲珑，素手拈风，细烟缭绕停眼看苍穹 雄兵健卒，孤身强渡，衔枚莞尔直逼黄龙府 眼角澜渡，折扇遮捂，浅笑凝目 化尔一切虚无，楚河汉界狼烟阻 长车虎犊，声寒十数，壁垒麓麓 平夷苍茫独舞，驻足饮露青衣儒 【副歌1】 义士千秋，贴身护帅在深宫，虽不过河斗亦凶 将帅运筹，驱车策马下江东，运炮挥兵在帷幄 谁是卧龙，有谁生子当如孙仲谋 谁称枭雄，笔锋走龙铁骑截阿斗！')
+('679a5398ac', '2020-09-22 07:39:08', '人到中年心里空荡\n不知道疯狂忘记了忧伤\n曾经的激情万丈遗忘在故乡\n远方的姑娘\n我不想假装\n我很想坚强')
+('a6425beb91', '2020-09-22 16:32:29', '曾誓说傲立功名还继梦未央 \n也契阔零落自由终无恙\n历遍江湖又何妨\n低吟残谱徵宫商\n且度阙 寄沧浪 亦比天长')
+('21760ee77c', '2020-09-22 16:33:51', '你是红豆拈来的相思\n温藏心口辗转唇齿\n作病酒医我的药石\n你在花笺笔墨一素尺\n低吟浅斟晤念自持\n风雪后暖我的故事')
+('ec49bfb34f', '2020-09-22 16:41:01', '你浸染墨色许我以银河\n彼时星辰缱绻散作点点萤火 \n不慕风月不羡神明不惧消磨\n无法触碰又怎提笔雕琢\n合掌便永铭刻')
+('c4762cb348', '2020-09-22 16:46:06', '自清安 合而有温玉香软\n不火不淡不杂不染\n忘尘浅 把人间心字燃遍\n拜三愿日复计流年\n念风间 白莲成灰归净寒\n再相逢地北天南')
+('09cbd45bea', '2020-09-24 00:31:27', '生活越来越不容易\n我也强忍着眼泪继续\n时好时坏的情绪\n偶尔出演一场闹剧\n在这个三十而立的年纪\n生活就像在演戏')
+('42e13c1d7e', '2020-09-24 11:19:30', '思恋划破了夜空\n回到了遇见\n身边的人逐渐失踪\n眼泪快要失控\n所有的成长 总有难以言喻的悲伤\n就让时光 代替所有人原谅')
+('f52dc95db0', '2020-09-24 11:45:38', '就让我在你怀里入睡\n拥抱整个夏天的美味\n冰淇淋配可乐是绝配\n和我在一起一整天都不会疲惫\n你说你想去海边\n希望这份爱永远不会被搁浅')
+('f85dcdcbee', '2020-09-24 20:43:37', '梦想 是一束光\n照耀舞台上 散发着星芒\n梦想 是一根魔法棒\n悸动的心怦怦跳 我就是焦点中央')
+('48af6a4130', '2020-09-24 22:00:56', 'the king on the beat在你们心中烙下\n就像彗星划过在你的星空爆炸\n从不在意那些fake的凭空叫骂\n写不出好歌因为全都精通笑话')
+('3f718e30c5', '2020-09-25 14:08:00', '咖啡店的小屋\n点杯热咖啡\n来份提拉米苏\n窗外飘落的秋叶\n撒落满地的忧伤\n想念每时，每秒，每分钟')
+('1b3f53187a', '2020-09-25 23:43:08', '那繁华过后只剩荒芜\n美丽的花也落入土\n让腐烂更加不堪入目\n光亮远得早已模糊\n还要追逐')
+('5fb54aca6f', '2020-09-26 00:18:53', '3milk来自奶里 lee来自茶里\n我代表奶茶的boy 想问你\n不知道你是否能够想起\n一个人独自喝奶茶的夜里\n我想你 熟悉它的糖度\n记住你对它的甜度')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
