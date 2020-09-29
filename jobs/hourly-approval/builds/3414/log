@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67503715f5806fd7cdba1c9803cb59378dd4d097 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+Commit message: "added UserIdentity table"
+ > git rev-list --no-walk 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins346619468205559479.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 1首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+人海茫茫
+你和我相遇
+缘分让我们走到了一起
+山盟海誓此生永不易
+滚滚红尘
+
+
+敏感词如下:
+人海茫茫
+你和我相遇
+缘分让我们走到了一起
+山盟海誓此生永不易
+**红尘
+
+-----------------------------
+Finished: SUCCESS
