@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67503715f5806fd7cdba1c9803cb59378dd4d097 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+Commit message: "added UserIdentity table"
+ > git rev-list --no-walk 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins741627532816800139.sh
++ python3 jobs/expirelyric.py --count 15
+('8a8a76de70', '2020-10-02 03:21:22', '我眼前有瓶加多宝\n我却找不到你的微笑\n我想回到从前寻找到那段美好\n听到了你的心跳感觉燃烧掉了烦恼\n当初我是课代表\n我不想被人嘲笑')
+('a6ac885fc3', '2020-10-02 04:01:29', '说唱还需要抄袭\n看来你写歌挺着急\n刚出生翅膀就断还想飞翔\n给过太多原谅\n看来你们没家只能到处流浪\n想傻逼一样还没成长')
+('e1cb0ec564', '2020-10-02 04:10:00', '你可以哭\n但不要认输\n别人怎么骂你都不要在乎\n要活出自己的态度\n心底深处一定有人守护\n要经历的还有无数')
+('3295d0c8ee', '2020-10-02 10:06:19', '你问我爱与不爱 我的答案是你猜\n其实这一句你猜 包含了太多心塞\n你问我爱与不爱 我的答案是你猜\n想了整整三个月 到头还没决定来')
+('27b7b34470', '2020-10-02 13:06:05', '三生石上刻往昔\n樱随烛影颜落尽\n窗沿粉黛浮灯起\n月华韫浓清影舞\n一壶浊酒笙箫鸣\n谁家窈窕皙颊熏')
+('4a2b34ca37', '2020-10-03 13:01:04', '我从日光溢出云中探起头来\n我努力填补自己避免大片的留白\n你说的那些废话我都没得兴趣来听\n祈求如来佛祖把你心里那些恶念收埋\n你是美丽的蝮蛇那我就是snake griffin')
+('fdce246e4d', '2020-10-04 13:50:28', '揉碎我心的你依旧笑得自然\n余温还烧灼着我对你的喜欢\n谁用爱情将我的胭脂替换\n落霞秋水抬眸共向长天炊烟\n心甘情愿隐去这回声捻捻\n你我倾城唤得这一声渽颜')
+('1e20482fec', '2020-10-04 23:47:06', '突然的秋风吹的好想你\n可我不能再对你言语\n就让这爱埋藏在心底\n为什么你这么难忘记\n却还总是出现在梦里\n秋风吹起，我好想你')
+('e9ec80215d', '2020-10-05 20:03:24', '我们在一年中隔着四季\n见你的讯息便心生欢喜\n你攥紧了我未曾示人的孤寂\n眼前的雨倒是欢畅淋漓\n你能否听到我的叹息？')
+('7a6f05d70e', '2020-10-05 21:42:57', '砸烂了自己的饭锅看周围四起的漩涡\n我在用字体的散播翻过那刺激的山坡\n他们都在强调是我在抄词\n面前毕恭毕敬背后却捅了刀子\n你没有我的脑子又怎能读懂我的稿子如果你')
+('14ea38f7d3', '2020-10-07 22:14:31', '就这样入了秋 人也开始念旧\n这幅画 雨在滑 \n脑海里闪过 你曾说的话\n八点钟的天空 追着风 在我心中\n行色匆匆 脑袋空空 不再心动\n')
+('1439f437ef', '2020-10-08 11:44:33', '雨下了好几夜依然不停\n影响了国庆假期正常的出行\n整天微信朋友圈找不到存在感\n美团看了看姜子牙人太满\n无奈 被困在了家里 \n舞台 究竟藏在哪里')
+('e3001cde2b', '2020-10-08 21:40:41', '通城夜雨入孤窗，江畔寒风吹满堂。\n青灯不解离人意，古刹遗剑洛水旁。\n岁月骛过伊人去，故园浸远神思伤。\n黄昏花落凝残霜，高歌煮酒解彷徨。')
+('dadb81298e', '2020-10-09 08:41:20', '曾九上灵宫亲眼见证 今十载海北扪心自问\n是她的身份 缈缈凡人 值不值得用此生铭证\n是天上人间碧玉辉煌 或眼前万难层峦叠嶂\n历经过沧桑 血染沙场 该不该继续以命拼闯\n只求一朝功成 能换几人 余生的安稳\n只身出入敌阵 以剑追问 何谓这苍生')
+('031376674c', '2020-10-09 10:06:13', '雨滴快速  落下 嘲讽着  我丢了那个她\n淤泥再度  抹杀 箫声的  浊流刻下荷花\n御敌摆渡  压迫 造梦者  魔咒扼杀蒸发\n狙击埋伏  枷锁 号征程  腐朽阵法称霸\n蓄力迈步  发作 飙升中  虎口崩塌横跨')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
