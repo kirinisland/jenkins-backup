@@ -1,0 +1,74 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67503715f5806fd7cdba1c9803cb59378dd4d097 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+Commit message: "added UserIdentity table"
+ > git rev-list --no-walk 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins6102744580251704685.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 7首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+喜欢你亲爱的老头
+虽然你不帅还有点秃头
+但在我心里没有人能比过你
+哪怕是那些爱豆
+我爱你亲爱的老头
+有些话说不出口 所以这首歌送给你一我的老头
+
+敏感词如下:
+喜欢你亲爱的老头
+虽然你不帅还有点秃头
+但在我心里没有人能*过你
+哪怕是那些爱豆
+我爱你亲爱的老头
+有些话说不出口 所以这首歌送给你一我的老头
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+          rap的技术太多人嫉妒直逼你身心的痛处
+          冷血的动物修剪的过度boss养的废物
+          保护伞下的侏儒 小人之心的孽畜
+          我来移平这座大山首当其冲的夸父
+
+敏感词如下:
+          rap的技术太多人嫉妒直*你身心的痛处
+          冷血的动物修剪的过度boss养的*
+          保护伞下的侏儒 小人之心的孽*
+          我来移平这座大山首当其冲的夸父
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+如今真的搞不清楚现在社会面貌
+但是这种跟风现象真的不算太好
+现在什么土鳖都能成为小网红
+穿着假货戴着fake还说自己挺满足
+想要学着网络博主提升一些知名度
+还说自己做的事情比他们都酷
+
+敏感词如下:
+如今真的搞不清楚现在社会面貌
+但是这种跟风现象真的不算太好
+现在什么土鳖都能成为小网红
+穿着假货戴着fake还说自己挺满足
+想要学着网络博主提升一些知名度
+还说自己做的事情*他们都酷
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+Finished: SUCCESS
