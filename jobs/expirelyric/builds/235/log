@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67503715f5806fd7cdba1c9803cb59378dd4d097 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+Commit message: "added UserIdentity table"
+ > git rev-list --no-walk 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins4438635528666269141.sh
++ python3 jobs/expirelyric.py --count 15
+('7689308d81', '2020-10-17 03:52:20', '那时我情窦初开有了自己喜欢的女孩\n每天坐在教室里面徘徊只想她的可爱\n我期盼着和她的未来期盼着与她相爱\n可最后还是尘埃的悲哀把我伤害的失败\n她总是说我不稳重\n我可以为你沉重')
+('bfab5af1dc', '2020-10-17 18:04:33', '翻翻聊天记录\n多么想被记住\n不会忘了他对你的庇护\n也不会忘了他带你去过的西湖\n曾想自己为什么那么痛苦\n自己又不是没有付出')
+('85cd8ebd09', '2020-10-17 23:30:47', '童年家乡的小河里流淌着对长大的憧憬')
+('9a4c27519c', '2020-10-18 10:06:00', '可爱的菇凉菇凉我喜欢你\n小时候我就知道会遇见你\n可爱的菇凉菇凉你仔细听\n这首歌我只唱给你听\n这首歌我只唱给你听')
+('1dfa1c2b1b', '2020-10-19 22:42:47', '却同那时的一树繁花落了尘\r\n这些终将化成无名的青春\r\n空留一腔一往情深\r\n哪怕岁月踉跄也动人')
+('e8f938cd29', '2020-10-21 08:18:04', '【为君】\n日暖风絮绕轩窗\n画眉呼晴光\n小奴楼阁燎沉香\n辗转描檐梁\n懒起又梳妆')
+('e630e49435', '2020-10-21 10:49:07', '天下很大我知道自己不值一提\n海平面一望无边际却才回想起\n那时的自己刚年满二十\n每天都起的早作息规律没有焦虑\n没有不必的要交集\n仿佛每个清晨都是好天气')
+('adae6934ed', '2020-10-22 16:44:25', '如果向往远方\n就要学会遗忘\n那些无关紧要的过往\n那么不成熟的模样\n一丝温暖洒落阴凉')
+('44ef4f9c10', '2020-10-23 17:12:54', '你给我的小惊喜  每次我都记得请\n老了后再看日出  当故事讲给你听\n对你好这件事情  平凡的像是呼吸空气\n如果你在意  想想带我去哪里旅行')
+('0464c36529', '2020-10-24 00:04:17', '这种感觉是真的keep it real recognize real\n曾今梦想的hip-hop梦我还在努力\n背后也有声音在质疑\n但我不会在乎那些流言蜚语\nDo myself坚定自己的执意')
+('b4dfd901bf', '2020-10-24 00:14:00', '（尾）关了灯 漆黑的房间\n         你的脸 在脑海浮现\n         梦里面 我们肩并着肩\n         梦醒了 泪水湿了枕边\n         只剩下 一张淋湿的照片')
+('535e5c012a', '2020-10-24 16:17:37', '你是否也会有一段时间 感觉像是疯癫\n没人能懂你的思念 与那些孤独的感觉\n抬头望望夜空 不知人生为何如此朦胧\n幻想自己遨游星虹 将寂寞都捏碎手中\n情绪也许也会突然暴动 似是被人玩弄\n星河滚烫浮动 心中所想何时才能成功')
+('624b7d4422', '2020-10-24 16:22:26', '从相遇躲避你的眼睛\n到离去看着你的背影。\n从我愿意\n到离开你\n从清晨的粥到深夜的那杯涩酒\n从不离不弃到不再爱你。')
+('490aefeebe', '2020-10-25 20:11:16', '我们踏着各种人生\n永恒今生只能陌生\n我手握怀中的心声\n踏着音乐选择人生')
+('2d1380f806', '2020-10-25 22:24:35', '当一个不太重要的垂钓者\n扮演你生命中渺小的角色\n哪怕是风景中匆匆的过客\n能与你配合 就已经值得\n如果在哪片海域找不到我\n请你好好过 别太在意我')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
