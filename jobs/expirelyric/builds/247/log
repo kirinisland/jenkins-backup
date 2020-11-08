@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67503715f5806fd7cdba1c9803cb59378dd4d097 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+Commit message: "added UserIdentity table"
+ > git rev-list --no-walk 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1521310328286569902.sh
++ python3 jobs/expirelyric.py --count 15
+('073722b005', '2020-10-26 17:15:03', '你是我生命中无处安放的欢喜  \n你是我爱后余生的大难一场  \n你是我以后听的每一首情歌的主角  \n你是我凌晨三点总会想起的人')
+('7fbb610719', '2020-10-26 17:28:16', '每天不主动问好不主动联系\n一到有事相求就开始四处寻找\n我每天一句晚安等待你的一句早安\n你看到又不回复这是让我跪安？\n我永远孤单毕竟爱情很难\n陷入恶性循环之中无法搀拦')
+('5ef99062ba', '2020-10-27 14:21:10', '莲花池中，驾扁舟寻一人归\n入我梦中的是谁\n听风中轻谈喜怒爱恨不休\n笑爱憎徒让人恼\n如果有良药能将恩怨消掉\n把情仇洗掉重新挽回')
+('045e1ce086', '2020-10-27 17:36:04', '我还是想回到那个有你的夏天\n那时的我也是一个青少年\n即使我的兜里只有几块钱\n单纯的你也是跟我混了好几年\n在一起的感觉就好像一直在热恋\n最后的你还是说再见')
+('1e7243af92', '2020-10-29 18:01:58', '有人对着镜子表演\n面具下另一张脸\n要显得多楚楚可怜\n才好从容爬上金字塔顶点\n把这光怪陆离的世界收入眼')
+('e160a18d76', '2020-10-29 22:21:46', '忘川汇 琴音旁\n怨你此生乱我魂\n怎奈何 我执本心赋予卿\n衣胞前 斩乱情\n佛祖渡我也不肯\n伊人爱深也难逃孤身')
+('5e9ee697bc', '2020-10-30 01:31:51', '就这样坠入你的梦里\n要多久才能进入你的身体\n每次想起你都是在哪夜里\n我想要你 想抱你\n可是这些话说出口都并不简单\n不管什么都会对你保持真的喜欢')
+('0cc1efe8d5', '2020-10-30 01:58:18', '跨过了山海  流落在彼岸\n不曾闻见你  花落了一段\n可是我知道  风吹过海岸\n所以我相信  少年会回来\n阳光下温柔的脸 \n再一次浮现眼前')
+('bc15869775', '2020-10-30 21:38:47', '晨光熹微，望角落的蔷薇。\n坐在窗前，细细地品味。\n愿碎记永不会枯萎，流落在时光的长河却无怨无悔。')
+('75ef428a2c', '2020-10-31 05:05:46', '流水不管 年华任它去 \n人生路遥 几程曲折\n寻寻觅觅 可曾有遇见 \n花田 半生情缘 绝世爱恋')
+('c0fa76cbc3', '2020-11-01 13:50:52', '等我拿下这场去和爆音喝酒\n然后去和新秀一起狂言一宿\n西奥的实力不过如此就回头\n谁的脾气和杨和苏一样暴躁\n黄旭的言情实属是琢磨不透\n看完大傻的比赛让我沉默许久')
+('6a1e236881', '2020-11-04 13:21:25', 'Baby跟我一起陷入我的甜蜜沼泽\n我见你第一眼就想和你坠入爱河\n见到你的那天天空还在下着细雨\n每天都梦见你想着缘分还在继续\n那次在操场见你找你要了微信\n像个傻瓜一样开始等待你的回信')
+('73c48d7858', '2020-11-04 13:48:57', '那些年你对我说的情话是否真实表达\n这段感情还有没有变化\n拜托你也说出你内心的想法\n你说这段话你没有办法回答\n那么会成为大家口中的八卦\n就像鲜花变得廉价 莲花遭人践踏')
+('1fa9430483', '2020-11-04 20:46:02', '人海里 总有陌生的身影\n在心里 继续追寻向往的踪影\n沒关系，就注定\n命运的漩渦它在哪裡\n浩瀚里，背负着去前行\n路灯在，沿路等着你的消息')
+('6d00166d25', '2020-11-04 20:51:19', '孤单的夜晚我还继续想你\n醒来才发现你生活在梦里\n我曾经也考虑过想要放弃\n脑海却常常浮现你的美丽\n')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
