@@ -1,0 +1,38 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67503715f5806fd7cdba1c9803cb59378dd4d097 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+Commit message: "added UserIdentity table"
+ > git rev-list --no-walk 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins9215745546402865043.sh
++ python3 jobs/expirelyric.py --count 15
+('0cc1efe8d5', '2020-10-30 01:58:18', '跨过了山海  流落在彼岸\n不曾闻见你  花落了一段\n可是我知道  风吹过海岸\n所以我相信  少年会回来\n阳光下温柔的脸 \n再一次浮现眼前')
+('bc15869775', '2020-10-30 21:38:47', '晨光熹微，望角落的蔷薇。\n坐在窗前，细细地品味。\n愿碎记永不会枯萎，流落在时光的长河却无怨无悔。')
+('75ef428a2c', '2020-10-31 05:05:46', '流水不管 年华任它去 \n人生路遥 几程曲折\n寻寻觅觅 可曾有遇见 \n花田 半生情缘 绝世爱恋')
+('c0fa76cbc3', '2020-11-01 13:50:52', '等我拿下这场去和爆音喝酒\n然后去和新秀一起狂言一宿\n西奥的实力不过如此就回头\n谁的脾气和杨和苏一样暴躁\n黄旭的言情实属是琢磨不透\n看完大傻的比赛让我沉默许久')
+('6a1e236881', '2020-11-04 13:21:25', 'Baby跟我一起陷入我的甜蜜沼泽\n我见你第一眼就想和你坠入爱河\n见到你的那天天空还在下着细雨\n每天都梦见你想着缘分还在继续\n那次在操场见你找你要了微信\n像个傻瓜一样开始等待你的回信')
+('73c48d7858', '2020-11-04 13:48:57', '那些年你对我说的情话是否真实表达\n这段感情还有没有变化\n拜托你也说出你内心的想法\n你说这段话你没有办法回答\n那么会成为大家口中的八卦\n就像鲜花变得廉价 莲花遭人践踏')
+('1fa9430483', '2020-11-04 20:46:02', '人海里 总有陌生的身影\n在心里 继续追寻向往的踪影\n沒关系，就注定\n命运的漩渦它在哪裡\n浩瀚里，背负着去前行\n路灯在，沿路等着你的消息')
+('6d00166d25', '2020-11-04 20:51:19', '孤单的夜晚我还继续想你\n醒来才发现你生活在梦里\n我曾经也考虑过想要放弃\n脑海却常常浮现你的美丽\n')
+('00c2a6f8f9', '2020-11-05 00:39:58', '浑浊的空气\n让自己忘记昨天的记忆\n尘世的浮夸\n使故事如此的苍白无力\n奔走于黑暗的人啊\n你的光明沉寂在哪里')
+('a1c481fd04', '2020-11-06 00:08:41', '原来一直这么善变，\n让两个人不再眷恋。\n不知道当初干嘛要遇见，\n到现在这么可怜。')
+('ac7f50eef3', '2020-11-06 17:29:05', '害怕挫折 选择  罪恶 拉扯 孤独那一刻我怕\n受过伤害 等待  明白 未来 溢出鲜红色晚霞')
+('9eabdadd7d', '2020-11-06 23:58:27', '我想趁你熟睡之时再次亲吻你的唇尖\n可你手中的刀尖已经刺向我的心间\n我和人间    已经再无交集')
+('02a921b51b', '2020-11-08 08:56:52', '小王子的玫瑰花\n高傲又害怕\n她很想快快长大\n陪着他走遍天涯')
+('42f5db2c4d', '2020-11-08 09:54:56', '再等一世爱上你\n每日每夜存在在你的梦里\n再等一世爱上你\n当星星划过天际')
+('2a1d48603b', '2020-11-09 17:05:48', '今天的我比太阳还早起\n空气周围都散发着呼吸\n我要加快步伐爬上阶梯\n在成功路上我不能掉队\n失败者才时刻想着入睡\n不会 浪费自己的时间和精力')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Finished: SUCCESS
