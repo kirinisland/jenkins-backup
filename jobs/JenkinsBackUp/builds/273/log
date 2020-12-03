@@ -1,7 +1,7 @@
 Started by timer
 Running as SYSTEM
 Building in workspace /var/root/.jenkins/workspace/JenkinsBackUp
-[JenkinsBackUp] $ /bin/bash /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins4725648897669319859.sh
+[JenkinsBackUp] $ /bin/bash /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins6308056767087524716.sh
 + '[' -e /var/root/.jenkins/.git/index.lock ']'
 + cd /var/root/.jenkins/
 + git status
@@ -12,12 +12,12 @@ Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   config.xml
-	modified:   jobs/JenkinsBackUp/builds/271/log
+	modified:   jobs/JenkinsBackUp/builds/272/log
 	modified:   jobs/JenkinsBackUp/builds/permalinks
 	modified:   jobs/JenkinsBackUp/nextBuildNumber
-	deleted:    jobs/hot_user/builds/239/build.xml
-	deleted:    jobs/hot_user/builds/239/changelog.xml
-	deleted:    jobs/hot_user/builds/239/log
+	deleted:    jobs/hot_user/builds/240/build.xml
+	deleted:    jobs/hot_user/builds/240/changelog.xml
+	deleted:    jobs/hot_user/builds/240/log
 	modified:   jobs/hot_user/builds/permalinks
 	modified:   jobs/hot_user/nextBuildNumber
 
@@ -47,9 +47,9 @@ Untracked files:
 	jenkins.model.JenkinsLocationConfiguration.xml
 	jenkins.security.ResourceDomainConfiguration.xml
 	jenkins.telemetry.Correlator.xml
-	jobs/JenkinsBackUp/builds/271/build.xml
-	jobs/JenkinsBackUp/builds/272/
-	jobs/hot_user/builds/242/
+	jobs/JenkinsBackUp/builds/272/build.xml
+	jobs/JenkinsBackUp/builds/273/
+	jobs/hot_user/builds/243/
 	logs/
 	nodeMonitors.xml
 	org.jenkins.plugins.lockableresources.LockableResourcesManager.xml
@@ -72,32 +72,3 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 + git add jobs
-+ git add workspace
-++ date
-+ git commit -m 'Jenkins backup at Wed Dec  2 14:17:37 EST 2020'
-[master ff09c07c] Jenkins backup at Wed Dec  2 14:17:37 EST 2020
- Committer: System Administrator <root@VincentdeMac-mini.local>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly. Run the
-following command and follow the instructions in your editor to edit
-your configuration file:
-
-    git config --global --edit
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 12 files changed, 175 insertions(+), 46 deletions(-)
- create mode 100644 jobs/JenkinsBackUp/builds/271/build.xml
- create mode 100644 jobs/JenkinsBackUp/builds/272/changelog.xml
- create mode 100644 jobs/JenkinsBackUp/builds/272/log
- delete mode 100644 jobs/hot_user/builds/239/log
- rename jobs/hot_user/builds/{239 => 242}/build.xml (92%)
- rename jobs/hot_user/builds/{239 => 242}/changelog.xml (100%)
- create mode 100644 jobs/hot_user/builds/242/log
-+ git push origin HEAD:master
-To github.com:kirinisland/jenkins-backup.git
-   87f98fba..ff09c07c  HEAD -> master
-Finished: SUCCESS
