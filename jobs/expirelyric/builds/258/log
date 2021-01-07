@@ -1,0 +1,51 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67503715f5806fd7cdba1c9803cb59378dd4d097 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+Commit message: "added UserIdentity table"
+ > git rev-list --no-walk 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins319854281623242949.sh
++ python3 jobs/expirelyric.py --count 15
+('258aca0864', '2020-12-28 09:45:30', '听说你有了归属\r\n那一刻 令我坠入深谷\r\n是否要对你说声幸福\r\n却害怕让你看清我的无助\r\n怪自己 没能将你留住\r')
+('58b4b60108', '2020-12-28 11:34:05', '回忆再次泛上心头\n摊开泛旧的卷轴\n两年半的时光 匆匆而逝没有停留\n不做过多期待\xa0\xa0 也就没有忧愁\n这样的日子 又要持续多久\n我又该如何回报生活的温柔')
+('64978c92c5', '2020-12-28 11:46:46', '回忆再次泛上心头\n摊开泛旧的卷轴\n两年半的时光 匆匆而逝没有停留\n不做过多期待\xa0\xa0 也就没有忧愁\n这样的日子 还要持续多久\n我又该如何回报生活的温柔')
+('8b6462b4f9', '2020-12-29 11:01:03', '风经过的时候\n奋不顾身的时候\n那刻你带走属于你的温柔\n我不想放开手\n背对你乘着风吹过\n在你的世界边缘经过')
+('c177a82514', '2020-12-29 15:50:10', '苍苍白驹过隙，未改书剑意气\n飒踏风尘里，岁月拟为封题\n惟将身作西子最如玉\n澹澹烟波远去，不渝浩然意气\n朱颜虽辞镜，心事未老矣\n高台随浮云，平生尽致淋漓')
+('1686f28f49', '2020-12-30 21:18:04', '待到春晓时\n待到春晓时\n你还是一样\n如第一道光芒\n扫过所有孤独和迷惘')
+('8fc935fc46', '2020-12-31 00:52:05', '太阳从西边升起\n季节变成了倒叙\n鲸鱼冲破了天际\n空气呼吸了我 夜空仰望着你\n影子成为了我的躯体\n我会忘记你')
+('5393a49b10', '2020-12-31 12:36:05', '或许画饼充饥是你们的擅长\n无须望梅止渴是我们的坚强\n想把超人做我们的标签\n留下随便给你们新的抱歉')
+('d0721cebef', '2021-01-01 00:04:34', '简单的渴望 无限的遐想\n每一次受伤 换一份成长\n曾经的迷茫 能换来光芒\n在那个地方 来时的模样\n渺小的渴望 刻画在心上\n面朝的方向 是美好远方')
+('6a2fcc5a11', '2021-01-01 14:32:03', '情绪变得无常反复 思绪也逃离在太空漫步\n游荡在杂草丛生的街上 出窍的灵魂在寻找归途\n这是个束缚我扬起孤独的船帆被这片海域禁锢\n找不到出路误入了自己的陷阱到处都是乌云密布\n我想要逃 逃离这糟糕的生活去往梦想的乌托邦\n那里的人们的坦诚相待 即使对陌生人也从不说谎')
+('4eb3a69ecc', '2021-01-01 17:07:35', '回首过去的二零二零\n有些事已忘的一干二净\n没治好我的中二病\n还在这个世界继续玩儿命')
+('f7afccff56', '2021-01-01 21:22:24', '冷暖气团的相遇\n值得庆幸却带着泪滴\n北大西洋暖流的足印\n吹响不冻港的汽笛\n你是作用于我的地球偏转力\n令我不由自主靠近')
+('fa09eb3c0e', '2021-01-01 21:31:49', '偶有岚风过岗花正绛\n几度涅槃弦苍凉\n愿将过往\n尽数都遗忘\n只要站到你身旁\n纵使受伤又何妨')
+('23877ddd52', '2021-01-02 13:02:44', '冷风 吹进古巷中 熄灭孤灯\n寒意 涌入会道处 片刻晦朔\n我们手牵着手 坠入永恒冷漠 遗忘了角落\n霎时间 星移物换 还记得什么\n星辰疮痍满目 才晓得 逝去的笙默\n尽管身负伤痛 落魄中雕琢')
+('2b5bbc72c4', '2021-01-03 12:45:25', '在没有涟漪的天青色时光\n若没遇见他我怎么会星芒万丈\n我真的共他走过夕阳\n真与他漫步晨光\n真的触到他指尖微凉\n真抚过他脸颊伤')
+('ffa385f473', '2021-01-05 05:42:13', '翻过几座山\n跨过几条河\n爱过几个人\n感受过几次四季变化\n才能明白\n爱不只是拥有')
+('f774bb903d', '2021-01-06 19:10:41', '从现在开始一切都归零\n爱情风景不停围绕身边\n明天再见一点时间想念思念\n现在我一切都归零做回我自己\n夜里梦里熟悉的记得\n曾经快乐的自己')
+现有精选微词 17首.
+> 超过 15 首精选微词, 将下架如下微词:
+('258aca0864', '2020-12-28 09:45:30', '听说你有了归属\r\n那一刻 令我坠入深谷\r\n是否要对你说声幸福\r\n却害怕让你看清我的无助\r\n怪自己 没能将你留住\r')
+{"updatedAt":"2021-01-07 08:14:53"}
+('58b4b60108', '2020-12-28 11:34:05', '回忆再次泛上心头\n摊开泛旧的卷轴\n两年半的时光 匆匆而逝没有停留\n不做过多期待\xa0\xa0 也就没有忧愁\n这样的日子 又要持续多久\n我又该如何回报生活的温柔')
+{"updatedAt":"2021-01-07 08:14:54"}
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
