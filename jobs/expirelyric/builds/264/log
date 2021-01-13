@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67503715f5806fd7cdba1c9803cb59378dd4d097 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+Commit message: "added UserIdentity table"
+ > git rev-list --no-walk 67503715f5806fd7cdba1c9803cb59378dd4d097 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3589781599713773725.sh
++ python3 jobs/expirelyric.py --count 15
+('f7afccff56', '2021-01-01 21:22:24', '冷暖气团的相遇\n值得庆幸却带着泪滴\n北大西洋暖流的足印\n吹响不冻港的汽笛\n你是作用于我的地球偏转力\n令我不由自主靠近')
+('fa09eb3c0e', '2021-01-01 21:31:49', '偶有岚风过岗花正绛\n几度涅槃弦苍凉\n愿将过往\n尽数都遗忘\n只要站到你身旁\n纵使受伤又何妨')
+('23877ddd52', '2021-01-02 13:02:44', '冷风 吹进古巷中 熄灭孤灯\n寒意 涌入会道处 片刻晦朔\n我们手牵着手 坠入永恒冷漠 遗忘了角落\n霎时间 星移物换 还记得什么\n星辰疮痍满目 才晓得 逝去的笙默\n尽管身负伤痛 落魄中雕琢')
+('2b5bbc72c4', '2021-01-03 12:45:25', '在没有涟漪的天青色时光\n若没遇见他我怎么会星芒万丈\n我真的共他走过夕阳\n真与他漫步晨光\n真的触到他指尖微凉\n真抚过他脸颊伤')
+('ffa385f473', '2021-01-05 05:42:13', '翻过几座山\n跨过几条河\n爱过几个人\n感受过几次四季变化\n才能明白\n爱不只是拥有')
+('f774bb903d', '2021-01-06 19:10:41', '从现在开始一切都归零\n爱情风景不停围绕身边\n明天再见一点时间想念思念\n现在我一切都归零做回我自己\n夜里梦里熟悉的记得\n曾经快乐的自己')
+('727aca9075', '2021-01-07 13:02:10', '不等待风与四季的平常\n不需要牵引方向的指南\n我在寻找一种心安\n依然勇敢 是执着也是信仰\n选择越来越难 给自己希望\n记住初衷的模样 是心之所向')
+('218c1e8dc1', '2021-01-08 14:41:16', '每只小鸟都有个共同的梦想\n张开翅膀奋力的向远空翱翔\n看遍这世界无穷无尽的色彩\n你说一定会送我离开\n')
+('2278f32545', '2021-01-08 15:34:30', '让绝望的气息 抱紧我\n但最后的是你 离开我\n抵抗不住心里 的燥热\n埋藏住我秘密 全弃舍\n包括你也没不可\n曾是我')
+('6441e165a3', '2021-01-09 19:02:01', '穿上我精心准备的晚礼服\n走上别人用花瓣铺成的路\n打扫净不属于我身的泥土\n搭起富丽堂皇的奢侈国度\n让我沉浸在这篇极乐净土\n用肮脏的脸叹人心最深处')
+('01f39433bb', '2021-01-09 22:33:55', '我的世界没色彩\n冰冷的心\n我不断陷入困境\n黑暗中奔跑\n像是个小丑')
+('0a51273c7d', '2021-01-09 22:54:58', '寄付的庇护都没有力度\n记录并记住你原形毕露\n闭目着剃度像修行秘术\n溺入在嫉妒还根深蒂固\n你用尽全部气数 阴云密布\n而老子功名利禄 锋芒毕露')
+('5069ee8ff7', '2021-01-10 04:04:35', '会习惯把镜头对准天空\r\n情节像场无声电影随时放空\r\n光影切换 \r\n好像独自坐在影院\r')
+('1e7c1902ae', '2021-01-11 22:33:30', '我浪费的感情\n说是要拼命要尽情\n我发过的脾气\n你和好用温柔语句\n可最后再继续\n和之前有什么差距')
+('a488a51697', '2021-01-11 22:36:25', '你像是昨天还在亲昵\n今天又遥不可及\n你像是迷宫走不出去\n又不想留在这里\n你像是昨天的我自己\n给自己的小脾气')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
