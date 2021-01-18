@@ -1,62 +1,0 @@
-Started by timer
-Running as SYSTEM
-Building in workspace /var/root/.jenkins/workspace/hourly-approval
-No credentials specified
- > git rev-parse --is-inside-work-tree # timeout=10
-Fetching changes from the remote Git repository
- > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
-Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
- > git --version # timeout=10
- > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
- > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
- > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
-Checking out Revision 0398263dcbb8dd29e266ae52e3602b0b89005218 (refs/remotes/origin/master)
- > git config core.sparsecheckout # timeout=10
- > git checkout -f 0398263dcbb8dd29e266ae52e3602b0b89005218 # timeout=10
-Commit message: "add tables"
- > git rev-list --no-walk 0398263dcbb8dd29e266ae52e3602b0b89005218 # timeout=10
-[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins7890905059389800861.sh
-+ python3 jobs/filter_lyric.py
-现有新发布微词 4首.
------------------------------
-此篇微词包含敏感词, 已下架. 
-不在颓废到深夜 虽然偶尔也会清醒到天亮             不在找人倾诉心事 这浑水我自己一个人趟。                 在长的黑夜也会看到光   经管黑暗里受到过多少的伤。                                                                            克制住自己的情绪  别迷惘 别害怕 让他们都去下地狱 ang～  每一次抽烟抽到干呕喝酒喝到吐  在深夜里怨天忧人 抱怨前方没有路 一次又一次的失望 不想让自己感到无助 像断了翅膀的鸟 面对野猫根本没有退路无尽的束缚  怀疑的态度 人就应该跟着世界在变 散落的信仰 洒掉的梦想 我早就不在期待着明天      抱歉  我没有理由 让你为我改变   没有理由 我也不会在围着你转 
-
-敏感词如下:
-不在颓废到深夜 虽然偶尔也会清醒到天亮             不在找人倾诉心事 这浑水我自己一个人趟。                 在长的黑夜也会看到光   经管黑暗里受到过多少的伤。                                                                            克制住自己的情绪  别迷惘 别害怕 让他们都去下地狱 ang～  每一次*烟*到*呕喝酒喝到吐  在深夜里怨天忧人 抱怨前方没有路 一次又一次的失望 不想让自己感到无助 像断了翅膀的鸟 面对野猫根*没有退路无尽的束缚  怀疑的态度 人就应该跟着世界在变 散落的* 洒掉的梦想 我早就不在期待着明天      抱歉  我没有理由 让你为我改变   没有理由 我也不会在围着你转 
------------------------------
-此篇微词不包含违禁内容!
------------------------------
-此篇微词包含敏感词, 已下架. 
-遥远了 渺小了
-谁的约定不见了
-清晰了 谁获得
-换取真心的资格
-校门外海棠花开着
-是谁的心绪在映射
-
-敏感词如下:
-遥远了 渺小了
-谁的约定不见了
-清晰了 谁获得
-换取真心的资格
-校门外海棠花开着
-是谁的心绪在映*
------------------------------
-此篇微词包含敏感词, 已下架. 
-就在脸上充满了虚伪
-就用行动体现着卑微
-我在阴暗的角落里找安慰
-无人街道充满了尘灰
-好久没见太阳的明媚
-我在人心的最深处排好队
-
-敏感词如下:
-就在脸上充满了虚伪
-就用行动体现着卑微
-我在阴暗的角落里找安*
-无人街道充满了尘灰
-好久没见太阳的明媚
-我在人心的最深处排好队
------------------------------
-Finished: SUCCESS
