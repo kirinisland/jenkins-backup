@@ -1,0 +1,51 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/table_dumper
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 3fcc2215afbbe2a0c32fc02bd9df3a68fd73dce7 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3fcc2215afbbe2a0c32fc02bd9df3a68fd73dce7 # timeout=10
+Commit message: "move to specific directory"
+ > git rev-list --no-walk 0398263dcbb8dd29e266ae52e3602b0b89005218 # timeout=10
+[table_dumper] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins438281873524662735.sh
++ CMD='python3 jobs/dump_table.py --table EverydayLyric --start 2020-01-01 --end 2020-12-31 --step 15'
++ '[' '!' /Users/hongliang/dataset/jenkins/EverydayLyric.csv = '' ']'
++ CMD='python3 jobs/dump_table.py --table EverydayLyric --start 2020-01-01 --end 2020-12-31 --step 15 --move-to /Users/hongliang/dataset/jenkins/EverydayLyric.csv'
++ echo 'python3 jobs/dump_table.py --table EverydayLyric --start 2020-01-01 --end 2020-12-31 --step 15 --move-to /Users/hongliang/dataset/jenkins/EverydayLyric.csv'
+python3 jobs/dump_table.py --table EverydayLyric --start 2020-01-01 --end 2020-12-31 --step 15 --move-to /Users/hongliang/dataset/jenkins/EverydayLyric.csv
++ python3 jobs/dump_table.py --table EverydayLyric --start 2020-01-01 --end 2020-12-31 --step 15 --move-to /Users/hongliang/dataset/jenkins/EverydayLyric.csv
+from date: 2020-01-01 00:00:00 to 2020-01-16 00:00:00: 62
+from date: 2020-01-16 00:00:00 to 2020-01-31 00:00:00: 81
+from date: 2020-01-31 00:00:00 to 2020-02-15 00:00:00: 201
+from date: 2020-02-15 00:00:00 to 2020-03-01 00:00:00: 265
+from date: 2020-03-01 00:00:00 to 2020-03-16 00:00:00: 221
+from date: 2020-03-16 00:00:00 to 2020-03-31 00:00:00: 228
+from date: 2020-03-31 00:00:00 to 2020-04-15 00:00:00: 178
+from date: 2020-04-15 00:00:00 to 2020-04-30 00:00:00: 217
+from date: 2020-04-30 00:00:00 to 2020-05-15 00:00:00: 161
+from date: 2020-05-15 00:00:00 to 2020-05-30 00:00:00: 120
+from date: 2020-05-30 00:00:00 to 2020-06-14 00:00:00: 112
+from date: 2020-06-14 00:00:00 to 2020-06-29 00:00:00: 123
+from date: 2020-06-29 00:00:00 to 2020-07-14 00:00:00: 127
+from date: 2020-07-14 00:00:00 to 2020-07-29 00:00:00: 120
+from date: 2020-07-29 00:00:00 to 2020-08-13 00:00:00: 117
+from date: 2020-08-13 00:00:00 to 2020-08-28 00:00:00: 100
+from date: 2020-08-28 00:00:00 to 2020-09-12 00:00:00: 107
+from date: 2020-09-12 00:00:00 to 2020-09-27 00:00:00: 73
+from date: 2020-09-27 00:00:00 to 2020-10-12 00:00:00: 70
+from date: 2020-10-12 00:00:00 to 2020-10-27 00:00:00: 61
+from date: 2020-10-27 00:00:00 to 2020-11-11 00:00:00: 71
+from date: 2020-11-11 00:00:00 to 2020-11-26 00:00:00: 87
+from date: 2020-11-26 00:00:00 to 2020-12-11 00:00:00: 67
+from date: 2020-12-11 00:00:00 to 2020-12-26 00:00:00: 63
+from date: 2020-12-26 00:00:00 to 2021-01-10 00:00:00: 67
+Finished: SUCCESS

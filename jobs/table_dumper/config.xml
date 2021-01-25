@@ -30,6 +30,12 @@
           <defaultValue>15</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>move_to</name>
+          <description>Move the dumped file to the local directory</description>
+          <defaultValue></defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
   </properties>
@@ -58,7 +64,17 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>python3 jobs/dump_table.py --table $table --start $start --end $end --step $step                                        
+      <command>CMD=&quot;python3 jobs/dump_table.py --table $table --start $start --end $end --step $step&quot;
+
+if [ ! &quot;$move_to&quot; = &quot;&quot; ]
+then
+  CMD=&quot;${CMD} --move-to ${move_to}&quot;
+fi
+
+echo &quot;${CMD}&quot;
+
+${CMD}
+
 </command>
     </hudson.tasks.Shell>
   </builders>
