@@ -1,0 +1,56 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 477fcda64f78b4ff14d1ea20d0a178e64ad1e4c0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 477fcda64f78b4ff14d1ea20d0a178e64ad1e4c0 # timeout=10
+Commit message: "move all"
+ > git rev-list --no-walk 477fcda64f78b4ff14d1ea20d0a178e64ad1e4c0 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1763338994780385177.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 6首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+热爱时常让人困惑
+譬如你在我的世界出没，四周色彩都飘落
+我亦如其中一个，流离失所
+
+敏感词如下:
+热爱时常让人困惑
+譬如你在我的世界出没，四周*彩都飘落
+我亦如其中一个，流离失所
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+Suddenly one day the sun came in
+The bird said good morning to me
+After a while  It rained again
+Walking in the town after the rain
+Bringing it up but i don't like it
+Who was my expectation
+
+敏感词如下:
+suddenly one day the sun came in
+the bird said good morning to me
+after a while  it rained again
+walking in the town after the rain
+bringing it up but i don't like it
+who was * expectation
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+Finished: SUCCESS
