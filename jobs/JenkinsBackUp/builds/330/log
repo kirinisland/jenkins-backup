@@ -207,3 +207,203 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 + git add jobs
++ git add workspace
+warning: adding embedded git repository: workspace/cf_lyric_recommend_pipline
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> workspace/cf_lyric_recommend_pipline
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached workspace/cf_lyric_recommend_pipline
+hint: 
+hint: See "git help submodule" for more information.
+++ date
++ git commit -m 'Jenkins backup at Fri Jan 29 14:17:38 EST 2021'
+[master fc20d0b1] Jenkins backup at Fri Jan 29 14:17:38 EST 2021
+ Committer: System Administrator <root@VincentdeMac-mini.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 175 files changed, 18414 insertions(+), 2318 deletions(-)
+ rename jobs/{cf_lyric_recommender/builds/8 => JenkinsBackUp/builds/329}/build.xml (60%)
+ rename jobs/{cf_lyric_recommender/builds/1 => JenkinsBackUp/builds/330}/changelog.xml (100%)
+ create mode 100644 jobs/JenkinsBackUp/builds/330/log
+ create mode 100644 jobs/cf_lyric_recommend_pipline/builds/1/build.xml
+ rename jobs/{hot_user/builds/297 => cf_lyric_recommend_pipline/builds/1}/changelog.xml (100%)
+ create mode 100644 jobs/cf_lyric_recommend_pipline/builds/1/log
+ create mode 100644 jobs/cf_lyric_recommend_pipline/builds/2/build.xml
+ rename jobs/{hourly-approval/builds/5433 => cf_lyric_recommend_pipline/builds/2}/changelog.xml (100%)
+ create mode 100644 jobs/cf_lyric_recommend_pipline/builds/2/log
+ create mode 100644 jobs/cf_lyric_recommend_pipline/builds/3/build.xml
+ create mode 100644 jobs/cf_lyric_recommend_pipline/builds/3/changelog.xml
+ create mode 100644 jobs/cf_lyric_recommend_pipline/builds/3/log
+ create mode 100644 jobs/cf_lyric_recommend_pipline/builds/4/build.xml
+ rename jobs/{hourly-approval/builds/5434 => cf_lyric_recommend_pipline/builds/4}/changelog.xml (100%)
+ create mode 100644 jobs/cf_lyric_recommend_pipline/builds/4/log
+ create mode 100644 jobs/cf_lyric_recommend_pipline/builds/5/build.xml
+ create mode 100644 jobs/cf_lyric_recommend_pipline/builds/5/changelog.xml
+ create mode 100644 jobs/cf_lyric_recommend_pipline/builds/5/log
+ rename jobs/{cf_lyric_recommender => cf_lyric_recommend_pipline}/builds/legacyIds (100%)
+ create mode 100644 jobs/cf_lyric_recommend_pipline/builds/permalinks
+ create mode 100644 jobs/cf_lyric_recommend_pipline/config.xml
+ create mode 100644 jobs/cf_lyric_recommend_pipline/nextBuildNumber
+ delete mode 100644 jobs/cf_lyric_recommender/builds/1/build.xml
+ delete mode 100644 jobs/cf_lyric_recommender/builds/1/log
+ delete mode 100644 jobs/cf_lyric_recommender/builds/2/changelog.xml
+ delete mode 100644 jobs/cf_lyric_recommender/builds/2/log
+ delete mode 100644 jobs/cf_lyric_recommender/builds/3/build.xml
+ delete mode 100644 jobs/cf_lyric_recommender/builds/3/changelog.xml
+ delete mode 100644 jobs/cf_lyric_recommender/builds/3/log
+ delete mode 100644 jobs/cf_lyric_recommender/builds/4/build.xml
+ delete mode 100644 jobs/cf_lyric_recommender/builds/4/changelog.xml
+ delete mode 100644 jobs/cf_lyric_recommender/builds/4/log
+ delete mode 100644 jobs/cf_lyric_recommender/builds/5/build.xml
+ delete mode 100644 jobs/cf_lyric_recommender/builds/5/changelog.xml
+ delete mode 100644 jobs/cf_lyric_recommender/builds/5/log
+ delete mode 100644 jobs/cf_lyric_recommender/builds/6/build.xml
+ delete mode 100644 jobs/cf_lyric_recommender/builds/6/changelog.xml
+ delete mode 100644 jobs/cf_lyric_recommender/builds/6/log
+ delete mode 100644 jobs/cf_lyric_recommender/builds/7/build.xml
+ delete mode 100644 jobs/cf_lyric_recommender/builds/7/changelog.xml
+ delete mode 100644 jobs/cf_lyric_recommender/builds/7/log
+ delete mode 100644 jobs/cf_lyric_recommender/builds/8/changelog.xml
+ delete mode 100644 jobs/cf_lyric_recommender/builds/8/log
+ delete mode 100644 jobs/cf_lyric_recommender/builds/permalinks
+ delete mode 100644 jobs/cf_lyric_recommender/config.xml
+ delete mode 100644 jobs/cf_lyric_recommender/nextBuildNumber
+ create mode 100644 jobs/expirelyric/builds/280/build.xml
+ rename jobs/{hourly-approval/builds/5435 => expirelyric/builds/280}/changelog.xml (100%)
+ create mode 100644 jobs/expirelyric/builds/280/log
+ delete mode 100644 jobs/hot_user/builds/297/log
+ rename jobs/hot_user/builds/{297 => 300}/build.xml (86%)
+ create mode 100644 jobs/hot_user/builds/300/changelog.xml
+ create mode 100644 jobs/hot_user/builds/300/log
+ delete mode 100644 jobs/hourly-approval/builds/5433/log
+ delete mode 100644 jobs/hourly-approval/builds/5436/log
+ delete mode 100644 jobs/hourly-approval/builds/5437/log
+ delete mode 100644 jobs/hourly-approval/builds/5438/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5438/log
+ delete mode 100644 jobs/hourly-approval/builds/5439/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5439/log
+ delete mode 100644 jobs/hourly-approval/builds/5440/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5440/log
+ delete mode 100644 jobs/hourly-approval/builds/5441/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5441/log
+ delete mode 100644 jobs/hourly-approval/builds/5442/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5442/log
+ delete mode 100644 jobs/hourly-approval/builds/5443/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5443/log
+ delete mode 100644 jobs/hourly-approval/builds/5444/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5444/log
+ delete mode 100644 jobs/hourly-approval/builds/5445/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5445/log
+ delete mode 100644 jobs/hourly-approval/builds/5446/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5446/log
+ delete mode 100644 jobs/hourly-approval/builds/5447/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5447/log
+ delete mode 100644 jobs/hourly-approval/builds/5448/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5448/log
+ delete mode 100644 jobs/hourly-approval/builds/5449/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5450/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5450/log
+ delete mode 100644 jobs/hourly-approval/builds/5451/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5451/log
+ delete mode 100644 jobs/hourly-approval/builds/5452/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5452/log
+ delete mode 100644 jobs/hourly-approval/builds/5453/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5453/log
+ delete mode 100644 jobs/hourly-approval/builds/5454/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5454/log
+ delete mode 100644 jobs/hourly-approval/builds/5455/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5456/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/5456/log
+ rename jobs/hourly-approval/builds/{5436 => 5463}/build.xml (91%)
+ rename jobs/hourly-approval/builds/{5436 => 5463}/changelog.xml (100%)
+ rename jobs/hourly-approval/builds/{5449 => 5463}/log (89%)
+ rename jobs/hourly-approval/builds/{5433 => 5464}/build.xml (91%)
+ rename jobs/hourly-approval/builds/{5437 => 5464}/changelog.xml (100%)
+ rename jobs/hourly-approval/builds/{5435 => 5464}/log (89%)
+ rename jobs/hourly-approval/builds/{5437 => 5465}/build.xml (91%)
+ rename jobs/hourly-approval/builds/{5438 => 5465}/changelog.xml (100%)
+ rename jobs/hourly-approval/builds/{5455 => 5465}/log (89%)
+ rename jobs/hourly-approval/builds/{5435 => 5466}/build.xml (91%)
+ rename jobs/hourly-approval/builds/{5439 => 5466}/changelog.xml (100%)
+ rename jobs/hourly-approval/builds/{5434 => 5466}/log (89%)
+ create mode 100644 jobs/hourly-approval/builds/5467/build.xml
+ rename jobs/hourly-approval/builds/{5440 => 5467}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/5467/log
+ create mode 100644 jobs/hourly-approval/builds/5468/build.xml
+ rename jobs/hourly-approval/builds/{5441 => 5468}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/5468/log
+ rename jobs/hourly-approval/builds/{5434 => 5469}/build.xml (83%)
+ create mode 100644 jobs/hourly-approval/builds/5469/changelog.xml
+ create mode 100644 jobs/hourly-approval/builds/5469/log
+ create mode 100644 jobs/hourly-approval/builds/5470/build.xml
+ rename jobs/hourly-approval/builds/{5442 => 5470}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/5470/log
+ create mode 100644 jobs/hourly-approval/builds/5471/build.xml
+ rename jobs/hourly-approval/builds/{5443 => 5471}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/5471/log
+ create mode 100644 jobs/hourly-approval/builds/5472/build.xml
+ rename jobs/hourly-approval/builds/{5444 => 5472}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/5472/log
+ create mode 100644 jobs/hourly-approval/builds/5473/build.xml
+ rename jobs/hourly-approval/builds/{5445 => 5473}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/5473/log
+ create mode 100644 jobs/hourly-approval/builds/5474/build.xml
+ rename jobs/hourly-approval/builds/{5446 => 5474}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/5474/log
+ create mode 100644 jobs/hourly-approval/builds/5475/build.xml
+ rename jobs/hourly-approval/builds/{5447 => 5475}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/5475/log
+ rename jobs/{cf_lyric_recommender/builds/2 => hourly-approval/builds/5476}/build.xml (60%)
+ create mode 100644 jobs/hourly-approval/builds/5476/log
+ create mode 100644 jobs/hourly-approval/builds/5477/build.xml
+ rename jobs/hourly-approval/builds/{5448 => 5477}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/5477/log
+ create mode 100644 jobs/hourly-approval/builds/5478/build.xml
+ rename jobs/hourly-approval/builds/{5449 => 5478}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/5478/log
+ create mode 100644 jobs/hourly-approval/builds/5479/build.xml
+ rename jobs/hourly-approval/builds/{5450 => 5479}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/5479/log
+ create mode 100644 jobs/hourly-approval/builds/5480/build.xml
+ rename jobs/hourly-approval/builds/{5451 => 5480}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/5480/log
+ create mode 100644 jobs/hourly-approval/builds/5481/build.xml
+ rename jobs/hourly-approval/builds/{5452 => 5481}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/5481/log
+ create mode 100644 jobs/hourly-approval/builds/5482/build.xml
+ rename jobs/hourly-approval/builds/{5453 => 5482}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/5482/log
+ create mode 100644 jobs/hourly-approval/builds/5483/build.xml
+ rename jobs/hourly-approval/builds/{5454 => 5483}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/5483/log
+ create mode 100644 jobs/hourly-approval/builds/5484/build.xml
+ rename jobs/hourly-approval/builds/{5455 => 5484}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/5484/log
+ create mode 100644 jobs/hourly-approval/builds/5485/build.xml
+ rename jobs/hourly-approval/builds/{5456 => 5485}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/5485/log
+ create mode 100644 jobs/hourly-approval/builds/5486/build.xml
+ create mode 100644 jobs/hourly-approval/builds/5486/changelog.xml
+ create mode 100644 jobs/hourly-approval/builds/5486/log
+ create mode 160000 workspace/cf_lyric_recommend_pipline
++ git push origin HEAD:master
+To github.com:kirinisland/jenkins-backup.git
+   cc57482d..fc20d0b1  HEAD -> master
+Finished: SUCCESS
