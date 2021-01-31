@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e456b8ef7ae08042abb14752d48f06c401364198 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+Commit message: "customize table name"
+ > git rev-list --no-walk e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5219500411487035572.sh
++ python3 jobs/expirelyric.py --count 15
+('8850f51f8e', '2021-01-24 01:09:37', '翻开 湿润的泥土\n补上 嫩嫩的叶芽\n期待  开满的鲜花\n辛勤  劳累在春夏\n我们坚信明天美好\n背向暗淡一缕阳光')
+('c0503a6562', '2021-01-24 10:04:40', '我总是一个人走在雨后无人的大街\n又总在回想当时有你的夏天\n于是我开始慢慢的慢慢的发觉\n搞不懂是不是因为你我之间的差别')
+('a9ff94c954', '2021-01-24 23:39:55', '拼凑的回忆\n充满了活力\n我拼命的想挽回\n我努力想要忘记\n你说对不起\n我说没关系')
+('8fc4721aa8', '2021-01-25 15:54:21', '世界說變就變 我不敢寄望以後會點\n錯愛難避免 我不想思索分辨\nThis Moment 我只有你\nThis Moment 我深愛你\nTo know you how to stand by you\nTo think of why so sad but true')
+('b0626e20ee', '2021-01-25 18:00:16', '怯弱地从背后把你抱紧\r\n所谓的各奔东西\r\n只是为了不让你我\r\n成为对方的注定\r\n我知道彼此差距\r\n你稍稍抬脚 我已落后千里\r')
+('96d7217be5', '2021-01-26 17:57:05', '爱从来不是社交网络上彻夜的暧昧\n抽屉的车票夹见证我们婚礼的派对')
+('88e8fe8c17', '2021-01-26 21:32:35', '绿叶将照亮我们的路\n上升的速度我在记录\n我还记得玻璃上映出的树\n塔下霓虹是我给你的礼物\n好想记住 从现在开始的每一幕\n我的意图 你全清楚却从不说出')
+('9c8de4e153', '2021-01-26 23:43:02', '幻想与我的处境来回纠缠\n夹在中间的我只剩难堪\n昨日与未来都在慢慢疏远\n不知所措的我坐立难安\n快乐与悲伤还在脑海纠缠\n我是怎样的人自己隐瞒')
+('91c98bae39', '2021-01-27 00:47:22', '多久出过家门，多久见过黄昏\n漫无目的的走 漫无目的留\n人海茫茫好像看过你的身影\n感应背影如此熟悉我心回应\n小巷晚风陌生 转身离开无奈\n不归家的人 有何去处呢')
+('bcb84e9548', '2021-01-27 00:47:43', '我们的誓言是否己是过眼云烟\n今夜睁开的双眼脑海浮出红颜\n是否我承诺太多  使你的期望越多\n曾记的我们说过去看那雪落\n太多承诺都当了真\n转身无人能懂的真')
+('02f13ead2a', '2021-01-27 00:58:08', '飘飘荡荡去何方 跌跌撞撞受了伤\n不问归期 不问何故\n远远灯火阑珊 遥遥渔火沾染\n风雨飘摇不曾想过放弃\n终于结束仿佛记住美丽\n望着身影 跟着答应')
+('a000639848', '2021-01-27 03:09:11', '我将回来\n比走时更简朴\n遇到曾经告别过的树\n他已经高的让我仰慕')
+('99e7316d2e', '2021-01-27 03:13:27', '来不及告别这风花月夜\n一句问候已排练千遍\n在这里你给我画了个圆\n旧故里\n空窗棂\n成忆')
+('d5b16c9d24', '2021-01-27 03:38:49', '以前的你去哪了\n为什么让我\n翘首以盼等了半生\n这半生茫然\n这半生彷徨\n让我的爱走错了方向')
+('3986006844', '2021-01-27 22:18:03', '坐上拥挤的末班车，望着窗外的小角落\n雨水一滴滴的掉落着\n回味着我们的每一刻\n记得我曾经爱过，缺依旧保持沉默\n如今的我不会再不舍，在人海中也会不视而过。\n')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
