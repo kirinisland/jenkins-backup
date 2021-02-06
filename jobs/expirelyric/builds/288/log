@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e456b8ef7ae08042abb14752d48f06c401364198 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+Commit message: "customize table name"
+ > git rev-list --no-walk e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins9029499524183061792.sh
++ python3 jobs/expirelyric.py --count 15
+('b911dc7815', '2021-01-30 00:32:33', '我怕加班太晚寒风刺骨，让我看不清回家的路\n我怕早起声音太乱太杂，不慎吵醒了熟睡的他\n我怕一人一路横冲直撞，自己粉身碎骨满身伤\n我怕一不小心说错了话，老板降薪被辞成笑话\n是啊，我怕，我是一直都在怕')
+('19be37bdf5', '2021-01-30 02:06:15', '你高级的感情我耗不起\n我低端的你说没意义\n到底怎么顺从你的心意\n才会让你觉得不可惜\n你高贵的模样我受不起\n何苦再多些难堪记忆')
+('05696676e0', '2021-01-30 19:49:53', '一片白日光倾泻在白色的橱窗\n房间里的唱片播放着音乐的感伤\n桌前的身影孤单又漫长\n眼神飘忽不定地眺望远方')
+('242af717f2', '2021-01-30 19:56:01', '冬日的暖阳照进我的心房\n从此给我的世界开一扇窗，因为心中有期望\n倔强，不甘心半路返航\n大树在沙沙作响，鸟儿在空中放声歌唱\n满是生机的地方，给予我无限期望')
+('230230a4ab', '2021-01-31 05:14:18', '累死累活，都比不上心灵的折磨。')
+('f398b526e2', '2021-01-31 08:09:10', '不知道你骑在谁的面前 互相在耳边说着甜言\n从前我们也是整夜缠绵 讨论以后该怎么赚钱\n这一幕好像电影里放的回忆录 出现在我的脑海\n除了你给的好其他我都没记住 现在是谁的老蒯')
+('3af8b95edb', '2021-01-31 14:38:41', '我不知玫瑰花瓣有多脆\n只记得你那句话会落泪\n远方的都很完美\n得到后终觉心碎\n虽红绘有刺不进退\n但总有人如痴如醉')
+('6462089080', '2021-01-31 22:30:03', '黑龙江省望奎县。三天三夜办结婚。这场婚礼不简单。闹的整个黑龙江人民心慌慌。疫情犹如猛兽。人民吓的躲在家。为了战胜疫情。华夏儿女在坚持。胜利就在前面。加油黑龙江')
+('11d61583aa', '2021-01-31 23:57:00', '你穿上红纱的衣裳\n我耗尽所有的目光\n旧时的时光 慢慢被隐藏\n你看不清我的模样\n我只记你琴声悠扬\n多少次迷惘 换相思难忘')
+('fcfb735a3f', '2021-02-02 15:28:17', '爸爸是妈妈的一块砖\n那里需要往那里搬\n爸爸是妈妈的一幅画\n那里需要往那里挂\n\n妈妈是爸爸的一朵花')
+('62edb413f1', '2021-02-02 23:57:01', '车窗外的世界 繁华喧闹的夜')
+('b87fa7d439', '2021-02-03 10:57:20', '经受时间的煎熬 换来的是星光璀璨\n饱受世间的苦难 换来的没有遗憾\n\n我喜欢身着可爱的你 美丽善良动人又可妻\n愿你我丢掉痛苦 我爱你')
+('618cf50651', '2021-02-03 11:37:14', '我握着单程的火车票\n奔赴那一秒\n奔赴下一站苦笑\n我要记住所有的自嘲\n就坐在床旁\n写下生命的终章')
+('2dd2855997', '2021-02-04 00:54:17', '每天的夜\n每天的梦里\n我压抑着我的身体\n拨了电话屏住了呼吸\n有些期许熬过了四季')
+('1647dc87bb', '2021-02-04 16:34:41', '窗已锁 雨落下\n咫尺却天涯\n若不曾遇见他\n又怎会负年华\n望皎洁清冷的他\n竟纤尘不染 绝代风华')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
