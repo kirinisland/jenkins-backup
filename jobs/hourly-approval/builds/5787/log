@@ -1,0 +1,102 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e456b8ef7ae08042abb14752d48f06c401364198 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+Commit message: "customize table name"
+ > git rev-list --no-walk e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins8805341255516045593.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 9首.
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+曾经的心驰神往 将去往何方
+一生仓皇 一生流浪 谁又会哀悼
+不曾留意刹那的古往
+或许最终 都将走进灭亡
+或许终究 只是美梦一场
+留一寸的幻想 风化在岁月漫长      
+
+敏感词如下:
+曾经的心驰神往 将去往何方
+一生仓皇 一生流浪 谁又会*
+不曾留意刹那的古往
+或许最终 都将走进灭亡
+或许终究 只是美梦一场
+留一寸的幻想 风化在岁月漫长      
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+在纵情的梦中 在四季的春和冬
+聆听着 我心房的跳动
+如果 我化作一阵风 深陷在这牢笼
+在暗淡的星空里 来不及相拥
+在一瞥惊鸿中 行色匆匆
+在无尽的迷宫中 水复山重
+
+敏感词如下:
+在纵情的梦中 在四季的春和冬
+聆听着 我心房的跳动
+如果 我化作一阵风 深陷在这牢笼
+在暗淡的星空里 来不及相拥
+在一瞥惊鸿中 行*匆匆
+在无尽的迷宫中 水复山重
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+我已失去你在我身边
+无法失去对你的想念
+想念拥抱时那样的温暖
+仿佛你的痴心还再陪伴
+
+敏感词如下:
+我已失*在我身边
+无法失去对你的想念
+想念拥抱时那样的温暖
+仿佛你的痴心还再陪伴
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+哎 自己写首歌
+不够好的歌词别被你们笑喷了
+就像小学生的作文一样这看着
+小小一个魔法师在这儿产生了
+
+敏感词如下:
+哎 自己写首歌
+不够好的歌词别被你们笑*了
+就像小学生的作文一样这看着
+小小一个魔法师在这儿产生了
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+我们执着于是非 我们追求着完美
+在这虚假中陶醉 在这黯淡中生辉
+它也会枯萎 它却也卑微
+是如何 淹没在人群中 悄然间破碎
+化作一团死灰 你是谁
+世界只是一杯水 盛满了眼泪
+
+敏感词如下:
+我们执着于是非 我们追求着完美
+在这虚假中陶醉 在这黯淡中生辉
+它也会枯萎 它却也卑微
+是如何 淹没在人群中 悄然间破碎
+化作一团*灰 你是谁
+世界只是一杯水 盛满了眼泪
+-----------------------------
+Finished: SUCCESS
