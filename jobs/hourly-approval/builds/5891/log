@@ -1,0 +1,58 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e456b8ef7ae08042abb14752d48f06c401364198 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+Commit message: "customize table name"
+ > git rev-list --no-walk e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins6092462439341673753.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 4首.
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+我只是一只海鸟 我只想拥有那一角
+我的爱胜过天骄 我的心却也寂寥
+我多久未曾鸣叫 我却始终哀嚎
+去寻找 去祈祷 
+到无处可逃 到天荒地老 
+去告别 这世事安好
+
+敏感词如下:
+我只是一只海鸟 我只想拥有那一角
+我的爱胜过* 我的心却也寂寥
+我多久未曾鸣叫 我却始终哀嚎
+去寻找 去祈祷 
+到无处可逃 到天荒地老 
+去告别 这世事安好
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+心要去到的地方 是大草原的辽阔中央
+不是这熙熙攘攘
+我想回到的宽阔肩膀 是你同我看巨浪亲吻石头的景象
+不是三毛书中那印象 那岸边无比深邃的夜
+令人呼吸不过来的夜
+我独自一人 一分钟都不能度过的夜
+
+敏感词如下:
+心要去到的地方 是大*原的辽阔*
+不是这熙熙攘攘
+我想回到的宽阔肩膀 是你同我看巨浪亲吻石头的景象
+不是三毛书中那印象 那岸边无*深邃的夜
+令人呼吸不过来的夜
+我独自一人 一分钟都不能度过的夜
+-----------------------------
+Finished: SUCCESS
