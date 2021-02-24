@@ -1,0 +1,60 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e456b8ef7ae08042abb14752d48f06c401364198 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+Commit message: "customize table name"
+ > git rev-list --no-walk e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins4422189013628893487.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 5首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+你的战斗力 还不如劳资放的屁
+随便打点钱 教你如何变得有实力
+顺便帮我提提鞋 劳资分你几十亿
+说起你爸都得跟我称兄道弟
+还有你的那点破秘密
+劳资一不小心就给你揭秘
+
+敏感词如下:
+你的战斗力 还不如劳资放的屁
+随便打点钱 教你如何变得有实力
+顺便帮我提提鞋 劳资分你几十亿
+说起*都得跟我称兄道弟
+还有你的那点破秘密
+劳资一不小心就给你揭秘
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+OK 我会记住 记住你的美
+我们的相遇 绝对不后悔
+我会送你一朵玫瑰
+再叫声小 宝贝
+想跟你暧昧 
+然后再去入睡
+
+敏感词如下:
+ok 我会记住 记住你的美
+我们的相遇 绝对不后悔
+我会送你一朵玫瑰
+再叫声小 宝贝
+想跟你暧昧 
+*再去入睡
+-----------------------------
+Finished: SUCCESS
