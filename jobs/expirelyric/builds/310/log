@@ -1,0 +1,51 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e456b8ef7ae08042abb14752d48f06c401364198 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+Commit message: "customize table name"
+ > git rev-list --no-walk e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3119257182066048081.sh
++ python3 jobs/expirelyric.py --count 15
+('3814e6d0c6', '2021-02-20 15:03:42', '每当想起这个世界上还有人爱你\n就请你不要放弃\n请来到这里 感受无尽的爱意\npeace and love your\n还要感谢现在的生活 它特别的安逸\n爸爸妈妈带给你的名利')
+('3c6e4750d7', '2021-02-20 15:09:23', '那只小熊已经不在了\n我希望我们依然快乐着\n这是真的 但请你记得 \n希望没有他请你不要堕落了\n可我坚信 你会半夜伤心着\n但那又有什么意义呢')
+('1acb2443f9', '2021-02-20 22:29:48', '你羡慕我没心没肺\n不知道这才是可悲\n你嘲笑我活的虚伪\n却不知道难过的滋味\n我们恍如烟花相遇\n却不知结局早已注定')
+('80910fa097', '2021-02-20 22:30:33', '如果有天我能遇见个女孩\n我会把世上最美的花儿给你采\n你会自远方的彩虹上走来\n好似仙女下凡对我不理不睬\n如果有天我能遇见一个女孩\n我想她的心会像兰花一样白')
+('b67d853c65', '2021-02-20 22:33:06', '没有什么值得纪念的话\n没有什么忘不了的人呐\n都说相信爱情最后伤了自己\n都说没人愿意留在原地 等你\n让这夏天的风带走春天的记忆\n停在秋天埋藏进了冬季')
+('4420ab6a41', '2021-02-20 22:36:05', '还记得那年桃花初开\n一个人走到屋檐之外\n冬去幼鸟自南方归来\n停在无人问津的窗台\n就像我没有人理睬')
+('0875ad8db9', '2021-02-20 22:37:31', '我愿化作一片落叶\n北风吹被雨打落\n我愿化作流云一朵\n被狂风吹的散落\n\n把伤心当作标准')
+('97331e66dc', '2021-02-23 13:15:00', '其实我已经看见你的翅膀\n在我脑海里飞翔\n让我来做你的船长\n我来为你指清方向\n此时此刻你就在我身旁\n一切好运都在来（的）路上')
+('51b09af56f', '2021-02-23 16:38:18', '是人都不太完美 总有人会去颠对\n说你这样不好那样不会 \n别理   他就是颓废 \n就是贪图说话不会收费\n当面又说对你敬畏\n真的想笑怎么会有这种宝贝')
+('f92e54efba', '2021-02-24 20:32:12', '星星点点 一辈子都别说再见\n重蹈华宴 安慰的人都说谎言\n明目张胆的送出请柬\n你有否看见我红了眼\n如果能再来一次 我拒绝爱的星星点点')
+('53bdaac7ce', '2021-02-24 23:14:34', '                       月下思念\n                                    词  蓝颜   晨曦骄阳\n离开你无数的夜   莫名的想念\n有种落寞的感觉   在我的心中蔓延     提琴就搁在身边     夜空繁星点点    细细回想 你的容颜\n看着天上的明月 诉说着思念\n曾经在这样的夜    对你说蜜语甜言   如今你不在身边      心中思绪翩跹    独自一人魂萦梦牵')
+('7574d3b290', '2021-02-25 16:10:23', '是那流水 在山川丘陵中追忆\n是那青鸟 在阴晴圆缺中悲喜\n是那铃音 在尘埃落雨中归去\n我想将我的故事寻觅 听一声叹息\n许下解不开的愁绪 在无题的诗集\n我只留 这一身白衣')
+('e509da3ca4', '2021-02-25 21:10:02', '习惯了这座城的灯红酒绿 纵欲\n习惯了在夜店里纸醉金迷 夜里\n努力去呼吸 保持生机 思绪停留梦里\n没家的孩子找不到回家的路 迷途 恐怖\n就像乞丐望着橱窗琳琅满目 孤独 无助\n怪物 永远得不到理解的废物 存在就是妈的错误')
+('081ab02146', '2021-02-26 13:22:30', '\n          你 给我一道光   从黑白中点亮\n          失去的平衡感   也让我变得开朗\n\n          我 许下了愿望  用余生做交换\n          生活充满理想  安分守己很坦然')
+('80a2af3554', '2021-02-26 13:22:42', '人去楼已空 ，只留思念万种，')
+('41656e074a', '2021-02-27 03:05:25', '我不断在人群中捕捉你的身影\n爱情确实总是让人捉摸不透\n你是宝藏在蓝色天空的倒影\n宝藏一直藏在深海的尽头\n贝壳里的珍珠代表着你无尽魅力\n陈年往事就让我憋在心里吧')
+('6ea27d421d', '2021-02-27 16:59:47', '我在这\n回望看伊人\n潺潺溪水不语\n伊约是可触\n但却求一声永恒\n只却是一梦')
+现有精选微词 17首.
+> 超过 15 首精选微词, 将下架如下微词:
+('3814e6d0c6', '2021-02-20 15:03:42', '每当想起这个世界上还有人爱你\n就请你不要放弃\n请来到这里 感受无尽的爱意\npeace and love your\n还要感谢现在的生活 它特别的安逸\n爸爸妈妈带给你的名利')
+{"updatedAt":"2021-02-28 08:14:44"}
+('3c6e4750d7', '2021-02-20 15:09:23', '那只小熊已经不在了\n我希望我们依然快乐着\n这是真的 但请你记得 \n希望没有他请你不要堕落了\n可我坚信 你会半夜伤心着\n但那又有什么意义呢')
+{"updatedAt":"2021-02-28 08:14:46"}
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
