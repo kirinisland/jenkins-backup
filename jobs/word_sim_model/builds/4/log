@@ -1,0 +1,213 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/word_sim_model
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/kirinBrain.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/kirinBrain.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/kirinBrain.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 89b0a90bdf038e9f56eb9b503e61f16852f5179f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 89b0a90bdf038e9f56eb9b503e61f16852f5179f # timeout=10
+Commit message: "Input params"
+ > git rev-list --no-walk 89b0a90bdf038e9f56eb9b503e61f16852f5179f # timeout=10
+[word_sim_model] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins6703245805903669263.sh
++ set -x
++ source /Users/hongliang/envs/pytorch/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/Users/hongliang/envs/pytorch
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/usr/bin:/bin:/usr/sbin:/sbin
+++ PATH=/Users/hongliang/envs/pytorch/bin:/usr/bin:/bin:/usr/sbin:/sbin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ '[' 'x(pytorch) ' '!=' x ']'
+++ PS1='(pytorch) '
+++ export PS1
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
++ cd word_sim_auto_retrain
++ export PYTHONPATH=:../kirin:.
++ PYTHONPATH=:../kirin:.
+++ date +%Y%m%d
++ today_date=20210303
++ CMD='./auto_retrain_docker.sh /Users/hongliang/media/storage_test 20200401 2020-06-19      20210303 20210303 20200719-dryrun /Users/hongliang/code/fastText'
++ ./auto_retrain_docker.sh /Users/hongliang/media/storage_test 20200401 2020-06-19 20210303 20210303 20200719-dryrun /Users/hongliang/code/fastText
+
+
+************ Step-1: Setting up data directories and check required input data files ************
+lyric_data_date_dir=/Users/hongliang/media/storage_test/production_data/original_lyric//2020-06-19
+user_data_date_dir=/Users/hongliang/media/storage_test/production_data/user_search_words//20200401
+dev_data_date_dir=/Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303
+prod_model_date_dir=/Users/hongliang/media/storage_test/production_data/word_models//20210303
+previous_prod_model_date_dir=/Users/hongliang/media/storage_test/production_data/word_models//20200719-dryrun
+File /Users/hongliang/media/storage_test/production_data/original_lyric//2020-06-19/liuxing.txt exists, proceed to next step
+File /Users/hongliang/media/storage_test/production_data/original_lyric//2020-06-19/minyao.txt exists, proceed to next step
+File /Users/hongliang/media/storage_test/production_data/original_lyric//2020-06-19/shige.txt exists, proceed to next step
+File /Users/hongliang/media/storage_test/production_data/original_lyric//2020-06-19/shuochang.txt exists, proceed to next step
+File /Users/hongliang/media/storage_test/production_data/original_lyric//2020-06-19/zhongguofeng.txt exists, proceed to next step
+File /Users/hongliang/media/storage_test/production_data/user_search_words//20200401/WordSearchTracking.csv exists, proceed to next step
+
+
+************ Step-2: Prepare and segment lyric data and process user search data (this takes about 2 hours) ************
+Traceback (most recent call last):
+  File "create_fasttext_seg_train_data.py", line 18, in <module>
+    from word_sim import WordSim
+  File "/private/var/root/.jenkins/workspace/word_sim_model/kirin/word_sim.py", line 11, in <module>
+    import tokenization_kirin
+  File "/private/var/root/.jenkins/workspace/word_sim_model/kirin/tokenization_kirin.py", line 4, in <module>
+    from kirin import helper
+ModuleNotFoundError: No module named 'kirin'
+
+
+************ Step-3: Combining zhongguofeng and shige for seg data (be careful to rerun this step!) ************
+mv: rename /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/zhongguofeng_seg_train.txt to /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/zhongguofeng_seg_train_original.txt: No such file or directory
+./auto_retrain_docker.sh: line 72: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/zhongguofeng_seg_train.txt: No such file or directory
+
+
+************ Step-4: Advanced filtering by cixing and user search words etc ************
+Traceback (most recent call last):
+  File "advanced_filtering.py", line 3, in <module>
+    from word_sim_auto_retrain.constants import commonly_used_styles
+ModuleNotFoundError: No module named 'word_sim_auto_retrain'
+
+
+************ Step-5: Merge seg data of all styles to have allFour style ************
+./auto_retrain_docker.sh: line 83: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/allFour_seg_train.txt.clean.txt: No such file or directory
+
+
+************ Step-6: Generate blacklist filtering for front end ************
+Traceback (most recent call last):
+  File "generate_frontend_search_result_blacklist.py", line 5, in <module>
+    from word_sim_auto_retrain.constants import commonly_used_styles
+ModuleNotFoundError: No module named 'word_sim_auto_retrain'
+
+
+************ Step-7: Train a fasttest base model for allFour and the four styles (this takes about 4-5hr) ************
+Training a model for allFour from scratch with minCount 30
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/allFour_seg_train.txt.clean.txt.bin cannot be opened for saving.
+./auto_retrain_docker.sh: line 95: 75984 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -lr 0.05 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3
+Training a model for liuxing from scratch with minCount 30
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/liuxing_seg_train.txt.clean.txt.bin cannot be opened for saving.
+./auto_retrain_docker.sh: line 95: 75985 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -lr 0.05 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3
+Training a model for minyao from scratch with minCount 30
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/minyao_seg_train.txt.clean.txt.bin cannot be opened for saving.
+./auto_retrain_docker.sh: line 95: 75986 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -lr 0.05 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3
+Training a model for shuochang from scratch with minCount 30
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/shuochang_seg_train.txt.clean.txt.bin cannot be opened for saving.
+./auto_retrain_docker.sh: line 95: 75987 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -lr 0.05 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3
+Training a model for zhongguofeng from scratch with minCount 30
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/zhongguofeng_seg_train.txt.clean.txt.bin cannot be opened for saving.
+./auto_retrain_docker.sh: line 95: 75988 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -lr 0.05 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3
+
+
+************ Step-8: Check the number of workds trained for each style, including allFour ************
+wc: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/allFour_seg_train.txt.clean.txt.vec: open: No such file or directory
+Total words in style allFour is: 
+wc: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/liuxing_seg_train.txt.clean.txt.vec: open: No such file or directory
+Total words in style liuxing is: 
+wc: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/minyao_seg_train.txt.clean.txt.vec: open: No such file or directory
+Total words in style minyao is: 
+wc: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/shuochang_seg_train.txt.clean.txt.vec: open: No such file or directory
+Total words in style shuochang is: 
+wc: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/zhongguofeng_seg_train.txt.clean.txt.vec: open: No such file or directory
+Total words in style zhongguofeng is: 
+
+
+************ Step-9: Generate search results from scratch models as a sanity check ************
+Traceback (most recent call last):
+  File "search_sanity_check.py", line 10, in <module>
+    from word_sim import WordSim
+  File "/private/var/root/.jenkins/workspace/word_sim_model/kirin/word_sim.py", line 11, in <module>
+    import tokenization_kirin
+  File "/private/var/root/.jenkins/workspace/word_sim_model/kirin/tokenization_kirin.py", line 4, in <module>
+    from kirin import helper
+ModuleNotFoundError: No module named 'kirin'
+
+
+************ Step-10: Generate pre-trained models for each of the four styles ************
+Traceback (most recent call last):
+  File "generate_pretrained_from_base_model.py", line 18, in <module>
+    from word_sim import WordSim
+  File "/private/var/root/.jenkins/workspace/word_sim_model/kirin/word_sim.py", line 11, in <module>
+    import tokenization_kirin
+  File "/private/var/root/.jenkins/workspace/word_sim_model/kirin/tokenization_kirin.py", line 4, in <module>
+    from kirin import helper
+ModuleNotFoundError: No module named 'kirin'
+
+
+************ Step-11: Fine-tune fasttest models from allFour base model for the four styles (this takes about 2-3hr) ************
+Training a model for liuxing from scratch with minCount 30
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/liuxing_seg_train.txt.clean.txt.finetune.bin cannot be opened for saving.
+./auto_retrain_docker.sh: line 130: 75997 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt.finetune" -lr 0.01 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3 -pretrainedVectors "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt.vec"
+Training a model for minyao from scratch with minCount 30
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/minyao_seg_train.txt.clean.txt.finetune.bin cannot be opened for saving.
+./auto_retrain_docker.sh: line 130: 75998 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt.finetune" -lr 0.01 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3 -pretrainedVectors "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt.vec"
+Training a model for shuochang from scratch with minCount 30
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/shuochang_seg_train.txt.clean.txt.finetune.bin cannot be opened for saving.
+./auto_retrain_docker.sh: line 130: 75999 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt.finetune" -lr 0.01 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3 -pretrainedVectors "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt.vec"
+Training a model for zhongguofeng from scratch with minCount 30
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/zhongguofeng_seg_train.txt.clean.txt.finetune.bin cannot be opened for saving.
+./auto_retrain_docker.sh: line 130: 76000 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt.finetune" -lr 0.01 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3 -pretrainedVectors "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt.vec"
+
+
+************ Step-12: Generate search results from fine-tuned models as an evaluation ************
+Traceback (most recent call last):
+  File "search_sanity_check.py", line 10, in <module>
+    from word_sim import WordSim
+  File "/private/var/root/.jenkins/workspace/word_sim_model/kirin/word_sim.py", line 11, in <module>
+    import tokenization_kirin
+  File "/private/var/root/.jenkins/workspace/word_sim_model/kirin/tokenization_kirin.py", line 4, in <module>
+    from kirin import helper
+ModuleNotFoundError: No module named 'kirin'
+
+
+************ Step-13: Copy the well-trained models files to production folder ************
+Traceback (most recent call last):
+  File "copy_prod_model_files.py", line 3, in <module>
+    from word_sim_auto_retrain.constants import commonly_used_styles
+ModuleNotFoundError: No module named 'word_sim_auto_retrain'
+cp: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/frontend_blacklist.txt: No such file or directory
+
+
+************ Step-14: Create frequency table for rhythm and move the file to production folder ************
+Traceback (most recent call last):
+  File "create_rythme_freq.py", line 5, in <module>
+    from word_sim_auto_retrain.constants import commonly_used_styles
+ModuleNotFoundError: No module named 'word_sim_auto_retrain'
+cp: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/rythme_freq.csv: No such file or directory
+
+
+************ Step-15: Remove large fasttext model files that are not needed ************
+rm: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/*.bin: No such file or directory
+************ Step-16: Generate search results csv files for production ************
+Traceback (most recent call last):
+  File "generate_word_imagination_tsv.py", line 13, in <module>
+    from word_sim import WordSim
+  File "/private/var/root/.jenkins/workspace/word_sim_model/kirin/word_sim.py", line 11, in <module>
+    import tokenization_kirin
+  File "/private/var/root/.jenkins/workspace/word_sim_model/kirin/tokenization_kirin.py", line 4, in <module>
+    from kirin import helper
+ModuleNotFoundError: No module named 'kirin'
+cp: /Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/model_results_with_mean_vec.tsv: No such file or directory
+************ Step-17: Indexing search results ************
+Traceback (most recent call last):
+  File "indexing_search_results.py", line 15, in <module>
+    with open(os.path.join(dev_data_date_dir, "model_results_with_mean_vec.tsv"), "r", encoding="utf-8") as fin:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303/model_results_with_mean_vec.tsv'
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

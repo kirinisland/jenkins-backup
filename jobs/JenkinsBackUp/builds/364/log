@@ -1,7 +1,7 @@
 Started by timer
 Running as SYSTEM
 Building in workspace /var/root/.jenkins/workspace/JenkinsBackUp
-[JenkinsBackUp] $ /bin/bash /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins8927279585507909328.sh
+[JenkinsBackUp] $ /bin/bash /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins602759257138153193.sh
 + '[' -e /var/root/.jenkins/.git/index.lock ']'
 + cd /var/root/.jenkins/
 + git status
@@ -13,14 +13,14 @@ Changes not staged for commit:
   (use "git restore <file>..." to discard changes in working directory)
   (commit or discard the untracked or modified content in submodules)
 	modified:   config.xml
-	modified:   jobs/JenkinsBackUp/builds/362/log
+	modified:   jobs/JenkinsBackUp/builds/363/log
 	modified:   jobs/JenkinsBackUp/builds/permalinks
 	modified:   jobs/JenkinsBackUp/nextBuildNumber
 	modified:   jobs/expirelyric/builds/permalinks
 	modified:   jobs/expirelyric/nextBuildNumber
-	deleted:    jobs/hot_user/builds/330/build.xml
-	deleted:    jobs/hot_user/builds/330/changelog.xml
-	deleted:    jobs/hot_user/builds/330/log
+	deleted:    jobs/hot_user/builds/331/build.xml
+	deleted:    jobs/hot_user/builds/331/changelog.xml
+	deleted:    jobs/hot_user/builds/331/log
 	modified:   jobs/hot_user/builds/permalinks
 	modified:   jobs/hot_user/nextBuildNumber
 	modified:   workspace/table_dumper (untracked content)
@@ -51,10 +51,12 @@ Untracked files:
 	jenkins.model.JenkinsLocationConfiguration.xml
 	jenkins.security.ResourceDomainConfiguration.xml
 	jenkins.telemetry.Correlator.xml
-	jobs/JenkinsBackUp/builds/362/build.xml
-	jobs/JenkinsBackUp/builds/363/
-	jobs/expirelyric/builds/313/
-	jobs/hot_user/builds/333/
+	jobs/JenkinsBackUp/builds/363/build.xml
+	jobs/JenkinsBackUp/builds/364/
+	jobs/expirelyric/builds/314/
+	jobs/hot_user/builds/334/
+	jobs/test/
+	jobs/word_sim_model/
 	logs/
 	nodeMonitors.xml
 	org.jenkins.plugins.lockableresources.LockableResourcesManager.xml
@@ -74,38 +76,8 @@ Untracked files:
 	updates/
 	users/
 	war/
+	workspace/test/
+	workspace/word_sim_model/
 
 no changes added to commit (use "git add" and/or "git commit -a")
 + git add jobs
-+ git add workspace
-++ date
-+ git commit -m 'Jenkins backup at Wed Mar  3 14:17:51 EST 2021'
-[master 47fbe1ac] Jenkins backup at Wed Mar  3 14:17:51 EST 2021
- Committer: System Administrator <root@VincentdeMac-mini.local>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly. Run the
-following command and follow the instructions in your editor to edit
-your configuration file:
-
-    git config --global --edit
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 17 files changed, 323 insertions(+), 50 deletions(-)
- create mode 100644 jobs/JenkinsBackUp/builds/362/build.xml
- create mode 100644 jobs/JenkinsBackUp/builds/363/changelog.xml
- create mode 100644 jobs/JenkinsBackUp/builds/363/log
- create mode 100644 jobs/expirelyric/builds/313/build.xml
- rename jobs/{hot_user/builds/330 => expirelyric/builds/313}/changelog.xml (100%)
- create mode 100644 jobs/expirelyric/builds/313/log
- delete mode 100644 jobs/hot_user/builds/330/log
- rename jobs/hot_user/builds/{330 => 333}/build.xml (92%)
- create mode 100644 jobs/hot_user/builds/333/changelog.xml
- create mode 100644 jobs/hot_user/builds/333/log
-+ git push origin HEAD:master
-To github.com:kirinisland/jenkins-backup.git
-   70612ad1..47fbe1ac  HEAD -> master
-Finished: SUCCESS

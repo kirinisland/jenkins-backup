@@ -1,34 +1,60 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <build>
   <actions>
-    <hudson.model.CauseAction>
-      <causeBag class="linked-hash-map">
-        <entry>
-          <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
-          <int>1</int>
-        </entry>
-      </causeBag>
-    </hudson.model.CauseAction>
     <hudson.model.ParametersAction>
       <safeParameters class="sorted-set"/>
       <parameters>
         <hudson.model.StringParameterValue>
-          <name>count</name>
+          <name>storage_dir</name>
+          <description>The root directory.</description>
+          <value>/Users/hongliang/media/storage_test</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>user_data_date</name>
           <description></description>
-          <value>25</value>
+          <value>20200401</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>lyric_data_date</name>
+          <description></description>
+          <value>2020-06-19</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>previous_prod_model_data_date</name>
+          <description></description>
+          <value>20200719-dryrun</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>fasttext_dir</name>
+          <description></description>
+          <value>/Users/hongliang/code/fastText</value>
         </hudson.model.StringParameterValue>
       </parameters>
       <parameterDefinitionNames>
-        <string>count</string>
+        <string>storage_dir</string>
+        <string>user_data_date</string>
+        <string>lyric_data_date</string>
+        <string>previous_prod_model_data_date</string>
+        <string>fasttext_dir</string>
       </parameterDefinitionNames>
     </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
     <hudson.plugins.git.util.BuildData plugin="git@4.2.0">
       <buildsByBranchName>
         <entry>
           <string>refs/remotes/origin/master</string>
           <hudson.plugins.git.util.Build>
             <marked plugin="git-client@3.2.0">
-              <sha1>e456b8ef7ae08042abb14752d48f06c401364198</sha1>
+              <sha1>89b0a90bdf038e9f56eb9b503e61f16852f5179f</sha1>
               <branches class="list">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -37,13 +63,13 @@
               </branches>
             </marked>
             <revision reference="../marked"/>
-            <hudsonBuildNumber>331</hudsonBuildNumber>
+            <hudsonBuildNumber>3</hudsonBuildNumber>
           </hudson.plugins.git.util.Build>
         </entry>
       </buildsByBranchName>
       <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
       <remoteUrls>
-        <string>git@github.com:kirinisland/zaoci-tool.git</string>
+        <string>git@github.com:kirinisland/kirinBrain.git</string>
       </remoteUrls>
     </hudson.plugins.git.util.BuildData>
     <hudson.plugins.git.GitTagAction plugin="git@4.2.0">
@@ -53,19 +79,19 @@
           <list/>
         </entry>
       </tags>
-      <ws>/var/root/.jenkins/workspace/hot_user</ws>
+      <ws>/var/root/.jenkins/workspace/word_sim_model</ws>
     </hudson.plugins.git.GitTagAction>
     <hudson.scm.SCMRevisionState_-None/>
   </actions>
-  <queueId>7350</queueId>
-  <timestamp>1614604785010</timestamp>
-  <startTime>1614604785017</startTime>
-  <result>SUCCESS</result>
-  <duration>10223</duration>
+  <queueId>7361</queueId>
+  <timestamp>1614829184559</timestamp>
+  <startTime>1614829184561</startTime>
+  <result>FAILURE</result>
+  <duration>2752</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <builtOn></builtOn>
-  <workspace>/var/root/.jenkins/workspace/hot_user</workspace>
+  <workspace>/var/root/.jenkins/workspace/word_sim_model</workspace>
   <hudsonVersion>2.204.2</hudsonVersion>
   <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.2.0">
     <authorOrCommitter>false</authorOrCommitter>

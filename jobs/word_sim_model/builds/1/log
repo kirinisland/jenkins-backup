@@ -1,0 +1,61 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/word_sim_model
+using credential root
+Cloning the remote Git repository
+Cloning repository git@github.com:kirinisland/kirinBrain.git
+ > git init /var/root/.jenkins/workspace/word_sim_model # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/kirinBrain.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/kirinBrain.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:kirinisland/kirinBrain.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:kirinisland/kirinBrain.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/kirinBrain.git
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/kirinBrain.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 89b0a90bdf038e9f56eb9b503e61f16852f5179f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 89b0a90bdf038e9f56eb9b503e61f16852f5179f # timeout=10
+Commit message: "Input params"
+First time build. Skipping changelog.
+[word_sim_model] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins638769346349757454.sh
++ set -x
++ source /Users/hongliang/envs/pytorch/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/Users/hongliang/envs/pytorch
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/usr/bin:/bin:/usr/sbin:/sbin
+++ PATH=/Users/hongliang/envs/pytorch/bin:/usr/bin:/bin:/usr/sbin:/sbin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ '[' 'x(pytorch) ' '!=' x ']'
+++ PS1='(pytorch) '
+++ export PS1
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
++ cd word_sim_auto_retrain
++ CMD='./auto_retrain_docker.sh /Users/hongliang/media/storage_test 20200401 2020-06-19      20210303 20210303 20200719-dryrun /Users/hongliang/code/fastText'
++ ./auto_retrain_docker.sh /Users/hongliang/media/storage_test 20200401 2020-06-19 20210303 20210303 20200719-dryrun /Users/hongliang/code/fastText
+
+
+************ Step-1: Setting up data directories and check required input data files ************
+lyric_data_date_dir=/Users/hongliang/media/storage_test/production_data/original_lyric//2020-06-19
+user_data_date_dir=/Users/hongliang/media/storage_test/production_data/user_search_words//20200401
+dev_data_date_dir=/Users/hongliang/media/storage_test/dev_data/word_model_pipeline//20210303
+prod_model_date_dir=/Users/hongliang/media/storage_test/production_data/word_models//20210303
+previous_prod_model_date_dir=/Users/hongliang/media/storage_test/production_data/word_models//20200719-dryrun
+Error!!! File /Users/hongliang/media/storage_test/production_data/original_lyric//2020-06-19/liuxing.txt doesn't exist! Please prepare this file.
+Finished: SUCCESS
