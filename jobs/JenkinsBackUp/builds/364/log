@@ -81,3 +81,90 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 + git add jobs
++ git add workspace
+warning: adding embedded git repository: workspace/test
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> workspace/test
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached workspace/test
+hint: 
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: workspace/word_sim_model
+++ date
++ git commit -m 'Jenkins backup at Thu Mar  4 14:17:53 EST 2021'
+[master 44205f23] Jenkins backup at Thu Mar  4 14:17:53 EST 2021
+ Committer: System Administrator <root@VincentdeMac-mini.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 57 files changed, 3541 insertions(+), 50 deletions(-)
+ create mode 100644 jobs/JenkinsBackUp/builds/363/build.xml
+ create mode 100644 jobs/JenkinsBackUp/builds/364/changelog.xml
+ create mode 100644 jobs/JenkinsBackUp/builds/364/log
+ create mode 100644 jobs/expirelyric/builds/314/build.xml
+ rename jobs/{hot_user/builds/331 => expirelyric/builds/314}/changelog.xml (100%)
+ create mode 100644 jobs/expirelyric/builds/314/log
+ delete mode 100644 jobs/hot_user/builds/331/log
+ rename jobs/hot_user/builds/{331 => 334}/build.xml (92%)
+ create mode 100644 jobs/hot_user/builds/334/changelog.xml
+ create mode 100644 jobs/hot_user/builds/334/log
+ create mode 100644 jobs/test/builds/1/build.xml
+ create mode 100644 jobs/test/builds/1/changelog.xml
+ create mode 100644 jobs/test/builds/1/log
+ create mode 100644 jobs/test/builds/2/build.xml
+ create mode 100644 jobs/test/builds/2/changelog.xml
+ create mode 100644 jobs/test/builds/2/log
+ create mode 100644 jobs/test/builds/3/build.xml
+ create mode 100644 jobs/test/builds/3/changelog.xml
+ create mode 100644 jobs/test/builds/3/log
+ create mode 100644 jobs/test/builds/4/build.xml
+ create mode 100644 jobs/test/builds/4/changelog.xml
+ create mode 100644 jobs/test/builds/4/log
+ create mode 100644 jobs/test/builds/legacyIds
+ create mode 100644 jobs/test/builds/permalinks
+ create mode 100644 jobs/test/config.xml
+ create mode 100644 jobs/test/nextBuildNumber
+ create mode 100644 jobs/word_sim_model/builds/1/build.xml
+ create mode 100644 jobs/word_sim_model/builds/1/changelog.xml
+ create mode 100644 jobs/word_sim_model/builds/1/log
+ create mode 100644 jobs/word_sim_model/builds/2/build.xml
+ create mode 100644 jobs/word_sim_model/builds/2/changelog.xml
+ create mode 100644 jobs/word_sim_model/builds/2/log
+ create mode 100644 jobs/word_sim_model/builds/3/build.xml
+ create mode 100644 jobs/word_sim_model/builds/3/changelog.xml
+ create mode 100644 jobs/word_sim_model/builds/3/log
+ create mode 100644 jobs/word_sim_model/builds/4/build.xml
+ create mode 100644 jobs/word_sim_model/builds/4/changelog.xml
+ create mode 100644 jobs/word_sim_model/builds/4/log
+ create mode 100644 jobs/word_sim_model/builds/5/build.xml
+ create mode 100644 jobs/word_sim_model/builds/5/changelog.xml
+ create mode 100644 jobs/word_sim_model/builds/5/log
+ create mode 100644 jobs/word_sim_model/builds/6/build.xml
+ create mode 100644 jobs/word_sim_model/builds/6/changelog.xml
+ create mode 100644 jobs/word_sim_model/builds/6/log
+ create mode 100644 jobs/word_sim_model/builds/legacyIds
+ create mode 100644 jobs/word_sim_model/builds/permalinks
+ create mode 100644 jobs/word_sim_model/config.xml
+ create mode 100644 jobs/word_sim_model/nextBuildNumber
+ create mode 160000 workspace/test
+ create mode 160000 workspace/word_sim_model
++ git push origin HEAD:master
+To github.com:kirinisland/jenkins-backup.git
+   47fbe1ac..44205f23  HEAD -> master
+Finished: SUCCESS
