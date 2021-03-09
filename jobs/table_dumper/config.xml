@@ -68,6 +68,7 @@
 
 if [ ! &quot;$move_to&quot; = &quot;&quot; ]
 then
+  mkdir -pv ${move_to}
   CMD=&quot;${CMD} --move-to ${move_to}&quot;
 fi
 

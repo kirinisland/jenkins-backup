@@ -1,7 +1,8 @@
 Started by timer
+Started by timer
 Running as SYSTEM
 Building in workspace /var/root/.jenkins/workspace/JenkinsBackUp
-[JenkinsBackUp] $ /bin/bash /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins6516008330131465205.sh
+[JenkinsBackUp] $ /bin/bash /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins7625108927174981014.sh
 + '[' -e /var/root/.jenkins/.git/index.lock ']'
 + cd /var/root/.jenkins/
 + git status
@@ -13,17 +14,42 @@ Changes not staged for commit:
   (use "git restore <file>..." to discard changes in working directory)
   (commit or discard the untracked or modified content in submodules)
 	modified:   config.xml
-	modified:   jobs/JenkinsBackUp/builds/366/log
+	modified:   jobs/JenkinsBackUp/builds/367/log
 	modified:   jobs/JenkinsBackUp/builds/permalinks
 	modified:   jobs/JenkinsBackUp/nextBuildNumber
+	modified:   jobs/data-liuxing/builds/permalinks
+	modified:   jobs/data-liuxing/config.xml
+	modified:   jobs/data-liuxing/nextBuildNumber
+	modified:   jobs/data-minyao/builds/permalinks
+	modified:   jobs/data-minyao/config.xml
+	modified:   jobs/data-minyao/nextBuildNumber
+	modified:   jobs/data-mover/config.xml
+	modified:   jobs/data-shige/builds/permalinks
+	modified:   jobs/data-shige/config.xml
+	modified:   jobs/data-shige/nextBuildNumber
+	modified:   jobs/data-shuochang/config.xml
+	modified:   jobs/data-shuochang/nextBuildNumber
+	modified:   jobs/data-zhongguofeng/config.xml
+	modified:   jobs/data-zhongguofeng/nextBuildNumber
 	modified:   jobs/expirelyric/builds/permalinks
 	modified:   jobs/expirelyric/nextBuildNumber
-	deleted:    jobs/hot_user/builds/334/build.xml
-	deleted:    jobs/hot_user/builds/334/changelog.xml
-	deleted:    jobs/hot_user/builds/334/log
+	deleted:    jobs/hot_user/builds/335/build.xml
+	deleted:    jobs/hot_user/builds/335/changelog.xml
+	deleted:    jobs/hot_user/builds/335/log
+	deleted:    jobs/hot_user/builds/336/build.xml
+	deleted:    jobs/hot_user/builds/336/changelog.xml
+	deleted:    jobs/hot_user/builds/336/log
 	modified:   jobs/hot_user/builds/permalinks
 	modified:   jobs/hot_user/nextBuildNumber
-	modified:   workspace/table_dumper (untracked content)
+	modified:   jobs/table_dumper/builds/permalinks
+	modified:   jobs/table_dumper/config.xml
+	modified:   jobs/table_dumper/nextBuildNumber
+	modified:   workspace/data-liuxing (new commits)
+	modified:   workspace/data-minyao (new commits)
+	modified:   workspace/data-shige (new commits)
+	modified:   workspace/data-shuochang (new commits)
+	modified:   workspace/data-zhongguofeng (new commits)
+	modified:   workspace/table_dumper (new commits, untracked content)
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
@@ -51,10 +77,19 @@ Untracked files:
 	jenkins.model.JenkinsLocationConfiguration.xml
 	jenkins.security.ResourceDomainConfiguration.xml
 	jenkins.telemetry.Correlator.xml
-	jobs/JenkinsBackUp/builds/366/build.xml
-	jobs/JenkinsBackUp/builds/367/
-	jobs/expirelyric/builds/317/
-	jobs/hot_user/builds/337/
+	jobs/JenkinsBackUp/builds/367/build.xml
+	jobs/JenkinsBackUp/builds/368/
+	jobs/data-liuxing/builds/13/
+	jobs/data-liuxing/builds/14/
+	jobs/data-minyao-backup/
+	jobs/data-minyao/builds/15/
+	jobs/data-minyao/builds/16/
+	jobs/data-shige/builds/6/
+	jobs/data-shuochang/builds/11/
+	jobs/data-zhongguofeng/builds/9/
+	jobs/expirelyric/builds/318/
+	jobs/hot_user/builds/338/
+	jobs/table_dumper/builds/7/
 	logs/
 	nodeMonitors.xml
 	org.jenkins.plugins.lockableresources.LockableResourcesManager.xml
@@ -77,35 +112,3 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 + git add jobs
-+ git add workspace
-++ date
-+ git commit -m 'Jenkins backup at Sun Mar  7 14:17:59 EST 2021'
-[master aa50ee6d] Jenkins backup at Sun Mar  7 14:17:59 EST 2021
- Committer: System Administrator <root@VincentdeMac-mini.local>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly. Run the
-following command and follow the instructions in your editor to edit
-your configuration file:
-
-    git config --global --edit
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 17 files changed, 308 insertions(+), 50 deletions(-)
- create mode 100644 jobs/JenkinsBackUp/builds/366/build.xml
- create mode 100644 jobs/JenkinsBackUp/builds/367/changelog.xml
- create mode 100644 jobs/JenkinsBackUp/builds/367/log
- create mode 100644 jobs/expirelyric/builds/317/build.xml
- rename jobs/{hot_user/builds/334 => expirelyric/builds/317}/changelog.xml (100%)
- create mode 100644 jobs/expirelyric/builds/317/log
- delete mode 100644 jobs/hot_user/builds/334/log
- rename jobs/hot_user/builds/{334 => 337}/build.xml (92%)
- create mode 100644 jobs/hot_user/builds/337/changelog.xml
- create mode 100644 jobs/hot_user/builds/337/log
-+ git push origin HEAD:master
-To github.com:kirinisland/jenkins-backup.git
-   2f8c7ae2..aa50ee6d  HEAD -> master
-Finished: SUCCESS

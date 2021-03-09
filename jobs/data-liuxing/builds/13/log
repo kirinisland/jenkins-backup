@@ -1,0 +1,87 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/data-liuxing
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/datapipe.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/datapipe.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/datapipe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 8862dc0b93faeb24f71cee4ff5c950ac2bc56c56 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8862dc0b93faeb24f71cee4ff5c950ac2bc56c56 # timeout=10
+Commit message: "update log"
+ > git rev-list --no-walk 3b56e1389a2f9aeae1cb5cd946f48ff1e4df7866 # timeout=10
+[data-liuxing] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins2120005710068111773.sh
++ set -x
+++ date +%Y%m%d
++ date_str=20210307
++ echo 20210307
+20210307
++ echo
+
++ storage_dir=/Users/hongliang/media/storage
++ output_dir=/Users/hongliang/media/storage/production_data/original_lyric/20210307
++ mkdir -pv /Users/hongliang/media/storage/production_data/original_lyric/20210307
++ python3 runner_qq.py --method search --query $'\346\265\201\350\241\214' --output-suffix liuxing --dump-raw 1 --dump-seg 0 --proxy
+INFO:[DataPipeline]:Start crawling for query: 流行
+INFO:[DataPipeline]:Processing playlist page: 0, found 43 playlists
+INFO:[DataPipeline]:Processing playlist page: 1, found 45 playlists
+INFO:[DataPipeline]:Processing playlist page: 2, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 3, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 4, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 5, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 6, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 7, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 8, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 9, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 10, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 11, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 12, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 13, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 14, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 15, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 16, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 17, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 18, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 19, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 20, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 21, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 22, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 23, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 24, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 25, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 26, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 27, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 28, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 29, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 30, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 31, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 32, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 33, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 34, found 28 playlists
+INFO:[DataPipeline]:Processing playlist page: 35, found 4 playlists
+INFO:[DataPipeline]:Processing playlist page: 36, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 37, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 38, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 39, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 40, found 4 playlists
+INFO:[DataPipeline]:Processing playlist page: 41, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 42, found 4 playlists
+INFO:[DataPipeline]:Processing playlist page: 43, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 44, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 45, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 46, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 47, found 27 playlists
+INFO:[DataPipeline]:Processing playlist page: 48, found 18 playlists
+INFO:[DataPipeline]:Processing playlist page: 49, found 4 playlists
+INFO:[DataPipeline]:Processing playlist page: 50, found 0 playlists
+INFO:[DataPipeline]:Total playlists found about topic: 流行: 1868
+INFO:[DataPipeline]:PlayList: [7520334743] 爆款收割机！时下流行热歌合集 (0/1868) has 521 songs.
+Build was aborted
+Aborted by [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Finished: ABORTED

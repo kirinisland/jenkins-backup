@@ -10,19 +10,13 @@
           <name>date</name>
           <description></description>
           <defaultValue></defaultValue>
-          <trim>true</trim>
+          <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.BooleanParameterDefinition>
           <name>proxy</name>
           <description>if select, will fetch with proxy.</description>
           <defaultValue>true</defaultValue>
         </hudson.model.BooleanParameterDefinition>
-        <hudson.model.StringParameterDefinition>
-          <name>storage_dir</name>
-          <description></description>
-          <defaultValue>/Users/hongliang/media/storage</defaultValue>
-          <trim>false</trim>
-        </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
   </properties>
@@ -36,7 +30,7 @@
     </userRemoteConfigs>
     <branches>
       <hudson.plugins.git.BranchSpec>
-        <name>*/test-jenkins</name>
+        <name>*/master</name>
       </hudson.plugins.git.BranchSpec>
     </branches>
     <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
@@ -51,15 +45,10 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>set -x
+      <command>#date_str=`date &apos;+%Y%m%d&apos;`
+#echo $date_str
+#python3 runner_qq.py --method search --query 民谣 --output-suffix minyao --dump-raw 1 --dump-seg 0
 
-date_str=$date
-if [ &quot;${date}&quot; = &quot;&quot; ]
-then
-	date_str=`date &apos;+%Y%m%d&apos;`
-fi
-output_dir=&quot;${storage_dir}/production_data/original_lyric/${date_str}&quot;
-mkdir -pv ${output_dir}
 
 if [ &quot;$proxy&quot; = true ] ; then
     echo &quot;Fetch with proxy!&quot;
@@ -76,11 +65,27 @@ else
                          --output-suffix minyao \
                          --dump-raw 1 \
                          --dump-seg 0 
-fi
-mv /var/root/.jenkins/workspace/data-minyao/minyao.txt ${output_dir}
-</command>
+fi</command>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.plugins.parameterizedtrigger.BuildTrigger plugin="parameterized-trigger@2.36">
+      <configs>
+        <hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
+          <configs>
+            <hudson.plugins.parameterizedtrigger.CurrentBuildParameters/>
+            <hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
+              <properties>file=/var/root/.jenkins/workspace/data-minyao/minyao.txt</properties>
+              <textParamValueOnNewLine>false</textParamValueOnNewLine>
+            </hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
+          </configs>
+          <projects>data-mover</projects>
+          <condition>SUCCESS</condition>
+          <triggerWithNoParameters>false</triggerWithNoParameters>
+          <triggerFromChildProjects>false</triggerFromChildProjects>
+        </hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
+      </configs>
+    </hudson.plugins.parameterizedtrigger.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>

@@ -13,7 +13,7 @@
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
-          <name>date</name>
+          <name>destination</name>
           <description></description>
           <defaultValue></defaultValue>
           <trim>false</trim>
@@ -30,10 +30,10 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>echo &quot;File to move:&quot; $file
-echo &quot;Destination folder:&quot; $date
+      <command>set -x
 
-destination=/Users/kashifu/media/storage/production_data/original_lyric/$date
+echo &quot;File to move:&quot; $file
+
 mkdir -p $destination
 cp $file $destination
 </command>

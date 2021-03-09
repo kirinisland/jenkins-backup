@@ -12,6 +12,12 @@
           <defaultValue></defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>storage_dir</name>
+          <description></description>
+          <defaultValue>/Users/hongliang/media/storage</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
   </properties>
@@ -25,7 +31,7 @@
     </userRemoteConfigs>
     <branches>
       <hudson.plugins.git.BranchSpec>
-        <name>*/master</name>
+        <name>*/test-jenkins</name>
       </hudson.plugins.git.BranchSpec>
     </branches>
     <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
@@ -40,35 +46,26 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>#date_str=`date &apos;+%Y%m%d&apos;`
-#echo $date_str
+      <command>set -x
+
+date_str=$date
+if [ &quot;${date}&quot; = &quot;&quot; ]
+then
+	date_str=`date &apos;+%Y%m%d&apos;`
+fi
+output_dir=&quot;${storage_dir}/production_data/original_lyric/${date_str}&quot;
+mkdir -pv ${output_dir}
+
 python3 runner_qq.py --method search \
                      --query 说唱 \
                      --output-suffix shuochang \
                      --dump-raw 1 \
                      --dump-seg 0 \
                      --proxy
-</command>
+
+mv /var/root/.jenkins/workspace/data-shuochang/shuochang.txt ${output_dir}</command>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.plugins.parameterizedtrigger.BuildTrigger plugin="parameterized-trigger@2.36">
-      <configs>
-        <hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
-          <configs>
-            <hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
-              <properties>file=/var/root/.jenkins/workspace/data-shuochang/shuochang.txt</properties>
-              <textParamValueOnNewLine>false</textParamValueOnNewLine>
-            </hudson.plugins.parameterizedtrigger.PredefinedBuildParameters>
-            <hudson.plugins.parameterizedtrigger.CurrentBuildParameters/>
-          </configs>
-          <projects>data-mover</projects>
-          <condition>SUCCESS</condition>
-          <triggerWithNoParameters>false</triggerWithNoParameters>
-          <triggerFromChildProjects>false</triggerFromChildProjects>
-        </hudson.plugins.parameterizedtrigger.BuildTriggerConfig>
-      </configs>
-    </hudson.plugins.parameterizedtrigger.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>

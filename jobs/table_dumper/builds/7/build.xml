@@ -1,27 +1,53 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <build>
   <actions>
-    <hudson.model.CauseAction>
-      <causeBag class="linked-hash-map">
-        <entry>
-          <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
-          <int>1</int>
-        </entry>
-      </causeBag>
-    </hudson.model.CauseAction>
     <hudson.model.ParametersAction>
       <safeParameters class="sorted-set"/>
       <parameters>
         <hudson.model.StringParameterValue>
-          <name>count</name>
+          <name>table</name>
           <description></description>
-          <value>25</value>
+          <value>WordSearchTracking</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>start</name>
+          <description></description>
+          <value>2021-01-01</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>end</name>
+          <description></description>
+          <value>2021-03-07</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>step</name>
+          <description></description>
+          <value>15</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>move_to</name>
+          <description>Move the dumped file to the local directory</description>
+          <value>/Users/hongliang/media/storage/production_data/user_search_words/20210307</value>
         </hudson.model.StringParameterValue>
       </parameters>
       <parameterDefinitionNames>
-        <string>count</string>
+        <string>table</string>
+        <string>start</string>
+        <string>end</string>
+        <string>step</string>
+        <string>move_to</string>
       </parameterDefinitionNames>
     </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
     <hudson.plugins.git.util.BuildData plugin="git@4.2.0">
       <buildsByBranchName>
         <entry>
@@ -37,7 +63,7 @@
               </branches>
             </marked>
             <revision reference="../marked"/>
-            <hudsonBuildNumber>336</hudsonBuildNumber>
+            <hudsonBuildNumber>7</hudsonBuildNumber>
           </hudson.plugins.git.util.Build>
         </entry>
       </buildsByBranchName>
@@ -53,23 +79,25 @@
           <list/>
         </entry>
       </tags>
-      <ws>/var/root/.jenkins/workspace/hot_user</ws>
+      <ws>/var/root/.jenkins/workspace/table_dumper</ws>
     </hudson.plugins.git.GitTagAction>
     <hudson.scm.SCMRevisionState_-None/>
   </actions>
-  <queueId>7375</queueId>
-  <timestamp>1615036796503</timestamp>
-  <startTime>1615036796505</startTime>
+  <queueId>7387</queueId>
+  <timestamp>1615323581204</timestamp>
+  <startTime>1615323581214</startTime>
   <result>SUCCESS</result>
-  <duration>11185</duration>
+  <duration>14689</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <builtOn></builtOn>
-  <workspace>/var/root/.jenkins/workspace/hot_user</workspace>
+  <workspace>/var/root/.jenkins/workspace/table_dumper</workspace>
   <hudsonVersion>2.204.2</hudsonVersion>
   <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.2.0">
     <authorOrCommitter>false</authorOrCommitter>
     <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
   </scm>
-  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
+    <string>yuhongliang324</string>
+  </culprits>
 </build>
