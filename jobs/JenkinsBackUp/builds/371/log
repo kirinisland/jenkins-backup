@@ -1,7 +1,7 @@
 Started by timer
 Running as SYSTEM
 Building in workspace /var/root/.jenkins/workspace/JenkinsBackUp
-[JenkinsBackUp] $ /bin/bash /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3173562943490082076.sh
+[JenkinsBackUp] $ /bin/bash /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1993663682566165676.sh
 + '[' -e /var/root/.jenkins/.git/index.lock ']'
 + cd /var/root/.jenkins/
 + git status
@@ -9,20 +9,15 @@ On branch master
 Your branch is up to date with 'origin/master'.
 
 Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
+  (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
   (commit or discard the untracked or modified content in submodules)
 	modified:   config.xml
-	modified:   jobs/JenkinsBackUp/builds/369/log
+	modified:   jobs/JenkinsBackUp/builds/370/log
 	modified:   jobs/JenkinsBackUp/builds/permalinks
 	modified:   jobs/JenkinsBackUp/nextBuildNumber
-	modified:   jobs/data-liuxing/builds/14/log
-	modified:   jobs/data-liuxing/builds/permalinks
 	modified:   jobs/expirelyric/builds/permalinks
 	modified:   jobs/expirelyric/nextBuildNumber
-	deleted:    jobs/hot_user/builds/337/build.xml
-	deleted:    jobs/hot_user/builds/337/changelog.xml
-	deleted:    jobs/hot_user/builds/337/log
 	modified:   jobs/hot_user/builds/permalinks
 	modified:   jobs/hot_user/nextBuildNumber
 	modified:   workspace/table_dumper (untracked content)
@@ -53,11 +48,10 @@ Untracked files:
 	jenkins.model.JenkinsLocationConfiguration.xml
 	jenkins.security.ResourceDomainConfiguration.xml
 	jenkins.telemetry.Correlator.xml
-	jobs/JenkinsBackUp/builds/369/build.xml
-	jobs/JenkinsBackUp/builds/370/
-	jobs/data-liuxing/builds/14/build.xml
-	jobs/expirelyric/builds/320/
-	jobs/hot_user/builds/340/
+	jobs/JenkinsBackUp/builds/370/build.xml
+	jobs/JenkinsBackUp/builds/371/
+	jobs/expirelyric/builds/321/
+	jobs/hot_user/builds/341/
 	logs/
 	nodeMonitors.xml
 	org.jenkins.plugins.lockableresources.LockableResourcesManager.xml
@@ -80,36 +74,3 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 + git add jobs
-+ git add workspace
-++ date
-+ git commit -m 'Jenkins backup at Thu Mar 11 14:17:08 EST 2021'
-[master ad8999b7] Jenkins backup at Thu Mar 11 14:17:08 EST 2021
- Committer: System Administrator <root@VincentdeMac-mini.local>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly. Run the
-following command and follow the instructions in your editor to edit
-your configuration file:
-
-    git config --global --edit
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 20 files changed, 2740 insertions(+), 53 deletions(-)
- create mode 100644 jobs/JenkinsBackUp/builds/369/build.xml
- create mode 100644 jobs/JenkinsBackUp/builds/370/changelog.xml
- create mode 100644 jobs/JenkinsBackUp/builds/370/log
- create mode 100644 jobs/data-liuxing/builds/14/build.xml
- create mode 100644 jobs/expirelyric/builds/320/build.xml
- rename jobs/{hot_user/builds/337 => expirelyric/builds/320}/changelog.xml (100%)
- create mode 100644 jobs/expirelyric/builds/320/log
- delete mode 100644 jobs/hot_user/builds/337/log
- rename jobs/hot_user/builds/{337 => 340}/build.xml (92%)
- create mode 100644 jobs/hot_user/builds/340/changelog.xml
- create mode 100644 jobs/hot_user/builds/340/log
-+ git push origin HEAD:master
-To github.com:kirinisland/jenkins-backup.git
-   8116997f..ad8999b7  HEAD -> master
-Finished: SUCCESS
