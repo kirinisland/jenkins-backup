@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e456b8ef7ae08042abb14752d48f06c401364198 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+Commit message: "customize table name"
+ > git rev-list --no-walk e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins7731809971420551634.sh
++ python3 jobs/expirelyric.py --count 15
+('ffe018f50a', '2021-02-28 15:08:35', '我现在的心情可以说是十分复杂\n而且内心的期许变得越来邋里邋遢\n这场搞笑的戏彻头彻尾都充满了诈\n平凡又不安的生活让我感到害怕\n走在路上和别人打招呼都会尴尬\n带着耳机低头注视着地坑坑洼洼')
+('a2508e87d6', '2021-03-01 08:43:09', '屋前的苦楝花\n枝桠缱绻成五月的水墨画\n那颗小小的种子，是你悄悄种下\n山与水，黑与白，\n泼墨，点染，勾勒的骨法\n')
+('5be0efb9fe', '2021-03-01 15:37:56', '你说我们要是能在一起该多好\n即便隔着千山万水\n也毫不畏惧')
+('7eadaf26d0', '2021-03-02 23:09:01', '失眠，无声无息地吞噬我的长夜。\n思念，不知不觉就占领全部时间。\n闭上眼，却看见了你的眼，\n张开双手，想拥抱，\n你早已消失不见。')
+('5d794e0bea', '2021-03-06 10:58:09', '与风雨一曲\n终于远去\n亦落日一世\n永平庸公')
+('034f2a3d2f', '2021-03-07 00:36:14', '明天的明天紫荆花依然开放\n昨天的昨天仿佛是旧梦一场\n不管哪儿有诗哪儿没远方啊\n只让我们回忆相识短暂时光\n听到心跳 忘掉烦恼\n回来给你 一个简单拥抱')
+('641401ecbb', '2021-03-07 09:35:18', '当星星还在天边闪烁\n当小桌上燃起红烛\n是什么让我一到夜晚\n就这样孤独\n做一个男人真苦\n想你的时候不可以哭')
+('1836019da6', '2021-03-08 15:57:18', '你曾念我\n塞北黄沙 \n惜我\n风雪不归\n\n想伪装金戈铁马 ')
+('47572ef68a', '2021-03-08 16:00:39', '我的被性湮没我的独特\n我尝遍苦涩，万千折磨\n又如何\n我剥我的皮，食我的果\n伤痕斑驳，自己的路自己出谋划策\n没有遗憾没有失落')
+('02409acce1', '2021-03-09 11:32:11', '独自徘徊凄凉的街道，我的心就像火车脱离轨道，强烈的心跳温柔的微笑，你的身影在我脑海缭绕，\n星空闪耀，我在这儿祈祷，祈祷着拥抱，祈祷的天真的他快点来到，哀伤和烦恼通通都抛掉，只记得你那一句陪你到老。\n似火的树叶片片环绕，那就是《秋天的味道》。\n心中的身影哪里去了？只剩下我一人祈祷。\n只留我一人走在乡间大道。')
+('77e9f740a2', '2021-03-09 21:10:42', '明天的明天紫荆花依然开放\n昨天的昨天仿佛是旧梦一场\n不管哪儿有诗哪儿没远方啊\n只让我们回忆相识短暂时光\n南方的南方那里有你和天堂\n请忘掉悲伤带上理想去流浪')
+('3d5a3aea89', '2021-03-10 22:01:19', '现在拼命的成长 不就是为了当初的梦想\n哪来的好运前人种树你乘凉\n不就是为了梦想 哪怕和命运发生碰撞\n不管你是山鸡还是凤凰\n')
+('c1c9fe0c52', '2021-03-11 13:25:59', '夜晚的港湾灯光闪烁\n高频的电波守护着船舶\n巡航的舰艇不畏烟波\n灯塔照亮归来的旅客')
+('4c1a777db5', '2021-03-11 15:23:42', '想和你一起穿越四季\n想和你去海边浪迹\n想把你揉进我身体\n想让你每天住进我梦里\n你不在我总是把你时时想起\n能记起的都是你的美丽')
+('ed04ffc546', '2021-03-11 21:46:11', '风吹落院子里的玉兰花\n有一瓣依依不舍卡在树桠\n灯照得它洁白无瑕\n像佛前琉璃开合的刹那')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
