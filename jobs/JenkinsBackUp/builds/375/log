@@ -1,7 +1,7 @@
 Started by timer
 Running as SYSTEM
 Building in workspace /var/root/.jenkins/workspace/JenkinsBackUp
-[JenkinsBackUp] $ /bin/bash /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5321728894758991094.sh
+[JenkinsBackUp] $ /bin/bash /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins2365363517958452094.sh
 + '[' -e /var/root/.jenkins/.git/index.lock ']'
 + cd /var/root/.jenkins/
 + git status
@@ -13,14 +13,14 @@ Changes not staged for commit:
   (use "git restore <file>..." to discard changes in working directory)
   (commit or discard the untracked or modified content in submodules)
 	modified:   config.xml
-	modified:   jobs/JenkinsBackUp/builds/373/log
+	modified:   jobs/JenkinsBackUp/builds/374/log
 	modified:   jobs/JenkinsBackUp/builds/permalinks
 	modified:   jobs/JenkinsBackUp/nextBuildNumber
 	modified:   jobs/expirelyric/builds/permalinks
 	modified:   jobs/expirelyric/nextBuildNumber
-	deleted:    jobs/hot_user/builds/341/build.xml
-	deleted:    jobs/hot_user/builds/341/changelog.xml
-	deleted:    jobs/hot_user/builds/341/log
+	deleted:    jobs/hot_user/builds/342/build.xml
+	deleted:    jobs/hot_user/builds/342/changelog.xml
+	deleted:    jobs/hot_user/builds/342/log
 	modified:   jobs/hot_user/builds/permalinks
 	modified:   jobs/hot_user/nextBuildNumber
 	modified:   workspace/table_dumper (untracked content)
@@ -51,10 +51,10 @@ Untracked files:
 	jenkins.model.JenkinsLocationConfiguration.xml
 	jenkins.security.ResourceDomainConfiguration.xml
 	jenkins.telemetry.Correlator.xml
-	jobs/JenkinsBackUp/builds/373/build.xml
-	jobs/JenkinsBackUp/builds/374/
-	jobs/expirelyric/builds/324/
-	jobs/hot_user/builds/344/
+	jobs/JenkinsBackUp/builds/374/build.xml
+	jobs/JenkinsBackUp/builds/375/
+	jobs/expirelyric/builds/325/
+	jobs/hot_user/builds/345/
 	logs/
 	nodeMonitors.xml
 	org.jenkins.plugins.lockableresources.LockableResourcesManager.xml
@@ -77,35 +77,3 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 + git add jobs
-+ git add workspace
-++ date
-+ git commit -m 'Jenkins backup at Mon Mar 15 14:17:16 EDT 2021'
-[master bc96ed2b] Jenkins backup at Mon Mar 15 14:17:16 EDT 2021
- Committer: System Administrator <root@VincentdeMac-mini.local>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly. Run the
-following command and follow the instructions in your editor to edit
-your configuration file:
-
-    git config --global --edit
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 17 files changed, 311 insertions(+), 50 deletions(-)
- create mode 100644 jobs/JenkinsBackUp/builds/373/build.xml
- create mode 100644 jobs/JenkinsBackUp/builds/374/changelog.xml
- create mode 100644 jobs/JenkinsBackUp/builds/374/log
- create mode 100644 jobs/expirelyric/builds/324/build.xml
- rename jobs/{hot_user/builds/341 => expirelyric/builds/324}/changelog.xml (100%)
- create mode 100644 jobs/expirelyric/builds/324/log
- delete mode 100644 jobs/hot_user/builds/341/log
- rename jobs/hot_user/builds/{341 => 344}/build.xml (92%)
- create mode 100644 jobs/hot_user/builds/344/changelog.xml
- create mode 100644 jobs/hot_user/builds/344/log
-+ git push origin HEAD:master
-To github.com:kirinisland/jenkins-backup.git
-   a2e13cc6..bc96ed2b  HEAD -> master
-Finished: SUCCESS
