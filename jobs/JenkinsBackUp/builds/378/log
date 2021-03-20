@@ -107,3 +107,59 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 + git add jobs
++ git add workspace
+++ date
++ git commit -m 'Jenkins backup at Fri Mar 19 14:17:25 EDT 2021'
+[master 3a4bf80b] Jenkins backup at Fri Mar 19 14:17:25 EDT 2021
+ Committer: System Administrator <root@VincentdeMac-mini.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 44 files changed, 1150 insertions(+), 398 deletions(-)
+ rename jobs/{hourly-approval/builds/6075 => JenkinsBackUp/builds/377}/build.xml (69%)
+ create mode 100644 jobs/JenkinsBackUp/builds/378/changelog.xml
+ create mode 100644 jobs/JenkinsBackUp/builds/378/log
+ create mode 100644 jobs/expirelyric/builds/328/build.xml
+ rename jobs/{hot_user/builds/345 => expirelyric/builds/328}/changelog.xml (100%)
+ create mode 100644 jobs/expirelyric/builds/328/log
+ delete mode 100644 jobs/hot_user/builds/345/log
+ rename jobs/hot_user/builds/{345 => 348}/build.xml (92%)
+ rename jobs/{hourly-approval/builds/6069 => hot_user/builds/348}/changelog.xml (100%)
+ create mode 100644 jobs/hot_user/builds/348/log
+ delete mode 100644 jobs/hourly-approval/builds/6073/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/6073/log
+ delete mode 100644 jobs/hourly-approval/builds/6074/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/6074/log
+ delete mode 100644 jobs/hourly-approval/builds/6075/log
+ create mode 100644 jobs/hourly-approval/builds/6099/build.xml
+ create mode 100644 jobs/hourly-approval/builds/6100/build.xml
+ rename jobs/hourly-approval/builds/{6070 => 6100}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/6100/log
+ rename jobs/hourly-approval/builds/{6072 => 6101}/build.xml (91%)
+ rename jobs/hourly-approval/builds/{6071 => 6101}/changelog.xml (100%)
+ rename jobs/hourly-approval/builds/{6069 => 6101}/log (65%)
+ rename jobs/hourly-approval/builds/{6070 => 6102}/build.xml (91%)
+ rename jobs/hourly-approval/builds/{6072 => 6102}/changelog.xml (100%)
+ rename jobs/hourly-approval/builds/{6070 => 6102}/log (65%)
+ rename jobs/hourly-approval/builds/{6071 => 6103}/build.xml (91%)
+ rename jobs/hourly-approval/builds/{6073 => 6103}/changelog.xml (100%)
+ rename jobs/hourly-approval/builds/{6072 => 6103}/log (65%)
+ rename jobs/hourly-approval/builds/{6069 => 6104}/build.xml (91%)
+ rename jobs/hourly-approval/builds/{6074 => 6104}/changelog.xml (100%)
+ rename jobs/hourly-approval/builds/{6071 => 6104}/log (65%)
+ create mode 100644 jobs/hourly-approval/builds/6105/build.xml
+ create mode 100644 jobs/hourly-approval/builds/6105/changelog.xml
+ create mode 100644 jobs/hourly-approval/builds/6105/log
++ git push origin HEAD:master
+To github.com:kirinisland/jenkins-backup.git
+   3e56c850..3a4bf80b  HEAD -> master
+Finished: SUCCESS
