@@ -1,0 +1,76 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e456b8ef7ae08042abb14752d48f06c401364198 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+Commit message: "customize table name"
+ > git rev-list --no-walk e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins9157722193916125845.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 6首.
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+曾经对你说的情话不止三遍
+但我对你的爱恋算的上是真心无限
+你却把我的热情当作垃圾视而不见
+不要。冷眼相对控诉当初射过的箭
+你是我的女孩我会心底珍藏
+但是我要练就相声和tm双簧
+
+敏感词如下:
+曾经对你说的情话不止三遍
+但我对你的爱恋算的上是真心无限
+你却把我的热情当作垃圾视而不见
+不要。冷眼相对控诉当初*过的箭
+你是我的女孩我会心底珍藏
+但是我要练就相声和tm双簧
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+for my City 0913（girl MQ）
+我表示很惭愧
+19岁 来北京 什么都不会
+不回家 爱装酷 反应很迟钝 
+偶尔学习 混日子 却不想成真
+机会在手上  备忘录里都是措辞
+
+敏感词如下:
+for * city 0913（girl mq）
+我表示很惭愧
+19岁 来北京 什么都不会
+不回家 爱装酷 反应很迟钝 
+偶尔学习 混*子 却不想成真
+机会在手上  备忘录里都是措辞
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+哥们没时间和你嘻戏打闹
+我早已经走上了康庄大道
+我的成功马上就要来临
+告诉我的父亲 叫他开瓶香槟
+我不是马思维没有依梦玲
+我是邓纯涛我有我的陆姿霖
+
+敏感词如下:
+哥们没时间和你嘻戏打闹
+我早已经走上了康庄大道
+我的成**上就要来临
+告诉我的* 叫他开瓶香槟
+我不是*思维没有依梦玲
+我是邓纯涛我有我的陆姿霖
+-----------------------------
+Finished: SUCCESS
