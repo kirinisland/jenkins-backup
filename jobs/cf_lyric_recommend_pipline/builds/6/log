@@ -1,0 +1,130 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/cf_lyric_recommend_pipline
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e456b8ef7ae08042abb14752d48f06c401364198 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+Commit message: "customize table name"
+ > git rev-list --no-walk e456b8ef7ae08042abb14752d48f06c401364198 # timeout=10
+[cf_lyric_recommend_pipline] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1220323186415800722.sh
++ CMD='python3 jobs/dump_table.py --table EverydayLyric --start 2021-01-01 --end 2021-04-18 --step 15'
++ '[' '!' /Users/hongliang/dataset/jenkins = '' ']'
++ CMD='python3 jobs/dump_table.py --table EverydayLyric --start 2021-01-01 --end 2021-04-18 --step 15 --move-to /Users/hongliang/dataset/jenkins'
++ echo 'python3 jobs/dump_table.py --table EverydayLyric --start 2021-01-01 --end 2021-04-18 --step 15 --move-to /Users/hongliang/dataset/jenkins'
+python3 jobs/dump_table.py --table EverydayLyric --start 2021-01-01 --end 2021-04-18 --step 15 --move-to /Users/hongliang/dataset/jenkins
++ python3 jobs/dump_table.py --table EverydayLyric --start 2021-01-01 --end 2021-04-18 --step 15 --move-to /Users/hongliang/dataset/jenkins
+from date: 2021-01-01 00:00:00 to 2021-01-16 00:00:00: 43
+from date: 2021-01-16 00:00:00 to 2021-01-31 00:00:00: 74
+from date: 2021-01-31 00:00:00 to 2021-02-15 00:00:00: 94
+from date: 2021-02-15 00:00:00 to 2021-03-02 00:00:00: 75
+from date: 2021-03-02 00:00:00 to 2021-03-17 00:00:00: 48
+from date: 2021-03-17 00:00:00 to 2021-04-01 00:00:00: 52
+from date: 2021-04-01 00:00:00 to 2021-04-16 00:00:00: 62
+from date: 2021-04-16 00:00:00 to 2021-05-01 00:00:00: 15
++ source /Users/hongliang/envs/pytorch/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/Users/hongliang/envs/pytorch
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/usr/bin:/bin:/usr/sbin:/sbin
+++ PATH=/Users/hongliang/envs/pytorch/bin:/usr/bin:/bin:/usr/sbin:/sbin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ '[' 'x(pytorch) ' '!=' x ']'
+++ PS1='(pytorch) '
+++ export PS1
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
++ PY_SCRIPT=/Users/hongliang/code/kirinBrain/lyric_recommender/run_cf.py
+++ date +%Y%m%d
++ python /Users/hongliang/code/kirinBrain/lyric_recommender/run_cf.py --lyric-path /Users/hongliang/dataset/jenkins/EverydayLyric_20210418.csv --result-root /Users/hongliang/results
+The result is saved in /Users/hongliang/results/cold_start_20210418.csv
+The result is saved in /Users/hongliang/results/recos_20210418.csv
++ deactivate
++ '[' -n /usr/bin:/bin:/usr/sbin:/sbin ']'
++ PATH=/usr/bin:/bin:/usr/sbin:/sbin
++ export PATH
++ unset _OLD_VIRTUAL_PATH
++ '[' -n '' ']'
++ '[' -n /bin/sh -o -n '' ']'
++ hash -r
++ '[' -n '' ']'
++ unset VIRTUAL_ENV
++ '[' '!' '' = nondestructive ']'
++ unset -f deactivate
+++ date +%Y%m%d
++ python3 jobs/upload_model_recos.py --path /Users/hongliang/results/recos_20210418.csv --table-name modelRecoTest
+oKJKF0tJf43dc8XfnQTrzs4fhxNE
+['6bfe09cfe4', 'd0721cebef', '2278f32545', 'a488a51697', 'b0626e20ee', 'c0b6f4cf37', '6a2fcc5a11', '2b5bbc72c4', '33682c3709', 'f4935d6562', '33682c3709', 'd0721cebef', 'a14f26c33a', '2278f32545', '1e7c1902ae', 'a488a51697', 'b0d4fb701f', 'fe7519ed2c', '37ad154b81', '9c8de4e153\n']
+{"results":[{"createdAt":"2021-01-21 01:22:32","objectId":"d065dea932","updatedAt":"2021-01-21 01:22:43"}]}
+User name: oKJKF0tJf43dc8XfnQTrzs4fhxNE, 对应objectId: d065dea932
+{"createdAt":"2021-04-19 09:02:08","objectId":"d8cf340d02"}
+b55ccd5ccfd6bc24
+['0a51273c7d', '5069ee8ff7', '1e7c1902ae', 'a488a51697', 'bc7649dbbe', '39cd5d2e5f', '7684304340', '2d0b690daa', 'b0d4fb701f', 'd128bbff8a\n']
+{"results":[{"createdAt":"2020-02-08 19:43:39","objectId":"de787a1349","updatedAt":"2021-02-04 00:21:47"}]}
+User name: b55ccd5ccfd6bc24, 对应objectId: de787a1349
+{"createdAt":"2021-04-19 09:02:10","objectId":"03ea6af250"}
+0f78df88c3f46c5c
+['ed04ffc546', 'c0503a6562', '65251f5d75', '0e79f34925', 'fc419c2a8a', '40bd8b618f', '65fda2d443', '1cd423c3ce', '6bfe09cfe4', '4c1a777db5\n']
+{"results":[{"createdAt":"2020-02-24 00:22:11","objectId":"6c17706504","updatedAt":"2021-04-09 10:58:29"}]}
+User name: 0f78df88c3f46c5c, 对应objectId: 6c17706504
+{"createdAt":"2021-04-19 09:02:12","objectId":"684da4c6a2"}
+oKJKF0u9u-Xj_yY3KS9THewNYKsk
+['c0b6f4cf37', '5c1566ec72', 'dedcbcdbdc', '3a8bf03780', '80a2af3554', '942eca7a78', '54c9ed8b81', '729e8c215e', 'f7981eeecb', '52d792c244\n']
+{"results":[{"createdAt":"2021-03-04 19:59:35","objectId":"cb9fdd4d89","updatedAt":"2021-03-04 20:52:07"}]}
+User name: oKJKF0u9u-Xj_yY3KS9THewNYKsk, 对应objectId: cb9fdd4d89
+{"createdAt":"2021-04-19 09:02:14","objectId":"b51ec5f3c5"}
+oKJKF0jW3cfW0-fGZ8ERZRyiPe-8
+['ac55e8b671', 'e509da3ca4', '6a2fcc5a11', '698d1a4d5e', 'f4935d6562\n']
+{"results":[{"createdAt":"2020-05-20 01:15:19","objectId":"7a15c40060","updatedAt":"2021-04-08 00:04:12"}]}
+User name: oKJKF0jW3cfW0-fGZ8ERZRyiPe-8, 对应objectId: 7a15c40060
+{"createdAt":"2021-04-19 09:02:17","objectId":"4fcb5f7768"}
+freestylegod
+['a14f26c33a', 'db70b10d48', 'c0503a6562', '14ef1c2092', '0e79f34925', '96d7217be5', '19169df11e', '13fe165cd3', '09d55085d2', '2ff9e6a9e6\n']
+{"results":[{"createdAt":"2021-03-19 12:43:16","objectId":"895fef8a4a","updatedAt":"2021-03-20 09:06:31"}]}
+User name: freestylegod, 对应objectId: 895fef8a4a
+{"createdAt":"2021-04-19 09:02:19","objectId":"98c0a5acdd"}
+oKJKF0uj0F5JLjFaXAtct7uWuaas
+['9c8de4e153', '6883c6530b', 'b87fa7d439', '6f4e465199', 'dbd4703558', 'ffc16edde1', 'f2640f3bc6\n']
+{"results":[{"createdAt":"2021-02-07 23:38:03","objectId":"d4e3f688a9","updatedAt":"2021-02-12 16:59:31"}]}
+User name: oKJKF0uj0F5JLjFaXAtct7uWuaas, 对应objectId: d4e3f688a9
+{"createdAt":"2021-04-19 09:02:21","objectId":"4165339bfc"}
+oKJKF0s1z2gfhBvKyad-KVi9aed0
+['6a2fcc5a11', '6bfe09cfe4', '8e46a1b478', 'd19b276427', 'a8b3e481e3', '1cd423c3ce', 'c0503a6562', '3d5a3aea89', '8a8a4abbc2', '0838d986ab\n']
+{"results":[{"createdAt":"2020-05-14 12:16:02","objectId":"44e35e77b1","updatedAt":"2021-04-07 21:53:07"}]}
+User name: oKJKF0s1z2gfhBvKyad-KVi9aed0, 对应objectId: 44e35e77b1
+{"createdAt":"2021-04-19 09:02:24","objectId":"20bb95be39"}
+oKJKF0mvhsWKjqQa5if3HEbxWAgg
+['a5903d75ba', '777fc701e6', 'cc347fc4b1', 'c7cfcb0185\n']
+{"results":[{"createdAt":"2021-03-28 19:16:17","objectId":"451278a1fe","updatedAt":"2021-04-01 18:48:02"}]}
+User name: oKJKF0mvhsWKjqQa5if3HEbxWAgg, 对应objectId: 451278a1fe
+{"createdAt":"2021-04-19 09:02:26","objectId":"0842d7b7bb"}
++86 19934965517
+['1bcb955418', '146079d3f9', 'f7afccff56', 'fa09eb3c0e', 'ffa385f473', '727aca9075', '7ec7890740', 'd128bbff8a', 'a9ff94c954', '9c8de4e153\n']
+{"results":[]}
+Traceback (most recent call last):
+  File "jobs/upload_model_recos.py", line 95, in <module>
+    main()
+  File "jobs/upload_model_recos.py", line 72, in main
+    user_object_id = user_res.json().get("results")[0].get("objectId")
+IndexError: list index out of range
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
