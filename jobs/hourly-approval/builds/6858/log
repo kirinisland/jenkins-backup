@@ -1,0 +1,112 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 85f6c13ea10e68137aea0710cf9dd88a622162f5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 85f6c13ea10e68137aea0710cf9dd88a622162f5 # timeout=10
+Commit message: "handle empty results"
+ > git rev-list --no-walk 85f6c13ea10e68137aea0710cf9dd88a622162f5 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1621135003143274504.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 9首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+余生请多指教 我多想说出这句话
+半夜睡不着觉 我只想跟你搭一搭话
+我害怕 你生气无奈 愤怒的表情
+ 我知道 你这眼神里面包含着感情
+外面下着雨 我在雨中等着你
+见你左右摇摆跑进了街边的一辆宝马里
+
+敏感词如下:
+余生请多指教 我多想说出这句话
+半夜睡不着觉 我只想跟你搭一搭话
+我害怕 你生气无奈 愤怒的表情
+ 我知道 你这眼神里面包含着感情
+外面下着雨 我在雨中等着你
+见你左右摇摆跑进了街边的一辆宝*里
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+榨干我 绑架我 诽谤我 勒索我 命没了还想睡 
+亲吻我 拥抱我 抚摸我 调戏我 心没了还想醉 
+我们的关系不再纯粹 像饼干一样被碾碎 
+我真的不想再继续 我的后代还需要延续
+
+敏感词如下:
+榨*我 绑架我 诽谤我 勒索我 命没了还想睡 
+亲吻我 拥抱我 抚摸我 调戏我 心没了还想醉 
+我们的关系不再纯粹 像饼*一样被碾碎 
+我真的不想再继续 我的后代还需要延续
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+听到有人说着闲话 竟然是我挚爱的人  
+无止境的流言蜚语 四处飘散烂透了的魂
+我不再相信任何的人 我唾弃所有犯贱的人  
+愿者上钩心服口服锻炼心中幼稚的神
+
+敏感词如下:
+听到有人说着闲话 竟然是我挚爱的人  
+无止境的流言蜚语 四处飘散*透了的魂
+我不再相信任何的人 我唾弃所有犯*的人  
+愿者上钩心服口服锻炼心中幼稚的神
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+加州好天气清
+欧洲几天会绵绵多雨
+瞬间又耀眼目
+沙巴的沙似星 东京要做记认
+干线由涉谷转眼会到田野町
+
+敏感词如下:
+加州好天气清
+欧洲几天会绵绵多雨
+瞬间又耀眼目
+沙巴的沙似星 东京要做记认
+*线由涉谷转眼会到田野町
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+bro，我知道你已经快要放弃
+没关系，赶紧逃离千里还有这熟悉的一切
+打开手机
+上面有我的消息
+以及我的游戏邀请
+
+敏感词如下:
+bro，我知道你已经快要放弃
+没关系，赶紧逃离千里还有这熟悉的一切
+打开手机
+上面有我的*
+以及我的游戏邀请
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+回想往事
+满是心事
+一本故事
+书名无知
+非常真实
+皆是现实
+
+敏感词如下:
+回想往事
+满是心事
+一*故事
+书名无知
+非常真实
+皆是现实
+-----------------------------
+Finished: SUCCESS
