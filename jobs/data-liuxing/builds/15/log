@@ -7905,3 +7905,2135 @@ INFO:[DataPipeline]:PlayList: [854903329] 中国风 (1962/2134) has 16 songs.
 INFO:[DataPipeline]:PlayList: [7153532902] 大学自习室&#32;·&#32;若有安静纯音相伴 (1963/2134) has 42 songs.
 INFO:[DataPipeline]:PlayList: [7864742377] 『自习室』刷题轻音，助力学习 (1964/2134) has 50 songs.
 INFO:[DataPipeline]:PlayList: [6915924913] 写作业专用&#32;清华自习室音乐&#32;集中注意力 (1965/2134) has 45 songs.
+INFO:[DataPipeline]:PlayList: [7033036603] 提神醒脑：深夜自习不再孤单 (1966/2134) has 230 songs.
+INFO:[DataPipeline]:PlayList: [7939408500] 考研自习室&#32;·&#32;静心时刻必备轻音 (1967/2134) has 30 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "runner_qq.py", line 51, in process_playlist
+    songs = api.get_songs_from_playlist(playlist_id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 23, in get_songs_from_playlist
+    response = self.fetch(url).get("cdlist", [])[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 83, in process_playlist
+    logger.error("Exception in processing playlist: ", e)
+Message: 'Exception in processing playlist: '
+Arguments: (IndexError('list index out of range'),)
+INFO:[DataPipeline]:PlayList: [7075624755] Study&#32;with&#32;me&#32;&#124;&#32;b站自习室纯音 (1968/2134) has 46 songs.
+INFO:[DataPipeline]:PlayList: [7706521235] 自习室里的风景，耳机里的世界 (1969/2134) has 77 songs.
+INFO:[DataPipeline]:Sleep for: 63
+INFO:[DataPipeline]:PlayList: [7891267387] Acoustic：自习室舒缓氛围安利 (1970/2134) has 85 songs.
+INFO:[DataPipeline]:PlayList: [7650216545] 解忧自习室：让灵魂浸入浓郁书香 (1971/2134) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7586503822] 自习时刻｜图书馆学习伴侣 (1972/2134) has 67 songs.
+INFO:[DataPipeline]:PlayList: [7881948094] 静心自习室｜开学作战提前预备 (1973/2134) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7694297703] 【自习室】&#124;&#32;高效率纯音乐 (1974/2134) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7713032987] 【精选】东方神曲，晚自习必备&#33; (1975/2134) has 52 songs.
+INFO:[DataPipeline]:PlayList: [7650359335] 古典音乐自习室｜进来一起学习吗 (1976/2134) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7700911430] JAZZ&#32;&#124;&#32;全天候服务咖啡自习室 (1977/2134) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7684615853] 「白噪集」流水/雨声/自习/烤火 (1978/2134) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7721230813] 自习用纯音&#32;&#124;&#32;压住躁动的自己 (1979/2134) has 15 songs.
+INFO:[DataPipeline]:Sleep for: 60
+INFO:[DataPipeline]:PlayList: [7323853901] 你好，旧时光&#32;原声配乐大碟 (1980/2134) has 20 songs.
+INFO:[DataPipeline]:PlayList: [3823813483] 你好，旧时光&#32;原声配乐大碟 (1981/2134) has 7 songs.
+INFO:[DataPipeline]:PlayList: [4436435568] 你好，旧时光&#32;原声配乐大碟 (1982/2134) has 124 songs.
+INFO:[DataPipeline]:PlayList: [3682990202] 你好，旧时光&#32;原声配乐大碟 (1983/2134) has 20 songs.
+INFO:[DataPipeline]:PlayList: [6328396369] 你好，旧时光&#32;原声配乐大碟 (1984/2134) has 19 songs.
+INFO:[DataPipeline]:PlayList: [3632219635] 你好，旧时光&#32;原声配乐大碟 (1985/2134) has 19 songs.
+INFO:[DataPipeline]:PlayList: [3630825060] 你好，旧时光&#32;原声配乐大碟 (1986/2134) has 18 songs.
+INFO:[DataPipeline]:PlayList: [4277843048] 你好，旧时光&#32;原声配乐大碟 (1987/2134) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7071200638] 你好，旧时光&#32;原声配乐大碟 (1988/2134) has 19 songs.
+INFO:[DataPipeline]:PlayList: [5855617086] 你好，旧时光&#32;原声配乐大碟 (1989/2134) has 29 songs.
+INFO:[DataPipeline]:Sleep for: 102
+INFO:[DataPipeline]:PlayList: [7111502824] 你好，旧时光&#32;原声配乐大碟 (1990/2134) has 18 songs.
+INFO:[DataPipeline]:PlayList: [4156421288] 你好，旧时光&#32;原声配乐大碟 (1991/2134) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7612386085] 你好，旧时光&#32;原声配乐大碟 (1992/2134) has 11 songs.
+INFO:[DataPipeline]:PlayList: [3631363979] 你好，旧时光&#32;原声配乐大碟 (1993/2134) has 22 songs.
+INFO:[DataPipeline]:PlayList: [3847888246] 你好，旧时光&#32;原声配乐大碟 (1994/2134) has 19 songs.
+INFO:[DataPipeline]:PlayList: [4200051899] 你好，旧时光&#32;原声配乐大碟 (1995/2134) has 19 songs.
+INFO:[DataPipeline]:PlayList: [3570889446] 那些评论999&#43;的古风（中国风）歌曲 (1996/2134) has 63 songs.
+INFO:[DataPipeline]:PlayList: [3189965891] 美美中国风――刘珂矣 (1997/2134) has 26 songs.
+INFO:[DataPipeline]:PlayList: [3761846727] 电子&#32;&#32;中国风 (1998/2134) has 40 songs.
+INFO:[DataPipeline]:PlayList: [3495532482] ◤中国风◢ (1999/2134) has 52 songs.
+INFO:[DataPipeline]:Sleep for: 119
+INFO:[DataPipeline]:PlayList: [41039660] 中国风&#32;&#32;&#32;戏剧也疯狂 (2000/2134) has 7 songs.
+INFO:[DataPipeline]:PlayList: [2933738350] 【中國風】聽一曲古琴嘆 (2001/2134) has 127 songs.
+INFO:[DataPipeline]:PlayList: [2671684295] 中国风民谣 (2002/2134) has 752 songs.
+INFO:[DataPipeline]:PlayList: [3261099905] 周杰伦的中国风，说的是谁的故事，谁的人生 (2003/2134) has 15 songs.
+INFO:[DataPipeline]:PlayList: [3666781781] 欧美范&#124;中国风&#32;现代电子与古风电子的碰撞 (2004/2134) has 237 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 911, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=212911192&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=212911192&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=212911192&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1039: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=202355561&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=202355561&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=202355561&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))")),)
+INFO:[DataPipeline]:PlayList: [3572257602] 【古风&#45;戏腔】&#32;绝艳中国风：吟一曲缱绻诗调 (2005/2134) has 40 songs.
+INFO:[DataPipeline]:PlayList: [2361152244] 国产丨中国风 (2006/2134) has 56 songs.
+INFO:[DataPipeline]:PlayList: [1484053311] 中国风か (2007/2134) has 355 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1039: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=213957983&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=213957983&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=213957983&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))")),)
+INFO:[DataPipeline]:PlayList: [31894287] 西洋下的中国风音乐 (2008/2134) has 11 songs.
+INFO:[DataPipeline]:PlayList: [1749305929] 周杰伦&#32;魔杰座&#32;中国风&#32;轻音乐 (2009/2134) has 79 songs.
+INFO:[DataPipeline]:Sleep for: 58
+INFO:[DataPipeline]:PlayList: [3220796828] 中国风 (2010/2134) has 813 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=293695482&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=293695482&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=293695482&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1039: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=218191685&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=218191685&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=218191685&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 911, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 502 Could not resolve host c.y.qq.com
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=231030978&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Could not resolve host c.y.qq.com')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=231030978&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Could not resolve host c.y.qq.com')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=231030978&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Could not resolve host c.y.qq.com')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 1321, in getresponse
+    response.begin()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 265, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=108029927&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=108029927&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=108029927&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1039: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=214003654&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=214003654&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=214003654&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))")),)
+INFO:[DataPipeline]:PlayList: [2031148601] CHINA系列（中国风电音） (2011/2134) has 26 songs.
+INFO:[DataPipeline]:PlayList: [4222992969] 常听中国风 (2012/2134) has 168 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 906, in _tunnel
+    (version, code, message) = response._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=233779335&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=233779335&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=233779335&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))")),)
+INFO:[DataPipeline]:PlayList: [845377999] 中国风 (2013/2134) has 465 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1039: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102960508&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102960508&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102960508&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1039: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=1647645&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=1647645&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=1647645&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))")),)
+INFO:[DataPipeline]:PlayList: [6463891121] 中国风 (2014/2134) has 155 songs.
+INFO:[DataPipeline]:PlayList: [1424717047] 中国风and古风 (2015/2134) has 117 songs.
+INFO:[DataPipeline]:PlayList: [2897697008] 三字经之中国风 (2016/2134) has 36 songs.
+INFO:[DataPipeline]:PlayList: [1118901349] 恋恋中国风 (2017/2134) has 238 songs.
+INFO:[DataPipeline]:PlayList: [2649008155] 迷上电音（中国风） (2018/2134) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7094401163] 中国风 (2019/2134) has 278 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 906, in _tunnel
+    (version, code, message) = response._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=200546531&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=200546531&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=200546531&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 911, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102339812&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102339812&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102339812&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: timeout')))")),)
+INFO:[DataPipeline]:Sleep for: 37
+INFO:[DataPipeline]:PlayList: [876349195] 中国风另类宣泄喊麦 (2020/2134) has 89 songs.
+INFO:[DataPipeline]:PlayList: [1457713497] 周杰伦中国风&#32;&#32;好听最吊 (2021/2134) has 15 songs.
+INFO:[DataPipeline]:PlayList: [1483937289] 中国风 (2022/2134) has 542 songs.
+INFO:[DataPipeline]:PlayList: [856469479] 中国风&#32;&#58;笛，二胡，陶笛等 (2023/2134) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1733668298] 中国风，古典 (2024/2134) has 90 songs.
+INFO:[DataPipeline]:PlayList: [6809808093] 那些红极一时的中国风系列γ (2025/2134) has 65 songs.
+INFO:[DataPipeline]:PlayList: [2659466546] °古风控→歌曲百首大合集･最美不过中国风 (2026/2134) has 258 songs.
+INFO:[DataPipeline]:PlayList: [2946529571] JAY式中国风 (2027/2134) has 21 songs.
+INFO:[DataPipeline]:PlayList: [2617364706] 中国风 (2028/2134) has 54 songs.
+INFO:[DataPipeline]:PlayList: [1758111994] 浓浓中国风 (2029/2134) has 131 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1056)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=203514034&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=203514034&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (SSLError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=203514034&_=1513437581324 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1056)')))")),)
+INFO:[DataPipeline]:Sleep for: 98
+INFO:[DataPipeline]:PlayList: [1763257090] 中国风&#32;『纯音乐』 (2030/2134) has 19 songs.
+INFO:[DataPipeline]:PlayList: [1081479293] 许嵩式中国风 (2031/2134) has 35 songs.
+INFO:[DataPipeline]:PlayList: [2816668528] 中国风の爱 (2032/2134) has 230 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 906, in _tunnel
+    (version, code, message) = response._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=225708726&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=225708726&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=225708726&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))")),)
+INFO:[DataPipeline]:PlayList: [19027492] 水袖的音色&#32;离人的清歌&#32;情殇中国风 (2033/2134) has 8 songs.
+INFO:[DataPipeline]:PlayList: [3665578220] 抖友福利&#32;&#124;&#32;加班汪的自嗨节奏 (2034/2134) has 71 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 906, in _tunnel
+    (version, code, message) = response._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=207422365&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=207422365&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=207422365&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))")),)
+INFO:[DataPipeline]:PlayList: [1471624909] 【视频剪辑BGM】后期加班搬砖必备 (2035/2134) has 125 songs.
+INFO:[DataPipeline]:PlayList: [3592083834] 今晚加班！喝咖啡能比听这张歌单管用？ (2036/2134) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7871576091] 【工作轻音】告别熬夜加班的烦恼 (2037/2134) has 27 songs.
+INFO:[DataPipeline]:PlayList: [814771950] 这些音乐给加班的你 (2038/2134) has 30 songs.
+INFO:[DataPipeline]:PlayList: [1469094749] Future&#32;Bass｜设计师深夜加班的提神剂 (2039/2134) has 149 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 911, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 406 Proxy Error: server_error Error creating ext request: TUN_ERR: DNS resolution failed(empty_address_list)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=108886325&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 406 Proxy Error: server_error Error creating ext request: TUN_ERR: DNS resolution failed(empty_address_list)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=108886325&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 406 Proxy Error: server_error Error creating ext request: TUN_ERR: DNS resolution failed(empty_address_list)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=108886325&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 406 Proxy Error: server_error Error creating ext request: TUN_ERR: DNS resolution failed(empty_address_list)')))")),)
+INFO:[DataPipeline]:Sleep for: 160
+INFO:[DataPipeline]:PlayList: [7910551335] 「DJ提神」加班醒神效率过人 (2040/2134) has 35 songs.
+INFO:[DataPipeline]:PlayList: [4254105415] 周五没加班就去蹦迪呀！ (2041/2134) has 37 songs.
+INFO:[DataPipeline]:PlayList: [2357995365] 上班绝对不要听抖腿电音：燃到你想加班 (2042/2134) has 101 songs.
+INFO:[DataPipeline]:PlayList: [2308882902] 解夏困冲剂：加班赶稿听的华语歌 (2043/2134) has 59 songs.
+INFO:[DataPipeline]:PlayList: [3814665212] 加班提神剂：日系俏皮女声 (2044/2134) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7880755065] 上班族专属，高效工作的提神秘诀 (2045/2134) has 27 songs.
+INFO:[DataPipeline]:PlayList: [4218970402] 加班必备&#32;·&#32;提神电子 (2046/2134) has 30 songs.
+INFO:[DataPipeline]:PlayList: [2333172108] 加班补充剂｜打工人的精神食粮 (2047/2134) has 24 songs.
+INFO:[DataPipeline]:PlayList: [3615199764] 横扫加班困意的清爽电子 (2048/2134) has 66 songs.
+INFO:[DataPipeline]:PlayList: [7823952852] 工作解压：缓解吃饭加班的生活吧 (2049/2134) has 30 songs.
+INFO:[DataPipeline]:Sleep for: 38
+INFO:[DataPipeline]:PlayList: [7543296420] 假期加班经典神曲：比咖啡管用！ (2050/2134) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7187378652] DJ&#32;&#124;&#32;成年人加班回家夜嗨一场 (2051/2134) has 46 songs.
+INFO:[DataPipeline]:PlayList: [7278275202] 华语&#124;&#32;加班不上火 (2052/2134) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7739351141] 重庆GOSH专区：勒是雾都 (2053/2134) has 71 songs.
+INFO:[DataPipeline]:PlayList: [7735589227] 一起来感受山城重庆的魅力 (2054/2134) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7217375712] 2019&#32;重庆长江草莓音乐节 (2055/2134) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7164782390] 重庆森林&#32;&#124;&#32;影视原声集 (2056/2134) has 16 songs.
+INFO:[DataPipeline]:PlayList: [7306879715] 故城不老，即为重庆 (2057/2134) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7718162213] 重庆之光｜来自山城的宝藏男孩 (2058/2134) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7728842133] 美好的时光｜重庆限定音乐记忆 (2059/2134) has 39 songs.
+INFO:[DataPipeline]:Sleep for: 38
+INFO:[DataPipeline]:PlayList: [7793365283] 重庆说唱&#32;·&#32;有点拽的麻辣味Rap (2060/2134) has 24 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 911, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 406 Proxy Error: server_error Error creating ext request: TUN_ERR: DNS resolution failed(empty_address_list)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg?type=1&json=1&utf8=1&onlysong=0&disstid=7860172721&format=json&g_tk=5381&inCharset=utf8&outCharset=utf-8&platform=yqq&needNewCode=0 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 406 Proxy Error: server_error Error creating ext request: TUN_ERR: DNS resolution failed(empty_address_list)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 51, in process_playlist
+    songs = api.get_songs_from_playlist(playlist_id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 23, in get_songs_from_playlist
+    response = self.fetch(url).get("cdlist", [])[0]
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 29, in fetch
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg?type=1&json=1&utf8=1&onlysong=0&disstid=7860172721&format=json&g_tk=5381&inCharset=utf8&outCharset=utf-8&platform=yqq&needNewCode=0 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 406 Proxy Error: server_error Error creating ext request: TUN_ERR: DNS resolution failed(empty_address_list)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 83, in process_playlist
+    logger.error("Exception in processing playlist: ", e)
+Message: 'Exception in processing playlist: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg?type=1&json=1&utf8=1&onlysong=0&disstid=7860172721&format=json&g_tk=5381&inCharset=utf8&outCharset=utf-8&platform=yqq&needNewCode=0 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 406 Proxy Error: server_error Error creating ext request: TUN_ERR: DNS resolution failed(empty_address_list)')))")),)
+INFO:[DataPipeline]:PlayList: [7715822526] 重庆说唱：尼斯末NISSMO (2061/2134) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7793431863] 没得重庆味儿，还听啥子嘻哈！ (2062/2134) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7964585845] 重庆话｜来自山城雾都的呐喊 (2063/2134) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7233549003] Gosh厂牌&#32;&#124;&#32;重庆城红岩魂 (2064/2134) has 19 songs.
+INFO:[DataPipeline]:PlayList: [3711318729] Gai周延燃起来重庆魂&#32;不断更新 (2065/2134) has 71 songs.
+INFO:[DataPipeline]:PlayList: [2532521187] 萧敬腾世界巡回演唱会&#45;&#45;重庆站 (2066/2134) has 19 songs.
+INFO:[DataPipeline]:PlayList: [4135607439] 重庆 (2067/2134) has 26 songs.
+INFO:[DataPipeline]:PlayList: [3749901674] 幺妹重庆火锅 (2068/2134) has 144 songs.
+INFO:[DataPipeline]:PlayList: [3718835805] 勒是雾都&#45;&#45;重庆Gosh说唱 (2069/2134) has 85 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 906, in _tunnel
+    (version, code, message) = response._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=212846661&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=212846661&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=212846661&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))")),)
+INFO:[DataPipeline]:Sleep for: 58
+INFO:[DataPipeline]:PlayList: [2960685992] 重庆 (2070/2134) has 249 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 906, in _tunnel
+    (version, code, message) = response._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=105085395&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=105085395&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=105085395&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))")),)
+INFO:[DataPipeline]:PlayList: [3754376655] 牵着谦谦的手逛重庆 (2071/2134) has 177 songs.
+INFO:[DataPipeline]:PlayList: [7649182070] 重庆音乐房子 (2072/2134) has 30 songs.
+INFO:[DataPipeline]:PlayList: [4273938998] 阿飞正传花样年华2046重庆森林堕落天使春光 (2073/2134) has 19 songs.
+INFO:[DataPipeline]:PlayList: [3118573343] 重庆森林。 (2074/2134) has 766 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 906, in _tunnel
+    (version, code, message) = response._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=206291188&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=206291188&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=206291188&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))")),)
+INFO:[DataPipeline]:PlayList: [3504964728] 重庆SPACE：百大歌单 (2075/2134) has 68 songs.
+INFO:[DataPipeline]:PlayList: [2357429514] classic、重庆7妹 (2076/2134) has 307 songs.
+INFO:[DataPipeline]:PlayList: [3551539395] DJ重庆人收藏9999&#43;&#32;&#32;&#95;七妹 (2077/2134) has 316 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 911, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 406 Proxy Error: server_error Error creating ext request: TUN_ERR: DNS resolution failed(empty_address_list)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=209327588&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 406 Proxy Error: server_error Error creating ext request: TUN_ERR: DNS resolution failed(empty_address_list)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=209327588&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 406 Proxy Error: server_error Error creating ext request: TUN_ERR: DNS resolution failed(empty_address_list)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=209327588&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 406 Proxy Error: server_error Error creating ext request: TUN_ERR: DNS resolution failed(empty_address_list)')))")),)
+INFO:[DataPipeline]:PlayList: [3563759629] 2017周杰伦重庆演唱会歌单 (2078/2134) has 29 songs.
+INFO:[DataPipeline]:PlayList: [1453377956] 重庆七妹 (2079/2134) has 468 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 911, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 406 Proxy Error: server_error Error creating ext request: TUN_ERR: DNS resolution failed(empty_address_list)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=109217591&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 406 Proxy Error: server_error Error creating ext request: TUN_ERR: DNS resolution failed(empty_address_list)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=109217591&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 406 Proxy Error: server_error Error creating ext request: TUN_ERR: DNS resolution failed(empty_address_list)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=109217591&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 406 Proxy Error: server_error Error creating ext request: TUN_ERR: DNS resolution failed(empty_address_list)')))")),)
+INFO:[DataPipeline]:Sleep for: 75
+INFO:[DataPipeline]:PlayList: [1159619328] 重庆第一刚源 (2080/2134) has 197 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 906, in _tunnel
+    (version, code, message) = response._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=268277647&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=268277647&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=268277647&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1039: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=255779364&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=255779364&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=255779364&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))")),)
+INFO:[DataPipeline]:PlayList: [1474195535] NB重庆话NB重庆人 (2081/2134) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7555571327] 心动推荐&#32;&#124;&#32;韩式说唱了解一下 (2082/2134) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7555571698] 欧美说唱&#32;·&#32;把烦恼都释放掉 (2083/2134) has 30 songs.
+INFO:[DataPipeline]:PlayList: [2067205584] 中文说唱，谁能比我有范儿 (2084/2134) has 282 songs.
+INFO:[DataPipeline]:PlayList: [2671455299] 这些超赞说唱写着made&#32;in&#32;China (2085/2134) has 272 songs.
+INFO:[DataPipeline]:PlayList: [7555568558] 欧美Rap&#32;&#124;&#32;会让你心跳加速的说唱 (2086/2134) has 30 songs.
+INFO:[DataPipeline]:PlayList: [2670809605] 「华语说唱」这首抒情诗，专为你而作 (2087/2134) has 32 songs.
+INFO:[DataPipeline]:PlayList: [3862438004] 舒解加班疲倦的华语抒情说唱 (2088/2134) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7130484486] “丧”感说唱丨生活需要一点苦头 (2089/2134) has 39 songs.
+INFO:[DataPipeline]:Sleep for: 64
+INFO:[DataPipeline]:PlayList: [7471893906] 评论999&#43;中国风说唱（持更） (2090/2134) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7555572063] 国语说唱&#32;│&#32;我的故事我自己写 (2091/2134) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7555564668] 「Hip&#45;hop」说唱我是认真的 (2092/2134) has 16 songs.
+INFO:[DataPipeline]:PlayList: [7555567931] 慵懒说唱：属于嘻哈的美好时光 (2093/2134) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7555571945] 说唱强心剂，唤醒你兴奋的神经 (2094/2134) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7073314723] 中国风说唱&#32;·&#32;胸中正气塞天地 (2095/2134) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7555564571] 华语说唱&#32;&#124;&#32;这种style你爱吗 (2096/2134) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7023403326] 说唱速成班：伴奏beats特供 (2097/2134) has 25 songs.
+INFO:[DataPipeline]:PlayList: [2968132627] 「欧美HIPA」新人Rapper，说唱界未来之星 (2098/2134) has 55 songs.
+INFO:[DataPipeline]:PlayList: [7555564853] 说唱是我表达情绪的方式 (2099/2134) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 66
+INFO:[DataPipeline]:PlayList: [3233507861] 西岸说唱，凶狠的杰作 (2100/2134) has 21 songs.
+INFO:[DataPipeline]:PlayList: [3268368601] 「90′s」说唱世界的黄金时期 (2101/2134) has 343 songs.
+INFO:[DataPipeline]:PlayList: [7555566146] 欧美漩涡：陷入说唱的旋律魅力中 (2102/2134) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7555567992] rapper的温柔｜&#32;说唱低音炮 (2103/2134) has 22 songs.
+INFO:[DataPipeline]:PlayList: [2066560474] 「华语说唱」从他的歌声了解他 (2104/2134) has 49 songs.
+INFO:[DataPipeline]:PlayList: [7555569552] 一个会说唱的情话Grandmaster (2105/2134) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7555564312] 华语说唱：落寞咆哮，思绪更焦躁 (2106/2134) has 26 songs.
+INFO:[DataPipeline]:PlayList: [4100386839] 毒性说唱突破体能极限&#124;超级猩猩健身 (2107/2134) has 24 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 906, in _tunnel
+    (version, code, message) = response._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=213375595&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=213375595&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=213375595&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))")),)
+INFO:[DataPipeline]:PlayList: [1769135329] 「说唱」了解黄金时代的嘻哈精神 (2108/2134) has 200 songs.
+INFO:[DataPipeline]:PlayList: [4275046268] 华语说唱｜那些国产嘻哈情歌 (2109/2134) has 34 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 906, in _tunnel
+    (version, code, message) = response._read_status()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=213333813&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=213333813&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=213333813&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('timed out')))")),)
+INFO:[DataPipeline]:Sleep for: 171
+INFO:[DataPipeline]:PlayList: [7555565382] 欧美说唱&#32;&#124;&#32;坚守初衷，永不退缩 (2110/2134) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7343834375] Remix中文说唱·枕头为什么湿了 (2111/2134) has 52 songs.
+INFO:[DataPipeline]:PlayList: [2968132747] 「说唱」英文Beat与中文填词的邂逅 (2112/2134) has 53 songs.
+INFO:[DataPipeline]:PlayList: [3755051420] 嘻哈发烧友：街头说唱无处不在 (2113/2134) has 41 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 911, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 502 Could not resolve host c.y.qq.com
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=5121015&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Could not resolve host c.y.qq.com')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-liuxing/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=5121015&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Could not resolve host c.y.qq.com')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=5121015&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Could not resolve host c.y.qq.com')))")),)
+INFO:[DataPipeline]:PlayList: [7555568035] 中文说唱：我的嘻哈梦 (2114/2134) has 19 songs.
+INFO:[DataPipeline]:PlayList: [2653152180] 点燃激情的韩式说唱 (2115/2134) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7555570015] 国语说唱：在迷雾中寻找自己 (2116/2134) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7555564559] 华语说唱&#32;&#124;&#32;热情澎湃，青春无限 (2117/2134) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7555564938] 王牌嘻哈：欧美说唱浪潮来袭 (2118/2134) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7095962471] 韩国说唱&#32;·&#32;Rap与抒情的完美融合 (2119/2134) has 21 songs.
+INFO:[DataPipeline]:Sleep for: 158
+INFO:[DataPipeline]:PlayList: [7555565396] 一个人的生活，成就了说唱朗诵家 (2120/2134) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7026709090] 教练，我打篮球都听这些说唱 (2121/2134) has 61 songs.
+INFO:[DataPipeline]:PlayList: [7555571838] 华语说唱&#32;│&#32;听内心的声音 (2122/2134) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7555569442] 华语说唱&#32;·&#32;引领时代新潮流 (2123/2134) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7555566085] 找组织！热衷于欧美Folw型说唱 (2124/2134) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7526533219] 欧美说唱&#32;&#124;&#32;别幼稚的像个孩子 (2125/2134) has 15 songs.
+INFO:[DataPipeline]:PlayList: [6802140934] “丧”气十足的磁性说唱 (2126/2134) has 39 songs.
+INFO:[DataPipeline]:PlayList: [7555568024] 韩语说唱：沦陷在爱豆的魅力里 (2127/2134) has 19 songs.
+INFO:[DataPipeline]:PlayList: [3851947927] 《XXL》历年评选说唱新人 (2128/2134) has 113 songs.
+INFO:[DataPipeline]:PlayList: [7372561647] 喜庆说唱：过年贺岁来点新花样 (2129/2134) has 15 songs.
+INFO:[DataPipeline]:Sleep for: 115
+INFO:[DataPipeline]:PlayList: [7555567458] 欧美说唱：跟着音乐一起嗨 (2130/2134) has 30 songs.
++ mv liuxing.txt /Users/hongliang/media/storage/production_data/original_lyric/20210418
+Finished: SUCCESS
