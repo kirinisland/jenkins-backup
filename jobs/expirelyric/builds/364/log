@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 85f6c13ea10e68137aea0710cf9dd88a622162f5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 85f6c13ea10e68137aea0710cf9dd88a622162f5 # timeout=10
+Commit message: "handle empty results"
+ > git rev-list --no-walk 85f6c13ea10e68137aea0710cf9dd88a622162f5 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins4744940575457900055.sh
++ python3 jobs/expirelyric.py --count 15
+('224bace06d', '2021-04-12 21:40:44', '我爱过你\n可还是水潭里的鱼\n别在犹豫\n我对这寂静歇斯底里\n我爱这里\n能放空我自己')
+('0e79f34925', '2021-04-13 06:23:17', '没有不舍得的话\n让妈妈不要牵挂\n乘坐去天堂的末班车\n没有任何转折\n就这样结束了')
+('b57e79c2e6', '2021-04-15 00:02:19', '星河不知意')
+('0ecfd05158', '2021-04-16 13:07:43', '当我在车站静侯\n回想起我们第一次见面的感受\n看着车站尽头的夕阳\n好像一抹你笑的温柔')
+('a614ef4c04', '2021-04-16 23:09:15', '一边害怕别人过分激情，一边害怕孤独和夜晚.')
+('cfdc4e348b', '2021-04-16 23:47:24', '天上亮著星星\n時鈡滴答不停\n數綿羊聽蟬鳴\n我慢慢進入了夢境\n\n')
+('eec824f298', '2021-04-17 02:07:59', '期待着明天你能回来不再走\n那为什么走到了那个分叉路口\n期待你能告诉我你为什么离开\n你能不能回来和我不再分开大步走\n告诉我告诉我你能不能回来依然笑着说\n告诉我告诉我你能不能离开依然回来抱住我')
+('7b1cf7b6b1', '2021-04-17 02:08:35', '期待着明天你能回来不再走\n那为什么走到了那个分叉路口\n期待你能告诉我你为什么离开\n你能不能回来和我不再分开大步走\n告诉我告诉我你能不能回来依然笑着说\n告诉我告诉我你能不能离开依然回来抱住我')
+('cdf31cdd40', '2021-04-18 22:01:18', '树上的落叶开始落\n你和我一起并排坐\n作业和你一起拖\n有心事只对你一人说')
+('17db5c35a1', '2021-04-19 00:59:45', '暗黄的灯下是亮白的雪\n而我只是留在空气里的影\n和寒风相伴的空洞心情\n才能体现黑夜里安静的美')
+('0ade2d3b22', '2021-04-19 02:28:57', '泪水揉进风里略带咸味的夏夜 做个梦在海边相见 \n风会送来星星月亮 温柔的抚摸海水将花送到你身边\n留在这里也没有关系 时间会开始暂停\n想要的都会在这里 \n风把一切都还你 一切都还你 自由是你风是你')
+('4b75b41663', '2021-04-19 08:11:28', '人类向往光明，却用尽了黑暗的手段.')
+('1088457f4e', '2021-04-20 09:35:38', '又一次惊醒在房间\n回忆中你熟悉的脸\n再一次闯入我 成为我的一切\n时间它永远都无言\n却总又消逝了誓言\n只留下无尽思念 和遗憾重叠')
+('3a9c3d70bc', '2021-04-22 17:08:08', '说过的一生\n走着就走成陌路人\n宁愿孤身一人\n也不愿从熟悉再到后来陌生')
+('b2069417fe', '2021-04-22 22:18:55', '你坐在海边看日升和日落。\n而我与你背对背看星星降落。\n当星光涌入星河。\n当黑夜不再漫长。\n')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
