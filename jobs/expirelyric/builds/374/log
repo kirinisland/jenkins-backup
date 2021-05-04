@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 85f6c13ea10e68137aea0710cf9dd88a622162f5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 85f6c13ea10e68137aea0710cf9dd88a622162f5 # timeout=10
+Commit message: "handle empty results"
+ > git rev-list --no-walk 85f6c13ea10e68137aea0710cf9dd88a622162f5 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins7295378634822112448.sh
++ python3 jobs/expirelyric.py --count 15
+('3a9c3d70bc', '2021-04-22 17:08:08', '说过的一生\n走着就走成陌路人\n宁愿孤身一人\n也不愿从熟悉再到后来陌生')
+('b2069417fe', '2021-04-22 22:18:55', '你坐在海边看日升和日落。\n而我与你背对背看星星降落。\n当星光涌入星河。\n当黑夜不再漫长。\n')
+('04d9002421', '2021-04-23 20:58:48', '夜里我被梦到的回忆撕成了碎片\n时间也不一定会抹除伤痕磨平一切\n你的样子早在我的脑海里生根发芽我怎么忘得掉\n我看着之前的聊天记录和照片我在这自顾自地笑 \n雨不会一直下 我却在一直等\n我只会烂在回忆里 原地踏步的一直憧憬 ')
+('dc748bc155', '2021-04-23 21:48:05', '在来的路上\n看着那阳光\n就这样靠在你脸庞\n你美丽的模样\n记在我心上\n就当梦一场')
+('b46e6d7208', '2021-04-24 17:23:16', '黑色海水作屏障\n都交出字纸一张\n还待众人欣赏\n也算纲举目张\n也算一张 冰冷的模样')
+('d046f509b2', '2021-04-24 17:23:23', '黑色海水作屏障\n都交出字纸一张\n还待众人欣赏\n也算纲举目张\n也算一张 冰冷的模样')
+('658a09ca33', '2021-04-24 19:10:37', '树上的枯叶开始落\n你和我一起并排坐\n作业和你一起拖\n有心事只对你一人说')
+('ba6066077e', '2021-04-25 11:43:15', '你成为我生活中唯一的依靠\n在我难过的时候能给我深情一个拥抱\n你就是我生活不可缺少的药\n就是这样的我陪你天荒地老\n')
+('a6761f7198', '2021-04-26 02:04:30', '贺楠先生有一个梦\n寻找女友拥抱未来\n年轻美貌知书达理\n入得厅堂下得厨房\n自备房车不要彩礼')
+('b943d62d81', '2021-04-27 00:15:25', '原来不是真的不爱你\n可惜这已不是儿时的游戏\n每当夜深人静的时候 想起你\n默默的看着你的相片\n说声 对不起')
+('e45909b79e', '2021-04-27 21:12:42', '小妞儿我算不上北京的仙儿\n心里装的那都是事儿\n天天快乐我没烦恼\n想和你们一起奔跑\n我跑得快\n你们追不上')
+('a148ee9f15', '2021-04-28 08:01:09', '这个世界上，\n没有谁离不开谁，\n每个人都是独立的个体，\n没有人有权利去控制你可以喜欢谁，\n可以讨厌谁，\n可我怎么控制不住喜欢你呢，即使你和别人在一起了。')
+('90351c0161', '2021-04-28 18:21:31', '谁家郎君疾疾马蹄声\n道旁相迎寂寂皆是空\n唯有残梦怯怯问一声\n远方可有娇娇人中凤')
+('e6b17bb7fd', '2021-04-28 23:04:42', '寂静的天边开满了彼岸花 \n我埋葬在泥泞下 \n你听身旁有人在说话 \n无目的人嚼着舌头在撒谎 \n他说天使代表希望 \n我看见他们踩踏着乞讨者的心脏 ')
+('58b636f156', '2021-05-01 00:59:48', '秋天应该很好，\n如果你能在我身边。\n然而总有一段距离，\n让我没有办法改变，\n就像你我之间那道界限。')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
