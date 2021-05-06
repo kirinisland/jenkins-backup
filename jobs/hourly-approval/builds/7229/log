@@ -1,0 +1,60 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 85f6c13ea10e68137aea0710cf9dd88a622162f5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 85f6c13ea10e68137aea0710cf9dd88a622162f5 # timeout=10
+Commit message: "handle empty results"
+ > git rev-list --no-walk 85f6c13ea10e68137aea0710cf9dd88a622162f5 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins4206478256286736455.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 8首.
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+我在花粉季中苦苦的掙扎
+白天黑夜痛苦來的猝不及防
+如果噴嚏聲能幫我打出一片天下
+眼淚直流無妨
+坐擁江山如畫
+
+敏感词如下:
+我在花粉季中苦苦的掙扎
+白天黑夜痛苦來的猝不及防
+如果噴嚏聲能幫我打出一片天下
+眼淚直流無妨
+坐擁*如畫
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+你好啊  我们刚刚认识啊
+还在吗  是不是已经长大啦
+记得吧  快乐在脸上了吧
+我们啊  现在已经很熟啦
+
+敏感词如下:
+你好啊  我们刚刚认识啊
+还在*  是不是已经长大啦
+记得吧  快乐在脸上了吧
+我们啊  现在已经很熟啦
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+Finished: SUCCESS
