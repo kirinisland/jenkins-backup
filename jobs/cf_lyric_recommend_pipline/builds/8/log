@@ -1,0 +1,92 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/cf_lyric_recommend_pipline
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 32927a8aa1f5a6dfbe2025b88776f6638b9b7766 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 32927a8aa1f5a6dfbe2025b88776f6638b9b7766 # timeout=10
+Commit message: "post logger"
+ > git rev-list --no-walk 85f6c13ea10e68137aea0710cf9dd88a622162f5 # timeout=10
+[cf_lyric_recommend_pipline] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1690123327013084098.sh
++ CMD='python3 jobs/dump_table.py --table EverydayLyric --start 2020-06-01 --end 2021-05-01 --step 15'
++ '[' '!' /Users/hongliang/dataset/jenkins = '' ']'
++ CMD='python3 jobs/dump_table.py --table EverydayLyric --start 2020-06-01 --end 2021-05-01 --step 15 --move-to /Users/hongliang/dataset/jenkins'
++ echo 'python3 jobs/dump_table.py --table EverydayLyric --start 2020-06-01 --end 2021-05-01 --step 15 --move-to /Users/hongliang/dataset/jenkins'
+python3 jobs/dump_table.py --table EverydayLyric --start 2020-06-01 --end 2021-05-01 --step 15 --move-to /Users/hongliang/dataset/jenkins
++ python3 jobs/dump_table.py --table EverydayLyric --start 2020-06-01 --end 2021-05-01 --step 15 --move-to /Users/hongliang/dataset/jenkins
+from date: 2020-06-01 00:00:00 to 2020-06-16 00:00:00: 104
+from date: 2020-06-16 00:00:00 to 2020-07-01 00:00:00: 127
+from date: 2020-07-01 00:00:00 to 2020-07-16 00:00:00: 116
+from date: 2020-07-16 00:00:00 to 2020-07-31 00:00:00: 126
+from date: 2020-07-31 00:00:00 to 2020-08-15 00:00:00: 107
+from date: 2020-08-15 00:00:00 to 2020-08-30 00:00:00: 108
+from date: 2020-08-30 00:00:00 to 2020-09-14 00:00:00: 102
+from date: 2020-09-14 00:00:00 to 2020-09-29 00:00:00: 69
+from date: 2020-09-29 00:00:00 to 2020-10-14 00:00:00: 65
+from date: 2020-10-14 00:00:00 to 2020-10-29 00:00:00: 63
+from date: 2020-10-29 00:00:00 to 2020-11-13 00:00:00: 69
+from date: 2020-11-13 00:00:00 to 2020-11-28 00:00:00: 83
+from date: 2020-11-28 00:00:00 to 2020-12-13 00:00:00: 70
+from date: 2020-12-13 00:00:00 to 2020-12-28 00:00:00: 71
+from date: 2020-12-28 00:00:00 to 2021-01-12 00:00:00: 55
+from date: 2021-01-12 00:00:00 to 2021-01-27 00:00:00: 59
+from date: 2021-01-27 00:00:00 to 2021-02-11 00:00:00: 92
+from date: 2021-02-11 00:00:00 to 2021-02-26 00:00:00: 85
+from date: 2021-02-26 00:00:00 to 2021-03-13 00:00:00: 57
+from date: 2021-03-13 00:00:00 to 2021-03-28 00:00:00: 44
+from date: 2021-03-28 00:00:00 to 2021-04-12 00:00:00: 58
+from date: 2021-04-12 00:00:00 to 2021-04-27 00:00:00: 61
+from date: 2021-04-27 00:00:00 to 2021-05-12 00:00:00: 42
++ source /Users/hongliang/envs/pytorch/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/Users/hongliang/envs/pytorch
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/usr/bin:/bin:/usr/sbin:/sbin
+++ PATH=/Users/hongliang/envs/pytorch/bin:/usr/bin:/bin:/usr/sbin:/sbin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ '[' 'x(pytorch) ' '!=' x ']'
+++ PS1='(pytorch) '
+++ export PS1
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
++ PY_SCRIPT=/Users/hongliang/code/kirinBrain/lyric_recommender/run_cf.py
+++ date +%Y%m%d
++ python /Users/hongliang/code/kirinBrain/lyric_recommender/run_cf.py --lyric-path /Users/hongliang/dataset/jenkins/EverydayLyric_20210523.csv --result-root /Users/hongliang/results
+The result is saved in /Users/hongliang/results/cold_start_20210523.csv
+The result is saved in /Users/hongliang/results/recos_20210523.csv
++ deactivate
++ '[' -n /usr/bin:/bin:/usr/sbin:/sbin ']'
++ PATH=/usr/bin:/bin:/usr/sbin:/sbin
++ export PATH
++ unset _OLD_VIRTUAL_PATH
++ '[' -n '' ']'
++ '[' -n /bin/sh -o -n '' ']'
++ hash -r
++ '[' -n '' ']'
++ unset VIRTUAL_ENV
++ '[' '!' '' = nondestructive ']'
++ unset -f deactivate
+++ date +%Y%m%d
++ python3 jobs/upload_model_recos.py --path /Users/hongliang/results/recos_20210523.csv --table-name modelRecoTest
+Build was aborted
+Aborted by [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Finished: ABORTED

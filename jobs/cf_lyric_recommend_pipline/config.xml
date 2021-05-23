@@ -27,7 +27,7 @@
         <hudson.model.StringParameterDefinition>
           <name>move_to</name>
           <description>Move the dumped file to the local directory</description>
-          <defaultValue></defaultValue>
+          <defaultValue>/Users/hongliang/dataset/jenkins</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -49,7 +49,7 @@
     </userRemoteConfigs>
     <branches>
       <hudson.plugins.git.BranchSpec>
-        <name>*/master</name>
+        <name>feature/test-logger</name>
       </hudson.plugins.git.BranchSpec>
     </branches>
     <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
