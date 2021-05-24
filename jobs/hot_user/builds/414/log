@@ -1,0 +1,33 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hot_user
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 85f6c13ea10e68137aea0710cf9dd88a622162f5 # timeout=10
+[hot_user] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5545187399566942504.sh
++ python3 jobs/hot_user.py --count 25
+Hot users after date: 2021-05-17 00:00:00
+点赞最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-05-17 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-likeCount
+[('427925f0d3', 1, 1, 0, 0), ('38dd5eb906', 1, 1, 0, 0), ('cabd47e98f', 3, 1, 0, 2), ('3f6ab1e777', 2, 1, 0, 1), ('3f6ab1e777', 2, 1, 0, 1), ('eb8d7e42b4', 3, 1, 0, 2), ('d66fa1d96e', 0, 0, 0, 0), ('2fefe9aac4', 0, 0, 0, 0), ('2b139a5156', 0, 0, 0, 0), ('cd7210b91b', 0, 0, 0, 0)]
+
+评论最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-05-17 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-commentCount
+[('427925f0d3', 1, 1, 0, 0), ('38dd5eb906', 1, 1, 0, 0), ('d66fa1d96e', 0, 0, 0, 0), ('cabd47e98f', 3, 1, 0, 2), ('2fefe9aac4', 0, 0, 0, 0), ('2b139a5156', 0, 0, 0, 0), ('cd7210b91b', 0, 0, 0, 0), ('3f6ab1e777', 2, 1, 0, 1), ('3f6ab1e777', 2, 1, 0, 1), ('eb8d7e42b4', 3, 1, 0, 2)]
+
+收藏最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-05-17 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-bookmarkCount
+[('cabd47e98f', 3, 1, 0, 2), ('eb8d7e42b4', 3, 1, 0, 2), ('3f6ab1e777', 2, 1, 0, 1), ('3f6ab1e777', 2, 1, 0, 1), ('d66fa1d96e', 0, 0, 0, 0), ('427925f0d3', 1, 1, 0, 0), ('38dd5eb906', 1, 1, 0, 0), ('2fefe9aac4', 0, 0, 0, 0), ('2b139a5156', 0, 0, 0, 0), ('cd7210b91b', 0, 0, 0, 0)]
+{'427925f0d3': (3, 3, 0, 0, {'likeCount', 'bookmarkCount', 'commentCount'}), '38dd5eb906': (3, 3, 0, 0, {'likeCount', 'bookmarkCount', 'commentCount'}), 'cabd47e98f': (9, 3, 0, 6, {'likeCount', 'bookmarkCount', 'commentCount'}), '3f6ab1e777': (12, 6, 0, 6, {'likeCount', 'bookmarkCount', 'commentCount'}), 'eb8d7e42b4': (9, 3, 0, 6, {'likeCount', 'bookmarkCount', 'commentCount'}), 'd66fa1d96e': (0, 0, 0, 0, {'likeCount', 'bookmarkCount', 'commentCount'}), '2fefe9aac4': (0, 0, 0, 0, {'likeCount', 'bookmarkCount', 'commentCount'}), '2b139a5156': (0, 0, 0, 0, {'likeCount', 'bookmarkCount', 'commentCount'}), 'cd7210b91b': (0, 0, 0, 0, {'likeCount', 'bookmarkCount', 'commentCount'})}
+Total hot users count after date: 2021-05-17 00:00:00: 9
+[{'success': {'createdAt': '2021-05-24 20:20:03', 'objectId': '5ec8e39f67'}}, {'success': {'createdAt': '2021-05-24 20:20:03', 'objectId': '1f5b8d9e60'}}, {'success': {'createdAt': '2021-05-24 20:20:03', 'objectId': '5ce628f3cf'}}, {'success': {'createdAt': '2021-05-24 20:20:03', 'objectId': '0c777cff4d'}}, {'success': {'createdAt': '2021-05-24 20:20:03', 'objectId': '9971f16aef'}}, {'success': {'createdAt': '2021-05-24 20:20:03', 'objectId': '85f26db858'}}, {'success': {'createdAt': '2021-05-24 20:20:03', 'objectId': '71eae03139'}}, {'success': {'createdAt': '2021-05-24 20:20:03', 'objectId': '244ad8168a'}}, {'success': {'createdAt': '2021-05-24 20:20:03', 'objectId': '94b3476283'}}]
+Finished: SUCCESS

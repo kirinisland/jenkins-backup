@@ -1,0 +1,313 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/word_sim_model
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/kirinBrain.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/kirinBrain.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/kirinBrain.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision df6fb07573c8243032a0f688859a49d78dca6069 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f df6fb07573c8243032a0f688859a49d78dca6069 # timeout=10
+Commit message: "Update auto_retrain_docker.sh"
+ > git rev-list --no-walk df6fb07573c8243032a0f688859a49d78dca6069 # timeout=10
+[word_sim_model] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins6044397155392664897.sh
++ set -x
++ source /Users/hongliang/envs/pytorch/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/Users/hongliang/envs/pytorch
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/usr/bin:/bin:/usr/sbin:/sbin
+++ PATH=/Users/hongliang/envs/pytorch/bin:/usr/bin:/bin:/usr/sbin:/sbin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ '[' 'x(pytorch) ' '!=' x ']'
+++ PS1='(pytorch) '
+++ export PS1
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
++ cd word_sim_auto_retrain
++ export PYTHONPATH=:../kirin:..
++ PYTHONPATH=:../kirin:..
+++ date +%Y%m%d
++ today_date=20210523
++ CMD='./auto_retrain_docker.sh /Users/hongliang/media/storage 20210523 20210418      20210523 20210523 20200719-dryrun /Users/hongliang/code/fastText'
++ ./auto_retrain_docker.sh /Users/hongliang/media/storage 20210523 20210418 20210523 20210523 20200719-dryrun /Users/hongliang/code/fastText
+
+
+************ Step-1: Setting up data directories and check required input data files ************
+lyric_data_date_dir=/Users/hongliang/media/storage/production_data/original_lyric//20210418
+user_data_date_dir=/Users/hongliang/media/storage/production_data/user_search_words//20210523
+dev_data_date_dir=/Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523
+prod_model_date_dir=/Users/hongliang/media/storage/production_data/word_models//20210523
+previous_prod_model_date_dir=/Users/hongliang/media/storage/production_data/word_models//20200719-dryrun
+File /Users/hongliang/media/storage/production_data/original_lyric//20210418/liuxing.txt exists, proceed to next step
+File /Users/hongliang/media/storage/production_data/original_lyric//20210418/minyao.txt exists, proceed to next step
+File /Users/hongliang/media/storage/production_data/original_lyric//20210418/shige.txt exists, proceed to next step
+File /Users/hongliang/media/storage/production_data/original_lyric//20210418/shuochang.txt exists, proceed to next step
+File /Users/hongliang/media/storage/production_data/original_lyric//20210418/zhongguofeng.txt exists, proceed to next step
+File /Users/hongliang/media/storage/production_data/user_search_words//20210523/WordSearchTracking.csv exists, proceed to next step
+
+
+************ Step-2: Prepare and segment lyric data and process user search data (this takes about 2 hours) ************
+[2021-05-23 18:10:29,776] MainThread {/private/var/root/.jenkins/workspace/word_sim_model/kirin/helper.py:31} INFO - Logging file not specified. Logging to stdout...
+[2021-05-23 18:10:29,777] MainThread {create_fasttext_seg_train_data.py:38} INFO - Dev data dir {} does not exist, creating...
+[2021-05-23 18:10:29,777] MainThread {/private/var/root/.jenkins/workspace/word_sim_model/kirin/helper.py:42} INFO - Logging to file /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523log/step2_prepare_data_20210523-181029.777332.log
+[2021-05-23 18:10:29,870] MainThread {/private/var/root/.jenkins/workspace/word_sim_model/kirin/user_search_words.py:22} INFO - Loaded 28720 records of user searched words
+Traceback (most recent call last):
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 3080, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 4554, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 4562, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'word'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "create_fasttext_seg_train_data.py", line 54, in <module>
+    user_search_words.unique_user_words_with_freq()
+  File "/private/var/root/.jenkins/workspace/word_sim_model/kirin/user_search_words.py", line 27, in unique_user_words_with_freq
+    self.user_words_df["word"] = self.user_words_df["word"].apply(
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/core/frame.py", line 3024, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/core/indexes/base.py", line 3082, in get_loc
+    raise KeyError(key) from err
+KeyError: 'word'
+
+
+************ Step-3: Combining zhongguofeng and shige for seg data (be careful to rerun this step!) ************
+mv: rename /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/zhongguofeng_seg_train.txt to /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/zhongguofeng_seg_train_original.txt: No such file or directory
+cat: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/zhongguofeng_seg_train_original.txt: No such file or directory
+cat: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/shige_seg_train.txt: No such file or directory
+
+
+************ Step-4: Advanced filtering by cixing and user search words etc ************
+[2021-05-23 18:10:30,854] MainThread {/private/var/root/.jenkins/workspace/word_sim_model/kirin/helper.py:42} INFO - Logging to file /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523log/step4_advanced_filtering_20210523-181030.854668.log
+Traceback (most recent call last):
+  File "advanced_filtering.py", line 28, in <module>
+    filter.set_data()
+  File "/private/var/root/.jenkins/workspace/word_sim_model/kirin/word_filter.py", line 24, in set_data
+    word_df = pd.read_csv(os.path.join(self.data_dir, self.style + "_seg_train.txt.cixing.csv"))
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 610, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 462, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 819, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1050, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1867, in __init__
+    self._open_handles(src, kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1368, in _open_handles
+    storage_options=kwds.get("storage_options", None),
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/common.py", line 647, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/liuxing_seg_train.txt.cixing.csv'
+
+
+************ Step-5: Merge seg data of all styles to have allFour style ************
+cat: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/*_seg_train.txt.clean.txt: No such file or directory
+
+
+************ Step-6: Generate blacklist filtering for front end ************
+[2021-05-23 18:10:31,762] MainThread {/private/var/root/.jenkins/workspace/word_sim_model/kirin/helper.py:42} INFO - Logging to file /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523log/step6_generate_frontend_blacklist_20210523-181031.762611.log
+Traceback (most recent call last):
+  File "generate_frontend_search_result_blacklist.py", line 27, in <module>
+    word_list += pd.read_csv(os.path.join(dev_data_date_dir, style+"_user_word_and_filter_review.csv"))["word"].to_list()
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 610, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 462, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 819, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1050, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1867, in __init__
+    self._open_handles(src, kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1368, in _open_handles
+    storage_options=kwds.get("storage_options", None),
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/common.py", line 647, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/liuxing_user_word_and_filter_review.csv'
+
+
+************ Step-7: Train a fasttest base model for allFour and the four styles (this takes about 4-5hr) ************
+Training a model for allFour from scratch with minCount 30
+Read 0M words
+Number of words:  0
+Number of labels: 0
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: Empty vocabulary. Try a smaller -minCount value.
+./auto_retrain_docker.sh: line 95: 13615 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -lr 0.05 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3
+Training a model for liuxing from scratch with minCount 30
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/liuxing_seg_train.txt.clean.txt cannot be opened for training!
+./auto_retrain_docker.sh: line 95: 13616 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -lr 0.05 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3
+Training a model for minyao from scratch with minCount 30
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/minyao_seg_train.txt.clean.txt cannot be opened for training!
+./auto_retrain_docker.sh: line 95: 13617 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -lr 0.05 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3
+Training a model for shuochang from scratch with minCount 30
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/shuochang_seg_train.txt.clean.txt cannot be opened for training!
+./auto_retrain_docker.sh: line 95: 13618 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -lr 0.05 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3
+Training a model for zhongguofeng from scratch with minCount 30
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/zhongguofeng_seg_train.txt.clean.txt cannot be opened for training!
+./auto_retrain_docker.sh: line 95: 13619 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -lr 0.05 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3
+
+
+************ Step-8: Check the number of workds trained for each style, including allFour ************
+wc: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/allFour_seg_train.txt.clean.txt.vec: open: No such file or directory
+Total words in style allFour is: 
+wc: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/liuxing_seg_train.txt.clean.txt.vec: open: No such file or directory
+Total words in style liuxing is: 
+wc: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/minyao_seg_train.txt.clean.txt.vec: open: No such file or directory
+Total words in style minyao is: 
+wc: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/shuochang_seg_train.txt.clean.txt.vec: open: No such file or directory
+Total words in style shuochang is: 
+wc: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/zhongguofeng_seg_train.txt.clean.txt.vec: open: No such file or directory
+Total words in style zhongguofeng is: 
+
+
+************ Step-9: Generate search results from scratch models as a sanity check ************
+Traceback (most recent call last):
+  File "search_sanity_check.py", line 39, in <module>
+    names=["word"])["word"].to_list()
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 610, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 462, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 819, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1050, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1867, in __init__
+    self._open_handles(src, kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1368, in _open_handles
+    storage_options=kwds.get("storage_options", None),
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/common.py", line 647, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/frontend_blacklist.txt'
+
+
+************ Step-10: Generate pre-trained models for each of the four styles ************
+[2021-05-23 18:10:34,635] MainThread {/private/var/root/.jenkins/workspace/word_sim_model/kirin/helper.py:42} INFO - Logging to file /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523log/step10_generate_pretrained_models_20210523-181034.635443.log
+[2021-05-23 18:10:34,635] MainThread {/private/var/root/.jenkins/workspace/word_sim_model/kirin/helper.py:31} INFO - Logging file not specified. Logging to stdout...
+Generating pretrained vector for style liuxing
+Traceback (most recent call last):
+  File "generate_pretrained_from_base_model.py", line 40, in <module>
+    model_handler.create_pretrained_vec(base_model_file, scratch_model_file, pretrained_model_file)
+  File "/private/var/root/.jenkins/workspace/word_sim_model/kirin/word_sim.py", line 164, in create_pretrained_vec
+    model_dict = self.load_fasttext_model_dict(scratch_model_file)
+  File "/private/var/root/.jenkins/workspace/word_sim_model/kirin/word_sim.py", line 180, in load_fasttext_model_dict
+    with open(model_file, "r", encoding="utf8") as fin:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/liuxing_seg_train.txt.clean.txt.vec'
+
+
+************ Step-11: Fine-tune fasttest models from allFour base model for the four styles (this takes about 2-3hr) ************
+Training a model for liuxing from scratch with minCount 30
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/liuxing_seg_train.txt.clean.txt cannot be opened for training!
+./auto_retrain_docker.sh: line 130: 13633 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt.finetune" -lr 0.01 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3 -pretrainedVectors "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt.vec"
+Training a model for minyao from scratch with minCount 30
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/minyao_seg_train.txt.clean.txt cannot be opened for training!
+./auto_retrain_docker.sh: line 130: 13634 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt.finetune" -lr 0.01 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3 -pretrainedVectors "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt.vec"
+Training a model for shuochang from scratch with minCount 30
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/shuochang_seg_train.txt.clean.txt cannot be opened for training!
+./auto_retrain_docker.sh: line 130: 13635 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt.finetune" -lr 0.01 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3 -pretrainedVectors "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt.vec"
+Training a model for zhongguofeng from scratch with minCount 30
+libc++abi.dylib: terminating with uncaught exception of type std::invalid_argument: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/zhongguofeng_seg_train.txt.clean.txt cannot be opened for training!
+./auto_retrain_docker.sh: line 130: 13636 Abort trap: 6           ${fasttext_dir}/fasttext skipgram -input "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt" -output "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt.finetune" -lr 0.01 -dim 100 -ws 3 -epoch 15 -minCount $minCount -neg 10 -loss ns -bucket 2000000 -minn 1 -maxn 3 -thread 16 -t 1e-4 -lrUpdateRate 100 -verbose 3 -pretrainedVectors "${dev_data_date_dir}/${style}_seg_train.txt.clean.txt.vec"
+
+
+************ Step-12: Generate search results from fine-tuned models as an evaluation ************
+Traceback (most recent call last):
+  File "search_sanity_check.py", line 39, in <module>
+    names=["word"])["word"].to_list()
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 610, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 462, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 819, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1050, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1867, in __init__
+    self._open_handles(src, kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1368, in _open_handles
+    storage_options=kwds.get("storage_options", None),
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/common.py", line 647, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/frontend_blacklist.txt'
+
+
+************ Step-13: Copy the well-trained models files to production folder ************
+Traceback (most recent call last):
+  File "copy_prod_model_files.py", line 20, in <module>
+    f_vec = open(model_file, "r", encoding="utf-8")
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/liuxing_seg_train.txt.clean.txt.finetune.vec'
+cp: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/frontend_blacklist.txt: No such file or directory
+
+
+************ Step-14: Create frequency table for rhythm and move the file to production folder ************
+[2021-05-23 18:10:37,125] MainThread {/private/var/root/.jenkins/workspace/word_sim_model/kirin/helper.py:42} INFO - Logging to file /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523log/step14_create_rhythm_freq_20210523-181037.125597.log
+Traceback (most recent call last):
+  File "create_rythme_freq.py", line 33, in <module>
+    names=["word"])["word"].to_list()
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 610, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 462, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 819, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1050, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1867, in __init__
+    self._open_handles(src, kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1368, in _open_handles
+    storage_options=kwds.get("storage_options", None),
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/common.py", line 647, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/frontend_blacklist.txt'
+cp: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/rythme_freq.csv: No such file or directory
+
+
+************ Step-15: Remove large fasttext model files that are not needed ************
+************ Step-16: Generate search results csv files for production ************
+Traceback (most recent call last):
+  File "generate_word_imagination_tsv.py", line 80, in <module>
+    names=["word"])["word"].to_list()
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 610, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 462, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 819, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1050, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1867, in __init__
+    self._open_handles(src, kwds)
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/parsers.py", line 1368, in _open_handles
+    storage_options=kwds.get("storage_options", None),
+  File "/Users/hongliang/envs/pytorch/lib/python3.7/site-packages/pandas/io/common.py", line 647, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/frontend_blacklist.txt'
+cp: /Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/model_results_with_mean_vec.tsv: No such file or directory
+************ Step-17: Indexing search results ************
+Traceback (most recent call last):
+  File "indexing_search_results.py", line 15, in <module>
+    with open(os.path.join(dev_data_date_dir, "model_results_with_mean_vec.tsv"), "r", encoding="utf-8") as fin:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/hongliang/media/storage/dev_data/word_model_pipeline//20210523/model_results_with_mean_vec.tsv'
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

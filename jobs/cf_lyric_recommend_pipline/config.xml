@@ -7,15 +7,9 @@
     <hudson.model.ParametersDefinitionProperty>
       <parameterDefinitions>
         <hudson.model.StringParameterDefinition>
-          <name>start</name>
-          <description></description>
-          <defaultValue>2020-01-01</defaultValue>
-          <trim>false</trim>
-        </hudson.model.StringParameterDefinition>
-        <hudson.model.StringParameterDefinition>
           <name>end</name>
           <description></description>
-          <defaultValue>2020-12-31</defaultValue>
+          <defaultValue></defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -49,7 +43,7 @@
     </userRemoteConfigs>
     <branches>
       <hudson.plugins.git.BranchSpec>
-        <name>feature/test-logger</name>
+        <name>*/master</name>
       </hudson.plugins.git.BranchSpec>
     </branches>
     <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
@@ -60,11 +54,24 @@
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-  <triggers/>
+  <triggers>
+    <hudson.triggers.TimerTrigger>
+      <spec>@weekly</spec>
+    </hudson.triggers.TimerTrigger>
+  </triggers>
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>CMD=&quot;python3 jobs/dump_table.py --table EverydayLyric --start $start --end $end --step $step&quot;
+      <command>set -x
+
+date_str=$end
+if [ &quot;${end}&quot; = &quot;&quot; ]
+then
+	date_str=`date &apos;+%Y-%m-%d&apos;`
+fi
+today_str=`date &apos;+%Y%m%d&apos;`
+
+CMD=&quot;python3 jobs/dump_table.py --table EverydayLyric --start 2020-01-01 --end ${date_str} --step $step&quot;
 
 if [ ! &quot;$move_to&quot; = &quot;&quot; ]
 then
@@ -77,11 +84,11 @@ ${CMD}
 
 source /Users/hongliang/envs/pytorch/bin/activate
 PY_SCRIPT=&quot;/Users/hongliang/code/kirinBrain/lyric_recommender/run_cf.py&quot;
-python ${PY_SCRIPT} --lyric-path &quot;${move_to}/EverydayLyric_$(date +&quot;%Y%m%d&quot;).csv&quot; --result-root ${result_root}
+python ${PY_SCRIPT} --lyric-path &quot;${move_to}/EverydayLyric_${today_str}.csv&quot; --result-root ${result_root}
 
 deactivate
-python3 jobs/upload_model_recos.py --path &quot;${result_root}/recos_$(date +&quot;%Y%m%d&quot;).csv&quot; --table-name modelRecoTest
-python3 jobs/upload_model_recos.py --path &quot;${result_root}/cold_start_$(date +&quot;%Y%m%d&quot;).csv&quot; --table-name coldStartTest
+python3 jobs/upload_model_recos.py --path &quot;${result_root}/recos_${today_str}.csv&quot; --table-name modelRecoTest
+python3 jobs/upload_model_recos.py --path &quot;${result_root}/cold_start_${today_str}.csv&quot; --table-name coldStartTest
 </command>
     </hudson.tasks.Shell>
   </builders>

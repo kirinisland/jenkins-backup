@@ -1,0 +1,100 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/user_word_dumper
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse feature/test-logger^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/feature/test-logger^{commit} # timeout=10
+Checking out Revision 21245200745af7b41c50fc7a29f93c6dff8323df (refs/remotes/origin/feature/test-logger)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 21245200745af7b41c50fc7a29f93c6dff8323df # timeout=10
+Commit message: "limit"
+ > git rev-list --no-walk 6f6233d3e8c7eea8d10a315e2bdaefc742f012ab # timeout=10
+[user_word_dumper] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins2313155493967584974.sh
++ set -x
+++ date +%Y-%m-%d
++ date_str1=2021-05-23
+++ date +%Y%m%d
++ date_str2=20210523
++ dest_dir=/Users/hongliang/media/storage/production_data/user_search_words/20210523
++ mkdir -pv /Users/hongliang/media/storage/production_data/user_search_words/20210523
++ CMD='python3 jobs/dump_table.py --table WordSearchTracking --start 2020-01-01 --end 2021-05-23      --step 15 --move-to /Users/hongliang/media/storage/production_data/user_search_words/20210523/WordSearchTracking.csv --limit 2000'
++ echo 'python3 jobs/dump_table.py --table WordSearchTracking --start 2020-01-01 --end 2021-05-23      --step 15 --move-to /Users/hongliang/media/storage/production_data/user_search_words/20210523/WordSearchTracking.csv --limit 2000'
+python3 jobs/dump_table.py --table WordSearchTracking --start 2020-01-01 --end 2021-05-23      --step 15 --move-to /Users/hongliang/media/storage/production_data/user_search_words/20210523/WordSearchTracking.csv --limit 2000
++ python3 jobs/dump_table.py --table WordSearchTracking --start 2020-01-01 --end 2021-05-23 --step 15 --move-to /Users/hongliang/media/storage/production_data/user_search_words/20210523/WordSearchTracking.csv --limit 2000
+INFO:root:date = ('2020-01-01 00:00:00', '2020-01-16 00:00:00')
+INFO:root:from date: 2020-01-01 00:00:00 to 2020-01-16 00:00:00: 500
+INFO:root:date = ('2020-01-16 00:00:00', '2020-01-31 00:00:00')
+INFO:root:from date: 2020-01-16 00:00:00 to 2020-01-31 00:00:00: 500
+INFO:root:date = ('2020-01-31 00:00:00', '2020-02-15 00:00:00')
+INFO:root:from date: 2020-01-31 00:00:00 to 2020-02-15 00:00:00: 500
+INFO:root:date = ('2020-02-15 00:00:00', '2020-03-01 00:00:00')
+INFO:root:from date: 2020-02-15 00:00:00 to 2020-03-01 00:00:00: 500
+INFO:root:date = ('2020-03-01 00:00:00', '2020-03-16 00:00:00')
+INFO:root:from date: 2020-03-01 00:00:00 to 2020-03-16 00:00:00: 500
+INFO:root:date = ('2020-03-16 00:00:00', '2020-03-31 00:00:00')
+INFO:root:from date: 2020-03-16 00:00:00 to 2020-03-31 00:00:00: 500
+INFO:root:date = ('2020-03-31 00:00:00', '2020-04-15 00:00:00')
+INFO:root:from date: 2020-03-31 00:00:00 to 2020-04-15 00:00:00: 500
+INFO:root:date = ('2020-04-15 00:00:00', '2020-04-30 00:00:00')
+INFO:root:from date: 2020-04-15 00:00:00 to 2020-04-30 00:00:00: 500
+INFO:root:date = ('2020-04-30 00:00:00', '2020-05-15 00:00:00')
+INFO:root:from date: 2020-04-30 00:00:00 to 2020-05-15 00:00:00: 500
+INFO:root:date = ('2020-05-15 00:00:00', '2020-05-30 00:00:00')
+INFO:root:from date: 2020-05-15 00:00:00 to 2020-05-30 00:00:00: 500
+INFO:root:date = ('2020-05-30 00:00:00', '2020-06-14 00:00:00')
+INFO:root:from date: 2020-05-30 00:00:00 to 2020-06-14 00:00:00: 500
+INFO:root:date = ('2020-06-14 00:00:00', '2020-06-29 00:00:00')
+INFO:root:from date: 2020-06-14 00:00:00 to 2020-06-29 00:00:00: 500
+INFO:root:date = ('2020-06-29 00:00:00', '2020-07-14 00:00:00')
+INFO:root:from date: 2020-06-29 00:00:00 to 2020-07-14 00:00:00: 500
+INFO:root:date = ('2020-07-14 00:00:00', '2020-07-29 00:00:00')
+INFO:root:from date: 2020-07-14 00:00:00 to 2020-07-29 00:00:00: 500
+INFO:root:date = ('2020-07-29 00:00:00', '2020-08-13 00:00:00')
+INFO:root:from date: 2020-07-29 00:00:00 to 2020-08-13 00:00:00: 500
+INFO:root:date = ('2020-08-13 00:00:00', '2020-08-28 00:00:00')
+INFO:root:from date: 2020-08-13 00:00:00 to 2020-08-28 00:00:00: 500
+INFO:root:date = ('2020-08-28 00:00:00', '2020-09-12 00:00:00')
+INFO:root:from date: 2020-08-28 00:00:00 to 2020-09-12 00:00:00: 500
+INFO:root:date = ('2020-09-12 00:00:00', '2020-09-27 00:00:00')
+INFO:root:from date: 2020-09-12 00:00:00 to 2020-09-27 00:00:00: 500
+INFO:root:date = ('2020-09-27 00:00:00', '2020-10-12 00:00:00')
+INFO:root:from date: 2020-09-27 00:00:00 to 2020-10-12 00:00:00: 500
+INFO:root:date = ('2020-10-12 00:00:00', '2020-10-27 00:00:00')
+INFO:root:from date: 2020-10-12 00:00:00 to 2020-10-27 00:00:00: 500
+INFO:root:date = ('2020-10-27 00:00:00', '2020-11-11 00:00:00')
+INFO:root:from date: 2020-10-27 00:00:00 to 2020-11-11 00:00:00: 500
+INFO:root:date = ('2020-11-11 00:00:00', '2020-11-26 00:00:00')
+INFO:root:from date: 2020-11-11 00:00:00 to 2020-11-26 00:00:00: 500
+INFO:root:date = ('2020-11-26 00:00:00', '2020-12-11 00:00:00')
+INFO:root:from date: 2020-11-26 00:00:00 to 2020-12-11 00:00:00: 500
+INFO:root:date = ('2020-12-11 00:00:00', '2020-12-26 00:00:00')
+INFO:root:from date: 2020-12-11 00:00:00 to 2020-12-26 00:00:00: 500
+INFO:root:date = ('2020-12-26 00:00:00', '2021-01-10 00:00:00')
+INFO:root:from date: 2020-12-26 00:00:00 to 2021-01-10 00:00:00: 500
+INFO:root:date = ('2021-01-10 00:00:00', '2021-01-25 00:00:00')
+INFO:root:from date: 2021-01-10 00:00:00 to 2021-01-25 00:00:00: 500
+INFO:root:date = ('2021-01-25 00:00:00', '2021-02-09 00:00:00')
+INFO:root:from date: 2021-01-25 00:00:00 to 2021-02-09 00:00:00: 500
+INFO:root:date = ('2021-02-09 00:00:00', '2021-02-24 00:00:00')
+INFO:root:from date: 2021-02-09 00:00:00 to 2021-02-24 00:00:00: 500
+INFO:root:date = ('2021-02-24 00:00:00', '2021-03-11 00:00:00')
+INFO:root:from date: 2021-02-24 00:00:00 to 2021-03-11 00:00:00: 500
+INFO:root:date = ('2021-03-11 00:00:00', '2021-03-26 00:00:00')
+INFO:root:from date: 2021-03-11 00:00:00 to 2021-03-26 00:00:00: 500
+INFO:root:date = ('2021-03-26 00:00:00', '2021-04-10 00:00:00')
+INFO:root:from date: 2021-03-26 00:00:00 to 2021-04-10 00:00:00: 500
+INFO:root:date = ('2021-04-10 00:00:00', '2021-04-25 00:00:00')
+INFO:root:from date: 2021-04-10 00:00:00 to 2021-04-25 00:00:00: 500
+INFO:root:date = ('2021-04-25 00:00:00', '2021-05-10 00:00:00')
+INFO:root:from date: 2021-04-25 00:00:00 to 2021-05-10 00:00:00: 500
+INFO:root:date = ('2021-05-10 00:00:00', '2021-05-25 00:00:00')
+INFO:root:from date: 2021-05-10 00:00:00 to 2021-05-25 00:00:00: 500
+INFO:root:Table is dumped to /Users/hongliang/media/storage/production_data/user_search_words/20210523/WordSearchTracking.csv
+Finished: SUCCESS

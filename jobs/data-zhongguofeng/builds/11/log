@@ -1,0 +1,1092 @@
+Started by upstream project "[8mha:////4A+bQWpgGeLrf62Kvp9R0kchXAV8l6qMSbpRKFffssHgAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP2UxJJE3aLSvLzUIn0A55yqqsYAAAA=[0mdata-runner" build number [8mha:////4BCngNC7ORJwIO3WlY/9E3r/UxOa1Nrrg53Rzx5RJSljAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6KYklibpFpXl5qUX65gDs/j5gxwAAAA==[0m7
+originally caused by:
+ Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/data-zhongguofeng
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/datapipe.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/datapipe.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/datapipe.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 8862dc0b93faeb24f71cee4ff5c950ac2bc56c56 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8862dc0b93faeb24f71cee4ff5c950ac2bc56c56 # timeout=10
+Commit message: "update log"
+ > git rev-list --no-walk 8862dc0b93faeb24f71cee4ff5c950ac2bc56c56 # timeout=10
+[data-zhongguofeng] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins8837953433311558626.sh
++ set -x
++ date_str=
++ '[' '' = '' ']'
+++ date +%Y%m%d
++ date_str=20210523
++ output_dir=/Users/hongliang/media/storage/production_data/original_lyric/20210523
++ mkdir -pv /Users/hongliang/media/storage/production_data/original_lyric/20210523
++ python3 runner_qq.py --method search --query $'\344\270\255\345\233\275\351\243\216' --output-suffix zhongguofeng --dump-raw 1 --dump-seg 0
+INFO:[DataPipeline]:Start crawling for query: 中国风
+INFO:[DataPipeline]:Processing playlist page: 0, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 1, found 45 playlists
+INFO:[DataPipeline]:Processing playlist page: 2, found 45 playlists
+INFO:[DataPipeline]:Processing playlist page: 3, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 4, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 5, found 44 playlists
+INFO:[DataPipeline]:Processing playlist page: 6, found 46 playlists
+INFO:[DataPipeline]:Processing playlist page: 7, found 46 playlists
+INFO:[DataPipeline]:Processing playlist page: 8, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 9, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 10, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 11, found 46 playlists
+INFO:[DataPipeline]:Processing playlist page: 12, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 13, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 14, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 15, found 44 playlists
+INFO:[DataPipeline]:Processing playlist page: 16, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 17, found 42 playlists
+INFO:[DataPipeline]:Processing playlist page: 18, found 44 playlists
+INFO:[DataPipeline]:Processing playlist page: 19, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 20, found 38 playlists
+INFO:[DataPipeline]:Processing playlist page: 21, found 48 playlists
+INFO:[DataPipeline]:Processing playlist page: 22, found 47 playlists
+INFO:[DataPipeline]:Processing playlist page: 23, found 45 playlists
+INFO:[DataPipeline]:Processing playlist page: 24, found 43 playlists
+INFO:[DataPipeline]:Processing playlist page: 25, found 46 playlists
+INFO:[DataPipeline]:Processing playlist page: 26, found 40 playlists
+INFO:[DataPipeline]:Processing playlist page: 27, found 45 playlists
+INFO:[DataPipeline]:Processing playlist page: 28, found 44 playlists
+INFO:[DataPipeline]:Processing playlist page: 29, found 43 playlists
+INFO:[DataPipeline]:Processing playlist page: 30, found 44 playlists
+INFO:[DataPipeline]:Processing playlist page: 31, found 42 playlists
+INFO:[DataPipeline]:Processing playlist page: 32, found 21 playlists
+INFO:[DataPipeline]:Processing playlist page: 33, found 17 playlists
+INFO:[DataPipeline]:Processing playlist page: 34, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 35, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 36, found 17 playlists
+INFO:[DataPipeline]:Processing playlist page: 37, found 17 playlists
+INFO:[DataPipeline]:Processing playlist page: 38, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 39, found 4 playlists
+INFO:[DataPipeline]:Processing playlist page: 40, found 20 playlists
+INFO:[DataPipeline]:Processing playlist page: 41, found 49 playlists
+INFO:[DataPipeline]:Processing playlist page: 42, found 3 playlists
+INFO:[DataPipeline]:Processing playlist page: 43, found 46 playlists
+INFO:[DataPipeline]:Processing playlist page: 44, found 5 playlists
+INFO:[DataPipeline]:Processing playlist page: 45, found 45 playlists
+INFO:[DataPipeline]:Processing playlist page: 46, found 50 playlists
+INFO:[DataPipeline]:Processing playlist page: 47, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 48, found 4 playlists
+INFO:[DataPipeline]:Processing playlist page: 49, found 19 playlists
+INFO:[DataPipeline]:Processing playlist page: 50, found 0 playlists
+INFO:[DataPipeline]:Total playlists found about topic: 中国风: 1844
+INFO:[DataPipeline]:PlayList: [7692240932] 【古韵古风】寻觅中国风 (0/1844) has 197 songs.
+INFO:[DataPipeline]:PlayList: [7166060330] 中国风代表作：一人一首经典曲 (1/1844) has 148 songs.
+INFO:[DataPipeline]:PlayList: [7391629553] 论中国风，我只服方文山 (2/1844) has 40 songs.
+INFO:[DataPipeline]:PlayList: [6990664122] 抖音热播中国风音乐合集 (3/1844) has 24 songs.
+INFO:[DataPipeline]:PlayList: [2061196244] 【中国风】愿得一人心&#32;白首不相离 (4/1844) has 62 songs.
+INFO:[DataPipeline]:PlayList: [7739922965] 中国风&#32;&#124;&#32;原来英雄是孤独 (5/1844) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7950244708] 说唱遇上中国风｜唇枪舌剑闯江湖 (6/1844) has 47 songs.
+INFO:[DataPipeline]:PlayList: [2671455047] 「华语」诗意中国风 (7/1844) has 106 songs.
+INFO:[DataPipeline]:PlayList: [7925273673] 中国风纯音&#32;｜&#32;袅袅音韵感悟人生 (8/1844) has 59 songs.
+INFO:[DataPipeline]:PlayList: [7440131804] 100首影视歌曲，领悟中国风韵味 (9/1844) has 126 songs.
+INFO:[DataPipeline]:Sleep for: 142
+INFO:[DataPipeline]:PlayList: [8000081582] 欧美中国风&#32;&#124;&#32;领略中西结合之美 (10/1844) has 34 songs.
+INFO:[DataPipeline]:PlayList: [1129502203] 这些中国风歌曲你还记得吗？ (11/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7617792408] 【中国风】流行音乐撞上神仙戏腔 (12/1844) has 29 songs.
+INFO:[DataPipeline]:PlayList: [6756025618] 中国风系列：把酒红尘｜醉梦一场 (13/1844) has 579 songs.
+INFO:[DataPipeline]:PlayList: [4247123729] 影视剧里的中国风男声 (14/1844) has 123 songs.
+INFO:[DataPipeline]:PlayList: [7930892302] 中国风说唱&#32;&#124;&#32;展现中华精气神 (15/1844) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7947563633] 影视中国风｜虐恋千年，情定三生 (16/1844) has 66 songs.
+INFO:[DataPipeline]:PlayList: [7795709923] 中国风｜青灯黄卷，无处话凄凉 (17/1844) has 60 songs.
+INFO:[DataPipeline]:PlayList: [7540655463] 诗意中国风，影视情中味 (18/1844) has 312 songs.
+INFO:[DataPipeline]:PlayList: [7955981471] 中国风｜山河不为重，重在得知己 (19/1844) has 40 songs.
+INFO:[DataPipeline]:Sleep for: 32
+INFO:[DataPipeline]:PlayList: [7908734292] 古韵中国风｜惊鸿一曲乱我心 (20/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [1159589645] 爷爷奶奶听了也会爱上的中国风合集 (21/1844) has 130 songs.
+INFO:[DataPipeline]:PlayList: [7648918668] 许嵩的中国风 (22/1844) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7971558140] 电子国风：年轻一代的摩登中国风 (23/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7616518963] 『中国风蹦迪』古风中文DJ (24/1844) has 160 songs.
+INFO:[DataPipeline]:PlayList: [7956387274] 中国风&#32;｜&#32;斩不断的相思情长 (25/1844) has 56 songs.
+INFO:[DataPipeline]:PlayList: [7857600806] 「中国风」岁月静好，夜色温柔 (26/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [1132507358] 编辑推荐｜一人一首韵味中国风 (27/1844) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7817836998] 『中国风』梦回那年江南烟雨🥀 (28/1844) has 45 songs.
+INFO:[DataPipeline]:PlayList: [7910861252] 轻快中国风｜诗意漫漫入心扉 (29/1844) has 21 songs.
+INFO:[DataPipeline]:Sleep for: 125
+INFO:[DataPipeline]:PlayList: [2039451577] 音乐鬼才许嵩的中国风 (30/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7673314520] 古风亦可DJ｜中国风也能蹦迪 (31/1844) has 40 songs.
+INFO:[DataPipeline]:PlayList: [1738768842] 一人一首中国风 (32/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7014439524] 中国风&#32;·&#32;何日君再来 (33/1844) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7328419661] 「中国风纯音」倚栏听风，如梦如醉 (34/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7371247029] 燃向中国风&#32;·&#32;天下风云出我辈 (35/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [1776725921] 中国风｜一曲中国风，听醉多少人 (36/1844) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7956356541] 纯音乐&#32;｜&#32;竹笛奏浓情传承中国风 (37/1844) has 33 songs.
+INFO:[DataPipeline]:PlayList: [3234866278] 浅尝悠扬的中国萨克斯风 (38/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7666557900] 中国风&#32;&#124;&#32;热播古装剧必追歌曲 (39/1844) has 123 songs.
+INFO:[DataPipeline]:Sleep for: 44
+INFO:[DataPipeline]:PlayList: [7883913336] 民乐纯音｜打开中国风古韵宝盒 (40/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [6271483957] 清歌传皓齿&#32;&#124;&#32;古风与中国风 (41/1844) has 70 songs.
+INFO:[DataPipeline]:PlayList: [1121040801] 用心聆听，韵味中国风 (42/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7081812527] 中国风&#32;&#124;&#32;经典影视大全 (43/1844) has 66 songs.
+INFO:[DataPipeline]:PlayList: [3632971993] 全能GAI&#32;&#124;&#32;中国风说唱 (44/1844) has 104 songs.
+INFO:[DataPipeline]:PlayList: [7714954224] 古韵中国风&#58;寂寞空庭春欲晚 (45/1844) has 28 songs.
+INFO:[DataPipeline]:PlayList: [6968595893] 独上兰舟，寻一曲悠悠中国风 (46/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [771437188] 唯美动听的中国风女声 (47/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [6966299000] 影视歌曲中的中国风 (48/1844) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7736961505] 『中国风』武士道·为知己者死 (49/1844) has 22 songs.
+INFO:[DataPipeline]:Sleep for: 110
+INFO:[DataPipeline]:PlayList: [7955400642] 蝶恋花：流行音乐中蕴藏的中国风 (50/1844) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7587307096] 中国风的日本纯音乐 (51/1844) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7671844289] 「中国风」一曲青丝，柔千万情 (52/1844) has 58 songs.
+INFO:[DataPipeline]:PlayList: [7817881246] 中国风：无人催送莫愁来 (53/1844) has 32 songs.
+INFO:[DataPipeline]:PlayList: [3514109038] 中国风·一曲悠扬漫篱墙 (54/1844) has 35 songs.
+INFO:[DataPipeline]:PlayList: [811110445] 粤语印记&#32;&#124;&#32;中国风的韵律 (55/1844) has 50 songs.
+INFO:[DataPipeline]:PlayList: [3219243115] 论中国风，我只服方文山 (56/1844) has 44 songs.
+INFO:[DataPipeline]:PlayList: [1727752973] 寄君一曲，欧美中国风 (57/1844) has 19 songs.
+INFO:[DataPipeline]:PlayList: [1434686238] 【古风】恋恋中国风&#32;幽幽故人情 (58/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7968934144] 『中国风』红梅初开，佳人终来 (59/1844) has 57 songs.
+INFO:[DataPipeline]:Sleep for: 166
+INFO:[DataPipeline]:PlayList: [2909820514] 古风之韵&#32;唯美中国风&#32;悠悠来袭 (60/1844) has 23 songs.
+INFO:[DataPipeline]:PlayList: [4247108355] 影视剧里的中国风对唱 (61/1844) has 94 songs.
+INFO:[DataPipeline]:PlayList: [7576941440] 中国风TRAP，华夏乐器杀 (62/1844) has 17 songs.
+INFO:[DataPipeline]:PlayList: [2924951291] 中国风，一曲离骚让人伤 (63/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7192223383] 戏腔中国风：三分唱念七分作 (64/1844) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7691843535] 中国风｜倾听一曲，韵律绕心头 (65/1844) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7199774015] 中国风&#32;&#124;&#32;仙侠电视剧歌曲盘点 (66/1844) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7653762392] 中国风，聆听古代的声音。 (67/1844) has 36 songs.
+INFO:[DataPipeline]:PlayList: [1757933544] &#32;90后记忆中的中国风：流行歌曲中的诗意 (68/1844) has 79 songs.
+INFO:[DataPipeline]:PlayList: [7654827445] 影视中国风｜婉转女声，惹人沉醉 (69/1844) has 45 songs.
+INFO:[DataPipeline]:Sleep for: 59
+INFO:[DataPipeline]:PlayList: [7981710321] 花前月下，笛声曼妙飘洒｜中国风 (70/1844) has 120 songs.
+INFO:[DataPipeline]:PlayList: [7717220125] 中国风：一曲相思，一饮如梦 (71/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7442818498] 恋恋中国风：一见倾心傲视芳华 (72/1844) has 51 songs.
+INFO:[DataPipeline]:PlayList: [2860235555] 中国风：余韵悠扬寄以心 (73/1844) has 74 songs.
+INFO:[DataPipeline]:PlayList: [4277790694] 适合书吧的中国风纯音乐 (74/1844) has 80 songs.
+INFO:[DataPipeline]:PlayList: [5358567914] 亲戚面前露一手！中国风K歌金曲 (75/1844) has 48 songs.
+INFO:[DataPipeline]:PlayList: [2371751710] 「中国风」&#32;一袭青衣，染就一树芳华 (76/1844) has 80 songs.
+INFO:[DataPipeline]:PlayList: [7485461691] 萌萌哒天团&#32;&#124;&#32;中国风最美女团 (77/1844) has 249 songs.
+INFO:[DataPipeline]:PlayList: [2594324022] 中国风，体会古韵妖娆 (78/1844) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7863616072] 古韵中国风｜笙歌散尽兮人离 (79/1844) has 26 songs.
+INFO:[DataPipeline]:Sleep for: 113
+INFO:[DataPipeline]:PlayList: [1783173810] 饮一曲醉美中国风&#58;&#32;柔情似水，佳期如梦 (80/1844) has 44 songs.
+INFO:[DataPipeline]:PlayList: [6967276561] 抚琴煮茶，品一曲雅致中国风&#32; (81/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7824128681] 中国风：雨碎台前润湿青帘 (82/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7233780688] 【中国风】宅家追古装剧必备 (83/1844) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7716529834] 中国风BGM｜少年自有少年狂 (84/1844) has 45 songs.
+INFO:[DataPipeline]:PlayList: [1162880422] 中国风：旧日时光，静候一场久别的重逢。 (85/1844) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7000774262] 中国风翻唱&#32;&#58;&#32;温润公子音 (86/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1767939711] 古风pk中国风，你最爱哪一种 (87/1844) has 121 songs.
+INFO:[DataPipeline]:PlayList: [2072789141] 中国风电音：敢问上天，是否有仙？ (88/1844) has 41 songs.
+INFO:[DataPipeline]:PlayList: [2911745961] 古风之韵&#32;唯美中国风（合唱） (89/1844) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 70
+INFO:[DataPipeline]:PlayList: [3263692011] 花开一千年,独看沧海化桑田之中国风 (90/1844) has 55 songs.
+INFO:[DataPipeline]:PlayList: [7824716456] 中国风｜与君离别意&#32;凄凄复凄凄 (91/1844) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7733252518] 惊艳中国风：三生有幸遇见你 (92/1844) has 49 songs.
+INFO:[DataPipeline]:PlayList: [7665596697] 国风电子/中国风完美交融EDM (93/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7001045133] 中国风纯音丨告别垂钓时的焦虑症 (94/1844) has 34 songs.
+INFO:[DataPipeline]:PlayList: [802926776] 歪果原声大拿笔下的中国风配乐 (95/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [3512676916] 中国风&#32;&#32;&#32;百转千回梦不断 (96/1844) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7666747591] 「中国风」用心感受国之风韵 (97/1844) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7701952288] 古韵中国风‖三冬你可愿来 (98/1844) has 46 songs.
+INFO:[DataPipeline]:PlayList: [7660915882] China！中国风电音之崛起之路 (99/1844) has 76 songs.
+INFO:[DataPipeline]:Sleep for: 155
+INFO:[DataPipeline]:PlayList: [7782684499] 一起坠入Sand的中国风电音世界 (100/1844) has 108 songs.
+INFO:[DataPipeline]:PlayList: [7060359081] 超级虐心的中国风喊麦合集 (101/1844) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7709790861] 中国风&#32;&#124;&#32;血染江山画怎敌你眉间 (102/1844) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7047529839] 侠客中国风&#32;·&#32;吟到恩仇心事涌 (103/1844) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7827217689] 唯美中国风：感受国画的山川之美 (104/1844) has 16 songs.
+INFO:[DataPipeline]:PlayList: [7743572752] 中国风&#32;&#124;&#32;江南风味，诗意百景 (105/1844) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7341056707] 红歌经典中国风&#32;老革命歌曲 (106/1844) has 56 songs.
+INFO:[DataPipeline]:PlayList: [7714958974] 古韵中国风&#58;铺十里红妆可愿 (107/1844) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7684050920] 浓郁的中国风，唯美雅致的享受。 (108/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7796297075] 中国风纯音｜一曲倾述衷情 (109/1844) has 28 songs.
+INFO:[DataPipeline]:Sleep for: 88
+INFO:[DataPipeline]:PlayList: [7709305834] 最美中国风｜曲调悠扬醉人心 (110/1844) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7772575439] 中国风｜一杯相思酒，一曲古风韵 (111/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7793365363] 中国风&#32;·&#32;细品一曲江南柔情 (112/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7780937333] 中国风&#32;&#124;&#32;领略唐宋元明清的韵律 (113/1844) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7790936884] 中国风日漫：《不思议游戏》 (114/1844) has 94 songs.
+INFO:[DataPipeline]:PlayList: [7710925048] 古韵中国风‖花开满城为一人 (115/1844) has 39 songs.
+INFO:[DataPipeline]:PlayList: [7734763934] 伤感中国风｜一寸相思，一寸伤悲 (116/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7740100776] 古韵中国风｜一种相思，两处闲愁 (117/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [6946825664] 中国风&#32;·&#32;落花片片随水流 (118/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7505292442] 影视主题曲&#32;&#58;&#32;中国风里窥相思 (119/1844) has 26 songs.
+INFO:[DataPipeline]:Sleep for: 83
+INFO:[DataPipeline]:PlayList: [7780783983] 中国风｜思君如明烛，煎心且衔泪 (120/1844) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7816979002] 中国风：君子如兰，思之可归 (121/1844) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7266932006] 中国风纯音：&#32;一曲笙歌恋玉箫 (122/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7222822024] 翩翩公子&#32;·&#32;霍尊的中国风世界 (123/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [2924951304] 中国风，新旧文化的碰撞 (124/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2067204346] 「中国风粤语」承载你的武侠梦 (125/1844) has 87 songs.
+INFO:[DataPipeline]:PlayList: [7346984845] 中国风韵律：静品灵动之音 (126/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [841440790] 情迷中国风·电视剧 (127/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7631153147] 中国风丨孤饮一瓢酒，独望慰风尘 (128/1844) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7588223964] bgm抖音中国风纯音乐古筝轻音乐钢琴曲睡眠 (129/1844) has 756 songs.
+INFO:[DataPipeline]:Sleep for: 133
+INFO:[DataPipeline]:PlayList: [7659373403] 国电｜领略带有独特中国风的电音 (130/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [6937834398] 伤感中国风&#32;·&#32;不曾念曲中人 (131/1844) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7521321504] 影视中国风丨古装电视剧纯音合集 (132/1844) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7756619617] 《江南百景图》✘唯美中国风 (133/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [1136459893] 最动听的中国风纯音乐 (134/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2372395302] 缱绻中国风，诗意华夏魂 (135/1844) has 102 songs.
+INFO:[DataPipeline]:PlayList: [1736812809] 唯有中国风与玄幻最配 (136/1844) has 31 songs.
+INFO:[DataPipeline]:PlayList: [3283735297] 来一车中国风小说，我还可以继续看！ (137/1844) has 56 songs.
+INFO:[DataPipeline]:PlayList: [7222651249] 逍遥一游&#32;·&#32;中国风宗师周杰伦 (138/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [3267181404] 中国风电子，婉约与大气的完美结合 (139/1844) has 181 songs.
+INFO:[DataPipeline]:Sleep for: 72
+INFO:[DataPipeline]:PlayList: [2942072450] 方文山笔下的唯美中国风 (140/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7496274614] 红歌经典中国风&#32;老革命歌曲 (141/1844) has 144 songs.
+INFO:[DataPipeline]:PlayList: [3243785822] 耳朵测试！这些欧美歌里居然有中国风？ (142/1844) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7024085381] 中国风&#32;&#124;&#32;松烟入墨，笔画江南 (143/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7825130004] 中国风｜娘子的新衣，甚是美丽 (144/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7816991366] 中国风：谁曾记起当年独斟月下 (145/1844) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7071773405] 最美不过中国风，最好不过眼前人 (146/1844) has 31 songs.
+INFO:[DataPipeline]:PlayList: [3730268754] 中国风PK古风：竹林深处待回眸 (147/1844) has 80 songs.
+INFO:[DataPipeline]:PlayList: [7726952924] 「中国风」诗词歌赋的古今合壁 (148/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [1136461566] 方文山，隐藏在釉色里的中国风秘密（一） (149/1844) has 35 songs.
+INFO:[DataPipeline]:Sleep for: 134
+INFO:[DataPipeline]:PlayList: [7596877113] 中国风优选&#32;&#124;&#32;听他们的歌会上瘾 (150/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7057140649] 中国风&#32;·&#32;月下寄相思 (151/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7568527076] 中国风：我等你可否以身相许？ (152/1844) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7710313752] 古韵中国风｜红衣佳人漫步阅江楼 (153/1844) has 33 songs.
+INFO:[DataPipeline]:PlayList: [1127583888] 绝美中国风·华语词曲唱作精选 (154/1844) has 15 songs.
+INFO:[DataPipeline]:PlayList: [2638630804] 中国风丨天真烂漫少女音 (155/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7747085272] 中国风男音：愁声续，岁岁空期许 (156/1844) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7049782870] 似水柔情&#32;·&#32;女声翻唱中国风 (157/1844) has 24 songs.
+INFO:[DataPipeline]:PlayList: [3497676655] 畅听最美的中国风旋律 (158/1844) has 46 songs.
+INFO:[DataPipeline]:PlayList: [1779062785] 公子世无双：古装男神也爱唱中国风 (159/1844) has 42 songs.
+INFO:[DataPipeline]:Sleep for: 177
+INFO:[DataPipeline]:PlayList: [7749288191] 中国风｜减瘦一湾岁月，秋色冉冉 (160/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7276694795] 最美中国风，听曲醉人心 (161/1844) has 39 songs.
+INFO:[DataPipeline]:PlayList: [7598476878] 中国风：曲终人未散，白首不分离 (162/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7014279840] 中国风&#32;·&#32;惟有饮者留其名 (163/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7675528747] 【电音】中国风与电子的完美融合 (164/1844) has 57 songs.
+INFO:[DataPipeline]:PlayList: [7011437094] 中国风&#32;&#32;&#124;&#32;&#32;香港TVB经典武侠剧纯乐 (165/1844) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7733103461] 【中国风】梦醒繁华，一城荒芜 (166/1844) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7011570567] 韵味中国风&#32;&#124;&#32;一曲长歌一世情 (167/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2371751333] 「历史旧卷」听日本音乐里的壮美中国风 (168/1844) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7607372218] 中国民歌、民间小调及民歌中国风抒情名歌 (169/1844) has 239 songs.
+INFO:[DataPipeline]:Sleep for: 75
+INFO:[DataPipeline]:PlayList: [7765626409] 中国风&#124;&#32;曲附端午情，赠君安康语 (170/1844) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7690891539] 中国风&#32;&#124;&#32;梦醒繁华，一城荒芜 (171/1844) has 138 songs.
+INFO:[DataPipeline]:PlayList: [7021918213] 中国风民谣&#32;&#124;&#32;弹指间，千年逝 (172/1844) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7471893906] 评论999&#43;中国风说唱（持更） (173/1844) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7539313627] 时下流行：当Rap邂逅中国风 (174/1844) has 62 songs.
+INFO:[DataPipeline]:PlayList: [7249316000] 似水流年&#32;·&#32;评论999&#43;中国风热歌 (175/1844) has 36 songs.
+INFO:[DataPipeline]:PlayList: [6997076434] 中国风韵律&#32;&#124;&#32;粤语印记 (176/1844) has 47 songs.
+INFO:[DataPipeline]:PlayList: [7108016227] 2019年中国风新歌精选集 (177/1844) has 288 songs.
+INFO:[DataPipeline]:PlayList: [1438487520] 带给你温暖至心的中国笛子风纯音乐 (178/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7060353277] 隐藏在流行曲中的中国风旋律 (179/1844) has 52 songs.
+INFO:[DataPipeline]:Sleep for: 163
+INFO:[DataPipeline]:PlayList: [7590632728] 抒情中国风：纵横尘世愿与君共 (180/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2067212972] 倾听流行歌手们的中国风情怀 (181/1844) has 63 songs.
+INFO:[DataPipeline]:PlayList: [1129354358] 「中国风❤听闻」此情无计可消除 (182/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7749286126] 中国风｜任风乱了思绪，断了离愁 (183/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7740373561] 古韵中国风&#58;南山有不止有相思树 (184/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7073314723] 中国风说唱&#32;·&#32;胸中正气塞天地 (185/1844) has 40 songs.
+INFO:[DataPipeline]:PlayList: [1136523779] 中国风·山外小楼听风 (186/1844) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7041353925] 中国风翻唱&#32;·&#32;徒此掬清芬 (187/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7734739286] 流行中国风｜秋风无语，伤人诛心 (188/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7346984894] 唯美中国风：青山流水间的灵音 (189/1844) has 19 songs.
+INFO:[DataPipeline]:Sleep for: 110
+INFO:[DataPipeline]:PlayList: [1724675670] 2016影视中国风音乐（上） (190/1844) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7107947155] 曲韵悠长&#32;·&#32;影视剧之中国风 (191/1844) has 27 songs.
+INFO:[DataPipeline]:PlayList: [3824218120] 【中国风】迷蒙声远，潇潇雨不休 (192/1844) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7304079503] 中国风纯音&#32;·&#32;仙侠世界里的江湖 (193/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [2371688328] 中国电子Vol&#46;2&#32;&#124;&#32;中国风也可以很酷炫 (194/1844) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7293757790] 戏腔中国风&#32;·&#32;绕梁三日不曾绝&#32; (195/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7328432127] 中国风&#32;&#124;&#32;回荡在林间的灵动之音 (196/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7673870975] 「中国风」与君联袂&#32;勿却为幸 (197/1844) has 47 songs.
+INFO:[DataPipeline]:PlayList: [2356734882] 听流行中国风，叹缱绻淡雅情 (198/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1979019513] 中国风的韵味 (199/1844) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 72
+INFO:[DataPipeline]:PlayList: [7673392564] 『中国风』古忆往昔，四季可盼。 (200/1844) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7096063906] 【电影篇】20首中国风歌曲精选 (201/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7326282815] 心醉前奏，一秒沉沦的中国风 (202/1844) has 51 songs.
+INFO:[DataPipeline]:PlayList: [2926037555] 如梦如幻，如诗如画中国风 (203/1844) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7697551922] 中国风古风 (204/1844) has 123 songs.
+INFO:[DataPipeline]:PlayList: [1129351670] 「中国风❤倾世」人生有味是清欢 (205/1844) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7049191147] 中国风男声&#32;&#124;&#32;言念君子，温其如玉 (206/1844) has 28 songs.
+INFO:[DataPipeline]:PlayList: [1136524418] 「中国风」有人的地方就有江湖 (207/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [3422467278] 必听经典中国风 (208/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7084457729] 唯美中国风&#32;·&#32;赠之以芍药 (209/1844) has 24 songs.
+INFO:[DataPipeline]:Sleep for: 95
+INFO:[DataPipeline]:PlayList: [2375185827] 中国风粤语｜婉转悠扬&#32;别有一番韵味 (210/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [1074287534] 畅听最美的中国风旋律 (211/1844) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7535634794] 七朵组合&#32;&#124;&#32;浓浓的中国风 (212/1844) has 47 songs.
+INFO:[DataPipeline]:PlayList: [1363297557] 一部古剧爱上中国风 (213/1844) has 35 songs.
+INFO:[DataPipeline]:PlayList: [3214607119] 中国风歌曲里动人诗句 (214/1844) has 8 songs.
+INFO:[DataPipeline]:PlayList: [39441892] 浪漫中国风之君醉红颜 (215/1844) has 17 songs.
+INFO:[DataPipeline]:PlayList: [780742657] 他们的“中国风”也想和杰伦叫叫板！ (216/1844) has 31 songs.
+INFO:[DataPipeline]:PlayList: [3522180438] 中国风·仙蝶吟诵韵隽永 (217/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2298335411] 温暖中国风吹走寒冬 (218/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [3223462282] 中国风电音&#32;给你不一样的感觉 (219/1844) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 45
+INFO:[DataPipeline]:PlayList: [1691992815] 华语，独特韵味的中国风 (220/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [841440409] 情迷中国风·京剧/戏腔 (221/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2638631948] 中国风丨声声入耳，中国韵律&#32;壹 (222/1844) has 29 songs.
+INFO:[DataPipeline]:PlayList: [3488129390] 渺渺中国风，缱绻淡雅情 (223/1844) has 23 songs.
+INFO:[DataPipeline]:PlayList: [4186770317] 中国风&#32;│&#32;掀帘倚窗空望远 (224/1844) has 82 songs.
+INFO:[DataPipeline]:PlayList: [7107763754] 诗词中国风&#32;·&#32;此曲只应天上有 (225/1844) has 41 songs.
+INFO:[DataPipeline]:PlayList: [1722115981] 古风古韵，千里寻中国风 (226/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7255707078] 古装电视剧里的中国风纯音 (227/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [1757029169] 天！改编后的中国风居然可以这么好听！ (228/1844) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7049231700] 中国风对唱&#32;&#124;&#32;山有木兮卿有意 (229/1844) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 175
+INFO:[DataPipeline]:PlayList: [3520398596] 中国风·染火枫林&#32;月下纵马长歌 (230/1844) has 28 songs.
+INFO:[DataPipeline]:PlayList: [2306489638] 触动心弦的超好听中国风 (231/1844) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7267701091] 中国风：一曲缘歌成绊，任谁叹 (232/1844) has 70 songs.
+INFO:[DataPipeline]:PlayList: [7222913545] 桃花十里&#32;·&#32;中国风才女董贞 (233/1844) has 29 songs.
+INFO:[DataPipeline]:PlayList: [1357685226] 柔情中国风&#32;·&#32;愿以百年挽朝夕 (234/1844) has 35 songs.
+INFO:[DataPipeline]:PlayList: [1713431254] 当中国风遇上说唱rap&#46; (235/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [3481275295] 一见倾心，再遇如故中国风 (236/1844) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7141481321] 「国语ACG」当中国风遇上了国漫 (237/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [1071493734] 吹拂在耳畔的中国风 (238/1844) has 50 songs.
+INFO:[DataPipeline]:PlayList: [1736813770] 【中国风】一曲惊澜为谁歌 (239/1844) has 21 songs.
+INFO:[DataPipeline]:Sleep for: 35
+INFO:[DataPipeline]:PlayList: [7768275946] 古风亦可DJ｜中国风也能蹦迪 (240/1844) has 58 songs.
+INFO:[DataPipeline]:PlayList: [1996611187] 醉美不过一曲中国风 (241/1844) has 12 songs.
+INFO:[DataPipeline]:PlayList: [1136523953] 一曲中国风，一抹江南情 (242/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7296644750] 中国风摇滚&#32;·&#32;沧海一声笑 (243/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [1973420580] 中国风·淡烟幽眉里的水墨丹青 (244/1844) has 44 songs.
+INFO:[DataPipeline]:PlayList: [3851787501] 中国风&#32;·&#32;快意恩仇江湖事 (245/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7617133448] 【中国风】中秋望月空对饮 (246/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7770547742] 古风中国风 (247/1844) has 14 songs.
+INFO:[DataPipeline]:PlayList: [802499898] 聆听最美的中国风 (248/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [1099712568] 用心聆听，神韵唯美中国风 (249/1844) has 35 songs.
+INFO:[DataPipeline]:Sleep for: 139
+INFO:[DataPipeline]:PlayList: [1400454862] 曲缠心头绕耳过，唯美中国风。 (250/1844) has 29 songs.
+INFO:[DataPipeline]:PlayList: [774691074] 古韵悠扬&#32;最美中国风 (251/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [841440237] 那些好听的中国风游戏BGM (252/1844) has 46 songs.
+INFO:[DataPipeline]:PlayList: [3822117104] 『中国风』古装剧中的深情男声 (253/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7324484273] 中国风女声&#32;·&#32;一曲轻歌醉人心 (254/1844) has 35 songs.
+INFO:[DataPipeline]:PlayList: [3540670157] 饱含唐诗宋词的中国风 (255/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1970661648] 中国风·诗情画意里的水墨丹青 (256/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [1097368838] 出彩中国风，出彩中国情 (257/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [1985818147] 细细品味，中国风的独特韵味 (258/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [1677429286] 中国风，就是要首首经典 (259/1844) has 35 songs.
+INFO:[DataPipeline]:Sleep for: 116
+INFO:[DataPipeline]:PlayList: [1966462202] 男神独畅中国风 (260/1844) has 38 songs.
+INFO:[DataPipeline]:PlayList: [3557827981] 荡气回肠！当电音邂逅中国风 (261/1844) has 157 songs.
+INFO:[DataPipeline]:PlayList: [1676558435] 中国风几多首，画面各不同 (262/1844) has 45 songs.
+INFO:[DataPipeline]:PlayList: [1984450082] 微风古韵留醇音，中国风歌曲小集 (263/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7331482573] 中国风对唱&#32;·&#32;金风玉露一相逢 (264/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7098027932] 中国风影视剧【男声篇】 (265/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [1669441450] 中国风里面的如花梦境 (266/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1136462093] 古韵悠然&#32;&#124;&#32;一人一首中国风 (267/1844) has 24 songs.
+INFO:[DataPipeline]:PlayList: [3271920194] 欧美·中国风‖中西文化的完美交融 (268/1844) has 112 songs.
+INFO:[DataPipeline]:PlayList: [1377177239] 中国风里的意境音韵 (269/1844) has 22 songs.
+INFO:[DataPipeline]:Sleep for: 45
+INFO:[DataPipeline]:PlayList: [7759455937] 中国风 (270/1844) has 156 songs.
+INFO:[DataPipeline]:PlayList: [7356735009] 中国风纯音&#32;·&#32;何处繁华笙歌落 (271/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [3470447267] 最唯美的流行中国风民乐 (272/1844) has 24 songs.
+INFO:[DataPipeline]:PlayList: [1678228134] 两字中国风，韵味更悠长 (273/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [759264184] 混搭中国风。聆听美（第一季） (274/1844) has 47 songs.
+INFO:[DataPipeline]:PlayList: [2881752535] 那些唯美的中国风 (275/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [1406647667] 倾听一首醉人中国风 (276/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2275211348] 邂逅醉美中国风 (277/1844) has 27 songs.
+INFO:[DataPipeline]:PlayList: [1678475408] 经典中国风歌曲选录 (278/1844) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7010281670] 中国风&#32;·&#32;愿我如星君如月 (279/1844) has 23 songs.
+INFO:[DataPipeline]:Sleep for: 153
+INFO:[DataPipeline]:PlayList: [7084456748] 伤感中国风&#32;·&#32;晓镜但愁云鬓改 (280/1844) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7107673879] 中国风&#32;&#124;&#32;天地合，乃敢与君绝 (281/1844) has 49 songs.
+INFO:[DataPipeline]:PlayList: [1736824520] 【中国风】长歌婉转，古韵悠然&#32;壹 (282/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1348839275] 好听到心碎的中国风纯音乐 (283/1844) has 17 songs.
+INFO:[DataPipeline]:PlayList: [2247170577] 中国风的歌，是否听过呢 (284/1844) has 16 songs.
+INFO:[DataPipeline]:PlayList: [1973416488] 中国风·管弦和鸣里的水墨丹青 (285/1844) has 33 songs.
+INFO:[DataPipeline]:PlayList: [1674768406] 给中国风来点力量 (286/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [2339497465] 唯美中国风，悠悠华夏韵 (287/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1725941745] 用音乐触动你的心弦的中国风歌曲 (288/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [1670947988] 网路上很流行的古风中国风 (289/1844) has 23 songs.
+INFO:[DataPipeline]:Sleep for: 65
+INFO:[DataPipeline]:PlayList: [2925038242] 属于他们心中的粤语中国风情怀 (290/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7349788198] 中国风民谣｜欲待曲终寻问取 (291/1844) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7438237151] 中国风纯音&#32;·&#32;良辰好景虚设 (292/1844) has 31 songs.
+INFO:[DataPipeline]:PlayList: [1079610829] 后弦十年中国风&#32;你错过了多少？ (293/1844) has 27 songs.
+INFO:[DataPipeline]:PlayList: [1959486892] 畅听最美的中国风 (294/1844) has 14 songs.
+INFO:[DataPipeline]:PlayList: [7120222130] 唯美中国风&#32;&#124;&#32;听一曲沉醉不知归路 (295/1844) has 29 songs.
+INFO:[DataPipeline]:PlayList: [1343404160] 醉美不过中国风 (296/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [6999656534] 三个字，就能诠释中国风 (297/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [1480495213] 达人周末&#32;&#124;&#32;伊人如梦，古装剧中的中国风 (298/1844) has 47 songs.
+INFO:[DataPipeline]:PlayList: [7049191469] 中国风女声&#32;&#124;&#32;云想衣裳花想容 (299/1844) has 28 songs.
+INFO:[DataPipeline]:Sleep for: 66
+INFO:[DataPipeline]:PlayList: [3150201193] 听流行乐邂逅中国风 (300/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7285195605] 中国风纯音&#32;·&#32;运动助燃必备 (301/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7639658210] 中国风古典乐器纯音乐 (302/1844) has 304 songs.
+INFO:[DataPipeline]:PlayList: [7041409826] 唯美中国风&#32;·&#32;假期旅行手册 (303/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1099800832] 古典中国风，韵味悠长 (304/1844) has 13 songs.
+INFO:[DataPipeline]:PlayList: [7060359211] 另类流行又好听的中国风喊麦 (305/1844) has 46 songs.
+INFO:[DataPipeline]:PlayList: [3578015324] 适合品茶时听的中国风轻音乐 (306/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7607836246] 中国风/古风/江湖&#32;免费说唱伴奏&#32;freebeat (307/1844) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7526280377] 沉溺国韵&#32;&#124;&#32;排骨教主的中国风歌单 (308/1844) has 15 songs.
+INFO:[DataPipeline]:PlayList: [1736813304] 值得循环的中国风歌曲 (309/1844) has 34 songs.
+INFO:[DataPipeline]:Sleep for: 104
+INFO:[DataPipeline]:PlayList: [846388203] 【枕边中国风】聆听细雨江南曲 (310/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1136523632] 情迷中国风·电影 (311/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7107860362] 中国风&#32;&#124;&#32;爱恨姻缘，不如隐桃源 (312/1844) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7139892175] 中国风&#32;&#58;&#32;岁月清浅，许浅笑安然 (313/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [4230002795] 中国风｜长发绾君心，青丝绕指柔 (314/1844) has 31 songs.
+INFO:[DataPipeline]:PlayList: [1032553459] 燃烧别样中国风 (315/1844) has 15 songs.
+INFO:[DataPipeline]:PlayList: [3121935869] 不一样的中国风&#32;你知道几首？ (316/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1089356196] 【音乐小说第二期】中国风VS和风 (317/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7174019275] 中国风&#32;&#124;&#32;假期在家煲过的剧 (318/1844) has 71 songs.
+INFO:[DataPipeline]:PlayList: [3030109505] 中国风，中国情 (319/1844) has 17 songs.
+INFO:[DataPipeline]:Sleep for: 83
+INFO:[DataPipeline]:PlayList: [7111604298] 中国风：安得有英雄，迎归大内中 (320/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [2304956521] 小提琴演奏的中国风 (321/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7108937511] 熬夜修仙，当然要听中国风啦 (322/1844) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7179875344] 燃系中国风&#32;&#124;&#32;持剑，捍守身后国土 (323/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7120635814] 中国风女声&#32;·&#32;倾慕韶华红颜 (324/1844) has 24 songs.
+INFO:[DataPipeline]:PlayList: [2889698130] 那些吹拂在耳畔的唯美中国风 (325/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [3451909833] 各自域的中国风和美好的东方服饰们 (326/1844) has 15 songs.
+INFO:[DataPipeline]:PlayList: [1172107771] 粤语中国风：再现香港影视经典 (327/1844) has 35 songs.
+INFO:[DataPipeline]:PlayList: [1470637200] 日本大师黄钟大吕之作：浓郁中国音韵风 (328/1844) has 28 songs.
+INFO:[DataPipeline]:PlayList: [3199012577] 挚爱的中国风小曲 (329/1844) has 81 songs.
+INFO:[DataPipeline]:Sleep for: 121
+INFO:[DataPipeline]:PlayList: [2033699234] 盛秋降临，卷起一阵静中国风 (330/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7249325654] 中国风&#32;·&#32;后弦与西厢故事 (331/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7276517552] 中国风纯音&#32;·&#32;古装里的哀愁思绪 (332/1844) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7101339762] 中国风｜寄君一曲，不问曲终人聚散 (333/1844) has 32 songs.
+INFO:[DataPipeline]:PlayList: [1952809586] 清明·管弦丝竹演绎唯美中国风 (334/1844) has 27 songs.
+INFO:[DataPipeline]:PlayList: [1129350093] 「中国风❤伤情」杨柳岸晓风残月 (335/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7350162868] 「中国风纯音」许你一场不醒的梦 (336/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1103206369] 梦魂飞扬中国风 (337/1844) has 68 songs.
+INFO:[DataPipeline]:PlayList: [7107391442] 流行中国风&#32;&#124;&#32;一曲皆温情 (338/1844) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7094726046] 2019年7月中国风新歌精选 (339/1844) has 46 songs.
+INFO:[DataPipeline]:Sleep for: 116
+INFO:[DataPipeline]:PlayList: [3502836742] 中国风，共赏荷叶桃花 (340/1844) has 58 songs.
+INFO:[DataPipeline]:PlayList: [7256698205] 青春记忆&#32;·&#32;国语乐坛的中国风 (341/1844) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7707117243] 好听的中国风 (342/1844) has 192 songs.
+INFO:[DataPipeline]:PlayList: [7224220262] 古装穿越&#32;·&#32;叱咤风云的中国风 (343/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7124708513] 国人骄傲！中国风说唱精选 (344/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [3254850883] 春末夏初，悠扬中国风与你相伴&#10; (345/1844) has 36 songs.
+INFO:[DataPipeline]:PlayList: [3201664634] 中国风丨浅尝辄止 (346/1844) has 35 songs.
+INFO:[DataPipeline]:PlayList: [6999242934] 轻柔中国风&#32;&#124;&#32;叹花香不再馥郁 (347/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7012296405] 柔情中国风&#32;&#124;&#32;相思赋予谁 (348/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1699505282] 中国风,无法抗拒的&#42;&#42;&#42;&#42; (349/1844) has 22 songs.
+INFO:[DataPipeline]:Sleep for: 129
+INFO:[DataPipeline]:PlayList: [20151575] 聆听：中国风 (350/1844) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7258058604] 中国风&#32;&#124;&#32;红尘多可笑，痴情最无聊 (351/1844) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7001027734] 中国风&#32;&#124;&#32;无尽的思念涌上心头 (352/1844) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7012577966] 中国风R&#38;B：我心中的日月光芒 (353/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [2601846823] 颠倒众生中国风 (354/1844) has 79 songs.
+INFO:[DataPipeline]:PlayList: [7319381114] 听中国风纯音，静思流年 (355/1844) has 44 songs.
+INFO:[DataPipeline]:PlayList: [2083734639] 粤语中国风：还你一个浅笑，醉入我心扉 (356/1844) has 24 songs.
+INFO:[DataPipeline]:PlayList: [3201675255] 中国风极其的好 (357/1844) has 48 songs.
+INFO:[DataPipeline]:PlayList: [1999962525] 中国风，沉醉在这旋律中 (358/1844) has 49 songs.
+INFO:[DataPipeline]:PlayList: [39442892] 唯美中国风之伊人吟情 (359/1844) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 123
+INFO:[DataPipeline]:PlayList: [7228259361] 中国风电子&#32;·&#32;绝色纯音幻境 (360/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7256559371] &#32;一顾倾城·&#32;古装电影里的中国风 (361/1844) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7120733996] 古韵流芳&#32;&#124;&#32;经典中国风歌曲合集 (362/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [1095361746] 歌尽风雅，细品一曲中国风 (363/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1744968844] JJ新年第一首中国风歌曲！ (364/1844) has 45 songs.
+INFO:[DataPipeline]:PlayList: [2338364708] 中国风，让自己诗情画意一番 (365/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [6997384944] 中国风&#32;&#124;&#32;一梦红尘路漫漫&#32;几处聚散 (366/1844) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7342302185] 中国风摇滚&#32;·&#32;纵死侠骨香 (367/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7361014237] 红歌经典中国风&#32;老革命歌曲 (368/1844) has 145 songs.
+INFO:[DataPipeline]:PlayList: [700450630] 中国风&#32;古风&#32;&#32;唯美歌词与意境 (369/1844) has 104 songs.
+INFO:[DataPipeline]:Sleep for: 41
+INFO:[DataPipeline]:PlayList: [7179907762] 抒情中国风&#32;&#124;&#32;悉心记下这一撇一捺 (370/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2953680506] 跟着中国风的电音一起摇摆 (371/1844) has 51 songs.
+INFO:[DataPipeline]:PlayList: [2668576684] 每日新歌：派伟俊方文山大秀电音中国风 (372/1844) has 58 songs.
+INFO:[DataPipeline]:PlayList: [7318947219] 中国风丨梦破朝夕，勾乱了思绪 (373/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7060355261] 中国风丨别样韵味 (374/1844) has 39 songs.
+INFO:[DataPipeline]:PlayList: [7737946934] 中国风&#32;古风&#32;戏腔 (375/1844) has 154 songs.
+INFO:[DataPipeline]:PlayList: [7040553337] 中国风&#32;·&#32;昨夜与君梦同游 (376/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [39443892] 那些偏爱中国风的流行曲 (377/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1136460126] 大气磅礴中国风 (378/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7189818129] 中国风纯音&#32;·&#32;执杯香茗了闻弦意 (379/1844) has 27 songs.
+INFO:[DataPipeline]:Sleep for: 152
+INFO:[DataPipeline]:PlayList: [7343373841] 奇谈异闻&#32;·&#32;中国风里的志怪传说 (380/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7071501478] 中国风电音&#32;·&#32;覆上新妆添荣光 (381/1844) has 46 songs.
+INFO:[DataPipeline]:PlayList: [1300036413] 流行至今的中国风 (382/1844) has 28 songs.
+INFO:[DataPipeline]:PlayList: [2034408900] 琴瑟和鸣·中国风对唱歌曲 (383/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2638629801] 长风当歌·最好听的中国风&#32;贰 (384/1844) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7071799408] 曲惊四座&#32;·&#32;说唱也能中国风 (385/1844) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7155018080] 中国风&#32;&#124;&#32;春风细杨柳，相思渡不尽 (386/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7444111333] 醉美中国风&#32;·&#32;织梦一场浮幽 (387/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7328403102] 中国风&#32;·&#32;不思量，自难忘 (388/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [3214554210] 中国风中所藏的凄美故事，你听出来了吗？ (389/1844) has 40 songs.
+INFO:[DataPipeline]:Sleep for: 140
+INFO:[DataPipeline]:PlayList: [39440892] 霸气中国风之江湖英雄 (390/1844) has 12 songs.
+INFO:[DataPipeline]:PlayList: [7317863632] 中国风：缘聚缘散，背负万丈尘寰 (391/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7256698476] 同事爱刷的短视频火爆中国风BGM (392/1844) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7164328991] 伤感中国风&#32;·&#32;何事吟余忽惆怅 (393/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2638628055] 侠骨丹心中国风 (394/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7222862314] 怀旧中国风&#32;&#124;&#32;依依目光此生不换 (395/1844) has 53 songs.
+INFO:[DataPipeline]:PlayList: [7112117032] 中国风&#32;&#124;&#32;听弦断，断那三千痴缠 (396/1844) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7375102340] 2020年中国风新歌速递 (397/1844) has 160 songs.
+INFO:[DataPipeline]:PlayList: [7440022607] 中国风一曲&#32;·&#32;不知今夜几人愁 (398/1844) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7109010494] 在孤独中听着中国风疗伤吧 (399/1844) has 21 songs.
+INFO:[DataPipeline]:Sleep for: 79
+INFO:[DataPipeline]:PlayList: [7107783814] 韵味中国风&#32;·&#32;婉转戏言绕指柔 (400/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [30120216] 唯美伤感中国风 (401/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [4344471172] 国人骄傲&#32;&#124;&#32;说唱也能中国风 (402/1844) has 253 songs.
+INFO:[DataPipeline]:PlayList: [1999755454] 每首都可循环播放的中国风 (403/1844) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7114478301] 中国风&#32;&#124;&#32;相思似海深，旧事如天远 (404/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7084460645] 写意中国风&#32;·&#32;出诗入画意蕴灵 (405/1844) has 23 songs.
+INFO:[DataPipeline]:PlayList: [6967803369] 轻弹中国风：记几多历史风雨 (406/1844) has 19 songs.
+INFO:[DataPipeline]:PlayList: [1614386992] 这一曲曲中国风&#46;一定会让你流连忘返&#46; (407/1844) has 131 songs.
+INFO:[DataPipeline]:PlayList: [1736813483] 粤语歌里的中国风情节 (408/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [1136459273] 【中国风】经典背景音乐 (409/1844) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 118
+INFO:[DataPipeline]:PlayList: [2797820348] 那些深深眷恋的中国风 (410/1844) has 13 songs.
+INFO:[DataPipeline]:PlayList: [7113298096] 电子中国风&#32;：笙歌乐，如梦幻 (411/1844) has 33 songs.
+INFO:[DataPipeline]:PlayList: [41188828] 经典中国风，唱尽古韵，一曲忆千年 (412/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [2034408544] 当中国风遇上说唱 (413/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1258103491] 许嵩：恋上“许氏中国风” (414/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [7285182262] 催眠必备&#32;·&#32;古装里的中国风纯音 (415/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7112220268] 中国风&#32;&#124;&#32;春秋瞬逝，信纸已泛黄 (416/1844) has 23 songs.
+INFO:[DataPipeline]:PlayList: [1136461912] 方文山，隐藏在釉色里的中国风秘密（二） (417/1844) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7640100503] 中国风的日本纯音乐 (418/1844) has 14 songs.
+INFO:[DataPipeline]:PlayList: [7163110900] 中国风｜相见情已深，未语可知心 (419/1844) has 21 songs.
+INFO:[DataPipeline]:Sleep for: 37
+INFO:[DataPipeline]:PlayList: [1132723373] 你可能不曾听过的中国风&#32;贰 (420/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7037941811] 中国风和轻电音的完美融合 (421/1844) has 43 songs.
+INFO:[DataPipeline]:PlayList: [658516955] 红颜，英雄，中国风 (422/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [2626857001] 中国风里的动人旋律 (423/1844) has 28 songs.
+INFO:[DataPipeline]:PlayList: [1130085532] 诗意民谣中一缕中国风&#32;贰 (424/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2638629033] ※中国风※&#32;江山如画，帝王纷争 (425/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1136524887] 你在红楼，我在西游（中国风※前篇） (426/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7608484778] 红歌经典中国风&#32;老革命歌曲 (427/1844) has 54 songs.
+INFO:[DataPipeline]:PlayList: [7153684341] 松凉人独眠&#32;·&#32;休憩静心中国风 (428/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [3687510213] 中国风｜山河艳囊，怎抵你眉间长情 (429/1844) has 30 songs.
+INFO:[DataPipeline]:Sleep for: 84
+INFO:[DataPipeline]:PlayList: [1668320710] 最强中国风，周董等这你 (430/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7099835333] 中国风&#32;&#124;&#32;当现代与中国乐器融合 (431/1844) has 45 songs.
+INFO:[DataPipeline]:PlayList: [6634045589] 国风电子：一场中国风的邂逅 (432/1844) has 35 songs.
+INFO:[DataPipeline]:PlayList: [2638632243] 看一部古装剧，爱几首中国风 (433/1844) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7233805380] 中国风女声&#32;·&#32;何意人别似花离 (434/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7040954395] 中国风&#32;·&#32;笑隔荷花共人语 (435/1844) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7249037961] 中国风纯音&#32;&#124;&#32;纤柔之指，绝代风华 (436/1844) has 35 songs.
+INFO:[DataPipeline]:PlayList: [18590495] 【空间专辑自荐】唯美中国风。 (437/1844) has 8 songs.
+INFO:[DataPipeline]:PlayList: [2638631106] 中国风丨声声入耳，中国韵律&#32;贰 (438/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7318937816] 中国风感怀：无寻处，惟有少年心 (439/1844) has 23 songs.
+INFO:[DataPipeline]:Sleep for: 61
+INFO:[DataPipeline]:PlayList: [7112408323] 一曲中国风&#32;&#124;&#32;唱尽世间惆怅客 (440/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7280581522] 中国风纯乐&#32;·&#32;抚琴醉佳音 (441/1844) has 44 songs.
+INFO:[DataPipeline]:PlayList: [7307096312] 柔情中国风：只愿为你拈花一笑 (442/1844) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7305029542] 中国风：疏钟催晓，几度寄相思 (443/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2638107565] 诗意流转，那些经典的中国风背景乐 (444/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7123751778] 婉约中国风&#32;·&#32;相思枫叶丹 (445/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7004533300] 中国风遇上说唱&#32;·&#32;跨时空的邂逅 (446/1844) has 33 songs.
+INFO:[DataPipeline]:PlayList: [1163764806] 「配乐向」恢弘大气的中国风纯音 (447/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [18366961] 中国风、最时尚” (448/1844) has 9 songs.
+INFO:[DataPipeline]:PlayList: [32899151] 秒杀清新控的中国风 (449/1844) has 13 songs.
+INFO:[DataPipeline]:Sleep for: 125
+INFO:[DataPipeline]:PlayList: [11917475] 最爱中国风Ⅰ (450/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [2935522488] 那些游戏里的中国风 (451/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [19067973] 主打,周氏中国风的韵味 (452/1844) has 9 songs.
+INFO:[DataPipeline]:PlayList: [7290322309] 「中国风纯音」悠扬弦声随妙指续 (453/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7107605626] 中国风&#32;&#124;&#32;请君共饮泼茶香 (454/1844) has 27 songs.
+INFO:[DataPipeline]:PlayList: [2638627484] 侠骨柔情，武侠片中国风配乐 (455/1844) has 38 songs.
+INFO:[DataPipeline]:PlayList: [7319461499] 中国风&#32;&#124;&#32;寻来梦中与你再度相见 (456/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7181352558] 虐情中国风&#32;&#124;&#32;汝走，吾心跌入冰窖 (457/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7307116191] 韵味中国风：雨中静思，等不归人 (458/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7297851780] 飞雪玉花&#32;·&#32;精选中国风舞纯音乐 (459/1844) has 22 songs.
+INFO:[DataPipeline]:Sleep for: 46
+INFO:[DataPipeline]:PlayList: [3528729903] 周杰伦中国风合集 (460/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7090748630] 中国风电音丨声声入耳，余韵环绕 (461/1844) has 40 songs.
+INFO:[DataPipeline]:PlayList: [1181670347] bgm抖音中国风纯音乐古筝轻音乐钢琴曲睡眠 (462/1844) has 450 songs.
+INFO:[DataPipeline]:PlayList: [14280008] 中国风游戏纯音&#32;仙剑VS蜀山 (463/1844) has 9 songs.
+INFO:[DataPipeline]:PlayList: [7141852823] 小憩中国风&#32;·&#32;天街小雨润如酥 (464/1844) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7454639382] 乐声与时代的碰撞：浓郁中国风 (465/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [2339497919] 倾世中国韵·中国风·纯音 (466/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [3557664294] 中国风摇滚：感受摇滚的诗情画意，豪放柔肠 (467/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1268651953] 中国风&#32;&#124;&#32;奇文共欣赏，疑义相与析 (468/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [1929797739] 古典悄然走进中国风心间 (469/1844) has 25 songs.
+INFO:[DataPipeline]:Sleep for: 119
+INFO:[DataPipeline]:PlayList: [7107608246] 中国风&#32;&#124;&#32;将这段温情，独自咏 (470/1844) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7580617129] 中国风&#32;&#32;古风 (471/1844) has 105 songs.
+INFO:[DataPipeline]:PlayList: [1227955986] 欧美中国风R&#38;B (472/1844) has 11 songs.
+INFO:[DataPipeline]:PlayList: [7474168746] 中国风&#32;&#124;&#32;清丽婉约&#32;意蕴悠远 (473/1844) has 23 songs.
+INFO:[DataPipeline]:PlayList: [3537288947] 葫芦丝声中的悠悠中国风 (474/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [18242527] 许嵩的中国风歌曲 (475/1844) has 16 songs.
+INFO:[DataPipeline]:PlayList: [2328743639] 【中国风】一曲悠扬漫篱墙 (476/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [40305698] 温婉柔情&#32;大气中国风 (477/1844) has 11 songs.
+INFO:[DataPipeline]:PlayList: [7119633905] 浅吟中国风&#32;·&#32;花深忘却来时路 (478/1844) has 27 songs.
+INFO:[DataPipeline]:PlayList: [3077524241] 舌尖上的中国风 (479/1844) has 8 songs.
+INFO:[DataPipeline]:Sleep for: 143
+INFO:[DataPipeline]:PlayList: [7319381519] 行走世界的中国风原声 (480/1844) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7445418603] 抒情中国风&#32;·&#32;故人情难相忘 (481/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [961806786] 秒杀节奏控的中国风 (482/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [7107674223] 中国风&#32;&#124;&#32;今世情缘，不负相思意 (483/1844) has 33 songs.
+INFO:[DataPipeline]:PlayList: [33102125] 周董的中国风 (484/1844) has 12 songs.
+INFO:[DataPipeline]:PlayList: [7276511508] 中国风纯音&#32;·&#32;静心学习必备 (485/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [3433458612] 那些单曲循环过的中国风 (486/1844) has 53 songs.
+INFO:[DataPipeline]:PlayList: [1354502210] 中国风精选【珍藏版】 (487/1844) has 14 songs.
+INFO:[DataPipeline]:PlayList: [7107414091] 中国风&#32;&#124;&#32;诗情画意里的深情 (488/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7186267052] 中国风&#32;&#124;&#32;数尽千古风流人物 (489/1844) has 28 songs.
+INFO:[DataPipeline]:Sleep for: 70
+INFO:[DataPipeline]:PlayList: [1558311097] 发现好听：主打歌，中国风 (490/1844) has 9 songs.
+INFO:[DataPipeline]:PlayList: [7049788980] 同名中国风&#32;·&#32;别是一番风韵 (491/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7112116540] 中国风&#32;&#124;&#32;万缕千丝，对月忆兰舟 (492/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7337449203] 影视剧精选：惊艳的中国风纯音 (493/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7114465592] 中国风&#32;&#124;&#32;人言滔滔，&#32;我自笑傲 (494/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7179804818] 中国风&#32;&#124;&#32;清风徐徐自由魂 (495/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [31718488] 最爱的中国风 (496/1844) has 5 songs.
+INFO:[DataPipeline]:PlayList: [7237681729] 10月中国风新歌：可怜冬景似春华 (497/1844) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7110479823] 中国风男嗓&#32;·&#32;惆怅此情难寄 (498/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [32168425] 温婉柔情中国风 (499/1844) has 8 songs.
+INFO:[DataPipeline]:Sleep for: 154
+INFO:[DataPipeline]:PlayList: [2846493726] 中国风：你一定要记住许嵩&#46; (500/1844) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7222861921] 聆赏&#32;│&#32;共赴中国风盛宴 (501/1844) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7107674783] 午间煲机&#32;&#124;&#32;一曲中国风私选 (502/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [3113961544] 致敬中国风，致敬周杰伦 (503/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [38916332] 悠悠箫笛声，醉美中国风 (504/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [7228227408] 中国风电子&#32;·&#32;跳跃的水墨画 (505/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7112116862] 因一首中国风，而爱上一部古装剧 (506/1844) has 55 songs.
+INFO:[DataPipeline]:PlayList: [7258058111] 中国风&#32;&#124;&#32;爱着你全部，相思却禁锢 (507/1844) has 32 songs.
+INFO:[DataPipeline]:PlayList: [2913781320] 对唱情歌，倾心中国风 (508/1844) has 38 songs.
+INFO:[DataPipeline]:PlayList: [1136524744] 你在红楼，我在西游（中国风※后篇） (509/1844) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 167
+INFO:[DataPipeline]:PlayList: [38784973] 红颜，英雄，中国风 (510/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [7441346935] 中国风的日本纯音乐 (511/1844) has 9 songs.
+INFO:[DataPipeline]:PlayList: [7222862388] 韵味中国风&#32;&#124;&#32;如风吹拂耳畔 (512/1844) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7276508746] 中国风纯音&#32;·&#32;感人悲壮影视原声 (513/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [3412414849] 古词新意，唯美中国风 (514/1844) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7064532215] 粤韵中国风&#32;·&#32;夕殿萤飞思悄然 (515/1844) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7107607600] 练字怎么能少了中国风！ (516/1844) has 44 songs.
+INFO:[DataPipeline]:PlayList: [2638629475] 长风当歌·最好听的中国风&#32;壹 (517/1844) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7526545650] 中国风：人聚散，蹉跎了此生缘 (518/1844) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7268135321] 中国风说唱｜Rap里的风云录 (519/1844) has 22 songs.
+INFO:[DataPipeline]:Sleep for: 158
+INFO:[DataPipeline]:PlayList: [2613530865] 中国风的古风经典 (520/1844) has 34 songs.
+INFO:[DataPipeline]:PlayList: [1136459097] 你可能不曾听过的中国风&#32;壹 (521/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [1558310340] 忧伤中国风：将唯美进行到底 (522/1844) has 12 songs.
+INFO:[DataPipeline]:PlayList: [2379251460] 中国嘻哈Vol&#46;9&#32;&#124;&#32;嘻哈中国风，饶舌会武功 (523/1844) has 40 songs.
+INFO:[DataPipeline]:PlayList: [3381263406] 诗情画意&#32;中国风 (524/1844) has 28 songs.
+INFO:[DataPipeline]:PlayList: [1585448852] 唯美的词，唯美的中国风 (525/1844) has 12 songs.
+INFO:[DataPipeline]:PlayList: [37444361] 许嵩：恋上“许氏中国风” (526/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [1407810707] 古风古韵，千里寻中国风 (527/1844) has 463 songs.
+INFO:[DataPipeline]:PlayList: [2242875213] 最爱中国风歌曲 (528/1844) has 17 songs.
+INFO:[DataPipeline]:PlayList: [3117570706] 那些深入耳目的中国风 (529/1844) has 10 songs.
+INFO:[DataPipeline]:Sleep for: 146
+INFO:[DataPipeline]:PlayList: [7096722158] 中国风纯音&#32;·&#32;卧听穿林打叶声 (530/1844) has 31 songs.
+INFO:[DataPipeline]:PlayList: [1322399489] 载入史册的中国风摇滚 (531/1844) has 12 songs.
+INFO:[DataPipeline]:PlayList: [31425430] 最美&#32;最纯粹&#32;最中国风 (532/1844) has 7 songs.
+INFO:[DataPipeline]:PlayList: [3454376003] 那些让人想哭的中国风 (533/1844) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7000999900] 中国风翻唱&#32;&#58;&#32;翩跹佳人情 (534/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1736751127] 悠悠曲中情&#32;&#32;浓浓中国风 (535/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1439230424] 现代的音乐唱出古典的味道—00年代中国风 (536/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [39869764] 发现好听：主打歌，中国风 (537/1844) has 9 songs.
+INFO:[DataPipeline]:PlayList: [1136459441] 内地独立乐队的中国风情结 (538/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [4029160939] 『国风电音』&#32;带好耳机感受中国风 (539/1844) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 58
+INFO:[DataPipeline]:PlayList: [1351130712] 古韵中国风 (540/1844) has 35 songs.
+INFO:[DataPipeline]:PlayList: [2034409251] 独立音乐中一缕中国风 (541/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [3799369922] 清箫吟情&#32;&#124;&#32;中国风乐器纯音选集 (542/1844) has 19 songs.
+INFO:[DataPipeline]:PlayList: [29894539] 悠悠中国风 (543/1844) has 11 songs.
+INFO:[DataPipeline]:PlayList: [1427893400] 优雅婉约派中国风好歌曲 (544/1844) has 43 songs.
+INFO:[DataPipeline]:PlayList: [7325035722] 12月中国风新歌：大雪照映如冰壶 (545/1844) has 34 songs.
+INFO:[DataPipeline]:PlayList: [31895287] 古琴韵律中国风 (546/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [1369686073] 中国风纯音乐（武侠，古风，仙侠） (547/1844) has 295 songs.
+INFO:[DataPipeline]:PlayList: [1332396307] 那些回味的中国风 (548/1844) has 9 songs.
+INFO:[DataPipeline]:PlayList: [2033980808] 中国风游戏乐曲&#32;在乐章里飘摇沉浮（二） (549/1844) has 25 songs.
+INFO:[DataPipeline]:Sleep for: 64
+INFO:[DataPipeline]:PlayList: [708983216] 古风中国风 (550/1844) has 127 songs.
+INFO:[DataPipeline]:PlayList: [7446138259] 中国风民谣&#32;·&#32;一缕诗情画意 (551/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7276511754] 游戏必备&#32;·&#32;心醉中国风纯韵 (552/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [2431071897] 唯美中国风&#32;好运马上来 (553/1844) has 8 songs.
+INFO:[DataPipeline]:PlayList: [1611842610] 新派中国风&#32;唯我所爱 (554/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [31514073] 最爱中国风 (555/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2638630407] 原来他们都爱周杰伦的中国风 (556/1844) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7304079432] 中国风纯音&#32;·&#32;宫廷后宫里的爱恨 (557/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [2649467507] 除夜传统“年”，怎能少了中国风？ (558/1844) has 50 songs.
+INFO:[DataPipeline]:PlayList: [1736750688] 东方古韵，一品中国风 (559/1844) has 19 songs.
+INFO:[DataPipeline]:Sleep for: 120
+INFO:[DataPipeline]:PlayList: [7545079286] 『中国风歌曲』古风歌曲抖音最火 (560/1844) has 635 songs.
+INFO:[DataPipeline]:PlayList: [1129352960] 「中国风❤悦享」消得一声莺，东风三月情。 (561/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2751399166] 大玩中国风的欧美歌 (562/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [39509841] 日本大师笔下的中国风 (563/1844) has 11 songs.
+INFO:[DataPipeline]:PlayList: [7529927775] 红歌经典中国风&#32;老革命歌曲 (564/1844) has 100 songs.
+INFO:[DataPipeline]:PlayList: [786010712] 中国风歌曲大赏 (565/1844) has 43 songs.
+INFO:[DataPipeline]:PlayList: [7147709875] 中国风影视同名主题曲 (566/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1838352972] 中国风 (567/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [3185715173] 悠悠古风or现代中国风 (568/1844) has 43 songs.
+INFO:[DataPipeline]:PlayList: [2678405599] 战马奔腾，中国风金属 (569/1844) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 161
+INFO:[DataPipeline]:PlayList: [1736813951] 【中国风】余音绕梁，故人已归 (570/1844) has 23 songs.
+INFO:[DataPipeline]:PlayList: [3508456377] 中国风的韵律 (571/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7269258391] 热血中国风&#32;·&#32;玉门关盖将军歌 (572/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [2257292672] 不朽中国风。 (573/1844) has 28 songs.
+INFO:[DataPipeline]:PlayList: [1616017884] 那些年，最爱的中国风 (574/1844) has 16 songs.
+INFO:[DataPipeline]:PlayList: [38599894] 流行中的中国风 (575/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [7344860809] 中国风纯音乐/古风游戏背景音乐 (576/1844) has 47 songs.
+INFO:[DataPipeline]:PlayList: [31144219] 古琴演绎，中国风 (577/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [4235935591] 梦指苍穹：燃系中国风金属 (578/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2033979707] 中国风游戏乐曲&#32;请仔细聆听（一） (579/1844) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 132
+INFO:[DataPipeline]:PlayList: [3234479819] 满满中国风的新民乐佳作 (580/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7222862040] 综艺&#32;│&#32;带你认识不一样的中国风 (581/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [816818530] 古韵妖娆中国风，沉浸在这个世界 (582/1844) has 56 songs.
+INFO:[DataPipeline]:PlayList: [7276509233] 影视中国风&#32;·&#32;壮阔史诗感纯音乐 (583/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7286452698] 中国风古典乐器纯音乐 (584/1844) has 52 songs.
+INFO:[DataPipeline]:PlayList: [1290598947] 古风&#32;中国风 (585/1844) has 9 songs.
+INFO:[DataPipeline]:PlayList: [7114573823] 中国风&#32;&#124;&#32;&#32;古道青烟，今夕何年？ (586/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [1925808600] 恋上“嵩式”中国风 (587/1844) has 14 songs.
+INFO:[DataPipeline]:PlayList: [7518718393] 抖音中国风 (588/1844) has 38 songs.
+INFO:[DataPipeline]:PlayList: [39510829] 温柔中国风 (589/1844) has 12 songs.
+INFO:[DataPipeline]:Sleep for: 137
+INFO:[DataPipeline]:PlayList: [29832515] 中国风&#32;子望与他 (590/1844) has 12 songs.
+INFO:[DataPipeline]:PlayList: [1176720377] 红歌经典中国风&#32;老革命歌曲 (591/1844) has 60 songs.
+INFO:[DataPipeline]:PlayList: [7276510317] 中国风纯音&#32;·&#32;古装里的舞动身影 (592/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [15253062] 最爱中国风&#32;古典音乐正在苏醒 (593/1844) has 8 songs.
+INFO:[DataPipeline]:PlayList: [1908515821] 中国风&#45;初年旋律&#32; (594/1844) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7268165425] 中国风纯乐｜浪迹天涯，看江山如画 (595/1844) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7522041731] 中国风｜古风&#32;流行纯音乐（背景乐） (596/1844) has 241 songs.
+INFO:[DataPipeline]:PlayList: [2824030481] 那些年，我爱的中国风 (597/1844) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7256656235] 古装电影里的中国风纯音 (598/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [1987238719] 聆听港式武侠中的经典中国风 (599/1844) has 23 songs.
+INFO:[DataPipeline]:Sleep for: 165
+INFO:[DataPipeline]:PlayList: [7112408553] 那些藏在小众音乐里的中国风 (600/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7126813120] 2019年8月中国风新歌 (601/1844) has 59 songs.
+INFO:[DataPipeline]:PlayList: [37751365] 中国风网络游戏背景音乐 (602/1844) has 8 songs.
+INFO:[DataPipeline]:PlayList: [39721764] 忧伤中国风：将唯美进行到底 (603/1844) has 12 songs.
+INFO:[DataPipeline]:PlayList: [2668916498] 欧美说唱里的中国风，创意十足 (604/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7377779088] bgm抖音中国风纯音乐古筝轻音乐钢琴曲睡眠 (605/1844) has 415 songs.
+INFO:[DataPipeline]:PlayList: [3235541762] 2010年那些不能错过的中国风 (606/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7543161434] 中国风歌曲门店使用 (607/1844) has 33 songs.
+INFO:[DataPipeline]:PlayList: [20190860] 云端天籁&#32;&#32;清韵悠扬中国风 (608/1844) has 11 songs.
+INFO:[DataPipeline]:PlayList: [7276516858] 中国风纯音&#32;·&#32;古装里的爱情故事 (609/1844) has 25 songs.
+INFO:[DataPipeline]:Sleep for: 97
+INFO:[DataPipeline]:PlayList: [1277450390] 古风•中国风 (610/1844) has 141 songs.
+INFO:[DataPipeline]:PlayList: [1455088713] 李玉刚中国风 (611/1844) has 224 songs.
+INFO:[DataPipeline]:PlayList: [7276512254] 思念之殇&#32;·&#32;古装里的中国风纯音 (612/1844) has 24 songs.
+INFO:[DataPipeline]:PlayList: [38766345] 中国风中的经典演绎 (613/1844) has 11 songs.
+INFO:[DataPipeline]:PlayList: [7440026820] 中国风戏腔类歌曲 (614/1844) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7290373808] 恢弘大气的中国风纯音乐 (615/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1662263838] 倾尽天下&#32;唯一曲中国风 (616/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [1166235027] China&#32;中国风的动感电子音乐 (617/1844) has 89 songs.
+INFO:[DataPipeline]:PlayList: [1736823995] 【中国风·电子】感受角徵宫商的荡气回肠 (618/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7187239172] 9月中国风新歌：何事秋风悲画扇 (619/1844) has 38 songs.
+INFO:[DataPipeline]:Sleep for: 144
+INFO:[DataPipeline]:PlayList: [1083589277] 红尘随心走，流行中国风 (620/1844) has 31 songs.
+INFO:[DataPipeline]:PlayList: [2945118152] 张杰｜中国风 (621/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7304079425] 中国风纯音&#32;·&#32;武侠江湖的逍遥 (622/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7430253073] 中国风 (623/1844) has 287 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "runner_qq.py", line 51, in process_playlist
+    songs = api.get_songs_from_playlist(playlist_id)
+  File "/private/var/root/.jenkins/workspace/data-zhongguofeng/dao/qq_api.py", line 23, in get_songs_from_playlist
+    response = self.fetch(url).get("cdlist", [])[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 83, in process_playlist
+    logger.error("Exception in processing playlist: ", e)
+Message: 'Exception in processing playlist: '
+Arguments: (IndexError('list index out of range'),)
+INFO:[DataPipeline]:PlayList: [2944062520] 梦想的声音｜林俊杰玩转“中国风” (624/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [998711392] 华语流行中国风 (625/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1065299481] 犹记流年，唯美中国风 (626/1844) has 16 songs.
+INFO:[DataPipeline]:PlayList: [7249724251] 中国风加RAP (627/1844) has 401 songs.
+INFO:[DataPipeline]:PlayList: [7287075766] 11月中国风新歌：猎猎寒威云不卷 (628/1844) has 36 songs.
+INFO:[DataPipeline]:PlayList: [19588086] 淡雅中国风&#32;轻柔如风的美 (629/1844) has 7 songs.
+INFO:[DataPipeline]:Sleep for: 180
+INFO:[DataPipeline]:PlayList: [7184156537] 抖音最火🔥中国风 (630/1844) has 188 songs.
+INFO:[DataPipeline]:PlayList: [1736751396] 中式西唱·西洋所理解的中国风 (631/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [28435213] 收集的中国风歌曲 (632/1844) has 50 songs.
+INFO:[DataPipeline]:PlayList: [3512987417] 流行中国风&#32;爱的就是这个调调 (633/1844) has 93 songs.
+INFO:[DataPipeline]:PlayList: [7371803092] 中国风纯音乐 (634/1844) has 40 songs.
+INFO:[DataPipeline]:PlayList: [21953006] 回环中国风&#32;浅吟低唱 (635/1844) has 7 songs.
+INFO:[DataPipeline]:PlayList: [2617581637] 中国风，曲迷人，词走心 (636/1844) has 197 songs.
+INFO:[DataPipeline]:PlayList: [2647465426] 尽享中国风电音带来的独特魅力 (637/1844) has 16 songs.
+INFO:[DataPipeline]:PlayList: [3270714996] 【中国风】：泠七弦上，听松风寒 (638/1844) has 38 songs.
+INFO:[DataPipeline]:PlayList: [1083377395] 最爱中国风 (639/1844) has 14 songs.
+INFO:[DataPipeline]:Sleep for: 160
+INFO:[DataPipeline]:PlayList: [674849517] 唯美的周式中国风 (640/1844) has 12 songs.
+INFO:[DataPipeline]:PlayList: [7249542697] 禅意中国风&#32;·&#32;松下佛前挑夜灯 (641/1844) has 24 songs.
+INFO:[DataPipeline]:PlayList: [15410281] 地道中国风&#32;全民贺世博 (642/1844) has 12 songs.
+INFO:[DataPipeline]:PlayList: [3562674099] 胡彦斌，听完耳朵会怀孕的中国风 (643/1844) has 27 songs.
+INFO:[DataPipeline]:PlayList: [5374437849] 每日新歌：魏晨&#38;王铮亮玩转中国风 (644/1844) has 68 songs.
+INFO:[DataPipeline]:PlayList: [7478140222] 『中国风歌曲』古风歌曲抖音最火 (645/1844) has 793 songs.
+INFO:[DataPipeline]:PlayList: [661905429] 那些年你不能忘记的中国风 (646/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [799195655] 经典中国风，在音乐中找回我们的故事 (647/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [6953813363] 中国风 (648/1844) has 275 songs.
+INFO:[DataPipeline]:PlayList: [6781554959] 中国风&#124;&#32;纵观电音方程式的奇妙♥ (649/1844) has 50 songs.
+INFO:[DataPipeline]:Sleep for: 92
+INFO:[DataPipeline]:PlayList: [3487316697] 当中国风遇上说唱 (650/1844) has 35 songs.
+INFO:[DataPipeline]:PlayList: [1889495893] 唯美中国风 (651/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [3508454626] 最美中国风，古韵悠然 (652/1844) has 62 songs.
+INFO:[DataPipeline]:PlayList: [3563738853] 古典纯音乐BGM·中国风古典乐 (653/1844) has 91 songs.
+INFO:[DataPipeline]:PlayList: [13314101] 中国风 (654/1844) has 12 songs.
+INFO:[DataPipeline]:PlayList: [2880533862] 将唯美中国风进行到底 (655/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1711554093] 古魅妖娆中国风，唯美好听 (656/1844) has 60 songs.
+INFO:[DataPipeline]:PlayList: [1624483744] 别样中国风，给你别样感觉。 (657/1844) has 52 songs.
+INFO:[DataPipeline]:PlayList: [7531380521] 安静，舒适&#32;笛子古筝琵琶古典音乐，中国风 (658/1844) has 73 songs.
+INFO:[DataPipeline]:PlayList: [36247342] 流行歌曲也有中国风 (659/1844) has 13 songs.
+INFO:[DataPipeline]:Sleep for: 142
+INFO:[DataPipeline]:PlayList: [40103614] 最受欢迎的十首中国风 (660/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [1682261896] 那些满满中国风的英文歌 (661/1844) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7418720079] 红歌经典中国风&#32;老革命歌曲 (662/1844) has 55 songs.
+INFO:[DataPipeline]:PlayList: [7162484090] 抖音优质中国风 (663/1844) has 103 songs.
+INFO:[DataPipeline]:PlayList: [32296025] 日本大师笔下的中国风 (664/1844) has 11 songs.
+INFO:[DataPipeline]:PlayList: [7549741874] 纯音乐&#124;优美小提琴演绎的中国风 (665/1844) has 23 songs.
+INFO:[DataPipeline]:PlayList: [1558311667] 嘉人中国风：许茹芸的时尚缪斯音乐 (666/1844) has 15 songs.
+INFO:[DataPipeline]:PlayList: [6428035387] 情迷中国风· (667/1844) has 785 songs.
+INFO:[DataPipeline]:PlayList: [33281976] 另类混搭&#32;欧美中国风 (668/1844) has 8 songs.
+INFO:[DataPipeline]:PlayList: [2495607479] 中国风，百听不厌 (669/1844) has 9 songs.
+INFO:[DataPipeline]:Sleep for: 165
+INFO:[DataPipeline]:PlayList: [1460917740] 洛天依「中国风」音乐合集 (670/1844) has 54 songs.
+INFO:[DataPipeline]:PlayList: [4144794488] 嗨皮经典中国风 (671/1844) has 308 songs.
+INFO:[DataPipeline]:PlayList: [26560502] 国外也刮中国风 (672/1844) has 8 songs.
+INFO:[DataPipeline]:PlayList: [2667997676] 中国风&#38;周杰伦 (673/1844) has 113 songs.
+INFO:[DataPipeline]:PlayList: [875493964] 周杰伦&#38;方文山的中国风 (674/1844) has 27 songs.
+INFO:[DataPipeline]:PlayList: [36576343] 唯美中国风 (675/1844) has 11 songs.
+INFO:[DataPipeline]:PlayList: [7428037323] 中国风 (676/1844) has 75 songs.
+INFO:[DataPipeline]:PlayList: [3440534414] 最爱中国风&#32;诗韵抹长空 (677/1844) has 24 songs.
+INFO:[DataPipeline]:PlayList: [3460856637] 杰伦之中国风 (678/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [39657878] 爱流行&#32;更爱中国风 (679/1844) has 7 songs.
+INFO:[DataPipeline]:Sleep for: 152
+INFO:[DataPipeline]:PlayList: [7208110839] 中国风 (680/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [39477878] 中国风&#32;将唯美雅韵进行到底 (681/1844) has 8 songs.
+INFO:[DataPipeline]:PlayList: [1817439482] 中国风流行歌单 (682/1844) has 351 songs.
+INFO:[DataPipeline]:PlayList: [1413335780] 好听的中国风（轻音乐） (683/1844) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7350222123] 中国风（琵琶古筝电音） (684/1844) has 63 songs.
+INFO:[DataPipeline]:PlayList: [5489122804] 中国风🐸 (685/1844) has 616 songs.
+INFO:[DataPipeline]:PlayList: [3187776832] 中国风背景音乐BGM，纯音乐 (686/1844) has 38 songs.
+INFO:[DataPipeline]:PlayList: [1302702973] 熟悉的旋律&#126;中国风 (687/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [2060450301] 中国风古风二次元日语大混合 (688/1844) has 942 songs.
+INFO:[DataPipeline]:PlayList: [5130622412] 中国风服装走秀～汉服/旗袍秀&#32;音乐 (689/1844) has 91 songs.
+INFO:[DataPipeline]:Sleep for: 107
+INFO:[DataPipeline]:PlayList: [2153591114] 典雅中国风 (690/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [2660288754] 「中国风电音」当热烈电子遇到柔情古风时 (691/1844) has 89 songs.
+INFO:[DataPipeline]:PlayList: [846029160] 现代中国风，古典，汉服舞蹈 (692/1844) has 67 songs.
+INFO:[DataPipeline]:PlayList: [37263389] 中国风 (693/1844) has 74 songs.
+INFO:[DataPipeline]:PlayList: [2295928340] 中国风，神仙梦 (694/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [3189813183] 从国外音乐中寻觅中国风的痕迹 (695/1844) has 19 songs.
+INFO:[DataPipeline]:PlayList: [6965411879] bgm抖音中国风纯音乐古筝轻音乐钢琴曲睡眠 (696/1844) has 303 songs.
+INFO:[DataPipeline]:PlayList: [7500057259] 中国风&#32;治愈&#32;游戏上分必备歌曲 (697/1844) has 251 songs.
+INFO:[DataPipeline]:PlayList: [7124920982] 红歌经典中国风&#32;老革命歌曲 (698/1844) has 142 songs.
+INFO:[DataPipeline]:PlayList: [2684452519] 中国风 (699/1844) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 100
+INFO:[DataPipeline]:PlayList: [1770399801] Higher&#32;Brothers中国风说唱 (700/1844) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7458245896] 民谣中国风 (701/1844) has 233 songs.
+INFO:[DataPipeline]:PlayList: [3782796119] 【中国风】书信慢一纸写不尽相思 (702/1844) has 50 songs.
+INFO:[DataPipeline]:PlayList: [2919567677] 醉美不过中国风 (703/1844) has 75 songs.
+INFO:[DataPipeline]:PlayList: [1418168390] 那些被忽略却非常好听的中国风 (704/1844) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7273700957] 中国风轻音乐 (705/1844) has 96 songs.
+INFO:[DataPipeline]:PlayList: [1663224856] 中国风丨聆听今昔诗情曲，梦回千古温柔乡！ (706/1844) has 90 songs.
+INFO:[DataPipeline]:PlayList: [14368725] 弦音流转　时尚中国风 (707/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [3330758628] 中国风古风所爱 (708/1844) has 190 songs.
+INFO:[DataPipeline]:PlayList: [7304485181] 中国风纯音乐（仙剑，武侠，古风） (709/1844) has 202 songs.
+INFO:[DataPipeline]:Sleep for: 122
+INFO:[DataPipeline]:PlayList: [4630841047] 中国风 (710/1844) has 238 songs.
+INFO:[DataPipeline]:PlayList: [7384994468] 中国风 (711/1844) has 229 songs.
+INFO:[DataPipeline]:PlayList: [7304905150] 超级虐心的中国风喊麦合集 (712/1844) has 55 songs.
+INFO:[DataPipeline]:PlayList: [34003725] 借着乐感　细品欧美中国风 (713/1844) has 5 songs.
+INFO:[DataPipeline]:PlayList: [7562046896] 中国风 (714/1844) has 145 songs.
+INFO:[DataPipeline]:PlayList: [4545558433] 中国风歌曲 (715/1844) has 37 songs.
+INFO:[DataPipeline]:PlayList: [1551774598] 柔美中国风 (716/1844) has 8 songs.
+INFO:[DataPipeline]:PlayList: [14863540] 花嬗、偏爱的中国风。 (717/1844) has 5 songs.
+INFO:[DataPipeline]:PlayList: [30842122] 中国风 (718/1844) has 19 songs.
+INFO:[DataPipeline]:PlayList: [4260812540] 中国风 (719/1844) has 73 songs.
+INFO:[DataPipeline]:Sleep for: 114
+INFO:[DataPipeline]:PlayList: [7382392003] 中国风 (720/1844) has 155 songs.
+INFO:[DataPipeline]:PlayList: [7137867452] 最美中国风 (721/1844) has 107 songs.
+INFO:[DataPipeline]:PlayList: [1150943854] 最美的中国风，周杰伦与许嵩 (722/1844) has 36 songs.
+INFO:[DataPipeline]:PlayList: [1175874578] 古风&#32;/中国风/民谣/戏腔 (723/1844) has 951 songs.
+INFO:[DataPipeline]:PlayList: [7269267872] VUE&#32;&#124;&#32;中国风&#124;美食背景音乐 (724/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7190382758] 中国风轻音乐 (725/1844) has 73 songs.
+INFO:[DataPipeline]:PlayList: [7548163185] 国语中国风 (726/1844) has 67 songs.
+INFO:[DataPipeline]:PlayList: [7325823822] 中国风 (727/1844) has 31 songs.
+INFO:[DataPipeline]:PlayList: [29605610] 古典韵味&#32;欧美R&#38;B中国风 (728/1844) has 5 songs.
+INFO:[DataPipeline]:PlayList: [861731718] 【中国风】萌萌哒天团 (729/1844) has 159 songs.
+INFO:[DataPipeline]:Sleep for: 63
+INFO:[DataPipeline]:PlayList: [3539452073] 中国风 (730/1844) has 59 songs.
+INFO:[DataPipeline]:PlayList: [7321565589] 中国风服装走秀～汉服/旗袍秀&#32;音乐 (731/1844) has 76 songs.
+INFO:[DataPipeline]:PlayList: [38921926] 你不知道他们也唱过的中国风 (732/1844) has 12 songs.
+INFO:[DataPipeline]:PlayList: [6997932023] 『中国风电音抖音』&#96;古风歌曲抖音最火2021 (733/1844) has 251 songs.
+INFO:[DataPipeline]:PlayList: [7248481060] 中国风 (734/1844) has 47 songs.
+INFO:[DataPipeline]:PlayList: [4084413689] 中国风 (735/1844) has 225 songs.
+INFO:[DataPipeline]:PlayList: [39735725] 最爱中国风 (736/1844) has 6 songs.
+INFO:[DataPipeline]:PlayList: [7097928553] 9中国风 (737/1844) has 220 songs.
+INFO:[DataPipeline]:PlayList: [20544802] 空寂&#32;中国风&#32;纯音乐 (738/1844) has 8 songs.
+INFO:[DataPipeline]:PlayList: [895156587] 中国风 (739/1844) has 570 songs.
+INFO:[DataPipeline]:Sleep for: 48
+INFO:[DataPipeline]:PlayList: [860969313] 中国风 (740/1844) has 190 songs.
+INFO:[DataPipeline]:PlayList: [3741027754] 大爱中国风 (741/1844) has 44 songs.
+INFO:[DataPipeline]:PlayList: [3218402566] 让你值得循环的中国风歌曲 (742/1844) has 93 songs.
+INFO:[DataPipeline]:PlayList: [7377665295] 超喜欢的中国风 (743/1844) has 160 songs.
+INFO:[DataPipeline]:PlayList: [1438348349] 中国风“凤凰传奇” (744/1844) has 19 songs.
+INFO:[DataPipeline]:PlayList: [6607719044] 中国风 (745/1844) has 231 songs.
+INFO:[DataPipeline]:PlayList: [38215332] 中国风撞上R&#38;B (746/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [7389383349] 醉美中国风 (747/1844) has 395 songs.
+INFO:[DataPipeline]:PlayList: [6937129256] 中国风 (748/1844) has 170 songs.
+INFO:[DataPipeline]:PlayList: [862069931] 中国风电音—国风燃&#46;醉其身&#46;傍于心 (749/1844) has 81 songs.
+INFO:[DataPipeline]:Sleep for: 68
+INFO:[DataPipeline]:PlayList: [2595455627] 诗情画意中国风 (750/1844) has 41 songs.
+INFO:[DataPipeline]:PlayList: [3590852498] 中国风 (751/1844) has 620 songs.
+INFO:[DataPipeline]:PlayList: [7354809273] 「华语」诗意中国风 (752/1844) has 80 songs.
+INFO:[DataPipeline]:PlayList: [1450848618] 中国风华语舞曲精选 (753/1844) has 700 songs.
+INFO:[DataPipeline]:PlayList: [1734358426] 中国风电音 (754/1844) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7119000981] 摇滚,电音,中国风,欧美,说唱 (755/1844) has 670 songs.
+INFO:[DataPipeline]:PlayList: [7132465235] 布袋戏＋古风（中国风） (756/1844) has 209 songs.
+INFO:[DataPipeline]:PlayList: [3259274293] 中国风嘻哈&#32;&#32;Hip&#32;Hop (757/1844) has 35 songs.
+INFO:[DataPipeline]:PlayList: [3235725154] 欧美风与中国风&#32;你更喜欢哪种呢？ (758/1844) has 457 songs.
+INFO:[DataPipeline]:PlayList: [26670401] 古韵中国风 (759/1844) has 9 songs.
+INFO:[DataPipeline]:Sleep for: 83
+INFO:[DataPipeline]:PlayList: [7123747011] 红歌经典中国风&#32;老革命歌曲 (760/1844) has 50 songs.
+INFO:[DataPipeline]:PlayList: [25725905] 题三字缘&#32;听中国风 (761/1844) has 8 songs.
+INFO:[DataPipeline]:PlayList: [3238934233] 中国风电音&#124;中国风的电音，既舒适又悦耳。 (762/1844) has 35 songs.
+INFO:[DataPipeline]:PlayList: [2970696403] 游山戏水品古曲，闲来哼唱中国风 (763/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [1756409102] 禅意中国风 (764/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [1730298148] 中国风电音丨大气的宫调式电子 (765/1844) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7050857059] 中国风 (766/1844) has 418 songs.
+INFO:[DataPipeline]:PlayList: [3633527513] 中国风 (767/1844) has 42 songs.
+INFO:[DataPipeline]:PlayList: [3591569306] 「不断更新」CCTV《国家宝藏》里的中国风 (768/1844) has 128 songs.
+INFO:[DataPipeline]:PlayList: [3353958091] 经典怀念中国风 (769/1844) has 6 songs.
+INFO:[DataPipeline]:Sleep for: 106
+INFO:[DataPipeline]:PlayList: [2938190397] 中国风 (770/1844) has 98 songs.
+INFO:[DataPipeline]:PlayList: [2332786242] 周杰伦&#32;中国风“大魔王” (771/1844) has 101 songs.
+INFO:[DataPipeline]:PlayList: [3188066161] 冬天听听唯美中国风 (772/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7316029644] 英文歌、中国风流行歌曲 (773/1844) has 812 songs.
+INFO:[DataPipeline]:PlayList: [819526916] 【中国风】如国画一般的流行歌曲 (774/1844) has 39 songs.
+INFO:[DataPipeline]:PlayList: [2447712300] 唯美歌词的中国风 (775/1844) has 33 songs.
+INFO:[DataPipeline]:PlayList: [16540626] 彼岸&#32;、花开（中国风） (776/1844) has 4 songs.
+INFO:[DataPipeline]:PlayList: [1089720048] 丫丫丫 (777/1844) has 826 songs.
+INFO:[DataPipeline]:PlayList: [2656751468] 中国风：中国好声音 (778/1844) has 344 songs.
+INFO:[DataPipeline]:PlayList: [36068783] 琵琶阵阵&#32;琴声悠悠&#32;唯爱中国风 (779/1844) has 7 songs.
+INFO:[DataPipeline]:Sleep for: 62
+INFO:[DataPipeline]:PlayList: [7207355671] 中国风 (780/1844) has 958 songs.
+INFO:[DataPipeline]:PlayList: [2240445223] 中国风不止有周董！ (781/1844) has 22 songs.
+INFO:[DataPipeline]:PlayList: [3745579275] 中国风·歌声飘过40年·民歌经典 (782/1844) has 49 songs.
+INFO:[DataPipeline]:PlayList: [3158102843] 中国风 (783/1844) has 995 songs.
+INFO:[DataPipeline]:PlayList: [1302908375] 中国风&#32;我爱你永恒 (784/1844) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7249415393] 经典&#43;中国风 (785/1844) has 162 songs.
+INFO:[DataPipeline]:PlayList: [1401229920] 中国风音乐 (786/1844) has 31 songs.
+INFO:[DataPipeline]:PlayList: [3574268998] 恋恋中国风，曲风悠远，故人离悲，已去。 (787/1844) has 23 songs.
+INFO:[DataPipeline]:PlayList: [5403164850] 古风&#32;中国风&#32;玄幻 (788/1844) has 220 songs.
+INFO:[DataPipeline]:PlayList: [1456253162] 徐梦圆——China中国风电音系列 (789/1844) has 16 songs.
+INFO:[DataPipeline]:Sleep for: 30
+INFO:[DataPipeline]:PlayList: [1082329683] 唯美中国风，听醉了&#126; (790/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [15419519] 屏神定氣&#32;聆聽中国风&#32; (791/1844) has 9 songs.
+INFO:[DataPipeline]:PlayList: [15734238] 中国风，秦（国）殇 (792/1844) has 14 songs.
+INFO:[DataPipeline]:PlayList: [2792678241] jay的中国风歌曲 (793/1844) has 10 songs.
+INFO:[DataPipeline]:PlayList: [7163651547] 说唱&#43;中国风 (794/1844) has 402 songs.
+INFO:[DataPipeline]:PlayList: [39988764] 嘉人中国风：许茹芸的时尚缪斯音乐 (795/1844) has 15 songs.
+INFO:[DataPipeline]:PlayList: [2975125898] 【周杰伦的中国风】古筝撩拨，琵琶淙淙 (796/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [3576118653] 「国风」一定要听的一百首中国风 (797/1844) has 102 songs.
+INFO:[DataPipeline]:PlayList: [3570889446] 那些评论999&#43;的古风（中国风）歌曲 (798/1844) has 63 songs.
+INFO:[DataPipeline]:PlayList: [3189965891] 美美中国风――刘珂矣 (799/1844) has 27 songs.
+INFO:[DataPipeline]:Sleep for: 166
+INFO:[DataPipeline]:PlayList: [4222992969] 常听中国风 (800/1844) has 170 songs.
+INFO:[DataPipeline]:PlayList: [2960349238] 中国风轻电音 (801/1844) has 67 songs.
+INFO:[DataPipeline]:PlayList: [41039660] 中国风&#32;&#32;&#32;戏剧也疯狂 (802/1844) has 7 songs.
+INFO:[DataPipeline]:PlayList: [2671684295] 中国风民谣 (803/1844) has 773 songs.
+INFO:[DataPipeline]:PlayList: [3495532482] ◤中国风◢ (804/1844) has 52 songs.
+INFO:[DataPipeline]:PlayList: [1149637053] 中国风男孩boy (805/1844) has 713 songs.
+INFO:[DataPipeline]:PlayList: [3761846727] 电子&#32;&#32;中国风 (806/1844) has 40 songs.
+INFO:[DataPipeline]:PlayList: [2933738350] 【中國風】聽一曲古琴嘆 (807/1844) has 127 songs.
+INFO:[DataPipeline]:PlayList: [1749305929] 周杰伦&#32;魔杰座&#32;中国风&#32;轻音乐 (808/1844) has 79 songs.
+INFO:[DataPipeline]:PlayList: [3261099905] 周杰伦的中国风，说的是谁的故事，谁的人生 (809/1844) has 15 songs.
+INFO:[DataPipeline]:Sleep for: 99
+INFO:[DataPipeline]:PlayList: [6463891121] 中国风 (810/1844) has 160 songs.
+INFO:[DataPipeline]:PlayList: [1484053311] 中国风か (811/1844) has 362 songs.
+INFO:[DataPipeline]:PlayList: [3220796828] 中国风 (812/1844) has 817 songs.
+INFO:[DataPipeline]:PlayList: [31894287] 西洋下的中国风音乐 (813/1844) has 11 songs.
+INFO:[DataPipeline]:PlayList: [3666781781] 欧美范&#124;中国风&#32;现代电子与古风电子的碰撞 (814/1844) has 245 songs.
+INFO:[DataPipeline]:PlayList: [1483937289] 中国风 (815/1844) has 549 songs.
+INFO:[DataPipeline]:PlayList: [2031148601] CHINA系列（中国风电音） (816/1844) has 26 songs.
+INFO:[DataPipeline]:PlayList: [3572257602] 【古风&#45;戏腔】&#32;绝艳中国风：吟一曲缱绻诗调 (817/1844) has 40 songs.
+INFO:[DataPipeline]:PlayList: [845377999] 中国风 (818/1844) has 465 songs.
+INFO:[DataPipeline]:PlayList: [2361152244] 国产丨中国风 (819/1844) has 56 songs.
+INFO:[DataPipeline]:Sleep for: 165
+INFO:[DataPipeline]:PlayList: [7094401163] 中国风 (820/1844) has 277 songs.
+INFO:[DataPipeline]:PlayList: [2897697008] 三字经之中国风 (821/1844) has 36 songs.
+INFO:[DataPipeline]:PlayList: [1424717047] 中国风and古风 (822/1844) has 117 songs.
+INFO:[DataPipeline]:PlayList: [2649008155] 迷上电音（中国风） (823/1844) has 40 songs.
+INFO:[DataPipeline]:PlayList: [1457713497] 周杰伦中国风&#32;&#32;好听最吊 (824/1844) has 15 songs.
+INFO:[DataPipeline]:PlayList: [1118901349] 恋恋中国风 (825/1844) has 238 songs.
+INFO:[DataPipeline]:PlayList: [876349195] 中国风另类宣泄喊麦 (826/1844) has 89 songs.
+INFO:[DataPipeline]:PlayList: [1142878175] 唯美中国风，情歌才子，嘻哈天王——周杰伦 (827/1844) has 128 songs.
+INFO:[DataPipeline]:PlayList: [1763257090] 中国风&#32;『纯音乐』 (828/1844) has 19 songs.
+INFO:[DataPipeline]:PlayList: [2617364706] 中国风 (829/1844) has 54 songs.
+INFO:[DataPipeline]:Sleep for: 145
+INFO:[DataPipeline]:PlayList: [856469479] 中国风&#32;&#58;笛，二胡，陶笛等 (830/1844) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1733668298] 中国风，古典 (831/1844) has 90 songs.
+INFO:[DataPipeline]:PlayList: [19027492] 水袖的音色&#32;离人的清歌&#32;情殇中国风 (832/1844) has 8 songs.
+INFO:[DataPipeline]:PlayList: [2946529571] JAY式中国风 (833/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [1920363322] 中国风 (834/1844) has 292 songs.
+INFO:[DataPipeline]:PlayList: [6809808093] 那些红极一时的中国风系列γ (835/1844) has 65 songs.
+INFO:[DataPipeline]:PlayList: [1081479293] 许嵩式中国风 (836/1844) has 37 songs.
+INFO:[DataPipeline]:PlayList: [4205379540] 悠悠中国风 (837/1844) has 46 songs.
+INFO:[DataPipeline]:PlayList: [2816668528] 中国风の爱 (838/1844) has 235 songs.
+INFO:[DataPipeline]:PlayList: [865618188] 纯音乐、电音、中国风。&#10;&#10;&#10;&#10; (839/1844) has 110 songs.
+INFO:[DataPipeline]:Sleep for: 101
+INFO:[DataPipeline]:PlayList: [1701254646] 醉美中国风、残叙淡雅情 (840/1844) has 109 songs.
+INFO:[DataPipeline]:PlayList: [2659466546] °古风控→歌曲百首大合集･最美不过中国风 (841/1844) has 258 songs.
+INFO:[DataPipeline]:PlayList: [1758111994] 浓浓中国风 (842/1844) has 131 songs.
+INFO:[DataPipeline]:PlayList: [1135038853] 中国风电音，欧美电音，钢琴曲等等。～ (843/1844) has 121 songs.
+INFO:[DataPipeline]:PlayList: [1436208579] 【中国风】温柔且强大 (844/1844) has 305 songs.
+INFO:[DataPipeline]:PlayList: [5512570299] 中国风 (845/1844) has 100 songs.
+INFO:[DataPipeline]:PlayList: [876779437] 英文流行与中国风的交融 (846/1844) has 36 songs.
+INFO:[DataPipeline]:PlayList: [6553044530] 听一曲中国风，忆一段前朝梦 (847/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [4184862568] 古风中国风 (848/1844) has 206 songs.
+INFO:[DataPipeline]:PlayList: [2799892235] 聆听一曲中国风 (849/1844) has 25 songs.
+INFO:[DataPipeline]:Sleep for: 177
+INFO:[DataPipeline]:PlayList: [2947129747] （๑•̀ㅂ•́）و✧周氏情歌&#38;周氏中国风 (850/1844) has 101 songs.
+INFO:[DataPipeline]:PlayList: [6943857326] 中国风 (851/1844) has 54 songs.
+INFO:[DataPipeline]:PlayList: [1685834527] あ周杰伦♛中国风ヾJay&#32;chou (852/1844) has 147 songs.
+INFO:[DataPipeline]:PlayList: [3218877855] 听音乐鬼才诠释他的许式中国风 (853/1844) has 17 songs.
+INFO:[DataPipeline]:PlayList: [2357683809] 古风，中国风 (854/1844) has 40 songs.
+INFO:[DataPipeline]:PlayList: [1751249950] 【国风】清风古韵中国风 (855/1844) has 70 songs.
+INFO:[DataPipeline]:PlayList: [3557555503] 恋恋中国风 (856/1844) has 36 songs.
+INFO:[DataPipeline]:PlayList: [3272938305] 属于周杰伦的中国风 (857/1844) has 19 songs.
+INFO:[DataPipeline]:PlayList: [2664261380] 中国风电音&#32;&#32;徐梦圆China系列电音 (858/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [2955508039] 中国风电子｜祖国仿佛近在眼前 (859/1844) has 26 songs.
+INFO:[DataPipeline]:Sleep for: 69
+INFO:[DataPipeline]:PlayList: [3272019917] 中国风电音&#32; (860/1844) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2635430755] 古风，中国风 (861/1844) has 250 songs.
+INFO:[DataPipeline]:PlayList: [802526473] 古风/中国风 (862/1844) has 92 songs.
+INFO:[DataPipeline]:PlayList: [6749459652] 「中国风电音」&#32;&#32;给你一种不一样的感觉 (863/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [3259605214] 中国风：中国电音崛起。 (864/1844) has 29 songs.
+INFO:[DataPipeline]:PlayList: [2371189754] 中国风电音 (865/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [2670382092] 神韵古风&#32;&#32;&#32;&#32;中国风 (866/1844) has 557 songs.
+INFO:[DataPipeline]:PlayList: [5656069733] &#35;中国风 (867/1844) has 105 songs.
+INFO:[DataPipeline]:PlayList: [2067909038] 中国风歌曲，感染你的心。 (868/1844) has 49 songs.
+INFO:[DataPipeline]:PlayList: [1735747438] 古风&#38;中国风｜清欢而已 (869/1844) has 207 songs.
+INFO:[DataPipeline]:Sleep for: 103
+INFO:[DataPipeline]:PlayList: [2334228075] 欧洲流行与中国风 (870/1844) has 40 songs.
+INFO:[DataPipeline]:PlayList: [1059368761] 醉美不过中国风。 (871/1844) has 225 songs.
+INFO:[DataPipeline]:PlayList: [19439725] 中国风　将唯美进行到底 (872/1844) has 7 songs.
+INFO:[DataPipeline]:PlayList: [14206248] 流行&#32;&#32;&#32;&#32;&#32;中国风 (873/1844) has 7 songs.
+INFO:[DataPipeline]:PlayList: [1117846680] 流行古风，中国风音乐。 (874/1844) has 41 songs.
+INFO:[DataPipeline]:PlayList: [4218652557] 中国风 (875/1844) has 290 songs.
+INFO:[DataPipeline]:PlayList: [1918864808] 中国风 (876/1844) has 978 songs.
+INFO:[DataPipeline]:PlayList: [4639312653] 中国风，古风。 (877/1844) has 101 songs.
+INFO:[DataPipeline]:PlayList: [1773409132] Jay&#32;Chou&#43;中国风 (878/1844) has 15 songs.
+INFO:[DataPipeline]:PlayList: [3439108421] 细细品味，中国风的独特韵味 (879/1844) has 15 songs.
+INFO:[DataPipeline]:Sleep for: 30
+INFO:[DataPipeline]:PlayList: [3575589490] 中国风//只愿君心似我心，定不负相思意 (880/1844) has 17 songs.
+INFO:[DataPipeline]:PlayList: [1446889889] 周董的中国风 (881/1844) has 25 songs.
+INFO:[DataPipeline]:PlayList: [5450854390] 中国风 (882/1844) has 37 songs.
+INFO:[DataPipeline]:PlayList: [2205357948] 浓浓中国风 (883/1844) has 21 songs.
+INFO:[DataPipeline]:PlayList: [2329225302] 中国风 (884/1844) has 347 songs.
+INFO:[DataPipeline]:PlayList: [2752008473] 淳朴中国风歌曲 (885/1844) has 6 songs.
+INFO:[DataPipeline]:PlayList: [3191729298] 那些耳熟能详的中国风歌曲 (886/1844) has 23 songs.
+INFO:[DataPipeline]:PlayList: [1773961149] 『当电音遇上中国风』 (887/1844) has 41 songs.
+INFO:[DataPipeline]:PlayList: [4119385666] 中国风 (888/1844) has 102 songs.
+INFO:[DataPipeline]:PlayList: [1083999855] 最美中国风 (889/1844) has 57 songs.
+INFO:[DataPipeline]:Sleep for: 73
+INFO:[DataPipeline]:PlayList: [1944549585] 古风中国风 (890/1844) has 199 songs.
+INFO:[DataPipeline]:PlayList: [834740737] 最炫中国风 (891/1844) has 169 songs.
