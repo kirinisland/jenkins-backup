@@ -1,0 +1,48 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5342433053738932080.sh
++ python3 jobs/expirelyric.py --count 15
+('a148ee9f15', '2021-04-28 08:01:09', '这个世界上，\n没有谁离不开谁，\n每个人都是独立的个体，\n没有人有权利去控制你可以喜欢谁，\n可以讨厌谁，\n可我怎么控制不住喜欢你呢，即使你和别人在一起了。')
+('90351c0161', '2021-04-28 18:21:31', '谁家郎君疾疾马蹄声\n道旁相迎寂寂皆是空\n唯有残梦怯怯问一声\n远方可有娇娇人中凤')
+('e6b17bb7fd', '2021-04-28 23:04:42', '寂静的天边开满了彼岸花 \n我埋葬在泥泞下 \n你听身旁有人在说话 \n无目的人嚼着舌头在撒谎 \n他说天使代表希望 \n我看见他们踩踏着乞讨者的心脏 ')
+('58b636f156', '2021-05-01 00:59:48', '秋天应该很好，\n如果你能在我身边。\n然而总有一段距离，\n让我没有办法改变，\n就像你我之间那道界限。')
+('cd103b02f6', '2021-05-03 19:07:51', '聽蟬鳴知了夏天的到來，\n夜幕開啟無盡的無奈，成年人心中的悲哀\n拿起筆在紙上揮毫的寫下腦海裏的記憶\n就算是天馬行空的想像，\n我也要肆無忌憚的在紙上做夢，\n這是我的世界，別打擾我的夜。')
+('93e91cfe31', '2021-05-04 06:20:48', '   其实我在你看不到的地方，看了你好多次。\n我的每一支笔，都知道你的名字。\n你转身的时候，我盯着你的背影看了好久。\n   我连奶茶里有几颗，珍珠都想和你说。\n其实早就表白过了，在看你的眼神里\n好多喜欢藏在欲言又止里。')
+('a3cdb7853f', '2021-05-07 18:25:24', '竭尽全力去抵抗\n也许能找到理想的方向\n看似无敌的坚强  却是无力的勉强\n我正在路上 才发现其实是沤梦一场\n黑夜实在是太过漫长\n愿做那束光将你照亮')
+('e3ed968f3b', '2021-05-09 15:16:37', '清晨云层外的阳光 灿烂地洒在了花上\n突然扬起的海风 轻微地打在了脸上\n海风咸淡的气息 吹散了茉莉花的花香\n现在有你在的身旁 总有着天边的霞光\n不知什么时候我开始遐想')
+('d6614ee870', '2021-05-09 16:45:23', '也快忘了你的模样\n现在想想有些心酸\n故事说完结局写好\n或者各自在各自的生活幸福美满\n你的爱怎么那么深刻\n让我余生有堆梦给你')
+('cf01da1214', '2021-05-09 23:24:02', '在年少无知的时候遇见你\n就知道以后不平凡\n一点一滴的回忆\n维持我生活的向往\n你的名字我忍住不去想\n每次想到我只能哭泣')
+('c7928d92a1', '2021-05-10 03:48:23', '我记得看过你的眼睛\n就像天边划过的流星\n我记得我和你的约定\n为了爱情哪怕要翻山越岭\n我记得你的声音\n穿过山海和森林')
+('a196b02880', '2021-05-10 12:54:38', '酸甜苦辣都想说给你听\n悲欢离合都想和你一起经历\n是不是走得太近就有失魅力\n你的若即若离 无法靠近\n\n喜怒哀乐想到的（也）都是你')
+('a022f2010e', '2021-05-12 03:18:23', '从陌生到熟悉到关系变的紧密\n从朋友到兄弟到发现都是演戏')
+('960ce744a6', '2021-05-16 02:18:46', '不知他在等谁出现\n没有人想象个对面\n对着自己碎碎念\n一遍一遍一遍')
+('1c794b12ae', '2021-05-23 01:24:12', '如若我歇了心思\n下雨比晴有兴致\n墙壁正潮湿\n眼泪也潮湿，好对峙')
+('c426ba7253', '2021-05-29 03:14:59', '我的心事还没有说完\n可有些话只能在心里呢喃\n当你说好聚好散\n当你已与我无关\n我甘愿做一只孤雁\n从此没有了温暖的港湾')
+现有精选微词 16首.
+> 超过 15 首精选微词, 将下架如下微词:
+('a148ee9f15', '2021-04-28 08:01:09', '这个世界上，\n没有谁离不开谁，\n每个人都是独立的个体，\n没有人有权利去控制你可以喜欢谁，\n可以讨厌谁，\n可我怎么控制不住喜欢你呢，即使你和别人在一起了。')
+{"updatedAt":"2021-06-02 07:14:19"}
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
