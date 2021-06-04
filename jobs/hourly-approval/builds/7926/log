@@ -1,0 +1,58 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins821482252342568744.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 4首.
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+ 你的痛苦确实也和我没有关系
+ 我反正就想着我自己
+ 该走时我说走就走
+ 遇见时我使劲低头
+ 但我们依然要做好朋友
+ 可真tm狗。
+
+敏感词如下:
+ 你的痛苦确实也和我没有关系
+ 我反正就想着我自己
+ 该走时我说走就走
+ 遇见时我使劲低头
+ 但我们依然要做*
+ 可真tm狗。
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+风在听雨
+人已散去
+不知何时才能有你的消息
+忆想曾经的我们
+甜美而又浪漫
+从今往后 各自只剩下回忆
+
+敏感词如下:
+风在听雨
+人已散去
+不知何时才能有你的*
+忆想曾经的我们
+甜美而又浪漫
+从今往后 各自只剩下回忆
+-----------------------------
+Finished: SUCCESS

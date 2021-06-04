@@ -1,0 +1,33 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hot_user
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+[hot_user] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins7169783466430844277.sh
++ python3 jobs/hot_user.py --count 25
+Hot users after date: 2021-05-28 00:00:00
+点赞最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-05-28 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-likeCount
+[('d5071c5734', 1, 1, 0, 0), ('d5071c5734', 1, 1, 0, 0), ('d5071c5734', 1, 1, 0, 0), ('d5071c5734', 1, 1, 0, 0), ('d5071c5734', 1, 1, 0, 0), ('d5071c5734', 1, 1, 0, 0), ('4d7798b4c6', 1, 0, 0, 1), ('eb6bbc9dc2', 1, 0, 0, 1), ('58f68b0e84', 1, 0, 0, 1), ('400f9e308f', 0, 0, 0, 0), ('747855c733', 0, 0, 0, 0)]
+
+评论最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-05-28 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-commentCount
+[('4d7798b4c6', 1, 0, 0, 1), ('eb6bbc9dc2', 1, 0, 0, 1), ('58f68b0e84', 1, 0, 0, 1), ('400f9e308f', 0, 0, 0, 0), ('747855c733', 0, 0, 0, 0), ('d5071c5734', 1, 1, 0, 0), ('d5071c5734', 1, 1, 0, 0), ('d5071c5734', 1, 1, 0, 0), ('d5071c5734', 1, 1, 0, 0), ('d5071c5734', 1, 1, 0, 0), ('d5071c5734', 1, 1, 0, 0)]
+
+收藏最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-05-28 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-bookmarkCount
+[('4d7798b4c6', 1, 0, 0, 1), ('eb6bbc9dc2', 1, 0, 0, 1), ('58f68b0e84', 1, 0, 0, 1), ('400f9e308f', 0, 0, 0, 0), ('747855c733', 0, 0, 0, 0), ('d5071c5734', 1, 1, 0, 0), ('d5071c5734', 1, 1, 0, 0), ('d5071c5734', 1, 1, 0, 0), ('d5071c5734', 1, 1, 0, 0), ('d5071c5734', 1, 1, 0, 0), ('d5071c5734', 1, 1, 0, 0)]
+{'d5071c5734': (18, 18, 0, 0, {'bookmarkCount', 'commentCount', 'likeCount'}), '4d7798b4c6': (3, 0, 0, 3, {'bookmarkCount', 'commentCount', 'likeCount'}), 'eb6bbc9dc2': (3, 0, 0, 3, {'bookmarkCount', 'commentCount', 'likeCount'}), '58f68b0e84': (3, 0, 0, 3, {'bookmarkCount', 'commentCount', 'likeCount'}), '400f9e308f': (0, 0, 0, 0, {'bookmarkCount', 'commentCount', 'likeCount'}), '747855c733': (0, 0, 0, 0, {'bookmarkCount', 'commentCount', 'likeCount'})}
+Total hot users count after date: 2021-05-28 00:00:00: 6
+[{'success': {'createdAt': '2021-06-04 20:19:30', 'objectId': '66cf2850aa'}}, {'success': {'createdAt': '2021-06-04 20:19:30', 'objectId': '70ba9af2c1'}}, {'success': {'createdAt': '2021-06-04 20:19:30', 'objectId': '4ddfccef31'}}, {'success': {'createdAt': '2021-06-04 20:19:30', 'objectId': '9953895d86'}}, {'success': {'createdAt': '2021-06-04 20:19:30', 'objectId': '8c317894d0'}}, {'success': {'createdAt': '2021-06-04 20:19:30', 'objectId': 'ef4d41a657'}}]
+Finished: SUCCESS
