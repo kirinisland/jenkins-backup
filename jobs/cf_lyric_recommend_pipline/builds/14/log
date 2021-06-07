@@ -1,0 +1,742 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/cf_lyric_recommend_pipline
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+[cf_lyric_recommend_pipline] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins863800058415579680.sh
++ set -x
++ date_str=
++ '[' '' = '' ']'
+++ date +%Y-%m-%d
++ date_str=2021-06-06
+++ date +%Y%m%d
++ today_str=20210606
++ CMD='python3 jobs/dump_table.py --table EverydayLyric --start 2020-01-01 --end 2021-06-06 --step 15'
++ '[' '!' /Users/hongliang/dataset/jenkins = '' ']'
++ CMD='python3 jobs/dump_table.py --table EverydayLyric --start 2020-01-01 --end 2021-06-06 --step 15 --move-to /Users/hongliang/dataset/jenkins'
++ echo 'python3 jobs/dump_table.py --table EverydayLyric --start 2020-01-01 --end 2021-06-06 --step 15 --move-to /Users/hongliang/dataset/jenkins'
+python3 jobs/dump_table.py --table EverydayLyric --start 2020-01-01 --end 2021-06-06 --step 15 --move-to /Users/hongliang/dataset/jenkins
++ python3 jobs/dump_table.py --table EverydayLyric --start 2020-01-01 --end 2021-06-06 --step 15 --move-to /Users/hongliang/dataset/jenkins
+INFO:root:date = ('2020-01-01 00:00:00', '2020-01-16 00:00:00')
+INFO:root:from date: 2020-01-01 00:00:00 to 2020-01-16 00:00:00: 62
+INFO:root:date = ('2020-01-16 00:00:00', '2020-01-31 00:00:00')
+INFO:root:from date: 2020-01-16 00:00:00 to 2020-01-31 00:00:00: 81
+INFO:root:date = ('2020-01-31 00:00:00', '2020-02-15 00:00:00')
+INFO:root:from date: 2020-01-31 00:00:00 to 2020-02-15 00:00:00: 201
+INFO:root:date = ('2020-02-15 00:00:00', '2020-03-01 00:00:00')
+INFO:root:>>> None from date: 2020-02-15 00:00:00 to 2020-03-01 00:00:00
+INFO:root:date = ('2020-03-01 00:00:00', '2020-03-16 00:00:00')
+INFO:root:from date: 2020-03-01 00:00:00 to 2020-03-16 00:00:00: 220
+INFO:root:date = ('2020-03-16 00:00:00', '2020-03-31 00:00:00')
+INFO:root:>>> None from date: 2020-03-16 00:00:00 to 2020-03-31 00:00:00
+INFO:root:date = ('2020-03-31 00:00:00', '2020-04-15 00:00:00')
+INFO:root:from date: 2020-03-31 00:00:00 to 2020-04-15 00:00:00: 175
+INFO:root:date = ('2020-04-15 00:00:00', '2020-04-30 00:00:00')
+INFO:root:from date: 2020-04-15 00:00:00 to 2020-04-30 00:00:00: 217
+INFO:root:date = ('2020-04-30 00:00:00', '2020-05-15 00:00:00')
+INFO:root:from date: 2020-04-30 00:00:00 to 2020-05-15 00:00:00: 161
+INFO:root:date = ('2020-05-15 00:00:00', '2020-05-30 00:00:00')
+INFO:root:from date: 2020-05-15 00:00:00 to 2020-05-30 00:00:00: 120
+INFO:root:date = ('2020-05-30 00:00:00', '2020-06-14 00:00:00')
+INFO:root:from date: 2020-05-30 00:00:00 to 2020-06-14 00:00:00: 112
+INFO:root:date = ('2020-06-14 00:00:00', '2020-06-29 00:00:00')
+INFO:root:from date: 2020-06-14 00:00:00 to 2020-06-29 00:00:00: 122
+INFO:root:date = ('2020-06-29 00:00:00', '2020-07-14 00:00:00')
+INFO:root:from date: 2020-06-29 00:00:00 to 2020-07-14 00:00:00: 126
+INFO:root:date = ('2020-07-14 00:00:00', '2020-07-29 00:00:00')
+INFO:root:from date: 2020-07-14 00:00:00 to 2020-07-29 00:00:00: 120
+INFO:root:date = ('2020-07-29 00:00:00', '2020-08-13 00:00:00')
+INFO:root:from date: 2020-07-29 00:00:00 to 2020-08-13 00:00:00: 115
+INFO:root:date = ('2020-08-13 00:00:00', '2020-08-28 00:00:00')
+INFO:root:from date: 2020-08-13 00:00:00 to 2020-08-28 00:00:00: 98
+INFO:root:date = ('2020-08-28 00:00:00', '2020-09-12 00:00:00')
+INFO:root:from date: 2020-08-28 00:00:00 to 2020-09-12 00:00:00: 107
+INFO:root:date = ('2020-09-12 00:00:00', '2020-09-27 00:00:00')
+INFO:root:from date: 2020-09-12 00:00:00 to 2020-09-27 00:00:00: 72
+INFO:root:date = ('2020-09-27 00:00:00', '2020-10-12 00:00:00')
+INFO:root:from date: 2020-09-27 00:00:00 to 2020-10-12 00:00:00: 70
+INFO:root:date = ('2020-10-12 00:00:00', '2020-10-27 00:00:00')
+INFO:root:from date: 2020-10-12 00:00:00 to 2020-10-27 00:00:00: 60
+INFO:root:date = ('2020-10-27 00:00:00', '2020-11-11 00:00:00')
+INFO:root:from date: 2020-10-27 00:00:00 to 2020-11-11 00:00:00: 70
+INFO:root:date = ('2020-11-11 00:00:00', '2020-11-26 00:00:00')
+INFO:root:from date: 2020-11-11 00:00:00 to 2020-11-26 00:00:00: 87
+INFO:root:date = ('2020-11-26 00:00:00', '2020-12-11 00:00:00')
+INFO:root:from date: 2020-11-26 00:00:00 to 2020-12-11 00:00:00: 67
+INFO:root:date = ('2020-12-11 00:00:00', '2020-12-26 00:00:00')
+INFO:root:from date: 2020-12-11 00:00:00 to 2020-12-26 00:00:00: 62
+INFO:root:date = ('2020-12-26 00:00:00', '2021-01-10 00:00:00')
+INFO:root:from date: 2020-12-26 00:00:00 to 2021-01-10 00:00:00: 66
+INFO:root:date = ('2021-01-10 00:00:00', '2021-01-25 00:00:00')
+INFO:root:from date: 2021-01-10 00:00:00 to 2021-01-25 00:00:00: 51
+INFO:root:date = ('2021-01-25 00:00:00', '2021-02-09 00:00:00')
+INFO:root:from date: 2021-01-25 00:00:00 to 2021-02-09 00:00:00: 85
+INFO:root:date = ('2021-02-09 00:00:00', '2021-02-24 00:00:00')
+INFO:root:from date: 2021-02-09 00:00:00 to 2021-02-24 00:00:00: 92
+INFO:root:date = ('2021-02-24 00:00:00', '2021-03-11 00:00:00')
+INFO:root:from date: 2021-02-24 00:00:00 to 2021-03-11 00:00:00: 59
+INFO:root:date = ('2021-03-11 00:00:00', '2021-03-26 00:00:00')
+INFO:root:from date: 2021-03-11 00:00:00 to 2021-03-26 00:00:00: 51
+INFO:root:date = ('2021-03-26 00:00:00', '2021-04-10 00:00:00')
+INFO:root:from date: 2021-03-26 00:00:00 to 2021-04-10 00:00:00: 50
+INFO:root:date = ('2021-04-10 00:00:00', '2021-04-25 00:00:00')
+INFO:root:from date: 2021-04-10 00:00:00 to 2021-04-25 00:00:00: 62
+INFO:root:date = ('2021-04-25 00:00:00', '2021-05-10 00:00:00')
+INFO:root:from date: 2021-04-25 00:00:00 to 2021-05-10 00:00:00: 44
+INFO:root:date = ('2021-05-10 00:00:00', '2021-05-25 00:00:00')
+INFO:root:from date: 2021-05-10 00:00:00 to 2021-05-25 00:00:00: 28
+INFO:root:date = ('2021-05-25 00:00:00', '2021-06-09 00:00:00')
+INFO:root:from date: 2021-05-25 00:00:00 to 2021-06-09 00:00:00: 28
+INFO:root:Table is dumped to /Users/hongliang/dataset/jenkins/EverydayLyric_20210606.csv
++ source /Users/hongliang/envs/pytorch/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/Users/hongliang/envs/pytorch
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/usr/bin:/bin:/usr/sbin:/sbin
+++ PATH=/Users/hongliang/envs/pytorch/bin:/usr/bin:/bin:/usr/sbin:/sbin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ '[' 'x(pytorch) ' '!=' x ']'
+++ PS1='(pytorch) '
+++ export PS1
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
++ PY_SCRIPT=/Users/hongliang/code/kirinBrain/lyric_recommender/run_cf.py
++ python /Users/hongliang/code/kirinBrain/lyric_recommender/run_cf.py --lyric-path /Users/hongliang/dataset/jenkins/EverydayLyric_20210606.csv --result-root /Users/hongliang/results
+The result is saved in /Users/hongliang/results/cold_start_20210606.csv
+The result is saved in /Users/hongliang/results/recos_20210606.csv
++ deactivate
++ '[' -n /usr/bin:/bin:/usr/sbin:/sbin ']'
++ PATH=/usr/bin:/bin:/usr/sbin:/sbin
++ export PATH
++ unset _OLD_VIRTUAL_PATH
++ '[' -n '' ']'
++ '[' -n /bin/sh -o -n '' ']'
++ hash -r
++ '[' -n '' ']'
++ unset VIRTUAL_ENV
++ '[' '!' '' = nondestructive ']'
++ unset -f deactivate
++ python3 jobs/upload_model_recos.py --path /Users/hongliang/results/recos_20210606.csv --table-name modelRecoTest
+INFO:root:start model recos upload
+INFO:root:3055 rows loaded
+INFO:root:user_id = 5580d78b356c0b3c
+INFO:root:recos = ['941366c685', 'd868e728ef', 'c816ba2127', '18ee07adf0', '05b5a15fea', '17718aac0a', '7af48dd626\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-03-15 00:37:25","objectId":"d96ded0d23","updatedAt":"2020-03-20 17:14:16"}]}
+INFO:root:User name: 5580d78b356c0b3c, 对应objectId: d96ded0d23
+INFO:root:{"createdAt":"2021-06-07 08:36:47","objectId":"5aac628eb2"}
+INFO:root:1 / 3055 done
+INFO:root:user_id = 0e98fd1c45fbc098
+INFO:root:recos = ['5c4584a07b', '5da773b7ff', '2b5960eaeb', 'c91c6f5703', '533e66aeb6', '3c45ad2968', '34b9dae8dd', '77b608444f', '59b95de96b', 'd73e43f3e7\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-02-19 16:47:58","objectId":"6e46a42fc3","updatedAt":"2020-02-19 16:48:39"}]}
+INFO:root:User name: 0e98fd1c45fbc098, 对应objectId: 6e46a42fc3
+INFO:root:{"createdAt":"2021-06-07 08:36:49","objectId":"9be15f71e7"}
+INFO:root:2 / 3055 done
+INFO:root:user_id = oKJKF0osULRHM3_n8978cCC-LC4A
+INFO:root:recos = ['2d82a917b1', 'b1637b2c7a\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-03-08 19:22:59","objectId":"02f90b6eaa","updatedAt":"2021-03-08 19:23:18"}]}
+INFO:root:User name: oKJKF0osULRHM3_n8978cCC-LC4A, 对应objectId: 02f90b6eaa
+INFO:root:{"createdAt":"2021-06-07 08:36:51","objectId":"ee14652d36"}
+INFO:root:3 / 3055 done
+INFO:root:user_id = 郭骁慧
+INFO:root:recos = ['07bd66af41', '6b027b8aa9', '5046ea157d', 'a704e3119e', '5c5fd4fc2d', '6a11a97f76', 'be1b3fa54c', '6681c41bfa', 'd429df0790', '0b7c38835e\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-03-03 08:11:46","objectId":"aa48dabf41","updatedAt":"2020-04-06 09:41:32"}]}
+INFO:root:User name: 郭骁慧, 对应objectId: aa48dabf41
+INFO:root:{"createdAt":"2021-06-07 08:36:56","objectId":"1a581c41e2"}
+INFO:root:4 / 3055 done
+INFO:root:user_id = 001438.ab83281011824152b66878f0b10058e6.0611
+INFO:root:recos = ['50e4d09066', '1c9c73d02a', 'c6151b6448', '22c0338927', '50e4d09066', '76b98bb969', '3404e62c8a', '533e66aeb6', '3ca79aac0e', 'b4730b5f36', 'f00c61f418', '61dc0b2d95', 'adae6934ed\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-07-22 14:11:05","objectId":"ac21f35fef","updatedAt":"2020-08-21 16:56:20"}]}
+INFO:root:User name: 001438.ab83281011824152b66878f0b10058e6.0611, 对应objectId: ac21f35fef
+INFO:root:{"createdAt":"2021-06-07 08:36:58","objectId":"8953a46f0f"}
+INFO:root:5 / 3055 done
+INFO:root:user_id = e7d7351897a90aac
+INFO:root:recos = ['d868e728ef', '624e3055a5', 'cf01da1214', '7a5a69d8c9', 'd868e728ef', 'dfa134252e', 'f52dc95db0', '6a1e236881', 'cf01da1214', '7a5a69d8c9', '63e7faa959', 'e160a18d76', 'f85dcdcbee', '1dfa1c2b1b', 'bb6b3f030f', '7fee0aa79b', 'b4b0f3d2f0', 'fdce246e4d', 'e3a050c0be', '67b42ecf67\n']
+INFO:root:user_res = {"results":[{"createdAt":"2019-11-02 11:05:45","objectId":"09580f57df","updatedAt":"2021-01-31 18:12:11"}]}
+INFO:root:User name: e7d7351897a90aac, 对应objectId: 09580f57df
+INFO:root:{"createdAt":"2021-06-07 08:37:01","objectId":"cbb948d507"}
+INFO:root:6 / 3055 done
+INFO:root:user_id = 1c50d6fcbfc0384f
+INFO:root:recos = ['583a78008a', '6bea9ef727\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-03-03 05:02:03","objectId":"bab8b6e8bd","updatedAt":"2020-03-03 16:35:47"}]}
+INFO:root:User name: 1c50d6fcbfc0384f, 对应objectId: bab8b6e8bd
+INFO:root:{"createdAt":"2021-06-07 08:37:03","objectId":"9dc18f29a3"}
+INFO:root:7 / 3055 done
+INFO:root:user_id = oKJKF0vt7JxTKU0-5LgWWoaPH4po
+INFO:root:recos = ['50a54c3f6c', 'baa87479b4', '410bad748b\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-05-08 18:31:14","objectId":"053a641be8","updatedAt":"2020-06-30 19:45:46"}]}
+INFO:root:User name: oKJKF0vt7JxTKU0-5LgWWoaPH4po, 对应objectId: 053a641be8
+INFO:root:{"createdAt":"2021-06-07 08:37:05","objectId":"0ead6ff69b"}
+INFO:root:8 / 3055 done
+INFO:root:user_id = oKJKF0gVP3pz7sI7Mh0G6PS-IkDU
+INFO:root:recos = ['c0503a6562', 'ba6066077e', '18211a025b', '5c4584a07b', '9bae94bb32', '1cf3d16f4c', 'e5d6dd8ba8', '7574d3b290', 'febb555b03', 'defa2988cc', 'eaa15021e9', 'edf5a4d7c0', '140227e683', '045e1ce086', '6a1e236881', '4bd8a0ba80', '4518aa3e35', '1ed8de2bf9', 'c119bb587d', 'e5d6dd8ba8\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-02-16 18:54:55","objectId":"4026419d89","updatedAt":"2021-02-16 18:55:10"}]}
+INFO:root:User name: oKJKF0gVP3pz7sI7Mh0G6PS-IkDU, 对应objectId: 4026419d89
+INFO:root:{"createdAt":"2021-06-07 08:37:07","objectId":"ac7040e04f"}
+INFO:root:9 / 3055 done
+INFO:root:user_id = c720b280b4951e1c
+INFO:root:recos = ['919856ce50', 'd53631db29', 'cc18603d25', 'a731ef37de', '490c31f2d4', '71f11114c4', '10cafdf072', 'f5c3a8b91d', '91fd8221cf', 'ab46d44c7b\n']
+INFO:root:user_res = {"results":[{"createdAt":"2019-12-29 08:32:10","objectId":"756145e0be","updatedAt":"2020-03-02 21:01:06"}]}
+INFO:root:User name: c720b280b4951e1c, 对应objectId: 756145e0be
+INFO:root:{"createdAt":"2021-06-07 08:37:09","objectId":"f65967b2c8"}
+INFO:root:10 / 3055 done
+INFO:root:user_id = oKJKF0kUfvFdVNobRdRBv0Hpj_CI
+INFO:root:recos = ['694af7051e', 'cc18603d25', 'af47868097', '8983ee64bd', '8d5e55a12b', '25a59e178a', '63d65d2215', 'e9d8efb3d9', 'b4b0f3d2f0', '535e5c012a\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-07-09 20:41:19","objectId":"de377a06bd","updatedAt":"2020-11-13 01:27:54"}]}
+INFO:root:User name: oKJKF0kUfvFdVNobRdRBv0Hpj_CI, 对应objectId: de377a06bd
+INFO:root:{"createdAt":"2021-06-07 08:37:12","objectId":"5ab3dc2bf6"}
+INFO:root:11 / 3055 done
+INFO:root:user_id = oKJKF0l5UL_z0j4aQDw1sedJlDOA
+INFO:root:recos = ['3a3215e97c', '624e3055a5', '348af44ece', '6646154805', 'eb39f2587c', '140227e683', '8a18a7689b', '132062f4fc', '07e7417b4c', '70745ce621\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-07-02 23:04:21","objectId":"bc82ef2f74","updatedAt":"2020-12-03 14:22:17"}]}
+INFO:root:User name: oKJKF0l5UL_z0j4aQDw1sedJlDOA, 对应objectId: bc82ef2f74
+INFO:root:{"createdAt":"2021-06-07 08:37:14","objectId":"20aee4c247"}
+INFO:root:12 / 3055 done
+INFO:root:user_id = df837bff20ee6579
+INFO:root:recos = ['4601389a90', 'a3225a1e59', 'b38537eb90', '0c1494cd4a', '36637cd00f', '64b6b913d7', 'd7a62bf66d', '46a535761a', '4c2ec02fac', '3ba061e915\n']
+INFO:root:user_res = {"results":[{"createdAt":"2019-09-08 04:11:52","objectId":"1bed7cffd9","updatedAt":"2021-03-14 00:16:12"}]}
+INFO:root:User name: df837bff20ee6579, 对应objectId: 1bed7cffd9
+INFO:root:{"createdAt":"2021-06-07 08:37:16","objectId":"6c7c351ab3"}
+INFO:root:13 / 3055 done
+INFO:root:user_id = 7ebe4217fc6dd5b0
+INFO:root:recos = ['32badff991', 'e5ab64894e', '51ba7eb667', 'c7341df3c6', '00c2a6f8f9', '17718aac0a', '6b1edb6c87', 'd4d85439b4', '43051801c1', 'c0503a6562', '3bbf73c965', '58dfa185fd', '84d65ce7cb', '6a2fcc5a11\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-03-14 01:06:26","objectId":"f0a1585e9e","updatedAt":"2020-03-29 21:30:36"}]}
+INFO:root:User name: 7ebe4217fc6dd5b0, 对应objectId: f0a1585e9e
+INFO:root:{"createdAt":"2021-06-07 08:37:18","objectId":"561e4b7d7d"}
+INFO:root:14 / 3055 done
+INFO:root:user_id = 000950.a5ae70705bcb4dc6b52f2d14fc6ae766.0245
+INFO:root:recos = ['045e1ce086', 'd1e2ad1742', '585a98aed6', '8b9bc37062', 'd243013f98', '2686a766d9', '52c8a6831d', '1c685218f7', '09cbd45bea', 'e1cb0ec564', 'd65f7bf31c', '6a034efe1e', 'b76845953b', 'bdb4c0adb6', 'b6915f8feb', '0ec8dd25dd', '99b70741ff', '65d124a50a', '897a1fc5b7', '262097c257\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-04-08 10:45:24","objectId":"948849c0b0","updatedAt":"2020-04-25 03:08:35"}]}
+INFO:root:User name: 000950.a5ae70705bcb4dc6b52f2d14fc6ae766.0245, 对应objectId: 948849c0b0
+INFO:root:{"createdAt":"2021-06-07 08:37:20","objectId":"e4d472dc3b"}
+INFO:root:15 / 3055 done
+INFO:root:user_id = 655229170df47d8f
+INFO:root:recos = ['bd00f566a0', '068fe35b6f', 'f5a6d51311', '80c1d9edeb', 'e372c2d334', '3acc4a6b89', 'a27ec679fd\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-03-03 19:22:46","objectId":"8e5ccc8faa","updatedAt":"2020-03-03 19:23:07"}]}
+INFO:root:User name: 655229170df47d8f, 对应objectId: 8e5ccc8faa
+INFO:root:{"createdAt":"2021-06-07 08:37:22","objectId":"25c65a5732"}
+INFO:root:16 / 3055 done
+INFO:root:user_id = oKJKF0hTZeCPwuyNp38RnmcTlMu4
+INFO:root:recos = ['963d440573', 'c0503a6562\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-11-13 22:07:42","objectId":"32c6c9dac8","updatedAt":"2020-11-13 22:07:50"}]}
+INFO:root:User name: oKJKF0hTZeCPwuyNp38RnmcTlMu4, 对应objectId: 32c6c9dac8
+INFO:root:{"createdAt":"2021-06-07 08:37:24","objectId":"55bb50c865"}
+INFO:root:17 / 3055 done
+INFO:root:user_id = oKJKF0kfy2pNnMNWnBo6sdu_QCXQ
+INFO:root:recos = ['2686a766d9', 'd83d3c7742', 'cad6bded7f', '09cbd45bea', '256acd550a', '6ff0c6b47a', '50e4d09066', '4601389a90', '57ca88da6a', '9c454c2549\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-03-29 11:27:36","objectId":"4b1bfeea94","updatedAt":"2021-06-05 15:31:04"}]}
+INFO:root:User name: oKJKF0kfy2pNnMNWnBo6sdu_QCXQ, 对应objectId: 4b1bfeea94
+INFO:root:{"createdAt":"2021-06-07 08:37:27","objectId":"0fe00b44bc"}
+INFO:root:18 / 3055 done
+INFO:root:user_id = 001321.4d54e32b675f41e08ca897a52a0b6453.1905
+INFO:root:recos = ['5da773b7ff', 'ed443c234b', '6f4b3f6b32', '0f6ef935c7', '82e65934e2', '1454e124d2', '4bd8a0ba80', 'a53a09928a', '0097243268', '44ef4f9c10\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-04-24 03:05:01","objectId":"8f3f033efc","updatedAt":"2020-07-25 02:46:19"}]}
+INFO:root:User name: 001321.4d54e32b675f41e08ca897a52a0b6453.1905, 对应objectId: 8f3f033efc
+INFO:root:{"createdAt":"2021-06-07 08:37:29","objectId":"aa4117834e"}
+INFO:root:19 / 3055 done
+INFO:root:user_id = 22f278cc83ababbb
+INFO:root:recos = ['a216a8f361', 'dd4d5802b0', '65251f5d75\n']
+INFO:root:user_res = {"results":[{"createdAt":"2019-08-02 15:48:11","objectId":"6d5139adb1","updatedAt":"2020-07-12 01:19:27"}]}
+INFO:root:User name: 22f278cc83ababbb, 对应objectId: 6d5139adb1
+INFO:root:{"createdAt":"2021-06-07 08:37:31","objectId":"b305100838"}
+INFO:root:20 / 3055 done
+INFO:root:user_id = oKJKF0mYBmgF6p6UA24kNhmEIJD8
+INFO:root:recos = ['140227e683', '970d26f89e', 'f398b526e2', 'a0cfaf3cc3', '906f892c57', 'd0721cebef', '140227e683', '6a1e236881', '14ef1c2092', '624e3055a5', '31b5fd41f5', '2f8c222d11', '52364e2de9', '54c9ed8b81\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-04-25 01:16:21","objectId":"81b1917e03","updatedAt":"2021-04-25 01:16:27"}]}
+INFO:root:User name: oKJKF0mYBmgF6p6UA24kNhmEIJD8, 对应objectId: 81b1917e03
+INFO:root:{"createdAt":"2021-06-07 08:37:33","objectId":"ac1fb408d0"}
+INFO:root:21 / 3055 done
+INFO:root:user_id = oKJKF0iIG92QGPDJb6wU_LOqPZ3U
+INFO:root:recos = ['06e97972f4', '165f125681', '92067fe8d3', '7b94cac5a2', 'a702ca9edf', 'a30c359434', '06e97972f4', '2806b066dc', '2d1380f806', 'eec824f298', '2686a766d9', '8635d6fb4d', '6a2fcc5a11', 'f1cea2ebf5', '6ff0c6b47a', '165f125681', '2686a766d9', 'ca089bb330', '437053e106', '3f893ac4aa\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-09-01 14:58:07","objectId":"73f525a4c6","updatedAt":"2021-02-28 02:27:36"}]}
+INFO:root:User name: oKJKF0iIG92QGPDJb6wU_LOqPZ3U, 对应objectId: 73f525a4c6
+INFO:root:{"createdAt":"2021-06-07 08:37:35","objectId":"a44b4c127d"}
+INFO:root:22 / 3055 done
+INFO:root:user_id = 5be150db7983f5ec
+INFO:root:recos = ['ec4fee17c1', '3f8c16e0c4', '9406e7f74d', '49cf6e358b', 'e772b3e17b', 'dc2b4944f7', '735fbbd571', 'd21ab09770', '307b7b9c40', 'c6b232ec45\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-02-18 12:51:43","objectId":"2090fe7e66","updatedAt":"2020-02-18 12:52:01"}]}
+INFO:root:User name: 5be150db7983f5ec, 对应objectId: 2090fe7e66
+INFO:root:{"createdAt":"2021-06-07 08:37:37","objectId":"2b62c6cdf9"}
+INFO:root:23 / 3055 done
+INFO:root:user_id = oKJKF0jf3xafqMbants4uAtMUM6o
+INFO:root:recos = ['1c685218f7', 'f875a37679', 'd83d3c7742', 'bb8c561685', 'f5bc1673c8', 'c6f696e873', '50e4d09066\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-04-05 22:18:10","objectId":"63f9397b3e","updatedAt":"2021-02-12 10:11:27"}]}
+INFO:root:User name: oKJKF0jf3xafqMbants4uAtMUM6o, 对应objectId: 63f9397b3e
+INFO:root:{"createdAt":"2021-06-07 08:37:39","objectId":"5f63ca08fc"}
+INFO:root:24 / 3055 done
+INFO:root:user_id = oKJKF0vtNQanLOg9jHy-j5WqOG_k
+INFO:root:recos = ['49cf6e358b', 'fcec3fd5b2', 'b5473a0e60', 'edf5a4d7c0', 'a083769ed8', 'cfff2f38db', '11a7d673dd\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-06-12 22:21:39","objectId":"6dfd9104f9","updatedAt":"2020-06-12 22:22:00"}]}
+INFO:root:User name: oKJKF0vtNQanLOg9jHy-j5WqOG_k, 对应objectId: 6dfd9104f9
+INFO:root:{"createdAt":"2021-06-07 08:37:42","objectId":"fe0694033f"}
+INFO:root:25 / 3055 done
+INFO:root:user_id = oKJKF0nTFth0RA5QOUAmFbqqP8s8
+INFO:root:recos = ['f3acb695a8', 'eaa15021e9', '533e66aeb6', '4bd8a0ba80', '50e4d09066', '1d129f0b21', '06e97972f4', '3f08d7b47c', '471136adbe', '237208b80c', 'd90fe66373', 'e0cdf8907c', '4502f18c2d', '4c743ad811', '5da773b7ff', '1176417dc1', '2c0a55292b', 'f5bc1673c8', '099372b595', 'eacfc25a11\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-10-04 18:31:48","objectId":"d4e55cec92","updatedAt":"2020-10-04 20:30:28"}]}
+INFO:root:User name: oKJKF0nTFth0RA5QOUAmFbqqP8s8, 对应objectId: d4e55cec92
+INFO:root:{"createdAt":"2021-06-07 08:37:44","objectId":"3426beb2a6"}
+INFO:root:26 / 3055 done
+INFO:root:user_id = 0a1b8474d357719c
+INFO:root:recos = ['6e4ede0722', 'd65f7bf31c', '11ba98a25c', '0ec8dd25dd', '3f8c16e0c4', 'c7341df3c6', '58777d6b0d', '3fe68763bf', '11ba98a25c', '078e68d14f', 'e09b366585', '5c5fd4fc2d', '8c8318e35d', 'd1b0c6d0b5', 'c4b2b0213f\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-03-05 12:56:59","objectId":"8bb7c7d380","updatedAt":"2020-03-13 13:57:10"}]}
+INFO:root:User name: 0a1b8474d357719c, 对应objectId: 8bb7c7d380
+INFO:root:{"createdAt":"2021-06-07 08:37:46","objectId":"0ce4c4e9a5"}
+INFO:root:27 / 3055 done
+INFO:root:user_id = oKJKF0uv1j4jYnMDncffcuWHXtZc
+INFO:root:recos = ['70fd696829', '045e1ce086', 'db352e0d45', '3243b774c6', '1cd207dd02', '1f11f130dc', '5020e7a3ac', '6ff0c6b47a', '61383d17bc', '256acd550a\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-03-01 19:42:52","objectId":"d099a45b94","updatedAt":"2021-05-03 17:59:40"}]}
+INFO:root:User name: oKJKF0uv1j4jYnMDncffcuWHXtZc, 对应objectId: d099a45b94
+INFO:root:{"createdAt":"2021-06-07 08:37:49","objectId":"3951d75dff"}
+INFO:root:28 / 3055 done
+INFO:root:user_id = oKJKF0rUAcyDs2cHsXciILb6J0zo
+INFO:root:recos = ['bfed4eb561', 'e10e12c4cb', 'b4b0f3d2f0', 'e5d6dd8ba8', '8c4df111b4', 'ca9c6a1c61', 'a0cf27fb49', 'e3a050c0be', 'e7eb7bc902', 'c802c8b59b\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-03-16 09:54:17","objectId":"b8b234fe0f","updatedAt":"2021-03-16 09:54:23"}]}
+INFO:root:User name: oKJKF0rUAcyDs2cHsXciILb6J0zo, 对应objectId: b8b234fe0f
+INFO:root:{"createdAt":"2021-06-07 08:37:52","objectId":"6fed2ddc76"}
+INFO:root:29 / 3055 done
+INFO:root:user_id = oKJKF0tzRK5cE7nlFHkXbzVXKTDM
+INFO:root:recos = ['2d82a917b1', '6a2fcc5a11', 'f4935d6562', '363064c13c', 'b1637b2c7a', 'd243013f98', '5614865a12', 'd7aec51675', '833c69e6d5', '471136adbe\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-03-16 11:20:26","objectId":"d9bf7601d1","updatedAt":"2021-03-16 11:20:54"}]}
+INFO:root:User name: oKJKF0tzRK5cE7nlFHkXbzVXKTDM, 对应objectId: d9bf7601d1
+INFO:root:{"createdAt":"2021-06-07 08:37:54","objectId":"7b8e69cbc3"}
+INFO:root:30 / 3055 done
+INFO:root:user_id = oKJKF0hAUpQxmXEDeK2o4JyfYrr8
+INFO:root:recos = ['a913a47553', '52c7e0daef', '362ff4fe48', 'e24c49db68', '3ee0f37fde', 'f5c3a8b91d', '44ecfab0b9', '5ca8f8a4da', '0ff1902f27', 'e7d7860deb\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-07-17 08:01:12","objectId":"e9044f6aa6","updatedAt":"2021-06-06 23:27:36"}]}
+INFO:root:User name: oKJKF0hAUpQxmXEDeK2o4JyfYrr8, 对应objectId: e9044f6aa6
+INFO:root:{"createdAt":"2021-06-07 08:37:56","objectId":"faab4f2e55"}
+INFO:root:31 / 3055 done
+INFO:root:user_id = 77f009182bf834ad
+INFO:root:recos = ['197be30248', 'ffb2bcd34c', 'd243013f98', 'fb9e58ea12', 'db352e0d45', '45599bcbbf', 'a704e3119e', '73975851ed', 'eacfc25a11', 'd2d51e92aa\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-02-11 16:13:10","objectId":"cd96912b08","updatedAt":"2021-02-16 10:15:05"}]}
+INFO:root:User name: 77f009182bf834ad, 对应objectId: cd96912b08
+INFO:root:{"createdAt":"2021-06-07 08:37:58","objectId":"9cf76287d0"}
+INFO:root:32 / 3055 done
+INFO:root:user_id = 1ab488769834324a
+INFO:root:recos = ['0bf312a836', '2d3478b6e5', 'bb92a569e6', '5e15649ef6', '8080723d08', '399305505d', '3cc6b9282f', '0b7c38835e', 'ac2ce9fa64', 'd2d51e92aa\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-02-02 13:25:45","objectId":"b5d762341e","updatedAt":"2020-02-15 12:13:38"}]}
+INFO:root:User name: 1ab488769834324a, 对应objectId: b5d762341e
+INFO:root:{"createdAt":"2021-06-07 08:38:01","objectId":"5c1b75615f"}
+INFO:root:33 / 3055 done
+INFO:root:user_id = oKJKF0uOl4O_6WSguQ68d4ENL_eU
+INFO:root:recos = ['cc18603d25', 'bd6f0de9ab', '5c4584a07b', '2da86c1ae5', '73975851ed', '4bb3f25661', 'cf3f1ec692', '63f67d07a3', 'dde7a24560', 'dc39ae5f9b\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-04-01 15:53:55","objectId":"80fb4fc2f4","updatedAt":"2021-04-01 15:53:58"}]}
+INFO:root:User name: oKJKF0uOl4O_6WSguQ68d4ENL_eU, 对应objectId: 80fb4fc2f4
+INFO:root:{"createdAt":"2021-06-07 08:38:03","objectId":"2f76945717"}
+INFO:root:34 / 3055 done
+INFO:root:user_id = oKJKF0nRkvG2Qq-GxdXfaMbRzyUU
+INFO:root:recos = ['754defce40', '50e4d09066', 'bb6b3f030f', 'd1fac66222', '6441e165a3', 'b257b87bcf', '50e4d09066', '754defce40', '8257bba21c', 'fb9e58ea12', '2d1380f806', '073722b005', 'b1637b2c7a\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-12-12 16:05:12","objectId":"3e5a06fd41","updatedAt":"2020-12-12 16:05:21"}]}
+INFO:root:User name: oKJKF0nRkvG2Qq-GxdXfaMbRzyUU, 对应objectId: 3e5a06fd41
+INFO:root:{"createdAt":"2021-06-07 08:38:05","objectId":"ea40295314"}
+INFO:root:35 / 3055 done
+INFO:root:user_id = 9f53d1edebb70f3d
+INFO:root:recos = ['11ba98a25c', '1769d0ca86', 'ec98cffb26', '3f8c16e0c4', 'f6c49c5175', 'fcddd7d970', '44537f92f3', 'b2b9dcc78d', '50a62ec9ed', '8b01802ef9\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-02-16 22:56:17","objectId":"4772c75d8c","updatedAt":"2020-03-03 19:26:39"}]}
+INFO:root:User name: 9f53d1edebb70f3d, 对应objectId: 4772c75d8c
+INFO:root:{"createdAt":"2021-06-07 08:38:08","objectId":"146b08cb1c"}
+INFO:root:36 / 3055 done
+INFO:root:user_id = oKJKF0ogkQuWFV3IpGbjNR5kVwFE
+INFO:root:recos = ['877e5d4cbf', 'b6099850e9', '3f678cd0ab', '0e3c57503e', '5614865a12', '2d82a917b1', '272024a979', '1e58674194', 'e873a5430b', 'ed443c234b\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-09-18 23:50:50","objectId":"84064cf06e","updatedAt":"2020-09-23 22:15:05"}]}
+INFO:root:User name: oKJKF0ogkQuWFV3IpGbjNR5kVwFE, 对应objectId: 84064cf06e
+INFO:root:{"createdAt":"2021-06-07 08:38:11","objectId":"e392227e9e"}
+INFO:root:37 / 3055 done
+INFO:root:user_id = 004cd527c7f23a52
+INFO:root:recos = ['52364e2de9', '1c9c73d02a', 'ea4da417c5', '067a3219e6', 'a3946cf225', '22c0338927', '8983ee64bd', 'c6151b6448', '63d65d2215', '1fa9430483\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-02-22 23:42:15","objectId":"e3f0762283","updatedAt":"2020-10-23 08:31:49"}]}
+INFO:root:User name: 004cd527c7f23a52, 对应objectId: e3f0762283
+INFO:root:{"createdAt":"2021-06-07 08:38:13","objectId":"73cf3e2cfd"}
+INFO:root:38 / 3055 done
+INFO:root:user_id = 000216.c2b4cd9c871e4cb7a1d06c233cb05bf3.1346
+INFO:root:recos = ['71f12d5f3b', '698620a6c9', '28652f982d', '0ca34e5ce8', '135462d000', 'f5bc1673c8', 'f01a428e77', 'd2f17bb627', '5da773b7ff', 'dc39ae5f9b\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-05-17 21:46:58","objectId":"20f2a65a9d","updatedAt":"2020-05-17 23:52:39"}]}
+INFO:root:User name: 000216.c2b4cd9c871e4cb7a1d06c233cb05bf3.1346, 对应objectId: 20f2a65a9d
+INFO:root:{"createdAt":"2021-06-07 08:38:16","objectId":"543fcc416b"}
+INFO:root:39 / 3055 done
+INFO:root:user_id = oKJKF0mo9OThsZ19Wn0uJWMuxGvw
+INFO:root:recos = ['d0721cebef', '09cbd45bea', '465a8583a2', '3c50d5141b', '2686a766d9', '4601389a90', 'a0cf27fb49', 'fb16afdc3a', 'd429df0790', 'bb8c561685\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-09-20 14:42:20","objectId":"e0e2ed83cb","updatedAt":"2020-10-02 10:39:06"}]}
+INFO:root:User name: oKJKF0mo9OThsZ19Wn0uJWMuxGvw, 对应objectId: e0e2ed83cb
+INFO:root:{"createdAt":"2021-06-07 08:38:18","objectId":"8ebe50055f"}
+INFO:root:40 / 3055 done
+INFO:root:user_id = oKJKF0hmhWdJSsJG15XV6Luo48cQ
+INFO:root:recos = ['63fc2c7f2c', 'adebbbb078', '30f8ce6f96', 'ff420a5ff6', '89167e349f', 'e5d6dd8ba8', 'adddc42fa2', '643e01efad', 'fae74c61d9', '1b6a8b201b\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-10-25 01:54:21","objectId":"1f03ecf372","updatedAt":"2020-10-25 01:54:36"}]}
+INFO:root:User name: oKJKF0hmhWdJSsJG15XV6Luo48cQ, 对应objectId: 1f03ecf372
+INFO:root:{"createdAt":"2021-06-07 08:38:20","objectId":"ddd350dfc4"}
+INFO:root:41 / 3055 done
+INFO:root:user_id = oKJKF0oy0r1f9HWlBHqOv6udabNU
+INFO:root:recos = ['1513460b3e', 'fcddd7d970', 'e5ab64894e', 'bdb4c0adb6', 'fa5e469465', '490c31f2d4', 'ef283d3d95', '348b451e83', '533002a839\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-03-30 23:00:16","objectId":"c79a01fb71","updatedAt":"2020-03-30 23:04:19"}]}
+INFO:root:User name: oKJKF0oy0r1f9HWlBHqOv6udabNU, 对应objectId: c79a01fb71
+INFO:root:{"createdAt":"2021-06-07 08:38:22","objectId":"dd467786a7"}
+INFO:root:42 / 3055 done
+INFO:root:user_id = 940eadecec9ffd37
+INFO:root:recos = ['244e456f94', '080eb01c65', '07bd66af41', '44e170c482', '348b451e83', 'ffdf15595b', '7b044ff789', '0354ad1b68', '6d4f14546b', '1c685218f7\n']
+INFO:root:user_res = {"results":[{"createdAt":"2019-11-13 21:35:01","objectId":"857c6ab308","updatedAt":"2020-04-03 12:56:25"}]}
+INFO:root:User name: 940eadecec9ffd37, 对应objectId: 857c6ab308
+INFO:root:{"createdAt":"2021-06-07 08:38:24","objectId":"79f4d45d81"}
+INFO:root:43 / 3055 done
+INFO:root:user_id = oKJKF0t6YdH0Jm8zwLWDCcSImmn4
+INFO:root:recos = ['bd6f0de9ab', 'a5903d75ba', '61d507a7e7', '777fc701e6', 'c7cfcb0185', 'd243013f98', '165f125681', '6a2fcc5a11', 'c0503a6562', 'e509da3ca4\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-04-02 16:40:56","objectId":"71e4e32264","updatedAt":"2021-04-02 16:43:10"}]}
+INFO:root:User name: oKJKF0t6YdH0Jm8zwLWDCcSImmn4, 对应objectId: 71e4e32264
+INFO:root:{"createdAt":"2021-06-07 08:38:27","objectId":"5050797e6c"}
+INFO:root:44 / 3055 done
+INFO:root:user_id = 001850.c1fa76784a6c4f37a4817f4616f63f98.1331
+INFO:root:recos = ['6a1e236881', 'd700022ce3', '146079d3f9', '2d0b690daa', '6e4ede0722', 'fb9e58ea12', '986778be29', 'ca089bb330', 'db352e0d45', '535e5c012a\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-03-04 21:31:31","objectId":"b321b037f0","updatedAt":"2021-03-06 12:48:15"}]}
+INFO:root:User name: 001850.c1fa76784a6c4f37a4817f4616f63f98.1331, 对应objectId: b321b037f0
+INFO:root:{"createdAt":"2021-06-07 08:38:30","objectId":"d2bd41fce8"}
+INFO:root:45 / 3055 done
+INFO:root:user_id = 421957756@qq.com
+INFO:root:recos = ['ec98cffb26', '4bd8a0ba80', '6e4ede0722', 'b1637b2c7a', 'a978dab06e', '872b61d21e', '3666b71d89', 'f6e2ef389a', 'e5d6dd8ba8', '147e776671\n']
+INFO:root:user_res = {"results":[{"createdAt":"2019-02-09 16:36:10","objectId":"9546a4274f","updatedAt":"2019-02-09 16:36:28"}]}
+INFO:root:User name: 421957756@qq.com, 对应objectId: 9546a4274f
+INFO:root:{"createdAt":"2021-06-07 08:38:33","objectId":"be012debba"}
+INFO:root:46 / 3055 done
+INFO:root:user_id = joker
+INFO:root:recos = ['55b735ff19', '1ae088ff84', 'eff0b59ca9', '158ea0d64b', 'd75020d281', 'a5fcc7faa7\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-01-30 19:13:35","objectId":"a2b49ed1a9","updatedAt":"2020-03-21 01:18:37"}]}
+INFO:root:User name: joker, 对应objectId: a2b49ed1a9
+INFO:root:{"createdAt":"2021-06-07 08:38:35","objectId":"6615480243"}
+INFO:root:47 / 3055 done
+INFO:root:user_id = oKJKF0qifSqR0MzakCi6lVTzKzEc
+INFO:root:recos = ['fc74110a75', '63bad979cb', '56182a93db', 'b75d320ede\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-03-19 15:10:08","objectId":"f489f64c6e","updatedAt":"2020-05-01 11:32:39"}]}
+INFO:root:User name: oKJKF0qifSqR0MzakCi6lVTzKzEc, 对应objectId: f489f64c6e
+INFO:root:{"createdAt":"2021-06-07 08:38:37","objectId":"ab26fb3ea0"}
+INFO:root:48 / 3055 done
+INFO:root:user_id = oKJKF0jTbTIhHjK85-18fy2Ric7A
+INFO:root:recos = ['386de3259f', '0c1494cd4a', '8635d6fb4d', '90410a0ab1', 'f369da6287', 'c0b6f4cf37', '1454e124d2', '1eea485648', '6bfe09cfe4', '9bae94bb32', '7ee2f85d28', 'd65f7bf31c', '64a255912f', 'f6e2ef389a', '0c1494cd4a', 'e366e3ca21', '9452ca00da', '643e01efad', '258aca0864', 'd0721cebef\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-08-20 05:25:59","objectId":"78519f352e","updatedAt":"2020-08-20 05:26:08"}]}
+INFO:root:User name: oKJKF0jTbTIhHjK85-18fy2Ric7A, 对应objectId: 78519f352e
+INFO:root:{"createdAt":"2021-06-07 08:38:39","objectId":"ea0267141f"}
+INFO:root:49 / 3055 done
+INFO:root:user_id = 3ffa18ea79539be4
+INFO:root:recos = ['67d8a340cd', '135462d000', '2c12373ced', '1c685218f7', 'c6f696e873', 'eb72dc22ff', '2e1ca8f827', 'b1637b2c7a', '9118b14e3e', '624e3055a5\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-03-02 00:32:12","objectId":"2c1b5f9f8c","updatedAt":"2020-04-12 13:09:32"}]}
+INFO:root:User name: 3ffa18ea79539be4, 对应objectId: 2c1b5f9f8c
+INFO:root:{"createdAt":"2021-06-07 08:38:41","objectId":"b0c253cf54"}
+INFO:root:50 / 3055 done
+INFO:root:user_id = lcpkok1
+INFO:root:recos = ['9572360f0d', '59b95de96b', 'e7fb8e2cc5', '3125092651', '533e66aeb6', '6d4cbd4329', '01365673ba', '6a0e16269b', '2cba7ab2d7', 'cf443da150\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-05-13 00:08:01","objectId":"773877d41d","updatedAt":"2020-05-13 00:08:15"}]}
+INFO:root:User name: lcpkok1, 对应objectId: 773877d41d
+INFO:root:{"createdAt":"2021-06-07 08:38:44","objectId":"897b783d39"}
+INFO:root:51 / 3055 done
+INFO:root:user_id = 81082e172a4bb0c5
+INFO:root:recos = ['735fbbd571', 'fa5e469465', 'e80a2f3fbd', '158ea0d64b', 'd75020d281', '1571a1b82a', '1bfd5f9535', '8b2d64e7ed', '71f11114c4', '55b735ff19\n']
+INFO:root:user_res = {"results":[{"createdAt":"2019-10-29 11:20:23","objectId":"5da6199958","updatedAt":"2020-11-28 18:33:03"}]}
+INFO:root:User name: 81082e172a4bb0c5, 对应objectId: 5da6199958
+INFO:root:{"createdAt":"2021-06-07 08:38:46","objectId":"b11fcbb862"}
+INFO:root:52 / 3055 done
+INFO:root:user_id = oKJKF0j3wVTnYIGluZubgPg9WygE
+INFO:root:recos = ['1c0cfb51d9', '963d440573', '705b0f18d6', '8983ee64bd', '96b1db7d20', '604587f6a6', 'dc8a3ad6e4', 'fea160633d', 'f832e8f2cd', '1c480d43a6', '437053e106', '8d0272f204', 'bdcb531bb6', '269b5cd4ba', 'd2d51e92aa', 'adccfa01b1', '8983ee64bd', '96b1db7d20', '843e94bf20', '604587f6a6\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-05-28 23:07:41","objectId":"85292445cd","updatedAt":"2020-05-28 23:07:53"}]}
+INFO:root:User name: oKJKF0j3wVTnYIGluZubgPg9WygE, 对应objectId: 85292445cd
+INFO:root:{"createdAt":"2021-06-07 08:38:48","objectId":"d8520f1467"}
+INFO:root:53 / 3055 done
+INFO:root:user_id = 191e6738d6cde22c
+INFO:root:recos = ['4483d8c9bf', 'd1b0c6d0b5', '6a034efe1e', 'f686754dda\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-03-14 13:20:15","objectId":"4fae96261b","updatedAt":"2020-03-14 20:00:55"}]}
+INFO:root:User name: 191e6738d6cde22c, 对应objectId: 4fae96261b
+INFO:root:{"createdAt":"2021-06-07 08:38:51","objectId":"6dfcc5abbf"}
+INFO:root:54 / 3055 done
+INFO:root:user_id = oKJKF0gAW0wra6fvIP9HQW1ei5eE
+INFO:root:recos = ['9193faa91e', '76c17e1bc0', 'd8bea79d63', '20a00f4a4b', 'b9c3f8f1e7', 'c140cefcfe', 'e160a18d76', 'c6151b6448', '140227e683', '624e3055a5\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-07-09 13:11:43","objectId":"250c787c63","updatedAt":"2020-07-09 13:12:30"}]}
+INFO:root:User name: oKJKF0gAW0wra6fvIP9HQW1ei5eE, 对应objectId: 250c787c63
+INFO:root:{"createdAt":"2021-06-07 08:38:53","objectId":"8ca9fb52e9"}
+INFO:root:55 / 3055 done
+INFO:root:user_id = cb245cf57f6b39e1
+INFO:root:recos = ['078e68d14f', '0964164737', 'edf5a4d7c0', 'a53a09928a', '8e69d74165', '28b11b78ce', '6e4ede0722\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-02-25 18:11:35","objectId":"74bf3d3cc1","updatedAt":"2020-04-09 19:53:38"}]}
+INFO:root:User name: cb245cf57f6b39e1, 对应objectId: 74bf3d3cc1
+INFO:root:{"createdAt":"2021-06-07 08:38:55","objectId":"1d722a2a7f"}
+INFO:root:56 / 3055 done
+INFO:root:user_id = 001656.a1c1160973fc4e14b01c99fefe922acd.0424
+INFO:root:recos = ['3ade15b5af', '140227e683', '624e3055a5', '1ecf02d6e9', 'fcc3fc5d47', 'c0ad380f8c', '2f81f77bc5', '9118b14e3e', 'ee495de772', 'f5477458cd\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-07-10 12:24:21","objectId":"548010ddbc","updatedAt":"2020-07-17 10:27:32"}]}
+INFO:root:User name: 001656.a1c1160973fc4e14b01c99fefe922acd.0424, 对应objectId: 548010ddbc
+INFO:root:{"createdAt":"2021-06-07 08:38:57","objectId":"011ddf964e"}
+INFO:root:57 / 3055 done
+INFO:root:user_id = f6c441b729355cf8
+INFO:root:recos = ['d59b6e2f4c', '1aac31504f', '237208b80c', 'e5ab64894e', '930698246a', 'fb88447d64', 'e9b82ced92', 'f09858dc19', 'bdb4c0adb6', '3d842b8df4\n']
+INFO:root:user_res = {"results":[{"createdAt":"2019-12-24 13:16:00","objectId":"9d9de92c8a","updatedAt":"2020-09-26 10:32:00"}]}
+INFO:root:User name: f6c441b729355cf8, 对应objectId: 9d9de92c8a
+INFO:root:{"createdAt":"2021-06-07 08:38:59","objectId":"a92ac32df8"}
+INFO:root:58 / 3055 done
+INFO:root:user_id = 4081bdc3d0559c28
+INFO:root:recos = ['240b903fc2', '5c5fd4fc2d', 'a069d8c48e', '7af48dd626', '22cfa09905', 'e7d7860deb', '6e4ede0722', 'df66964a56', 'b9c3f8f1e7', '240b903fc2', 'e09b366585', '8b01802ef9', '5c5fd4fc2d', 'b5f2a4e31d', '027692adaf', '6336a59a77', 'ec98cffb26', 'e09b366585', '8b01802ef9\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-03-02 13:44:18","objectId":"c4871f9b1b","updatedAt":"2020-03-06 20:28:41"}]}
+INFO:root:User name: 4081bdc3d0559c28, 对应objectId: c4871f9b1b
+INFO:root:{"createdAt":"2021-06-07 08:39:01","objectId":"9396c0c15f"}
+INFO:root:59 / 3055 done
+INFO:root:user_id = oKJKF0uRbCN4NH0sB4DDaqBtGXKc
+INFO:root:recos = ['386de3259f', '0c1494cd4a', 'e9abc8e4d1', '90410a0ab1\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-08-20 01:50:25","objectId":"8d33d860d4","updatedAt":"2020-08-21 10:09:38"}]}
+INFO:root:User name: oKJKF0uRbCN4NH0sB4DDaqBtGXKc, 对应objectId: 8d33d860d4
+INFO:root:{"createdAt":"2021-06-07 08:39:04","objectId":"a0053247a4"}
+INFO:root:60 / 3055 done
+INFO:root:user_id = .Lqi
+INFO:root:recos = ['5bbfa00546', 'cc18603d25', '4823a85241', '6d95a0f578', 'd1a07d41d0', '495a55feb4', '05ca2cba26', '63e7faa959', '1e7243af92', '63bad979cb', '14c0c6664a', 'd09aa03605', '07bd66af41', '27b8192e80', 'f686754dda\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-04-30 16:04:22","objectId":"42a37ec5a7","updatedAt":"2020-04-30 18:05:15"}]}
+INFO:root:User name: .Lqi, 对应objectId: 42a37ec5a7
+INFO:root:{"createdAt":"2021-06-07 08:39:06","objectId":"9daa82dea0"}
+INFO:root:61 / 3055 done
+INFO:root:user_id = oKJKF0sdkwy8VebniAYcQnvJR0SI
+INFO:root:recos = ['031376674c\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-10-09 08:37:36","objectId":"25f3479373","updatedAt":"2021-05-19 18:56:11"}]}
+INFO:root:User name: oKJKF0sdkwy8VebniAYcQnvJR0SI, 对应objectId: 25f3479373
+INFO:root:{"createdAt":"2021-06-07 08:39:08","objectId":"8381741881"}
+INFO:root:62 / 3055 done
+INFO:root:user_id = oKJKF0pCLZs7xXCf2B9OXWjJ4D80
+INFO:root:recos = ['df50ed2112', 'bce5d67391', '1c685218f7', '8257bba21c', '6e4ede0722', 'c34088bd03', '5cee32c5e3', '10f28a1a88', 'b8a76b2813', 'bd00f566a0\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-04-05 16:41:13","objectId":"72cb90253f","updatedAt":"2020-09-06 22:01:13"}]}
+INFO:root:User name: oKJKF0pCLZs7xXCf2B9OXWjJ4D80, 对应objectId: 72cb90253f
+INFO:root:{"createdAt":"2021-06-07 08:39:10","objectId":"d8dd780d95"}
+INFO:root:63 / 3055 done
+INFO:root:user_id = oKJKF0soZN0LMYHOcLwU6OYayfO4
+INFO:root:recos = ['fea160633d', '230ff20361', '25e422161b', '3dcb90c3ed', '8b01802ef9', '3cc6b9282f', '865392cd3f', '413160ea6f', 'c7341df3c6', 'fb309b5615\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-05-31 16:41:26","objectId":"4b67e87d22","updatedAt":"2020-06-02 02:29:11"}]}
+INFO:root:User name: oKJKF0soZN0LMYHOcLwU6OYayfO4, 对应objectId: 4b67e87d22
+INFO:root:{"createdAt":"2021-06-07 08:39:12","objectId":"22e176b7a3"}
+INFO:root:64 / 3055 done
+INFO:root:user_id = a7d58aa476a98c76
+INFO:root:recos = ['0ec8dd25dd', 'cc9e2ced38', 'a704e3119e', 'e7d7860deb', 'e0fa900125', '747aec7d68', '269b5cd4ba', '9151f5ae96', '48c06f95c8', '8a68fa3093', '5da4425135', '5e15649ef6', '7ab26fc730\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-03-13 19:59:16","objectId":"ab15d7dc82","updatedAt":"2020-03-17 08:24:35"}]}
+INFO:root:User name: a7d58aa476a98c76, 对应objectId: ab15d7dc82
+INFO:root:{"createdAt":"2021-06-07 08:39:15","objectId":"e5bdba8289"}
+INFO:root:65 / 3055 done
+INFO:root:user_id = oKJKF0kb95gaK1TzEsAihg7YeZQ4
+INFO:root:recos = ['3f08d7b47c', '4bd8a0ba80', '0b2a825c21', '140227e683', '169b6572ac', 'b4dfd901bf', '4601389a90', '88e8fe8c17\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-07-16 14:32:48","objectId":"ccdccf1159","updatedAt":"2020-11-20 09:50:06"}]}
+INFO:root:User name: oKJKF0kb95gaK1TzEsAihg7YeZQ4, 对应objectId: ccdccf1159
+INFO:root:{"createdAt":"2021-06-07 08:39:18","objectId":"4b58140115"}
+INFO:root:66 / 3055 done
+INFO:root:user_id = 531dd74390b51968
+INFO:root:recos = ['3acc4a6b89', '256acd550a', '18e304e3d0', '1bfd5f9535', 'fb88447d64', '135462d000', '3092cf7415', '8180e598cc', '2686a766d9', 'e081b7efe9\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-01-18 15:12:21","objectId":"c45b7b56ee","updatedAt":"2021-01-25 22:51:39"}]}
+INFO:root:User name: 531dd74390b51968, 对应objectId: c45b7b56ee
+INFO:root:{"createdAt":"2021-06-07 08:39:20","objectId":"ada4144bc5"}
+INFO:root:67 / 3055 done
+INFO:root:user_id = 4d3e0d65e23fab6d
+INFO:root:recos = ['5da4425135', '5e15649ef6', 'e2dfee3de4', '8080723d08', '099372b595', '7ab26fc730', 'd2d51e92aa', 'd243013f98', 'e7d7860deb', '7b044ff789\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-01-14 13:54:43","objectId":"ad21d668d5","updatedAt":"2020-06-30 15:06:33"}]}
+INFO:root:User name: 4d3e0d65e23fab6d, 对应objectId: ad21d668d5
+INFO:root:{"createdAt":"2021-06-07 08:39:22","objectId":"8f36751a33"}
+INFO:root:68 / 3055 done
+INFO:root:user_id = oKJKF0ib8lJ49SpQMrXwJ4Tds2l8
+INFO:root:recos = ['156d4daa87', '465a8583a2', 'c9e80f09b9', '20017e7204', '38ad0db38e', '5bbfa00546', '135462d000', 'a97ad229df', '0ca34e5ce8', 'fb16afdc3a', '6b9fa2aed2', '3f08d7b47c', '3acc4a6b89', '59f1536c40', '17718aac0a', 'b4b0f3d2f0', 'a97ad229df', '4e9e4c400a', '1ed8de2bf9\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-04-09 23:15:15","objectId":"acf1c368ee","updatedAt":"2021-05-14 17:56:47"}]}
+INFO:root:User name: oKJKF0ib8lJ49SpQMrXwJ4Tds2l8, 对应objectId: acf1c368ee
+INFO:root:{"createdAt":"2021-06-07 08:39:24","objectId":"978282dc51"}
+INFO:root:69 / 3055 done
+INFO:root:user_id = oKJKF0qN1DdTOTjG1HNIWRPC_Byg
+INFO:root:recos = ['2686a766d9', '96f78ab5f5', '6a1e236881', 'd9da6c8071', '07bd66af41', 'aa364e9569', '5e3ef6a6a7', '525c8c146c', '3f92fb31f1', '010c78159a\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-11-28 10:36:51","objectId":"c4e386681c","updatedAt":"2020-12-14 15:34:20"}]}
+INFO:root:User name: oKJKF0qN1DdTOTjG1HNIWRPC_Byg, 对应objectId: c4e386681c
+INFO:root:{"createdAt":"2021-06-07 08:39:26","objectId":"6e50d487bf"}
+INFO:root:70 / 3055 done
+INFO:root:user_id = ba735c12699692d6
+INFO:root:recos = ['7403507bd1', '4bd8a0ba80', 'ec49bfb34f', '60c71515c6', 'b1637b2c7a', '4518aa3e35', '63243b74af', '33682c3709', '165f125681', '2686a766d9', '76c17e1bc0', 'f85dcdcbee', '6a1e236881', '6bfe09cfe4', '61dc0b2d95', '0c1494cd4a', '757203af59', 'f7afccff56', '7703b8288d', '4e9e4c400a\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-02-27 23:27:06","objectId":"6c27966108","updatedAt":"2020-02-27 23:28:02"}]}
+INFO:root:User name: ba735c12699692d6, 对应objectId: 6c27966108
+INFO:root:{"createdAt":"2021-06-07 08:39:28","objectId":"59138d10e3"}
+INFO:root:71 / 3055 done
+INFO:root:user_id = 隐犬Insane
+INFO:root:recos = ['0e16d7f836', '3d2c6d7ba2', '2686a766d9', '140227e683', '1d129f0b21', '3404e62c8a', '3d2c6d7ba2', '76b98bb969', '6a11a97f76', '27b7b34470', 'd83d3c7742', '09cbd45bea', '6ff0c6b47a', '09cbd45bea', '6ff0c6b47a', '256acd550a\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-09-26 20:48:51","objectId":"cd7210b91b","updatedAt":"2021-05-01 15:29:28"}]}
+INFO:root:User name: 隐犬Insane, 对应objectId: cd7210b91b
+INFO:root:{"createdAt":"2021-06-07 08:39:30","objectId":"c92acfc0c6"}
+INFO:root:72 / 3055 done
+INFO:root:user_id = oKJKF0qNzj9PEQGBdWcd8MXzFWTY
+INFO:root:recos = ['2686a766d9', '2686a766d9', '52364e2de9', '1c9c73d02a', '067a3219e6', 'a3946cf225', '63d65d2215', '8983ee64bd', 'c6151b6448', '22c0338927', '1fa9430483\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-09-23 18:41:08","objectId":"f1f838d8c9","updatedAt":"2020-09-23 18:41:16"}]}
+INFO:root:User name: oKJKF0qNzj9PEQGBdWcd8MXzFWTY, 对应objectId: f1f838d8c9
+INFO:root:{"createdAt":"2021-06-07 08:39:32","objectId":"446adeaa53"}
+INFO:root:73 / 3055 done
+INFO:root:user_id = oKJKF0kHbewvFPWTRytHQPkEuhKY
+INFO:root:recos = ['ca089bb330', 'b1637b2c7a', 'ba8bd56f8b', '6c9dad6166', '18211a025b', 'eec824f298', '89f0f534b0', '7684304340', 'd128bbff8a', 'c0b6f4cf37\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-03-28 21:33:32","objectId":"f8d9f73dd3","updatedAt":"2021-04-04 15:12:50"}]}
+INFO:root:User name: oKJKF0kHbewvFPWTRytHQPkEuhKY, 对应objectId: f8d9f73dd3
+INFO:root:{"createdAt":"2021-06-07 08:39:35","objectId":"136941ff05"}
+INFO:root:74 / 3055 done
+INFO:root:user_id = oKJKF0mIaPkPKvdqTH1J61XRqZ4A
+INFO:root:recos = ['b1637b2c7a', '6a1e236881', 'eaa15021e9', '54c9ed8b81', '224bace06d\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-05-08 18:58:47","objectId":"853aa02dfb","updatedAt":"2021-05-08 18:58:55"}]}
+INFO:root:User name: oKJKF0mIaPkPKvdqTH1J61XRqZ4A, 对应objectId: 853aa02dfb
+INFO:root:{"createdAt":"2021-06-07 08:39:37","objectId":"9d697473b8"}
+INFO:root:75 / 3055 done
+INFO:root:user_id = oKJKF0hF8PkuGvers4fS_zJdP3Ao
+INFO:root:recos = ['2686a766d9', 'd243013f98', 'ca089bb330', '22c0338927', '416b3aca17', '624e3055a5', '240b903fc2\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-11-02 22:33:43","objectId":"12f1f723aa","updatedAt":"2020-11-02 22:34:27"}]}
+INFO:root:User name: oKJKF0hF8PkuGvers4fS_zJdP3Ao, 对应objectId: 12f1f723aa
+INFO:root:{"createdAt":"2021-06-07 08:39:39","objectId":"caac30c0a4"}
+INFO:root:76 / 3055 done
+INFO:root:user_id = 阿伟还没死
+INFO:root:recos = ['618cf50651', 'b87fa7d439', 'dbd4703558', '3a8bf03780', 'ffc16edde1', '3cfc824844', 'f2640f3bc6', 'cf3f1ec692', '43e13bf1f7', '7a5a69d8c9\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-02-16 15:13:27","objectId":"14c2e8c482","updatedAt":"2021-02-17 00:32:58"}]}
+INFO:root:User name: 阿伟还没死, 对应objectId: 14c2e8c482
+INFO:root:{"createdAt":"2021-06-07 08:39:43","objectId":"5aa2b6e0e2"}
+INFO:root:77 / 3055 done
+INFO:root:user_id = oKJKF0h-czrkRXpkhem4Sw8zBT_M
+INFO:root:recos = ['ca089bb330', '2900f3aaf8', '2686a766d9', '7af48dd626', '2686a766d9', '38adf2b38f', '833c69e6d5', 'aa364e9569', 'd243013f98', '5e3ef6a6a7', '525c8c146c', '437053e106', 'cad6bded7f', '6ff0c6b47a', '1ad18bb8c1', '4c8cc52fa3', '4601389a90\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-09-11 02:59:18","objectId":"ba8922fc18","updatedAt":"2020-10-08 19:57:22"}]}
+INFO:root:User name: oKJKF0h-czrkRXpkhem4Sw8zBT_M, 对应objectId: ba8922fc18
+INFO:root:{"createdAt":"2021-06-07 08:39:46","objectId":"9ccca92700"}
+INFO:root:78 / 3055 done
+INFO:root:user_id = 3b017fe4c7a339f3
+INFO:root:recos = ['1571a1b82a', 'ed916eb33b', '36ff681794', 'fd5df2ecad', '362ff4fe48', '9aef1f3f19', '8ad1e39ec1', '95be2e4e23', '53449db576', 'fbf52961f2\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-01-19 21:33:27","objectId":"c45d1e2bf1","updatedAt":"2020-04-22 14:31:20"}]}
+INFO:root:User name: 3b017fe4c7a339f3, 对应objectId: c45d1e2bf1
+INFO:root:{"createdAt":"2021-06-07 08:39:49","objectId":"f42940db21"}
+INFO:root:79 / 3055 done
+INFO:root:user_id = 104b0b4789fc4524
+INFO:root:recos = ['53449db576', '99da108c22', '7f5a6b032f', 'e80a2f3fbd', '34b9bea061', '8b2d64e7ed', 'ed916eb33b', 'a27ec679fd', 'd429df0790', '3ca79aac0e\n']
+INFO:root:user_res = {"results":[{"createdAt":"2019-12-30 15:43:03","objectId":"9be5f4c9ac","updatedAt":"2020-05-08 23:38:56"}]}
+INFO:root:User name: 104b0b4789fc4524, 对应objectId: 9be5f4c9ac
+INFO:root:{"createdAt":"2021-06-07 08:39:51","objectId":"c3153fd409"}
+INFO:root:80 / 3055 done
+INFO:root:user_id = 202b141ae3526a3d
+INFO:root:recos = ['38adf2b38f', '833c69e6d5', 'aa364e9569\n']
+INFO:root:user_res = {"results":[{"createdAt":"2019-03-31 08:21:59","objectId":"0f03b5e2de","updatedAt":"2020-09-09 03:39:53"}]}
+INFO:root:User name: 202b141ae3526a3d, 对应objectId: 0f03b5e2de
+INFO:root:{"createdAt":"2021-06-07 08:39:53","objectId":"59e67b13fe"}
+INFO:root:81 / 3055 done
+INFO:root:user_id = 邓语晨
+INFO:root:recos = ['1ae89a555f', 'c8f6af760a', '7812d95ea4', '80c123deda', 'd75020d281', 'b844a98658', '6ff0c6b47a', '00791cc749', 'e1ab277999', '42e42e45fc\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-04-11 11:51:10","objectId":"efafac026b","updatedAt":"2020-04-11 11:51:54"}]}
+INFO:root:User name: 邓语晨, 对应objectId: efafac026b
+INFO:root:{"createdAt":"2021-06-07 08:39:55","objectId":"628a54e790"}
+INFO:root:82 / 3055 done
+INFO:root:user_id = oKJKF0uIk8LJT0yES9gU7fPzZGXE
+INFO:root:recos = ['fbf790152b', '5614865a12\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-09-01 18:31:53","objectId":"0b0941bb80","updatedAt":"2020-09-04 14:33:03"}]}
+INFO:root:User name: oKJKF0uIk8LJT0yES9gU7fPzZGXE, 对应objectId: 0b0941bb80
+INFO:root:{"createdAt":"2021-06-07 08:39:58","objectId":"11f8be46e7"}
+INFO:root:83 / 3055 done
+INFO:root:user_id = 刘天漪
+INFO:root:recos = ['07bd66af41', '3f893ac4aa', 'c6f696e873', '20b7efe29a', '8214971252', '0cba1a3454', 'cca426466a', 'd4d85439b4', '09b4153dd5', 'edf5a4d7c0\n']
+INFO:root:user_res = {"results":[{"createdAt":"2019-11-01 18:24:09","objectId":"c4aacf04ed","updatedAt":"2020-03-28 01:51:17"}]}
+INFO:root:User name: 刘天漪, 对应objectId: c4aacf04ed
+INFO:root:{"createdAt":"2021-06-07 08:40:01","objectId":"3dd031b380"}
+INFO:root:84 / 3055 done
+INFO:root:user_id = 48193f492ebe9bdc
+INFO:root:recos = ['ec4fee17c1', 'c666f1c587', 'c7341df3c6', '1cb3645e91', '4ea9b41f2a', 'ef08ac01a6', '6bea9ef727', 'bab7c4780c', '3fe68763bf', '79980924cb\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-03-10 15:07:17","objectId":"1aad597dcf","updatedAt":"2020-03-10 15:07:27"}]}
+INFO:root:User name: 48193f492ebe9bdc, 对应objectId: 1aad597dcf
+INFO:root:{"createdAt":"2021-06-07 08:40:04","objectId":"7cad6e4ce9"}
+INFO:root:85 / 3055 done
+INFO:root:user_id = 000000.9108cca77ece4f248b725d38279b1021.1053
+INFO:root:recos = ['3a8bf03780', '2ba9714c6e', '29e273cd69', '5614865a12', 'cb58a31dc3', 'b6099850e9', '55a79080d8', '4424bd16de', 'e5d6dd8ba8\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-07-07 18:53:37","objectId":"bdf07c074b","updatedAt":"2020-07-07 18:53:45"}]}
+INFO:root:User name: 000000.9108cca77ece4f248b725d38279b1021.1053, 对应objectId: bdf07c074b
+INFO:root:{"createdAt":"2021-06-07 08:40:06","objectId":"f78ed6b6b7"}
+INFO:root:86 / 3055 done
+INFO:root:user_id = oKJKF0n5qSeCTtogcloHEXvrtnf8
+INFO:root:recos = ['9845d0329a', '948762b891', 'de7f57d117', 'b78ed556d9', '3da6a47581', '08768159d6', '5403ca1c69', '6a1e236881', '750a374136', '165f125681', '62fd2557d8', 'b1637b2c7a', '5a465d36f8', '8983ee64bd', '705b0f18d6', 'e873a5430b', 'b5f2a4e31d', '63bad979cb', 'edf5a4d7c0', '86489c685c\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-11-13 02:20:27","objectId":"1611808746","updatedAt":"2021-03-24 00:31:17"}]}
+INFO:root:User name: oKJKF0n5qSeCTtogcloHEXvrtnf8, 对应objectId: 1611808746
+INFO:root:{"createdAt":"2021-06-07 08:40:08","objectId":"4398fcfb09"}
+INFO:root:87 / 3055 done
+INFO:root:user_id = oKJKF0gwlZPL5Dl4tm6HhLl6HZcc
+INFO:root:recos = ['3f678cd0ab', 'cc2e8e5107', 'f52dc95db0', '55a79080d8', 'f52dc95db0', '4601389a90', '50e4d09066', '5e506d8a46', '963d440573', '769046b17e', '7a6f05d70e', '9eabdadd7d', '1162195f25', '5614865a12', '0bcce9cbad', '7af48dd626', '09b4153dd5', 'cd121558f2\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-09-16 15:24:58","objectId":"632b4ff139","updatedAt":"2020-09-21 19:48:43"}]}
+INFO:root:User name: oKJKF0gwlZPL5Dl4tm6HhLl6HZcc, 对应objectId: 632b4ff139
+INFO:root:{"createdAt":"2021-06-07 08:40:12","objectId":"1908c86529"}
+INFO:root:88 / 3055 done
+INFO:root:user_id = oKJKF0sWf5ddIPc4z4w5xlPXmSrE
+INFO:root:recos = ['e873a5430b', '3404e62c8a', 'e1ab277999', 'b6099850e9', '61dc0b2d95', '0b51b55ca5', '05b5a15fea', '29cf5476a8', '272024a979', 'ec6b926686\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-06-11 16:38:21","objectId":"4e329c0342","updatedAt":"2020-06-25 22:17:08"}]}
+INFO:root:User name: oKJKF0sWf5ddIPc4z4w5xlPXmSrE, 对应objectId: 4e329c0342
+INFO:root:{"createdAt":"2021-06-07 08:40:14","objectId":"97f8b643d3"}
+INFO:root:89 / 3055 done
+INFO:root:user_id = 48f22257340d2824
+INFO:root:recos = ['0d1e68deb1', '5216ec9557', '789b7f5339', '758c598dcb', 'ed916eb33b', '6e5eea1abb', 'fae74c61d9', '8db1eae726', '6681c41bfa', '446344936b\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-02-07 02:45:52","objectId":"552bc51c83","updatedAt":"2020-02-07 02:45:57"}]}
+INFO:root:User name: 48f22257340d2824, 对应objectId: 552bc51c83
+INFO:root:{"createdAt":"2021-06-07 08:40:16","objectId":"383053258b"}
+INFO:root:90 / 3055 done
+INFO:root:user_id = oKJKF0oqf0dH-F8_BvORM3-pGjHY
+INFO:root:recos = ['cad6bded7f', 'bfab5af1dc', '0a196074ab', '3da6d35237', '60c71515c6', '27487e2f11', 'd33f8287fb', 'c0b6f4cf37', '437053e106', '2806b066dc', '13106d4e04', '7684304340', '0cba1a3454', 'cad6bded7f', '2aa114c73d', '05ca2cba26', 'c0b6f4cf37', 'dc2f2b88d4', 'fb16afdc3a', '4518aa3e35\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-11-30 16:46:53","objectId":"92bdab40d4","updatedAt":"2020-12-01 00:20:43"}]}
+INFO:root:User name: oKJKF0oqf0dH-F8_BvORM3-pGjHY, 对应objectId: 92bdab40d4
+INFO:root:{"createdAt":"2021-06-07 08:40:19","objectId":"706bc3a2db"}
+INFO:root:91 / 3055 done
+INFO:root:user_id = oKJKF0scxGQAKTrk8_bVi8yo1THk
+INFO:root:recos = ['5fb54aca6f', '9572360f0d', 'fb16afdc3a', 'a738772287', '272024a979', 'e9d8efb3d9', 'c9e80f09b9', '63e7faa959', 'b2d7a2eb7f', 'b1637b2c7a\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-10-12 15:24:34","objectId":"66a37c966c","updatedAt":"2020-10-12 15:24:37"}]}
+INFO:root:User name: oKJKF0scxGQAKTrk8_bVi8yo1THk, 对应objectId: 66a37c966c
+INFO:root:{"createdAt":"2021-06-07 08:40:21","objectId":"36b43c04f4"}
+INFO:root:92 / 3055 done
+INFO:root:user_id = oKJKF0lpRpqtSmKwKPPO_4n2EsMQ
+INFO:root:recos = ['8e1b366ff2', 'b4b0f3d2f0', 'eaa15021e9', '147e776671', 'db70b10d48', '65fda2d443', '0ecfd05158', 'cfdc4e348b', '8d7a6cf567', '20824661b7\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-04-08 12:58:47","objectId":"5f8c5ae190","updatedAt":"2021-04-10 04:53:58"}]}
+INFO:root:User name: oKJKF0lpRpqtSmKwKPPO_4n2EsMQ, 对应objectId: 5f8c5ae190
+INFO:root:{"createdAt":"2021-06-07 08:40:23","objectId":"bfb1ef1491"}
+INFO:root:93 / 3055 done
+INFO:root:user_id = 44507dbb24dbd429
+INFO:root:recos = ['e5d6dd8ba8', 'd5538e7513', '727aca9075', '6bfe09cfe4', '5991211a2e', '147e776671', '8d0c525eb3', '7c189de6f3', '081ab02146', '3d5a3aea89\n']
+INFO:root:user_res = {"results":[{"createdAt":"2019-08-18 03:08:49","objectId":"48b5fb4908","updatedAt":"2021-04-08 23:00:41"}]}
+INFO:root:User name: 44507dbb24dbd429, 对应objectId: 48b5fb4908
+INFO:root:{"createdAt":"2021-06-07 08:40:26","objectId":"3b9f350a44"}
+INFO:root:94 / 3055 done
+INFO:root:user_id = hakumeiii
+INFO:root:recos = ['fb16afdc3a', '1edd16fd18', 'e8f938cd29', '63d65d2215', '92babcd699', '240b903fc2', '2686a766d9', '6a1e236881', '6a2fcc5a11', 'eaa15021e9\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-12-20 21:51:05","objectId":"9928b1e3c5","updatedAt":"2020-12-20 21:51:14"}]}
+INFO:root:User name: hakumeiii, 对应objectId: 9928b1e3c5
+INFO:root:{"createdAt":"2021-06-07 08:40:29","objectId":"9303c88a40"}
+INFO:root:95 / 3055 done
+INFO:root:user_id = oKJKF0rlaJFGw1BzHyGmF63QXETA
+INFO:root:recos = ['42d763731a', '6e4ede0722', 'a488a51697', '163646a80c', '2278f32545', '6a2fcc5a11', 'b4b0f3d2f0', '74e4c2dc29', '60c71515c6', '7fee0aa79b', 'ba8bd56f8b', '0142c6f596', 'fa09eb3c0e', '05ca2cba26', 'd0721cebef', 'eaa15021e9', '535e5c012a', '6a2fcc5a11', '6441e165a3', '60c71515c6\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-01-21 22:21:31","objectId":"e49dc0ced8","updatedAt":"2021-01-21 22:21:34"}]}
+INFO:root:User name: oKJKF0rlaJFGw1BzHyGmF63QXETA, 对应objectId: e49dc0ced8
+INFO:root:{"createdAt":"2021-06-07 08:40:31","objectId":"0fe4f010ee"}
+INFO:root:96 / 3055 done
+INFO:root:user_id = 67544c2353167155
+INFO:root:recos = ['84d0c09ede', 'aaf9956825', '34ed8903a9', 'b3858d6b21', '58f792889c', 'a704e3119e', '8b01802ef9', '865392cd3f', 'ec98cffb26', 'bb92a569e6\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-02-15 01:10:30","objectId":"3494d75e60","updatedAt":"2020-02-15 01:11:54"}]}
+INFO:root:User name: 67544c2353167155, 对应objectId: 3494d75e60
+INFO:root:{"createdAt":"2021-06-07 08:40:33","objectId":"7baa40e64f"}
+INFO:root:97 / 3055 done
+INFO:root:user_id = 001833.bbfb42e8badb4e7d99b9d4338218d2c7.0148
+INFO:root:recos = ['ce4429c79e', '05ca2cba26', '2f8c222d11', '63d65d2215', '3ba061e915', '29cf5476a8', '747aec7d68', '18ee07adf0', '8baea7c670', '76b98bb969\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-09-08 09:48:10","objectId":"62c3d5a053","updatedAt":"2020-09-08 09:48:29"}]}
+INFO:root:User name: 001833.bbfb42e8badb4e7d99b9d4338218d2c7.0148, 对应objectId: 62c3d5a053
+INFO:root:{"createdAt":"2021-06-07 08:40:35","objectId":"fe7fd63fec"}
+INFO:root:98 / 3055 done
+INFO:root:user_id = 000430.f4991a51cbfb40269bd066204c7c42c8.1548
+INFO:root:recos = ['2686a766d9', 'edf5a4d7c0', 'fb9e58ea12', '5069ee8ff7', 'b4b0f3d2f0', '3f92fb31f1', '6ff0c6b47a', '40a6794096', '4601389a90', 'b4b0f3d2f0', '2be7901acb\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-09-18 23:48:55","objectId":"04d61fc0b0","updatedAt":"2020-09-20 22:57:17"}]}
+INFO:root:User name: 000430.f4991a51cbfb40269bd066204c7c42c8.1548, 对应objectId: 04d61fc0b0
+INFO:root:{"createdAt":"2021-06-07 08:40:37","objectId":"b9da49922c"}
+INFO:root:99 / 3055 done
+INFO:root:user_id = cd9312865a198084
+INFO:root:recos = ['52c7e0daef', 'da3d4d4450\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-01-04 17:42:48","objectId":"3a8b8ecc12","updatedAt":"2020-01-04 17:43:03"}]}
+INFO:root:User name: cd9312865a198084, 对应objectId: 3a8b8ecc12
