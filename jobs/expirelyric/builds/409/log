@@ -1,0 +1,48 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins7436572556206458324.sh
++ python3 jobs/expirelyric.py --count 15
+('960ce744a6', '2021-05-16 02:18:46', '不知他在等谁出现\n没有人想象个对面\n对着自己碎碎念\n一遍一遍一遍')
+('1c794b12ae', '2021-05-23 01:24:12', '如若我歇了心思\n下雨比晴有兴致\n墙壁正潮湿\n眼泪也潮湿，好对峙')
+('c426ba7253', '2021-05-29 03:14:59', '我的心事还没有说完\n可有些话只能在心里呢喃\n当你说好聚好散\n当你已与我无关\n我甘愿做一只孤雁\n从此没有了温暖的港湾')
+('93141a6840', '2021-06-02 18:59:32', '一艘孤单纸船 已泊了好几个港湾\n却不能到达梦的彼岸\n纸船飞于海中 一层雾眼朦胧\n抬头仰望星空 看到的只有困境的牢笼')
+('11b5b6a722', '2021-06-02 20:24:47', '教室的课桌椅 校园的角落里\n藏匿在纸飞机的爱情随风飘落\n背对背在操场上看日落 萤火虫夜里闪烁\n一切的一切仿佛都在表达我的失落\n纵使流星在天际划过 你我终将错过')
+('3f1b46d53b', '2021-06-03 20:07:03', '天空整日阴晴 夜晚却突然光明\n就像你我的曾经 那样透明 那样阴晴不定\n天空骤然阴霾 过好久都没散开\n可记忆也被翻开 那样悲哀 那样苦尽甘来\n天空暴风骤雨 我思绪也被带去\n也没能将你挽住 那样痛苦 那样捉摸不住')
+('b9b322f29c', '2021-06-03 23:00:05', '我与你的距离只剩下回忆\n那些凌乱的碎片不能拾起\n乘着那架折翼的纸飞机\n翻山越岭 跋山涉水 一路披荆斩棘\n来到关于你我的曾经 像美丽的风景\n感受关于我们折翼的爱情')
+('a1dd422730', '2021-06-04 21:10:00', '仿佛熄灭了宇宙，\n自从你走了之后\n天长地久是多久？\n不过是你的温柔，\n让我上头的时候。')
+('1d95935f60', '2021-06-04 22:10:28', '风在听雨\n人已散去\n不知何时才能有你的消息\n忆想曾经的我们\n甜美而又浪漫\n从今往后 各自只剩下回忆')
+('1fd7de4413', '2021-06-05 00:23:14', '金黄的麦浪把我拍回岸上\n发现刚才的一切都是想象\n进入现实才察觉到 风铃已不再响\n为什么总是后知后觉 我们只是玩笑一场\n原来我们的关系还没确定 还是待定\n你我到底是友情还是爱情 我很坚定')
+('5e8679a7a3', '2021-06-05 13:00:03', '夜渐微凉悲伤 黄叶满地殇\n满月独赏透窗 你侧影梳妆\n蓝天深阔遗忘 留我一念想\n微风吹风铃响 心事怎么放')
+('45599bcbbf', '2021-06-05 14:31:01', '清风有情 明月可鉴 落花有情 流水可念\n流星有情 星空可睹 黄叶有情 土地可诉\n抹不去萦萦绕绕的孤单\n解不开耳边回荡的前缘\n斩不断缕缕交织的思念\n挽不回涓涓流淌的流年')
+('0c56717d20', '2021-06-06 00:37:43', '借一阵秋凉悲下 披一幅画卷淡雅\n沏一壶雨前新茶 念一生梦中牵挂\n漫步于梨花树下 任凭风吹落白花\n落花卷霜 风卷残云 我卷烟等你归\n傍晚夕阳 千里追寻 你心碎的泪水\n隔世相望 白鸽一群 挡住你的最美')
+('feb8d52881', '2021-06-06 06:21:34', '当我喝加多宝的时候就会想你\n我的身体你也不需要担心\n但是我的内心深处仿佛陷入沉思\n因为当年我身无分文的时候 \n是你的出现让我觉得你是我的唯一\n你说加多宝是凉茶 也希望我喝的时候能想你')
+('c536dd0faa', '2021-06-06 19:30:05', '夜游承天寺得半宛清愁\n走石桥路过人家到尽头\n古道上擦身而过你回眸\n回望你面容脸上笑依旧\n深夜冷风呼啸而过 吹散你我染了寂寞\n潇潇寒雨应景而落 风雨交加冲散你我')
+('2015d01b0a', '2021-06-07 21:10:16', '愿你我成为五月的花海 用青春拥抱时代\n不负这韶华 别等希望融化\n待到秋季丰收的果实落下 让行动书写年华\n我们就是这五月的花海 让梦想等待未来\n牢记这使命 别让信念旅行\n等待属于黑暗的明星清醒 愿世界永远光明')
+现有精选微词 16首.
+> 超过 15 首精选微词, 将下架如下微词:
+('960ce744a6', '2021-05-16 02:18:46', '不知他在等谁出现\n没有人想象个对面\n对着自己碎碎念\n一遍一遍一遍')
+{"updatedAt":"2021-06-08 07:14:33"}
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
