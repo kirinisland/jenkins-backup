@@ -1,0 +1,54 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins4523197053261711294.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 2首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+还要多远才能走进你的心❤️
+对我态度一直都是冷冰冰
+你就像挂在天上的小星星✨
+我的可爱女友我想对你亲亲亲😘
+从若无其事的喝你的水
+再到蓄谋已久的亲你的嘴
+
+敏感词如下:
+还要多远才能走进你的心❤️
+对我态度一直都是冷冰冰
+你就像*在天上的小星星✨
+我的可爱女友我想对你亲亲亲😘
+从若无其事的喝你的水
+再到蓄谋已久的亲你的嘴
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+你可以说我没有雄心壮志
+你可以说我懦弱没有血性
+但你不可以说我对生活没有追求和态度
+有时我安静地沉默在一隅 只是自得其乐
+寻找在这个物欲横流的世界里
+少有的那一份纯真
+
+敏感词如下:
+你可以说我没有雄心壮志
+你可以说我懦弱没有血*
+但你不可以说我对生活没有追求和态度
+有时我安静地沉默在一隅 只是自得其乐
+寻找在这个物欲横流的世界里
+少有的那一份纯真
+-----------------------------
+Finished: SUCCESS
