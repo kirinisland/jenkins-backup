@@ -1,0 +1,46 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5147361917608039064.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 3首.
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+那一天你和我终于分手  有些错我们无法去承受 
+ 所以只能微笑着去面对  但微笑的背后全是伤口  
+最近听说你越来越消瘦  我忍住心痛也不去问候  
+虽然夜里会莫名的难受  梦里也能感到你的温柔  
+不知不觉泪水滚烫胸口  我多么希望时间能停留  
+这样就没有那天的分手  这样我就能再牵你左手
+
+敏感词如下:
+那一天你和我终于分手  有些错我们无法去承受 
+ 所以只能微笑着去面对  但微笑的背后全是伤口  
+最近听说你越来越消瘦  我忍住心痛也不去问候  
+虽然夜里会莫名的难受  梦里也能感到你的温柔  
+不知不觉泪水*烫胸口  我多么希望时间能停留  
+这样就没有那天的分手  这样我就能再牵你左手
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+       曾经美好的一切 突然就被打破 一次一次的侥幸 失去了自我 难道这就是我的生活                     内心的魔鬼总是不停的说 再来一次你就能更好的活着 可是最后还是失魂落魄 不敢面对亲人朋友 不敢相信这就是结果                                     失去对亲人朋友的承诺 我已变成了行尸走肉 赌鬼 赌鬼 我就是一个赌鬼 一个没有灵魂的赌鬼 慢慢长夜飘荡的赌鬼                                             我不要这样的活着 我不想做赌鬼 我不要做赌鬼 面对一切风暴 面对一切的结果 未来的日子还很长 我不想做赌鬼 我不要做赌鬼                     要坚持 要努力 克服心中的魔鬼         
+
+敏感词如下:
+       曾经美好的一切 突然就被打破 一次一次的侥幸 失去了自我 难道这就是我的生活                     内心的魔鬼总是不停的说 再来一次你就能更好的活着 可是最后还是失魂落魄 不敢面对亲人朋友 不敢相信这就是结果                                     失去对亲人朋友的承诺 我已变成了行尸走肉 赌鬼 赌鬼 我就是一个赌鬼 一个没有灵魂的赌鬼 慢慢长夜飘荡的赌鬼                                             我不要这样的活着 我不想做赌鬼 我不要做赌鬼 面对一切风暴 面对一切的结果 未来的*子还很长 我不想做赌鬼 我不要做赌鬼                     要坚持 要努力 克服心中的魔鬼         
+-----------------------------
+Finished: SUCCESS
