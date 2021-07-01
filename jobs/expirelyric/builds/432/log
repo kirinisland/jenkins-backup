@@ -1,0 +1,51 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3522983271831840133.sh
++ python3 jobs/expirelyric.py --count 15
+('e70e6dbeaf', '2021-06-20 14:37:42', '你留着满身伤痕对着我 蔚蓝的天早已是阴暗 我扯着嘴角看着你远离的背影 枯死的花朵已失去了生机 抬起头 转过身 你已穿上婚纱 我已穿过人海 在明媚的阳光中微笑地看着你手捧鲜花走向早已等候的他 我愿 风里有我带给你的问候 雨里有我带给你的祝福')
+('85338658cb', '2021-06-21 19:13:20', '这首写给你的歌\n往事匆匆全都记得\n多年以来 终于明白\n你从未离开')
+('197c160223', '2021-06-22 11:29:31', '那一天你和我终于分手  有些错我们无法去承受 \n所以只能微笑着去面对  但微笑的背后全是伤口  \n最近听说你越来越消瘦  我忍住心痛也不去问候  \n虽然夜里会莫名的难受  梦里也能感到你的温柔  \n不知不觉泪水滚烫胸口  我多么希望时间能停留  \n这样就没有那天的分手  这样我就能再牵你左手')
+('dca98fdc0e', '2021-06-22 13:58:10', '昨日再美 也無法 逃 回 去\n今時再難 也必須抬腳 繼 續\n人們眼前總被 傷痛 給佔據\n只為維持 世界 該死的 秩序')
+('fd1c0d2aaa', '2021-06-22 19:26:28', '落日余晖照耀在窗格\n归巢的大雁唱起悲歌\n又想起日记本上泛着的黄色\n回忆全都睡着了 糖果只剩下一颗\n我们的快乐 只有我记得 生活没了颜色')
+('38412811d8', '2021-06-23 23:41:47', '窗外的雨天 笼罩这天空\n你是否会想起 曾经的爱人\n看着床边的枕头 凌乱的房子 但她早已离去\n多想在你面前再次拥抱你 可惜你早已远去\n看着你的背影 我还留在原地 早已忘记样子\n在街角的那一边 我苦苦追寻着你')
+('9daef98620', '2021-06-25 09:47:44', '无声的离别是伤心的\n我在原地 你在远方是痛苦的\n我只愿你平安喜乐')
+('acb5275856', '2021-06-25 21:01:45', '站在礁石上 眺望远方 望向海洋 惊涛骇浪 \n 凝视着天空 映出彩虹 在我眼中 一切皆空\n海浪冲上岸汹涌歌唱 浪花飞溅像道道屏障\n看最后一只海鸥起飞 听一阵阵海风吹\n心碎声骤然响起 洒满地 杯中盛满泪水')
+('9100fe6c27', '2021-06-26 20:46:48', '一盏孤灯独坐在门口 独乘马车向古道尽头\n望向窗外那一弯明月 心中不禁刮起了风雪\n前世的记忆萦绕穿越 今生的缘分早已残缺\n九月深秋悲风意难绝 孤坐亭台沏茶盼满月\n可惜苍天无眼虚判决 残留我一生晓风残月')
+('6134be7569', '2021-06-27 01:17:58', '落日的余晖 照在我的窗前\n归来的大雁唱起了悲伤的歌\n又想起初中日记本上黄淡的日志\n记起与你那场难忘的电影\n你抓紧我的手不肯放开\n光阴似箭日月如梭')
+('92a193d834', '2021-06-27 10:01:47', '“那什么是爱呢 我好想知道啊”\n爱是海水和礁石的相互碰撞\n是四月份的玫瑰迎着夏日盛放\n是一张床相叠着两个梦的重量\n是花谢叶落又翻过了新的篇章')
+('911b5a511d', '2021-06-27 21:47:23', '秋雨下 北风刮 树叶沙沙作响\n落叶飘 丛中倒 独听乐歌琳琅\n青苔盖满地 雪花落泪滴 为何不是你美丽\n檐下风铃 摇晃曾经 感慨不停\n凛冬来临 倒挂冰晶 针叶青青\n放下深情 才知梦醒 坠入陷阱')
+('18e40a68a4', '2021-06-27 22:10:39', '赠尔只铃铛 一步一响 一步一想\n想念越来越浓 你的面容 你的瞳孔\n一直烙印在我心中\n赠尔只铃铛 一步一响一步一殇\n留恋就像灯笼 映出霓虹 照在天空\n旨意我心中的彩虹')
+('df6d771ff7', '2021-06-28 10:30:51', '颜色是调配的黑白混合\n听妈妈说那个就是灰色\n可是比例总也把握不好\n像着爸爸妈妈的争吵\n我其实没有那么多的力气\n手里拿着的是毛笔')
+('991c8e82d8', '2021-06-29 11:14:24', '转身 把细碎的烦恼关掉\n把思念偷偷藏好 \n睡一个好觉\n老街小店\n清茶几杯\n再无故人归')
+('418aefae12', '2021-06-29 22:24:12', '打开尘封已久的相机 一切变得熟悉\n那片向日葵又在脑海记起 再次冲刷着记忆\n你我的开始就是在此相遇 那天飘着雨 \n是我把伞给了你 你也跟我说了几句话语\n也就是从那时起 我爱上了你的美丽\n往后每次见到你 我都会努力寻找话题')
+('b5cd7076c0', '2021-06-30 10:03:41', '当你熟睡  当你梦美  你可知道\n这个午夜有个虚伪的鬼和自私的贼\n他不偷你金钱也不你损你鳞片\n他就在你耳边而你却看不见\n它和你算新仇旧恨让你束手就困\n这个东西凹人设 我却也只能认了')
+现有精选微词 17首.
+> 超过 15 首精选微词, 将下架如下微词:
+('e70e6dbeaf', '2021-06-20 14:37:42', '你留着满身伤痕对着我 蔚蓝的天早已是阴暗 我扯着嘴角看着你远离的背影 枯死的花朵已失去了生机 抬起头 转过身 你已穿上婚纱 我已穿过人海 在明媚的阳光中微笑地看着你手捧鲜花走向早已等候的他 我愿 风里有我带给你的问候 雨里有我带给你的祝福')
+{"updatedAt":"2021-07-01 07:14:27"}
+('85338658cb', '2021-06-21 19:13:20', '这首写给你的歌\n往事匆匆全都记得\n多年以来 终于明白\n你从未离开')
+{"updatedAt":"2021-07-01 07:14:28"}
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
