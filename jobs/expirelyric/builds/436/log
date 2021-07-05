@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins8611105351309505522.sh
++ python3 jobs/expirelyric.py --count 15
+('fd1c0d2aaa', '2021-06-22 19:26:28', '落日余晖照耀在窗格\n归巢的大雁唱起悲歌\n又想起日记本上泛着的黄色\n回忆全都睡着了 糖果只剩下一颗\n我们的快乐 只有我记得 生活没了颜色')
+('38412811d8', '2021-06-23 23:41:47', '窗外的雨天 笼罩这天空\n你是否会想起 曾经的爱人\n看着床边的枕头 凌乱的房子 但她早已离去\n多想在你面前再次拥抱你 可惜你早已远去\n看着你的背影 我还留在原地 早已忘记样子\n在街角的那一边 我苦苦追寻着你')
+('9daef98620', '2021-06-25 09:47:44', '无声的离别是伤心的\n我在原地 你在远方是痛苦的\n我只愿你平安喜乐')
+('acb5275856', '2021-06-25 21:01:45', '站在礁石上 眺望远方 望向海洋 惊涛骇浪 \n 凝视着天空 映出彩虹 在我眼中 一切皆空\n海浪冲上岸汹涌歌唱 浪花飞溅像道道屏障\n看最后一只海鸥起飞 听一阵阵海风吹\n心碎声骤然响起 洒满地 杯中盛满泪水')
+('9100fe6c27', '2021-06-26 20:46:48', '一盏孤灯独坐在门口 独乘马车向古道尽头\n望向窗外那一弯明月 心中不禁刮起了风雪\n前世的记忆萦绕穿越 今生的缘分早已残缺\n九月深秋悲风意难绝 孤坐亭台沏茶盼满月\n可惜苍天无眼虚判决 残留我一生晓风残月')
+('6134be7569', '2021-06-27 01:17:58', '落日的余晖 照在我的窗前\n归来的大雁唱起了悲伤的歌\n又想起初中日记本上黄淡的日志\n记起与你那场难忘的电影\n你抓紧我的手不肯放开\n光阴似箭日月如梭')
+('92a193d834', '2021-06-27 10:01:47', '“那什么是爱呢 我好想知道啊”\n爱是海水和礁石的相互碰撞\n是四月份的玫瑰迎着夏日盛放\n是一张床相叠着两个梦的重量\n是花谢叶落又翻过了新的篇章')
+('911b5a511d', '2021-06-27 21:47:23', '秋雨下 北风刮 树叶沙沙作响\n落叶飘 丛中倒 独听乐歌琳琅\n青苔盖满地 雪花落泪滴 为何不是你美丽\n檐下风铃 摇晃曾经 感慨不停\n凛冬来临 倒挂冰晶 针叶青青\n放下深情 才知梦醒 坠入陷阱')
+('18e40a68a4', '2021-06-27 22:10:39', '赠尔只铃铛 一步一响 一步一想\n想念越来越浓 你的面容 你的瞳孔\n一直烙印在我心中\n赠尔只铃铛 一步一响一步一殇\n留恋就像灯笼 映出霓虹 照在天空\n旨意我心中的彩虹')
+('df6d771ff7', '2021-06-28 10:30:51', '颜色是调配的黑白混合\n听妈妈说那个就是灰色\n可是比例总也把握不好\n像着爸爸妈妈的争吵\n我其实没有那么多的力气\n手里拿着的是毛笔')
+('991c8e82d8', '2021-06-29 11:14:24', '转身 把细碎的烦恼关掉\n把思念偷偷藏好 \n睡一个好觉\n老街小店\n清茶几杯\n再无故人归')
+('418aefae12', '2021-06-29 22:24:12', '打开尘封已久的相机 一切变得熟悉\n那片向日葵又在脑海记起 再次冲刷着记忆\n你我的开始就是在此相遇 那天飘着雨 \n是我把伞给了你 你也跟我说了几句话语\n也就是从那时起 我爱上了你的美丽\n往后每次见到你 我都会努力寻找话题')
+('b5cd7076c0', '2021-06-30 10:03:41', '当你熟睡  当你梦美  你可知道\n这个午夜有个虚伪的鬼和自私的贼\n他不偷你金钱也不你损你鳞片\n他就在你耳边而你却看不见\n它和你算新仇旧恨让你束手就困\n这个东西凹人设 我却也只能认了')
+('3d57497546', '2021-07-02 22:39:54', '永远等待的明天\n那一天 每一天 等明天\n日复日 夜复夜 年复年\n没空闲 没心情 没时间 再见一面～\n听不见 看不见 说再见 \n我们终究说了再见～')
+('09b80e363c', '2021-07-03 23:58:17', '我也曾有心事\n藏在微风里\n是对你的欢喜\n我也曾有故事\n藏在微醺的世界里\n是酒醒时下的一场雨')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
