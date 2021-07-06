@@ -1,0 +1,53 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/rhymer_recommender_inference
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/kirinBrain.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/kirinBrain.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/kirinBrain.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 4ac358aa57453b7bf3982305a0cb1b857cb70273 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4ac358aa57453b7bf3982305a0cb1b857cb70273 # timeout=10
+Commit message: "Merge pull request #13 from yuhongliang324/feature/two-tower-prototype"
+ > git rev-list --no-walk 4ac358aa57453b7bf3982305a0cb1b857cb70273 # timeout=10
+[rhymer_recommender_inference] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins2583930244182390708.sh
++ set -x
++ source /Users/hongliang/envs/pytorch/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/Users/hongliang/envs/pytorch
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/usr/bin:/bin:/usr/sbin:/sbin
+++ PATH=/Users/hongliang/envs/pytorch/bin:/usr/bin:/bin:/usr/sbin:/sbin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ '[' 'x(pytorch) ' '!=' x ']'
+++ PS1='(pytorch) '
+++ export PS1
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
++ cd word_recommender
++ export PYTHONPATH=:../kirin:..
++ PYTHONPATH=:../kirin:..
++ word_models_dir=/Users/hongliang/media/storage/production_data/word_models/20210523
++ output_dir=/Users/hongliang/media/storage/production_data/word_models/20210523/20210705-jenkins-test
++ mkdir -pv /Users/hongliang/media/storage/production_data/word_models/20210523/20210705-jenkins-test
++ CMD='python run_inference.py --word-models-dir /Users/hongliang/media/storage/production_data/word_models/20210523 --output-dir /Users/hongliang/media/storage/production_data/word_models/20210523/20210705-jenkins-test --model-path /Users/hongliang/media/storage/production_data/word_models/20210704-test/mlp_10.pt'
++ python run_inference.py --word-models-dir /Users/hongliang/media/storage/production_data/word_models/20210523 --output-dir /Users/hongliang/media/storage/production_data/word_models/20210523/20210705-jenkins-test --model-path /Users/hongliang/media/storage/production_data/word_models/20210704-test/mlp_10.pt
+Build was aborted
+Aborted by [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Finished: ABORTED
