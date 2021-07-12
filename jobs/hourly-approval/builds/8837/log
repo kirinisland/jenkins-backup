@@ -1,0 +1,90 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins971912449758027144.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 11首.
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+也曾爱沿途风景留恋不绝
+也曾追逐美梦纵声歌与乐
+也曾放任自由洒脱无牵挂
+也曾石榴摇摆青春枝头花
+怎么转身过后再就告别芳华
+怎就守得一方再就无我无他
+
+敏感词如下:
+也曾爱沿途风景留恋不绝
+也曾追逐美梦纵声歌与乐
+也曾放任自由洒脱无牵*
+也曾石榴摇摆青春枝头花
+怎么转身过后再就告别芳华
+怎就守得一方再就无我无他
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+为无可救药的时刻高歌
+为年少轻狂的日子庆贺
+
+敏感词如下:
+为无可救药的时刻高歌
+为年少轻狂的*子庆贺
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+在父亲的眼前寻找
+带着母亲爱的唠叨
+在人潮拥挤中
+做你的珍宝 
+奔赴你的怀抱
+
+敏感词如下:
+在*的眼前寻找
+带着*爱的唠叨
+在人潮拥挤中
+做你的珍宝 
+奔赴你的怀抱
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+天上还下着雨 带走我所有的思绪
+抬头望向天空 雨过之后出现彩虹
+故事不再延续 终于等到最后结局
+挂在墙上的钟 继续向顺时针转动
+太阳不再被乌云覆盖 阳光从空中奔来
+照耀我心中的尘埃 被埋没在茫茫人海
+
+敏感词如下:
+天上还下着雨 带走我所有的思绪
+抬头望向天空 雨过之后出现彩虹
+故事不再延续 终于等到最后结局
+*在墙上的钟 继续向顺时针转动
+太阳不再被乌云覆盖 阳光从空中奔来
+照耀我心中的尘埃 被埋没在茫茫人海
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+Finished: SUCCESS
