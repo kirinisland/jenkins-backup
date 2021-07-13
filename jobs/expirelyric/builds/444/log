@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3711881673060471184.sh
++ python3 jobs/expirelyric.py --count 15
+('fa264702c3', '2021-07-06 23:46:26', '路过唱片店的门口 再也听不到歌声\n走到街道的尽头 只剩一盏路灯\n风声依旧呼啸 雨打梧桐敲敲\n夜晚月光皎皎 眼中泪花漂漂\n失去你的微笑 我怎么找得到\n我只能向你的方向奔跑 来感受你的心跳')
+('1008c01183', '2021-07-07 10:03:35', '执笔写下关于你芳华满卷\n泼墨在纸写意一幅山水画\n砚台石磨碾不出你的容颜\n宣纸上纹理勾牵似我牵挂')
+('3c00b8e4e7', '2021-07-07 16:43:54', '越是美好越是伤人的毒药\n它告诉我现在难言的寂寥\n像一口烈酒在胸口灼烧\n回也回不去 逃也逃不掉\n怎么才能如何才能笑一笑')
+('61bba9b158', '2021-07-07 17:15:35', '这一生关于谁的风景都会有悲伤\n哭也哭过笑也笑过就算不原谅\n不如放过不如忘却不如不想\n就是要笑就是要好就是假装\n我有我需要的阳光向往的远方\n和没有谁能折断的翅膀')
+('88ef0aa083', '2021-07-08 01:57:04', '想陪你度过每个夜晚和清晨\n想带你去看每个夜晚的星辰\n蜻蜓和你都像是精灵\n都可以围绕在我身边净化我的心情\n每天都有好多悄悄话想对你说\n那就把它写成这首甜甜的情歌')
+('8245bd650f', '2021-07-08 22:14:50', '透过窗 看远方 眼神欲穿你门帘望见你模样\n烛光亮 思念想 风吹起纱帘看见你侧影梳妆\n笔墨纸砚 咽不下对你的思念\n文房四宝 保不住对你的眷恋\n宣纸拂案 墨色浓淡 握笔悬腕 磨穿枯砚\n月光入城 一盏烛灯 只盼今生 不求永恒')
+('7b2463d413', '2021-07-08 22:28:16', '为你行书我写下诗词百篇\n墨迹未干却被雨花轻轻打\n细雨绵绵仿佛丝绸落人间\n蓦首回庐心中思绪如烟花')
+('9b99af4c48', '2021-07-08 23:18:25', '人海茫茫中相遇\n你说对不起\n我说没关系\n从此再无交集\n记忆深处隔绝了往昔\n是隔空排演的一场戏')
+('bcd2a42aa4', '2021-07-08 23:35:14', '         一步一回头   一悔初日选\n         二步一回头   二悔今不再\n         三步一回头   三悔恨终身')
+('7685dc001d', '2021-07-09 01:52:20', '清风拂过柳垂帘  疏影横斜\n春江潋滟   小舟花渡水清浅\n琴音牵起点点   思绪不绝\n明月照花间   对酒当歌故影难眠\n耳边响起绝弦  渐行渐远   ')
+('61a62a80b2', '2021-07-09 05:42:50', '承诺不是依靠支撑放任的 信念才是\n未来不是言语粉饰勾画的 行动才是\n关系不是纸上捆绑束缚的 感情才是\n结束不是黑暗不可预知的 开始才是')
+('10e47a7cf4', '2021-07-09 11:55:18', '未了未了\n轻狂的年少\n我也留恋\n我也想回到\n未了未了\n那年的美好')
+('38aeea6f3e', '2021-07-09 18:39:36', '措手不及的那一刹那却一见钟情\n如今一见钟情只不过是见色起意的委婉\n花开两朵绝不会让你我都各散东西\n原本以为水火不容，让你我都有所不同\n初见即是爱意汹涌，地狱使者也为此顺从')
+('198240c176', '2021-07-10 10:27:05', '庸人向着白天望  看着星星念想\n祈祷世界能给一个小小收场\n谢幕舞台灯光昏暗卸完妆扮\n一辈子财米油盐过日子账上\n还有下一代在未来的路上')
+('c1480fc70f', '2021-07-10 17:51:44', '趁风还在就尽情吹吧\n趁天还好就肆意玩吧\n趁路还长就大胆走吧\n要想长大就不要害怕\n经过的风景舍得放下\n逝去的种种让它随它')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
