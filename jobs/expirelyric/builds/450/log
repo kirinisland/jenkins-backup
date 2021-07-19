@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1051055642386486478.sh
++ python3 jobs/expirelyric.py --count 15
+('9b99af4c48', '2021-07-08 23:18:25', '人海茫茫中相遇\n你说对不起\n我说没关系\n从此再无交集\n记忆深处隔绝了往昔\n是隔空排演的一场戏')
+('bcd2a42aa4', '2021-07-08 23:35:14', '         一步一回头   一悔初日选\n         二步一回头   二悔今不再\n         三步一回头   三悔恨终身')
+('7685dc001d', '2021-07-09 01:52:20', '清风拂过柳垂帘  疏影横斜\n春江潋滟   小舟花渡水清浅\n琴音牵起点点   思绪不绝\n明月照花间   对酒当歌故影难眠\n耳边响起绝弦  渐行渐远   ')
+('61a62a80b2', '2021-07-09 05:42:50', '承诺不是依靠支撑放任的 信念才是\n未来不是言语粉饰勾画的 行动才是\n关系不是纸上捆绑束缚的 感情才是\n结束不是黑暗不可预知的 开始才是')
+('10e47a7cf4', '2021-07-09 11:55:18', '未了未了\n轻狂的年少\n我也留恋\n我也想回到\n未了未了\n那年的美好')
+('c1480fc70f', '2021-07-10 17:51:44', '趁风还在就尽情吹吧\n趁天还好就肆意玩吧\n趁路还长就大胆走吧\n要想长大就不要害怕\n经过的风景舍得放下\n逝去的种种让它随它')
+('036f6151da', '2021-07-11 02:57:08', '我知道的你全都知道\n我想要的你都会寻找\n在这大雪纷飞的夜空里你想起谁了  如此难忘\n在这仲夏的夜空里你又想去谁了  如此美妙')
+('3c97a7a6c6', '2021-07-12 11:54:42', '回到家里 发现一片狼藉\n急促呼吸\n可是什么也想不起\n你在哪里\n我好害怕\n不要把我孤立')
+('f59cd77567', '2021-07-13 14:06:36', '对你的思念就一发不可收拾\n想在上下课都陪着你\n摘下满天星 我都赠给你\n记得我跟你说得每天都要努力\n这首歌就是我要唱给你听')
+('3bbfa750c2', '2021-07-13 17:22:40', '似是而非不自知以为早已拥有\n只不过游戏一场说走就走\n所有的幸福如是假象\n未曾拥有从何失去\n只需斩断不需回头')
+('da09dfe6a9', '2021-07-13 22:46:48', '去和从前做个告别\n驶向未知的世界\n去和自己做个和解\n向遭遇说声感谢\n波澜不惊\n享受即兴')
+('4671dae295', '2021-07-14 15:08:52', '无知少年总是为懵懂撩动\n却又不知这是否为情所动\n无时无刻都对着手机傻笑\n某刻收不到你的信息烦躁\n不知为你我付出多少通宵\n幸亏我没有躺在那个年代')
+('9915f087c7', '2021-07-15 06:59:08', '茫茫人海之中让我遇见你\n调动了我的心弦\n以为不能遇见满眼都是你\n坚持多年的心声\n其实感情的世界多么奇妙\n终于感应到了你')
+('670002a280', '2021-07-17 00:21:46', '有你的世界很精彩 但梦终究会醒来\n电影中的男孩女孩 总是会受到伤害\n你我相遇本是意外 却总想改变舞台\n恋爱 在脑海 徘徊  只求你别受伤害')
+('0757f58efb', '2021-07-17 15:20:27', '时间真能抚平一切吗\n为何忧伤还是那么多大\n记忆真能逐渐模糊吗\n为何梦里全是过去繁华\n向前真能遇见彩虹吗\n为何停步而路就在脚下')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
