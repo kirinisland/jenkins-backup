@@ -1,0 +1,33 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hot_user
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+[hot_user] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins7427143948681228631.sh
++ python3 jobs/hot_user.py --count 25
+Hot users after date: 2021-07-16 00:00:00
+点赞最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-07-16 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-likeCount
+[('6db7ce0b74', 2, 2, 0, 0), ('65c27d1603', 3, 2, 0, 1), ('d5071c5734', 2, 2, 0, 0), ('d5071c5734', 2, 2, 0, 0), ('87cb8c091f', 3, 2, 0, 1), ('b0cc568e5a', 2, 1, 0, 1), ('843def4c4f', 1, 1, 0, 0), ('b0cc568e5a', 2, 1, 0, 1), ('b0cc568e5a', 2, 1, 0, 1), ('b0cc568e5a', 2, 1, 0, 1), ('95743b803b', 1, 1, 0, 0), ('b0cc568e5a', 2, 1, 0, 1), ('540c5c20b0', 1, 1, 0, 0), ('6db7ce0b74', 1, 1, 0, 0), ('f08c7d309c', 1, 1, 0, 0), ('eba70b00dc', -1, -1, 0, 0), ('6db7ce0b74', 0, 0, 0, 0), ('6b5f9aaa26', 1, 0, 0, 1), ('973e43e99a', 0, 0, 0, 0), ('6db7ce0b74', 0, 0, 0, 0), ('6db7ce0b74', 0, 0, 0, 0), ('65c27d1603', 0, 0, 0, 0), ('6db7ce0b74', 0, 0, 0, 0), ('f00b3739cf', 1, 0, 0, 1), ('540c5c20b0', 0, 0, 0, 0)]
+
+评论最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-07-16 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-commentCount
+[('b0cc568e5a', 2, 1, 0, 1), ('b0cc568e5a', 2, 1, 0, 1), ('b0cc568e5a', 2, 1, 0, 1), ('b0cc568e5a', 2, 1, 0, 1), ('973e43e99a', 0, 0, 0, 0), ('b0cc568e5a', 2, 1, 0, 1), ('6db7ce0b74', 0, 0, 0, 0), ('65c27d1603', 3, 2, 0, 1), ('6db7ce0b74', 0, 0, 0, 0), ('540c5c20b0', 0, 0, 0, 0), ('540c5c20b0', 0, 0, 0, 0), ('540c5c20b0', 0, 0, 0, 0), ('d5071c5734', 2, 2, 0, 0), ('87cb8c091f', 3, 2, 0, 1), ('6db7ce0b74', 1, 1, 0, 0), ('6db7ce0b74', 0, 0, 0, 0), ('6b5f9aaa26', 1, 0, 0, 1), ('843def4c4f', 1, 1, 0, 0), ('6db7ce0b74', 2, 2, 0, 0), ('95743b803b', 1, 1, 0, 0), ('6db7ce0b74', 0, 0, 0, 0), ('65c27d1603', 0, 0, 0, 0), ('eba70b00dc', -1, -1, 0, 0), ('d5071c5734', 2, 2, 0, 0), ('f00b3739cf', 1, 0, 0, 1)]
+
+收藏最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-07-16 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-bookmarkCount
+[('b0cc568e5a', 2, 1, 0, 1), ('6b5f9aaa26', 1, 0, 0, 1), ('b0cc568e5a', 2, 1, 0, 1), ('b0cc568e5a', 2, 1, 0, 1), ('b0cc568e5a', 2, 1, 0, 1), ('b0cc568e5a', 2, 1, 0, 1), ('65c27d1603', 3, 2, 0, 1), ('f00b3739cf', 1, 0, 0, 1), ('6db7ce0b74', 1, 0, 0, 1), ('87cb8c091f', 3, 2, 0, 1), ('6db7ce0b74', 0, 0, 0, 0), ('843def4c4f', 1, 1, 0, 0), ('6db7ce0b74', 2, 2, 0, 0), ('973e43e99a', 0, 0, 0, 0), ('95743b803b', 1, 1, 0, 0), ('6db7ce0b74', 0, 0, 0, 0), ('6db7ce0b74', 0, 0, 0, 0), ('65c27d1603', 0, 0, 0, 0), ('eba70b00dc', -1, -1, 0, 0), ('d5071c5734', 2, 2, 0, 0), ('6db7ce0b74', 0, 0, 0, 0), ('540c5c20b0', 1, 1, 0, 0), ('540c5c20b0', 0, 0, 0, 0), ('540c5c20b0', 0, 0, 0, 0), ('540c5c20b0', 0, 0, 0, 0)]
+{'6db7ce0b74': (9, 8, 0, 1, {'commentCount', 'bookmarkCount', 'likeCount'}), '65c27d1603': (9, 6, 0, 3, {'commentCount', 'bookmarkCount', 'likeCount'}), 'd5071c5734': (10, 10, 0, 0, {'commentCount', 'bookmarkCount', 'likeCount'}), '87cb8c091f': (9, 6, 0, 3, {'commentCount', 'bookmarkCount', 'likeCount'}), 'b0cc568e5a': (30, 15, 0, 15, {'commentCount', 'bookmarkCount', 'likeCount'}), '843def4c4f': (3, 3, 0, 0, {'commentCount', 'bookmarkCount', 'likeCount'}), '95743b803b': (3, 3, 0, 0, {'commentCount', 'bookmarkCount', 'likeCount'}), '540c5c20b0': (2, 2, 0, 0, {'commentCount', 'bookmarkCount', 'likeCount'}), 'f08c7d309c': (1, 1, 0, 0, {'likeCount'}), 'eba70b00dc': (-3, -3, 0, 0, {'commentCount', 'bookmarkCount', 'likeCount'}), '6b5f9aaa26': (3, 0, 0, 3, {'commentCount', 'bookmarkCount', 'likeCount'}), '973e43e99a': (0, 0, 0, 0, {'commentCount', 'bookmarkCount', 'likeCount'}), 'f00b3739cf': (3, 0, 0, 3, {'commentCount', 'bookmarkCount', 'likeCount'})}
+Total hot users count after date: 2021-07-16 00:00:00: 13
+[{'success': {'createdAt': '2021-07-23 20:19:22', 'objectId': '6263d18e72'}}, {'success': {'createdAt': '2021-07-23 20:19:22', 'objectId': '0c2dd750be'}}, {'success': {'createdAt': '2021-07-23 20:19:22', 'objectId': '8b587e7098'}}, {'success': {'createdAt': '2021-07-23 20:19:22', 'objectId': 'ba033968e8'}}, {'success': {'createdAt': '2021-07-23 20:19:22', 'objectId': '79fedeb393'}}, {'success': {'createdAt': '2021-07-23 20:19:22', 'objectId': '2e90e99bd6'}}, {'success': {'createdAt': '2021-07-23 20:19:22', 'objectId': 'b0621fa349'}}, {'success': {'createdAt': '2021-07-23 20:19:22', 'objectId': 'ceab46abce'}}, {'success': {'createdAt': '2021-07-23 20:19:22', 'objectId': '51e895d958'}}, {'success': {'createdAt': '2021-07-23 20:19:22', 'objectId': 'b80c664b9a'}}, {'success': {'createdAt': '2021-07-23 20:19:22', 'objectId': '7380bf10ae'}}, {'success': {'createdAt': '2021-07-23 20:19:22', 'objectId': '70da6f2823'}}, {'success': {'createdAt': '2021-07-23 20:19:22', 'objectId': 'a37168641f'}}]
+Finished: SUCCESS
