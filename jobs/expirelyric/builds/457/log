@@ -1,0 +1,57 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1813183582010154263.sh
++ python3 jobs/expirelyric.py --count 15
+('7685dc001d', '2021-07-09 01:52:20', '清风拂过柳垂帘  疏影横斜\n春江潋滟   小舟花渡水清浅\n琴音牵起点点   思绪不绝\n明月照花间   对酒当歌故影难眠\n耳边响起绝弦  渐行渐远   ')
+('61a62a80b2', '2021-07-09 05:42:50', '承诺不是依靠支撑放任的 信念才是\n未来不是言语粉饰勾画的 行动才是\n关系不是纸上捆绑束缚的 感情才是\n结束不是黑暗不可预知的 开始才是')
+('10e47a7cf4', '2021-07-09 11:55:18', '未了未了\n轻狂的年少\n我也留恋\n我也想回到\n未了未了\n那年的美好')
+('c1480fc70f', '2021-07-10 17:51:44', '趁风还在就尽情吹吧\n趁天还好就肆意玩吧\n趁路还长就大胆走吧\n要想长大就不要害怕\n经过的风景舍得放下\n逝去的种种让它随它')
+('036f6151da', '2021-07-11 02:57:08', '我知道的你全都知道\n我想要的你都会寻找\n在这大雪纷飞的夜空里你想起谁了  如此难忘\n在这仲夏的夜空里你又想去谁了  如此美妙')
+('3c97a7a6c6', '2021-07-12 11:54:42', '回到家里 发现一片狼藉\n急促呼吸\n可是什么也想不起\n你在哪里\n我好害怕\n不要把我孤立')
+('3bbfa750c2', '2021-07-13 17:22:40', '似是而非不自知以为早已拥有\n只不过游戏一场说走就走\n所有的幸福如是假象\n未曾拥有从何失去\n只需斩断不需回头')
+('da09dfe6a9', '2021-07-13 22:46:48', '去和从前做个告别\n驶向未知的世界\n去和自己做个和解\n向遭遇说声感谢\n波澜不惊\n享受即兴')
+('9915f087c7', '2021-07-15 06:59:08', '茫茫人海之中让我遇见你\n调动了我的心弦\n以为不能遇见满眼都是你\n坚持多年的心声\n其实感情的世界多么奇妙\n终于感应到了你')
+('670002a280', '2021-07-17 00:21:46', '有你的世界很精彩 但梦终究会醒来\n电影中的男孩女孩 总是会受到伤害\n你我相遇本是意外 却总想改变舞台\n恋爱 在脑海 徘徊  只求你别受伤害')
+('0757f58efb', '2021-07-17 15:20:27', '时间真能抚平一切吗\n为何忧伤还是那么多大\n记忆真能逐渐模糊吗\n为何梦里全是过去繁华\n向前真能遇见彩虹吗\n为何停步而路就在脚下')
+('4f5743b4fa', '2021-07-20 17:11:14', '飘在茫茫大海上 奔向清晨的朝阳\n感受第一缕阳光 忘却一切的悲伤\n乘着纸船驶向那远方 伴随你我进入到梦乡\n月光不能冻结了梦想 思念在灯影中碰撞\n乘着纸船驶向那远方 看你眼睛带着那曙光\n翱翔在苏必利尔湖旁 愿世界永远光芒万丈')
+('24061c0025', '2021-07-20 19:24:11', '乌云一时遮住的星光\n终会在夜空闪亮\n不要惧怕不要彷徨\n相信相信的力量\n驱散黑暗的阳光\n必将成为可依靠的臂膀')
+('17226936a8', '2021-07-21 14:07:39', '艰难困阻让你我守望始终\n拉紧彼此换我们变身英雄\n生命至上没有谁和谁不同\n咬紧牙关风雨后终见彩虹')
+('5f3c55d2b7', '2021-07-22 14:34:47', '风景再美都不及有你相随\n阳光再好都不如你眉眼笑\n不畏惧风雨看到生命美好\n黎明之后我们一起来创造\n感谢伸出的每一只手\n拉起希望共筑顽强')
+('0bf4d86f2c', '2021-07-23 17:57:34', '风吹柳叶摇 抚面好娇俏\n夏日情似火 阵阵心灼热\n风雨已过 阴霾已破\n中原儿女 无所畏惧\n你我还在乡土还在\n携手共进为了明天')
+('2e4d37c6fc', '2021-07-24 23:17:59', '已过了心跳的年纪\n忘记了快乐的感觉\n直到遇见你的笑容\n夏天来了把你带到我的身边\n静静地微风吹过我们的脸庞\n陪着你走过春夏秋冬')
+('8927b8aeed', '2021-07-25 18:18:08', '如果不用分享喜悦是幸福的\n如果不用诉说心情会平静的\n如果不用哭泣悲伤会消失的\n如果不用分离相守是永恒的\n只是没有如果\n只是不想寂寞')
+('0ca539ce02', '2021-07-26 00:27:38', '又遇见了谁 谁又为谁心碎\n难道只有留下了泪水才会觉得珍贵\n人生没有后悔 你要学会面对\n喝下最后一杯 命运总会给你机会')
+现有精选微词 19首.
+> 超过 15 首精选微词, 将下架如下微词:
+('7685dc001d', '2021-07-09 01:52:20', '清风拂过柳垂帘  疏影横斜\n春江潋滟   小舟花渡水清浅\n琴音牵起点点   思绪不绝\n明月照花间   对酒当歌故影难眠\n耳边响起绝弦  渐行渐远   ')
+{"updatedAt":"2021-07-26 07:14:25"}
+('61a62a80b2', '2021-07-09 05:42:50', '承诺不是依靠支撑放任的 信念才是\n未来不是言语粉饰勾画的 行动才是\n关系不是纸上捆绑束缚的 感情才是\n结束不是黑暗不可预知的 开始才是')
+{"updatedAt":"2021-07-26 07:14:26"}
+('10e47a7cf4', '2021-07-09 11:55:18', '未了未了\n轻狂的年少\n我也留恋\n我也想回到\n未了未了\n那年的美好')
+{"updatedAt":"2021-07-26 07:14:27"}
+('c1480fc70f', '2021-07-10 17:51:44', '趁风还在就尽情吹吧\n趁天还好就肆意玩吧\n趁路还长就大胆走吧\n要想长大就不要害怕\n经过的风景舍得放下\n逝去的种种让它随它')
+{"updatedAt":"2021-07-26 07:14:28"}
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
