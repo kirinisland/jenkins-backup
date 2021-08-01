@@ -1,0 +1,66 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins7027155743665772787.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 8首.
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+湖中枯树 无人哭诉
+失去温度 逐渐模糊
+橡树等春暖再次开花
+我等你归来放下牵挂
+想把冰冻的爱情融化
+想回到那个仲夏
+为你戴上那朵花
+返回爱情的出发
+
+敏感词如下:
+湖中枯树 无人哭诉
+失去温度 逐渐模糊
+橡树等春暖再次开花
+我等你归来放下牵*
+想把冰冻的爱情融化
+想回到那个仲夏
+为你戴上那朵花
+返回爱情的出发
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+雨后，推开窗，望月光。散不尽心中的忧伤。追逐时光。今夜无处再会被照亮。天生，是噩梦，是不详。明明谣言如此疯狂。故作坚强，实则在寻找梦的方向
+雨后桃花和樱花啊，为什么还没有我想要的变化？我心中有多么害怕，但你却从未对我说过一句话。早知如此何必当初，不存活于世间就不会有痛苦就不会有孤独了吗？
+时间，已停止，望来世。希望我不会有名字。算是初次，写下充满讥讽的歌词。无论，说再多，仍固执。为何不能成为天使。踩脏屐齿，奔向充满陌生的城市。
+雨后桃花和樱花啊，不要让黑暗堵住我的嘴巴啊！陌生少男啊少女啊，不要想着让辛苦的记忆模糊！黑暗却温馨的祝福，也无法让我远离非人的痛苦，留下一串刺耳旋律。
+
+敏感词如下:
+雨后，推开窗，望月光。散不尽心中的忧伤。追逐时光。今夜无处再会被照亮。天生，是噩梦，是不详。明明谣言如此疯狂。故作坚强，实则在寻找梦的方向
+雨后桃花和樱花啊，为什么还没有我想要的变化？我心中有多么害怕，但你却从未对我说过一句话。早知如此何必当初，不存活于世间就不会有痛苦就不会有孤独了*？
+时间，已停止，望来世。希望我不会有名字。算是初次，写下充满讥讽的歌词。无论，说再多，仍固执。为何不能成为天使。踩脏屐齿，奔向充满陌生的城市。
+雨后桃花和樱花啊，不要让黑暗堵住我的嘴巴啊！陌生少男啊少女啊，不要想着让辛苦的记忆模糊！黑暗却*的祝福，也无法让我远离非人的痛苦，留下一串刺耳旋律。
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+Finished: SUCCESS

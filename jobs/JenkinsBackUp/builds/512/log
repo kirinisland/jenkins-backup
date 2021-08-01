@@ -178,3 +178,146 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 + git add jobs
++ git add workspace
+++ date
++ git commit -m 'Jenkins backup at Sat Jul 31 14:17:36 EDT 2021'
+[master 3dc9b32a] Jenkins backup at Sat Jul 31 14:17:36 EDT 2021
+ Committer: System Administrator <root@VincentdeMac-mini.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 132 files changed, 27191 insertions(+), 6093 deletions(-)
+ create mode 100644 jobs/JenkinsBackUp/builds/511/build.xml
+ create mode 100644 jobs/JenkinsBackUp/builds/512/changelog.xml
+ create mode 100644 jobs/JenkinsBackUp/builds/512/log
+ create mode 100644 jobs/cf_lyric_recommend_pipline/builds/22/build.xml
+ rename jobs/{hot_user/builds/479 => cf_lyric_recommend_pipline/builds/22}/changelog.xml (100%)
+ create mode 100644 jobs/cf_lyric_recommend_pipline/builds/22/log
+ create mode 100644 jobs/expirelyric/builds/462/build.xml
+ rename jobs/{hourly-approval/builds/9244 => expirelyric/builds/462}/changelog.xml (100%)
+ create mode 100644 jobs/expirelyric/builds/462/log
+ delete mode 100644 jobs/hot_user/builds/479/log
+ rename jobs/hot_user/builds/{479 => 482}/build.xml (92%)
+ rename jobs/{hourly-approval/builds/9245 => hot_user/builds/482}/changelog.xml (100%)
+ create mode 100644 jobs/hot_user/builds/482/log
+ delete mode 100644 jobs/hourly-approval/builds/9244/log
+ delete mode 100644 jobs/hourly-approval/builds/9245/log
+ delete mode 100644 jobs/hourly-approval/builds/9246/log
+ delete mode 100644 jobs/hourly-approval/builds/9247/log
+ delete mode 100644 jobs/hourly-approval/builds/9248/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9249/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9250/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9251/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9252/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9252/log
+ delete mode 100644 jobs/hourly-approval/builds/9253/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9253/log
+ delete mode 100644 jobs/hourly-approval/builds/9254/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9255/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9256/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9256/log
+ delete mode 100644 jobs/hourly-approval/builds/9257/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9258/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9259/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9259/log
+ delete mode 100644 jobs/hourly-approval/builds/9260/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9260/log
+ delete mode 100644 jobs/hourly-approval/builds/9261/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9261/log
+ delete mode 100644 jobs/hourly-approval/builds/9262/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9262/log
+ delete mode 100644 jobs/hourly-approval/builds/9263/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9263/log
+ delete mode 100644 jobs/hourly-approval/builds/9264/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9264/log
+ delete mode 100644 jobs/hourly-approval/builds/9265/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9265/log
+ delete mode 100644 jobs/hourly-approval/builds/9266/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9266/log
+ delete mode 100644 jobs/hourly-approval/builds/9267/build.xml
+ delete mode 100644 jobs/hourly-approval/builds/9267/log
+ rename jobs/hourly-approval/builds/{9244 => 9274}/build.xml (91%)
+ rename jobs/hourly-approval/builds/{9246 => 9274}/changelog.xml (100%)
+ rename jobs/hourly-approval/builds/{9251 => 9274}/log (71%)
+ rename jobs/hourly-approval/builds/{9247 => 9275}/build.xml (91%)
+ rename jobs/hourly-approval/builds/{9247 => 9275}/changelog.xml (100%)
+ rename jobs/hourly-approval/builds/{9250 => 9275}/log (68%)
+ rename jobs/hourly-approval/builds/{9245 => 9276}/build.xml (91%)
+ rename jobs/hourly-approval/builds/{9248 => 9276}/changelog.xml (100%)
+ rename jobs/hourly-approval/builds/{9248 => 9276}/log (68%)
+ rename jobs/hourly-approval/builds/{9246 => 9277}/build.xml (91%)
+ rename jobs/hourly-approval/builds/{9249 => 9277}/changelog.xml (100%)
+ rename jobs/hourly-approval/builds/{9249 => 9277}/log (68%)
+ create mode 100644 jobs/hourly-approval/builds/9278/build.xml
+ rename jobs/hourly-approval/builds/{9250 => 9278}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/9278/log
+ create mode 100644 jobs/hourly-approval/builds/9279/build.xml
+ rename jobs/hourly-approval/builds/{9251 => 9279}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/9279/log
+ create mode 100644 jobs/hourly-approval/builds/9280/build.xml
+ rename jobs/hourly-approval/builds/{9252 => 9280}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/9280/log
+ create mode 100644 jobs/hourly-approval/builds/9281/build.xml
+ rename jobs/hourly-approval/builds/{9253 => 9281}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/9281/log
+ create mode 100644 jobs/hourly-approval/builds/9282/build.xml
+ rename jobs/hourly-approval/builds/{9254 => 9282}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/9282/log
+ create mode 100644 jobs/hourly-approval/builds/9283/build.xml
+ rename jobs/hourly-approval/builds/{9255 => 9283}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/9283/log
+ create mode 100644 jobs/hourly-approval/builds/9284/build.xml
+ rename jobs/hourly-approval/builds/{9256 => 9284}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/9284/log
+ create mode 100644 jobs/hourly-approval/builds/9285/build.xml
+ rename jobs/hourly-approval/builds/{9257 => 9285}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/9285/log
+ create mode 100644 jobs/hourly-approval/builds/9286/build.xml
+ rename jobs/hourly-approval/builds/{9258 => 9286}/changelog.xml (100%)
+ rename jobs/hourly-approval/builds/{9257 => 9286}/log (76%)
+ create mode 100644 jobs/hourly-approval/builds/9287/build.xml
+ rename jobs/hourly-approval/builds/{9259 => 9287}/changelog.xml (100%)
+ rename jobs/hourly-approval/builds/{9258 => 9287}/log (76%)
+ create mode 100644 jobs/hourly-approval/builds/9288/build.xml
+ rename jobs/hourly-approval/builds/{9260 => 9288}/changelog.xml (100%)
+ rename jobs/hourly-approval/builds/{9254 => 9288}/log (70%)
+ create mode 100644 jobs/hourly-approval/builds/9289/build.xml
+ rename jobs/hourly-approval/builds/{9261 => 9289}/changelog.xml (100%)
+ rename jobs/hourly-approval/builds/{9255 => 9289}/log (70%)
+ create mode 100644 jobs/hourly-approval/builds/9290/build.xml
+ rename jobs/hourly-approval/builds/{9262 => 9290}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/9290/log
+ create mode 100644 jobs/hourly-approval/builds/9291/build.xml
+ rename jobs/hourly-approval/builds/{9263 => 9291}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/9291/log
+ create mode 100644 jobs/hourly-approval/builds/9292/build.xml
+ rename jobs/hourly-approval/builds/{9264 => 9292}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/9292/log
+ create mode 100644 jobs/hourly-approval/builds/9293/build.xml
+ rename jobs/hourly-approval/builds/{9265 => 9293}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/9293/log
+ create mode 100644 jobs/hourly-approval/builds/9294/build.xml
+ rename jobs/hourly-approval/builds/{9266 => 9294}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/9294/log
+ create mode 100644 jobs/hourly-approval/builds/9295/build.xml
+ rename jobs/hourly-approval/builds/{9267 => 9295}/changelog.xml (100%)
+ create mode 100644 jobs/hourly-approval/builds/9295/log
+ create mode 100644 jobs/hourly-approval/builds/9296/build.xml
+ create mode 100644 jobs/hourly-approval/builds/9296/changelog.xml
+ create mode 100644 jobs/hourly-approval/builds/9296/log
+ create mode 100644 jobs/hourly-approval/builds/9297/build.xml
+ create mode 100644 jobs/hourly-approval/builds/9297/changelog.xml
+ create mode 100644 jobs/hourly-approval/builds/9297/log
++ git push origin HEAD:master
+To github.com:kirinisland/jenkins-backup.git
+   f7511c47..3dc9b32a  HEAD -> master
+Finished: SUCCESS
