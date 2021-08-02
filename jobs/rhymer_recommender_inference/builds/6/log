@@ -1,0 +1,154 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/rhymer_recommender_inference
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/kirinBrain.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/kirinBrain.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/kirinBrain.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 10ae7a232472045502c02e453e93558cd75b36df (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 10ae7a232472045502c02e453e93558cd75b36df # timeout=10
+Commit message: "Merge pull request #14 from yuhongliang324/feature/knn-model"
+ > git rev-list --no-walk 4ac358aa57453b7bf3982305a0cb1b857cb70273 # timeout=10
+[rhymer_recommender_inference] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins7157191814875608488.sh
++ set -x
++ source /Users/hongliang/envs/pytorch/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/Users/hongliang/envs/pytorch
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/usr/bin:/bin:/usr/sbin:/sbin
+++ PATH=/Users/hongliang/envs/pytorch/bin:/usr/bin:/bin:/usr/sbin:/sbin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ '[' 'x(pytorch) ' '!=' x ']'
+++ PS1='(pytorch) '
+++ export PS1
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
++ cd word_recommender
++ export PYTHONPATH=:../kirin:..
++ PYTHONPATH=:../kirin:..
++ word_models_dir=/Users/hongliang/media/storage/production_data/word_models/20210523
++ output_dir=/Users/hongliang/media/storage/production_data/word_models/20210801
++ mkdir -pv /Users/hongliang/media/storage/production_data/word_models/20210801
++ CMD='python run_inference.py --word-models-dir /Users/hongliang/media/storage/production_data/word_models/20210523 --output-dir /Users/hongliang/media/storage/production_data/word_models/20210801 --model-path /Users/hongliang/media/storage/production_data/word_models/20210801-test/SharedMLP_10.pt'
++ '[' true == true ']'
++ CMD='python run_inference.py --word-models-dir /Users/hongliang/media/storage/production_data/word_models/20210523 --output-dir /Users/hongliang/media/storage/production_data/word_models/20210801 --model-path /Users/hongliang/media/storage/production_data/word_models/20210801-test/SharedMLP_10.pt --dump-embeddings'
++ python run_inference.py --word-models-dir /Users/hongliang/media/storage/production_data/word_models/20210523 --output-dir /Users/hongliang/media/storage/production_data/word_models/20210801 --model-path /Users/hongliang/media/storage/production_data/word_models/20210801-test/SharedMLP_10.pt --dump-embeddings
+Inference for shuochang
+1000 / 27485 have been processed
+2000 / 27485 have been processed
+3000 / 27485 have been processed
+4000 / 27485 have been processed
+5000 / 27485 have been processed
+6000 / 27485 have been processed
+7000 / 27485 have been processed
+8000 / 27485 have been processed
+9000 / 27485 have been processed
+10000 / 27485 have been processed
+11000 / 27485 have been processed
+12000 / 27485 have been processed
+13000 / 27485 have been processed
+14000 / 27485 have been processed
+15000 / 27485 have been processed
+16000 / 27485 have been processed
+17000 / 27485 have been processed
+18000 / 27485 have been processed
+19000 / 27485 have been processed
+20000 / 27485 have been processed
+21000 / 27485 have been processed
+22000 / 27485 have been processed
+23000 / 27485 have been processed
+24000 / 27485 have been processed
+25000 / 27485 have been processed
+26000 / 27485 have been processed
+27000 / 27485 have been processed
+Inference for zhongguofeng
+1000 / 31714 have been processed
+2000 / 31714 have been processed
+3000 / 31714 have been processed
+4000 / 31714 have been processed
+5000 / 31714 have been processed
+6000 / 31714 have been processed
+7000 / 31714 have been processed
+8000 / 31714 have been processed
+9000 / 31714 have been processed
+10000 / 31714 have been processed
+11000 / 31714 have been processed
+12000 / 31714 have been processed
+13000 / 31714 have been processed
+14000 / 31714 have been processed
+15000 / 31714 have been processed
+16000 / 31714 have been processed
+17000 / 31714 have been processed
+18000 / 31714 have been processed
+19000 / 31714 have been processed
+20000 / 31714 have been processed
+21000 / 31714 have been processed
+22000 / 31714 have been processed
+23000 / 31714 have been processed
+24000 / 31714 have been processed
+25000 / 31714 have been processed
+26000 / 31714 have been processed
+27000 / 31714 have been processed
+28000 / 31714 have been processed
+29000 / 31714 have been processed
+30000 / 31714 have been processed
+31000 / 31714 have been processed
+Inference for minyao
+1000 / 19541 have been processed
+2000 / 19541 have been processed
+3000 / 19541 have been processed
+4000 / 19541 have been processed
+5000 / 19541 have been processed
+6000 / 19541 have been processed
+7000 / 19541 have been processed
+8000 / 19541 have been processed
+9000 / 19541 have been processed
+10000 / 19541 have been processed
+11000 / 19541 have been processed
+12000 / 19541 have been processed
+13000 / 19541 have been processed
+14000 / 19541 have been processed
+15000 / 19541 have been processed
+16000 / 19541 have been processed
+17000 / 19541 have been processed
+18000 / 19541 have been processed
+19000 / 19541 have been processed
+Inference for liuxing
+1000 / 19960 have been processed
+2000 / 19960 have been processed
+3000 / 19960 have been processed
+4000 / 19960 have been processed
+5000 / 19960 have been processed
+6000 / 19960 have been processed
+7000 / 19960 have been processed
+8000 / 19960 have been processed
+9000 / 19960 have been processed
+10000 / 19960 have been processed
+11000 / 19960 have been processed
+12000 / 19960 have been processed
+13000 / 19960 have been processed
+14000 / 19960 have been processed
+15000 / 19960 have been processed
+16000 / 19960 have been processed
+17000 / 19960 have been processed
+18000 / 19960 have been processed
+19000 / 19960 have been processed
+The result is saved to /Users/hongliang/media/storage/production_data/word_models/20210801/rhymer_SharedMLP_10_embeddings.tsv
+Finished: SUCCESS

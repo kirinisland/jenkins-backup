@@ -30,6 +30,11 @@
           <defaultValue></defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>dump_embeddings</name>
+          <description>Dump embedding instead of running KNN.</description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
   </properties>
@@ -71,6 +76,11 @@ output_dir=&quot;${storage_dir}/production_data/word_models/${output_date}&quot;
 mkdir -pv ${output_dir}
 
 CMD=&quot;python run_inference.py --word-models-dir ${word_models_dir} --output-dir ${output_dir} --model-path ${model_path}&quot;
+
+if [ &quot;${dump_embeddings}&quot; == &quot;true&quot; ];
+then
+	CMD=&quot;$CMD --dump-embeddings&quot;
+fi
 
 ${CMD}</command>
     </hudson.tasks.Shell>
