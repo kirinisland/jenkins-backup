@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins497886593285355070.sh
++ python3 jobs/expirelyric.py --count 15
+('6fe82bb21e', '2021-07-29 15:00:16', '风雪卷长白千年\n眷一眼寒江雪\n酩酊寒雨无恙\n仍是回忆浅\n不扰花海俗尘\n如月眉眼渐霜染\n饮尽繁华别来无恙\n怎叹骇浪惊涛转瞬间\n竟被迷了眼\n留恋这人间')
+('61ed1b8d4d', '2021-07-30 00:25:04', '\n雨停了\n乌云它要回家了\n日落了\n星星它要出门了\n漫天的星空\n怎么没有你的身影呢\n抱歉\n我想你了\n看世界在眼前\n而你偏偏在回忆出现了\n该怎么面对呢\n谁能告诉我呢')
+('020dc18b2e', '2021-07-30 04:06:01', '后来的我们\n许久未见\n我们都像从前一样\n笑着拥抱\n感受着你的温度\n不怕风雨\n不惧风浪\n勇敢倔强\n交错着相拥\n交杂着相谈\n回忆从前的美好\n你我都像从前一样\n坚强踏浪\n乘风破浪')
+('7af4c7eeb2', '2021-07-30 04:30:24', '看着床对面的夜灯\n回想着我们的过程\n思念变成一阵晚风\n伴随我和你的歌声\n究竟怎样才算完整\n什么才叫永恒\n有多深\n\n看着黑夜中的星辰\n想起你说过的责任\n和你那坚定的眼神\n可是我却失了分寸\n弄得自己满是伤痕\n什么才叫残忍\n有多恨')
+('686b5c4c0f', '2021-07-30 09:25:59', '寥寥几句\n心跳的瞬间\n小心翼翼\n交谈和你\n让自己看起来合理\n若隐若现  揣摩暗思\n至少在此刻 所有的关于你\n温柔浪漫 平淡无语 \n寂静沉浸在梦境\n真正真实的真心 \n甜甜的 但不腻')
+('abc6bcd6a8', '2021-07-30 12:06:03', '悄无声息的风暴 灾难的征兆 \n毁了繁华的风貌 乌云在缠绕\n世界变得如此喧闹\n郑州突然降下的暴雨\n摧毁了多少家庭的欢颜笑语\n城市的风貌被盗取 全国各地被叫醒\n无数人们蜂拥而至 \n社会主义旗帜被举起\n看看这明亮的红星在暴雨的东方升起\n什么叫做中国？屹立的青松\n盘旋在东方的巨龙！')
+('ab45594eb6', '2021-07-30 14:09:29', '窗外夜色朦胧 路边野花残红\n凌晨阴雨蒙蒙 刮起阵阵冷风\n不知一切是谁操纵\n不明伊人何去何从\n只剩思念盘旋打转\n望向长安 灯火阑珊\n背向山川 前路漫漫')
+('90e14ca531', '2021-07-30 16:11:54', '和风细雨是你 惊涛骇浪是你\n星辰大海是你 凛冬寒风是你\n在你给的风景里笑\n在你给的四季里哭\n在有你的日子里彷徨\n在没你的日子里成长')
+('2d226b841b', '2021-07-30 21:07:34', '自然而然\n也许是另一种勇敢\n你曾追逐的一切\n现在是否还依然喜欢\n想让一切都变得更慢更慢\n可最后你收获最多的仍旧是孤单\n一壶烈酒\n一身孑然……\n\n')
+('621cb33fba', '2021-07-31 14:48:51', '湖中枯树 无人哭诉\n失去温度 逐渐模糊\n橡树等春暖再次开花\n我等你归来放下牵挂\n想把冰冻的爱情融化\n想回到那个仲夏\n为你戴上那朵花\n返回爱情的出发')
+('cd3d58be88', '2021-07-31 16:18:52', ' 早已过了心动 的年纪\n 总会想起青涩 的回忆\n 沉浸在过去的 世界里\n 塞满温暖动人 的往昔')
+('7f7a1ce771', '2021-08-02 16:56:19', '如水的夜  刚下过雨的天\n我载着你  穿过几条街\n像清风  在一晃之间  就穿过了时间\n你的指尖  抵着我的掌心\n闭着眼睛  写谁的姓名\n为什么  一遍遍地写  却不让我看见')
+('c0961fe5e3', '2021-08-04 09:59:37', '忘了吧 那些痛苦 可却逐渐清楚\n回头看 美好画面 别让遗憾铺满\n春夏秋冬 等不到下次季节转动\n爱情不会等待 别让遗憾满怀')
+('1dcf5e9b3b', '2021-08-04 19:37:23', '\n塞北烟笼大漠\n江南雨罩溪河\n这年月又有人忆起我\n故地梦如烟火\n来路情似山河\n这年月没有人记得我')
+('c4598662fd', '2021-08-04 22:16:11', 'ya ya我学会聆听月亮讲话\n习惯经过日夜颠倒长大\n星星作我夜晚的老师\n教会我冗杂情绪放下')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
