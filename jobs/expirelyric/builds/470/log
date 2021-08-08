@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins7866675906389425573.sh
++ python3 jobs/expirelyric.py --count 15
+('ab45594eb6', '2021-07-30 14:09:29', '窗外夜色朦胧 路边野花残红\n凌晨阴雨蒙蒙 刮起阵阵冷风\n不知一切是谁操纵\n不明伊人何去何从\n只剩思念盘旋打转\n望向长安 灯火阑珊\n背向山川 前路漫漫')
+('90e14ca531', '2021-07-30 16:11:54', '和风细雨是你 惊涛骇浪是你\n星辰大海是你 凛冬寒风是你\n在你给的风景里笑\n在你给的四季里哭\n在有你的日子里彷徨\n在没你的日子里成长')
+('2d226b841b', '2021-07-30 21:07:34', '自然而然\n也许是另一种勇敢\n你曾追逐的一切\n现在是否还依然喜欢\n想让一切都变得更慢更慢\n可最后你收获最多的仍旧是孤单\n一壶烈酒\n一身孑然……\n\n')
+('621cb33fba', '2021-07-31 14:48:51', '湖中枯树 无人哭诉\n失去温度 逐渐模糊\n橡树等春暖再次开花\n我等你归来放下牵挂\n想把冰冻的爱情融化\n想回到那个仲夏\n为你戴上那朵花\n返回爱情的出发')
+('cd3d58be88', '2021-07-31 16:18:52', ' 早已过了心动 的年纪\n 总会想起青涩 的回忆\n 沉浸在过去的 世界里\n 塞满温暖动人 的往昔')
+('7f7a1ce771', '2021-08-02 16:56:19', '如水的夜  刚下过雨的天\n我载着你  穿过几条街\n像清风  在一晃之间  就穿过了时间\n你的指尖  抵着我的掌心\n闭着眼睛  写谁的姓名\n为什么  一遍遍地写  却不让我看见')
+('c0961fe5e3', '2021-08-04 09:59:37', '忘了吧 那些痛苦 可却逐渐清楚\n回头看 美好画面 别让遗憾铺满\n春夏秋冬 等不到下次季节转动\n爱情不会等待 别让遗憾满怀')
+('1dcf5e9b3b', '2021-08-04 19:37:23', '\n塞北烟笼大漠\n江南雨罩溪河\n这年月又有人忆起我\n故地梦如烟火\n来路情似山河\n这年月没有人记得我')
+('c4598662fd', '2021-08-04 22:16:11', 'ya ya我学会聆听月亮讲话\n习惯经过日夜颠倒长大\n星星作我夜晚的老师\n教会我冗杂情绪放下')
+('2cd61d58ee', '2021-08-05 11:18:21', '掉落凡间的星辰\n映出星河里一丝微妙的光\n也有着强大力量\n我在等铁树开花\n等乌鸦说情话\n等太阳从东边落下 ')
+('8102ed628a', '2021-08-05 15:09:54', '初次遇见    还有余悸\n偶尔想起    你的身影\n我趴在玻璃等你离去\n告诉自己    别在想你\n叠纸花瓣    我的心意\n藏着纸糖    我的任性\n翻开相册    那是回忆\n我不在意    别再提起')
+('f80fe4e079', '2021-08-05 22:06:58', '挂在墙上的钟 一分一秒转动\n当时的我们都行色匆匆\n那时候的征程 化作鸟追着风\n当时的梦想已不再朦胧')
+('49c473c91c', '2021-08-05 22:28:39', '虽然过去了一年一秋\n但想起时还会泪流\n当时的那个女孩\n早已不是最初的模样\n所以就别再等待\n让时间慢慢淡忘过往')
+('689e12ab4b', '2021-08-05 22:42:36', '至少你我在人海里遇见\n至少我们在花季中相恋\n至少你我在浪漫下拥抱\n至少我牵过你的手奔跑\n至少我没有失去一切\n当时的我们也爱的热烈\n等到雨声铺满整夜\n才能见这最后一片落叶')
+('609d4cb491', '2021-08-06 13:42:25', '韶华白头 流年复去一秋至\n共谁缠绵 共谁别去无启示\n曾付托锦绣良缘 愿手执丝线 赠锦缎寄相思\n*来来回回 旧情复炽不经意\n浮浮沉沉 红尘宕跌世间事\n谁愿记三世诺言 纵他朝相见 恨相望却不识*')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
