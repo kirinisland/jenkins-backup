@@ -1,0 +1,86 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5835050552889831786.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 6首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+打倒你的从来不是拳头
+而是儿行千里的担忧
+让你难过的不是电视剧
+而是儿离时的愁思一缕
+
+敏感词如下:
+*你的从来不是拳头
+而是儿行千里的担忧
+让你难过的不是电视剧
+而是儿离时的愁思一缕
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+Fuck And Bitch
+你男友像崔胜贤
+For Money Cheers
+你努力去挣钱
+Not Only This
+他还是魏忠贤
+But Also Is
+感情也可以去充钱
+
+敏感词如下:
+* and *
+你男友像崔胜贤
+for money cheers
+你努力去挣钱
+not only this
+他还是魏忠贤
+but also is
+感情也可以去充钱
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+可星星至死不渝的选择追逐太阳
+可你的眼睛总是闪烁着光
+可现在你会不会想起那些过往
+可你的名字又是谁的期望
+
+敏感词如下:
+可星星至*不渝的选择追逐太阳
+可你的眼睛总是闪烁着光
+可现在你会不会想起那些过往
+可你的名字又是谁的期望
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+人生百态
+我已见怪、不怪
+不再徘徊，失败
+历经风吹日晒
+注定石沉大海
+就以不信命的姿态，活得精彩
+
+敏感词如下:
+人生百态
+我已见怪、不怪
+不再徘徊，失败
+历经风吹*晒
+注定石沉大海
+就以不信命的姿态，活得精彩
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+Finished: SUCCESS
