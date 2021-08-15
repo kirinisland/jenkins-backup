@@ -1,0 +1,162 @@
+Started by upstream project "[8mha:////4A+bQWpgGeLrf62Kvp9R0kchXAV8l6qMSbpRKFffssHgAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP2UxJJE3aLSvLzUIn0A55yqqsYAAAA=[0mdata-runner" build number [8mha:////4DVHJ97k/UHS5p9qIgftZgJSg/AvZa0fAHHBtDPVez+5AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQAygGfpZ+Un6KYklibpFpXl5qUX6FgB944HwxwAAAA==[0m8
+originally caused by:
+ Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/user_word_dumper
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+[user_word_dumper] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins6152638099049216702.sh
++ set -x
+++ date +%Y-%m-%d
++ date_str1=2021-08-14
+++ date +%Y%m%d
++ date_str2=20210814
++ dest_dir=/Users/hongliang/media/storage/production_data/user_search_words/20210814
++ mkdir -pv /Users/hongliang/media/storage/production_data/user_search_words/20210814
++ CMD='python3 jobs/dump_table.py --table WordSearchTracking --start 2019-01-01 --end 2021-08-14      --step 15 --move-to /Users/hongliang/media/storage/production_data/user_search_words/20210814/WordSearchTracking.csv'
++ echo 'python3 jobs/dump_table.py --table WordSearchTracking --start 2019-01-01 --end 2021-08-14      --step 15 --move-to /Users/hongliang/media/storage/production_data/user_search_words/20210814/WordSearchTracking.csv'
+python3 jobs/dump_table.py --table WordSearchTracking --start 2019-01-01 --end 2021-08-14      --step 15 --move-to /Users/hongliang/media/storage/production_data/user_search_words/20210814/WordSearchTracking.csv
++ python3 jobs/dump_table.py --table WordSearchTracking --start 2019-01-01 --end 2021-08-14 --step 15 --move-to /Users/hongliang/media/storage/production_data/user_search_words/20210814/WordSearchTracking.csv
+INFO:root:date = ('2019-01-01 00:00:00', '2019-01-16 00:00:00')
+INFO:root:from date: 2019-01-01 00:00:00 to 2019-01-16 00:00:00: 500
+INFO:root:date = ('2019-01-16 00:00:00', '2019-01-31 00:00:00')
+INFO:root:from date: 2019-01-16 00:00:00 to 2019-01-31 00:00:00: 500
+INFO:root:date = ('2019-01-31 00:00:00', '2019-02-15 00:00:00')
+INFO:root:from date: 2019-01-31 00:00:00 to 2019-02-15 00:00:00: 500
+INFO:root:date = ('2019-02-15 00:00:00', '2019-03-02 00:00:00')
+INFO:root:from date: 2019-02-15 00:00:00 to 2019-03-02 00:00:00: 500
+INFO:root:date = ('2019-03-02 00:00:00', '2019-03-17 00:00:00')
+INFO:root:from date: 2019-03-02 00:00:00 to 2019-03-17 00:00:00: 500
+INFO:root:date = ('2019-03-17 00:00:00', '2019-04-01 00:00:00')
+INFO:root:from date: 2019-03-17 00:00:00 to 2019-04-01 00:00:00: 500
+INFO:root:date = ('2019-04-01 00:00:00', '2019-04-16 00:00:00')
+INFO:root:from date: 2019-04-01 00:00:00 to 2019-04-16 00:00:00: 500
+INFO:root:date = ('2019-04-16 00:00:00', '2019-05-01 00:00:00')
+INFO:root:from date: 2019-04-16 00:00:00 to 2019-05-01 00:00:00: 500
+INFO:root:date = ('2019-05-01 00:00:00', '2019-05-16 00:00:00')
+INFO:root:from date: 2019-05-01 00:00:00 to 2019-05-16 00:00:00: 500
+INFO:root:date = ('2019-05-16 00:00:00', '2019-05-31 00:00:00')
+INFO:root:from date: 2019-05-16 00:00:00 to 2019-05-31 00:00:00: 500
+INFO:root:date = ('2019-05-31 00:00:00', '2019-06-15 00:00:00')
+INFO:root:from date: 2019-05-31 00:00:00 to 2019-06-15 00:00:00: 500
+INFO:root:date = ('2019-06-15 00:00:00', '2019-06-30 00:00:00')
+INFO:root:from date: 2019-06-15 00:00:00 to 2019-06-30 00:00:00: 500
+INFO:root:date = ('2019-06-30 00:00:00', '2019-07-15 00:00:00')
+INFO:root:from date: 2019-06-30 00:00:00 to 2019-07-15 00:00:00: 500
+INFO:root:date = ('2019-07-15 00:00:00', '2019-07-30 00:00:00')
+INFO:root:from date: 2019-07-15 00:00:00 to 2019-07-30 00:00:00: 500
+INFO:root:date = ('2019-07-30 00:00:00', '2019-08-14 00:00:00')
+INFO:root:from date: 2019-07-30 00:00:00 to 2019-08-14 00:00:00: 500
+INFO:root:date = ('2019-08-14 00:00:00', '2019-08-29 00:00:00')
+INFO:root:from date: 2019-08-14 00:00:00 to 2019-08-29 00:00:00: 500
+INFO:root:date = ('2019-08-29 00:00:00', '2019-09-13 00:00:00')
+INFO:root:from date: 2019-08-29 00:00:00 to 2019-09-13 00:00:00: 443
+INFO:root:date = ('2019-09-13 00:00:00', '2019-09-28 00:00:00')
+INFO:root:from date: 2019-09-13 00:00:00 to 2019-09-28 00:00:00: 428
+INFO:root:date = ('2019-09-28 00:00:00', '2019-10-13 00:00:00')
+INFO:root:from date: 2019-09-28 00:00:00 to 2019-10-13 00:00:00: 193
+INFO:root:date = ('2019-10-13 00:00:00', '2019-10-28 00:00:00')
+INFO:root:from date: 2019-10-13 00:00:00 to 2019-10-28 00:00:00: 157
+INFO:root:date = ('2019-10-28 00:00:00', '2019-11-12 00:00:00')
+INFO:root:from date: 2019-10-28 00:00:00 to 2019-11-12 00:00:00: 500
+INFO:root:date = ('2019-11-12 00:00:00', '2019-11-27 00:00:00')
+INFO:root:from date: 2019-11-12 00:00:00 to 2019-11-27 00:00:00: 500
+INFO:root:date = ('2019-11-27 00:00:00', '2019-12-12 00:00:00')
+INFO:root:from date: 2019-11-27 00:00:00 to 2019-12-12 00:00:00: 500
+INFO:root:date = ('2019-12-12 00:00:00', '2019-12-27 00:00:00')
+INFO:root:from date: 2019-12-12 00:00:00 to 2019-12-27 00:00:00: 500
+INFO:root:date = ('2019-12-27 00:00:00', '2020-01-11 00:00:00')
+INFO:root:from date: 2019-12-27 00:00:00 to 2020-01-11 00:00:00: 500
+INFO:root:date = ('2020-01-11 00:00:00', '2020-01-26 00:00:00')
+INFO:root:from date: 2020-01-11 00:00:00 to 2020-01-26 00:00:00: 500
+INFO:root:date = ('2020-01-26 00:00:00', '2020-02-10 00:00:00')
+INFO:root:from date: 2020-01-26 00:00:00 to 2020-02-10 00:00:00: 500
+INFO:root:date = ('2020-02-10 00:00:00', '2020-02-25 00:00:00')
+INFO:root:from date: 2020-02-10 00:00:00 to 2020-02-25 00:00:00: 500
+INFO:root:date = ('2020-02-25 00:00:00', '2020-03-11 00:00:00')
+INFO:root:from date: 2020-02-25 00:00:00 to 2020-03-11 00:00:00: 500
+INFO:root:date = ('2020-03-11 00:00:00', '2020-03-26 00:00:00')
+INFO:root:from date: 2020-03-11 00:00:00 to 2020-03-26 00:00:00: 500
+INFO:root:date = ('2020-03-26 00:00:00', '2020-04-10 00:00:00')
+INFO:root:from date: 2020-03-26 00:00:00 to 2020-04-10 00:00:00: 500
+INFO:root:date = ('2020-04-10 00:00:00', '2020-04-25 00:00:00')
+INFO:root:from date: 2020-04-10 00:00:00 to 2020-04-25 00:00:00: 500
+INFO:root:date = ('2020-04-25 00:00:00', '2020-05-10 00:00:00')
+INFO:root:from date: 2020-04-25 00:00:00 to 2020-05-10 00:00:00: 500
+INFO:root:date = ('2020-05-10 00:00:00', '2020-05-25 00:00:00')
+INFO:root:from date: 2020-05-10 00:00:00 to 2020-05-25 00:00:00: 500
+INFO:root:date = ('2020-05-25 00:00:00', '2020-06-09 00:00:00')
+INFO:root:from date: 2020-05-25 00:00:00 to 2020-06-09 00:00:00: 500
+INFO:root:date = ('2020-06-09 00:00:00', '2020-06-24 00:00:00')
+INFO:root:from date: 2020-06-09 00:00:00 to 2020-06-24 00:00:00: 500
+INFO:root:date = ('2020-06-24 00:00:00', '2020-07-09 00:00:00')
+INFO:root:from date: 2020-06-24 00:00:00 to 2020-07-09 00:00:00: 500
+INFO:root:date = ('2020-07-09 00:00:00', '2020-07-24 00:00:00')
+INFO:root:from date: 2020-07-09 00:00:00 to 2020-07-24 00:00:00: 500
+INFO:root:date = ('2020-07-24 00:00:00', '2020-08-08 00:00:00')
+INFO:root:from date: 2020-07-24 00:00:00 to 2020-08-08 00:00:00: 500
+INFO:root:date = ('2020-08-08 00:00:00', '2020-08-23 00:00:00')
+INFO:root:from date: 2020-08-08 00:00:00 to 2020-08-23 00:00:00: 500
+INFO:root:date = ('2020-08-23 00:00:00', '2020-09-07 00:00:00')
+INFO:root:from date: 2020-08-23 00:00:00 to 2020-09-07 00:00:00: 500
+INFO:root:date = ('2020-09-07 00:00:00', '2020-09-22 00:00:00')
+INFO:root:from date: 2020-09-07 00:00:00 to 2020-09-22 00:00:00: 500
+INFO:root:date = ('2020-09-22 00:00:00', '2020-10-07 00:00:00')
+INFO:root:from date: 2020-09-22 00:00:00 to 2020-10-07 00:00:00: 500
+INFO:root:date = ('2020-10-07 00:00:00', '2020-10-22 00:00:00')
+INFO:root:from date: 2020-10-07 00:00:00 to 2020-10-22 00:00:00: 500
+INFO:root:date = ('2020-10-22 00:00:00', '2020-11-06 00:00:00')
+INFO:root:from date: 2020-10-22 00:00:00 to 2020-11-06 00:00:00: 500
+INFO:root:date = ('2020-11-06 00:00:00', '2020-11-21 00:00:00')
+INFO:root:from date: 2020-11-06 00:00:00 to 2020-11-21 00:00:00: 500
+INFO:root:date = ('2020-11-21 00:00:00', '2020-12-06 00:00:00')
+INFO:root:from date: 2020-11-21 00:00:00 to 2020-12-06 00:00:00: 500
+INFO:root:date = ('2020-12-06 00:00:00', '2020-12-21 00:00:00')
+INFO:root:from date: 2020-12-06 00:00:00 to 2020-12-21 00:00:00: 500
+INFO:root:date = ('2020-12-21 00:00:00', '2021-01-05 00:00:00')
+INFO:root:from date: 2020-12-21 00:00:00 to 2021-01-05 00:00:00: 500
+INFO:root:date = ('2021-01-05 00:00:00', '2021-01-20 00:00:00')
+INFO:root:from date: 2021-01-05 00:00:00 to 2021-01-20 00:00:00: 500
+INFO:root:date = ('2021-01-20 00:00:00', '2021-02-04 00:00:00')
+INFO:root:from date: 2021-01-20 00:00:00 to 2021-02-04 00:00:00: 500
+INFO:root:date = ('2021-02-04 00:00:00', '2021-02-19 00:00:00')
+INFO:root:from date: 2021-02-04 00:00:00 to 2021-02-19 00:00:00: 500
+INFO:root:date = ('2021-02-19 00:00:00', '2021-03-06 00:00:00')
+INFO:root:from date: 2021-02-19 00:00:00 to 2021-03-06 00:00:00: 500
+INFO:root:date = ('2021-03-06 00:00:00', '2021-03-21 00:00:00')
+INFO:root:from date: 2021-03-06 00:00:00 to 2021-03-21 00:00:00: 500
+INFO:root:date = ('2021-03-21 00:00:00', '2021-04-05 00:00:00')
+INFO:root:from date: 2021-03-21 00:00:00 to 2021-04-05 00:00:00: 500
+INFO:root:date = ('2021-04-05 00:00:00', '2021-04-20 00:00:00')
+INFO:root:from date: 2021-04-05 00:00:00 to 2021-04-20 00:00:00: 500
+INFO:root:date = ('2021-04-20 00:00:00', '2021-05-05 00:00:00')
+INFO:root:from date: 2021-04-20 00:00:00 to 2021-05-05 00:00:00: 500
+INFO:root:date = ('2021-05-05 00:00:00', '2021-05-20 00:00:00')
+INFO:root:from date: 2021-05-05 00:00:00 to 2021-05-20 00:00:00: 500
+INFO:root:date = ('2021-05-20 00:00:00', '2021-06-04 00:00:00')
+INFO:root:from date: 2021-05-20 00:00:00 to 2021-06-04 00:00:00: 500
+INFO:root:date = ('2021-06-04 00:00:00', '2021-06-19 00:00:00')
+INFO:root:from date: 2021-06-04 00:00:00 to 2021-06-19 00:00:00: 500
+INFO:root:date = ('2021-06-19 00:00:00', '2021-07-04 00:00:00')
+INFO:root:from date: 2021-06-19 00:00:00 to 2021-07-04 00:00:00: 500
+INFO:root:date = ('2021-07-04 00:00:00', '2021-07-19 00:00:00')
+INFO:root:from date: 2021-07-04 00:00:00 to 2021-07-19 00:00:00: 500
+INFO:root:date = ('2021-07-19 00:00:00', '2021-08-03 00:00:00')
+INFO:root:from date: 2021-07-19 00:00:00 to 2021-08-03 00:00:00: 500
+INFO:root:date = ('2021-08-03 00:00:00', '2021-08-18 00:00:00')
+INFO:root:from date: 2021-08-03 00:00:00 to 2021-08-18 00:00:00: 500
+INFO:root:Table is dumped to /Users/hongliang/media/storage/production_data/user_search_words/20210814/WordSearchTracking.csv
+Finished: SUCCESS
