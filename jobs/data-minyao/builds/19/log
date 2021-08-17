@@ -12214,3 +12214,1847 @@ INFO:[DataPipeline]:Sleep for: 38
 INFO:[DataPipeline]:PlayList: [1176220859] 口琴与民谣，悠扬的独白 (1410/2019) has 19 songs.
 INFO:[DataPipeline]:PlayList: [3262779214] 2017华语民谣奖精选歌曲 (1411/2019) has 18 songs.
 INFO:[DataPipeline]:PlayList: [3531848338] 英语&#124;只属于男生的民谣故事 (1412/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [3562717828] 比香草冰淇淋还要清甜的传统民谣 (1413/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7102141116] 质朴民谣&#32;&#124;&#32;淡淡吟唱却深入人心 (1414/2019) has 24 songs.
+INFO:[DataPipeline]:PlayList: [2944167025] 【旧印象】那首不加修饰的校园民谣 (1415/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7120940469] 民谣&#32;&#124;&#32;热勇一腔，追寻太阳 (1416/2019) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7120855435] 寄情于歌，民谣里找相思 (1417/2019) has 23 songs.
+INFO:[DataPipeline]:PlayList: [1150337859] 可以丢往事，不可以丢民谣 (1418/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2950164059] chill·民谣摇滚温柔你心 (1419/2019) has 73 songs.
+INFO:[DataPipeline]:Sleep for: 81
+INFO:[DataPipeline]:PlayList: [7126602806] 每首民谣的初心，都放在Demo里了 (1420/2019) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7040562863] 国语民谣丨带点不安分上路 (1421/2019) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7098383296] 华语民谣：一路的风景，都写给你 (1422/2019) has 48 songs.
+INFO:[DataPipeline]:PlayList: [2338750698] 日系民谣—恋恋风歌，良品唱腔 (1423/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7100170986] 丽江民谣丨翠色山峦，花溪曲巷 (1424/2019) has 31 songs.
+INFO:[DataPipeline]:PlayList: [2339471664] 时代之歌，美国经典民谣欣赏 (1425/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7356510478] 深情民谣：眺望远方时，总会想她 (1426/2019) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7097363107] 民谣&#32;&#124;&#32;一把吉他，四海为家 (1427/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2033983863] 和风物语&#32;日本民谣 (1428/2019) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7102676692] 民谣&#32;&#124;&#32;曾幻想着如歌的生活 (1429/2019) has 26 songs.
+INFO:[DataPipeline]:Sleep for: 174
+INFO:[DataPipeline]:PlayList: [7044075892] 融化在民谣中的诗词 (1430/2019) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7356293835] 写封民谣情书&#32;·&#32;字里行间都是你 (1431/2019) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7252363807] 民谣录&#32;&#124;&#32;诉说青春与远方 (1432/2019) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7356651972] 民谣&#32;&#124;&#32;生活需要多一点热爱 (1433/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [3253234405] 『民谣』人生始途的初衷 (1434/2019) has 500 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1039: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102897674&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102897674&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102897674&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))")),)
+INFO:[DataPipeline]:PlayList: [1740846012] 欧美民谣，欣赏旁若无人的美丽 (1435/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [3696300025] 空灵民谣女声，指尖上的故事 (1436/2019) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7129729056] 「民谣」你的陪伴，早已是羁绊 (1437/2019) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7100046784] 不问归途，这是流浪者的民谣 (1438/2019) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7142114499] 民谣&#32;&#124;&#32;生活忧伤录 (1439/2019) has 44 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 911, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=203440670&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=203440670&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=203440670&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))")),)
+INFO:[DataPipeline]:Sleep for: 50
+INFO:[DataPipeline]:PlayList: [7097247471] 国风民谣&#32;&#124;&#32;诗词承意，以曲抒情 (1440/2019) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7100047183] 民谣情歌&#32;&#124;&#32;关于余生，我希望都是你 (1441/2019) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7123905898] 当生活快崩塌时，向民谣求救 (1442/2019) has 21 songs.
+INFO:[DataPipeline]:PlayList: [2034411587] 听说下雨天和清新民谣更配哦 (1443/2019) has 21 songs.
+INFO:[DataPipeline]:PlayList: [1136541940] 民谣里的冬天 (1444/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7129730966] 民谣：我喜欢的人，都跟你好像 (1445/2019) has 22 songs.
+INFO:[DataPipeline]:PlayList: [6925716311] 民谣&#32;&#124;&#32;独一无二的歌名 (1446/2019) has 29 songs.
+INFO:[DataPipeline]:PlayList: [4180607614] 三味线&#32;•&#32;悠远日式传统民谣 (1447/2019) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7124540089] 每个民谣歌者，都会唱一首孤独 (1448/2019) has 22 songs.
+INFO:[DataPipeline]:PlayList: [3590481891] 进阶葡语中级必听的民谣 (1449/2019) has 25 songs.
+INFO:[DataPipeline]:Sleep for: 116
+INFO:[DataPipeline]:PlayList: [2056583855] 纯正日本民谣，治愈系列 (1450/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1455092367] 盎然春日，让轻快民谣点亮你的心情 (1451/2019) has 57 songs.
+INFO:[DataPipeline]:PlayList: [2348354005] 趁冬天还没来，抓着阳光听民谣 (1452/2019) has 18 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1039: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=104237679&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=104237679&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=104237679&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))")),)
+INFO:[DataPipeline]:PlayList: [1461031497] 听着日本民谣，耳朵无限辽阔 (1453/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7097402362] 冷门民谣丨我的心里有一艘孤帆 (1454/2019) has 28 songs.
+INFO:[DataPipeline]:PlayList: [2055995124] 「乡音浓情」用方言演唱的民谣歌曲 (1455/2019) has 23 songs.
+INFO:[DataPipeline]:PlayList: [1775300770] 民谣无词歌，情绪收容所 (1456/2019) has 19 songs.
+INFO:[DataPipeline]:PlayList: [2322312217] 【民谣】走过每条伤心的大街 (1457/2019) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7097052352] 华语民谣&#32;&#124;&#32;如果时光有归途 (1458/2019) has 33 songs.
+INFO:[DataPipeline]:PlayList: [7042644530] 唐映枫填词的民谣啊&#126; (1459/2019) has 28 songs.
+INFO:[DataPipeline]:Sleep for: 62
+INFO:[DataPipeline]:PlayList: [7060354706] 唱首民谣，致可爱的你 (1460/2019) has 47 songs.
+INFO:[DataPipeline]:PlayList: [2228371293] 解读诗情民谣的无限美丽 (1461/2019) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7126586665] 民谣&#32;│&#32;姑娘与吉他的一场邂逅 (1462/2019) has 30 songs.
+INFO:[DataPipeline]:PlayList: [1155934262] 室内民谣：极致的高雅风格 (1463/2019) has 22 songs.
+INFO:[DataPipeline]:PlayList: [1730296263] 满是浪漫的法国民谣 (1464/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7039362301] 2019胡桃里民谣集 (1465/2019) has 59 songs.
+INFO:[DataPipeline]:PlayList: [2380919916] Anti&#45;Folk&#32;&#124;&#32;民谣外壳&#43;朋克内核 (1466/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [3251453645] 闭眼感受Beth&#32;Orton电子民谣的魅力 (1467/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7126637019] 古意民谣｜春风来，来抚那少年弦 (1468/2019) has 36 songs.
+INFO:[DataPipeline]:PlayList: [2056578234] 不妨听听欧美民谣，女声特辑 (1469/2019) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 97
+INFO:[DataPipeline]:PlayList: [7097369007] 民谣&#32;&#124;&#32;关于未来，我们一起来想 (1470/2019) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7098311329] 华语民谣│青春是一本太仓促的书 (1471/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7095806191] 日式民谣丨樱花树下，微风吹拂 (1472/2019) has 29 songs.
+INFO:[DataPipeline]:PlayList: [1776478730] 70年代欧美民谣，永恒的青春印迹 (1473/2019) has 19 songs.
+INFO:[DataPipeline]:PlayList: [2061319261] 燥热的天气来几首慰藉人心的小众民谣 (1474/2019) has 21 songs.
+INFO:[DataPipeline]:PlayList: [2690054792] 外教推荐：了解德国历史必听的中古民谣 (1475/2019) has 23 songs.
+INFO:[DataPipeline]:PlayList: [2354791162] 春日之初，听一首欧美独立民谣 (1476/2019) has 35 songs.
+INFO:[DataPipeline]:PlayList: [1133917079] 乡村民谣旧流行 (1477/2019) has 17 songs.
+INFO:[DataPipeline]:PlayList: [1759195964] 风和日丽的天气，适合听一首民谣 (1478/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [3590490058] 哥特式民谣：神游穿越到中世纪 (1479/2019) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 35
+INFO:[DataPipeline]:PlayList: [7122318744] 民谣宵夜，一碗精神食粮 (1480/2019) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7126556806] 方言民谣：歌唱最淳朴的生活 (1481/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [6963368648] 关于海的民谣 (1482/2019) has 27 songs.
+INFO:[DataPipeline]:PlayList: [2979093837] 停停走走&#32;逛一遍民谣歌手眼里的北京城 (1483/2019) has 19 songs.
+INFO:[DataPipeline]:PlayList: [1735116050] 欧美独立民谣精选 (1484/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1758749213] 2015年，那段民谣里的悠扬时光 (1485/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2032350760] 迷幻民谣&#32;田间的清晨 (1486/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1153566198] 十里春风的民谣&#32;记载2015的随笔 (1487/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2631663057] 听听乡村民谣，来趟快乐的旅行吧 (1488/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [855816291] 绅士国度，英国民谣风 (1489/2019) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 62
+INFO:[DataPipeline]:PlayList: [1133917082] 纯美乡村·清新民谣 (1490/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1763979333] 「英国民谣」聆听最动人的叙事诗 (1491/2019) has 28 songs.
+INFO:[DataPipeline]:PlayList: [3590486108] 德国新民谣：严谨民族的大胆实验 (1492/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1438688389] 回归民谣本质，寻找传统韵律 (1493/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [3544117058] 和风民谣，淌过心房的清流 (1494/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1461453334] 有民谣陪伴的2016年，心生爱意 (1495/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1759195913] 欧洲民谣唱着我心中虔诚的信仰 (1496/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1759195961] 「欧美民谣」心灵盼望一场甘霖 (1497/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1438688387] 【传统民谣】流浪诗人与孤独的心 (1498/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1133917081] 如茶般芬芳的乡村民谣 (1499/2019) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 42
+INFO:[DataPipeline]:PlayList: [2961566994] 民谣&#124;&#32;那些才华横溢的创作型男歌手们 (1500/2019) has 27 songs.
+INFO:[DataPipeline]:PlayList: [2051588037] 趁着初春的微凉，听首冬日民谣 (1501/2019) has 58 songs.
+INFO:[DataPipeline]:PlayList: [2631526091] 电影中，那些唤醒记忆的乡村民谣 (1502/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [893150096] 放松！AE被甲方虐时听的俄语新民谣 (1503/2019) has 16 songs.
+INFO:[DataPipeline]:PlayList: [3258667638] 你被写进民谣里&#32;&#32;夏了我的夏天 (1504/2019) has 29 songs.
+INFO:[DataPipeline]:PlayList: [2631662912] 雨天听乡村民谣，你是否也有会点感伤？ (1505/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1438688390] 传统民谣听，诗人在歌唱 (1506/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2060040688] 「山间的美妙音韵」台湾原住民民谣 (1507/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1438688386] 浪子赠予诗人的一纸情书—传统民谣 (1508/2019) has 17 songs.
+INFO:[DataPipeline]:PlayList: [1461031490] 属于欧美民谣的悠闲时光 (1509/2019) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 153
+INFO:[DataPipeline]:PlayList: [1438688392] 民谣诗人&#32;传统永不褪色的回忆 (1510/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1158608457] 新传统主义民谣：半调子文艺篇 (1511/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2075898446] 公路民谣&#32;&#32;谁说开车必须躁 (1512/2019) has 19 songs.
+INFO:[DataPipeline]:PlayList: [2053476927] 赠你这溢于弦音的乡村民谣 (1513/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2631768785] 诱耳的女声乡村民谣，&#32;涌入心田 (1514/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7436685675] 边路之怪听安 (1515/2019) has 119 songs.
+INFO:[DataPipeline]:PlayList: [7606853438] 边路之怪听安 (1516/2019) has 71 songs.
+INFO:[DataPipeline]:PlayList: [8006321550] 王者听安BGM：风暴如影随形 (1517/2019) has 109 songs.
+INFO:[DataPipeline]:PlayList: [7365488105] 花果山听安 (1518/2019) has 148 songs.
+INFO:[DataPipeline]:PlayList: [7885351698] 边路之怪听安战歌 (1519/2019) has 19 songs.
+INFO:[DataPipeline]:Sleep for: 152
+INFO:[DataPipeline]:PlayList: [7430422748] 听安专属歌单 (1520/2019) has 157 songs.
+INFO:[DataPipeline]:PlayList: [7772222046] 听安元歌马超BGM (1521/2019) has 89 songs.
+INFO:[DataPipeline]:PlayList: [5220426812] 尘世浮沉听安 (1522/2019) has 53 songs.
+INFO:[DataPipeline]:PlayList: [7640770378] 边路之怪听安（更新） (1523/2019) has 81 songs.
+INFO:[DataPipeline]:PlayList: [2651346814] 我讲给你听&#32;安安静静的听 (1524/2019) has 100 songs.
+INFO:[DataPipeline]:PlayList: [7039451926] 嘘，听安卿尘唱歌 (1525/2019) has 89 songs.
+INFO:[DataPipeline]:PlayList: [840134904] 喜欢听安安静静的闽南歌曲 (1526/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1753507276] 安安静静的人听安安静静的歌 (1527/2019) has 48 songs.
+INFO:[DataPipeline]:PlayList: [7879205374] 边路天花板听安 (1528/2019) has 82 songs.
+INFO:[DataPipeline]:PlayList: [7039439671] 嘘，听安筱冷唱歌 (1529/2019) has 98 songs.
+INFO:[DataPipeline]:Sleep for: 75
+INFO:[DataPipeline]:PlayList: [3602538515] 听安° (1530/2019) has 209 songs.
+INFO:[DataPipeline]:PlayList: [2960119999] 听安&#10;人间忽晚，山河已秋 (1531/2019) has 217 songs.
+INFO:[DataPipeline]:PlayList: [7811331950] 王者荣耀听安 (1532/2019) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7645838192] 听安 (1533/2019) has 56 songs.
+INFO:[DataPipeline]:PlayList: [7655009627] 听安系列 (1534/2019) has 43 songs.
+INFO:[DataPipeline]:PlayList: [7670977490] 听安的歌单 (1535/2019) has 11 songs.
+INFO:[DataPipeline]:PlayList: [1173220822] 欧洲中古民谣：公主书上的古老痕迹 (1536/2019) has 136 songs.
+INFO:[DataPipeline]:PlayList: [7488470708] 精选民谣：孤独的人儿在孤岛沉沦 (1537/2019) has 114 songs.
+INFO:[DataPipeline]:PlayList: [4160796668] 华语民谣无损音乐50首 (1538/2019) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7777817352] 华语民谣：唱遍人间烟火 (1539/2019) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 165
+INFO:[DataPipeline]:PlayList: [7562193888] 民谣丨内心深处的宁静 (1540/2019) has 31 songs.
+INFO:[DataPipeline]:PlayList: [851970796] 睡前民谣：浇灌心耳&#32;&#32;入梦三分 (1541/2019) has 51 songs.
+INFO:[DataPipeline]:PlayList: [7275444654] 华语民谣&#124;&#32;理想志 (1542/2019) has 22 songs.
+INFO:[DataPipeline]:PlayList: [3276314861] 喜欢民谣的男孩都是一只写满孤独的鱼 (1543/2019) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7583840060] 心情不好的时候听听民谣吧 (1544/2019) has 58 songs.
+INFO:[DataPipeline]:PlayList: [7732416765] 『民谣』远方有诗也有你的故事 (1545/2019) has 36 songs.
+INFO:[DataPipeline]:PlayList: [2968133060] 「欧美民谣」散文诗般的情绪流淌 (1546/2019) has 43 songs.
+INFO:[DataPipeline]:PlayList: [2911488488] 校园民谣，诗了青春和远方 (1547/2019) has 32 songs.
+INFO:[DataPipeline]:PlayList: [891358386] 晨跑路上必备的扫弦民谣 (1548/2019) has 33 songs.
+INFO:[DataPipeline]:PlayList: [1098628469] 民谣，洒过阳光和小雨的日记 (1549/2019) has 50 songs.
+INFO:[DataPipeline]:Sleep for: 134
+INFO:[DataPipeline]:PlayList: [2919554459] 给自己一首安静的民谣 (1550/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [5538465260] 暖心向民谣：给予掌心的一抹温度 (1551/2019) has 68 songs.
+INFO:[DataPipeline]:PlayList: [2066560838] 「民谣」你我的情绪共谋者 (1552/2019) has 93 songs.
+INFO:[DataPipeline]:PlayList: [7743542148] 治愈民谣：故事很美，亦是百味 (1553/2019) has 41 songs.
+INFO:[DataPipeline]:PlayList: [3037839488] 民谣·故事很美一把吉他该怎么讲 (1554/2019) has 114 songs.
+INFO:[DataPipeline]:PlayList: [2936707848] 民谣小众，独立音乐人的远方与诗 (1555/2019) has 98 songs.
+INFO:[DataPipeline]:PlayList: [2968778086] 一曲民谣诉衷肠，唯听者忧伤 (1556/2019) has 652 songs.
+INFO:[DataPipeline]:PlayList: [7552830303] 民谣&#32;&#58;&#32;历尽山海，唱遍天涯 (1557/2019) has 66 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 911, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 400 Bad Request
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=248044689&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=248044689&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=248044689&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request')))")),)
+INFO:[DataPipeline]:PlayList: [4221188198] 诗和远方的港湾：治愈心灵的民谣 (1558/2019) has 44 songs.
+INFO:[DataPipeline]:PlayList: [7488008022] 治愈民谣丨愿世间美好如约而至 (1559/2019) has 24 songs.
+INFO:[DataPipeline]:Sleep for: 99
+INFO:[DataPipeline]:PlayList: [848261286] 吉他伴随民谣，孤独伴随流浪 (1560/2019) has 100 songs.
+INFO:[DataPipeline]:PlayList: [7638594859] 民谣｜爱情和理想总有一个在路上 (1561/2019) has 249 songs.
+INFO:[DataPipeline]:PlayList: [2937475426] 民谣来自孤独，而我来自庸俗 (1562/2019) has 141 songs.
+INFO:[DataPipeline]:PlayList: [1169460930] 民谣诗人的吉他里，住着繁星 (1563/2019) has 160 songs.
+INFO:[DataPipeline]:PlayList: [7530160095] 诗酒如歌，收藏10w&#43;华语民谣 (1564/2019) has 179 songs.
+INFO:[DataPipeline]:PlayList: [1981546038] 欧美民谣，清新曲调催动你的心 (1565/2019) has 30 songs.
+INFO:[DataPipeline]:PlayList: [1135214693] 民谣男嗓，性感温暖心灵 (1566/2019) has 68 songs.
+INFO:[DataPipeline]:PlayList: [7442436623] 华语民谣Ⅰ心中有酒但仍孤独 (1567/2019) has 91 songs.
+INFO:[DataPipeline]:PlayList: [1123470949] 听一遍就爱上的民谣 (1568/2019) has 60 songs.
+INFO:[DataPipeline]:PlayList: [7026150751] 民谣&#32;&#124;&#32;没有你&#32;故事哪有结尾 (1569/2019) has 45 songs.
+INFO:[DataPipeline]:Sleep for: 70
+INFO:[DataPipeline]:PlayList: [2352590811] 是不是这些歌让你爱上了民谣？ (1570/2019) has 53 songs.
+INFO:[DataPipeline]:PlayList: [845392622] 失眠中民谣&#32;&#32;音乐安眠药 (1571/2019) has 33 songs.
+INFO:[DataPipeline]:PlayList: [1374105607] 易入人心的华语民谣 (1572/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2029809173] 名字很长的民谣里有故事 (1573/2019) has 32 songs.
+INFO:[DataPipeline]:PlayList: [2669491653] 伤感民谣&#32;&#124;&#32;用歌声，诉说隐秘心事 (1574/2019) has 47 songs.
+INFO:[DataPipeline]:PlayList: [2028016069] 民谣丨午后阳光，吉他作伴 (1575/2019) has 30 songs.
+INFO:[DataPipeline]:PlayList: [3619000070] 欧美民谣：静静聆听里面藏匿的故事 (1576/2019) has 92 songs.
+INFO:[DataPipeline]:PlayList: [4150469013] 民谣：你是我期待又矛盾的梦 (1577/2019) has 125 songs.
+INFO:[DataPipeline]:PlayList: [1124356232] 被忽略的动听小众民谣 (1578/2019) has 40 songs.
+INFO:[DataPipeline]:PlayList: [3483796364] 让我们陶醉在民谣 (1579/2019) has 27 songs.
+INFO:[DataPipeline]:Sleep for: 151
+INFO:[DataPipeline]:PlayList: [2372160429] 没有流量也要下载的100首欧美民谣 (1580/2019) has 103 songs.
+INFO:[DataPipeline]:PlayList: [7753663106] 欧美民谣丨温软小调，诗般美好 (1581/2019) has 59 songs.
+INFO:[DataPipeline]:PlayList: [2968133060] 「欧美民谣」散文诗般的情绪流淌 (1582/2019) has 43 songs.
+INFO:[DataPipeline]:PlayList: [2001781266] 欧美经典民谣选录 (1583/2019) has 24 songs.
+INFO:[DataPipeline]:PlayList: [3536845247] 欧美｜清透舒适的民谣小调 (1584/2019) has 40 songs.
+INFO:[DataPipeline]:PlayList: [8055383963] 欧美民谣丨静下心来聆听吉他旋律 (1585/2019) has 47 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+TimeoutError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102704660&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', TimeoutError(60, 'Operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102704660&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', TimeoutError(60, 'Operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102704660&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', TimeoutError(60, 'Operation timed out')))")),)
+INFO:[DataPipeline]:PlayList: [8081381347] 欧美民谣：田野山间，牧歌一曲 (1586/2019) has 27 songs.
+INFO:[DataPipeline]:PlayList: [8069484351] 欧美民谣：温暖清新&#32;美若清风 (1587/2019) has 39 songs.
+INFO:[DataPipeline]:PlayList: [8070396929] 心灵疗愈所&#124;抚慰情绪的欧美民谣 (1588/2019) has 65 songs.
+INFO:[DataPipeline]:PlayList: [8016641067] 欧美小众民谣｜卧看星河尽意明 (1589/2019) has 30 songs.
+INFO:[DataPipeline]:Sleep for: 68
+INFO:[DataPipeline]:PlayList: [2669638639] 欧美民谣&#32;来自异国的诗 (1590/2019) has 130 songs.
+INFO:[DataPipeline]:PlayList: [3619000070] 欧美民谣：静静聆听里面藏匿的故事 (1591/2019) has 92 songs.
+INFO:[DataPipeline]:PlayList: [1078416222] 一听即爱的经典民谣老摇滚·欧美 (1592/2019) has 30 songs.
+INFO:[DataPipeline]:PlayList: [8070194264] 欧美民谣：生活中收获一份惬意 (1593/2019) has 29 songs.
+INFO:[DataPipeline]:PlayList: [8074303290] 欧美慵懒民谣｜时光流转捡拾温柔 (1594/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [8036191078] 欧美民谣丨岁月如梭，载满了故事 (1595/2019) has 23 songs.
+INFO:[DataPipeline]:PlayList: [1767939775] 欧美民谣盛宴，动人旋律萦绕你心 (1596/2019) has 98 songs.
+INFO:[DataPipeline]:PlayList: [7969150164] 欧美民谣｜梦眠于春葬中 (1597/2019) has 31 songs.
+INFO:[DataPipeline]:PlayList: [2283100579] 下午时光，你在想什么 (1598/2019) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7925531300] 卡布奇诺的下午茶 (1599/2019) has 120 songs.
+INFO:[DataPipeline]:Sleep for: 116
+INFO:[DataPipeline]:PlayList: [7862486658] 爵士下午茶：享受尘世安稳的幸福 (1600/2019) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7979816274] 下午茶时刻&#32;&#124;&#32;饮一杯淡雅の日式 (1601/2019) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7810688179] 英式下午茶｜给你一剂孤单解药 (1602/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7469922255] 惬意下午茶&#32;&#124;&#32;享受静谧中的诗意 (1603/2019) has 59 songs.
+INFO:[DataPipeline]:PlayList: [7755207343] 减压向&#32;&#124;&#32;安逸舒适的下午茶时光 (1604/2019) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7757414515] 『欢快』惬意的下午配一首好歌 (1605/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7848828241] 南风咖啡厅：邀你一起下午茶 (1606/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7881663552] 爵士乐&#58;属于下午茶的慵懒时光 (1607/2019) has 24 songs.
+INFO:[DataPipeline]:PlayList: [8040630262] 净享R&#38;B时光&#32;·&#32;下午茶绝佳搭档 (1608/2019) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7647322824] 下午茶·抬头仰望&#32;别浪费了月亮 (1609/2019) has 21 songs.
+INFO:[DataPipeline]:Sleep for: 56
+INFO:[DataPipeline]:PlayList: [7844374891] 慵懒午后｜来杯下午茶放松一下吧 (1610/2019) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7446537354] 钢琴纯音&#32;·&#32;静享下午阅读时光 (1611/2019) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7838264888] 下午茶轻音：优雅端庄的惬意氛围 (1612/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7754640492] 惬意午后&#32;&#124;&#32;用音乐和下午茶陪伴 (1613/2019) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7785320498] 〖咖啡厅必备〗一起喝点下午茶吗 (1614/2019) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7861111251] 【日系】一杯下午茶&#32;空闲必听！ (1615/2019) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7795902561] 海边遛弯，开启轻松愉悦下午时光 (1616/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7710922461] 那些经典的中文摇滚 (1617/2019) has 53 songs.
+INFO:[DataPipeline]:PlayList: [7865699015] 中文摇滚经典歌曲 (1618/2019) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7743786099] 中文摇滚经典 (1619/2019) has 41 songs.
+INFO:[DataPipeline]:Sleep for: 73
+INFO:[DataPipeline]:PlayList: [7036418265] 经典中文摇滚乐 (1620/2019) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7492142632] 经典中文摇滚乐 (1621/2019) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7326325234] 中文摇滚经典 (1622/2019) has 41 songs.
+INFO:[DataPipeline]:PlayList: [884327216] 经典中文摇滚 (1623/2019) has 38 songs.
+INFO:[DataPipeline]:PlayList: [4173697695] 刘德华经典流行中文劲曲摇滚串烧&#32;&#40;DJ版&#41; (1624/2019) has 1 songs.
+INFO:[DataPipeline]:PlayList: [1489666104] 中文摇滚——只收录最经典的 (1625/2019) has 32 songs.
+INFO:[DataPipeline]:PlayList: [6959781841] 经典中文摇滚 (1626/2019) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7452587094] 非中文&#32;摇滚&#32;情歌&#32;经典 (1627/2019) has 247 songs.
+INFO:[DataPipeline]:PlayList: [4580479109] 中文经典摇滚 (1628/2019) has 139 songs.
+INFO:[DataPipeline]:PlayList: [6552857652] 中文摇滚——只收录最经典的 (1629/2019) has 25 songs.
+INFO:[DataPipeline]:Sleep for: 110
+INFO:[DataPipeline]:PlayList: [4159143535] 经典中文摇滚音乐 (1630/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [1162368196] 中文&#58;摇滚经典收藏 (1631/2019) has 21 songs.
+INFO:[DataPipeline]:PlayList: [3612410363] 中文摇滚——只收录最经典的 (1632/2019) has 36 songs.
+INFO:[DataPipeline]:PlayList: [6566345003] 中文经典老摇滚 (1633/2019) has 15 songs.
+INFO:[DataPipeline]:PlayList: [3752341366] 经典中文摇滚乐 (1634/2019) has 13 songs.
+INFO:[DataPipeline]:PlayList: [823416140] 中文摇滚经典 (1635/2019) has 149 songs.
+INFO:[DataPipeline]:PlayList: [7726094984] 粤语热歌：好听到爆的粤语金曲集 (1636/2019) has 103 songs.
+INFO:[DataPipeline]:PlayList: [1452052493] 100首精选粤语歌&#32;&#32;怀念旧时光 (1637/2019) has 100 songs.
+INFO:[DataPipeline]:PlayList: [7470314643] 抖音热门粤语歌曲合集 (1638/2019) has 167 songs.
+INFO:[DataPipeline]:PlayList: [771161642] 100首经典粤语&#32;回不去的青春 (1639/2019) has 99 songs.
+INFO:[DataPipeline]:Sleep for: 127
+INFO:[DataPipeline]:PlayList: [7644627036] 90后粤语：越成长越懂歌词 (1640/2019) has 68 songs.
+INFO:[DataPipeline]:PlayList: [8069141201] 粤语老歌&#32;&#124;&#124;&#32;一曲经典，满载情深 (1641/2019) has 55 songs.
+INFO:[DataPipeline]:PlayList: [7824267360] 2020粤语流行&#32;Top&#32;100 (1642/2019) has 100 songs.
+INFO:[DataPipeline]:PlayList: [7882988080] 粤语女声&#32;&#124;&#32;聆听港乐的柔美之音 (1643/2019) has 55 songs.
+INFO:[DataPipeline]:PlayList: [1384809879] 单曲循环的粤语情深 (1644/2019) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7809842550] 怀旧金曲&#32;&#124;&#32;重温粤语经典 (1645/2019) has 113 songs.
+INFO:[DataPipeline]:PlayList: [7980065961] 粤语男声&#58;爱似狂潮也温柔 (1646/2019) has 60 songs.
+INFO:[DataPipeline]:PlayList: [7984852305] 伤感粤语：叫几百万人流泪过的歌 (1647/2019) has 80 songs.
+INFO:[DataPipeline]:PlayList: [2671456608] 「动听粤语」放不下的经典情怀 (1648/2019) has 177 songs.
+INFO:[DataPipeline]:PlayList: [7743630978] 经典粤语｜追逐时代里的浪潮 (1649/2019) has 139 songs.
+INFO:[DataPipeline]:Sleep for: 121
+INFO:[DataPipeline]:PlayList: [7726401548] 粤语经典丨时光沉淀的旋律 (1650/2019) has 135 songs.
+INFO:[DataPipeline]:PlayList: [5959773082] 粤语老歌：回忆的共鸣经典永流传 (1651/2019) has 127 songs.
+INFO:[DataPipeline]:PlayList: [7723655297] 粤语经典&#32;&#58;&#32;信步人生，海阔天空 (1652/2019) has 73 songs.
+INFO:[DataPipeline]:PlayList: [852125482] 那些播放量超高的粤语金曲合集 (1653/2019) has 152 songs.
+INFO:[DataPipeline]:PlayList: [8059893173] 品味粤语经典：留住荏苒旧时光 (1654/2019) has 50 songs.
+INFO:[DataPipeline]:PlayList: [1924720854] Wub&#32;Wub&#32;Dubstep&#58;&#32;A&#32;Tribute&#32;to (1655/2019) has 12 songs.
+INFO:[DataPipeline]:PlayList: [2336961637] Wub&#32;Wub&#32;Dubstep&#58;&#32;A&#32;T (1656/2019) has 12 songs.
+INFO:[DataPipeline]:PlayList: [7985081235] D&#38;B/Dubstep/接近分支 (1657/2019) has 32 songs.
+INFO:[DataPipeline]:PlayList: [1652521767] Wub&#32;Wub&#32;Dubstep (1658/2019) has 12 songs.
+INFO:[DataPipeline]:PlayList: [7819164329] B&#45;Dubstep&#32;2021 (1659/2019) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 76
+INFO:[DataPipeline]:PlayList: [1033636536] Wub&#32;Wub&#32;Dubstep&#58;&#32;A&#32;T (1660/2019) has 12 songs.
+INFO:[DataPipeline]:PlayList: [2912098758] Wub&#32;Wub&#32;Dubstep (1661/2019) has 12 songs.
+INFO:[DataPipeline]:PlayList: [2871544867] Wub&#32;Wub&#32;Dubstep&#58;&#32;A&#32;T (1662/2019) has 12 songs.
+INFO:[DataPipeline]:PlayList: [7812317841] bpm150&#32;dubsteptrap (1663/2019) has 10 songs.
+INFO:[DataPipeline]:PlayList: [2968766349] Brobstep！Dubstep！ (1664/2019) has 325 songs.
+INFO:[DataPipeline]:PlayList: [1012146041] BBox&#95;&#95;&#95;Dubstep (1665/2019) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7854121350] D&#38;B/Breakbeat/Dubstep (1666/2019) has 112 songs.
+INFO:[DataPipeline]:PlayList: [6753010324] Melodic&#32;Dubstep/&#32;Dn′B,&#32;&#32;Chillstep (1667/2019) has 211 songs.
+INFO:[DataPipeline]:PlayList: [7796918961] Dubstep&#32;3&#58;&#32;No&#32;warbles (1668/2019) has 17 songs.
+INFO:[DataPipeline]:PlayList: [7876864760] &#64;毒&#42;&#42;Dub/du/d&#46;&#46;dubstep&#33; (1669/2019) has 48 songs.
+INFO:[DataPipeline]:Sleep for: 63
+INFO:[DataPipeline]:PlayList: [2553668383] Chilled&#32;DubStep&#32;&#38;&#32;Bass&#32;&#45;&#32;Dub&#32;step&#32;&#58;&#32;Drum&#32;&#38;&#32;Bass&#32;&#58;&#32;Liquid&#32;Dub (1670/2019) has 27 songs.
+INFO:[DataPipeline]:PlayList: [6802897136] Melodic&#32;Dubstep&#32;&#40;Bauzzy&#41; (1671/2019) has 14 songs.
+INFO:[DataPipeline]:PlayList: [7364173602] 🇬🇧Disciple&#126;Dubstep&#40;B&#41; (1672/2019) has 194 songs.
+INFO:[DataPipeline]:PlayList: [7847989282] &#64;毒&#42;&#42;Dub/du/d&#46;&#46;dubstep&#33; (1673/2019) has 48 songs.
+INFO:[DataPipeline]:PlayList: [3789131706] 吴亦凡的电音 (1674/2019) has 31 songs.
+INFO:[DataPipeline]:PlayList: [5908496237] 不是吴亦凡的电音 (1675/2019) has 24 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1039: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=227626930&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=227626930&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=227626930&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))")),)
+INFO:[DataPipeline]:PlayList: [6572635216] 比吴亦凡还能电的电音 (1676/2019) has 11 songs.
+INFO:[DataPipeline]:PlayList: [7302969560] 吴亦凡（嘻哈&#46;电音） (1677/2019) has 47 songs.
+INFO:[DataPipeline]:PlayList: [7384509880] 电音吴亦凡 (1678/2019) has 12 songs.
+INFO:[DataPipeline]:PlayList: [7416088310] 电音吴亦凡 (1679/2019) has 21 songs.
+INFO:[DataPipeline]:Sleep for: 140
+INFO:[DataPipeline]:PlayList: [7137617632] 电音小王子&#45;吴亦凡 (1680/2019) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7978357974] 吴亦凡电音&#32; (1681/2019) has 22 songs.
+INFO:[DataPipeline]:PlayList: [3842907190] 究极电音，吴亦凡听了都说好 (1682/2019) has 51 songs.
+INFO:[DataPipeline]:PlayList: [1774328518] 让吴亦凡开口跪的老江湖，就是欧阳靖！ (1683/2019) has 28 songs.
+INFO:[DataPipeline]:PlayList: [927737881] 何森野 (1684/2019) has 856 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1039: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102877697&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102877697&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102877697&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))")),)
+INFO:[DataPipeline]:PlayList: [3507951457] 2℃吴亦凡 (1685/2019) has 499 songs.
+INFO:[DataPipeline]:PlayList: [4151330434] 吴亦凡全 (1686/2019) has 973 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1039: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=1346557&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=1346557&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=1346557&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))")),)
+INFO:[DataPipeline]:PlayList: [1772508278] &#42;&#42;&#42;music1 (1687/2019) has 29 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "runner_qq.py", line 51, in process_playlist
+    songs = api.get_songs_from_playlist(playlist_id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 23, in get_songs_from_playlist
+    response = self.fetch(url).get("cdlist", [])[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 83, in process_playlist
+    logger.error("Exception in processing playlist: ", e)
+Message: 'Exception in processing playlist: '
+Arguments: (IndexError('list index out of range'),)
+INFO:[DataPipeline]:PlayList: [4221412497] 吴亦凡 (1688/2019) has 205 songs.
+INFO:[DataPipeline]:PlayList: [2947521839] 吴亦凡 (1689/2019) has 89 songs.
+INFO:[DataPipeline]:Sleep for: 67
+INFO:[DataPipeline]:PlayList: [7384994468] 中国风 (1690/2019) has 422 songs.
+INFO:[DataPipeline]:PlayList: [3590852498] 中国风 (1691/2019) has 679 songs.
+INFO:[DataPipeline]:PlayList: [7073399649] 古风基本上都是一些古风中国风 (1692/2019) has 106 songs.
+INFO:[DataPipeline]:PlayList: [7248481060] 中国风 (1693/2019) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7580617129] 中国风&#32;&#32;古风 (1694/2019) has 105 songs.
+INFO:[DataPipeline]:PlayList: [7382392003] 中国风 (1695/2019) has 155 songs.
+INFO:[DataPipeline]:PlayList: [38921926] 你不知道他们也唱过的中国风 (1696/2019) has 12 songs.
+INFO:[DataPipeline]:PlayList: [7190382758] 中国风轻音乐 (1697/2019) has 73 songs.
+INFO:[DataPipeline]:PlayList: [7321565589] 中国风服装走秀～汉服/旗袍秀&#32;音乐 (1698/2019) has 76 songs.
+INFO:[DataPipeline]:PlayList: [20544802] 空寂&#32;中国风&#32;纯音乐 (1699/2019) has 8 songs.
+INFO:[DataPipeline]:Sleep for: 177
+INFO:[DataPipeline]:PlayList: [39735725] 最爱中国风 (1700/2019) has 6 songs.
+INFO:[DataPipeline]:PlayList: [7325823822] 中国风 (1701/2019) has 32 songs.
+INFO:[DataPipeline]:PlayList: [6997932023] 『中国风电音抖音』&#96;古风歌曲抖音最火2021 (1702/2019) has 270 songs.
+INFO:[DataPipeline]:PlayList: [6607719044] 中国风 (1703/2019) has 212 songs.
+INFO:[DataPipeline]:PlayList: [7119000981] 摇滚,电音,中国风,欧美,说唱 (1704/2019) has 714 songs.
+INFO:[DataPipeline]:PlayList: [7562046896] 中国风 (1705/2019) has 145 songs.
+INFO:[DataPipeline]:PlayList: [7097928553] 9中国风 (1706/2019) has 222 songs.
+INFO:[DataPipeline]:PlayList: [3741027754] 大爱中国风 (1707/2019) has 44 songs.
+INFO:[DataPipeline]:PlayList: [4084413689] 中国风 (1708/2019) has 226 songs.
+INFO:[DataPipeline]:PlayList: [7548163185] 国语中国风 (1709/2019) has 87 songs.
+INFO:[DataPipeline]:Sleep for: 37
+INFO:[DataPipeline]:PlayList: [3218402566] 让你值得循环的中国风歌曲 (1710/2019) has 93 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 911, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=168872&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=168872&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=168872&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))")),)
+INFO:[DataPipeline]:PlayList: [860969313] 中国风 (1711/2019) has 191 songs.
+INFO:[DataPipeline]:PlayList: [7377665295] 超喜欢的中国风 (1712/2019) has 162 songs.
+INFO:[DataPipeline]:PlayList: [38215332] 中国风撞上R&#38;B (1713/2019) has 10 songs.
+INFO:[DataPipeline]:PlayList: [1438348349] 中国风“凤凰传奇” (1714/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2595455627] 诗情画意中国风 (1715/2019) has 41 songs.
+INFO:[DataPipeline]:PlayList: [862069931] 中国风电音—国风燃&#46;醉其身&#46;傍于心 (1716/2019) has 81 songs.
+INFO:[DataPipeline]:PlayList: [26670401] 古韵中国风 (1717/2019) has 9 songs.
+INFO:[DataPipeline]:PlayList: [861731718] 【中国风】萌萌哒天团 (1718/2019) has 159 songs.
+INFO:[DataPipeline]:PlayList: [25725905] 题三字缘&#32;听中国风 (1719/2019) has 8 songs.
+INFO:[DataPipeline]:Sleep for: 157
+INFO:[DataPipeline]:PlayList: [7525177241] 中国风 (1720/2019) has 358 songs.
+INFO:[DataPipeline]:PlayList: [7050857059] 中国风 (1721/2019) has 438 songs.
+INFO:[DataPipeline]:PlayList: [3633527513] 中国风 (1722/2019) has 43 songs.
+INFO:[DataPipeline]:PlayList: [1734358426] 中国风电音 (1723/2019) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7389383349] 醉美中国风 (1724/2019) has 418 songs.
+INFO:[DataPipeline]:PlayList: [6937129256] 中国风 (1725/2019) has 170 songs.
+INFO:[DataPipeline]:PlayList: [3235725154] 欧美风与中国风&#32;你更喜欢哪种呢？ (1726/2019) has 457 songs.
+INFO:[DataPipeline]:PlayList: [2970696403] 游山戏水品古曲，闲来哼唱中国风 (1727/2019) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7354809273] 「华语」诗意中国风 (1728/2019) has 80 songs.
+INFO:[DataPipeline]:PlayList: [7316029644] 英文歌、中国风流行歌曲 (1729/2019) has 813 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 911, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=200487081&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=200487081&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=200487081&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))")),)
+INFO:[DataPipeline]:Sleep for: 127
+INFO:[DataPipeline]:PlayList: [1730298148] 中国风电音丨大气的宫调式电子 (1730/2019) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7123747011] 红歌经典中国风&#32;老革命歌曲 (1731/2019) has 50 songs.
+INFO:[DataPipeline]:PlayList: [1756409102] 禅意中国风 (1732/2019) has 26 songs.
+INFO:[DataPipeline]:PlayList: [3259274293] 中国风嘻哈&#32;&#32;Hip&#32;Hop (1733/2019) has 41 songs.
+INFO:[DataPipeline]:PlayList: [3353958091] 经典怀念中国风 (1734/2019) has 6 songs.
+INFO:[DataPipeline]:PlayList: [2975125898] 【周杰伦的中国风】古筝撩拨，琵琶淙淙 (1735/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7132465235] 布袋戏＋古风（中国风） (1736/2019) has 209 songs.
+INFO:[DataPipeline]:PlayList: [3591569306] 「不断更新」CCTV《国家宝藏》里的中国风 (1737/2019) has 128 songs.
+INFO:[DataPipeline]:PlayList: [2638629475] 长风当歌·最好听的中国风&#32;壹 (1738/2019) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7441346935] 中国风的日本纯音乐 (1739/2019) has 9 songs.
+INFO:[DataPipeline]:Sleep for: 116
+INFO:[DataPipeline]:PlayList: [7258058111] 中国风&#32;&#124;&#32;爱着你全部，相思却禁锢 (1740/2019) has 32 songs.
+INFO:[DataPipeline]:PlayList: [7064532215] 粤韵中国风&#32;·&#32;夕殿萤飞思悄然 (1741/2019) has 29 songs.
+INFO:[DataPipeline]:PlayList: [1558310340] 忧伤中国风：将唯美进行到底 (1742/2019) has 12 songs.
+INFO:[DataPipeline]:PlayList: [2613530865] 中国风的古风经典 (1743/2019) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7222862388] 韵味中国风&#32;&#124;&#32;如风吹拂耳畔 (1744/2019) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7276508746] 中国风纯音&#32;·&#32;感人悲壮影视原声 (1745/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7107607600] 练字怎么能少了中国风！ (1746/2019) has 44 songs.
+INFO:[DataPipeline]:PlayList: [3381263406] 诗情画意&#32;中国风 (1747/2019) has 28 songs.
+INFO:[DataPipeline]:PlayList: [1136459097] 你可能不曾听过的中国风&#32;壹 (1748/2019) has 22 songs.
+INFO:[DataPipeline]:PlayList: [1585448852] 唯美的词，唯美的中国风 (1749/2019) has 12 songs.
+INFO:[DataPipeline]:Sleep for: 140
+INFO:[DataPipeline]:PlayList: [37444361] 许嵩：恋上“许氏中国风” (1750/2019) has 10 songs.
+INFO:[DataPipeline]:PlayList: [2379251460] 中国嘻哈Vol&#46;9&#32;&#124;&#32;嘻哈中国风，饶舌会武功 (1751/2019) has 40 songs.
+INFO:[DataPipeline]:PlayList: [2242875213] 最爱中国风歌曲 (1752/2019) has 17 songs.
+INFO:[DataPipeline]:PlayList: [1407810707] 古风古韵，千里寻中国风 (1753/2019) has 463 songs.
+INFO:[DataPipeline]:PlayList: [3117570706] 那些深入耳目的中国风 (1754/2019) has 10 songs.
+INFO:[DataPipeline]:PlayList: [7268135321] 中国风说唱｜Rap里的风云录 (1755/2019) has 22 songs.
+INFO:[DataPipeline]:PlayList: [31425430] 最美&#32;最纯粹&#32;最中国风 (1756/2019) has 7 songs.
+INFO:[DataPipeline]:PlayList: [7660915882] China！中国风电音之崛起之路 (1757/2019) has 79 songs.
+INFO:[DataPipeline]:PlayList: [3454376003] 那些让人想哭的中国风 (1758/2019) has 17 songs.
+INFO:[DataPipeline]:PlayList: [1736751127] 悠悠曲中情&#32;&#32;浓浓中国风 (1759/2019) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 36
+INFO:[DataPipeline]:PlayList: [7526545650] 中国风：人聚散，蹉跎了此生缘 (1760/2019) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7096722158] 中国风纯音&#32;·&#32;卧听穿林打叶声 (1761/2019) has 31 songs.
+INFO:[DataPipeline]:PlayList: [1439230424] 现代的音乐唱出古典的味道—00年代中国风 (1762/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [39869764] 发现好听：主打歌，中国风 (1763/2019) has 9 songs.
+INFO:[DataPipeline]:PlayList: [7666747591] 「中国风」用心感受国之风韵 (1764/2019) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7000999900] 中国风翻唱&#32;&#58;&#32;翩跹佳人情 (1765/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1136459441] 内地独立乐队的中国风情结 (1766/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2034409251] 独立音乐中一缕中国风 (1767/2019) has 21 songs.
+INFO:[DataPipeline]:PlayList: [29894539] 悠悠中国风 (1768/2019) has 11 songs.
+INFO:[DataPipeline]:PlayList: [1351130712] 古韵中国风 (1769/2019) has 35 songs.
+INFO:[DataPipeline]:Sleep for: 81
+INFO:[DataPipeline]:PlayList: [31895287] 古琴韵律中国风 (1770/2019) has 10 songs.
+INFO:[DataPipeline]:PlayList: [1427893400] 优雅婉约派中国风好歌曲 (1771/2019) has 43 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1039: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102326271&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102326271&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=102326271&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))")),)
+INFO:[DataPipeline]:PlayList: [3799369922] 清箫吟情&#32;&#124;&#32;中国风乐器纯音选集 (1772/2019) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7588223964] bgm抖音中国风纯音乐古筝轻音乐钢琴曲睡眠 (1773/2019) has 756 songs.
+INFO:[DataPipeline]:PlayList: [1332396307] 那些回味的中国风 (1774/2019) has 9 songs.
+INFO:[DataPipeline]:PlayList: [2033980808] 中国风游戏乐曲&#32;在乐章里飘摇沉浮（二） (1775/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [708983216] 古风中国风 (1776/2019) has 127 songs.
+INFO:[DataPipeline]:PlayList: [7325035722] 12月中国风新歌：大雪照映如冰壶 (1777/2019) has 34 songs.
+INFO:[DataPipeline]:PlayList: [2431071897] 唯美中国风&#32;好运马上来 (1778/2019) has 8 songs.
+INFO:[DataPipeline]:PlayList: [1611842610] 新派中国风&#32;唯我所爱 (1779/2019) has 10 songs.
+INFO:[DataPipeline]:Sleep for: 33
+INFO:[DataPipeline]:PlayList: [7521321504] 影视中国风丨古装电视剧纯音合集 (1780/2019) has 29 songs.
+INFO:[DataPipeline]:PlayList: [31514073] 最爱中国风 (1781/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2638630407] 原来他们都爱周杰伦的中国风 (1782/2019) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7039749142] 百听不厌的周杰伦 (1783/2019) has 99 songs.
+INFO:[DataPipeline]:PlayList: [3805603854] 和周杰伦走过的21年，无与伦比 (1784/2019) has 202 songs.
+INFO:[DataPipeline]:PlayList: [7001048679] 最·周杰伦 (1785/2019) has 71 songs.
+INFO:[DataPipeline]:PlayList: [3230056671] 周杰伦最全歌曲正序集 (1786/2019) has 188 songs.
+INFO:[DataPipeline]:PlayList: [3806287274] 你听得到&#32;——&#32;周杰伦 (1787/2019) has 382 songs.
+INFO:[DataPipeline]:PlayList: [3553797029] 周杰伦经典 (1788/2019) has 37 songs.
+INFO:[DataPipeline]:PlayList: [1632421737] 周杰伦的悲伤情歌 (1789/2019) has 28 songs.
+INFO:[DataPipeline]:Sleep for: 46
+INFO:[DataPipeline]:PlayList: [1725914947] 周杰伦精选歌曲&#32;无限循环系列！ (1790/2019) has 120 songs.
+INFO:[DataPipeline]:PlayList: [7833602093] 周杰伦&#32;&#58;&#32;震撼乐坛的流行天王 (1791/2019) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7656729927] 「周杰伦」独立作曲作品合辑 (1792/2019) has 356 songs.
+INFO:[DataPipeline]:PlayList: [2342563467] 史上最全！周杰伦写给别人的歌 (1793/2019) has 136 songs.
+INFO:[DataPipeline]:PlayList: [2372403036] 「周杰伦」演唱会live最全合集 (1794/2019) has 117 songs.
+INFO:[DataPipeline]:PlayList: [1114118201] 周杰伦快歌精选，跟着杰伦一起哼哼哈兮 (1795/2019) has 49 songs.
+INFO:[DataPipeline]:PlayList: [3408226447] 周杰伦经典曲目合辑 (1796/2019) has 60 songs.
+INFO:[DataPipeline]:PlayList: [2370564869] 周杰伦2000&#45;2015年度作品大赏 (1797/2019) has 150 songs.
+INFO:[DataPipeline]:PlayList: [1741025804] 谁叫他是周杰伦 (1798/2019) has 16 songs.
+INFO:[DataPipeline]:PlayList: [3537306019] 周杰伦情歌 (1799/2019) has 31 songs.
+INFO:[DataPipeline]:Sleep for: 75
+INFO:[DataPipeline]:PlayList: [2308475533] 我落泪情绪零碎，周杰伦 (1800/2019) has 34 songs.
+INFO:[DataPipeline]:PlayList: [2032324604] 编辑推荐｜哎呦，这个调调永远那么的周杰伦 (1801/2019) has 82 songs.
+INFO:[DataPipeline]:PlayList: [7744804847] 华语男声：周杰伦领衔青春风暴 (1802/2019) has 119 songs.
+INFO:[DataPipeline]:PlayList: [2065383198] 周杰伦最全Live大合集 (1803/2019) has 135 songs.
+INFO:[DataPipeline]:PlayList: [7296644750] 中国风摇滚&#32;·&#32;沧海一声笑 (1804/2019) has 30 songs.
+INFO:[DataPipeline]:PlayList: [802499898] 聆听最美的中国风 (1805/2019) has 26 songs.
+INFO:[DataPipeline]:PlayList: [774691074] 古韵悠扬&#32;最美中国风 (1806/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7049231700] 中国风对唱&#32;&#124;&#32;山有木兮卿有意 (1807/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1097368838] 出彩中国风，出彩中国情 (1808/2019) has 22 songs.
+INFO:[DataPipeline]:PlayList: [1985818147] 细细品味，中国风的独特韵味 (1809/2019) has 21 songs.
+INFO:[DataPipeline]:Sleep for: 98
+INFO:[DataPipeline]:PlayList: [1099712568] 用心聆听，神韵唯美中国风 (1810/2019) has 35 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 911, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=5454371&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=5454371&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=5454371&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))")),)
+INFO:[DataPipeline]:PlayList: [1400454862] 曲缠心头绕耳过，唯美中国风。 (1811/2019) has 29 songs.
+INFO:[DataPipeline]:PlayList: [841440237] 那些好听的中国风游戏BGM (1812/2019) has 46 songs.
+INFO:[DataPipeline]:PlayList: [1970661648] 中国风·诗情画意里的水墨丹青 (1813/2019) has 22 songs.
+INFO:[DataPipeline]:PlayList: [3540670157] 饱含唐诗宋词的中国风 (1814/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1677429286] 中国风，就是要首首经典 (1815/2019) has 35 songs.
+INFO:[DataPipeline]:PlayList: [1966462202] 男神独畅中国风 (1816/2019) has 38 songs.
+INFO:[DataPipeline]:PlayList: [7255707078] 古装电视剧里的中国风纯音 (1817/2019) has 26 songs.
+INFO:[DataPipeline]:PlayList: [1676558435] 中国风几多首，画面各不同 (1818/2019) has 45 songs.
+INFO:[DataPipeline]:PlayList: [3557827981] 荡气回肠！当电音邂逅中国风 (1819/2019) has 157 songs.
+INFO:[DataPipeline]:Sleep for: 158
+INFO:[DataPipeline]:PlayList: [7768275946] 古风亦可DJ｜中国风也能蹦迪 (1820/2019) has 68 songs.
+INFO:[DataPipeline]:PlayList: [3470447267] 最唯美的流行中国风民乐 (1821/2019) has 24 songs.
+INFO:[DataPipeline]:PlayList: [1984450082] 微风古韵留醇音，中国风歌曲小集 (1822/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1669441450] 中国风里面的如花梦境 (1823/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [1377177239] 中国风里的意境音韵 (1824/2019) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7141481321] 「国语ACG」当中国风遇上了国漫 (1825/2019) has 30 songs.
+INFO:[DataPipeline]:PlayList: [1136462093] 古韵悠然&#32;&#124;&#32;一人一首中国风 (1826/2019) has 24 songs.
+INFO:[DataPipeline]:PlayList: [3851787501] 中国风&#32;·&#32;快意恩仇江湖事 (1827/2019) has 30 songs.
+INFO:[DataPipeline]:PlayList: [1678228134] 两字中国风，韵味更悠长 (1828/2019) has 26 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 911, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=96046&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=96046&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=96046&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))")),)
+INFO:[DataPipeline]:PlayList: [1406647667] 倾听一首醉人中国风 (1829/2019) has 18 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 911, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=166892&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=166892&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=166892&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))")),)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 911, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=5177803&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=5177803&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=5177803&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))")),)
+INFO:[DataPipeline]:Sleep for: 64
+INFO:[DataPipeline]:PlayList: [2275211348] 邂逅醉美中国风 (1830/2019) has 27 songs.
+INFO:[DataPipeline]:PlayList: [3271920194] 欧美·中国风‖中西文化的完美交融 (1831/2019) has 112 songs.
+INFO:[DataPipeline]:PlayList: [1678475408] 经典中国风歌曲选录 (1832/2019) has 29 songs.
+INFO:[DataPipeline]:PlayList: [2881752535] 那些唯美的中国风 (1833/2019) has 30 songs.
+INFO:[DataPipeline]:PlayList: [759264184] 混搭中国风。聆听美（第一季） (1834/2019) has 47 songs.
+INFO:[DataPipeline]:PlayList: [1973416488] 中国风·管弦和鸣里的水墨丹青 (1835/2019) has 33 songs.
+INFO:[DataPipeline]:PlayList: [1674768406] 给中国风来点力量 (1836/2019) has 22 songs.
+INFO:[DataPipeline]:PlayList: [1348839275] 好听到心碎的中国风纯音乐 (1837/2019) has 17 songs.
+INFO:[DataPipeline]:PlayList: [1736824520] 【中国风】长歌婉转，古韵悠然&#32;壹 (1838/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [3822117104] 『中国风』古装剧中的深情男声 (1839/2019) has 30 songs.
+INFO:[DataPipeline]:Sleep for: 131
+INFO:[DataPipeline]:PlayList: [2247170577] 中国风的歌，是否听过呢 (1840/2019) has 16 songs.
+INFO:[DataPipeline]:PlayList: [1670947988] 网路上很流行的古风中国风 (1841/2019) has 23 songs.
+INFO:[DataPipeline]:PlayList: [1725941745] 用音乐触动你的心弦的中国风歌曲 (1842/2019) has 21 songs.
+INFO:[DataPipeline]:PlayList: [2339497465] 唯美中国风，悠悠华夏韵 (1843/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2925038242] 属于他们心中的粤语中国风情怀 (1844/2019) has 26 songs.
+INFO:[DataPipeline]:PlayList: [7331482573] 中国风对唱&#32;·&#32;金风玉露一相逢 (1845/2019) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7743403922] 2020抖音京剧中国风 (1846/2019) has 8 songs.
+INFO:[DataPipeline]:PlayList: [7098027932] 中国风影视剧【男声篇】 (1847/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7324484273] 中国风女声&#32;·&#32;一曲轻歌醉人心 (1848/2019) has 35 songs.
+INFO:[DataPipeline]:PlayList: [1079610829] 后弦十年中国风&#32;你错过了多少？ (1849/2019) has 27 songs.
+INFO:[DataPipeline]:Sleep for: 135
+INFO:[DataPipeline]:PlayList: [7503734031] 周深｜温柔嗓音，清澈空灵 (1850/2019) has 242 songs.
+INFO:[DataPipeline]:PlayList: [7839419955] 周深全部歌 (1851/2019) has 298 songs.
+INFO:[DataPipeline]:PlayList: [7026595737] 周深最新单曲 (1852/2019) has 118 songs.
+INFO:[DataPipeline]:PlayList: [7520517030] 缥缈空灵&#32;&#124;&#32;专属周深翻唱集盘点 (1853/2019) has 76 songs.
+INFO:[DataPipeline]:PlayList: [7284611562] 李克勤周深（勤深深） (1854/2019) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7498999604] 神仙嗓音丨周深献唱影视原声集 (1855/2019) has 36 songs.
+INFO:[DataPipeline]:PlayList: [7337210245] Live&#32;│&#32;有一种天籁之音，叫周深 (1856/2019) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7393178115] 无法抗拒的周深原唱 (1857/2019) has 86 songs.
+INFO:[DataPipeline]:PlayList: [1439653272] 周深歌曲汇 (1858/2019) has 81 songs.
+INFO:[DataPipeline]:PlayList: [7595711361] 神仙合作现场！周深&#32;李克勤 (1859/2019) has 23 songs.
+INFO:[DataPipeline]:Sleep for: 65
+INFO:[DataPipeline]:PlayList: [1483839531] 全是周深的歌 (1860/2019) has 59 songs.
+INFO:[DataPipeline]:PlayList: [4185019581] 卡布叻&#95;周深 (1861/2019) has 223 songs.
+INFO:[DataPipeline]:PlayList: [1780244891] 史上最强辅助周深！助黑马击败张碧晨叶炫清 (1862/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7499000293] 神仙拍档丨周深合唱歌曲集锦 (1863/2019) has 34 songs.
+INFO:[DataPipeline]:PlayList: [5862543980] 来自海妖的吟唱&#45;致最好的周深 (1864/2019) has 326 songs.
+INFO:[DataPipeline]:PlayList: [7456785363] 周深～2020年【歌手•当打之年】 (1865/2019) has 360 songs.
+INFO:[DataPipeline]:PlayList: [7337534017] 盘点周深的综艺现场版音乐 (1866/2019) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7743574354] 周深Live&#32;&#124;&#32;天籁之音，治愈心灵 (1867/2019) has 111 songs.
+INFO:[DataPipeline]:PlayList: [848243263] 周深周深周深 (1868/2019) has 185 songs.
+INFO:[DataPipeline]:PlayList: [7914806715] 周深★拥有独特魅力的歌手 (1869/2019) has 18 songs.
+INFO:[DataPipeline]:Sleep for: 35
+INFO:[DataPipeline]:PlayList: [7381393630] 周深&#32;&#124;&#32;化“深”孤岛的鲸 (1870/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7717986006] 华语&#32;&#124;&#32;90后耳熟能详的经典歌曲 (1871/2019) has 129 songs.
+INFO:[DataPipeline]:PlayList: [7212954362] 解压：瞬间上头的极致high歌劲曲 (1872/2019) has 40 songs.
+INFO:[DataPipeline]:PlayList: [8092585857] 时代神曲Live&#32;&#124;&#32;无法拒绝跟唱 (1873/2019) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7483197510] &#32;那些年MP3里循环播放的劲歌 (1874/2019) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7499064535] 王俊凯&#32;&#124;&#32;青春岁月都与你相关 (1875/2019) has 160 songs.
+INFO:[DataPipeline]:PlayList: [3240945194] 华语｜才华横溢&#32;&#32;让人惊艳的改编作品 (1876/2019) has 55 songs.
+INFO:[DataPipeline]:PlayList: [7199066251] 极致high歌，引出我的洪荒之力 (1877/2019) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7152912767] 催化好心情！专治你的不开心 (1878/2019) has 34 songs.
+INFO:[DataPipeline]:PlayList: [8043612234] 流淌的歌声&#32;&#124;&#32;经典歌曲合集 (1879/2019) has 78 songs.
+INFO:[DataPipeline]:Sleep for: 86
+INFO:[DataPipeline]:PlayList: [894882909] 华语金曲原创PK原唱，哪个才是你的菜？ (1880/2019) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7526533857] 云朵Live&#32;·&#32;享受极致高音 (1881/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7917079581] K歌气氛！拒绝悲伤只要high (1882/2019) has 35 songs.
+INFO:[DataPipeline]:PlayList: [7862244348] 电音派对：跳舞怎能没有high歌 (1883/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7719684960] high歌100首丨一百一摆 (1884/2019) has 100 songs.
+INFO:[DataPipeline]:PlayList: [7569456910] 黄龄：转音歌姬，蚀骨销魂 (1885/2019) has 49 songs.
+INFO:[DataPipeline]:PlayList: [1469897659] 「华语女声」那些故事，听她们细细诉说 (1886/2019) has 92 songs.
+INFO:[DataPipeline]:PlayList: [1784375110] 华语&#32;&#124;&#32;总有一款声音，能撩到你 (1887/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [2067205742] 前方高能！一大波鬼畜&#38;神曲来袭 (1888/2019) has 390 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 308, in connect
+    self._tunnel()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/http/client.py", line 911, in _tunnel
+    message.strip()))
+OSError: Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=4822184&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=4822184&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=4822184&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 502 Proxy Error: server_error Error creating ext request: TUN_ERR: Destination host connect timeout')))")),)
+INFO:[DataPipeline]:PlayList: [1687251549] 听疯了！这些魔性华语旋律&#126; (1889/2019) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 138
+INFO:[DataPipeline]:PlayList: [8018719834] 仲夏活力派对/心动High歌收藏夹 (1890/2019) has 38 songs.
+INFO:[DataPipeline]:PlayList: [7845274413] 动感节奏之欧美劲曲每首都值得收藏的好歌第一季（动感,电音,摇滚,欢快,劲歌热舞,清新,舞曲,High歌,节奏感,R&#38;B,欧美,快歌,重低音,RAP,好听,Hip&#45;Hop,DJ,流行,夜店舞曲,街舞,Dance） (1891/2019) has 47 songs.
+INFO:[DataPipeline]:PlayList: [8053670292] 20210630&#32;JSJ1 (1892/2019) has 150 songs.
+INFO:[DataPipeline]:PlayList: [7846365438] jsj1 (1893/2019) has 3 songs.
+INFO:[DataPipeline]:PlayList: [3717057172] jsj一 (1894/2019) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7276516099] JSJ–d1 (1895/2019) has 21 songs.
+INFO:[DataPipeline]:PlayList: [1654906650] 1jsj (1896/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2067205993] 「民谣」没有花朵，生活依旧如歌 (1897/2019) has 76 songs.
+INFO:[DataPipeline]:PlayList: [3520284679] 日系民谣·悦耳动听欲罢不能 (1898/2019) has 35 songs.
+INFO:[DataPipeline]:PlayList: [1151589478] 那些民谣里的姑娘，你们还好吗？ (1899/2019) has 35 songs.
+INFO:[DataPipeline]:Sleep for: 31
+INFO:[DataPipeline]:PlayList: [6947819714] 睡前民谣&#32;·&#32;享受夜晚的宁谧 (1900/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7042639750] 非洲鼓&#32;&#124;&#32;民谣里的一缕清风 (1901/2019) has 56 songs.
+INFO:[DataPipeline]:PlayList: [1464182287] 动听的华语传统旋律『民谣』 (1902/2019) has 52 songs.
+INFO:[DataPipeline]:PlayList: [3777963010] 内地新生代90后民谣男歌手 (1903/2019) has 113 songs.
+INFO:[DataPipeline]:PlayList: [3555864243] 迷人音色&#32;且听北欧风情民谣 (1904/2019) has 32 songs.
+INFO:[DataPipeline]:PlayList: [1172259080] 粤语民谣：品味清新恬淡的港式文艺 (1905/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [2051701705] 嗨，姑娘，听我唱一首关于你的民谣 (1906/2019) has 41 songs.
+INFO:[DataPipeline]:PlayList: [7097065817] 散落在灵魂里的民谣与酒 (1907/2019) has 142 songs.
+INFO:[DataPipeline]:PlayList: [2963748732] 民谣&#124;&#32;那些才华横溢的创作型女歌手们 (1908/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [1141565182] 民谣小集·浅吟内心深处的歌 (1909/2019) has 26 songs.
+INFO:[DataPipeline]:Sleep for: 114
+INFO:[DataPipeline]:PlayList: [840813491] 当代民谣是最安静的角落 (1910/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [3284476064] 民谣很庸俗，却俗得让人止不住落泪 (1911/2019) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7285148674] 民谣&#32;·&#32;和你书写平淡爱情 (1912/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7651799031] 治愈民谣：万事尽头，终将美好 (1913/2019) has 50 songs.
+INFO:[DataPipeline]:PlayList: [7228610527] 民谣&#32;&#124;&#32;一帆风顺那就不叫生活了 (1914/2019) has 37 songs.
+INFO:[DataPipeline]:PlayList: [7542635287] 民谣酒馆：我有故事，就缺你了！ (1915/2019) has 28 songs.
+INFO:[DataPipeline]:PlayList: [874279190] 安静民谣：调养浮躁的内心 (1916/2019) has 40 songs.
+INFO:[DataPipeline]:PlayList: [2033697765] 非常适合开车听的民谣摇滚 (1917/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [3627037029] 治愈民谣：我们是被孤独养大的孩子 (1918/2019) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7654528700] 英文民谣&#32;丨清浅岁月的温柔时光 (1919/2019) has 28 songs.
+INFO:[DataPipeline]:Sleep for: 93
+INFO:[DataPipeline]:PlayList: [2974913724] 想嫁喜欢民谣的男孩！因为他们会说情话 (1920/2019) has 35 songs.
+INFO:[DataPipeline]:PlayList: [4123463012] 想分享到朋友圈的小众华语民谣 (1921/2019) has 42 songs.
+INFO:[DataPipeline]:PlayList: [7664974555] 野孩子乐队：真正的民谣是流传 (1922/2019) has 36 songs.
+INFO:[DataPipeline]:PlayList: [2670810005] 「民谣」无词之歌也很美 (1923/2019) has 35 songs.
+INFO:[DataPipeline]:PlayList: [2811529343] &#32;民谣｜孤影世界，我只保持我的沉默 (1924/2019) has 63 songs.
+INFO:[DataPipeline]:PlayList: [7637486990] 柔软的黄昏弹一首温柔的『民谣』 (1925/2019) has 15 songs.
+INFO:[DataPipeline]:PlayList: [3277646402] 清冷民谣揉入优雅弦乐，故事娓娓道来 (1926/2019) has 23 songs.
+INFO:[DataPipeline]:PlayList: [7097547552] 治愈民谣，闪烁在心底的萤火 (1927/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [3820719243] 温情细语：30位80后民谣女歌手 (1928/2019) has 60 songs.
+INFO:[DataPipeline]:PlayList: [7329363113] 民谣&#32;｜&#32;孤独难过的深夜有你 (1929/2019) has 41 songs.
+INFO:[DataPipeline]:Sleep for: 130
+INFO:[DataPipeline]:PlayList: [4135306633] 初夏凉意：复习时听的舒适民谣 (1930/2019) has 42 songs.
+INFO:[DataPipeline]:PlayList: [2372395489] 「民谣」青春未尽游丝逸 (1931/2019) has 133 songs.
+INFO:[DataPipeline]:PlayList: [7160347090] 欧美民谣&#32;&#58;&#32;聆赏&#32;·&#32;轻语呢喃 (1932/2019) has 52 songs.
+INFO:[DataPipeline]:PlayList: [2916612113] 小众冷门，但很好听的民谣 (1933/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1460007917] 内地民谣的演变之路 (1934/2019) has 43 songs.
+INFO:[DataPipeline]:PlayList: [1438601016] 送你几首不落俗套的小清新民谣 (1935/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [2685155605] 你说民谣很空&#32;，听起来心却是满的 (1936/2019) has 34 songs.
+INFO:[DataPipeline]:PlayList: [7602943507] 「民谣」那些为生活坚持的人 (1937/2019) has 38 songs.
+INFO:[DataPipeline]:PlayList: [842308282] 民谣唱的悲与欢，哭与笑 (1938/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7039423746] 丽江&#38;大理&#32;&#124;&#32;古城飘来的民谣声 (1939/2019) has 72 songs.
+INFO:[DataPipeline]:Sleep for: 128
+INFO:[DataPipeline]:PlayList: [2038416303] 当电影碰撞民谣 (1940/2019) has 29 songs.
+INFO:[DataPipeline]:PlayList: [2968771069] 「民谣」我想和你虚度光阴 (1941/2019) has 143 songs.
+INFO:[DataPipeline]:PlayList: [7536399701] 老狼&#32;&#124;&#32;校园民谣之父 (1942/2019) has 65 songs.
+INFO:[DataPipeline]:PlayList: [6911101421] 华语民谣&#32;&#58;&#32;把名字记述在歌里 (1943/2019) has 36 songs.
+INFO:[DataPipeline]:PlayList: [1480502685] 国风民谣：浮生一梦，清霜素月亦可相知 (1944/2019) has 31 songs.
+INFO:[DataPipeline]:PlayList: [4504257753] 下午茶时间来杯爵士味儿咖啡吧 (1945/2019) has 26 songs.
+INFO:[DataPipeline]:PlayList: [2076908563] 午睡迅速入眠，下午精神百倍 (1946/2019) has 19 songs.
+INFO:[DataPipeline]:PlayList: [3559840718] 韩式小清新，独享美妙的下午茶时光 (1947/2019) has 44 songs.
+INFO:[DataPipeline]:PlayList: [7800100978] 下午茶&#32;&#124;&#32;享受慢节奏的安静旋律 (1948/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7746541997] 咖啡时光&#32;&#124;&#32;享受静谧悠闲下午茶 (1949/2019) has 16 songs.
+INFO:[DataPipeline]:Sleep for: 72
+INFO:[DataPipeline]:PlayList: [7822331577] 迷幻摇滚品赏&#32;&#124;&#32;别味韵酿下午茶 (1950/2019) has 27 songs.
+INFO:[DataPipeline]:PlayList: [7852828667] 享受100％&#32;&#124;&#32;欧美风下午茶party (1951/2019) has 49 songs.
+INFO:[DataPipeline]:PlayList: [1464218401] 下午茶精选，一杯咖啡搭配一盘蛋糕 (1952/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7768236638] 蓝调&#32;&#124;&#32;慵懒恬淡的下午茶时间 (1953/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7466752538] 可以听一下午的100首欧美音乐 (1954/2019) has 101 songs.
+INFO:[DataPipeline]:PlayList: [7772756871] 悠闲下午茶：惬享美好时光 (1955/2019) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7709063348] 下午茶de安逸时光～小曲get√ (1956/2019) has 50 songs.
+INFO:[DataPipeline]:PlayList: [6335999930] 下午茶的清甜香：无损法语 (1957/2019) has 15 songs.
+INFO:[DataPipeline]:PlayList: [7182031450] 慵懒秋日，饮杯暖暖的美式下午茶 (1958/2019) has 39 songs.
+INFO:[DataPipeline]:PlayList: [7759145510] 【纯音乐】下午茶舒适音乐好时光 (1959/2019) has 27 songs.
+INFO:[DataPipeline]:Sleep for: 42
+INFO:[DataPipeline]:PlayList: [7718759462] 【午后时光】享受下午的欧美蜜嗓 (1960/2019) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7795889675] 下午茶时刻丨驱散乏意，治愈心情 (1961/2019) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7790511834] 下午茶时光&#32;&#124;&#32;享受惬意的慢节奏 (1962/2019) has 28 songs.
+INFO:[DataPipeline]:PlayList: [7818775727] 下午茶轻音：陶冶情调的高雅生活 (1963/2019) has 21 songs.
+INFO:[DataPipeline]:PlayList: [7337448423] 华语流行&#32;·&#32;带你去看海 (1964/2019) has 22 songs.
+INFO:[DataPipeline]:PlayList: [2644732217] 等一下！让我换个姿势听：现代流行&#38;民歌 (1965/2019) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7589966862] 渲染•让流行变得更加美好 (1966/2019) has 195 songs.
+INFO:[DataPipeline]:PlayList: [7361181080] 华语流行&#32;·&#32;抬起双脚快乐蹦跶 (1967/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7356737507] 华语流行&#32;│&#32;音乐是如此美好 (1968/2019) has 25 songs.
+INFO:[DataPipeline]:PlayList: [7538936119] 华语流行&#32;&#124;&#32;Live带来的震撼享受 (1969/2019) has 24 songs.
+INFO:[DataPipeline]:Sleep for: 95
+INFO:[DataPipeline]:PlayList: [7122072550] 华语流行&#32;·&#32;轻盈节奏赶走烦恼 (1970/2019) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7503131207] 『欧美』流行经典好歌精选 (1971/2019) has 40 songs.
+INFO:[DataPipeline]:PlayList: [7276566844] 华语流行&#124;海里的星星 (1972/2019) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7516173877] 国风电音：邂逅跨时代的流行 (1973/2019) has 33 songs.
+INFO:[DataPipeline]:PlayList: [4941296510] 意大利流行&#32;·&#32;地中海东线游 (1974/2019) has 32 songs.
+INFO:[DataPipeline]:PlayList: [2381869986] 欧美流行，不插电才养耳朵 (1975/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [7060356460] 散落在世间的嗓音&#32;&#124;&#32;流行翻唱 (1976/2019) has 41 songs.
+INFO:[DataPipeline]:PlayList: [834841992] 清新优美的乡村流行音乐 (1977/2019) has 22 songs.
+INFO:[DataPipeline]:PlayList: [7167574843] 华语流行&#32;&#124;&#32;侧耳倾听，与风窃窃私语 (1978/2019) has 204 songs.
+INFO:[DataPipeline]:PlayList: [7060352672] 国语流行&#32;&#124;&#32;做家务听点女人语录 (1979/2019) has 38 songs.
+INFO:[DataPipeline]:Sleep for: 63
+INFO:[DataPipeline]:PlayList: [7337450528] 欧美流行&#32;&#124;&#32;承包踩单车时的耳朵 (1980/2019) has 31 songs.
+INFO:[DataPipeline]:PlayList: [7629038360] 欧美流行丨少年存留内心的旋律 (1981/2019) has 180 songs.
+INFO:[DataPipeline]:PlayList: [1439204769] 10年代&#45;香港流行金曲精选（2） (1982/2019) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7496931136] 华语流行&#32;&#124;&#32;有些经典另我们陶醉 (1983/2019) has 30 songs.
+INFO:[DataPipeline]:PlayList: [7622410872] 欧美流行｜声如贯珠，玉石之声 (1984/2019) has 119 songs.
+INFO:[DataPipeline]:PlayList: [7449955444] 华语流行&#32;·&#32;街灯映射着温暖的光 (1985/2019) has 21 songs.
+INFO:[DataPipeline]:PlayList: [2679399249] Sophisti&#32;Pop&#32;&#124;&#32;赖床时听的文雅流行 (1986/2019) has 35 songs.
+INFO:[DataPipeline]:PlayList: [3538102914] 2016年热门英文流行歌曲 (1987/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [2031864906] 梦醒&#32;·&#32;一曲萨克斯唤醒流行细胞 (1988/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [4261986738] 网络歌手：日语流行的中文翻唱 (1989/2019) has 38 songs.
+INFO:[DataPipeline]:Sleep for: 121
+INFO:[DataPipeline]:PlayList: [7060359088] 你不知道的小众华语流行歌曲 (1990/2019) has 55 songs.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 662, in urlopen
+    self._prepare_proxy(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 948, in _prepare_proxy
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 360, in connect
+    ssl_context=context,
+  File "/Library/Python/3.7/site-packages/urllib3/util/ssl_.py", line 370, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 853, in _create
+    self.do_handshake()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/ssl.py", line 1117, in do_handshake
+    self._sslobj.do_handshake()
+socket.timeout: _ssl.c:1039: The handshake operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=213337723&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "runner_qq.py", line 58, in process_playlist
+    lyric = api.get_song_lyric(song.id)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/qq_api.py", line 43, in get_song_lyric
+    raw_text = self.fetch_raw(url)
+  File "/private/var/root/.jenkins/workspace/data-minyao/dao/base_api.py", line 34, in fetch_raw
+    verify=False)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 510, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=213337723&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 1034, in emit
+    msg = self.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 880, in format
+    return fmt.format(record)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 619, in format
+    record.message = record.getMessage()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/logging/__init__.py", line 380, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "runner_qq.py", line 158, in <module>
+    main()
+  File "runner_qq.py", line 145, in main
+    args.proxy, logger, args.dump_raw, args.dump_seg)
+  File "runner_qq.py", line 68, in process_playlist
+    logger.error("Exception in processing songs: ", err)
+Message: 'Exception in processing songs: '
+Arguments: (ProxyError(MaxRetryError("HTTPSConnectionPool(host='c.y.qq.com', port=443): Max retries exceeded with url: /lyric/fcgi-bin/fcg_query_lyric.fcg?g_tk=5381&format=json&inCharset=utf-8&outCharset=utf-8&platform=h5&needNewCode=1&nobase64=1&musicid=213337723&_=1513437581324 (Caused by ProxyError('Cannot connect to proxy.', timeout('_ssl.c:1039: The handshake operation timed out')))")),)
+INFO:[DataPipeline]:PlayList: [7174018971] 最新流行：别再唱老掉牙的歌啦！ (1991/2019) has 83 songs.
+INFO:[DataPipeline]:PlayList: [7277951688] 华语流行&#124;不想晒太阳 (1992/2019) has 18 songs.
+INFO:[DataPipeline]:PlayList: [1766735346] 「煲耳机必备」舒缓欧美流行单曲 (1993/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7060355093] 欧美流行：这就是绚丽烂漫的爱情 (1994/2019) has 52 songs.
+INFO:[DataPipeline]:PlayList: [841008996] 日本经典流行歌曲选集 (1995/2019) has 19 songs.
+INFO:[DataPipeline]:PlayList: [7382975427] 华语流行&#32;·&#32;轻盈韵律调整心情 (1996/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7494358619] 『英文流行』静听欧美空灵之声 (1997/2019) has 369 songs.
+INFO:[DataPipeline]:PlayList: [7099740925] 华语流行&#32;&#124;&#32;过好自己今后的生活 (1998/2019) has 29 songs.
+INFO:[DataPipeline]:PlayList: [7532016145] 手机铃声&#32;&#124;&#32;欧美流行一听即倾心 (1999/2019) has 44 songs.
+INFO:[DataPipeline]:Sleep for: 73
+INFO:[DataPipeline]:PlayList: [7667169997] 华语流行&#32;&#124;&#32;魅惑女嗓，一秒沉沦 (2000/2019) has 137 songs.
+INFO:[DataPipeline]:PlayList: [1139960344] 沉醉在国语小众流行曲中的旋律 (2001/2019) has 24 songs.
+INFO:[DataPipeline]:PlayList: [3243973248] 不骄不躁的华语流行暖曲 (2002/2019) has 19 songs.
+INFO:[DataPipeline]:PlayList: [2945715847] 活力流行劲曲，你的HIIT健身好伴侣 (2003/2019) has 59 songs.
+INFO:[DataPipeline]:PlayList: [7638120425] 日语流行音乐，咖啡般的温暖 (2004/2019) has 124 songs.
+INFO:[DataPipeline]:PlayList: [7337449277] 流行民族风：风中歌唱的草原情 (2005/2019) has 24 songs.
+INFO:[DataPipeline]:PlayList: [7346877061] 欧美流行&#32;&#124;&#32;重启疲劳卡壳的大脑 (2006/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7432985914] 华语流行&#32;·&#32;小众女声爱情物语 (2007/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7060354973] 欧美流行：给化妆时间加点颜色 (2008/2019) has 48 songs.
+INFO:[DataPipeline]:PlayList: [3563640159] 香港男歌手，唱你最爱的流行歌 (2009/2019) has 20 songs.
+INFO:[DataPipeline]:Sleep for: 75
+INFO:[DataPipeline]:PlayList: [2953891975] 『欧美流行』抖腿不能停系列 (2010/2019) has 20 songs.
+INFO:[DataPipeline]:PlayList: [7087913190] 文雅流行，温润的浪漫年代 (2011/2019) has 26 songs.
+INFO:[DataPipeline]:PlayList: [2638549357] 00年代香港流行音乐系列（3） (2012/2019) has 19 songs.
++ mv /var/root/.jenkins/workspace/data-minyao/minyao.txt /Users/hongliang/media/storage/production_data/original_lyric/20210814
+Finished: SUCCESS
