@@ -1,0 +1,178 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>Word rhymer training pipeline.</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>storage_dir</name>
+          <description>The root directory.</description>
+          <defaultValue>/Users/hongliang/media/storage</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>word_models_date</name>
+          <description>word_models_dir example: /Users/hongliang/media/storage/production_data/word_models/20210523</description>
+          <defaultValue></defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>segmentation_date</name>
+          <description>segmentation_dir example: /Users/hongliang/media/storage/dev_data/word_model_pipeline/20210704</description>
+          <defaultValue></defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>output_date</name>
+          <description>If left empty, will use today&apos;s date.</description>
+          <defaultValue></defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>batch_size</name>
+          <description></description>
+          <defaultValue>64</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>n_layers</name>
+          <description></description>
+          <defaultValue>3</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>input_embed_dim</name>
+          <description></description>
+          <defaultValue>32</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>hidden_dim</name>
+          <description></description>
+          <defaultValue>32</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>embed_dim</name>
+          <description></description>
+          <defaultValue>32</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>target_dim</name>
+          <description></description>
+          <defaultValue>2</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>activation</name>
+          <description>Options: relu, sigmoid, tanh, leakyRelu</description>
+          <defaultValue>leakyRelu</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>epochs</name>
+          <description></description>
+          <defaultValue>10</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>feature_mapper</name>
+          <description>Refer to `feature_mappers` of https://github.com/yuhongliang324/kirinBrain/blob/master/word_recommender</description>
+          <defaultValue>v1</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>dump_embeddings</name>
+          <description>Dump embedding instead of running KNN.</description>
+          <defaultValue>true</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+        <hudson.model.BooleanParameterDefinition>
+          <name>skip_training</name>
+          <description></description>
+          <defaultValue>false</defaultValue>
+        </hudson.model.BooleanParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@4.2.0">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <url>git@github.com:kirinisland/kirinBrain.git</url>
+        <credentialsId>root</credentialsId>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/master</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <submoduleCfg class="list"/>
+    <extensions/>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>set -x
+
+source /Users/hongliang/envs/pytorch/bin/activate
+cd word_recommender
+
+export PYTHONPATH=&quot;$PYTHONPATH:../kirin:..:.&quot;
+
+word_models_dir=&quot;${storage_dir}/production_data/word_models/${word_models_date}&quot;
+segmentation_dir=&quot;${storage_dir}/dev_data/word_model_pipeline/${segmentation_date}&quot;
+
+if [ &quot;${output_date}&quot; == &quot;&quot; ];
+then
+  output_date=`date +&quot;%Y%m%d&quot;`
+fi
+output_dir=&quot;${storage_dir}/production_data/word_models/${output_date}&quot;
+mkdir -pv ${output_dir}
+
+
+if [ &quot;${skip_training}&quot; == &quot;false&quot; ];
+then
+  CMD=&quot;python run_training.py --word-models-dir ${word_models_dir} \
+      --segmentation-dir ${segmentation_dir} \
+      --output-dir ${output_dir} --batch-size ${batch_size} \
+      --n-layers ${n_layers} --input-embed-dim  ${input_embed_dim} \
+      --hidden-dim ${hidden_dim} --embed-dim ${embed_dim} \
+      --target-dim ${target_dim} --activation ${activation} \
+      --epochs ${epochs} --feature-mapper ${feature_mapper}&quot;
+  
+  ${CMD}
+fi
+
+model_path=`ls -t ${output_dir}/*.pt | head -1`
+
+CMD=&quot;python run_inference.py --word-models-dir ${word_models_dir} \
+    --output-dir ${output_dir} --model-path ${model_path} \
+    --batch-size ${batch_size} --n-layers ${n_layers} \
+    --input-embed-dim  ${input_embed_dim} \
+    --hidden-dim ${hidden_dim} --embed-dim ${embed_dim} \
+    --target-dim ${target_dim} --activation ${activation} \
+    --feature-mapper ${feature_mapper}&quot;
+
+if [ &quot;${dump_embeddings}&quot; == &quot;true&quot; ];
+then
+	CMD=&quot;$CMD --dump-embeddings&quot;
+fi
+
+${CMD}
+
+</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

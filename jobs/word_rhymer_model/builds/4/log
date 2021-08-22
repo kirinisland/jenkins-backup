@@ -1,0 +1,155 @@
+Started by user [8mha:////4AvbKtqCpWGC4/9vlaAOyQD+y56HOfLOpPpkD7K9YRsAAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/word_rhymer_training
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/kirinBrain.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/kirinBrain.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/kirinBrain.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision adaeefe098474d68b86de9a9889380023ce14119 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f adaeefe098474d68b86de9a9889380023ce14119 # timeout=10
+Commit message: "Merge pull request #17 from yuhongliang324/feature/reformat-rhymer"
+ > git rev-list --no-walk adaeefe098474d68b86de9a9889380023ce14119 # timeout=10
+[word_rhymer_training] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins201496957626646819.sh
++ set -x
++ source /Users/hongliang/envs/pytorch/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/Users/hongliang/envs/pytorch
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/usr/bin:/bin:/usr/sbin:/sbin
+++ PATH=/Users/hongliang/envs/pytorch/bin:/usr/bin:/bin:/usr/sbin:/sbin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ '[' 'x(pytorch) ' '!=' x ']'
+++ PS1='(pytorch) '
+++ export PS1
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
++ cd word_recommender
++ export PYTHONPATH=:../kirin:..:.
++ PYTHONPATH=:../kirin:..:.
++ word_models_dir=/Users/hongliang/media/storage/production_data/word_models/20210822
++ segmentation_dir=/Users/hongliang/media/storage/dev_data/word_model_pipeline/20210822
++ '[' '' == '' ']'
+++ date +%Y%m%d
++ output_date=20210822
++ output_dir=/Users/hongliang/media/storage/production_data/word_models/20210822
++ mkdir -pv /Users/hongliang/media/storage/production_data/word_models/20210822
++ '[' true == false ']'
+++ ls -t /Users/hongliang/media/storage/production_data/word_models/20210822/SharedMLP_1.pt /Users/hongliang/media/storage/production_data/word_models/20210822/SharedMLP_10.pt /Users/hongliang/media/storage/production_data/word_models/20210822/SharedMLP_2.pt /Users/hongliang/media/storage/production_data/word_models/20210822/SharedMLP_3.pt /Users/hongliang/media/storage/production_data/word_models/20210822/SharedMLP_4.pt /Users/hongliang/media/storage/production_data/word_models/20210822/SharedMLP_5.pt /Users/hongliang/media/storage/production_data/word_models/20210822/SharedMLP_6.pt /Users/hongliang/media/storage/production_data/word_models/20210822/SharedMLP_7.pt /Users/hongliang/media/storage/production_data/word_models/20210822/SharedMLP_8.pt /Users/hongliang/media/storage/production_data/word_models/20210822/SharedMLP_9.pt
+++ head -1
++ model_path=/Users/hongliang/media/storage/production_data/word_models/20210822/SharedMLP_10.pt
++ CMD='python run_inference.py --word-models-dir /Users/hongliang/media/storage/production_data/word_models/20210822     --output-dir /Users/hongliang/media/storage/production_data/word_models/20210822 --model-path /Users/hongliang/media/storage/production_data/word_models/20210822/SharedMLP_10.pt     --batch-size 64 --n-layers 3     --input-embed-dim  32     --hidden-dim 32 --embed-dim 32     --target-dim 2 --activation leakyRelu     --feature-mapper v1'
++ '[' true == true ']'
++ CMD='python run_inference.py --word-models-dir /Users/hongliang/media/storage/production_data/word_models/20210822     --output-dir /Users/hongliang/media/storage/production_data/word_models/20210822 --model-path /Users/hongliang/media/storage/production_data/word_models/20210822/SharedMLP_10.pt     --batch-size 64 --n-layers 3     --input-embed-dim  32     --hidden-dim 32 --embed-dim 32     --target-dim 2 --activation leakyRelu     --feature-mapper v1 --dump-embeddings'
++ python run_inference.py --word-models-dir /Users/hongliang/media/storage/production_data/word_models/20210822 --output-dir /Users/hongliang/media/storage/production_data/word_models/20210822 --model-path /Users/hongliang/media/storage/production_data/word_models/20210822/SharedMLP_10.pt --batch-size 64 --n-layers 3 --input-embed-dim 32 --hidden-dim 32 --embed-dim 32 --target-dim 2 --activation leakyRelu --feature-mapper v1 --dump-embeddings
+[2021-08-22 12:40:49,219] MainThread {/private/var/root/.jenkins/workspace/word_rhymer_training/kirin/helper.py:31} INFO - Logging file not specified. Logging to stdout...
+[2021-08-22 12:40:51,149] MainThread {run_inference.py:150} INFO - Inference for shuochang
+[2021-08-22 12:40:52,636] MainThread {run_inference.py:96} INFO - 1000 / 19696 have been processed
+[2021-08-22 12:40:52,896] MainThread {run_inference.py:96} INFO - 2000 / 19696 have been processed
+[2021-08-22 12:40:53,156] MainThread {run_inference.py:96} INFO - 3000 / 19696 have been processed
+[2021-08-22 12:40:53,415] MainThread {run_inference.py:96} INFO - 4000 / 19696 have been processed
+[2021-08-22 12:40:53,677] MainThread {run_inference.py:96} INFO - 5000 / 19696 have been processed
+[2021-08-22 12:40:53,940] MainThread {run_inference.py:96} INFO - 6000 / 19696 have been processed
+[2021-08-22 12:40:54,203] MainThread {run_inference.py:96} INFO - 7000 / 19696 have been processed
+[2021-08-22 12:40:54,459] MainThread {run_inference.py:96} INFO - 8000 / 19696 have been processed
+[2021-08-22 12:40:54,726] MainThread {run_inference.py:96} INFO - 9000 / 19696 have been processed
+[2021-08-22 12:40:54,992] MainThread {run_inference.py:96} INFO - 10000 / 19696 have been processed
+[2021-08-22 12:40:55,262] MainThread {run_inference.py:96} INFO - 11000 / 19696 have been processed
+[2021-08-22 12:40:55,531] MainThread {run_inference.py:96} INFO - 12000 / 19696 have been processed
+[2021-08-22 12:40:55,798] MainThread {run_inference.py:96} INFO - 13000 / 19696 have been processed
+[2021-08-22 12:40:56,065] MainThread {run_inference.py:96} INFO - 14000 / 19696 have been processed
+[2021-08-22 12:40:56,336] MainThread {run_inference.py:96} INFO - 15000 / 19696 have been processed
+[2021-08-22 12:40:56,602] MainThread {run_inference.py:96} INFO - 16000 / 19696 have been processed
+[2021-08-22 12:40:56,873] MainThread {run_inference.py:96} INFO - 17000 / 19696 have been processed
+[2021-08-22 12:40:57,140] MainThread {run_inference.py:96} INFO - 18000 / 19696 have been processed
+[2021-08-22 12:40:57,411] MainThread {run_inference.py:96} INFO - 19000 / 19696 have been processed
+[2021-08-22 12:40:57,598] MainThread {run_inference.py:150} INFO - Inference for zhongguofeng
+[2021-08-22 12:40:59,663] MainThread {run_inference.py:96} INFO - 1000 / 29383 have been processed
+[2021-08-22 12:40:59,922] MainThread {run_inference.py:96} INFO - 2000 / 29383 have been processed
+[2021-08-22 12:41:00,185] MainThread {run_inference.py:96} INFO - 3000 / 29383 have been processed
+[2021-08-22 12:41:00,399] MainThread {run_inference.py:96} INFO - 4000 / 29383 have been processed
+[2021-08-22 12:41:00,662] MainThread {run_inference.py:96} INFO - 5000 / 29383 have been processed
+[2021-08-22 12:41:00,925] MainThread {run_inference.py:96} INFO - 6000 / 29383 have been processed
+[2021-08-22 12:41:01,191] MainThread {run_inference.py:96} INFO - 7000 / 29383 have been processed
+[2021-08-22 12:41:01,454] MainThread {run_inference.py:96} INFO - 8000 / 29383 have been processed
+[2021-08-22 12:41:01,725] MainThread {run_inference.py:96} INFO - 9000 / 29383 have been processed
+[2021-08-22 12:41:01,990] MainThread {run_inference.py:96} INFO - 10000 / 29383 have been processed
+[2021-08-22 12:41:02,256] MainThread {run_inference.py:96} INFO - 11000 / 29383 have been processed
+[2021-08-22 12:41:02,520] MainThread {run_inference.py:96} INFO - 12000 / 29383 have been processed
+[2021-08-22 12:41:02,784] MainThread {run_inference.py:96} INFO - 13000 / 29383 have been processed
+[2021-08-22 12:41:03,051] MainThread {run_inference.py:96} INFO - 14000 / 29383 have been processed
+[2021-08-22 12:41:03,319] MainThread {run_inference.py:96} INFO - 15000 / 29383 have been processed
+[2021-08-22 12:41:03,586] MainThread {run_inference.py:96} INFO - 16000 / 29383 have been processed
+[2021-08-22 12:41:03,855] MainThread {run_inference.py:96} INFO - 17000 / 29383 have been processed
+[2021-08-22 12:41:04,119] MainThread {run_inference.py:96} INFO - 18000 / 29383 have been processed
+[2021-08-22 12:41:04,384] MainThread {run_inference.py:96} INFO - 19000 / 29383 have been processed
+[2021-08-22 12:41:04,648] MainThread {run_inference.py:96} INFO - 20000 / 29383 have been processed
+[2021-08-22 12:41:04,916] MainThread {run_inference.py:96} INFO - 21000 / 29383 have been processed
+[2021-08-22 12:41:05,182] MainThread {run_inference.py:96} INFO - 22000 / 29383 have been processed
+[2021-08-22 12:41:05,448] MainThread {run_inference.py:96} INFO - 23000 / 29383 have been processed
+[2021-08-22 12:41:05,715] MainThread {run_inference.py:96} INFO - 24000 / 29383 have been processed
+[2021-08-22 12:41:05,981] MainThread {run_inference.py:96} INFO - 25000 / 29383 have been processed
+[2021-08-22 12:41:06,249] MainThread {run_inference.py:96} INFO - 26000 / 29383 have been processed
+[2021-08-22 12:41:06,518] MainThread {run_inference.py:96} INFO - 27000 / 29383 have been processed
+[2021-08-22 12:41:06,786] MainThread {run_inference.py:96} INFO - 28000 / 29383 have been processed
+[2021-08-22 12:41:07,054] MainThread {run_inference.py:96} INFO - 29000 / 29383 have been processed
+[2021-08-22 12:41:07,154] MainThread {run_inference.py:150} INFO - Inference for minyao
+[2021-08-22 12:41:08,451] MainThread {run_inference.py:96} INFO - 1000 / 17144 have been processed
+[2021-08-22 12:41:08,694] MainThread {run_inference.py:96} INFO - 2000 / 17144 have been processed
+[2021-08-22 12:41:08,956] MainThread {run_inference.py:96} INFO - 3000 / 17144 have been processed
+[2021-08-22 12:41:09,217] MainThread {run_inference.py:96} INFO - 4000 / 17144 have been processed
+[2021-08-22 12:41:09,481] MainThread {run_inference.py:96} INFO - 5000 / 17144 have been processed
+[2021-08-22 12:41:09,744] MainThread {run_inference.py:96} INFO - 6000 / 17144 have been processed
+[2021-08-22 12:41:10,006] MainThread {run_inference.py:96} INFO - 7000 / 17144 have been processed
+[2021-08-22 12:41:10,278] MainThread {run_inference.py:96} INFO - 8000 / 17144 have been processed
+[2021-08-22 12:41:10,541] MainThread {run_inference.py:96} INFO - 9000 / 17144 have been processed
+[2021-08-22 12:41:10,806] MainThread {run_inference.py:96} INFO - 10000 / 17144 have been processed
+[2021-08-22 12:41:11,071] MainThread {run_inference.py:96} INFO - 11000 / 17144 have been processed
+[2021-08-22 12:41:11,339] MainThread {run_inference.py:96} INFO - 12000 / 17144 have been processed
+[2021-08-22 12:41:11,604] MainThread {run_inference.py:96} INFO - 13000 / 17144 have been processed
+[2021-08-22 12:41:11,870] MainThread {run_inference.py:96} INFO - 14000 / 17144 have been processed
+[2021-08-22 12:41:12,136] MainThread {run_inference.py:96} INFO - 15000 / 17144 have been processed
+[2021-08-22 12:41:12,403] MainThread {run_inference.py:96} INFO - 16000 / 17144 have been processed
+[2021-08-22 12:41:12,670] MainThread {run_inference.py:96} INFO - 17000 / 17144 have been processed
+[2021-08-22 12:41:12,708] MainThread {run_inference.py:150} INFO - Inference for liuxing
+[2021-08-22 12:41:14,068] MainThread {run_inference.py:96} INFO - 1000 / 17894 have been processed
+[2021-08-22 12:41:14,325] MainThread {run_inference.py:96} INFO - 2000 / 17894 have been processed
+[2021-08-22 12:41:14,586] MainThread {run_inference.py:96} INFO - 3000 / 17894 have been processed
+[2021-08-22 12:41:14,850] MainThread {run_inference.py:96} INFO - 4000 / 17894 have been processed
+[2021-08-22 12:41:15,113] MainThread {run_inference.py:96} INFO - 5000 / 17894 have been processed
+[2021-08-22 12:41:15,379] MainThread {run_inference.py:96} INFO - 6000 / 17894 have been processed
+[2021-08-22 12:41:15,644] MainThread {run_inference.py:96} INFO - 7000 / 17894 have been processed
+[2021-08-22 12:41:15,909] MainThread {run_inference.py:96} INFO - 8000 / 17894 have been processed
+[2021-08-22 12:41:16,174] MainThread {run_inference.py:96} INFO - 9000 / 17894 have been processed
+[2021-08-22 12:41:16,442] MainThread {run_inference.py:96} INFO - 10000 / 17894 have been processed
+[2021-08-22 12:41:16,708] MainThread {run_inference.py:96} INFO - 11000 / 17894 have been processed
+[2021-08-22 12:41:16,976] MainThread {run_inference.py:96} INFO - 12000 / 17894 have been processed
+[2021-08-22 12:41:17,240] MainThread {run_inference.py:96} INFO - 13000 / 17894 have been processed
+[2021-08-22 12:41:17,507] MainThread {run_inference.py:96} INFO - 14000 / 17894 have been processed
+[2021-08-22 12:41:17,774] MainThread {run_inference.py:96} INFO - 15000 / 17894 have been processed
+[2021-08-22 12:41:18,043] MainThread {run_inference.py:96} INFO - 16000 / 17894 have been processed
+[2021-08-22 12:41:18,311] MainThread {run_inference.py:96} INFO - 17000 / 17894 have been processed
+[2021-08-22 12:41:18,551] MainThread {run_inference.py:160} INFO - The result is saved to /Users/hongliang/media/storage/production_data/word_models/20210822/rhymer_SharedMLP_10_embeddings.tsv
+Processing shuochang
+Processing zhongguofeng
+Processing minyao
+Processing liuxing
+Combined rhymer embeddings are saved to /Users/hongliang/media/storage/production_data/word_models/20210822/cilian_embeddings.tsv
+Combined rhymer embeddings are saved to /Users/hongliang/media/storage/production_data/word_models/20210822/rhymer_SharedMLP_10_embeddings.tsv.mean_style
+Finished: SUCCESS
