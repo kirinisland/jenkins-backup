@@ -1,0 +1,88 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hot_user
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+[hot_user] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins6130829879144907475.sh
++ python3 jobs/hot_user.py --count 25
+Hot users after date: 2021-08-18 00:00:00
+点赞最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-08-18 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-likeCount
+[('3348f81ef2', 9, 5, 3, 1), ('8b61542e5f', 7, 4, 2, 1), ('71d4f6216f', 5, 3, 0, 2), ('4c04a39b95', 8, 3, 2, 3), ('1807c29289', 6, 2, 3, 1), ('daa6284b8f', 3, 2, 0, 1), ('dac3330ecc', 3, 2, 0, 1), ('35277985c0', 2, 2, 0, 0), ('aff9978ed6', 2, 1, 0, 1), ('b85c8f5bcd', 1, 1, 0, 0), ('a7a289a4f8', 1, 1, 0, 0), ('811a01900e', 1, 1, 0, 0), ('811a01900e', 2, 1, 0, 1), ('f0c11c2a1d', 4, 1, 2, 1), ('8b61542e5f', 1, 1, 0, 0), ('7975f4a444', 0, 0, 0, 0), ('c582a31c7c', 0, 0, 0, 0), ('7cf7eb6d3b', 0, 0, 0, 0), ('61020ad31b', 0, 0, 0, 0), ('00c5e3afa2', 0, 0, 0, 0), ('65c27d1603', 0, 0, 0, 0), ('4aeb1cdc92', 0, 0, 0, 0), ('4aeb1cdc92', 0, 0, 0, 0), ('da34444250', 1, 0, 0, 1), ('dac3330ecc', 0, 0, 0, 0)]
+
+评论最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-08-18 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-commentCount
+[('3348f81ef2', 9, 5, 3, 1), ('1807c29289', 6, 2, 3, 1), ('8b61542e5f', 7, 4, 2, 1), ('4c04a39b95', 8, 3, 2, 3), ('f0c11c2a1d', 4, 1, 2, 1), ('a53e0d7eac', 1, 0, 1, 0), ('7975f4a444', 0, 0, 0, 0), ('c582a31c7c', 0, 0, 0, 0), ('7cf7eb6d3b', 0, 0, 0, 0), ('aff9978ed6', 2, 1, 0, 1), ('b85c8f5bcd', 1, 1, 0, 0), ('a7a289a4f8', 1, 1, 0, 0), ('71d4f6216f', 5, 3, 0, 2), ('61020ad31b', 0, 0, 0, 0), ('00c5e3afa2', 0, 0, 0, 0), ('811a01900e', 1, 1, 0, 0), ('811a01900e', 2, 1, 0, 1), ('65c27d1603', 0, 0, 0, 0), ('4aeb1cdc92', 0, 0, 0, 0), ('4aeb1cdc92', 0, 0, 0, 0), ('da34444250', 1, 0, 0, 1), ('dac3330ecc', 0, 0, 0, 0), ('dac3330ecc', 3, 2, 0, 1), ('a53e0d7eac', 0, 0, 0, 0), ('c5481a3ad0', 0, 0, 0, 0)]
+
+收藏最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-08-18 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-bookmarkCount
+[('4c04a39b95', 8, 3, 2, 3), ('71d4f6216f', 5, 3, 0, 2), ('3348f81ef2', 9, 5, 3, 1), ('1807c29289', 6, 2, 3, 1), ('8b61542e5f', 7, 4, 2, 1), ('aff9978ed6', 2, 1, 0, 1), ('daa6284b8f', 3, 2, 0, 1), ('811a01900e', 2, 1, 0, 1), ('da34444250', 1, 0, 0, 1), ('dac3330ecc', 3, 2, 0, 1), ('f0c11c2a1d', 4, 1, 2, 1), ('00c5e3afa2', 0, 0, 0, 0), ('65c27d1603', 0, 0, 0, 0), ('7975f4a444', 0, 0, 0, 0), ('c582a31c7c', 0, 0, 0, 0), ('7cf7eb6d3b', 0, 0, 0, 0), ('b85c8f5bcd', 1, 1, 0, 0), ('a7a289a4f8', 1, 1, 0, 0), ('61020ad31b', 0, 0, 0, 0), ('811a01900e', 1, 1, 0, 0), ('4aeb1cdc92', 0, 0, 0, 0), ('4aeb1cdc92', 0, 0, 0, 0), ('dac3330ecc', 0, 0, 0, 0), ('dac3330ecc', 0, 0, 0, 0), ('a53e0d7eac', 0, 0, 0, 0)]
+{'3348f81ef2': (27, 15, 9, 3, {'commentCount', 'likeCount', 'bookmarkCount'}), '8b61542e5f': (22, 13, 6, 3, {'commentCount', 'likeCount', 'bookmarkCount'}), '71d4f6216f': (15, 9, 0, 6, {'commentCount', 'likeCount', 'bookmarkCount'}), '4c04a39b95': (24, 9, 6, 9, {'commentCount', 'likeCount', 'bookmarkCount'}), '1807c29289': (18, 6, 9, 3, {'commentCount', 'likeCount', 'bookmarkCount'}), 'daa6284b8f': (6, 4, 0, 2, {'likeCount', 'bookmarkCount'}), 'dac3330ecc': (9, 6, 0, 3, {'commentCount', 'likeCount', 'bookmarkCount'}), '35277985c0': (2, 2, 0, 0, {'likeCount'}), 'aff9978ed6': (6, 3, 0, 3, {'commentCount', 'likeCount', 'bookmarkCount'}), 'b85c8f5bcd': (3, 3, 0, 0, {'commentCount', 'likeCount', 'bookmarkCount'}), 'a7a289a4f8': (3, 3, 0, 0, {'commentCount', 'likeCount', 'bookmarkCount'}), '811a01900e': (9, 6, 0, 3, {'commentCount', 'likeCount', 'bookmarkCount'}), 'f0c11c2a1d': (12, 3, 6, 3, {'commentCount', 'likeCount', 'bookmarkCount'}), '7975f4a444': (0, 0, 0, 0, {'commentCount', 'likeCount', 'bookmarkCount'}), 'c582a31c7c': (0, 0, 0, 0, {'commentCount', 'likeCount', 'bookmarkCount'}), '7cf7eb6d3b': (0, 0, 0, 0, {'commentCount', 'likeCount', 'bookmarkCount'}), '61020ad31b': (0, 0, 0, 0, {'commentCount', 'likeCount', 'bookmarkCount'}), '00c5e3afa2': (0, 0, 0, 0, {'commentCount', 'likeCount', 'bookmarkCount'}), '65c27d1603': (0, 0, 0, 0, {'commentCount', 'likeCount', 'bookmarkCount'}), '4aeb1cdc92': (0, 0, 0, 0, {'commentCount', 'likeCount', 'bookmarkCount'}), 'da34444250': (3, 0, 0, 3, {'commentCount', 'likeCount', 'bookmarkCount'}), 'a53e0d7eac': (1, 0, 1, 0, {'commentCount', 'bookmarkCount'}), 'c5481a3ad0': (0, 0, 0, 0, {'commentCount'})}
+Total hot users count after date: 2021-08-18 00:00:00: 23
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/Library/Python/3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/Library/Python/3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 300, in connect
+    conn = self._new_conn()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x107eb10f0>: Failed to establish a new connection: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api2.bmob.cn', port=443): Max retries exceeded with url: /1/batch/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x107eb10f0>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "jobs/hot_user.py", line 170, in <module>
+    main()
+  File "jobs/hot_user.py", line 109, in main
+    upload_hot_users(users, headers)
+  File "jobs/hot_user.py", line 165, in upload_hot_users
+    raw = requests.post(url="https://api2.bmob.cn/1/batch/", data=body, headers=headers)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api2.bmob.cn', port=443): Max retries exceeded with url: /1/batch/ (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x107eb10f0>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
