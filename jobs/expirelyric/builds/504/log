@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins6418432055493020128.sh
++ python3 jobs/expirelyric.py --count 15
+('ae1bc76c55', '2021-08-23 18:06:11', '你的选择\n是不是意味着我不用再配合\n虚假的拉扯\n现在也演不出一点快乐\n从那以后\n直接只剩下单调的蓝色\n这种时刻\n最适合听一首伤心的歌')
+('3898e6323a', '2021-08-23 23:04:03', '再长一些 可以再长一些\n直到我可以独自把爱拼接\n漆黑的画笔把身影描实一些\n把未完的故事续写 未尽的昨日补缺\n明日再呆坐一天 待到世界都灰蓝才告别')
+('e41585b64f', '2021-08-23 23:45:50', '夜深人静的想念不值一提\n毕竟冷静时从不会想你\n一定是因为天下了雨\n没人比我更清楚我不爱你')
+('f43cd25446', '2021-08-24 01:06:34', '月亮是我乱抛的硬币\n原因就是为了遇见你')
+('9ea9e58a69', '2021-08-24 23:53:29', '做一颗随风飘荡的种子\n不用在乎生老病死\n不用一个人在深夜里静思\n到底什么才是离别\n不要等到繁花凋谢\n才发现自己的世界')
+('39d2d33891', '2021-08-25 01:22:33', '你来自 星尘里的一道光\n抖落一身的风霜\n说要找 开启梦的一扇窗\n你就像 划破长空的璀璨\n漆黑中若追逐你\n就找到 重新振作的希望')
+('0c74e86f10', '2021-08-25 01:24:26', '飘渺江上 上弦月挂\n轻泛舟上 渡停在那\n客栈里早备茶未冷\n听君道这个他\n烟雨江湖 蒐乘秣马\n几许英侠 就唯独他 ')
+('d47e38f4b1', '2021-08-25 19:20:30', '忽然拂起珠帘\n月色如水繁星满天\n凝望那月那年\n思绪纷乱愁肠挂牵\n我难忘你 眷思恋\n只恨缘分浅')
+('24cdf2f9a5', '2021-08-26 18:45:48', '那棵葡萄树还能活多久\n孩提的是还能否再回头\n那只大狼狗 它不太温柔\n选择了离开 有了自己的追求\n你听哗啦啦下雨啦\n孤单的小孩是否会感到害怕\n她的爸妈还没有回家\n是否也在盼望着她长大')
+('484abda07d', '2021-08-29 18:24:11', '两鬓斑白 难见下次花开\n阶上青苔 雨天独坐亭台\n你孤身在桥上 我坐于庭中望\n湖面微波荡漾 似遇见你微笑\n风吹散雾茫茫 见你面上无光\n心中似有离殇 想拥你入怀抱')
+('8f552dca6b', '2021-08-30 14:24:37', '脆弱渺小住着一个你\n带着爱意慢慢靠近你\n不敢言语心里全是你\n想要给你些许的回忆')
+('38cb2c35b4', '2021-09-06 20:48:18', '魂魄入骨 万缘初生\n一声哭啼 几声欢笑\n蹒跚迈步 追光望月\n一丝情动 几两碎银\n望不尽时 天高海阔\n求不得时 囊中羞涩\n叶遇青成春')
+('2e9b1281bd', '2021-09-07 21:29:39', '乌鸦在啄食残落的夕阳\n壁虎猛扎进斑驳的西墙\n秋蝉独奏鸣曲孤芳自赏\n候鸟收起行囊背井离乡')
+('2cc7ca8323', '2021-09-08 00:25:33', '他们拿起键盘妄想做我的神\n道德绑在脚上试图把我击沉\n在堕落深处里隐藏嫉妒眼神\n我与上帝同意赦免他们灵魂\n只会躲藏在法律后面打游击战\n以伟大身份发表感言进行批判\n现在黑色虎盯上你了开始冷颤\n深夜的6寸屏幕扎上三枚子弹')
+('dd9d6e1ed8', '2021-09-09 01:03:36', '  我喜欢看你的眼睛 回忆着当时的年轻\n  渴望酒精 想打乳钉\n  期待爱情 一起旅行\n  可越走越远的背影 却不是定好的剧情')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
