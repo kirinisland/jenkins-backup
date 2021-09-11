@@ -1,0 +1,42 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins4159670033318160381.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 1首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+一本书在微风深处点燃
+洁白你笑脸却红了眼
+字符之下锚与舵的背面
+谁记得波浪起伏绵延
+一个人在彼岸花开花谢
+河水听惯陈旧的情言
+你压抑的声音未曾改变
+我们拥有的似水流年
+
+敏感词如下:
+一*书在微风深处点燃
+洁白你笑脸却红了眼
+字符之下锚与舵的背面
+谁记得波浪起伏绵延
+一个人在彼岸花开花谢
+河水听惯陈旧的情言
+你压抑的声音未曾改变
+我们拥有的似水流年
+-----------------------------
+Finished: SUCCESS
