@@ -1,0 +1,331 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/cf_lyric_recommend_pipline
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+[cf_lyric_recommend_pipline] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3313182875876943338.sh
++ set -x
++ date_str=
++ '[' '' = '' ']'
+++ date +%Y-%m-%d
++ date_str=2021-09-24
+++ date +%Y%m%d
++ today_str=20210924
++ CMD='python3 jobs/dump_table.py --table EverydayLyric --start 2020-01-01 --end 2021-09-24 --step 15'
++ '[' '!' /Users/hongliang/dataset/jenkins = '' ']'
++ CMD='python3 jobs/dump_table.py --table EverydayLyric --start 2020-01-01 --end 2021-09-24 --step 15 --move-to /Users/hongliang/dataset/jenkins'
++ echo 'python3 jobs/dump_table.py --table EverydayLyric --start 2020-01-01 --end 2021-09-24 --step 15 --move-to /Users/hongliang/dataset/jenkins'
+python3 jobs/dump_table.py --table EverydayLyric --start 2020-01-01 --end 2021-09-24 --step 15 --move-to /Users/hongliang/dataset/jenkins
++ python3 jobs/dump_table.py --table EverydayLyric --start 2020-01-01 --end 2021-09-24 --step 15 --move-to /Users/hongliang/dataset/jenkins
+INFO:root:date = ('2020-01-01 00:00:00', '2020-01-16 00:00:00')
+INFO:root:from date: 2020-01-01 00:00:00 to 2020-01-16 00:00:00: 62
+INFO:root:date = ('2020-01-16 00:00:00', '2020-01-31 00:00:00')
+INFO:root:from date: 2020-01-16 00:00:00 to 2020-01-31 00:00:00: 81
+INFO:root:date = ('2020-01-31 00:00:00', '2020-02-15 00:00:00')
+INFO:root:from date: 2020-01-31 00:00:00 to 2020-02-15 00:00:00: 200
+INFO:root:date = ('2020-02-15 00:00:00', '2020-03-01 00:00:00')
+INFO:root:from date: 2020-02-15 00:00:00 to 2020-03-01 00:00:00: 264
+INFO:root:date = ('2020-03-01 00:00:00', '2020-03-16 00:00:00')
+INFO:root:from date: 2020-03-01 00:00:00 to 2020-03-16 00:00:00: 219
+INFO:root:date = ('2020-03-16 00:00:00', '2020-03-31 00:00:00')
+INFO:root:from date: 2020-03-16 00:00:00 to 2020-03-31 00:00:00: 227
+INFO:root:date = ('2020-03-31 00:00:00', '2020-04-15 00:00:00')
+INFO:root:from date: 2020-03-31 00:00:00 to 2020-04-15 00:00:00: 174
+INFO:root:date = ('2020-04-15 00:00:00', '2020-04-30 00:00:00')
+INFO:root:from date: 2020-04-15 00:00:00 to 2020-04-30 00:00:00: 216
+INFO:root:date = ('2020-04-30 00:00:00', '2020-05-15 00:00:00')
+INFO:root:from date: 2020-04-30 00:00:00 to 2020-05-15 00:00:00: 160
+INFO:root:date = ('2020-05-15 00:00:00', '2020-05-30 00:00:00')
+INFO:root:from date: 2020-05-15 00:00:00 to 2020-05-30 00:00:00: 120
+INFO:root:date = ('2020-05-30 00:00:00', '2020-06-14 00:00:00')
+INFO:root:from date: 2020-05-30 00:00:00 to 2020-06-14 00:00:00: 112
+INFO:root:date = ('2020-06-14 00:00:00', '2020-06-29 00:00:00')
+INFO:root:from date: 2020-06-14 00:00:00 to 2020-06-29 00:00:00: 122
+INFO:root:date = ('2020-06-29 00:00:00', '2020-07-14 00:00:00')
+INFO:root:from date: 2020-06-29 00:00:00 to 2020-07-14 00:00:00: 123
+INFO:root:date = ('2020-07-14 00:00:00', '2020-07-29 00:00:00')
+INFO:root:from date: 2020-07-14 00:00:00 to 2020-07-29 00:00:00: 118
+INFO:root:date = ('2020-07-29 00:00:00', '2020-08-13 00:00:00')
+INFO:root:from date: 2020-07-29 00:00:00 to 2020-08-13 00:00:00: 114
+INFO:root:date = ('2020-08-13 00:00:00', '2020-08-28 00:00:00')
+INFO:root:from date: 2020-08-13 00:00:00 to 2020-08-28 00:00:00: 97
+INFO:root:date = ('2020-08-28 00:00:00', '2020-09-12 00:00:00')
+INFO:root:from date: 2020-08-28 00:00:00 to 2020-09-12 00:00:00: 107
+INFO:root:date = ('2020-09-12 00:00:00', '2020-09-27 00:00:00')
+INFO:root:from date: 2020-09-12 00:00:00 to 2020-09-27 00:00:00: 72
+INFO:root:date = ('2020-09-27 00:00:00', '2020-10-12 00:00:00')
+INFO:root:from date: 2020-09-27 00:00:00 to 2020-10-12 00:00:00: 70
+INFO:root:date = ('2020-10-12 00:00:00', '2020-10-27 00:00:00')
+INFO:root:from date: 2020-10-12 00:00:00 to 2020-10-27 00:00:00: 60
+INFO:root:date = ('2020-10-27 00:00:00', '2020-11-11 00:00:00')
+INFO:root:from date: 2020-10-27 00:00:00 to 2020-11-11 00:00:00: 69
+INFO:root:date = ('2020-11-11 00:00:00', '2020-11-26 00:00:00')
+INFO:root:from date: 2020-11-11 00:00:00 to 2020-11-26 00:00:00: 86
+INFO:root:date = ('2020-11-26 00:00:00', '2020-12-11 00:00:00')
+INFO:root:from date: 2020-11-26 00:00:00 to 2020-12-11 00:00:00: 61
+INFO:root:date = ('2020-12-11 00:00:00', '2020-12-26 00:00:00')
+INFO:root:from date: 2020-12-11 00:00:00 to 2020-12-26 00:00:00: 62
+INFO:root:date = ('2020-12-26 00:00:00', '2021-01-10 00:00:00')
+INFO:root:from date: 2020-12-26 00:00:00 to 2021-01-10 00:00:00: 64
+INFO:root:date = ('2021-01-10 00:00:00', '2021-01-25 00:00:00')
+INFO:root:from date: 2021-01-10 00:00:00 to 2021-01-25 00:00:00: 50
+INFO:root:date = ('2021-01-25 00:00:00', '2021-02-09 00:00:00')
+INFO:root:from date: 2021-01-25 00:00:00 to 2021-02-09 00:00:00: 84
+INFO:root:date = ('2021-02-09 00:00:00', '2021-02-24 00:00:00')
+INFO:root:from date: 2021-02-09 00:00:00 to 2021-02-24 00:00:00: 79
+INFO:root:date = ('2021-02-24 00:00:00', '2021-03-11 00:00:00')
+INFO:root:from date: 2021-02-24 00:00:00 to 2021-03-11 00:00:00: 58
+INFO:root:date = ('2021-03-11 00:00:00', '2021-03-26 00:00:00')
+INFO:root:from date: 2021-03-11 00:00:00 to 2021-03-26 00:00:00: 51
+INFO:root:date = ('2021-03-26 00:00:00', '2021-04-10 00:00:00')
+INFO:root:from date: 2021-03-26 00:00:00 to 2021-04-10 00:00:00: 47
+INFO:root:date = ('2021-04-10 00:00:00', '2021-04-25 00:00:00')
+INFO:root:from date: 2021-04-10 00:00:00 to 2021-04-25 00:00:00: 59
+INFO:root:date = ('2021-04-25 00:00:00', '2021-05-10 00:00:00')
+INFO:root:from date: 2021-04-25 00:00:00 to 2021-05-10 00:00:00: 41
+INFO:root:date = ('2021-05-10 00:00:00', '2021-05-25 00:00:00')
+INFO:root:from date: 2021-05-10 00:00:00 to 2021-05-25 00:00:00: 27
+INFO:root:date = ('2021-05-25 00:00:00', '2021-06-09 00:00:00')
+INFO:root:from date: 2021-05-25 00:00:00 to 2021-06-09 00:00:00: 33
+INFO:root:date = ('2021-06-09 00:00:00', '2021-06-24 00:00:00')
+INFO:root:from date: 2021-06-09 00:00:00 to 2021-06-24 00:00:00: 38
+INFO:root:date = ('2021-06-24 00:00:00', '2021-07-09 00:00:00')
+INFO:root:from date: 2021-06-24 00:00:00 to 2021-07-09 00:00:00: 44
+INFO:root:date = ('2021-07-09 00:00:00', '2021-07-24 00:00:00')
+INFO:root:from date: 2021-07-09 00:00:00 to 2021-07-24 00:00:00: 53
+INFO:root:date = ('2021-07-24 00:00:00', '2021-08-08 00:00:00')
+INFO:root:from date: 2021-07-24 00:00:00 to 2021-08-08 00:00:00: 137
+INFO:root:date = ('2021-08-08 00:00:00', '2021-08-23 00:00:00')
+INFO:root:from date: 2021-08-08 00:00:00 to 2021-08-23 00:00:00: 93
+INFO:root:date = ('2021-08-23 00:00:00', '2021-09-07 00:00:00')
+INFO:root:from date: 2021-08-23 00:00:00 to 2021-09-07 00:00:00: 84
+INFO:root:date = ('2021-09-07 00:00:00', '2021-09-22 00:00:00')
+INFO:root:from date: 2021-09-07 00:00:00 to 2021-09-22 00:00:00: 63
+INFO:root:date = ('2021-09-22 00:00:00', '2021-10-07 00:00:00')
+INFO:root:from date: 2021-09-22 00:00:00 to 2021-10-07 00:00:00: 13
+INFO:root:Table is dumped to /Users/hongliang/dataset/jenkins/EverydayLyric_20210924.csv
++ source /Users/hongliang/envs/pytorch/bin/activate
+++ deactivate nondestructive
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
+++ '[' -n '' ']'
+++ unset VIRTUAL_ENV
+++ '[' '!' nondestructive = nondestructive ']'
+++ VIRTUAL_ENV=/Users/hongliang/envs/pytorch
+++ export VIRTUAL_ENV
+++ _OLD_VIRTUAL_PATH=/usr/bin:/bin:/usr/sbin:/sbin
+++ PATH=/Users/hongliang/envs/pytorch/bin:/usr/bin:/bin:/usr/sbin:/sbin
+++ export PATH
+++ '[' -n '' ']'
+++ '[' -z '' ']'
+++ _OLD_VIRTUAL_PS1=
+++ '[' 'x(pytorch) ' '!=' x ']'
+++ PS1='(pytorch) '
+++ export PS1
+++ '[' -n /bin/sh -o -n '' ']'
+++ hash -r
++ PY_SCRIPT=/Users/hongliang/code/kirinBrain/lyric_recommender/run_cf.py
++ python /Users/hongliang/code/kirinBrain/lyric_recommender/run_cf.py --lyric-path /Users/hongliang/dataset/jenkins/EverydayLyric_20210924.csv --result-root /Users/hongliang/results
+The result is saved in /Users/hongliang/results/cold_start_20210924.csv
+The result is saved in /Users/hongliang/results/recos_20210924.csv
++ deactivate
++ '[' -n /usr/bin:/bin:/usr/sbin:/sbin ']'
++ PATH=/usr/bin:/bin:/usr/sbin:/sbin
++ export PATH
++ unset _OLD_VIRTUAL_PATH
++ '[' -n '' ']'
++ '[' -n /bin/sh -o -n '' ']'
++ hash -r
++ '[' -n '' ']'
++ unset VIRTUAL_ENV
++ '[' '!' '' = nondestructive ']'
++ unset -f deactivate
++ python3 jobs/upload_model_recos.py --path /Users/hongliang/results/recos_20210924.csv --table-name modelRecoTest
+INFO:root:start model recos upload
+INFO:root:3853 rows loaded
+INFO:root:user_id = oKJKF0tlU3BiTI_mqzcqmQcVBKFA
+INFO:root:recos = ['2ff9e6a9e6', 'ad4926b90f', '0b12872889', '140227e683', '43e13bf1f7', 'fc08fb5858', 'c91a4e737b', '042290fcc0', '6e4ede0722', 'b9d43d2f82\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-02-05 03:26:02","objectId":"c0e1e61f30","updatedAt":"2021-02-05 03:26:21"}]}
+INFO:root:User name: oKJKF0tlU3BiTI_mqzcqmQcVBKFA, 对应objectId: c0e1e61f30
+INFO:root:{"createdAt":"2021-09-25 11:26:35","objectId":"92ef1eda55"}
+INFO:root:1 / 3853 done
+INFO:root:user_id = oKJKF0hqcQTMCb7jQGjp-1Zju2_E
+INFO:root:recos = ['2e9b1281bd', 'ae74baaab2', '5c92a43b82\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-08-08 02:53:54","objectId":"68ce7fffd6","updatedAt":"2021-08-24 02:13:01"}]}
+INFO:root:User name: oKJKF0hqcQTMCb7jQGjp-1Zju2_E, 对应objectId: 68ce7fffd6
+INFO:root:{"createdAt":"2021-09-25 11:26:37","objectId":"d004e202bf"}
+INFO:root:2 / 3853 done
+INFO:root:user_id = 15c68b1ea6dd2804
+INFO:root:recos = ['fae74c61d9', '1b6a8b201b', '36801264c5', 'e24c49db68', '3ee0f37fde', 'f5c3a8b91d', 'a27ec679fd', '6b45e80662', '9e312c261c', '20890d2df1\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-02-09 11:10:48","objectId":"74d1a61b0b","updatedAt":"2020-06-03 14:23:50"}]}
+INFO:root:User name: 15c68b1ea6dd2804, 对应objectId: 74d1a61b0b
+INFO:root:{"createdAt":"2021-09-25 11:26:39","objectId":"4298503d08"}
+INFO:root:3 / 3853 done
+INFO:root:user_id = oKJKF0uATev8qgfLY-w2UJi1oUmc
+INFO:root:recos = ['dfea8a0052', '4252142387', 'd1704e71c8', '2a1d48603b', '4bb3f25661', 'b0267e202c', '50a54c3f6c', '09b4153dd5', '2e8e3d85bd', '43e0d342cd', '22c0338927', '3f92fb31f1', 'e081b7efe9', '4bb3f25661', '07ceda5a80', '43e13bf1f7', 'd236f0487e', '8c28c79ab9', '3d2c6d7ba2', 'e366e3ca21\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-09-11 02:49:42","objectId":"14fb23cb4f","updatedAt":"2020-09-11 02:49:46"}]}
+INFO:root:User name: oKJKF0uATev8qgfLY-w2UJi1oUmc, 对应objectId: 14fb23cb4f
+INFO:root:{"createdAt":"2021-09-25 11:26:41","objectId":"9249ab3222"}
+INFO:root:4 / 3853 done
+INFO:root:user_id = 4d3e0d65e23fab6d
+INFO:root:recos = ['cf2cfadf07', '5e15649ef6', '6dc95d523a', '5da4425135', 'f737edc075', 'b3d0480d41', '8080723d08', '07da6d24eb', '099372b595', '7ab26fc730\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-01-14 13:54:43","objectId":"ad21d668d5","updatedAt":"2020-06-30 15:06:33"}]}
+INFO:root:User name: 4d3e0d65e23fab6d, 对应objectId: ad21d668d5
+INFO:root:{"createdAt":"2021-09-25 11:26:43","objectId":"2ef962c48a"}
+INFO:root:5 / 3853 done
+INFO:root:user_id = c739776d65e37810
+INFO:root:recos = ['1c39eab369\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-02-02 10:13:56","objectId":"3d32abdaba","updatedAt":"2020-02-02 10:14:13"}]}
+INFO:root:User name: c739776d65e37810, 对应objectId: 3d32abdaba
+INFO:root:{"createdAt":"2021-09-25 11:26:48","objectId":"c9064bc09e"}
+INFO:root:6 / 3853 done
+INFO:root:user_id = oKJKF0vj3zW8t_NOdxq5P-BPk_bI
+INFO:root:recos = ['998dab6282', '0bcce9cbad', 'b5f2a4e31d', 'b1637b2c7a', 'be9b9985e2', 'fd1d2c42b0', '1b3931d565', '225a9c90dd', '0ec8dd25dd', '59a2574e6a\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-04-18 15:04:27","objectId":"c19c4f0373","updatedAt":"2020-04-26 07:22:51"}]}
+INFO:root:User name: oKJKF0vj3zW8t_NOdxq5P-BPk_bI, 对应objectId: c19c4f0373
+INFO:root:{"createdAt":"2021-09-25 11:26:50","objectId":"bf1d6c0fe9"}
+INFO:root:7 / 3853 done
+INFO:root:user_id = 凉城大空
+INFO:root:recos = ['2224891a56', '402dea5b53', '3cc6b9282f', '413160ea6f', '1b3931d565', '22471316e9', 'c7341df3c6', '1cb3645e91', '4ea9b41f2a', 'ef08ac01a6\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-03-09 13:47:45","objectId":"40e8c71f3c","updatedAt":"2020-03-09 13:47:58"}]}
+INFO:root:User name: 凉城大空, 对应objectId: 40e8c71f3c
+INFO:root:{"createdAt":"2021-09-25 11:26:52","objectId":"3f75c9034a"}
+INFO:root:8 / 3853 done
+INFO:root:user_id = a692f85d6b85c433
+INFO:root:recos = ['e772b3e17b', 'dc2b4944f7', '735fbbd571', 'd21ab09770', '307b7b9c40', 'c6b232ec45', '18e304e3d0', 'f8b97ace8c', '8e4da5744e', 'f9051c66a1\n']
+INFO:root:user_res = {"results":[{"createdAt":"2019-12-25 01:35:35","objectId":"3e215d6d42","updatedAt":"2020-12-26 01:31:54"}]}
+INFO:root:User name: a692f85d6b85c433, 对应objectId: 3e215d6d42
+INFO:root:{"createdAt":"2021-09-25 11:26:54","objectId":"930988af11"}
+INFO:root:9 / 3853 done
+INFO:root:user_id = oKJKF0jepS_Hqf5KoqDeRERWoKPA
+INFO:root:recos = ['5690f69069', 'ab45594eb6', 'f74c374032', '4bd8a0ba80', 'b3d0480d41', '165f125681', '6d4cbd4329', 'e3a050c0be', '2a1d48603b', 'ef939795be\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-08-04 23:04:50","objectId":"37f4c081eb","updatedAt":"2021-08-09 08:09:22"}]}
+INFO:root:User name: oKJKF0jepS_Hqf5KoqDeRERWoKPA, 对应objectId: 37f4c081eb
+INFO:root:{"createdAt":"2021-09-25 11:26:57","objectId":"cb9aeae695"}
+INFO:root:10 / 3853 done
+INFO:root:user_id = 86b4b71da902103b
+INFO:root:recos = ['59f1536c40', '13b08c29fc', 'a704e3119e', 'beb37179b5', '99b2b2501a', 'a6425beb91', '21760ee77c', 'ec49bfb34f', 'c4762cb348', '399305505d\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-02-18 14:19:14","objectId":"c98029e2fa","updatedAt":"2020-02-20 02:51:47"}]}
+INFO:root:User name: 86b4b71da902103b, 对应objectId: c98029e2fa
+INFO:root:{"createdAt":"2021-09-25 11:27:00","objectId":"b32935dc34"}
+INFO:root:11 / 3853 done
+INFO:root:user_id = e108037bc92f8b67
+INFO:root:recos = ['4483d8c9bf', 'b9c3f8f1e7', '98402613a6', '583a78008a', '6bea9ef727', '5c92a43b82', '7b2e7dbf3e', 'a9bb00ce4e', '8c6bc0604c', 'a5d37fa8eb\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-03-06 09:21:56","objectId":"8921ffc1ab","updatedAt":"2020-03-09 23:21:32"}]}
+INFO:root:User name: e108037bc92f8b67, 对应objectId: 8921ffc1ab
+INFO:root:{"createdAt":"2021-09-25 11:27:03","objectId":"23b4bed5c0"}
+INFO:root:12 / 3853 done
+INFO:root:user_id = 7b9f848c0602c782
+INFO:root:recos = ['09cbd45bea', '42dce30518', 'd0721cebef', '465a8583a2', '3c50d5141b', '2686a766d9', '4601389a90', 'a0cf27fb49', 'fb16afdc3a', 'b3d0480d41\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-01-26 22:10:59","objectId":"513d44e037","updatedAt":"2021-03-19 10:39:57"}]}
+INFO:root:User name: 7b9f848c0602c782, 对应objectId: 513d44e037
+INFO:root:{"createdAt":"2021-09-25 11:27:05","objectId":"e83cfef2fe"}
+INFO:root:13 / 3853 done
+INFO:root:user_id = 36fe397e777d710c
+INFO:root:recos = ['c16d8d9955', 'd7e1249254', '6853f02a70', '4601389a90', 'ee495de772', '525c8c146c', '92e0dbc4ab', 'c14f55aafc', 'c6f696e873', '725afc2717', '9c454c2549', 'e27aa6b8f4', 'f6f68a7c15\n']
+INFO:root:user_res = {"results":[{"createdAt":"2019-12-27 21:31:24","objectId":"ab1e783eb8","updatedAt":"2020-07-25 04:38:25"}]}
+INFO:root:User name: 36fe397e777d710c, 对应objectId: ab1e783eb8
+INFO:root:{"createdAt":"2021-09-25 11:27:08","objectId":"d064e7e38e"}
+INFO:root:14 / 3853 done
+INFO:root:user_id = oKJKF0uL2VajWiOtuTsK7u1dUJPU
+INFO:root:recos = ['ba6066077e', 'e8f938cd29', 'defa2988cc', 'd868e728ef', 'fa9b47bd6b', '471136adbe', '165f125681', 'bb6b3f030f', '05ca2cba26', '9c06072ed3', '31efa914f7', '87cbc99fd7', '17db5c35a1', '10f6a11cd0', '2f8c222d11', 'e3a050c0be', '29cf5476a8', '6a1e236881', '6e4ede0722', '535e5c012a\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-05-10 03:07:35","objectId":"3a82c5ce8b","updatedAt":"2021-05-10 05:47:32"}]}
+INFO:root:User name: oKJKF0uL2VajWiOtuTsK7u1dUJPU, 对应objectId: 3a82c5ce8b
+INFO:root:{"createdAt":"2021-09-25 11:27:10","objectId":"d948a9c472"}
+INFO:root:15 / 3853 done
+INFO:root:user_id = oKJKF0kkLSQSuCsmzXoPJWG7QrR8
+INFO:root:recos = ['1c1272dd37', '22d98b63af', '44e170c482', '244e456f94', '080eb01c65', '07bd66af41', '7b86045b5f', '02d6f1615b', '348b451e83', 'e8083386b0', '489fb9f818', 'ffdf15595b', 'bb8c561685', '2686a766d9', '348b451e83', 'b4dd59433e', '7b044ff789', '1c685218f7', 'fb16afdc3a', '941366c685\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-04-05 13:24:45","objectId":"60e78523d5","updatedAt":"2020-04-06 16:30:06"}]}
+INFO:root:User name: oKJKF0kkLSQSuCsmzXoPJWG7QrR8, 对应objectId: 60e78523d5
+INFO:root:{"createdAt":"2021-09-25 11:27:12","objectId":"7dc6479427"}
+INFO:root:16 / 3853 done
+INFO:root:user_id = oKJKF0q9-FKFGo1B0gc7D6lapTsI
+INFO:root:recos = ['dea684ebec', '97331e66dc', '3a8bf03780', 'f6230fde0f\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-02-25 03:50:58","objectId":"12ec60e2b8","updatedAt":"2021-02-28 01:36:20"}]}
+INFO:root:User name: oKJKF0q9-FKFGo1B0gc7D6lapTsI, 对应objectId: 12ec60e2b8
+INFO:root:{"createdAt":"2021-09-25 11:27:14","objectId":"4432f1866b"}
+INFO:root:17 / 3853 done
+INFO:root:user_id = mutwingsum
+INFO:root:recos = ['6681c41bfa', '6773978b10\n']
+INFO:root:user_res = {"results":[{"createdAt":"2020-02-13 01:40:56","objectId":"961e172802","updatedAt":"2020-02-15 07:01:08"}]}
+INFO:root:User name: mutwingsum, 对应objectId: 961e172802
+INFO:root:{"createdAt":"2021-09-25 11:27:16","objectId":"bb213c4a78"}
+INFO:root:18 / 3853 done
+INFO:root:user_id = oKJKF0k8_2GSooGdkYbQD_sUNLx0
+INFO:root:recos = ['c794c14d27', '36b8d2584c\n']
+INFO:root:user_res = {"results":[{"createdAt":"2021-01-02 00:49:59","objectId":"2106a386ea","updatedAt":"2021-08-25 06:10:39"}]}
+INFO:root:User name: oKJKF0k8_2GSooGdkYbQD_sUNLx0, 对应objectId: 2106a386ea
+INFO:root:{"createdAt":"2021-09-25 11:27:19","objectId":"6b0056f725"}
+INFO:root:19 / 3853 done
+INFO:root:user_id = 001850.c1fa76784a6c4f37a4817f4616f63f98.1331
+INFO:root:recos = ['6a1e236881', 'd700022ce3', '146079d3f9', '2d0b690daa', '6e4ede0722', 'fb9e58ea12', '986778be29', 'ca089bb330', 'db352e0d45', 'ad4926b90f\n']
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/Library/Python/3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/Library/Python/3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 376, in _make_request
+    self._validate_conn(conn)
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 994, in _validate_conn
+    conn.connect()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 300, in connect
+    conn = self._new_conn()
+  File "/Library/Python/3.7/site-packages/urllib3/connection.py", line 169, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x10dc98940>: Failed to establish a new connection: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Library/Python/3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Library/Python/3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api2.bmob.cn', port=443): Max retries exceeded with url: /1/classes/_User?where=%7B%22username%22:%20%22001850.c1fa76784a6c4f37a4817f4616f63f98.1331%22%7D&keys=objectId (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10dc98940>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "jobs/upload_model_recos.py", line 103, in <module>
+    main()
+  File "jobs/upload_model_recos.py", line 73, in main
+    user_res = requests.get(user_url.format(where=json.dumps(where)), headers=headers)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Library/Python/3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/Library/Python/3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api2.bmob.cn', port=443): Max retries exceeded with url: /1/classes/_User?where=%7B%22username%22:%20%22001850.c1fa76784a6c4f37a4817f4616f63f98.1331%22%7D&keys=objectId (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x10dc98940>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
