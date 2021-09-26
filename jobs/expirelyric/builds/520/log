@@ -1,0 +1,57 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5351826231952256131.sh
++ python3 jobs/expirelyric.py --count 15
+('e9b4af95ec', '2021-09-14 02:29:29', '桥头的过桥米线我  最爱喝那口汤\n东北口音的老板如今  不知去向何方\n对面的艳艳造型  依旧人来人往\n店里的洗头小哥  发型没以前张扬')
+('8cdf8fb107', '2021-09-14 19:37:28', '我的一生就像那漂浮在空中的尘埃\n不要再问我一生有多漫长\n因为我的一生它非常短暂\n几乎没有什么值得我去回忆\n也没有什么去让我记忆\n我的一生它非常短暂\n永远的让我沉浸在过去回忆\n直到我死的时候')
+('02f7b3ec48', '2021-09-15 08:57:19', '这是一座美丽的城市\n隐藏着多少辛酸的故事\n\n当你发现你无能为力时\n那才只是一个开始\n\n算了吧收起你的固执\n没人会愿意聆听你的故事')
+('deeb0ebabd', '2021-09-15 19:41:56', '一个人走在孤独的街头\n感受不到从前那种温柔\n再也遇不到有你的邂逅\n泪水涌出眼眶肆意的流')
+('9bffdef132', '2021-09-18 20:52:31', '忙里偷闲看落日多浮躁\n一袅青烟胜白云好逍遥\n任性放自由你我都年少\n善小而为别被世俗沁烙\n战马银枪用青春换枯草\n既然心已定去放肆奔跑\n游走天地间看岁月静好\n回家了和妈妈少些争吵')
+('a998350353', '2021-09-18 21:56:30', '忘不掉所有的烦恼\n孤单一人站在转角\n脑海浮现你的微笑\n想你念你每分每秒')
+('51e84c8296', '2021-09-19 22:12:09', '该说的话都说了\n所有的痛苦与快乐\n该做的事也都做了\n歇斯底里与自我解剖\n只是生活还是原来的样子\n能奈何又能如何\n只求下辈子别来招惹我 就此别过')
+('773767d6f8', '2021-09-19 22:59:35', '等的太多就不想等了\n想得太多就不想做了\n做了太多也没人觉得\n相顾无言也只剩沉默\n到最后你还是你我却不是我\n请记得迟来的深情留不住\n留不住的是深深爱过')
+('4fd5858120', '2021-09-20 02:25:21', '吉他是离心最近的乐器\n打破常规找到我自己找到我心里的那一段旋律\n这状态有人觉得很傻逼 这段旋律依然很美丽\n可能有个恶魔或天使住在我心里\n这个年纪整是放荡不羁\n 恶魔  天使请你们齐心併力\n这样的人生才不会幕燕鼎鱼\n空气突然凝聚，这首歌没有结局')
+('77bd347fe6', '2021-09-20 07:59:17', '垃圾们都想快速出名\n可你自己的货自己心知肚明\n我血液中流躺的是酒精和尼古丁\n你们hold不住我的风格老子特立独行\n我自己一人背负着那些骂名\n就因为我不想赴京赶考死读四书五经\n遇到我真是你苦命不幸\n为了把hip-hop复兴给这派对助兴')
+('63d8607323', '2021-09-20 10:31:06', '教育部的TM政策根本就在扯谈\n打着双减名号 实则加重困难\n不让学科培训 只能发展兴趣\n逼着各个家庭重金请人寻找答案\n说着教育公平 实则资本注定\n家庭条件从来没有这么庆幸\n家长不能清醒 孩子掉入陷阱\n看似追求躺平 实则内卷要命')
+('a8345152c7', '2021-09-20 21:41:17', '理解\n曾经也没有谁能理解\n深夜灯光的孤寂\n深深的凝望着你的脸\n爱过了也错过了\n你深沉的伤害\n如今泛黄的已变白\n人去太匆匆几时重')
+('78e7cc78b2', '2021-09-20 21:53:34', '人生海海朝花夕拾，\n浮躁，\n百年孤独次第花开，\n活着，\n人生从容自在独行，\n暂坐。')
+('0439c3e67d', '2021-09-20 21:55:03', '城里的月光把梦照亮，\n让温暖留驻心房，\n月有阴晴圆缺，\n人有聚散离合，\n中秋月满人聚时，\n把酒言欢话相思。\n      ————中秋快乐🎑')
+('c9429b3dc6', '2021-09-22 22:57:32', '总是在每个夜晚 脑海里一遍遍循环\n我觉得自己不平凡 但一直没有答案\n走过了人生一小半 走过一些人的一生\n走过了城市和村庄 走过了所谓繁华喧嚷')
+('60ce80ed4a', '2021-09-23 18:35:14', '我的记忆\n像富士山，像平川，像激进的海浪\n复杂的形状让我难于寻找那段记忆\n翻找起你深邃的瞳孔\n却怎样都寻不到那撇眼神')
+('d9a6a4591e', '2021-09-24 12:16:54', '少年借着蝉鸣放肆地撒野奔跑\n青葱的线条洋溢着皎洁月光\n夜色如凉的杂草旁\n眯着眼看星光\n温柔的晚风吹动热爱的内心开始荡漾')
+('4730eed825', '2021-09-25 00:37:40', '爱情总是在失去后才懂珍惜\n两颗心越拉越远距离\n每一次转身前我们也是如此甜蜜\n才发现我们一直停在原地')
+('141744948f', '2021-09-25 00:43:00', '是没他就不安\n还是心有不甘\n灯火辉煌，夜阑珊\n举杯感叹，望眼欲穿\n是谁还在守着荒凉\n')
+现有精选微词 19首.
+> 超过 15 首精选微词, 将下架如下微词:
+('e9b4af95ec', '2021-09-14 02:29:29', '桥头的过桥米线我  最爱喝那口汤\n东北口音的老板如今  不知去向何方\n对面的艳艳造型  依旧人来人往\n店里的洗头小哥  发型没以前张扬')
+{"updatedAt":"2021-09-26 07:14:17"}
+('8cdf8fb107', '2021-09-14 19:37:28', '我的一生就像那漂浮在空中的尘埃\n不要再问我一生有多漫长\n因为我的一生它非常短暂\n几乎没有什么值得我去回忆\n也没有什么去让我记忆\n我的一生它非常短暂\n永远的让我沉浸在过去回忆\n直到我死的时候')
+{"updatedAt":"2021-09-26 07:14:18"}
+('02f7b3ec48', '2021-09-15 08:57:19', '这是一座美丽的城市\n隐藏着多少辛酸的故事\n\n当你发现你无能为力时\n那才只是一个开始\n\n算了吧收起你的固执\n没人会愿意聆听你的故事')
+{"updatedAt":"2021-09-26 07:14:19"}
+('deeb0ebabd', '2021-09-15 19:41:56', '一个人走在孤独的街头\n感受不到从前那种温柔\n再也遇不到有你的邂逅\n泪水涌出眼眶肆意的流')
+{"updatedAt":"2021-09-26 07:14:20"}
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
