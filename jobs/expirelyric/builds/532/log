@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5975900617703423109.sh
++ python3 jobs/expirelyric.py --count 15
+('cb46df73fc', '2021-09-25 10:55:39', '可能当时的心有不甘我把他当成了依旧喜欢\n之后的漫漫长路 我把你当成我生活的全部\n可你还是想走自己的路')
+('ec3f20c93d', '2021-09-25 17:14:52', '芳华正茂，鼎盛颜\n巧笑嫣然，回眸间')
+('28d8be2e81', '2021-09-26 08:03:56', '星星点藏在角落\n花开半夏等你了\n绿藤爬满梧桐树\n我的热爱收不住\n穿白衬衫吹晚风\n想吸引你的眼眸\n铺满星辰的夜空\n是上天赋予浪漫霓虹色')
+('b4fa27b017', '2021-09-26 09:46:25', '带着自己的光芒去寻找当时的救赎\n站在身后保持应有分寸感与距离\n轻声道谢，彼此守护着\n惊喜梦想成真后如此灿烂\n嘴角上扬的弧度带着温柔闪闪发光')
+('8fabb48eff', '2021-09-26 18:46:26', '我会化为风\n在你走过的每一个地方\n我会成为我自己，做些你喜欢的事\n我不会去寻找你\n回忆仅是回忆就好\n我与他人无异，也与他人不同')
+('1842f44360', '2021-09-26 21:07:58', '铃声滑过星河\n唱着你不懂的情歌\n独自一人楼台饮醉\n夜色似乎莫测\n没有属于我的伯乐\n不怕你给的挫折\n因为我只是一个过客\n不想放手却没有合适的理由')
+('7d620706b9', '2021-09-27 23:32:38', '一个人缩在被窝里\n不停的压抑着自己\n无数个黑夜想要去忘掉你\n但还是不想轻易放弃\n回想起曾经的那段经历\n想想真的特别美丽\n为你放弃了很多事情\n到后来却是各奔东西')
+('c4576e2932', '2021-09-28 14:42:38', '那天我看到了海\n夕阳落在海面上\n波澜的海浪一波未平一波又起\n重叠的飘云在夕阳的照映下是那么绚丽\n不知为何心中生起一阵向往\n我记得这种感觉\n和当时你我擦肩而过的哪一瞬差不离吧')
+('ba5736db3a', '2021-09-28 21:34:41', '暂把功名利禄撂一边\n不动真格何知谁领先\n拿着欺世盗名的赝品充\n深陷沽名钓誉的陷阱中')
+('bd7f840a7e', '2021-09-28 22:35:42', '一切都以旧换新\n为何你还在伤心\n存在心中的执念\n是否一直不改变\n还回忆那些从前\n无法剪接的画面\n把它们忘却脑海\n期待明天和未来')
+('8e756eaba8', '2021-09-29 12:43:23', '总是患得患失把人生当成一场悲剧\n就像不平衡的爱情从来没有结局\n当开始放弃理想追求你的温柔\n曾经把你拥有却也只是曾经拥有\n许多记忆碎片压在我的胸口\n腐烂的花期从来找不到凶手\n原来说出真话才是最大的忌讳\n背过身去尽量把一切抛弃')
+('3c4fdb4c34', '2021-10-01 14:51:21', '云间沸腾白玉汤，\n惠风交织米线长。\n香郁古道萍水逢，\n何似画中小桥旁。')
+('ea0609026c', '2021-10-02 09:32:13', '金秋的微风\n携缕缕暗香浮动\n傍晚的落日\n献道道霞光腾空\n古老的国度，美丽而宽广\n伟大的民族，勤劳而坚强\n建党百年的荣辱与共\n72年历史的沉浮向荣')
+('606188e619', '2021-10-02 22:43:44', '清晨露水染眉头\n青鸟衔烦恼落鼓楼\n云遮黄阳散哀愁\n醒也自由醉也自由\n笔走龙蛇章落红\n干柴烈煮毛茶优柔\n眯眼笑看人忧愁\n砕钱盘转脏智谋，苦做粥，生望死，死生生，乐为悲，情缠脚裸识固脑亲栓腿爱锁心，世间尘土埋一生，剪不断理还乱，拂袖山上去')
+('fa1788eda1', '2021-10-03 13:41:05', '时光妖艳\n七年\n把我们变得很老练\n而你从来没改变\n一直是我的初恋\n吻你不再踮脚尖\n你也不再夸我不要脸\n只是骂我好讨厌')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
