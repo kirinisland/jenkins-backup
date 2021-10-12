@@ -1,0 +1,44 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+Commit message: "Merge pull request #1 from kirinisland/feature/test-logger"
+ > git rev-list --no-walk 2e2ff1f40957461f45e028fc94e151ca3f1a7c36 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3074311516000746892.sh
++ python3 jobs/expirelyric.py --count 15
+('8e756eaba8', '2021-09-29 12:43:23', '总是患得患失把人生当成一场悲剧\n就像不平衡的爱情从来没有结局\n当开始放弃理想追求你的温柔\n曾经把你拥有却也只是曾经拥有\n许多记忆碎片压在我的胸口\n腐烂的花期从来找不到凶手\n原来说出真话才是最大的忌讳\n背过身去尽量把一切抛弃')
+('3c4fdb4c34', '2021-10-01 14:51:21', '云间沸腾白玉汤，\n惠风交织米线长。\n香郁古道萍水逢，\n何似画中小桥旁。')
+('ea0609026c', '2021-10-02 09:32:13', '金秋的微风\n携缕缕暗香浮动\n傍晚的落日\n献道道霞光腾空\n古老的国度，美丽而宽广\n伟大的民族，勤劳而坚强\n建党百年的荣辱与共\n72年历史的沉浮向荣')
+('606188e619', '2021-10-02 22:43:44', '清晨露水染眉头\n青鸟衔烦恼落鼓楼\n云遮黄阳散哀愁\n醒也自由醉也自由\n笔走龙蛇章落红\n干柴烈煮毛茶优柔\n眯眼笑看人忧愁\n砕钱盘转脏智谋，苦做粥，生望死，死生生，乐为悲，情缠脚裸识固脑亲栓腿爱锁心，世间尘土埋一生，剪不断理还乱，拂袖山上去')
+('fa1788eda1', '2021-10-03 13:41:05', '时光妖艳\n七年\n把我们变得很老练\n而你从来没改变\n一直是我的初恋\n吻你不再踮脚尖\n你也不再夸我不要脸\n只是骂我好讨厌')
+('34a815df83', '2021-10-06 10:54:03', '我二十多岁啊\n还是平庸之辈啊\n是不是这辈子我注定一事无成\n我二十多岁啊\n还想着诗和远方啊\n是不是梦想早已会化为黄昏的一缕风\n我二十多岁啊\n是配拥有着她吗')
+('3d80c5650b', '2021-10-06 14:22:53', '天空昏沉，睡意朦胧，眼角带着昨日的烦恼。\n时光如梭，往日不再，可那身影却从未消散\n不知是不是老天开的玩笑，那时你我还如此骄傲，可现在已被生活磨平了棱角，不知这话你是否可以听到。\n如此醉人的玩笑，心中苦闷却无人知晓。记忆深处那迷人的微笑，到了现在却已不再闪耀。\n是被生活的重担压抑了自我，还是那往日不再的美好，到现在也只能付之一笑。\n曾经向往的逍遥，如今只能回望过往的暮色，在月光下怅惘未来的生活。')
+('5534491571', '2021-10-06 20:04:35', '你是我的趋之若鹜\n可迈向你的每一步我都倍感痛苦\n你说的每句话都使得我反复翻录\n命运奇迹般地重复我与生俱来的孤独')
+('d978d2c041', '2021-10-07 00:25:00', '     我坐在空荡荡的房间里点燃了一根烟\n     一个人的夜晚让我孤独让我特别讨厌\n      小学三年半的校园欺凌是我的梦魇\n   想要保护自己 开始反击 却遭受老师冷眼 \n       每天睁开眼依旧是度日如年的一天\n       幼年时的快乐时光让我无比怀念\n       为什么这些事总会发生在我身上\n    老师同学一次又一次的让我的心受伤         ')
+('430a4735f6', '2021-10-07 17:40:30', '你的所见遍地希望\n你可以击破阻挡重重\n洒脱，同清风共逐梦想\n托起了那份爱的沉重\n只为看你那无伦的倒影\n我一直在大雾里寻光\n同你一起追梦')
+('308de16856', '2021-10-07 23:25:59', '辽阔幽远山高水长\n斑驳容颜清汤水寡\n泛江之舟隔岸相望\n灯暗昏黄湿了眼眶\n岁月你别匆忙 美人为白发惆怅\n我轻轻敲打她的窗\n沧桑的脸上露出微笑')
+('00a9385b50', '2021-10-08 19:24:43', '每夜只有无尽的黑夜\n在黎明中寻找特别的落叶\n街头没有喧闹情节\n这就是告别的季节\n穿校于高楼大厦\n黑夜也阻挡不了寂寞\n只剩下遗憾的语言\n依然只能微笑面对沉默')
+('1af8d1280d', '2021-10-08 21:12:10', '属于你们两人的幸福画面在脑中演了一遍又一遍\n我不想看见却反复出现\n是爱情吧一个笑颜如花一个甘于奉献\n是真心吧所有一起的日子都想要纪念\n是不舍还是留恋旧爱与新欢\n是责任还是贪念相守无笑颜\n你留下的躯干能否用心表演\n背后拥抱的我是否令人生厌')
+('8908b98d8a', '2021-10-08 23:39:42', '皇权天授也食人间五谷\n内忧外患故作熟视无睹\n弱肉强食难逃砧板厄运\n成王败寇留下血染教训')
+现有精选微词 14首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
