@@ -1,0 +1,33 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hot_user
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+Commit message: "Merge branch 'master' of github.com:kirinisland/zaoci-tool"
+ > git rev-list --no-walk e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+[hot_user] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins7162745492781824940.sh
++ python3 jobs/hot_user.py --count 25
+Hot users after date: 2021-10-13 00:00:00
+点赞最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-10-13 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-likeCount
+[('344d1922b6', 10, 8, 1, 1), ('beb5a9dfea', 16, 7, 2, 7), ('beb5a9dfea', 4, 3, 0, 1), ('b6655a8869', 3, 2, 0, 1), ('d5071c5734', 2, 2, 0, 0), ('d5071c5734', 2, 2, 0, 0), ('02455c1c4f', 4, 2, 2, 0), ('02455c1c4f', 2, 2, 0, 0), ('56e93278b3', 3, 1, 1, 1), ('56e93278b3', 2, 1, 0, 1), ('02455c1c4f', 1, 1, 0, 0), ('61d649d614', 1, 1, 0, 0), ('e236e55ee7', 1, 1, 0, 0), ('e1c829ca8b', 3, 1, 0, 2), ('beb5a9dfea', 1, 1, 0, 0), ('546fdff7d5', 1, 1, 0, 0), ('3500f327cb', 3, 1, 1, 1), ('e007c68359', 1, 1, 0, 0), ('cee79ce48c', 0, 0, 0, 0), ('fc759016ef', 0, 0, 0, 0), ('99a6e2e3d7', 1, 0, 1, 0), ('c9a9e8fce0', 1, 0, 1, 0)]
+
+评论最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-10-13 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-commentCount
+[('02455c1c4f', 4, 2, 2, 0), ('beb5a9dfea', 16, 7, 2, 7), ('344d1922b6', 10, 8, 1, 1), ('56e93278b3', 3, 1, 1, 1), ('99a6e2e3d7', 1, 0, 1, 0), ('3500f327cb', 3, 1, 1, 1), ('c9a9e8fce0', 1, 0, 1, 0), ('b6655a8869', 3, 2, 0, 1), ('56e93278b3', 2, 1, 0, 1), ('cee79ce48c', 0, 0, 0, 0), ('d5071c5734', 2, 2, 0, 0), ('d5071c5734', 2, 2, 0, 0), ('fc759016ef', 0, 0, 0, 0), ('02455c1c4f', 1, 1, 0, 0), ('02455c1c4f', 2, 2, 0, 0), ('61d649d614', 1, 1, 0, 0), ('e236e55ee7', 1, 1, 0, 0), ('e1c829ca8b', 3, 1, 0, 2), ('beb5a9dfea', 4, 3, 0, 1), ('beb5a9dfea', 1, 1, 0, 0), ('546fdff7d5', 1, 1, 0, 0), ('e007c68359', 1, 1, 0, 0)]
+
+收藏最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-10-13 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-bookmarkCount
+[('beb5a9dfea', 16, 7, 2, 7), ('e1c829ca8b', 3, 1, 0, 2), ('344d1922b6', 10, 8, 1, 1), ('56e93278b3', 3, 1, 1, 1), ('b6655a8869', 3, 2, 0, 1), ('56e93278b3', 2, 1, 0, 1), ('beb5a9dfea', 4, 3, 0, 1), ('3500f327cb', 3, 1, 1, 1), ('cee79ce48c', 0, 0, 0, 0), ('d5071c5734', 2, 2, 0, 0), ('d5071c5734', 2, 2, 0, 0), ('fc759016ef', 0, 0, 0, 0), ('02455c1c4f', 4, 2, 2, 0), ('02455c1c4f', 1, 1, 0, 0), ('02455c1c4f', 2, 2, 0, 0), ('61d649d614', 1, 1, 0, 0), ('e236e55ee7', 1, 1, 0, 0), ('99a6e2e3d7', 1, 0, 1, 0), ('beb5a9dfea', 1, 1, 0, 0), ('546fdff7d5', 1, 1, 0, 0), ('c9a9e8fce0', 1, 0, 1, 0), ('e007c68359', 1, 1, 0, 0)]
+{'344d1922b6': (30, 24, 3, 3, {'bookmarkCount', 'commentCount', 'likeCount'}), 'beb5a9dfea': (63, 33, 6, 24, {'bookmarkCount', 'commentCount', 'likeCount'}), 'b6655a8869': (9, 6, 0, 3, {'bookmarkCount', 'commentCount', 'likeCount'}), 'd5071c5734': (12, 12, 0, 0, {'bookmarkCount', 'commentCount', 'likeCount'}), '02455c1c4f': (21, 15, 6, 0, {'bookmarkCount', 'commentCount', 'likeCount'}), '56e93278b3': (15, 6, 3, 6, {'bookmarkCount', 'commentCount', 'likeCount'}), '61d649d614': (3, 3, 0, 0, {'bookmarkCount', 'commentCount', 'likeCount'}), 'e236e55ee7': (3, 3, 0, 0, {'bookmarkCount', 'commentCount', 'likeCount'}), 'e1c829ca8b': (9, 3, 0, 6, {'bookmarkCount', 'commentCount', 'likeCount'}), '546fdff7d5': (3, 3, 0, 0, {'bookmarkCount', 'commentCount', 'likeCount'}), '3500f327cb': (9, 3, 3, 3, {'bookmarkCount', 'commentCount', 'likeCount'}), 'e007c68359': (3, 3, 0, 0, {'bookmarkCount', 'commentCount', 'likeCount'}), 'cee79ce48c': (0, 0, 0, 0, {'bookmarkCount', 'commentCount', 'likeCount'}), 'fc759016ef': (0, 0, 0, 0, {'bookmarkCount', 'commentCount', 'likeCount'}), '99a6e2e3d7': (3, 0, 3, 0, {'bookmarkCount', 'commentCount', 'likeCount'}), 'c9a9e8fce0': (3, 0, 3, 0, {'bookmarkCount', 'commentCount', 'likeCount'})}
+Total hot users count after date: 2021-10-13 00:00:00: 16
+[{'success': {'createdAt': '2021-10-20 20:19:16', 'objectId': 'd01c186d4f'}}, {'success': {'createdAt': '2021-10-20 20:19:16', 'objectId': '2f8de64d3f'}}, {'success': {'createdAt': '2021-10-20 20:19:16', 'objectId': '4f3fd1a409'}}, {'success': {'createdAt': '2021-10-20 20:19:16', 'objectId': '4d24934bf7'}}, {'success': {'createdAt': '2021-10-20 20:19:16', 'objectId': 'b1d57da934'}}, {'success': {'createdAt': '2021-10-20 20:19:16', 'objectId': 'a84f8f367d'}}, {'success': {'createdAt': '2021-10-20 20:19:16', 'objectId': '6590491c38'}}, {'success': {'createdAt': '2021-10-20 20:19:16', 'objectId': '2cab647d3f'}}, {'success': {'createdAt': '2021-10-20 20:19:16', 'objectId': '7251c33b50'}}, {'success': {'createdAt': '2021-10-20 20:19:16', 'objectId': 'df6ec947a9'}}, {'success': {'createdAt': '2021-10-20 20:19:16', 'objectId': 'd1b65ccee6'}}, {'success': {'createdAt': '2021-10-20 20:19:17', 'objectId': '878426b371'}}, {'success': {'createdAt': '2021-10-20 20:19:17', 'objectId': 'ffc7bdd737'}}, {'success': {'createdAt': '2021-10-20 20:19:17', 'objectId': '821b32eebc'}}, {'success': {'createdAt': '2021-10-20 20:19:17', 'objectId': '8d88adcfce'}}, {'success': {'createdAt': '2021-10-20 20:19:17', 'objectId': '0ed49eff90'}}]
+Finished: SUCCESS
