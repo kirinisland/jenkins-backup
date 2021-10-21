@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+Commit message: "Merge branch 'master' of github.com:kirinisland/zaoci-tool"
+ > git rev-list --no-walk e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1082202115731503984.sh
++ python3 jobs/expirelyric.py --count 15
+('024ba14fc8', '2021-10-09 11:15:44', '天气已经开始转冷 \n我也嗅觉到的干燥\n我坐在公园的一旁\n街灯映射出那昏暗\n浏览了   信息翻了几翻\n没人与我像从前的那样\n其实我早已习惯')
+('8a77db98d2', '2021-10-11 00:34:48', '十六岁的冬天\n以为天长地久那么轻易兑现\n测验\n考验\n应验\n终究成了无法收拾的碎片\n听说你的城市常年暖风拂面\n我这里却是一雨一冬天')
+('244d82f7ea', '2021-10-11 01:58:48', '谁都知道我跟你很般配\n就算不送我玫瑰也很高贵\n到酒吧我开了台消费\n喝醉了说clx是我宝贝\n说的情话都不是拷贝\n除了爱我你还得早起早睡')
+('66d0efe9a0', '2021-10-11 07:15:48', '我听过最虚伪的谎言\n说到底其实就在眼前\n明明都已过了几年\n回忆还在脑海缠绵\n曾经说的没有兑现\n我们也一直没有见面\n不知道你能不能听见\n始终无法走出我的视线')
+('19c527312d', '2021-10-11 10:44:18', '豆蔻\n\n豆蔻青青，疏柳净亭，萦怀何人?唯水知明。试问湖心，潋掩鱼情。复问湖畔，但见衔花莺。\n豆蔻芳芳，疏柳玉堂，萦怀何深?唯水得量。试问湖心，潋滟尽扬。复问湖畔，但见茗草香。\n豆葱纤纤，疏柳停鸳，萦怀何苦？唯水方鉴。试问湖心，潋波环轩。复问湖畔，但见青鸟翩。')
+('d25aa21000', '2021-10-12 01:05:13', '我放开手，\n我让你走，\n孤独的夜晚独自守，\n我宁愿做个单身狗，\n喝着清晨最烈的酒，\n就算自己一无所有，\n也要胜过那个小丑，')
+('1fcb11704e', '2021-10-12 08:06:16', '让我一人在这黑夜徘徊\n回想起不曾属于我的女孩\n那时的我满怀期待\n想象着我们的未来\n可生活如此无趣\n你只留给我一句\n我收起低迷的情绪\n忘记了我们的过去')
+('7cb4b3f608', '2021-10-12 10:51:56', '寒风吹醒了我的梦  \n挫折总 是让人疲惫\n有梦想成功不容易 \n面对挑战勇敢向前\n疾风中艰辛不畏惧\n就算将要狂风暴雨')
+('e0d1317f3c', '2021-10-13 08:37:12', '我放了一个屁 吸了一口气\n我拿出了手机 戴上了耳机\n我希望 风能悄悄将它吹进你嘴里\n我希望 你能默默专心感受它气息\n屁随着风而消逝 就像你曾经对我发誓\n我们要一直在一起 我们要永远不分离\n去你妈的爱情 简直全是放屁')
+('ea5b274030', '2021-10-13 19:11:30', '穿上自己喜欢的球衣\n我的球技依然没有那么的牛逼\n我曾经只是91号的球迷\n现在只喜欢科比的球技\n你每一次的MVP都来之不易\n冠军戒指的手指早已所剩无几')
+('48f05c56a2', '2021-10-13 23:38:42', '还记得那时的我们\n都爱的那样真\n可那些只在脑海中留存\n你的爱给了我几分\n到最后只剩下余温\n一起走过这一路红尘\n迎来的结局却是黄昏\n是不是因为 情的缘不深')
+('8c807b69c8', '2021-10-13 23:52:16', '一壶烈酒 一盏明灯\n浇亮了谁心里的愁\n一支笛笙 一阵秋风\n吹灭了谁心中的灯')
+('77592b5e0f', '2021-10-14 23:04:57', '时间留下各种各样的痕迹\n就像星空下我和你在一起\n聆听那雨的声音\n倾诉你我间的事情\n你就像黑夜里的黎明\n照耀了我那短暂的生命\n曾经我和你的过去\n都将冲破黑夜的沉寂')
+('b5c7038860', '2021-10-15 13:50:00', '行走在社会的这趟浑水只剩下拼命跳动的脉搏\n每个人都为了不同的东西拼上性命去活\n不屑去辨别是非的真伪因为总有麻烦无法摆脱\n这时代表面的完美背后的虚伪真的太多太多\n过期的梦想和泥泞的路上连思想都快腐烂\n短浅的目光看遥远的前方脑海穿过的子弹\n说过的大话被踩在脚下迎来了生活的审判\n不认这命运不躲这厄运嘲笑和冷眼都滚蛋')
+('7d2cddc7f6', '2021-10-15 14:07:04', '我想趁着醉意亲吻你的嘴\n不管什么时候你都最完美\n想带你去旅行去东西南北\n无论路有多长都不会疲惫 \n想和你从夕阳一直打闹到天黑送你回家\n想带把你带回家里去见见我的亲爱爸妈\n每当坐在一起的时候我就像是一个哑巴\n我没有什么计划 也没有太多情话')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
