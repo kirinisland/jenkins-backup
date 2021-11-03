@@ -1,0 +1,63 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+Commit message: "Merge branch 'master' of github.com:kirinisland/zaoci-tool"
+ > git rev-list --no-walk e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins8487849363872571894.sh
++ python3 jobs/expirelyric.py --count 15
+('807d3ffccc', '2021-10-24 01:04:07', '遥不可及的你 会把我轻易忘记\n无法逃避 只能 忍着痛\n怎么办 怎么办才好\n度日如年 我的世界\n唯一能治愈我的只有你啊\n请你回到我身边\nHey Dr.BeBe（我死而无悔）\n我非你不可 BeBe（疯了也无所谓）')
+('331f92cce0', '2021-10-25 19:15:20', '火箭呼呼飞起\n生活给我的压抑\n我想逃离这快乐星球\n就让他放手\n好好享受\n脚步也不要停留\n努力呼气\n想着放弃')
+('281007fd47', '2021-10-25 19:17:52', '在外太空我想自生自灭\n因为没有人能帮我自我毁灭\n也许是梦做的太过忘我\n醒来后还是出现在被窝\n心中泛起漩涡\n头发乱的像个鸡窝\n没想到现实还是能够将我把握')
+('c46b275ea0', '2021-10-25 19:54:27', '夜晚透过窗\n遥望星空的光茫\n泪滴找不到方向\n在这迷茫的夜里\n想把你揉进我梦里\n在这茫茫人海里\n却不知结局早也经注定\n曾经的誓言 变成了谎言')
+('900f80cb0a', '2021-10-27 20:01:51', '一艘孤单纸船 已泊了好几个港湾\n却不能到达梦的彼岸\n纸船飞于海中 一层雾眼朦胧\n抬头仰望星空 看到的只有困境的牢笼\n飘在茫茫大海上 奔向清晨的朝阳\n感受第一缕阳光 忘却一切的悲伤')
+('cb70fa70e6', '2021-10-27 23:38:12', '选择喜欢的\n放弃执念的\n爱我拥有的\n无悔失去的\n愿你好好的')
+('d091ff3a9b', '2021-10-28 00:40:47', '我的余生 错过的旅程 \n错过她的倾国倾城 \n时光留下不只是皱纹\n还有学不会的悲欢离分\n我的余生 失去的纯真\n失去她的一笑倾城\n是谁写下故事的剧本\n往后余生各自安稳')
+('708ce5b2f7', '2021-10-28 12:01:27', '我像只小船 缓缓的飘荡\n平静的海面 倒影 景象  挂满了月亮\n梦就  在前方 可就在前方 \n也可以假装 不见 等它自己去流浪 ')
+('4b91e24478', '2021-10-28 12:07:18', '海边的风 夏天的雨 树叶和风铃\n溜走了一个四季\n蝉鸣和你 在耳边突然好安静 \n我现在有  一点不适应')
+('9c1043ccad', '2021-10-30 16:50:43', '翻开秋天的雨\n从遇上这挂念\n期待每次看见\n最美的 会是明天\n多一点关怀问暖\n多一点关心每天\n多少经过岁月磨砺\n总会有天他会实现')
+('f767224dd6', '2021-10-30 19:38:54', '总有光芒会照在我身上\n别让理想想成了大梦一场\n路还漫长 放手闯荡\n想着远方 带上疯狂\n简单去爱 我的姑娘\n拥抱青春享受生活时光\n不忘方向 总有希望\n带上理想 忘记悲伤')
+('83515db16c', '2021-10-31 01:49:55', '我听见风吹过夏天的声音\n轻声说着我爱你\n那天的风很温柔\n我一头撞进你编织的陷阱\n深情或幻境\n红尘梦醒      竟一时分不清')
+('d6fba58c78', '2021-10-31 10:20:03', '离乡的游子回了家\n却找不到他的爸妈\n他不在像曾经那样潇洒\n灵魂得到了升华\n他不在对生活挣扎\n不在渴望着长大\n有了自己独立的想法\n飘逸的长发换成了短发')
+('e8e380e26e', '2021-10-31 12:26:26', '礼堂钟声响起 谁从梦中惊醒\n白鸽飞过窗前 带来一丝初夏暖意\n恍惚间 心脏不慎柔软 有风吹入\n只一瞬 对错界限模糊 甘愿付出\n还能忘记吗\n飞鸟与天空告别 去奔赴海的那面\n落日与星空契约 是否还能实现')
+('0cfd2a82ab', '2021-10-31 22:29:26', '告诉我你的烦恼\n你是为了追逐哪朵云彩的微笑\n还是想与那天边的霞一同燃烧\n哪一片云哪一抹霞守你到破晓\n哪一种痛让你无可救药\n哪个猎人的枪下你无处可逃')
+('99fcf5e2ac', '2021-11-01 00:43:20', '心底的空荡是为何\n怎么就变得不快乐\n沉默是我一贯风格\n那一刻我懂了世间规则\n有时想为你写一首情歌\n可提起笔琢磨不出规格\n看着你眼睛\n随后落下你温柔的陷阱')
+('7b25dd2f10', '2021-11-01 03:09:33', '你看 你看\n这温暖的阳光\n你还觉得自己\n孤单吗\n快去 快去\n拥抱这浩瀚的星辰\n连这大地都温柔地\n在抱着你')
+('c9a0bf9a47', '2021-11-01 12:12:44', '三年的时光终于还是迎来了一个句号\n一场考试终究带走了我们十八载的年少\n已经忘记这一路上曾经遭过多少嘲笑\n只记得是他们陪在你身旁把你视作骄傲\n今天我们站在这里依旧满腔热血\n下一次的相遇还不知在何年何月\n我相信我们的梦想会在不远的未来盛开\n那就一起奋力去奔赴我们最美好的期待 time')
+('70ccb533c4', '2021-11-01 19:54:11', '眼镜上布满了灰尘\n摘下眼镜我的世界模糊不清\n带上眼镜后我的世界肮脏不堪')
+('0d3610f324', '2021-11-01 20:12:03', '天空整日阴晴 夜晚却突然光明\n就像你我的曾经 那样透明 那样阴晴不定\n天空骤然阴霾 过好久都没散开\n记忆也被翻开 那样悲哀 那样苦尽甘来\n天空暴风骤雨 思绪也被带去\n没能将你挽住 那样痛苦 那样捉摸不住')
+('c26b553ed8', '2021-11-02 01:20:41', '时光从不慌忙 慢慢作响\n我们习惯偏向 久久幻想\n\n闭上眼 \n关于我们\n若隐若现的模样\n深夜微微的闪现')
+现有精选微词 21首.
+> 超过 15 首精选微词, 将下架如下微词:
+('807d3ffccc', '2021-10-24 01:04:07', '遥不可及的你 会把我轻易忘记\n无法逃避 只能 忍着痛\n怎么办 怎么办才好\n度日如年 我的世界\n唯一能治愈我的只有你啊\n请你回到我身边\nHey Dr.BeBe（我死而无悔）\n我非你不可 BeBe（疯了也无所谓）')
+{"updatedAt":"2021-11-03 07:14:44"}
+('331f92cce0', '2021-10-25 19:15:20', '火箭呼呼飞起\n生活给我的压抑\n我想逃离这快乐星球\n就让他放手\n好好享受\n脚步也不要停留\n努力呼气\n想着放弃')
+{"updatedAt":"2021-11-03 07:14:45"}
+('281007fd47', '2021-10-25 19:17:52', '在外太空我想自生自灭\n因为没有人能帮我自我毁灭\n也许是梦做的太过忘我\n醒来后还是出现在被窝\n心中泛起漩涡\n头发乱的像个鸡窝\n没想到现实还是能够将我把握')
+{"updatedAt":"2021-11-03 07:14:45"}
+('c46b275ea0', '2021-10-25 19:54:27', '夜晚透过窗\n遥望星空的光茫\n泪滴找不到方向\n在这迷茫的夜里\n想把你揉进我梦里\n在这茫茫人海里\n却不知结局早也经注定\n曾经的誓言 变成了谎言')
+{"updatedAt":"2021-11-03 07:14:46"}
+('900f80cb0a', '2021-10-27 20:01:51', '一艘孤单纸船 已泊了好几个港湾\n却不能到达梦的彼岸\n纸船飞于海中 一层雾眼朦胧\n抬头仰望星空 看到的只有困境的牢笼\n飘在茫茫大海上 奔向清晨的朝阳\n感受第一缕阳光 忘却一切的悲伤')
+{"updatedAt":"2021-11-03 07:14:47"}
+('cb70fa70e6', '2021-10-27 23:38:12', '选择喜欢的\n放弃执念的\n爱我拥有的\n无悔失去的\n愿你好好的')
+{"updatedAt":"2021-11-03 07:14:48"}
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
