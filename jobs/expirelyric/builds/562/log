@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+Commit message: "Merge branch 'master' of github.com:kirinisland/zaoci-tool"
+ > git rev-list --no-walk e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins2624102093650589463.sh
++ python3 jobs/expirelyric.py --count 15
+('f767224dd6', '2021-10-30 19:38:54', '总有光芒会照在我身上\n别让理想想成了大梦一场\n路还漫长 放手闯荡\n想着远方 带上疯狂\n简单去爱 我的姑娘\n拥抱青春享受生活时光\n不忘方向 总有希望\n带上理想 忘记悲伤')
+('83515db16c', '2021-10-31 01:49:55', '我听见风吹过夏天的声音\n轻声说着我爱你\n那天的风很温柔\n我一头撞进你编织的陷阱\n深情或幻境\n红尘梦醒      竟一时分不清')
+('d6fba58c78', '2021-10-31 10:20:03', '离乡的游子回了家\n却找不到他的爸妈\n他不在像曾经那样潇洒\n灵魂得到了升华\n他不在对生活挣扎\n不在渴望着长大\n有了自己独立的想法\n飘逸的长发换成了短发')
+('e8e380e26e', '2021-10-31 12:26:26', '礼堂钟声响起 谁从梦中惊醒\n白鸽飞过窗前 带来一丝初夏暖意\n恍惚间 心脏不慎柔软 有风吹入\n只一瞬 对错界限模糊 甘愿付出\n还能忘记吗\n飞鸟与天空告别 去奔赴海的那面\n落日与星空契约 是否还能实现')
+('0cfd2a82ab', '2021-10-31 22:29:26', '告诉我你的烦恼\n你是为了追逐哪朵云彩的微笑\n还是想与那天边的霞一同燃烧\n哪一片云哪一抹霞守你到破晓\n哪一种痛让你无可救药\n哪个猎人的枪下你无处可逃')
+('99fcf5e2ac', '2021-11-01 00:43:20', '心底的空荡是为何\n怎么就变得不快乐\n沉默是我一贯风格\n那一刻我懂了世间规则\n有时想为你写一首情歌\n可提起笔琢磨不出规格\n看着你眼睛\n随后落下你温柔的陷阱')
+('7b25dd2f10', '2021-11-01 03:09:33', '你看 你看\n这温暖的阳光\n你还觉得自己\n孤单吗\n快去 快去\n拥抱这浩瀚的星辰\n连这大地都温柔地\n在抱着你')
+('c9a0bf9a47', '2021-11-01 12:12:44', '三年的时光终于还是迎来了一个句号\n一场考试终究带走了我们十八载的年少\n已经忘记这一路上曾经遭过多少嘲笑\n只记得是他们陪在你身旁把你视作骄傲\n今天我们站在这里依旧满腔热血\n下一次的相遇还不知在何年何月\n我相信我们的梦想会在不远的未来盛开\n那就一起奋力去奔赴我们最美好的期待 time')
+('70ccb533c4', '2021-11-01 19:54:11', '眼镜上布满了灰尘\n摘下眼镜我的世界模糊不清\n带上眼镜后我的世界肮脏不堪')
+('0d3610f324', '2021-11-01 20:12:03', '天空整日阴晴 夜晚却突然光明\n就像你我的曾经 那样透明 那样阴晴不定\n天空骤然阴霾 过好久都没散开\n记忆也被翻开 那样悲哀 那样苦尽甘来\n天空暴风骤雨 思绪也被带去\n没能将你挽住 那样痛苦 那样捉摸不住')
+('c26b553ed8', '2021-11-02 01:20:41', '时光从不慌忙 慢慢作响\n我们习惯偏向 久久幻想\n\n闭上眼 \n关于我们\n若隐若现的模样\n深夜微微的闪现')
+('80414474c6', '2021-11-03 16:09:04', '树叶摇晃\n树枝轻摆\n河流在不远处\n楼顶的燕子扑棱扑棱地蹲进了窝里\n牛蛙卯足了劲统一起了号子\n知了也憋过了一年又一年的地下日子\n谁家老人忽然吱呀吱呀地拉起了二胡')
+('4a8cbeebd2', '2021-11-03 16:37:54', '你像一场我未知的发现\n让我一点一点陷入想象\n让我一步一步踏上流浪\n你轻轻闪过的温柔脸庞\n把秋季天空黑夜的寒风\n和我的世界渐渐添流光.')
+('d4dcc16a45', '2021-11-03 20:45:32', '终究还是走到了剧终\n你为我写的凌晨剧本\n我从始至终傻傻当真\n执导执演的浪漫剧情\n迷离眼神还带着单纯\n一心爱你的情有独钟\n触手即散去了的缘分\n灵魂还藏着几分不肯')
+('a8d4dfd236', '2021-11-04 19:38:32', '风吹走了经过\n只剩下一个我\n你突然转身就走\n徒留我失魂落魄\n如何紧握的双手\n也只得慢慢放松')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
