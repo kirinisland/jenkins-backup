@@ -1,0 +1,53 @@
+commit 67f16d1e8bb46b342185cab1b91dc95f57ef5750
+tree 9ba9409ca7c3353244b28f29163be358b365668a
+parent 5b46eaa47f5641d6b08d0e60a9de0f7f5fa5ba3a
+author Hongliang Yu <yuhongliang324@Hongliangs-MacBook-Pro.local> 2021-11-01 20:16:11 -0400
+committer Hongliang Yu <yuhongliang324@Hongliangs-MacBook-Pro.local> 2021-11-01 20:16:11 -0400
+
+    Add PQ scripts
+
+
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	word_ann/__init__.py
+:000000 100644 0000000000000000000000000000000000000000 264e93338c8dfd3aaf2ef8265d8b0cd0c031304b A	word_ann/brutal_force.py
+:000000 100644 0000000000000000000000000000000000000000 e1fd08321f0a5d6ca4226e624ed3a212c0ae9d68 A	word_ann/product_quantization.py
+:000000 100644 0000000000000000000000000000000000000000 36ae973b49707f48acdc12f84de1ccf918b21f43 A	word_ann/run_pq.py
+commit 5b46eaa47f5641d6b08d0e60a9de0f7f5fa5ba3a
+tree 8bc97aac20f03ec2bbb61c85af7a872286dbbe46
+parent b684939f8ddc70b346e6f86b594ddef0c7864c8d
+author Hongliang Yu <yuhongliang324@Hongliangs-MacBook-Pro.local> 2021-11-01 00:16:10 -0400
+committer Hongliang Yu <yuhongliang324@Hongliangs-MacBook-Pro.local> 2021-11-01 00:16:10 -0400
+
+    debug
+
+
+:100755 100755 e9c9f513eb23bf6c5e85cca1ce41fc42fef3a140 e51a61e4b4d7e4cd2b3cfccd1041e789e39ef838 M	kirin/word_sim.py
+commit b684939f8ddc70b346e6f86b594ddef0c7864c8d
+tree d05c49937c9a9ee824bc54f483ed7560d7f4e867
+parent 0701d75254b2a988aa0f99c6788a7fd27fb21a7e
+author Hongliang Yu <yuhongliang324@Hongliangs-MacBook-Pro.local> 2021-11-01 00:14:22 -0400
+committer Hongliang Yu <yuhongliang324@Hongliangs-MacBook-Pro.local> 2021-11-01 00:14:22 -0400
+
+    remove stop words file
+
+
+:100755 100755 ed5cc6f896d103fc4c139a4d3d4ef77881e98561 43daab5d1fb150ca7b937319170c55dd459e3600 M	word_sim_auto_retrain/create_fasttext_seg_train_data.py
+commit 0701d75254b2a988aa0f99c6788a7fd27fb21a7e
+tree 8ed31f28cdf824b42354f8809658a9cf9be09ae8
+parent ec261ba3f0bd9e08d68e82e0774f16c0d91b243e
+author Hongliang Yu <yuhongliang324@Hongliangs-MacBook-Pro.local> 2021-10-31 12:49:25 -0400
+committer Hongliang Yu <yuhongliang324@Hongliangs-MacBook-Pro.local> 2021-10-31 12:49:25 -0400
+
+    refactor
+
+
+:100755 100755 b5f2aa4146aeae7fc566359602436dabf17dbf18 290953529034ff9b84ecbf66b7d324efefbfe09c M	.vscode/settings.json
+:100755 100755 5228a510382334c8220fa8c9e604fc1b8ea3207c 60b3ca03a12e6385ccca8cd174be7634e37109a8 M	kirin/tokenization_kirin.py
+:100644 100644 d6363b8c79bc98a3f92884dccbb1bbe9b132b723 075b500cc59158b4590c4afc6718d1cd46c34252 M	kirin/word_filter.py
+:100755 100755 9e309670ee1d231a5a669f69b9e74ae6108e0bbe e9c9f513eb23bf6c5e85cca1ce41fc42fef3a140 M	kirin/word_sim.py
+:100644 100644 b182ccd4133ec1bca162df236ae55ba5ee568ffd d5211387b67c2a13dd818a7e0bf84bb41b01f27a M	word_sim_auto_retrain/advanced_filtering.py
+:100755 100755 0b0e064eee0cfddee645b895f99a2e1ff4c6495d b2402878e562bd753f2d8a3272a8277de7fb1570 M	word_sim_auto_retrain/auto_retrain_docker.sh
+:100755 100755 a7bcd11315a46ba7279a6d8df6153af8413aa138 bffb1589453df48e9c973c91ce3cff6c5fcb3da2 M	word_sim_auto_retrain/auto_retrain_docker_local_copy.sh
+:100755 100755 514aa12ee4b84ad9b1ae7c953d5419cad8714726 ed5cc6f896d103fc4c139a4d3d4ef77881e98561 M	word_sim_auto_retrain/create_fasttext_seg_train_data.py
+:100644 100644 33760b63d5649da19ee19709eb9fc866641100eb c6e738ec086583ed6ffd41436e3dc0ad670d2f4b M	word_sim_auto_retrain/create_rythme_freq.py
+:100644 100644 0f3f3d2e9c7eb1d1cd58b1fb7595dd6241b2c440 fb712f3112b13c44203f84cbcf4aeef2b56a609f M	word_sim_auto_retrain/generate_frontend_search_result_blacklist.py
+:100755 100755 fba0623e20cc214daf83a6b290acd23f71c3c147 ff4f42c9f3a03b797637defb05cbdfb788c4d2fa M	word_sim_auto_retrain/generate_pretrained_from_base_model.py

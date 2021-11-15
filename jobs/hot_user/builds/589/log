@@ -1,0 +1,33 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hot_user
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+Commit message: "Merge branch 'master' of github.com:kirinisland/zaoci-tool"
+ > git rev-list --no-walk e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+[hot_user] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins7443567477149021453.sh
++ python3 jobs/hot_user.py --count 25
+Hot users after date: 2021-11-08 00:00:00
+点赞最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-11-08 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-likeCount
+[('d5071c5734', 11, 5, 2, 4), ('d15c09de4b', 15, 5, 7, 3), ('e0d10ec843', 4, 3, 0, 1), ('d02819e29f', 2, 2, 0, 0), ('6c5ca45381', 1, 1, 0, 0), ('d15c09de4b', 11, 1, 10, 0), ('71c8c9793c', 2, 1, 0, 1), ('efb5fca25d', 1, 0, 0, 1), ('7eafedca18', 0, 0, 0, 0), ('7eafedca18', 0, 0, 0, 0), ('1a06179042', 3, 0, 1, 2), ('e0d10ec843', 1, 0, 1, 0), ('d15c09de4b', 1, 0, 1, 0), ('d15c09de4b', 2, 0, 1, 1), ('7457453acb', 4, 0, 2, 2)]
+
+评论最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-11-08 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-commentCount
+[('d15c09de4b', 11, 1, 10, 0), ('d15c09de4b', 15, 5, 7, 3), ('d5071c5734', 11, 5, 2, 4), ('7457453acb', 4, 0, 2, 2), ('1a06179042', 3, 0, 1, 2), ('e0d10ec843', 1, 0, 1, 0), ('d15c09de4b', 1, 0, 1, 0), ('d15c09de4b', 2, 0, 1, 1), ('efb5fca25d', 1, 0, 0, 1), ('7eafedca18', 0, 0, 0, 0), ('7eafedca18', 0, 0, 0, 0), ('e0d10ec843', 4, 3, 0, 1), ('71c8c9793c', 2, 1, 0, 1), ('6c5ca45381', 1, 1, 0, 0), ('d02819e29f', 2, 2, 0, 0)]
+
+收藏最多: https://api2.bmob.cn/1/classes/EverydayLyric?&limit=25&where={"validStatus": {"$gte": 2, "$lte": 3}, "createdAt": {"$gte": {"__type": "Date", "iso": "2021-11-08 00:00:00"}}}&keys=user,likeCount,commentCount,bookmarkCount&order=-bookmarkCount
+[('d5071c5734', 11, 5, 2, 4), ('d15c09de4b', 15, 5, 7, 3), ('1a06179042', 3, 0, 1, 2), ('7457453acb', 4, 0, 2, 2), ('efb5fca25d', 1, 0, 0, 1), ('e0d10ec843', 4, 3, 0, 1), ('d15c09de4b', 2, 0, 1, 1), ('71c8c9793c', 2, 1, 0, 1), ('7eafedca18', 0, 0, 0, 0), ('7eafedca18', 0, 0, 0, 0), ('6c5ca45381', 1, 1, 0, 0), ('d02819e29f', 2, 2, 0, 0), ('e0d10ec843', 1, 0, 1, 0), ('d15c09de4b', 1, 0, 1, 0), ('d15c09de4b', 11, 1, 10, 0)]
+{'d5071c5734': (33, 15, 6, 12, {'likeCount', 'commentCount', 'bookmarkCount'}), 'd15c09de4b': (87, 18, 57, 12, {'likeCount', 'commentCount', 'bookmarkCount'}), 'e0d10ec843': (15, 9, 3, 3, {'likeCount', 'commentCount', 'bookmarkCount'}), 'd02819e29f': (6, 6, 0, 0, {'likeCount', 'commentCount', 'bookmarkCount'}), '6c5ca45381': (3, 3, 0, 0, {'likeCount', 'commentCount', 'bookmarkCount'}), '71c8c9793c': (6, 3, 0, 3, {'likeCount', 'commentCount', 'bookmarkCount'}), 'efb5fca25d': (3, 0, 0, 3, {'likeCount', 'commentCount', 'bookmarkCount'}), '7eafedca18': (0, 0, 0, 0, {'likeCount', 'commentCount', 'bookmarkCount'}), '1a06179042': (9, 0, 3, 6, {'likeCount', 'commentCount', 'bookmarkCount'}), '7457453acb': (12, 0, 6, 6, {'likeCount', 'commentCount', 'bookmarkCount'})}
+Total hot users count after date: 2021-11-08 00:00:00: 10
+[{'success': {'createdAt': '2021-11-15 21:19:15', 'objectId': '3b7ee1b56a'}}, {'success': {'createdAt': '2021-11-15 21:19:15', 'objectId': '4b11738682'}}, {'success': {'createdAt': '2021-11-15 21:19:15', 'objectId': '8c3c9c4ce5'}}, {'success': {'createdAt': '2021-11-15 21:19:15', 'objectId': '6d955290bc'}}, {'success': {'createdAt': '2021-11-15 21:19:15', 'objectId': '2cc0998c21'}}, {'success': {'createdAt': '2021-11-15 21:19:15', 'objectId': '92bcad8ffa'}}, {'success': {'createdAt': '2021-11-15 21:19:15', 'objectId': '2eca1078aa'}}, {'success': {'createdAt': '2021-11-15 21:19:15', 'objectId': 'dca40ebd05'}}, {'success': {'createdAt': '2021-11-15 21:19:15', 'objectId': '51e156130a'}}, {'success': {'createdAt': '2021-11-15 21:19:15', 'objectId': '45e3aa5586'}}]
+Finished: SUCCESS

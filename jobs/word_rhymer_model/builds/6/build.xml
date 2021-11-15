@@ -1,0 +1,163 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>storage_dir</name>
+          <description>The root directory.</description>
+          <value>/Users/hongliang/media/storage</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>word_models_date</name>
+          <description>word_models_dir example: /Users/hongliang/media/storage/production_data/word_models/20210523</description>
+          <value>20211112</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>segmentation_date</name>
+          <description>segmentation_dir example: /Users/hongliang/media/storage/dev_data/word_model_pipeline/20210704</description>
+          <value>20211112</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>output_date</name>
+          <description>If left empty, will use today&apos;s date.</description>
+          <value></value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>batch_size</name>
+          <description></description>
+          <value>64</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>n_layers</name>
+          <description></description>
+          <value>3</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>input_embed_dim</name>
+          <description></description>
+          <value>32</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>hidden_dim</name>
+          <description></description>
+          <value>32</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>embed_dim</name>
+          <description></description>
+          <value>32</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>target_dim</name>
+          <description></description>
+          <value>2</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>activation</name>
+          <description>Options: relu, sigmoid, tanh, leakyRelu</description>
+          <value>leakyRelu</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>epochs</name>
+          <description></description>
+          <value>10</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>feature_mapper</name>
+          <description>Refer to `feature_mappers` of https://github.com/yuhongliang324/kirinBrain/blob/master/word_recommender</description>
+          <value>v1</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.BooleanParameterValue>
+          <name>dump_embeddings</name>
+          <description>Dump embedding instead of running KNN.</description>
+          <value>true</value>
+        </hudson.model.BooleanParameterValue>
+        <hudson.model.BooleanParameterValue>
+          <name>skip_training</name>
+          <description></description>
+          <value>false</value>
+        </hudson.model.BooleanParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>storage_dir</string>
+        <string>word_models_date</string>
+        <string>segmentation_date</string>
+        <string>output_date</string>
+        <string>batch_size</string>
+        <string>n_layers</string>
+        <string>input_embed_dim</string>
+        <string>hidden_dim</string>
+        <string>embed_dim</string>
+        <string>target_dim</string>
+        <string>activation</string>
+        <string>epochs</string>
+        <string>feature_mapper</string>
+        <string>dump_embeddings</string>
+        <string>skip_training</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.2.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.2.0">
+              <sha1>c76fbff29490cfcffeff5cf0df46762f85a8bc89</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>6</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>git@github.com:kirinisland/kirinBrain.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@4.2.0">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/root/.jenkins/workspace/word_rhymer_model</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+  </actions>
+  <queueId>13978</queueId>
+  <timestamp>1636926173686</timestamp>
+  <startTime>1636926173691</startTime>
+  <result>SUCCESS</result>
+  <duration>2088551</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/root/.jenkins/workspace/word_rhymer_model</workspace>
+  <hudsonVersion>2.204.2</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.2.0">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
+    <string>yuhongliang324</string>
+  </culprits>
+</build>
