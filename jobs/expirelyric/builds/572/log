@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+Commit message: "Merge branch 'master' of github.com:kirinisland/zaoci-tool"
+ > git rev-list --no-walk e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins8008063907391994996.sh
++ python3 jobs/expirelyric.py --count 15
+('f1e7c66cba', '2021-11-05 00:18:20', '年少思远方，半旬念故乡\n柴米油盐酱醋茶\n慌忙余生半载\n终难再回童年片片绿瓦')
+('00f978ab8d', '2021-11-06 02:29:01', '东方之珠也不是我的家\n滚滚红尘里 美丽岛俨然成为海上花\n亚细亚的孤儿  明天会更好吗\n飘来飘去 就这么飘来飘去\n未来的主人翁只愿听偶像的青春舞曲\n他们不是来自鹿港小镇的爱人同志\n他们童年没有之乎者也\n皇后大道的东边 全是电脑和手机儿童')
+('37a264bd5d', '2021-11-06 14:00:28', '子时昏天，醉酒消愁。\n卧津门之下，自叹息。')
+('3922bc077f', '2021-11-06 17:29:56', '如果可以化作一粒尘埃\n躲进风里\n风停\n感受落日余晖中的风景\n风起\n感受千里之外的你')
+('fb9d77eacf', '2021-11-06 20:43:12', '你又开始了无聊游戏\n但是没关系\n你还是如同空气\n疲惫的眼神里带着丧气\n你总是轻易感动自己')
+('cf67bd4e24', '2021-11-06 21:12:57', '我爱我的妈妈我爱我的家我爱她永远陪我出发\n我爱她的一切我爱她的短发我爱她永远魅力散发\n有她在我永远不会害怕因为我知道她会一直等我回家\n她教会了我许多做人的道理遗传给我了一张会吹长号的嘴巴\n在我这里她永远可以当个公主做我唯一的snowwhite \n不管她多大了我也会一直照顾她在我心中她是第一可爱\n')
+('141c166579', '2021-11-07 07:12:05', '从没想过自己会像夸父追太阳\n云层和飞鸟的距离那样近\n信号灯里的行人依旧在彷徨\n灰蓝色的天仿佛知道我的心情')
+('11f2ec5c9c', '2021-11-07 16:41:40', '路灯就也还在不远处\n它的希望\n只留给独自回家的魂。\n酒精只麻痹装睡的人\n它的笑话\n从临床经验开始分析。')
+('35350d4894', '2021-11-07 17:36:15', '演一场关于你的戏\n过程未必尽如人意\n谱一首名为深情的曲\n往事如何也回不去\n在我们精心设计的场景\n唱尽悲喜一曲问心')
+('2f55796e0c', '2021-11-07 23:58:53', 'Many times back to back 清楚感受到心跳疯狂加速\nI like summer sunny day best 你戴墨镜的模样超酷\nSo lucky is 我们在相同的时间走在了一条相同的道路\nWhenever 给你无微不至的照顾  何为归宿 my boo？')
+('d8c72c315b', '2021-11-08 23:38:56', '刚起床就站在窗台\n踮起脚尖望向窗外\n雾气茫茫一片苍白\n看不见青春的光彩\n回想起学生时代\n一切都那样素白\n与其看着卷子发呆\n不如打开窗户看海')
+('d1f15ed105', '2021-11-09 23:10:22', '陪我走过春夏秋冬的你，是否还记得我\n我们手拉手，都洋（溢）着微笑，漫步在操场\n你陪我哭，你陪我笑，你陪我一起打闹\n现在的你，还那个你吗\n我最好的朋友，你还记得我吗\n还是那个，还是那个，校园，操场\n我的朋友，我的朋友你不要忘记我\n我们还是最初的模样')
+('d71bdaa034', '2021-11-10 18:10:09', '今朝郡斋冷  春意阑珊\n水榭红颜贵女  低眉浅目叹息\n忽闻帘外马蹄疾 西风裹慕雨  \n久别重逢故里  风吹琵琶细语\n十年不晚  少年归期')
+('d83df499da', '2021-11-10 18:19:06', '夜色缠烟雨   青萝蔓蔓\n纸伞泛起回忆   一纸风月何处寄\n画船游得清江里  两处皆往矣\n年少几分得意   惊鸿一瞥心底\n半生冷暖    一如往昔')
+('c2a7643cee', '2021-11-11 21:29:10', '我一直都以为\n可以优雅的放弃\n故事的主角已没有你\n提笔写起 戏台上的对白物语\n深思熟虑 也写不出戏外那个你')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
