@@ -1,0 +1,96 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+Commit message: "Merge branch 'master' of github.com:kirinisland/zaoci-tool"
+ > git rev-list --no-walk e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5923510182086795231.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 7首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+反正
+路遥马急你只是昙花一现
+惊鸿一瞥却蹉跎我的似水流年
+谁又匆匆再见
+谁还游戏人间
+谁有权利把谁 留在明天
+
+敏感词如下:
+反正
+路遥*急你只是昙花一现
+惊鸿一瞥却蹉跎我的似水流年
+谁又匆匆再见
+谁还游戏人间
+谁有权利把谁 留在明天
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+昨日开的花 今天结的果
+风起尘扬悲欢离合 诉与谁人说
+春日来的燕 秋时冷的窝
+无间冬夏花零花落 匆匆是过客
+百盏相思醉不知  泪入杯酒浊
+万缕月光填不满  谁寂寞谁洒脱
+曲终人散轻别离  余音今犹涩
+一纸忧愁未寄出  岁月已蹉跎
+
+敏感词如下:
+昨*开的花 今天结的果
+风起尘扬悲欢离合 诉与谁人说
+春*来的燕 秋时冷的窝
+无间冬夏花零花落 匆匆是过客
+百盏相思醉不知  泪入杯酒浊
+万缕月光填不满  谁寂寞谁洒脱
+曲终人散轻别离  余音今犹涩
+一纸忧愁未寄出  岁月已蹉跎
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+谁在素净残冬里痴痴等待
+等你在青阳春日缓缓醒来
+沉睡了太久 往事已不再
+你始终不会明白他为何离开
+六九冰开 七九燕来
+无法言说的已不在
+一树花开 一夜花败
+欲言又止的终将释怀
+
+敏感词如下:
+谁在素净残冬里痴痴等待
+等你在青阳春*缓缓醒来
+沉睡了太久 往事已不再
+你始终不会明白他为何离开
+六九冰开 七九燕来
+无法言说的已不在
+一树花开 一夜花败
+欲言又止的终将释怀
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+地下有三个星堆
+沉睡过亘古长夜
+你失手点燃火焰
+千年后仍未熄灭
+
+敏感词如下:
+地下有三个星堆
+沉睡过亘古长夜
+你失手点燃火焰
+*后仍未熄灭
+-----------------------------
+Finished: SUCCESS
