@@ -1,0 +1,60 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+Commit message: "Merge branch 'master' of github.com:kirinisland/zaoci-tool"
+ > git rev-list --no-walk e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins714198247483525617.sh
++ python3 jobs/expirelyric.py --count 15
+('5502e3568c', '2021-11-13 10:54:57', '不要问寂寞从哪里来\n因为寂寞的人守着花海\n不要问寂寞从哪里来\n因为寂寞的人也有情怀')
+('d298f744aa', '2021-11-14 11:34:36', '小时候 小武会变法术\n身披金甲 头戴金箍 腾云驾雾\n梦中的妖魔鬼怪统统被降服\n陪伴我守护我上路 是唯一任务')
+('68d089e2de', '2021-11-14 12:27:55', '他应该做你的英雄\n需要勇敢\n给予你应有的妥善\n星辰如酒\n梦想、阳光和看不见的忧伤\n你眼中笑容指引他黑夜里回家的方向')
+('e3654a196e', '2021-11-14 12:33:07', '还在差不多地写 还在差不多地练\n还在差不多地看着书 有差不多的pain\n我想有差不多的study 能差不多的well\n再有差不多的time 给你差不多的tell')
+('27059df15f', '2021-11-15 19:30:54', '憧憬爱情的我们\n犹如深夜里的光芒\n爱情里的美好回忆\n是让人心动的心悸\n也让人充满期待\n多少人恍惚 期待美好的我们\n再一次次的后悔与遗憾中\n我们犹如时代的篇章')
+('f5c6cf1040', '2021-11-15 21:58:22', '人来人往的街道，无数个瞬间\n忽明忽暗的灯光，无数个思念\n只身一人的眷恋\n窗外的风寒凉却温暖\n无数个记忆碎片\n点点滴滴连成一根线\n暖流涌上心头，坠落')
+('4b76a925a1', '2021-11-16 15:08:29', '用着珍贵的时间\n做着无聊的事\n总认为时间还多\n所以不好好珍惜\n就像我明知道你\n不喜欢我这件事\n每天重复着同样的事\n却没比之前做的更好')
+('559217181e', '2021-11-16 18:07:25', 'they have nothing to do but feel sad and empty.\n桌上的日记本落款是七月二十九日星期天\n外面下着雨 心不能静 思绪万千\n你那里是否靠近大海 一眼无边\n现在还是未来 保持期待 \n永远不要退缩\n阳光今日出走 但多巴胺在我大脑蔓延\n没有情绪 听不进去 咎由自取 重蹈覆撤')
+('9097c667f9', '2021-11-17 03:00:49', '我想沉溺在梦里\n依偎在你怀里\n忘却一切距离\n我想和你看\n乐谱里的循环\n旋律中的浪漫\n还有我对你的喜欢')
+('667a12eee2', '2021-11-17 11:54:01', '放下 心里的不舍\n收起 那回忆 重新生活')
+('a00b7d7696', '2021-11-17 14:36:46', '曾经经历过风雨\n害怕触摸炙热的太阳\n习惯蜷缩在漫漫的黑夜\n逃离这人群和街道的喧闹\n可清晨到来的曙光\n也会点亮我心中的渴望\n唤醒我沉睡很久的梦想\n呼唤我冲破阻碍的路障')
+('877a7b19e8', '2021-11-17 15:12:18', '目光所致 我们故事 开始序演\n勾指起誓 回忆留恋 一起的画面\n我们那时 只有彼此 开心的笑脸\n时间静止 切断从前 爱恋的思线\n既然选择忘记你为何会在我梦里\n想回到曾经纸上规划未来存心里\n我在重复月光下的誓言 \n你在我身边')
+('3be49fd355', '2021-11-17 18:00:40', '低着头压低帽檐，\n穿过人群\n对着镜子勾了勾嘴角，\n想练习微笑，\n也没人会在意，\n我终于拿起面具，演戏\n像一只猴子，哗众取宠')
+('8e515f17e6', '2021-11-17 21:35:10', '一会儿早上还得起来 补作业\n可以看出我经历了多少的黑夜\n我真的无法理解\n为什么数学就是那么难啊\n我真希望数学从此就在世界毁灭\n愿世上再也没有数学 谢谢！\n')
+('ffb40b9288', '2021-11-18 13:41:27', '我挣扎着从坟墓里爬出\n拨开满目的杂草和泥土\n踏进漫天迷雾再度上路\n这次我一定要救出戴夫')
+('d205ec382d', '2021-11-19 00:07:36', '想送你一粒种子 逆风成长\n把情意秋收冬藏\n想送你一段旋律 轻声吟唱\n让回忆宛转悠扬\n想借你一副胸膛 抵挡寒霜\n让时光宁静安详\n想借你一双肩膀 温暖如阳 \n让幸福悠远绵长')
+('d7a78d7d4b', '2021-11-19 00:10:20', '昨日开的花 今天结的果\n风起尘扬悲欢离合 诉与谁人说\n春日来的燕 秋时冷的窝\n无间冬夏花零花落 匆匆是过客\n百盏相思醉不知  泪入杯酒浊\n万缕月光填不满  谁寂寞谁洒脱\n曲终人散轻别离  余音今犹涩\n一纸忧愁未寄出  岁月已蹉跎')
+('f458c2093a', '2021-11-19 00:12:51', '谁在素净残冬里痴痴等待\n等你在青阳春日缓缓醒来\n沉睡了太久 往事已不再\n你始终不会明白他为何离开\n六九冰开 七九燕来\n无法言说的已不在\n一树花开 一夜花败\n欲言又止的终将释怀')
+('17e3837d4f', '2021-11-19 00:16:07', '我以为 春天的风可以吹走疲惫\n我以为 秋天的雨可以淹没憔悴\n我以为 点灯的夜晚就不会再怕黑\n只可惜 这一切都只是 我以为\n我以为 我那么骄傲可以无怨无悔\n痛来得毫无防备 留下满身的伤痕累累\n我以为 我那么拼命的假装无所谓\n不过是口是心非 遗憾人间的事与愿违')
+('5c2d9e8576', '2021-11-20 03:15:07', '谁心皆有限度\n盼望没有回复\n思念沁入肺腑\n随着追逐倾吐\n角落蔷薇    醇香一拂即逝\n撕碎回忆    咀嚼过期甜蜜\n用漆黑的画笔描实身影\n将枯萎的温柔埋下')
+现有精选微词 20首.
+> 超过 15 首精选微词, 将下架如下微词:
+('5502e3568c', '2021-11-13 10:54:57', '不要问寂寞从哪里来\n因为寂寞的人守着花海\n不要问寂寞从哪里来\n因为寂寞的人也有情怀')
+{"updatedAt":"2021-11-21 08:14:23"}
+('d298f744aa', '2021-11-14 11:34:36', '小时候 小武会变法术\n身披金甲 头戴金箍 腾云驾雾\n梦中的妖魔鬼怪统统被降服\n陪伴我守护我上路 是唯一任务')
+{"updatedAt":"2021-11-21 08:14:24"}
+('68d089e2de', '2021-11-14 12:27:55', '他应该做你的英雄\n需要勇敢\n给予你应有的妥善\n星辰如酒\n梦想、阳光和看不见的忧伤\n你眼中笑容指引他黑夜里回家的方向')
+{"updatedAt":"2021-11-21 08:14:26"}
+('e3654a196e', '2021-11-14 12:33:07', '还在差不多地写 还在差不多地练\n还在差不多地看着书 有差不多的pain\n我想有差不多的study 能差不多的well\n再有差不多的time 给你差不多的tell')
+{"updatedAt":"2021-11-21 08:14:27"}
+('27059df15f', '2021-11-15 19:30:54', '憧憬爱情的我们\n犹如深夜里的光芒\n爱情里的美好回忆\n是让人心动的心悸\n也让人充满期待\n多少人恍惚 期待美好的我们\n再一次次的后悔与遗憾中\n我们犹如时代的篇章')
+{"updatedAt":"2021-11-21 08:14:28"}
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
