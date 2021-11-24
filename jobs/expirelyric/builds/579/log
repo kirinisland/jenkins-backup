@@ -1,0 +1,48 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+Commit message: "Merge branch 'master' of github.com:kirinisland/zaoci-tool"
+ > git rev-list --no-walk e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins7079405635946905856.sh
++ python3 jobs/expirelyric.py --count 15
+('d7a78d7d4b', '2021-11-19 00:10:20', '昨日开的花 今天结的果\n风起尘扬悲欢离合 诉与谁人说\n春日来的燕 秋时冷的窝\n无间冬夏花零花落 匆匆是过客\n百盏相思醉不知  泪入杯酒浊\n万缕月光填不满  谁寂寞谁洒脱\n曲终人散轻别离  余音今犹涩\n一纸忧愁未寄出  岁月已蹉跎')
+('f458c2093a', '2021-11-19 00:12:51', '谁在素净残冬里痴痴等待\n等你在青阳春日缓缓醒来\n沉睡了太久 往事已不再\n你始终不会明白他为何离开\n六九冰开 七九燕来\n无法言说的已不在\n一树花开 一夜花败\n欲言又止的终将释怀')
+('17e3837d4f', '2021-11-19 00:16:07', '我以为 春天的风可以吹走疲惫\n我以为 秋天的雨可以淹没憔悴\n我以为 点灯的夜晚就不会再怕黑\n只可惜 这一切都只是 我以为\n我以为 我那么骄傲可以无怨无悔\n痛来得毫无防备 留下满身的伤痕累累\n我以为 我那么拼命的假装无所谓\n不过是口是心非 遗憾人间的事与愿违')
+('5c2d9e8576', '2021-11-20 03:15:07', '谁心皆有限度\n盼望没有回复\n思念沁入肺腑\n随着追逐倾吐\n角落蔷薇    醇香一拂即逝\n撕碎回忆    咀嚼过期甜蜜\n用漆黑的画笔描实身影\n将枯萎的温柔埋下')
+('fe1b214d6b', '2021-11-20 12:59:40', '只是我回首，\n你像固执无伴的孤鹰，\n无法追随，\n层羽光亮。\n只是我回首，\n你像独啸冷凉的鲸鲨，\n无法追随，\n深邃静安。')
+('fc938fc198', '2021-11-20 13:00:33', '九月的流沙\n穿越风吹雨打\n我想告诉她\n太多的话牵挂\n世界太大\n我一个人回家\n空荡的房间\n只剩下钟摆滴答')
+('ce28ec472a', '2021-11-20 13:10:08', '何必顾及流云叨扰\n韶华悄悄你不来我不老\n我把所有虔诚都化作祈祷\n爱的上上签希望被我抽到\n何必顾及流云叨扰\n韶华悄悄你不来我不老\n我让每个夜晚都缀满繁星\n照亮每条街让我们能遇到')
+('874e4a50f4', '2021-11-20 21:46:56', '光芒从你眉眼间坠落\n失落却从那里闪烁\n那年我们一起看日落\n我们一起放烟火\n在期待中度过\n到头来还是一场失落')
+('0ecdfbdf86', '2021-11-21 09:47:32', '嘿boy你是人间蛊王\n遇见你就像美梦一场\n在这里你要独自成长\n看你的内心足够悲伤\n但最好还是别再流浪\n你的愿望是好好说唱\n为此你已经足够疯狂\n付出的努力不必假装')
+('eed9acb9ea', '2021-11-21 10:26:40', '当亡灵拉起复仇的队伍\n向世间展示出狰狞的面目\n代替着法律审判罪恶\n无视了他们的哭诉与觉悟')
+('421b389f7f', '2021-11-21 15:11:59', '停留在曾熟悉的地方\n还能把你在我的怀抱\n撒娇可爱的模样 在心里循环播放\n痛苦挣扎的绝望 失去继续的方向\n沧桑岁月的模样 生活就循环播放\n艰辛历程的地方 还能相信的希望\n该怎么选择')
+('5bc63b7dc4', '2021-11-21 21:42:08', '乌鸦不屑圈养白鸽\n末日来临的宰割又奈我何\n凯歌 胜利的凯歌奏响\n波尔多的酒香 能把你我斩断肠\n其貌不扬的乌鸦 不是你的朱砂\n浮夸也不是我想要的步伐')
+('76dfa1296d', '2021-11-21 21:44:04', '狼烟起 四处征战是烈马\n将军营 帐下歌舞没长大\n刀剑影 黄沙飞扬夺天下\n寒夜里 霜风暴雪无牵挂\n血染城墙曙光遥遥归无期\n冷铁卷刃姑娘落泪怎姑息')
+('c443a4609b', '2021-11-21 21:46:53', '潮湿的空气中充满了复苏的感动\n欢快的鸟鸣中充满了生机的赞颂\n我们都冲破了冬日的冰天寒冻\n奔跑着在森林找寻夏日的梦\n看西边的太阳傍晚再将天空染红')
+('37efabbcc2', '2021-11-22 15:39:24', '夜空星星在闪烁\n就像你的眼泪掉落\n我们的故事被枷锁\n好像没读完的小说')
+('3e9b6134da', '2021-11-23 09:13:50', '现实的结尾 总是意冷心灰\n回首才知 只是流年似水')
+现有精选微词 16首.
+> 超过 15 首精选微词, 将下架如下微词:
+('d7a78d7d4b', '2021-11-19 00:10:20', '昨日开的花 今天结的果\n风起尘扬悲欢离合 诉与谁人说\n春日来的燕 秋时冷的窝\n无间冬夏花零花落 匆匆是过客\n百盏相思醉不知  泪入杯酒浊\n万缕月光填不满  谁寂寞谁洒脱\n曲终人散轻别离  余音今犹涩\n一纸忧愁未寄出  岁月已蹉跎')
+{"updatedAt":"2021-11-24 08:14:30"}
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
