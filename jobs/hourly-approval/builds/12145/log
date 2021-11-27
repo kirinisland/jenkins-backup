@@ -1,0 +1,78 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+Commit message: "Merge branch 'master' of github.com:kirinisland/zaoci-tool"
+ > git rev-list --no-walk e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins979643208767490778.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 8首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+在每个睡不着的夜晚我都会循环播放着你的歌单 
+没有你在的路上即便身边有人陪也感觉自己落单
+我一直以为只要放下你我就会变得更加成熟
+但从来没想过深夜里一个人的时候会那么孤独
+我想放下  却感觉遗憾 到底谁来给我答案
+安眠的药 已经吃了一半 想逃进梦里与现实离岸
+我还是学会了对某些事情妥协变得不再那么感性
+每次听到她的消息总是心头一颤如今却没有反应
+
+敏感词如下:
+在每个睡不着的夜晚我都会循环播放着你的歌单 
+没有你在的路上即便身边有人陪也感觉自己落单
+我一直以为只要放下你我就会变得更加成熟
+但从来没想过深夜里一个人的时候会那么孤独
+我想放下  却感觉遗憾 到底谁来给我答案
+安眠的药 已经吃了一半 想逃进梦里与现实离岸
+我还是学会了对某些事情妥协变得不再那么感*
+每次听到她的*总是心头一颤如今却没有反应
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+每次我总会梦到这里
+就像夏日炎炎的海里
+听你惬意和弦指尖里
+要记起这秒坠进爱里
+
+敏感词如下:
+每次我总会梦到这里
+就像夏*炎炎的海里
+听你惬意和弦指尖里
+要记起这秒坠进爱里
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+你还记得吗，
+小时候的梦想
+那满怀期待的想象，
+是我们坚持的动力，
+天真的盼望快些长大
+
+敏感词如下:
+你还记得*，
+小时候的梦想
+那满怀期待的想象，
+是我们坚持的动力，
+天真的盼望快些长大
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+Finished: SUCCESS
