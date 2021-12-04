@@ -1,0 +1,106 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+Commit message: "Merge branch 'master' of github.com:kirinisland/zaoci-tool"
+ > git rev-list --no-walk e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins1179815111145286448.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 9首.
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+I Don't Care
+根本不会想着在乎
+I Don't Care
+成长路上太多迷雾
+I Don't Care
+没有什么将我束缚
+I Don't Care
+牢笼的鸟无法困住
+
+敏感词如下:
+i don't care
+根*不会想着在乎
+i don't care
+成长路上太多迷雾
+i don't care
+没有什么将我束缚
+i don't care
+牢笼的鸟无法困住
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+从来觉得相逢是一种偶然
+自从遇见上你后
+我才真正发现到
+原来这世上真有这样缘分
+
+你我第一次见面
+他眼里含着星辰
+
+
+敏感词如下:
+从来觉得相逢是一种偶然
+自从遇见*后
+我才真正发现到
+原来这世上真有这样缘分
+
+你我第一次见面
+他眼里含着星辰
+
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+I've never seen a athlete in the pitch
+I spend my time on watching football matches on the TV
+And I'm so proud of Liverpool
+In the Allianz Arena with Bayern Munich
+But my favorite are
+Torres Messi Cristiano Ronaldo
+Benzema Neymar Griezmann and Salah
+We do care we’re enjoying the shouts at goal
+
+敏感词如下:
+i've never seen a athlete in the pitch
+i spend * time on watching football matches on the tv
+and i'm so proud of liverpool
+in the allianz arena with bayern munich
+but * favorite are
+torres messi cristiano ronaldo
+benzema neymar griezmann and salah
+we do care we’re enjoying the shouts at goal
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+FLY top of the cloud
+put up you fantasy feeling my soul 
+clean the dirty I had to go 
+reach my goal I never stop 
+baby你的头发穿过我的指间所以时间好像快要凝结世间万物不如你的一眼，显得腼腆陷入依恋
+
+敏感词如下:
+fly top of the cloud
+put up you fantasy feeling * soul 
+clean the dirty i had to go 
+reach * goal i never stop 
+baby你的头发穿过我的指间所以时间好像快要凝结世间万物不如你的一眼，显得腼腆陷入依恋
+-----------------------------
+Finished: SUCCESS
