@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+Commit message: "Merge branch 'master' of github.com:kirinisland/zaoci-tool"
+ > git rev-list --no-walk e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins3170178737093124545.sh
++ python3 jobs/expirelyric.py --count 15
+('4bbbdea8aa', '2021-11-24 23:05:52', '我们总是想要获得什么 \n却忘了自己永远只是过客\n无论开心难过，权力财富\n最后都化作一幅幅回忆\n把记忆变成可触摸的实体\n不只是一道道回忆的试题')
+('6de5f451f2', '2021-11-25 13:27:05', '风划过我的指尖\n彷佛和我说再见\n天色也渐渐阴霾\n时间也停滞不前\n                           隐星')
+('67ef30e791', '2021-11-26 11:15:42', '在每个睡不着的夜晚我都会循环播放着你的歌单 \n没有你在的路上即便身边有人陪也感觉自己落单\n我一直以为只要放下你我就会变得更加成熟\n但从来没想过深夜里一个人的时候会那么孤独\n我想放下  却感觉遗憾 到底谁来给我答案\n安眠的药 已经吃了一半 想逃进梦里与现实离岸\n我还是学会了对某些事情妥协变得不再那么感性\n每次听到她的消息总是心头一颤如今却没有反应')
+('2254ecd860', '2021-11-27 00:03:36', '谁说十指相扣就是真爱\n谁说下雨打伞就是等待\n如果相爱就要走  流泪模糊了眼角\n我们遗忘了今天 没有今天的昨天\n你我徐行渐远 擦拭而不见\n时间也不能让你停\n到最后我才懂 等了你很久\n')
+('9977621c4e', '2021-11-27 11:49:30', '你还记得吗，\n小时候的梦想\n那满怀期待的想象，\n是我们坚持的动力，\n天真的盼望快些长大')
+('e3c04b4a69', '2021-11-29 02:11:26', '还有一些结那就留给时间\n我再去追究你也视而不见\n反反复复分分合合从没改变\n不辞而别 没有意外 没有原因')
+('2d7b2958ca', '2021-12-01 13:46:30', '虽然我有诸多遗憾\n但我却没有后悔\n人生不可避免会有许多遗憾\n但却可以避免让自己有许多后悔')
+('de2a89de82', '2021-12-01 13:49:38', '我支离破碎的意识\n在罅隙里挣扎\n这世界就像一个深渊\n深深地扼住了我的喉咙\n我拼命往上爬\n结果我以为的光明\n却又是另一个深渊')
+('b463fbb974', '2021-12-01 23:24:01', '残缺的灵魂不美丽\n没有归属\n只好流浪去北极\n穿过森林 月光岛屿\n眼泪不会忘记')
+('064d8f169e', '2021-12-02 00:33:38', '炊烟袅袅升起\n等待遥遥无期\n快乐从此销声匿迹\n听见你的叹息\n如果不是你\n心还颠沛流离\n把思念化作晴空万里\n等待你的消息')
+('518b4dcb9d', '2021-12-02 09:57:26', '桃花落良人旁\r\n禅意香\r\n雪无痕琴无声\r\n指惆怅\r\n往昔依旧\r\n罗衫袖底藏\r\n怎让人\r\n不朝思暮想\r')
+('f463a96ecb', '2021-12-02 09:58:08', '俯仰天下，囊中藏\r\n意气风发，少年郎\r\n千秋功业，巅峰上\r\n一半孤寂，参辉煌\r\n父慈子孝，君臣帝王\r\n暮为野鬼，朝时侯王\r')
+('db711d4f21', '2021-12-03 19:23:03', "I Don't Care\n根本不会想着在乎\nI Don't Care\n成长路上太多迷雾\nI Don't Care\n没有什么将我束缚\nI Don't Care\n牢笼的鸟无法困住")
+('c49887d71a', '2021-12-03 23:24:14', '就像那句情话\n突然间变了想法\n不听话\n努力挣扎\n一颗心\n浪迹天涯')
+('9859341da8', '2021-12-04 09:10:03', '用铅笔一点一点勾勒出你模样\n当然不会忘记你的梦想\n面容上的红光 眼睛里的希望\n身上穿的新装 我都会画上\n带着你的画像 在孤单的街上\n眼角再也不会有泪光 ')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
