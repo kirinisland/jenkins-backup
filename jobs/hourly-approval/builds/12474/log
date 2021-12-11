@@ -1,0 +1,82 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/hourly-approval
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+Commit message: "Merge branch 'master' of github.com:kirinisland/zaoci-tool"
+ > git rev-list --no-walk e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+[hourly-approval] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins7214725445705002065.sh
++ python3 jobs/filter_lyric.py
+现有新发布微词 14首.
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+我需要破釜沉舟的勇气
+去凿开那冰封已久的河流
+捞出那相信自由的青蛙
+和那被困住多年的蜉蝣
+我们好像活了很久很久
+又好像那朝生暮死的蜉蝣
+
+敏感词如下:
+我需要破釜沉舟的勇气
+去凿开那冰封已久的河流
+捞出那相信自由的青蛙
+和那被困住多年的蜉蝣
+我们好像活了很久很久
+又好像那朝生暮*的蜉蝣
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词包含敏感词, 已下架. 
+灰蒙森林透出颜色
+暗淡街头找寻着我
+那时争吵的你我
+言语都无法选择沉默
+船舶停靠在 心海
+载不动对你的思念
+寂寞在胡乱穿梭
+爱终于挣脱枷锁 飞蛾扑火
+
+敏感词如下:
+灰蒙森林透出颜*
+暗淡街头找寻着我
+那时争吵的你我
+言语都无法选择沉默
+船舶停*在 心海
+载不动对你的思念
+寂寞在胡乱穿梭
+爱终于挣脱枷锁 飞蛾扑火
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+此篇微词不包含违禁内容!
+-----------------------------
+Finished: SUCCESS
