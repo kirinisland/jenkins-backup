@@ -1,0 +1,45 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/root/.jenkins/workspace/expirelyric
+using credential root
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:kirinisland/zaoci-tool.git # timeout=10
+Fetching upstream changes from git@github.com:kirinisland/zaoci-tool.git
+ > git --version # timeout=10
+using GIT_SSH to set credentials 
+ > git fetch --tags --force --progress -- git@github.com:kirinisland/zaoci-tool.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+Commit message: "Merge branch 'master' of github.com:kirinisland/zaoci-tool"
+ > git rev-list --no-walk e6bfc69f8862b6f1666aca698ed14ab1fa6a2179 # timeout=10
+No emails were triggered.
+[expirelyric] $ /bin/sh -xe /var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/jenkins5537788626265236534.sh
++ python3 jobs/expirelyric.py --count 15
+('b463fbb974', '2021-12-01 23:24:01', '残缺的灵魂不美丽\n没有归属\n只好流浪去北极\n穿过森林 月光岛屿\n眼泪不会忘记')
+('064d8f169e', '2021-12-02 00:33:38', '炊烟袅袅升起\n等待遥遥无期\n快乐从此销声匿迹\n听见你的叹息\n如果不是你\n心还颠沛流离\n把思念化作晴空万里\n等待你的消息')
+('518b4dcb9d', '2021-12-02 09:57:26', '桃花落良人旁\r\n禅意香\r\n雪无痕琴无声\r\n指惆怅\r\n往昔依旧\r\n罗衫袖底藏\r\n怎让人\r\n不朝思暮想\r')
+('f463a96ecb', '2021-12-02 09:58:08', '俯仰天下，囊中藏\r\n意气风发，少年郎\r\n千秋功业，巅峰上\r\n一半孤寂，参辉煌\r\n父慈子孝，君臣帝王\r\n暮为野鬼，朝时侯王\r')
+('db711d4f21', '2021-12-03 19:23:03', "I Don't Care\n根本不会想着在乎\nI Don't Care\n成长路上太多迷雾\nI Don't Care\n没有什么将我束缚\nI Don't Care\n牢笼的鸟无法困住")
+('c49887d71a', '2021-12-03 23:24:14', '就像那句情话\n突然间变了想法\n不听话\n努力挣扎\n一颗心\n浪迹天涯')
+('9859341da8', '2021-12-04 09:10:03', '用铅笔一点一点勾勒出你模样\n当然不会忘记你的梦想\n面容上的红光 眼睛里的希望\n身上穿的新装 我都会画上\n带着你的画像 在孤单的街上\n眼角再也不会有泪光 ')
+('611fd9c421', '2021-12-07 10:04:47', '当我飞上了清澈高远的青天\n我才知道梦竟是如此的煎熬')
+('6625ba1171', '2021-12-07 16:05:07', '尘终将归尘 土终将归土\n你我终将化作万物滋润泥土\n天空属鸟 何属于我\n茫茫宇宙 渺小一颗\n看似自由 尽是蹉跎\n是谁也逃避不了 \n消失于熊熊烈火')
+('8d698574cb', '2021-12-07 23:00:34', '沿着蜿蜒的溪流行走\n听着潺潺的歌声悠悠\n枫叶落在水面感清幽\n这一切在我的画中变成初秋\n回到一个人的画房\n站在一个人的走廊\n如果你能站在我身旁\n那我的画也不再平常')
+('a359b67185', '2021-12-08 15:38:52', '                   诉 说\n秋叶赶在冬季来临前凋落，而我选择分开以后去诉说。\n那时候的我们没有想太多，无非人生很短不愿被错过。')
+('a1442ab870', '2021-12-09 15:37:18', '怀  念\n记得那天，说了再见，泪已湿两边。\n模糊视线，你的背面，只剩下怀念。\n我多么想回到从前，回到我们相遇那天，')
+('31b0a080b9', '2021-12-09 16:11:55', '以前我总把爱情看的太轻\n像是块冰过的还行尝试方式交由命运来定\n少了耐性感情待定态度摆明像得了怪病\n直到看清你爱的干净清澈的就像夜空中的繁星\n有了期待迫不及待突如其来的你无可替代\n将困难击败你的依赖爱情的乞丐站上了戏台\n沉溺的爱不管几载我的身旁只有你在\n和你度过每一秒度过每一个礼拜')
+('439bd20db2', '2021-12-09 19:43:44', '待风轻云缓 此生无憾\n让我握着妳手 一同书写自传\nWhoa日暮 润绿掀青澜\n我会独自划着小船\n从河畔 躺至妳的枕畔')
+('4236012879', '2021-12-09 20:45:30', '曾拥有的画面\n又斑驳了几年\n嘲笑我还深爱着吧\n只要你还在意从前\n如果爱情是种疾病\n如果时间能做药引\n如果时间能让我清醒')
+现有精选微词 15首.
+> 没有需要下架的微词, 请明天继续检查!
+Email was triggered for: Always
+Sending email for trigger: Always
+Sending email to: xiyuan.huhu@gmail.com
+Connection error sending email, retrying once more in 10 seconds...
+Connection error sending email, retrying once more in 10 seconds...
+Failed after second try sending email
+Finished: SUCCESS
